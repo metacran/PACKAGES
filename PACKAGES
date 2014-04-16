@@ -2097,6 +2097,14 @@ Version: 0.2.3
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: BEQI2
+Version: 1.0-0
+Depends: R (>= 3.0.2), methods, tcltk
+Imports: knitr, markdown, RJSONIO, xtable, plyr, reshape2
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: ber
 Version: 4.0
 Depends: MASS
@@ -3868,8 +3876,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cgam
-Version: 1.0
-Depends: coneproj(>= 1.2), R(>= 2.15.2)
+Version: 1.1
+Depends: coneproj(>= 1.3), R(>= 3.0.0)
 Suggests: stats, MASS, graphics, grDevices, utils
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -9051,7 +9059,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: fanplot
-Version: 3.1
+Version: 3.2
 Depends: R(>= 2.15.0)
 License: GPL-2
 NeedsCompilation: no
@@ -18554,7 +18562,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ModelMap
-Version: 3.0.14
+Version: 3.0.15
 Depends: R (>= 2.13.0), randomForest, raster, gbm, rgdal
 Imports: fields,HandTill2001,PresenceAbsence
 License: Unlimited
@@ -23189,7 +23197,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PopGenome
-Version: 2.0.5
+Version: 2.0.6
 Depends: R (>= 2.14.2),ff
 Imports: methods
 Suggests: parallel, bigmemory, BASIX, WhopGenome
@@ -25514,7 +25522,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp11
-Version: 3.1.0
+Version: 3.1.0.1
 Depends: R (>= 3.1.0)
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -29137,9 +29145,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: scidb
-Version: 1.1-1
-Depends: R (>= 2.15.0), methods
-Imports: Matrix, utils, stats, iterators, RCurl
+Version: 1.1-2
+Depends: R (>= 3.0.0), methods
+Imports: Matrix, utils, stats, iterators, RCurl, zoo, graphics
 License: AGPL-3
 NeedsCompilation: yes
 
@@ -34585,7 +34593,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VAR.etp
-Version: 0.1
+Version: 0.2
 License: GPL-2
 NeedsCompilation: no
 
