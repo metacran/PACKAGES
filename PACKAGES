@@ -2285,6 +2285,14 @@ LinkingTo: Rcpp
 License: GPL
 NeedsCompilation: yes
 
+Package: bigalgebra
+Version: 0.8.4
+Depends: bigmemory (>= 4.0.0)
+Imports: methods
+LinkingTo: bigmemory, BH
+License: LGPL-3 | Apache License 2.0
+NeedsCompilation: yes
+
 Package: biganalytics
 Version: 1.1.1
 Depends: methods, stats, utils, bigmemory (>= 4.0.0)
@@ -7835,7 +7843,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: effsize
-Version: 0.4.1
+Version: 0.5
 License: GPL-2
 NeedsCompilation: no
 
@@ -9356,7 +9364,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: fdrtool
-Version: 1.2.11
+Version: 1.2.12
 Depends: R (>= 2.15.1)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -10865,7 +10873,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gdsfmt
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 2.14.0)
 Imports: methods, parallel
 Suggests: RUnit
@@ -10995,9 +11003,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GeneNet
-Version: 1.2.8
-Depends: R (>= 2.15.1), corpcor (>= 1.6.6), longitudinal (>= 1.1.8),
-        fdrtool (>= 1.2.11), igraph (>= 0.6)
+Version: 1.2.9
+Depends: R (>= 2.15.1), corpcor (>= 1.6.6), longitudinal (>= 1.1.9),
+        fdrtool (>= 1.2.12), igraph (>= 0.6)
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -11152,7 +11160,7 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
 Package: geomorph
-Version: 1.1-6
+Version: 2.0
 Depends: R (>= 2.10), rgl
 Imports: jpeg, calibrate, vegan, ape, geiger
 License: GPL (>= 2)
@@ -11297,7 +11305,7 @@ License: CC BY-NC-SA 3.0
 NeedsCompilation: no
 
 Package: GEVcdn
-Version: 1.1.2
+Version: 1.1.3
 Depends: VGAM
 Suggests: boot
 License: GPL-2
@@ -13014,6 +13022,11 @@ Depends: spatstat, ks
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: HiLMM
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: hint
 Version: 0.1-1
 License: GPL (>= 2)
@@ -13976,8 +13989,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: INLABMA
-Version: 0.1-3
-Depends: R(>= 2.15.0), spdep, parallel
+Version: 0.1-4
+Depends: R(>= 2.15.0), parallel
+Imports: Matrix, spdep
 Suggests: INLA
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -16669,7 +16683,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAPA
-Version: 1.2
+Version: 1.3
 Depends: forecast (>= 5.3), miscTools, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23680,7 +23694,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PropCIs
-Version: 0.2-4
+Version: 0.2-5
 License: GPL
 NeedsCompilation: no
 
@@ -26574,7 +26588,7 @@ License: BSD
 NeedsCompilation: yes
 
 Package: RGIFT
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 2.10.0)
 Suggests: foreign
 License: GPL (>= 2)
@@ -26682,6 +26696,14 @@ NeedsCompilation: no
 Package: Rhh
 Version: 1.0.2
 License: GPL-3
+NeedsCompilation: no
+
+Package: RHive
+Version: 2.0-0.0
+Depends: R (>= 2.13.0), rJava (>= 0.9-0)
+Suggests: RUnit
+License: Apache License (== 2.0)
+OS_type: unix
 NeedsCompilation: no
 
 Package: RHmm
@@ -29128,8 +29150,8 @@ License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
 Package: scio
-Version: 0.4.1
-Suggests: clime, lorec
+Version: 0.6.1
+Suggests: clime, lorec, QUIC
 License: GPL-2
 NeedsCompilation: yes
 
@@ -30065,7 +30087,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: simboot
-Version: 0.2-4
+Version: 0.2-5
 Depends: boot, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30280,10 +30302,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SIS
-Version: 0.6
-Depends: survival, R (>= 2.0)
+Version: 0.7
+Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: sisus
 Version: 3.9-12
@@ -31805,9 +31827,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ssym
-Version: 1.1
+Version: 1.2
 Depends: GIGrvg, numDeriv, gsl, normalp
-Suggests: NISTnls
+Suggests: NISTnls, sn
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -32666,7 +32688,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sweSCB
-Version: 0.3.3
+Version: 0.3.4
 Imports: data.table, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2
 License: AGPL-3
