@@ -1274,6 +1274,12 @@ Depends: R (>= 2.10), proto, cairoDevice, gWidgetsRGtk2, partitions
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ATmet
+Version: 1.2
+Depends: R (>= 2.7.0), DiceDesign, lhs, metRology, msm, sensitivity
+License: GPL-3
+NeedsCompilation: no
+
 Package: AtmRay
 Version: 1.31
 Suggests: RSEIS
