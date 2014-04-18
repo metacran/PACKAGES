@@ -1940,8 +1940,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Bclim
-Version: 2.2
-Depends: mclust, hdrcde, statmod, MASS
+Version: 2.3.1
+Depends: MASS, mclust
+Imports: hdrcde, statmod
 Suggests: Bchron, doMC, foreach
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -14698,7 +14699,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.6
+Version: 0.9.7
 Depends: methods
 Suggests: testthat, knitr, reshape2, httr
 License: Apache License 2.0
@@ -26058,7 +26059,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: regRSM
-Version: 0.3
+Version: 0.4
 Depends: R (>= 3.0.0)
 Suggests: Rmpi, doParallel
 License: LGPL-2 | LGPL-3 | GPL-2 | GPL-3
@@ -31392,7 +31393,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: spcr
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
