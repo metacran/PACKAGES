@@ -11181,7 +11181,7 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
 Package: geomorph
-Version: 2.0
+Version: 2.0.1
 Depends: R (>= 2.10), rgl
 Imports: jpeg, calibrate, vegan, ape, geiger
 License: GPL (>= 2)
@@ -24175,10 +24175,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: QCA3
-Version: 0.0-5
-Imports: lpSolve
-Suggests: venneuler
-License: BSD
+Version: 0.0-6
+Imports: lpSolveAPI
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: QCAGUI
@@ -24429,6 +24428,12 @@ Package: quantchem
 Version: 0.13
 Depends: R (>= 2.0), MASS, outliers
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: QuantifQuantile
+Version: 0.1
+Depends: rgl
+License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: quantmod
@@ -31880,8 +31885,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: st
-Version: 1.2.1
-Depends: R (>= 2.15.1), sda (>= 1.3.1), fdrtool (>= 1.2.10)
+Version: 1.2.2
+Depends: R (>= 2.15.1), sda (>= 1.3.3), fdrtool (>= 1.2.12)
 Suggests: limma, samr
 License: GPL (>= 3)
 NeedsCompilation: no
