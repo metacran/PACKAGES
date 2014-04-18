@@ -6364,6 +6364,12 @@ Version: 0.9.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: Density.T.HoldOut
+Version: 1.02
+Imports: histogram
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: denstrip
 Version: 1.5.3
 Depends: R (>= 2.15)
@@ -25107,7 +25113,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: Rbitcoin
-Version: 0.8.5
+Version: 0.9
 Depends: R (>= 2.10), data.table
 Imports: RJSONIO, RCurl, digest
 License: MIT + file LICENSE
@@ -29295,9 +29301,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sda
-Version: 1.3.2
+Version: 1.3.3
 Depends: R (>= 2.15.1), entropy (>= 1.2.0), corpcor (>= 1.6.6), fdrtool
         (>= 1.2.11)
+Suggests: crossval
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -35702,7 +35709,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yuima
-Version: 1.0.2
+Version: 1.0.9
 Depends: methods, zoo, stats4, utils, expm
 Suggests: cubature, mvtnorm
 License: GPL-2
