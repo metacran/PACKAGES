@@ -3499,8 +3499,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: care
-Version: 1.1.3
+Version: 1.1.4
 Depends: R (>= 2.15.1), corpcor (>= 1.6.6)
+Suggests: crossval
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -10202,8 +10203,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: freestats
-Version: 0.0.1
-Depends: ggplot2 (>= 0.9.3)
+Version: 0.0.2
 Imports: MASS, mvtnorm
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -28268,7 +28268,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rsm
-Version: 2.05
+Version: 2.06
 Suggests: Vdgraph, conf.design, DoE.base, FrF2
 License: GPL-2
 NeedsCompilation: no
@@ -28664,6 +28664,13 @@ Depends: R (>= 2.14)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: rWBclimate
+Version: 0.1.3
+Imports: ggplot2, httr, plyr, rgdal, jsonlite, reshape2, sp
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: RWeather
 Version: 0.4
 Depends: R (>= 2.11.0), XML
@@ -28671,8 +28678,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RWebLogo
-Version: 1.0.0
-Imports: raster, jpeg
+Version: 1.0.1
+Imports: raster, jpeg, findpython
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
