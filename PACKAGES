@@ -14195,8 +14195,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: investr
-Version: 1.0
-Suggests: boot, car, RColorBrewer
+Version: 1.0.1
+Depends: graphics, stats
+Suggests: boot, car, lme4, nlme, RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16878,9 +16879,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markovchain
-Version: 0.0.8
+Version: 0.0.9
 Depends: R (>= 2.14), methods
-Imports: igraph, Matrix, matlab, expm, stats4
+Imports: igraph, Matrix, matlab, expm, stats4, parallel
 License: GPL-2
 NeedsCompilation: no
 
@@ -24931,6 +24932,11 @@ Suggests: BSgenome.Hsapiens.UCSC.hg19
 License: GPL-3
 NeedsCompilation: no
 
+Package: RApiSerialize
+Version: 0.1.0
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: RAppArmor
 Version: 1.0.1
 Imports: parallel, tools, methods
@@ -28460,7 +28466,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RTextureMetrics
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
