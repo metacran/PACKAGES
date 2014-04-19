@@ -17487,7 +17487,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 3.2-1
+Version: 3.5-0
 Depends: R (>= 2.9.1), grid
 Suggests: metafor
 License: GPL (>= 2)
@@ -19205,7 +19205,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multicon
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), psych, abind, foreach
 Imports: mvtnorm, sciplot,
 License: GPL-2
