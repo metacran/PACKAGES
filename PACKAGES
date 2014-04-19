@@ -20117,7 +20117,8 @@ License: LGPL-3
 NeedsCompilation: yes
 
 Package: NLP
-Version: 0.1-1
+Version: 0.1-2
+Imports: utils
 License: GPL-2
 NeedsCompilation: no
 
@@ -20882,8 +20883,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: openNLP
-Version: 0.2-2
-Imports: NLP (>= 0.1-0), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
+Version: 0.2-3
+Imports: NLP (>= 0.1-2), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
 License: GPL-3
 NeedsCompilation: no
 
@@ -29764,7 +29765,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seqminer
-Version: 2.7
+Version: 3.0
 Depends: stringr
 Suggests: testthat
 License: GPL | file LICENSE
