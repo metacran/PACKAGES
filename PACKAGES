@@ -10864,7 +10864,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: GDAtools
-Version: 1.0
+Version: 1.1
 Imports: FactoMineR
 Suggests: cluster, WeightedCluster
 License: GPL (>= 2)
