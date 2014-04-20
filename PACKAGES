@@ -15047,8 +15047,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: kolmim
-Version: 0.1
-License: LGPL-3
+Version: 0.2
+License: GPL-2
 NeedsCompilation: yes
 
 Package: KoNLP
@@ -30368,7 +30368,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SIS
-Version: 0.7
+Version: 0.7-1
 Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
 NeedsCompilation: no
