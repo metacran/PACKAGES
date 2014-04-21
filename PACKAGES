@@ -3599,7 +3599,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: caTools
-Version: 1.16
+Version: 1.17
 Depends: R (>= 2.2.0)
 Imports: bitops
 Suggests: MASS, rpart
@@ -15225,7 +15225,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: LaF
-Version: 0.6
+Version: 0.6.1
 Depends: methods
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
@@ -20909,6 +20909,13 @@ Imports: rJava
 Suggests: ggplot2 (>= 0.9.0), sp, colorspace, maptools
 License: GPL-2 | file LICENCE
 NeedsCompilation: no
+
+Package: openxlsx
+Version: 1.0.3
+Imports: methods, Rcpp
+LinkingTo: Rcpp
+License: GPL-3
+NeedsCompilation: yes
 
 Package: operators
 Version: 0.1-6
