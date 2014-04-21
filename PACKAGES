@@ -12291,6 +12291,12 @@ Suggests: impute
 License: LGPL
 NeedsCompilation: no
 
+Package: GSAgm
+Version: 1.0
+Depends: survival, edgeR
+License: GPL-2
+NeedsCompilation: no
+
 Package: gsalib
 Version: 2.0
 License: BSD
@@ -13683,7 +13689,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ibs
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
