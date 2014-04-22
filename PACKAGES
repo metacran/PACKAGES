@@ -1794,10 +1794,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: BayesX
-Version: 0.2-7
+Version: 0.2-8
 Depends: shapefiles
 Imports: sp, maptools, colorspace (>= 0.97), coda, splines
-Suggests: spdep, akima, gpclib
+Suggests: spdep, akima, gpclib, rgeos
 License: GPL-2
 NeedsCompilation: no
 
@@ -2047,7 +2047,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bear
-Version: 2.6.2
+Version: 2.6.3
 Depends: R (>= 2.12.0), reshape, nlme, gdata
 Imports: ICSNP, sciplot, plotrix, ggplot2, png, grid
 Suggests: plyr
@@ -5406,6 +5406,12 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: crackR
+Version: 0.3-9
+Depends: Hmisc (>= 3.14-3), evd (>= 2.3-0)
+License: GPL-3
+NeedsCompilation: no
+
 Package: cramer
 Version: 0.8-1
 Depends: R (>= 0.65), boot
@@ -7568,7 +7574,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dynamicTreeCut
-Version: 1.60-1
+Version: 1.62
 Depends: R (>= 2.3.0), stats
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -13059,12 +13065,6 @@ Version: 0.1-1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: hints
-Version: 1.0.1-1
-Suggests: xtable
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: HiPLARM
 Version: 0.1
 Depends: R (>= 2.14), Matrix, methods
@@ -13225,13 +13225,6 @@ Package: hoardeR
 Version: 0.0-1
 Depends: R (>= 3.0.2), httr (>= 0.2), XML (>= 3.98-1.1)
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: hof
-Version: 0.1
-Depends: R (>= 2.12.0)
-Imports: plyr
-License: GPL-2
 NeedsCompilation: no
 
 Package: holdem
@@ -17455,9 +17448,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: memoise
-Version: 0.1
+Version: 0.2.1
 Imports: digest
-License: MIT
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: MEMSS
@@ -19399,12 +19392,6 @@ Depends: R (>= 2.11.1), stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: mutatr
-Version: 0.1.2
-Imports: digest
-License: GPL
-NeedsCompilation: no
-
 Package: mutoss
 Version: 0.1-8
 Depends: R (>= 2.10.0), mvtnorm
@@ -20944,13 +20931,13 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: opm
-Version: 1.0.24
+Version: 1.1.0
 Depends: R (>= 3.0.0)
 Imports: methods, lattice, parallel, boot, hwriter, plotrix,
-        Ckmeans.1d.dp, pkgutils (>= 0.5-0), yaml (>= 2.1.7), splines,
-        mgcv, grofit (>= 1.1), rjson (>= 0.2.12), nlme
-Suggests: optparse, gplots, opmdata (>= 0.4-0), testthat, multcomp,
-        KEGGREST, pathview, randomForest
+        Ckmeans.1d.dp, pkgutils (>= 0.6.0), yaml (>= 2.1.7), splines,
+        mgcv, grofit (>= 1.1), rjson (>= 0.2.12), nlme, DBI
+Suggests: optparse, gplots, opmdata (>= 0.4.0), testthat, multcomp,
+        KEGGREST, pathview, mboostDevel (>= 2.3.0), gridExtra
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23130,7 +23117,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: polyapost
-Version: 1.1-5
+Version: 1.1-6
 Imports: boot
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -30346,13 +30333,6 @@ Depends: R (>= 1.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: sinartra
-Version: 0.1.1
-Imports: mutatr, stringr, brew, rjson, evaluate (>= 0.3)
-Suggests: testthat
-License: GPL-2
-NeedsCompilation: no
-
 Package: SINGLE
 Version: 1.2
 Depends: flsa, igraph, dse, Matrix, R (>= 2.10.1)
@@ -34584,10 +34564,11 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: userfriendlyscience
-Version: 0.1.1
+Version: 0.1-2
 Depends: ggplot2
-Imports: lavaan, psych, GGally, pwr, plyr, grid, fBasics, e1071, ltm,
-        MBESS, knitr, xtable, foreign
+Imports: plyr, psych, pwr, fBasics, e1071, ltm, MBESS, foreign, knitr,
+        xtable, GGally, grid, lavaan
+Suggests: XLConnect
 License: GPL (>= 2)
 NeedsCompilation: no
 
