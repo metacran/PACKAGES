@@ -4672,8 +4672,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CollocInfer
-Version: 0.1.7
-Depends: R (>= 2.4.0), fda, MASS, deSolve, Matrix, spam
+Version: 1.0.0
+Depends: R (>= 2.4.0), fda, deSolve
+Imports: MASS, Matrix, spam
 Suggests: subplex, trust, maxLik, pomp, SparseM
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7145,10 +7146,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dnet
-Version: 1.0.0
-Depends: R (>= 3.0.2), igraph, supraHex
-Imports: ape, graph, Rgraphviz, Matrix
-Suggests: affy, limma
+Version: 1.0.1
+Depends: R (>= 3.1.0), igraph, supraHex
+Imports: graph, Rgraphviz, Matrix, Biobase
+Suggests: limma, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -13866,7 +13867,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: igraph
-Version: 0.7.0
+Version: 0.7.1
 Depends: methods
 Imports: Matrix
 Suggests: igraphdata, stats4, rgl, tcltk, graph, ape
@@ -19159,7 +19160,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: multcomp
-Version: 1.3-2
+Version: 1.3-3
 Depends: stats, graphics, mvtnorm (>= 0.8-0), survival (>= 2.35-7),
         TH.data (>= 1.0-2)
 Imports: sandwich (>= 2.3-0)
