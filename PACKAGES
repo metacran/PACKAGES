@@ -592,7 +592,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: alm
-Version: 0.1.4
+Version: 0.1.6
 Imports: ggplot2, RCurl, plyr, stringr, reshape, reshape2, httr, grid,
         RJSONIO, lubridate
 Suggests: testthat, roxygen2, rplos, knitr, jsonlite
@@ -6892,8 +6892,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Distance
-Version: 0.8.0
-Depends: R (>= 2.15.0), mrds, optimx, Rsolnp
+Version: 0.9
+Depends: R (>= 3.0), mrds
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34912,8 +34912,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VineCopula
-Version: 1.2
-Depends: R (>= 2.11.0), MASS, mvtnorm, igraph
+Version: 1.3
+Depends: R (>= 2.11.0)
+Imports: MASS, mvtnorm, igraph, methods, copula
 Suggests: CDVine, TSP, ADGofTest
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -35041,8 +35042,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vrtest
-Version: 0.95
-License: GPL (>= 2)
+Version: 0.96
+License: GPL-2
 NeedsCompilation: no
 
 Package: vscc
