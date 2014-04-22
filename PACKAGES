@@ -17821,17 +17821,17 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: micEcon
-Version: 0.6-10
-Depends: R (>= 2.4.0), miscTools (>= 0.6-1)
+Version: 0.6-12
+Depends: R (>= 2.4.0)
+Imports: miscTools (>= 0.6-1)
 Suggests: plm (>= 1.1-0), Ecdat (>= 0.1-5), systemfit (>= 1.0-0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: micEconAids
-Version: 0.6-12
-Depends: R (>= 2.14.0), systemfit (>= 1.1-12), miscTools (>= 0.6-0),
-        lmtest, micEcon (>= 0.6-0)
-Imports: stats
+Version: 0.6-14
+Depends: R (>= 2.14.0), lmtest, micEcon (>= 0.6-0)
+Imports: stats, systemfit (>= 1.1-12), miscTools (>= 0.6-0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -24632,11 +24632,10 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: R2STATS
-Version: 0.68-35
-Depends: R (>= 2.14.0), proto
+Version: 0.68-38
+Depends: R (>= 2.14.0), proto, Matrix
 Imports: grDevices, lattice, lme4, cairoDevice, gWidgets,
-        gWidgetsRGtk2, RGtk2Extras, Matrix, MASS, utils, latticeExtra,
-        statmod
+        gWidgetsRGtk2, RGtk2Extras, MASS, utils, latticeExtra, statmod
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29079,12 +29078,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: scales
-Version: 0.2.3
-Depends: R (>= 2.12), methods
-Imports: RColorBrewer, stringr, dichromat, munsell (>= 0.2), plyr (>=
-        1.2), labeling
-Suggests: testthat
-License: MIT
+Version: 0.2.4
+Depends: R (>= 2.13)
+Imports: RColorBrewer, dichromat, munsell (>= 0.2), plyr (>= 1.2),
+        labeling, methods
+Suggests: testthat (>= 0.8)
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: scalreg
