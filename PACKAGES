@@ -3768,7 +3768,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CDM
-Version: 3.1-14
+Version: 3.2-6
 Depends: R (>= 2.15.0), mvtnorm
 Imports: MASS, psych, polycor, sfsmisc, Rcpp (>= 0.11)
 LinkingTo: Rcpp, RcppArmadillo
@@ -17906,7 +17906,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: MicSim
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.0.1), chron, snowfall, rlecuyer
 License: GPL-2
 NeedsCompilation: no
@@ -21364,8 +21364,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: packHV
-Version: 1.7
-Depends: WriteXLS (>= 2.3.0), survival
+Version: 1.8
+Depends: survival
+Imports: WriteXLS (>= 2.3.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -30790,7 +30791,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SNPassoc
-Version: 1.9-1
+Version: 1.9-2
 Depends: R (>= 3.0.0), haplo.stats, survival, mvtnorm, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
