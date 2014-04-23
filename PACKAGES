@@ -12006,6 +12006,12 @@ Suggests: grid, MASS
 License: GPL-2
 NeedsCompilation: No
 
+Package: GPLTR
+Version: 0.85
+Depends: rpart , parallel
+License: GPL (>= 2.0)
+NeedsCompilation: no
+
 Package: gpmap
 Version: 0.1.1
 Depends: isotone, plyr, ggplot2, foreach
@@ -20323,6 +20329,13 @@ Package: NormalGamma
 Version: 1.1
 Depends: optimx , histogram
 License: GPL-2
+NeedsCompilation: no
+
+Package: NormalLaplace
+Version: 0.2-0
+Depends: R (>= 2.3.0), DistributionUtils, GeneralizedHyperbolic
+Suggests: RUnit
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: normalp
