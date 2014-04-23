@@ -1860,7 +1860,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BBmisc
-Version: 1.5
+Version: 1.6
+Imports: stats
 Suggests: testthat, microbenchmark
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -7446,9 +7447,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: dsm
-Version: 2.1.3
-Depends: R (>= 2.10.0), mgcv (>= 1.7),nlme,ggplot2,mrds
-Suggests: maptools,Distance
+Version: 2.2.3
+Depends: R (>= 3.0), mgcv (>= 1.7), mrds
+Imports: nlme, ggplot2, statmod
+Suggests: Distance
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17443,10 +17445,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meifly
-Version: 0.2
+Version: 0.3
 Imports: plyr, leaps, MASS,
-Suggests: rggobi
-License: GPL
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: mem
@@ -26029,6 +26030,13 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: REdaS
+Version: 0.9.0
+Depends: R (>= 3.0.0), grid
+Suggests: car, GPArotation, mclust, psych, UsingR, vcd
+License: GPL-2
+NeedsCompilation: no
+
 Package: REEMtree
 Version: 0.90.3
 Depends: nlme, rpart, methods
@@ -27019,7 +27027,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: rivervis
-Version: 0.38.2
+Version: 0.38.3
 Imports: graphics
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33798,12 +33806,10 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: tourr
-Version: 0.5.2
+Version: 0.5.3
 Depends: R (>= 2.14)
-Imports: methods
-Suggests: rggobi, TeachingDemos, ash, testthat, colorspace, ggplot2,
-        reshape2
-License: MIT
+Suggests: TeachingDemos, ash, testthat, colorspace, ggplot2, reshape2
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: tourrGui
