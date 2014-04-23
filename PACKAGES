@@ -17949,6 +17949,13 @@ Depends: tcltk, tkrplot, mi (>= 0.9-06), foreign
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MIICD
+Version: 1.0
+Depends: mstate , prodlim, cmprsk, riskRegression
+Imports: MASS , survival
+License: GPL-3
+NeedsCompilation: no
+
 Package: MImix
 Version: 1.0
 Suggests: mitools
@@ -22434,6 +22441,12 @@ Imports: grid, RColorBrewer
 License: GPL-2
 NeedsCompilation: no
 
+Package: phenability
+Version: 1.0
+Depends: calibrate, R (>= 2.12.0)
+License: GPL-3
+NeedsCompilation: no
+
 Package: phenex
 Version: 1.0-7
 Depends: R (>= 3.0), methods
@@ -26399,11 +26412,12 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: reshape2
-Version: 1.2.2
-Imports: plyr (>= 1.5), stringr, lattice
-Suggests: testthat
-License: MIT
-NeedsCompilation: no
+Version: 1.4
+Imports: plyr (>= 1.8.1), stringr, Rcpp
+LinkingTo: Rcpp
+Suggests: testthat (>= 0.8.0), lattice
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: reshapeGUI
 Version: 0.1.0
@@ -32974,7 +32988,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tableone
-Version: 0.4.0
+Version: 0.5.0
 Imports: e1071, gmodels
 Suggests: survival
 License: GPL-2
