@@ -8617,7 +8617,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EvCombR
-Version: 0.1-1
+Version: 0.1-2
 Depends: methods
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -17966,7 +17966,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MIICD
-Version: 1.0
+Version: 1.1
 Depends: mstate , prodlim, cmprsk, riskRegression
 Imports: MASS , survival
 License: GPL-3
@@ -19508,7 +19508,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvMORPH
-Version: 1.0.1
+Version: 1.0.2
 Depends: R(>= 2.9.1), phytools, ape, corpcor, subplex
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -27655,7 +27655,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustbase
-Version: 0.90-2
+Version: 0.91-0
 Depends: R (>= 2.15.1)
 Imports: stats, graphics, utils, methods, DEoptimR
 Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust,
@@ -32278,7 +32278,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: strap
-Version: 1.0
+Version: 1.1
 Depends: ape,geoscale
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34929,7 +34929,7 @@ License: MPL-1.1
 NeedsCompilation: no
 
 Package: verification
-Version: 1.37
+Version: 1.38
 Depends: R (>= 2.10), methods, fields, boot, CircStats, MASS, dtw
 License: GPL (>= 2)
 NeedsCompilation: no
