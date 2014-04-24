@@ -9221,7 +9221,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FastPCS
-Version: 0.0.8
+Version: 0.0.9
 Depends: matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
