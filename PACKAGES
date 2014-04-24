@@ -1035,7 +1035,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: arm
-Version: 1.6-10
+Version: 1.7-02
 Depends: R (>= 3.0.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
 Imports: abind, methods, coda, nlme
 Suggests: R2WinBUGS, foreign
@@ -2459,6 +2459,12 @@ NeedsCompilation: no
 Package: binGroup
 Version: 1.1-0
 License: GPL
+NeedsCompilation: no
+
+Package: binhf
+Version: 1.0-1
+Depends: R (>= 2.10), wavethresh, adlift (>= 0.9.2)
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: binMto
