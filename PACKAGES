@@ -4374,6 +4374,14 @@ Depends: R (>= 2.0.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: clusterfly
+Version: 0.4
+Depends: rggobi
+Imports: e1071, reshape2, plyr, RGtk2
+Suggests: som, mclust, kohonen, ggplot2
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: clustergas
 Version: 1.0
 Depends: cluster
@@ -17957,6 +17965,11 @@ Imports: MASS , survival
 License: GPL-3
 NeedsCompilation: no
 
+Package: MILC
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: MImix
 Version: 1.0
 Suggests: mitools
@@ -23220,12 +23233,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: polywog
-Version: 0.3-0
-Depends: glmnet (>= 1.5.1), ncvreg, Formula, Matrix, miscTools
-Imports: stringr, games, car, matrixStats
-Suggests: foreach, lattice, rgl
+Version: 0.4-0
+Depends: miscTools (>= 0.6-12)
+Imports: foreach, Formula, glmnet (>= 1.9-5), iterators, Matrix, ncvreg
+        (>= 2.4-0), Rcpp (>= 0.11.0), stringr
+LinkingTo: Rcpp
+Suggests: car, lattice, rgl
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: pom
 Version: 1.1
@@ -24256,9 +24271,16 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapDictionaries
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 3.0.0)
 Suggests: qdap
+License: GPL-2
+NeedsCompilation: no
+
+Package: qdapTools
+Version: 0.0.2
+Depends: R (>= 3.0.0)
+Imports: chron, RCurl
 License: GPL-2
 NeedsCompilation: no
 
@@ -26622,15 +26644,15 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.6.0
+Version: 0.6.2
 Imports: XML, RCurl (>= 1.6), plyr, ggplot2, maps, httr, maptools,
         rgdal, rgeos, RJSONIO, data.table, stringr, assertthat
-Suggests: roxygen2, testthat, jsonlite
+Suggests: roxygen2, testthat, jsonlite, knitr
 License: CC0
 NeedsCompilation: no
 
 Package: Rgbp
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 2.2.0), sn (>= 0.4-18)
 Suggests: mnormt
 License: GPL-2
@@ -26688,11 +26710,11 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rggobi
-Version: 2.1.19
+Version: 2.1.20
 Depends: R (>= 2.5.1)
-Imports: RGtk2, utils, methods
-Suggests: reshape, graph, nlme
-License: BSD
+Imports: RGtk2, utils
+Suggests: reshape, nlme
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: RGIFT
@@ -29013,6 +29035,16 @@ Package: SAMURAI
 Version: 1.2.1
 Depends: R (>= 3.0.0), metafor
 License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: sand
+Version: 1.0.2
+Depends: igraph, igraphdata
+Suggests: GO.db, GOstats, ROCR, ape, car, eigenmodel, ergm, fdrtool,
+        ggplot2, huge, kernlab, lattice, mixer, network,
+        networkDynamic, networkTomography, ngspatial, org.Sc.sgd.db,
+        sna, vioplot
+License: GPL-3
 NeedsCompilation: no
 
 Package: sandwich
@@ -33368,7 +33400,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TFMPvalue
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 3.0.1)
 Imports: Rcpp(>= 0.11.1)
 LinkingTo: Rcpp
