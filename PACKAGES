@@ -309,9 +309,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitat
-Version: 1.8.12
-Depends: R (>= 2.10.0), ade4, tkrplot, shapefiles
-Suggests: gpclib, sp, spatstat, MASS, CircStats
+Version: 1.8.13
+Depends: R (>= 2.10.0), ade4, tkrplot, shapefiles, sp
+Suggests: spatstat, MASS, CircStats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
