@@ -5518,9 +5518,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: crossval
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.15.1)
-Suggests: MASS
+Suggests: MASS, sda, care, binda
 License: GPL (>= 3)
 NeedsCompilation: no
 
