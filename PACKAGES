@@ -7322,12 +7322,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: dplR
-Version: 1.5.9
+Version: 1.6.0
 Depends: R (>= 2.15.0)
 Imports: gmp (>= 0.5-2), graphics, grDevices, grid, stats, utils,
         digest (>= 0.2.3), lattice (>= 0.13-6), stringr (>= 0.4), XML
         (>= 2.1-0)
-Suggests: foreach, iterators, RUnit (>= 0.4.25)
+Suggests: foreach, forecast, iterators, RUnit (>= 0.4.25), waveslim
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -14393,6 +14393,12 @@ Imports: qgraph, Matrix, glmnet
 Suggests: IsingSampler
 License: GPL-2
 NeedsCompilation: no
+
+Package: isingLenzMC
+Version: 0.1.1
+Depends: R (>= 3.0)
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: IsingSampler
 Version: 0.1.1
@@ -32698,7 +32704,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: survsim
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 2.13.1), eha, statmod
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33422,7 +33428,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TFMPvalue
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 3.0.1)
 Imports: Rcpp(>= 0.11.1)
 LinkingTo: Rcpp
