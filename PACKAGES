@@ -309,7 +309,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitat
-Version: 1.8.13
+Version: 1.8.14
 Depends: R (>= 2.10.0), ade4, tkrplot, shapefiles, sp
 Suggests: spatstat, MASS, CircStats
 License: GPL (>= 2)
@@ -7613,7 +7613,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DynClust
-Version: 3.12
+Version: 3.13
 Depends: R (>= 2.10), parallel
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -9897,7 +9897,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: flux
-Version: 0.2-2
+Version: 0.3-0
 Depends: R (>= 2.12.0), caTools
 License: GPL-2
 NeedsCompilation: no
@@ -19625,7 +19625,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvtnorm
-Version: 0.9-9999
+Version: 0.9-99991
 Depends: R(>= 1.9.0)
 Imports: stats
 License: GPL-2
@@ -21073,10 +21073,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: optiRum
-Version: 0.32
+Version: 0.33
 Depends: R (>= 3.0.2)
+Imports: data.table
 Suggests: testthat, grid, ggplot2, ggthemes, knitr, AUC, scales,
-        stringr, plyr
+        stringr, plyr, XML
 License: GPL-3
 NeedsCompilation: no
 
@@ -28506,7 +28507,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RSvgDevice
-Version: 0.6.4.3
+Version: 0.6.4.4
 Depends: R (>= 2.6.0)
 License: GPL (>= 2)
 OS_type: unix
