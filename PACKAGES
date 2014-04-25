@@ -5893,8 +5893,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DandEFA
-Version: 1.4
-Depends: R(>= 3.0.0), gplots, polycor
+Version: 1.5
+Depends: R(>= 3.1.0), gplots, polycor
 License: GPL-2
 NeedsCompilation: no
 
@@ -10537,7 +10537,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fwsim
-Version: 0.3
+Version: 0.3.1
+Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11)
 LinkingTo: Rcpp
 License: GPL-2
@@ -32871,10 +32872,10 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: swirl
-Version: 2.2.0
+Version: 2.2.5
 Depends: R (>= 3.0.2)
 Imports: stringr, testthat, httr, yaml, RCurl, digest
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: SwissAir
