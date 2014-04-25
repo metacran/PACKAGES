@@ -3995,7 +3995,7 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: chemCal
-Version: 0.1-29
+Version: 0.1-34
 Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
