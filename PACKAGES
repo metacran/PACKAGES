@@ -13128,7 +13128,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HistData
-Version: 0.7-3
+Version: 0.7-5
 Depends: R (>= 2.10)
 Suggests: gtools, KernSmooth, maps, ggplot2, proto, grid, reshape,
         plyr, lattice, jpeg, car, gplots, sp, heplots
