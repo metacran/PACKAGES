@@ -19528,7 +19528,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: MVN
-Version: 3.3
+Version: 3.4
 Depends: R (>= 2.15.0), nortest, moments, MASS
 Imports: methods
 Suggests: knitr
