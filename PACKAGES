@@ -27161,9 +27161,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RJSONIO
-Version: 1.0-3
-Depends: methods
-License: BSD
+Version: 1.2-0.1
+Imports: methods
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: RJSONLD
@@ -27381,7 +27381,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: rmngb
-Version: 0.2-1
+Version: 0.3-1
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -28799,16 +28799,16 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: RWeka
-Version: 0.4-22
+Version: 0.4-23
 Depends: R (>= 2.6.0)
-Imports: RWekajars (>= 3.7.10), rJava (>= 0.6-3), graphics, stats,
+Imports: RWekajars (>= 3.7.11), rJava (>= 0.6-3), graphics, stats,
         utils, grid
 Suggests: partykit (>= 0.8.0), mlbench, e1071
 License: GPL-2
 NeedsCompilation: no
 
 Package: RWekajars
-Version: 3.7.10-1
+Version: 3.7.11-1
 Imports: rJava (>= 0.6-3)
 License: GPL-2
 NeedsCompilation: no
