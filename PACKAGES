@@ -10949,7 +10949,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: geeM
-Version: 0.07
+Version: 0.7.1
 Depends: Matrix
 Suggests: geepack
 License: GPL (>= 2)
