@@ -4943,7 +4943,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: coneproj
-Version: 1.3
+Version: 1.4
 Depends: R(>= 3.0.2)
 Imports: Rcpp (>= 0.10.4)
 LinkingTo: RcppArmadillo, Rcpp
@@ -9801,7 +9801,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: flare
-Version: 1.2.0
+Version: 1.3.0
 Depends: R (>= 2.15.0), lattice, MASS, Matrix
 Suggests: igraph
 License: GPL-2
