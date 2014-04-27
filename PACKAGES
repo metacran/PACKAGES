@@ -15545,7 +15545,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: lctools
-Version: 0.1-1
+Version: 0.1-2
 Depends: R (>= 3.0.2), reshape (>= 0.8.4), weights (>= 0.75)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -17381,7 +17381,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: mdatools
-Version: 0.5.1
+Version: 0.5.3
 License: GPL-3
 NeedsCompilation: no
 
