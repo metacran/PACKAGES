@@ -16961,7 +16961,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MASS
-Version: 7.3-31
+Version: 7.3-32
 Priority: recommended
 Depends: R (>= 3.0.0), grDevices, graphics, stats, utils
 Suggests: lattice, nlme, nnet, survival
@@ -30474,13 +30474,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 0.43-70
+Version: 0.44-47
 Depends: R (>= 2.15.0), MASS, coda, mvtnorm
 Imports: sfsmisc, TAM, CDM, combinat, ic.infer, sm, psych, pbivnorm,
-        gtools, Rcpp (>= 0.11.0)
+        gtools, Rcpp (>= 0.11.0), qgraph
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: eRm, ltm, MCMCglmm, mirt, mokken, mRm, plink, GPArotation,
-        fdrtool, lme4, difR, lavaan, semTools, MultiLCIRT
+        fdrtool, lme4, difR, lavaan, semTools, MultiLCIRT, rcppbugs,
+        IsingFit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
