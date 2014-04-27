@@ -3014,7 +3014,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bootstrap
-Version: 2012.04-1
+Version: 2014.4
 Depends: stats, R (>= 2.10.0)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -24564,9 +24564,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: quantspec
-Version: 0.2
-Depends: R (>= 2.14.0), quantreg, rje, tcltk, zoo
-Suggests: FinTS
+Version: 1.0-0
+Depends: R (>= 3.0.0), stats4
+Imports: methods, graphics, quantreg, testthat, abind, zoo, rje,
+        snowfall
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29519,6 +29520,12 @@ Suggests: adehabitat, raster, sp
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: sdmvspecies
+Version: 0.1
+Depends: raster, parallel, ggplot2
+License: GPL
+NeedsCompilation: no
+
 Package: sdnet
 Version: 2.01.3
 Depends: R (>= 3.0.2)
@@ -30474,7 +30481,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 0.44-47
+Version: 0.44-48
 Depends: R (>= 2.15.0), MASS, coda, mvtnorm
 Imports: sfsmisc, TAM, CDM, combinat, ic.infer, sm, psych, pbivnorm,
         gtools, Rcpp (>= 0.11.0), qgraph
@@ -31052,7 +31059,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: solaR
-Version: 0.37
+Version: 0.38
 Depends: R (>= 2.10), methods, lattice, latticeExtra, zoo
 Suggests: RColorBrewer, sp, raster, rasterVis
 License: GPL-3 | file LICENSE
