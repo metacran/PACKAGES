@@ -331,7 +331,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitatLT
-Version: 0.3.14
+Version: 0.3.15
 Depends: R (>= 2.10.0), sp, methods, ade4, adehabitatMA, CircStats
 Suggests: maptools, tkrplot, MASS
 License: GPL (>= 2)
@@ -808,7 +808,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: anominate
-Version: 0.3
+Version: 0.4
 Depends: wnominate, oc, pscl, MCMCpack
 License: GPL-2
 NeedsCompilation: yes
@@ -1035,7 +1035,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: arm
-Version: 1.7-02
+Version: 1.7-03
 Depends: R (>= 3.0.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
 Imports: abind, methods, coda, nlme
 Suggests: R2WinBUGS, foreign
@@ -17789,7 +17789,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MGLM
-Version: 0.0.5
+Version: 0.0.6
 Depends: R (>= 3.0.0)
 Imports: methods, stats, parallel, ggplot2, plyr, reshape2
 License: GPL (>= 2)
@@ -35443,7 +35443,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WikipediR
-Version: 0.5
+Version: 1.0.0
 Depends: httr, jsonlite, methods
 License: MIT + file LICENSE
 NeedsCompilation: no
