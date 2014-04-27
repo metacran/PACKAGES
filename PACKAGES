@@ -4041,7 +4041,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cherry
-Version: 0.3-8
+Version: 0.4-9
 Depends: methods, bitops
 Suggests: MASS, multtest
 License: GPL (>= 2)
@@ -23037,7 +23037,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plusser
-Version: 0.3-5
+Version: 0.4-0
 Depends: R (>= 3.0.2)
 Imports: RCurl, RJSONIO, lubridate, plyr
 License: GPL-3 | file LICENSE
@@ -24261,7 +24261,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: QCA3
-Version: 0.0-6
+Version: 0.0-7
 Imports: lpSolveAPI
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
