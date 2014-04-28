@@ -3475,10 +3475,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: car
-Version: 2.0-19
+Version: 2.0-20
 Depends: R (>= 2.14.0), stats, graphics
 Imports: MASS, nnet
-Suggests: alr3, boot, leaps, lme4, lmtest, nlme, quantreg, sandwich,
+Suggests: alr4, boot, leaps, lme4, lmtest, nlme, quantreg, sandwich,
         mgcv, pbkrtest (>= 0.3-2), rgl (>= 0.93.960), survival, survey
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8787,7 +8787,7 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: excursions
-Version: 1.0-20131025
+Version: 1.0-20140427
 Depends: Matrix
 Suggests: INLA
 License: GPL (>= 3)
@@ -16960,6 +16960,13 @@ Suggests: Hmisc, maps, xtable, stringr
 License: GPL-2
 NeedsCompilation: no
 
+Package: maSAE
+Version: 0.1-2
+Depends: methods
+Suggests: nlme
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: MASS
 Version: 7.3-32
 Priority: recommended
@@ -24235,8 +24242,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pxR
-Version: 0.29
-Depends: stringr
+Version: 0.40.0
+Depends: stringr, reshape2, RJSONIO, plyr
 License: GPL-3
 NeedsCompilation: no
 
