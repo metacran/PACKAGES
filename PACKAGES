@@ -7709,6 +7709,14 @@ Imports: ggplot2,scales,xtable,reshape2
 License: GPL-2
 NeedsCompilation: no
 
+Package: EasyMARK
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: MASS, stringr, rjags, coda, foreach, doParallel,random,
+        parallel
+License: GPL-2
+NeedsCompilation: no
+
 Package: easynls
 Version: 4.0
 License: GPL-2
@@ -22523,6 +22531,12 @@ Suggests: ncdf4, ncdf
 License: GPL-2
 NeedsCompilation: no
 
+Package: PHeval
+Version: 0.5
+Depends: R (>= 1.8.0), survival, graphics, splines
+License: GPL (>= 2.0)
+NeedsCompilation: no
+
 Package: phia
 Version: 0.1-5
 Depends: car, graphics, stats
@@ -23307,6 +23321,14 @@ Package: popbio
 Version: 2.4
 Depends: quadprog
 License: GPL
+NeedsCompilation: no
+
+Package: PopED
+Version: 0.1.0
+Depends: ggplot2
+Imports: MASS, mvtnorm
+Suggests: testthat, Hmisc
+License: LGPL (>= 3)
 NeedsCompilation: no
 
 Package: popgen
