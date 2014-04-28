@@ -4284,6 +4284,12 @@ Suggests: ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ClickClust
+Version: 0.1.1
+Depends: R (>= 2.14.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: clickstream
 Version: 1.1.0
 Depends: R (>= 3.0.1), methods
@@ -11421,7 +11427,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: GGEBiplotGUI
-Version: 1.0-7
+Version: 1.0-8
 Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot
         (>= 0.0-23)
 License: GPL (>= 2)
@@ -21328,7 +21334,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: outbreaker
-Version: 1.1-1
+Version: 1.1-2
 Depends: R (>= 3.0.0)
 Imports: utils, ape, igraph, adegenet, parallel
 Suggests: EpiEstim
@@ -33262,6 +33268,15 @@ Version: 1.1
 Depends: R (>= 2.15.3), mcmc, coda, survival, normalp, R.utils, BMS
 Suggests: Rsolnp
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: TcGSA
+Version: 0.9.8
+Depends: R (>= 3.1), lme4 (>= 1.0-4)
+Imports: ggplot2, GSA, multtest, reshape2, gtools, gplots, cluster,
+        stringr, splines, grid
+Suggests: doSNOW
+License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: tcltk2
