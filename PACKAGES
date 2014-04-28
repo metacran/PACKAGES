@@ -8395,7 +8395,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: epiR
-Version: 0.9-57
+Version: 0.9-58
 Depends: R (>= 3.0.0), survival
 Suggests: MASS (>= 3.1-20)
 License: GPL (>= 2)
@@ -15628,9 +15628,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: leafletR
-Version: 0.1-2
+Version: 0.2-0
 Depends: R (>= 3.0.0)
-Suggests: httr, RJSONIO
+Suggests: httr, RJSONIO, sp, rgdal
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34535,11 +34535,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: tvm
-Version: 0.1
-Depends: Rcpp (>= 0.10.6)
-LinkingTo: Rcpp
+Version: 0.2
+Imports: ggplot2, reshape2
+Suggests: testthat
 License: MIT + file LICENSE
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: twang
 Version: 1.4-0
