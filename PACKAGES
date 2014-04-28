@@ -1709,7 +1709,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bayesPop
-Version: 4.3-0
+Version: 5.0-0
 Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
 Imports: parallel, abind, plyr, wpp2012
 Suggests: rworldmap, fields, wpp2008, wpp2010
@@ -12008,8 +12008,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GPFDA
-Version: 1.1
-Depends: R (>= 3.0),data.table,fda,spam
+Version: 2.0
+Depends: R (>= 3.0),fda.usc,spam
 Imports: MASS
 License: GPL-3
 NeedsCompilation: no
@@ -33883,6 +33883,14 @@ Depends: R (>= 2.15.0), methods
 Imports: stats4, modeltools, slam, tm (>= 0.5-8.5)
 Suggests: lasso2, lattice, lda, OAIHarvester, SnowballC, XML
 License: GPL-2
+NeedsCompilation: yes
+
+Package: TopKLists
+Version: 1.0.0
+Depends: R (>= 3.0.0)
+Imports: Hmisc, grid, gplots
+Suggests: knitr, RGtk2, gWidgets, gWidgetsRGtk2
+License: LGPL-3
 NeedsCompilation: yes
 
 Package: topmodel
