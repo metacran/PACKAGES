@@ -17242,6 +17242,12 @@ Imports: randtoolbox, snow
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: mcheatmaps
+Version: 1.0.0
+Depends: gridBase, grid
+License: GPL-3
+NeedsCompilation: no
+
 Package: MChtest
 Version: 1.0-2
 Depends: stats
@@ -34665,9 +34671,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: unmarked
-Version: 0.10-3
+Version: 0.10-4
 Depends: R (>= 2.12.0), methods, reshape, lattice, Rcpp (>= 0.8.0)
-Imports: graphics, stats, utils
+Imports: graphics, stats, utils, plyr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: raster
 License: GPL (>= 3)
