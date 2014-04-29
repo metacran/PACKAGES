@@ -548,6 +548,14 @@ Version: 1.1-7.2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: algstat
+Version: 0.0.0
+Depends: mpoly
+Imports: stringr, reshape2, Rcpp
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
 Package: ALKr
 Version: 0.5.3.1
 Depends: R (>= 2.15.2)
@@ -8396,7 +8404,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: epipen
-Version: 0.9-2
+Version: 1.0-0
 Imports: pwr
 Suggests: asypow
 License: GPL (>= 2)
@@ -11443,7 +11451,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GGIR
-Version: 1.0-3
+Version: 1.0-4
 Depends: stats, utils, R (>= 2.10)
 Imports: GENEAread, matlab
 Suggests: MASS, signal, seewave, zoo, mmap, bitops
@@ -15940,7 +15948,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: llama
-Version: 0.5.1
+Version: 0.6
+Depends: R (>= 2.10)
 Imports: plyr, rJava, parallelMap
 Suggests: RWeka, FSelector, e1071, flexclust, testthat
 License: BSD_3_clause + file LICENSE
@@ -33903,10 +33912,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: topicmodels
-Version: 0.1-12
-Depends: R (>= 2.15.0), methods
-Imports: stats4, modeltools, slam, tm (>= 0.5-8.5)
-Suggests: lasso2, lattice, lda, OAIHarvester, SnowballC, XML
+Version: 0.2-0
+Depends: R (>= 2.15.0)
+Imports: stats4, methods, modeltools, slam, tm (>= 0.5-8.5)
+Suggests: lasso2, lattice, lda, OAIHarvester, SnowballC, XML,
+        corpus.JSS.papers
 License: GPL-2
 NeedsCompilation: yes
 
