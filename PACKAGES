@@ -1656,7 +1656,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesLCA
-Version: 1.4
+Version: 1.5
 Depends: e1071, coda
 Imports: fields, nlme, MCMCpack
 License: GPL (>= 2)
@@ -7062,12 +7062,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: diveRsity
-Version: 1.7.6
+Version: 1.9.5
 Depends: R (>= 3.0.0)
-Imports: ggplot2, shiny, qgraph, plotrix
-Suggests: xlsx, sendplot, foreach, iterators, doParallel, parallel
+Imports: ggplot2, shiny, qgraph, Rcpp
+LinkingTo: Rcpp
+Suggests: xlsx, sendplot, plotrix, foreach, iterators, doParallel,
+        parallel
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: DiversitySampler
 Version: 2.1
@@ -18930,7 +18932,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: mpoly
-Version: 0.0.4
+Version: 0.0.5
 Imports: stringr, rSymPy, rJython, rJava, rjson, partitions, plyr,
         stats
 License: GPL-2
@@ -29517,7 +29519,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sdcTable
-Version: 0.15.0
+Version: 0.16.0
 Depends: stringr, methods, Rcpp (>= 0.11.0), Rglpk, lpSolveAPI,
         data.table
 LinkingTo: Rcpp
