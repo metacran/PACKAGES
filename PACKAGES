@@ -27338,7 +27338,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: RMAWGEN
-Version: 1.2.6
+Version: 1.2.6.1
 Depends: R (>= 2.10),chron,date,vars,methods
 Suggests: RgoogleMaps
 License: GPL (>= 2)
