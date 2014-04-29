@@ -1716,6 +1716,12 @@ Version: 0.1
 License: GPL-2
 NeedsCompilation: no
 
+Package: BayesPen
+Version: 1.0
+Depends: lars, MCMCpack, SuppDists
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: bayesPop
 Version: 5.0-0
 Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
@@ -4818,7 +4824,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: compareGroups
-Version: 2.0.2
+Version: 2.0.3
 Depends: R (>= 2.13.1), Hmisc, xtable, gdata, SNPassoc
 Imports: survival, epitools, tools, HardyWeinberg
 Suggests: tcltk2, car
@@ -8627,10 +8633,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: evaluate
-Version: 0.5.3
+Version: 0.5.5
 Depends: R (>= 2.14.0)
-Imports: stringr (>= 0.4)
-Suggests: testthat, ggplot2
+Imports: stringr (>= 0.6.2)
+Suggests: testthat, lattice, ggplot2
 License: GPL
 NeedsCompilation: no
 
@@ -9194,7 +9200,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fastclime
-Version: 1.2.3
+Version: 1.2.4
 Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
 License: GPL-2
 NeedsCompilation: yes
@@ -15737,7 +15743,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: lgarch
-Version: 0.1
+Version: 0.2
 Depends: R (>= 2.15.0), zoo
 License: GPL-2
 NeedsCompilation: yes
@@ -26610,7 +26616,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rfigshare
-Version: 0.3-0
+Version: 0.3-1
 Depends: R (>= 3.0), methods
 Imports: RJSONIO, httr (>= 0.3), plyr, yaml, ggplot2, XML
 Suggests: knitr, testthat, gdata, uuid
