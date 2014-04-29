@@ -688,7 +688,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: AMOEBA
-Version: 0.9
+Version: 1.0
 Depends: snowfall, rlecuyer, spdep
 Suggests: maptools, plotrix,
 License: GPL (>= 2)
@@ -13067,7 +13067,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hierNet
-Version: 1.5
+Version: 1.6
 License: GPL-2
 NeedsCompilation: yes
 
@@ -16401,7 +16401,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: lpSolve
-Version: 5.6.7
+Version: 5.6.8
 License: LGPL-2
 NeedsCompilation: yes
 
@@ -28420,8 +28420,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RSKC
-Version: 2.3
-Depends: R (>= 2.10)
+Version: 2.4
+Depends: flexclust, stats, R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
