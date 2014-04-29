@@ -12468,9 +12468,9 @@ License: GPL (>= 2.0) | file LICENCE
 NeedsCompilation: yes
 
 Package: gstudio
-Version: 1.1
-Depends: R (>= 2.15)
-Imports: sp, raster, grid, reshape2, ggplot2, ggmap, popgraph
+Version: 1.2
+Depends: R (>= 2.15), ggplot2, raster
+Imports: sp, grid, reshape2, ggmap, popgraph
 Suggests: testthat, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27204,7 +27204,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RJSONIO
-Version: 1.2-0.1
+Version: 1.2-0.2
 Imports: methods
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
