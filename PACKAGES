@@ -1619,9 +1619,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bayesDem
-Version: 2.3-2
+Version: 2.4-1
 Depends: R (>= 2.14.2), gWidgets, gWidgetsRGtk2, bayesTFR (>= 4.0-0),
-        bayesLife (>= 2.0-0), bayesPop (>= 4.0-0)
+        bayesLife (>= 2.0-0), bayesPop (>= 5.0-0)
 Imports: RGtk2, wpp2012
 Suggests: wpp2008, wpp2010
 License: GPL (>= 2)
@@ -1848,8 +1848,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: bbefkr
-Version: 4.1
-Depends: R (>= 3.0.2), splines
+Version: 4.2
+Depends: R (>= 3.0.3), splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17139,8 +17139,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MBA
-Version: 0.0-7
+Version: 0.0-8
 Depends: R (>= 2.8.0), sp
+LinkingTo: BH
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29858,9 +29859,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensitivity
-Version: 1.8-1
+Version: 1.8-2
 Depends: R (>= 3.0.0)
-Imports: boot, rgl, evd, numbers, DiceKriging
+Imports: boot
+Suggests: rgl, evd, numbers, DiceKriging, fanovaGraph
 License: GPL-2
 NeedsCompilation: yes
 
@@ -34669,6 +34671,12 @@ Version: 1.0
 Depends: survival
 License: GPL-2
 NeedsCompilation: yes
+
+Package: uniReg
+Version: 1.0
+Imports: DoseFinding, MASS, mvtnorm, quadprog, SEL, splines
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: unmarked
 Version: 0.10-4
