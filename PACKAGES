@@ -3980,6 +3980,12 @@ Depends: R (>= 3.0), parallel (>= 3.0)
 License: GPL
 NeedsCompilation: yes
 
+Package: CHAT
+Version: 1.0
+Depends: R (>= 2.10), parallel, DNAcopy, DPpackage
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: CHCN
 Version: 1.5
 Depends: R (>= 2.11.0),methods,bitops, RCurl
@@ -6243,11 +6249,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: Deducer
-Version: 0.7-6.1
-Depends: R (>= 2.15.0), rJava (>= 0.8-4), ggplot2 (>= 0.9.3), scales
-        (>= 0.2.2), JGR(>= 1.7-10), car, multcomp, effects, foreign,
-        plyr, e1071, MASS
-Suggests: lawstat, Hmisc
+Version: 0.7-7
+Depends: R (>= 2.15.0), ggplot2 (>= 0.9.3), JGR(>= 1.7-10), car, MASS
+Imports: rJava, e1071, scales, plyr, foreign, multcomp, effects
+Suggests: lawstat, Hmisc, XLConnect
 License: GPL-2
 NeedsCompilation: no
 
@@ -6284,6 +6289,14 @@ Package: DeducerSurvival
 Version: 0.1-0
 Depends: Deducer (>= 0.5-0)
 License: GPL-2
+NeedsCompilation: no
+
+Package: DeducerText
+Version: 0.1-1
+Depends: R (>= 2.10.0), Deducer (>= 0.7-0), tm, wordcloud (>= 2.1),
+        RColorBrewer
+Imports: SnowballC
+License: LGPL-2
 NeedsCompilation: no
 
 Package: deducorrect
@@ -15373,6 +15386,12 @@ Suggests: cluster, e1071, rms, Hmisc, MASS, rpart, lattice, zipfR,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: lar
+Version: 0.1-2
+Imports: data.table, grid, treemap, xlsx
+License: GPL-3
+NeedsCompilation: no
+
 Package: LARF
 Version: 1.1
 License: GPL-3
@@ -16467,8 +16486,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LSAfun
-Version: 0.1
-Depends: R (>= 2.15.3), lsa, rgl
+Version: 0.2
+Depends: R (>= 3.0.3), lsa, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17988,10 +18007,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: midasr
-Version: 0.2
-Depends: R (>= 2.11.0), sandwich
-Imports: MASS, numDeriv
-License: MIT + file LICENCE
+Version: 0.3
+Depends: R (>= 2.11.0), sandwich, optimx
+Imports: MASS, numDeriv, Matrix
+License: GPL-2 | MIT + file LICENCE
 NeedsCompilation: no
 
 Package: MIfuns
@@ -19776,7 +19795,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: nat
-Version: 1.4.6
+Version: 1.4.10
 Depends: R (>= 2.15.1), rgl
 Imports: RANN, igraph, methods, filehash, digest, nat.utils
 Suggests: testthat
@@ -20124,7 +20143,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nhlscrapr
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.15.0)
 Imports: RCurl, rjson, biglm, bitops
 License: GPL (>= 3)
@@ -21884,7 +21903,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: PBC
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), igraph
 Imports: Rcpp (>= 0.10.3), copula, methods
 LinkingTo: Rcpp
@@ -22113,7 +22132,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: pdfCluster
-Version: 1.0-1
+Version: 1.0-2
 Imports: geometry, methods
 Suggests: cluster
 License: GPL-2
@@ -22739,7 +22758,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: PivotalR
-Version: 0.1.15.1
+Version: 0.1.16.2
 Depends: R (>= 2.14.0), methods, Matrix
 Enhances: DBI, RPostgreSQL, shiny, testthat, tools
 License: GPL (>= 2)
@@ -23522,7 +23541,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.1-10
+Version: 1.1-11
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24174,7 +24193,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ptinpoly
-Version: 2.0
+Version: 2.1
 Depends: R (>= 2.10), misc3d
 Suggests: rgl, geometry
 License: GPL-2
@@ -29659,7 +29678,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: secr
-Version: 2.8.1
+Version: 2.8.2
 Depends: R (>= 3.0.0)
 Imports: abind, MASS, utils, parallel, nlme, sp
 Suggests: maptools, spsurvey, rgdal, rgeos, raster
@@ -35385,9 +35404,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: weatherData
-Version: 0.3
+Version: 0.4
 Depends: R (>= 2.10)
 Imports: plyr
+Suggests: testthat
 License: GPL
 NeedsCompilation: no
 
