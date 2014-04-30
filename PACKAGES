@@ -5840,12 +5840,12 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: DAAG
-Version: 1.18
+Version: 1.20
 Depends: R (>= 2.10.0), lattice
 Imports: latticeExtra
 Suggests: leaps, oz, lme4, quantreg, knitr, boot, rpart, randomForest,
         MASS, survival
-License: Unlimited
+License: GPL-3
 NeedsCompilation: no
 
 Package: DAAGbio
@@ -22107,6 +22107,12 @@ Depends: GPArotation, ThreeWay, MASS, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PCPS
+Version: 1.0
+Depends: picante, SYNCSA, vegan
+License: GPL-2
+NeedsCompilation: no
+
 Package: pcrcoal
 Version: 1.1
 Depends: R (>= 2.11.1), ape (>= 2.3), ggplot2 (>= 0.8.8), methods (>=
@@ -31110,8 +31116,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SoilR
-Version: 1.0-7
-Depends: deSolve,methods
+Version: 1.1-23
+Depends: deSolve,methods,parallel,RUnit
 Suggests: FME,lattice,MASS
 License: GPL-3
 NeedsCompilation: no
@@ -34306,7 +34312,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSclust
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.1), wmtsa, pdc, cluster
 Imports: locpol, KernSmooth, dtw, longitudinalData
 License: GPL-2
