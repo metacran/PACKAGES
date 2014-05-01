@@ -21557,6 +21557,13 @@ Depends: rioja, vegan, TeachingDemos, gstat, fields, mapproj
 License: GPL-3
 NeedsCompilation: no
 
+Package: paleobioDB
+Version: 0.1
+Imports: maps, raster, rjson, gtools, RCurl, plyr, scales,
+Suggests: roxygen2, testthat
+License: GPL-2
+NeedsCompilation: no
+
 Package: paleofire
 Version: 1.1-2
 Depends: R(>= 2.10.0), methods, GCD, rworldmap
@@ -25452,6 +25459,14 @@ Package: RClimMAWGEN
 Version: 1.1
 Depends: R (>= 2.10),climdex.pcic,RMAWGEN
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: rClinicalCodes
+Version: 1.0.0
+Depends: R (>= 2.15)
+Imports: stringr, RCurl, XML, rjson, tm
+Suggests: testthat, roxygen2
+License: GPL-2
 NeedsCompilation: no
 
 Package: Rclusterpp
