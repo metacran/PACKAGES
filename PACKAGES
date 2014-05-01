@@ -15821,7 +15821,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lifecontingencies
-Version: 1.0.6
+Version: 1.1
 Depends: R (>= 2.14), methods
 Imports: parallel, utils
 Suggests: demography, forecast, markovchain
@@ -16460,9 +16460,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lqmm
-Version: 1.04
+Version: 1.5
 Depends: R (>= 3.0.0)
-Imports: SparseGrid
+Imports: SparseGrid, nlme
 License: GPL (>= 2)
 NeedsCompilation: yes
 
