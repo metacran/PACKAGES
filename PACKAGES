@@ -19328,6 +19328,11 @@ Version: 1.3.9
 License: GPL-2
 NeedsCompilation: no
 
+Package: MultiCNVDetect
+Version: 0.1-1
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: multicon
 Version: 1.2
 Depends: R (>= 3.0.0), psych, abind, foreach
