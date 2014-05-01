@@ -2103,9 +2103,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: benford.analysis
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.0.0)
 Imports: data.table
+Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -7688,8 +7689,10 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: dynsurv
-Version: 0.1-8
-Depends: methods, survival, plyr, reshape, ggplot2, nleqslv
+Version: 0.2-2
+Depends: R (>= 3.0.2), survival
+Imports: methods, reshape, plyr, nleqslv, ggplot2, grid
+LinkingTo: BH (>= 1.54.0-2)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -27788,7 +27791,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustbase
-Version: 0.91-0
+Version: 0.91-1
 Depends: R (>= 2.15.1)
 Imports: stats, graphics, utils, methods, DEoptimR
 Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust,
