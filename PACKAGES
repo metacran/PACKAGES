@@ -10883,7 +10883,7 @@ OS_type: unix
 NeedsCompilation: no
 
 Package: GCD
-Version: 3.0.2
+Version: 3.0.3
 Depends: R(>= 2.10.0)
 Imports: sp, raster, ggplot2
 Suggests: paleofire
@@ -20812,8 +20812,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ocean
-Version: 0.1-0
-Depends: R (>= 3.0.2), ncdf, proj4
+Version: 0.2-4
+Depends: R (>= 3.0.2), graphics, methods, ncdf4, proj4
 License: GPL-3
 NeedsCompilation: yes
 
@@ -23828,7 +23828,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: prodlim
-Version: 1.4.2
+Version: 1.4.3
 Depends: R (>= 1.9.1)
 Imports: stats, survival, KernSmooth, lava
 License: GPL (>= 2)
@@ -24210,6 +24210,12 @@ Depends: tensor
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PTE
+Version: 1.0
+Depends: R (>= 3.0), doParallel
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: ptinpoly
 Version: 2.1
 Depends: R (>= 2.10), misc3d
@@ -24402,7 +24408,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapTools
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 3.0.0)
 Imports: chron, RCurl
 License: GPL-2
