@@ -977,7 +977,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: aqp
-Version: 1.6
+Version: 1.7
 Depends: R (>= 2.15.0), methods
 Imports: plyr, reshape, grid, lattice, cluster, sp, Hmisc, stringr,
         scales, plotrix, RColorBrewer
@@ -21275,7 +21275,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: OrdinalLogisticBiplot
-Version: 0.2
+Version: 0.3
 Depends: R (>= 2.15.1),mirt,MASS,NominalLogisticBiplot
 License: GPL (>= 2)
 Archs: i386, x64
@@ -30270,6 +30270,15 @@ Version: 0.1401
 Depends: R (>= 3.0.0), matrixcalc, xtable
 Suggests: quantmod, MASS, TTR, testthat, sandwich, knitr
 License: LGPL-3
+NeedsCompilation: no
+
+Package: sharpshootR
+Version: 0.6-1
+Depends: R (>= 2.15.0), aqp, ape
+Imports: igraph, cluster, lattice, latticeExtra, vegan, sp, reshape2,
+        Hmisc, scales, circular, RColorBrewer, plyr
+Suggests: soilDB, MASS
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sharx
