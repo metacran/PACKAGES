@@ -25811,9 +25811,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rcppbugs
-Version: 0.1.4
-Depends: Rcpp, RcppArmadillo
-LinkingTo: Rcpp, RcppArmadillo
+Version: 0.1.4.1
+Depends: Rcpp (>= 0.11)
+LinkingTo: Rcpp, RcppArmadillo, BH
 License: GPL-3
 NeedsCompilation: yes
 
@@ -31533,9 +31533,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: SpatialEpi
-Version: 1.1
-Depends: MASS, sp, maps, maptools, shapefiles, spdep, gtools, rgeos,
-        foreign, lattice, boot, Matrix, nlme
+Version: 1.2
+Depends: sp
+Imports: MASS, maps, maptools, shapefiles, spdep, gtools, rgeos,
+        lattice, Matrix, nlme
 License: GPL-2
 NeedsCompilation: yes
 
