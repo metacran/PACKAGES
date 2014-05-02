@@ -1437,7 +1437,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: BalancedSampling
-Version: 1.0
+Version: 1.4
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
 License: GPL (>= 2)
@@ -2087,9 +2087,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: benchmark
-Version: 0.3-5
-Depends: R (>= 2.10), utils, proto, ggplot2, reshape, relations,
-        psychotools, scales
+Version: 0.3-6
+Depends: R (>= 2.10), utils, proto, ggplot2, relations, psychotools
+Imports: reshape, scales, plyr
 Suggests: coin, multcomp, lme4, e1071, entropy, archetypes, Rgraphviz,
         psychotree
 License: GPL (>= 2)
@@ -20546,7 +20546,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NPCD
-Version: 1.0-5
+Version: 1.0-6
 Depends: R (>= 2.14.2), BB, R.oo
 Imports: R.methodsS3
 License: LGPL (>= 2.1)
@@ -21200,6 +21200,11 @@ Depends: cluster, labdsv, MASS, plotrix
 Suggests: tree
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: optR
+Version: 1.0.3
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: ora
 Version: 2.0-1
