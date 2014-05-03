@@ -9979,7 +9979,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fmsb
-Version: 0.4.3
+Version: 0.4.4
 Depends: R (>= 2.2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28423,6 +28423,12 @@ Version: 0.9
 Depends: R (>= 2.12.0), utils, yaml, reshape
 License: GPL-3
 NeedsCompilation: yes
+
+Package: rSCA
+Version: 2.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: RSclient
 Version: 0.7-2
