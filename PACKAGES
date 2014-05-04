@@ -6502,7 +6502,7 @@ License: BSD
 NeedsCompilation: no
 
 Package: DescTools
-Version: 0.99.6
+Version: 0.99.7
 Depends: tcltk
 Imports: boot
 Suggests: RDCOMClient
@@ -12448,14 +12448,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GSIF
-Version: 0.3-6
+Version: 0.4-0
 Depends: R (>= 2.15.0)
 Imports: methods, sp (>= 1.0-8), RSAGA, dismo, rgdal, raster, aqp,
         plotKML, gstat, stats, boot, rpart, quantregForest,
         randomForest, nlme
-Suggests: RCurl, tools, soiltexture, spatstat, stringr, plyr, XML,
-        splines, mda, psych, nortest, fossil, AICcmodavg, maptools,
-        nnet, SDMTools, rJava (>= 0.5-0)
+Suggests: utils, RCurl, tools, soiltexture, spatstat, stringr, plyr,
+        XML, splines, mda, psych, nortest, fossil, AICcmodavg,
+        maptools, nnet, SDMTools, rJava (>= 0.5-0), gdalUtils, rjson
 License: GPL
 NeedsCompilation: no
 
@@ -23023,12 +23023,12 @@ License: GPL
 NeedsCompilation: no
 
 Package: plotKML
-Version: 0.4-3
+Version: 0.4-4
 Depends: R (>= 2.13.0)
 Imports: methods, XML, sp, raster, rgdal, spacetime, colorspace,
         plotrix, dismo, aqp, pixmap, plyr, stringr, colorRamps, scales,
         gstat, zoo, RColorBrewer, RSAGA, classInt
-Suggests: utils, adehabitat, maptools, fossil, spcosa, rjson, RJSONIO,
+Suggests: utils, adehabitat, maptools, fossil, spcosa, rjson,
         animation, spatstat, RCurl, rgbif, Hmisc, GSIF, stpp, uuid,
         intervals, reshape
 License: GPL
