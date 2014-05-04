@@ -8277,7 +8277,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: endorse
-Version: 1.4.0
+Version: 1.4.1
 Depends: coda, utils
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -20577,6 +20577,14 @@ Version: 4.5
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: nplr
+Version: 0.1
+Depends: methods
+Imports: stats,graphics
+Suggests: RUnit,knitr
+License: GPL
+NeedsCompilation: no
+
 Package: NPMLEcmprsk
 Version: 1.0
 License: Artistic-2.0
@@ -22661,12 +22669,6 @@ Version: 0.2-1.1
 Depends: R (>= 2.15)
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
-
-Package: phreeqc
-Version: 1.0.0
-Depends: R (>= 2.10)
-License: Unlimited
-NeedsCompilation: yes
 
 Package: phtt
 Version: 3.1.1
@@ -30486,6 +30488,13 @@ Version: 2.4
 Depends: R (>= 2.2.0), methods, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: Sim.DiffProc
+Version: 2.6
+Depends: R (>= 2.15.1)
+Suggests: rgl, scatterplot3d
+License: GPL (>= 3) | file LICENCE
+NeedsCompilation: no
 
 Package: simecol
 Version: 0.8-4
