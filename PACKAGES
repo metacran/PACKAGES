@@ -5924,6 +5924,14 @@ Depends: car, effects, lattice, sm, MASS, nnet, splines, pscl, gdata,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: dams
+Version: 0.1
+Depends: R (>= 2.10)
+Imports: RCurl
+Suggests: ggplot2, maps, mapproj
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: DandEFA
 Version: 1.5
 Depends: R(>= 3.1.0), gplots, polycor
@@ -13024,7 +13032,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hglasso
-Version: 1.0
+Version: 1.1
 Depends: glasso, mvtnorm, igraph
 Imports: fields
 License: GPL (>= 2)
@@ -17032,7 +17040,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MASS
-Version: 7.3-32
+Version: 7.3-33
 Priority: recommended
 Depends: R (>= 3.0.0), grDevices, graphics, stats, utils
 Suggests: lattice, nlme, nnet, survival
@@ -17352,6 +17360,12 @@ Version: 4.3
 Depends: MASS
 License: GPL-2
 NeedsCompilation: yes
+
+Package: MCMC.OTU
+Version: 1.0.8
+Depends: MCMCglmm,ggplot2
+License: GPL-3
+NeedsCompilation: no
 
 Package: MCMCpack
 Version: 1.3-3
@@ -20247,7 +20261,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nlmrt
-Version: 2013-8.10
+Version: 2013-9.24
 Depends: R (>= 2.15.0)
 Suggests: minpack.lm, optimx, Rvmmin, Rcgmin, numDeriv
 License: GPL-2
@@ -21165,8 +21179,8 @@ License: CeCILL-2
 NeedsCompilation: no
 
 Package: optimx
-Version: 2013.8.6
-Depends: numDeriv
+Version: 2014.5.4
+Imports: optextras, numDeriv
 Suggests: BB, ucminf, Rcgmin, Rvmmin, minqa, setRNG, dfoptim, svUnit
 License: GPL-2
 NeedsCompilation: no
@@ -22750,7 +22764,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: phytools
-Version: 0.3-93
+Version: 0.4-05
 Depends: R (>= 2.10), ape (>= 3.0-10), maps, rgl
 Imports: animation, clusterGeneration, mnormt, msm, numDeriv, phangorn
         (>= 1.6-3), plotrix, scatterplot3d
@@ -25819,7 +25833,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RcppArmadillo
-Version: 0.4.200.0
+Version: 0.4.300.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit
@@ -32156,7 +32170,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.3
+Version: 1.4.4
 Depends: R (>= 2.10.0), stats, graphics, utils, tcltk, psych
 Suggests: MASS, TSA,TTR
 License: GPL (>= 2)
@@ -36088,7 +36102,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yuima
-Version: 1.0.10
+Version: 1.0.21
 Depends: methods, zoo, stats4, utils, expm
 Suggests: cubature, mvtnorm
 License: GPL-2
