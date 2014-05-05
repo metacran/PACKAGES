@@ -8272,8 +8272,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: enaR
-Version: 2.5
-Depends: R (>= 2.10), sna, network, MASS, stringr, xlsx
+Version: 2.6
+Depends: R (>= 2.10), sna, network, MASS, stringr, gdata
 Suggests: codetools, igraph
 License: GPL-2
 NeedsCompilation: no
@@ -35868,7 +35868,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: wtcrsk
-Version: 1.2
+Version: 1.3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
