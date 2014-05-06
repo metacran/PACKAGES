@@ -6688,7 +6688,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DiceDesign
-Version: 1.4
+Version: 1.5
 Suggests: rgl, randtoolbox, lattice
 License: GPL-3
 NeedsCompilation: yes
@@ -10631,8 +10631,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GA
-Version: 2.0
-Depends: R (>= 3.0.0), methods
+Version: 2.1
+Depends: R (>= 2.15), methods
 Suggests: parallel, doParallel, foreach, iterators
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -13067,7 +13067,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HHG
-Version: 1.3
+Version: 1.4
 Suggests: MASS
 License: GPL-2
 NeedsCompilation: yes
