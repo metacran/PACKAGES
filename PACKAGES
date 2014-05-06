@@ -5092,8 +5092,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cooccur
-Version: 1.0
-Depends: reshape, gmp, ggplot2
+Version: 1.1
+Imports: reshape2, gmp, ggplot2
 License: GPL-2
 NeedsCompilation: no
 
@@ -35104,7 +35104,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: VBmix
-Version: 0.2.16
+Version: 0.2.17
 Depends: R (>= 2.10.0)
 Imports: lattice, grid, pixmap, mnormt
 Suggests: e1071, nnet
