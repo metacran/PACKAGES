@@ -33426,9 +33426,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: tawny.types
-Version: 1.1.1
-Imports: lambda.r (>= 1.1.0), futile.logger (>= 1.3.0), futile.options,
-        futile.any, zoo, xts, quantmod
+Version: 1.1.3
+Depends: R (>= 3.0.0)
+Imports: lambda.r (>= 1.1.0), lambda.tools, futile.logger (>= 1.3.0),
+        futile.options, zoo, xts, quantmod
 Suggests: RUnit
 License: GPL-3
 NeedsCompilation: no
