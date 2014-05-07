@@ -3406,7 +3406,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: CALIBERrfimpute
-Version: 0.1-5
+Version: 0.1-6
 Depends: mice (>= 2.20)
 Imports: mvtnorm, randomForest
 Suggests: missForest, rpart, survival, xtable
@@ -13111,6 +13111,13 @@ Imports: parallel
 License: GPL-3
 NeedsCompilation: yes
 
+Package: HiClimR
+Version: 1.0.9
+Depends: R (>= 2.10)
+Enhances: stats
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: HiCseg
 Version: 1.0
 Depends: R (>= 2.10)
@@ -16837,7 +16844,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAMS
-Version: 0.2
+Version: 0.3
 Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
@@ -20448,6 +20455,12 @@ License: GPL (>= 2)
 Archs: i386, x64
 NeedsCompilation: no
 
+Package: noncensus
+Version: 0.1
+Depends: R (>= 2.14)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: nonlinearTseries
 Version: 0.2.1
 Depends: Matrix, rgl, tseries, TSA
@@ -20606,6 +20619,13 @@ Depends: R(>= 2.15.0), circular
 Imports: misc3d, movMF, plotrix, rgl, shape
 License: GPL-2
 NeedsCompilation: no
+
+Package: npcp
+Version: 0.0-1
+Depends: numDeriv
+Suggests: copula
+License: GPL (>= 3) | file LICENCE
+NeedsCompilation: yes
 
 Package: npde
 Version: 2.0
@@ -23394,12 +23414,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: polyCub
-Version: 0.4-3
+Version: 0.5-0
 Depends: R (>= 2.15.0), methods, sp
-Imports: grDevices, graphics, stats, spatstat, statmod
-Suggests: lattice, testthat, mvtnorm, rgeos, gpclib
+Imports: grDevices, graphics, stats, spatstat
+Suggests: lattice, testthat, mvtnorm, statmod, rgeos, gpclib
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: polynom
 Version: 1.3-8
