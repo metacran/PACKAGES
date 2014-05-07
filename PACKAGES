@@ -7286,7 +7286,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: domino
-Version: 0.1-6
+Version: 0.1-7
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -11253,7 +11253,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: genSurv
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.12.0)
 Suggests: survival
 License: GPL (>= 2)
@@ -11732,7 +11732,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: glm2
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 2.12.1), stats
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19571,7 +19571,7 @@ License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
 Package: muscle
-Version: 3.8.31-1
+Version: 3.8.31-2
 License: Unlimited
 NeedsCompilation: yes
 
@@ -30116,9 +30116,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seqminer
-Version: 3.0
+Version: 3.1
 Depends: stringr
-Suggests: testthat
+Suggests: testthat, SKAT, STARSEQ
 License: GPL | file LICENSE
 NeedsCompilation: yes
 
