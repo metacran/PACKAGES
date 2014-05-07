@@ -7280,8 +7280,9 @@ OS_type: unix
 NeedsCompilation: no
 
 Package: Dominance
-Version: 0.9.11
-Depends: R (>= 2.14.0),igraph,chron,gdata
+Version: 1.0.0
+Depends: R (>= 2.14.0)
+Imports: igraph,chron,gdata
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15902,7 +15903,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: likeLTD
-Version: 5.3.2
+Version: 5.3.3
 Depends: R (>= 2.10), DEoptim, ggplot2, gtools, rtf
 Imports: gdata, tools
 Suggests: svUnit, scales
