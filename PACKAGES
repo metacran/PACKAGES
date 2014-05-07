@@ -2762,7 +2762,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: BlakerCI
-Version: 1.0-2
+Version: 1.0-4
 License: GPL-2
 NeedsCompilation: no
 
@@ -3453,8 +3453,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: cancerTiming
-Version: 1.0.0
-Depends: R (>= 2.11.0), LearnBayes, GenomicRanges
+Version: 2.0.0
+Depends: R (>= 2.11.0)
+Imports: LearnBayes
+Suggests: GenomicRanges
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6255,7 +6257,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: decctools
-Version: 0.1.5
+Version: 0.1.6
 Depends: XLConnect
 Imports: stringr, XML, reshape2, RCurl, lubridate, plyr
 License: GPL-2
@@ -15558,7 +15560,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lava
-Version: 1.2.5
+Version: 1.2.6
 Depends: R (>= 2.15)
 Imports: numDeriv
 Suggests: mets (>= 0.2.7), graph, Rgraphviz, igraph (>= 0.6), Matrix,
@@ -33459,9 +33461,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: tawny
-Version: 2.1.0
-Depends: R (>= 2.10), tawny.types (>= 1.1.0), futile.matrix (>= 1.2.0),
-        futile.logger (>= 1.3.0), PerformanceAnalytics, quantmod
+Version: 2.1.2
+Depends: R (>= 3.0.0)
+Imports: lambda.r (>= 1.1.6), lambda.tools, futile.logger (>= 1.3.7),
+        futile.matrix (>= 1.2.1), tawny.types (>= 1.1.2), zoo, xts,
+        PerformanceAnalytics, quantmod
 Suggests: RUnit
 License: GPL-3
 NeedsCompilation: no
