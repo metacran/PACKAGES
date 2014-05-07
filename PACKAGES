@@ -4736,7 +4736,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CollocInfer
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.4.0), fda, deSolve
 Imports: MASS, Matrix, spam
 Suggests: subplex, trust, maxLik, pomp, SparseM
@@ -12102,7 +12102,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: gplm
-Version: 0.7-1
+Version: 0.7-2
+Depends: AER
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -22190,8 +22191,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PCGSE
-Version: 0.1
-Depends: R (>= 2.15.0), safe (>= 3.0.0), MASS
+Version: 0.2
+Depends: R (>= 2.15.0), safe (>= 3.0.0), RMTstat, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
