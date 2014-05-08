@@ -17998,7 +17998,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: miceadds
-Version: 0.11-121
+Version: 0.12-9
 Depends: R (>= 2.15.0), MASS, mice (>= 2.21), mvtnorm, pan (>= 0.9)
 Imports: sirt (>= 0.42), lme4, MBESS, pls, mitools, bayesm, Rcpp (>=
         0.11-0)
