@@ -253,7 +253,7 @@ License: LGPL (>= 3.0)
 NeedsCompilation: yes
 
 Package: adaptivetau
-Version: 2.0
+Version: 2.1
 Depends: R (>= 2.10.1)
 Enhances: compiler
 License: GPL (>= 3)
@@ -23983,9 +23983,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ProfessR
-Version: 2.1
-Depends: RPMG
-License: GPL
+Version: 2.3
+Depends: R (>= 2.12)
+Imports: RPMG
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ProfileLikelihood
@@ -24213,7 +24214,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: psgp
-Version: 0.3-5
+Version: 0.3-6
 Depends: R (>= 3.0.2), intamap
 Imports: automap, gstat
 LinkingTo: Rcpp, RcppArmadillo (>= 0.2.0)
@@ -24545,7 +24546,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapTools
-Version: 0.0.3
+Version: 0.1.0
 Depends: R (>= 3.0.0)
 Imports: chron, RCurl
 License: GPL-2
@@ -29036,7 +29037,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rwave
-Version: 2.1
+Version: 2.2
 Depends: R (>= 2.14)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -30111,9 +30112,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensR
-Version: 1.3-1
+Version: 1.4-0
 Imports: multcomp, MASS, numDeriv
-Suggests: ordinal, testthat (>= 0.2)
+Suggests: ordinal, parallel, testthat (>= 0.8)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
