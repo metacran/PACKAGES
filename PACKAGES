@@ -14438,6 +14438,11 @@ Depends: mgcv
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: iRepro
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: irlba
 Version: 1.0.3
 Depends: R (>= 2.15.0)
@@ -23743,8 +23748,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PPtree
-Version: 2.2.0
-Depends: MASS, penalizedLDA
+Version: 2.3.0
+Imports: MASS (>= 3.1-20), penalizedLDA (>= 1.0)
 License: LGPL-2.1
 NeedsCompilation: yes
 
