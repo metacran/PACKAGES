@@ -3157,7 +3157,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bReeze
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 2.14.2), RColorBrewer
 Suggests: RgoogleMaps, XML
 License: GPL (>= 2)
@@ -11111,6 +11111,12 @@ NeedsCompilation: no
 Package: GenBinomApps
 Version: 1.0-1
 Depends: stats
+License: GPL-3
+NeedsCompilation: no
+
+Package: gendata
+Version: 1.0
+Suggests: psych
 License: GPL-3
 NeedsCompilation: no
 
@@ -23647,7 +23653,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Power2Stage
-Version: 0.0-8
+Version: 0.1-1
 Depends: PowerTOST
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30903,6 +30909,14 @@ Suggests: MASS, lattice, multcomp, car, leaps, CCA, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: slfm
+Version: 0.1
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.0), coda
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-2
+NeedsCompilation: yes
+
 Package: SLHD
 Version: 1.2-1
 License: LGPL-2.1
@@ -36242,9 +36256,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ZIM
-Version: 1.0
+Version: 1.0.1
 Depends: MASS
-License: GPL-2
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: zipcode
