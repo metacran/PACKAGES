@@ -6721,7 +6721,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DiceDesign
-Version: 1.5
+Version: 1.6
 Suggests: rgl, randtoolbox, lattice
 License: GPL-3
 NeedsCompilation: yes
@@ -9566,6 +9566,12 @@ Depends: R (>= 2.15.1), base, graphics, stats
 Imports: base, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: federalregister
+Version: 0.1
+Imports: RCurl, RJSONIO
+License: GPL-2
+NeedsCompilation: no
 
 Package: FeedbackTS
 Version: 1.0
@@ -26296,6 +26302,12 @@ Suggests: flexmix, mclust, mixtools
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: recalls
+Version: 0.1.0
+Imports: RCurl, RJSONIO
+License: GPL-2
+NeedsCompilation: no
+
 Package: reccsim
 Version: 0.9-1
 License: GPL (>= 2)
@@ -28375,6 +28387,12 @@ Version: 1.5.0.2
 Depends: R (>= 2.0.0)
 Imports: XML, car, RCurl, RJSONIO
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RPublica
+Version: 0.1.1
+Imports: XML, RJSONIO, RCurl
+License: GPL-2
 NeedsCompilation: no
 
 Package: rpud
