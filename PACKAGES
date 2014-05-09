@@ -525,7 +525,7 @@ License_restricts_use: yes
 NeedsCompilation: yes
 
 Package: akmeans
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -2855,6 +2855,13 @@ Imports: MASS
 Suggests: nbpMatching, RItools, xtable
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
+
+Package: blowtorch
+Version: 1.0.1
+Depends: R (>= 3.0.2)
+Imports: ggplot2, grid, foreach, iterators
+License: GPL-2
+NeedsCompilation: no
 
 Package: BLR
 Version: 1.3
@@ -26385,11 +26392,10 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: refund
-Version: 0.1-9
-Depends: R (>= 2.14.0),
-Imports: lattice, boot, mgcv (>= 1.7-27), fda, MASS, glmnet, magic,
-        nlme, wavethresh, Matrix, gamm4, matrixStats, lme4, splines,
-        RLRsim
+Version: 0.1-10
+Depends: R (>= 2.14.0), fda,
+Imports: lattice, boot, mgcv (>= 1.7-28), MASS, glmnet, magic, nlme,
+        wavethresh, Matrix, gamm4, matrixStats, lme4, splines, RLRsim
 License: GPL (>= 2)
 NeedsCompilation: no
 
