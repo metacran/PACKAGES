@@ -19194,8 +19194,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: msap
-Version: 1.1.5
-Depends: R (>= 2.14.0), ade4, scrime, pegas, cba, ape
+Version: 1.1.8
+Depends: R (>= 2.14.0)
+Imports: ade4, ape
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19464,7 +19465,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: multigroup
-Version: 0.2
+Version: 0.3
 Depends: R (>= 2.15.0)
 Suggests: MASS
 License: GPL-3
@@ -29797,9 +29798,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: sdmvspecies
-Version: 0.1
+Version: 0.2
 Depends: raster, parallel, ggplot2
-License: GPL
+License: GPL-2
 NeedsCompilation: no
 
 Package: sdnet
