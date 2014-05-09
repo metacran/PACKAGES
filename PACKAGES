@@ -15513,11 +15513,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lassoscore
-Version: 0.1
-Depends: R (>= 2.10)
+Version: 0.5
+Depends: R (>= 2.10), glasso, glmnet
 Suggests: covTest, lars
 License: GPL (>= 2)
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: lassoshooting
 Version: 0.1.5-1
