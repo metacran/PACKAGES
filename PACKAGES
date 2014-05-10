@@ -28566,7 +28566,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rSCA
-Version: 2.0
+Version: 2.1
 Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33649,6 +33649,15 @@ NeedsCompilation: no
 Package: TeachNet
 Version: 0.7
 Depends: methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: TED
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: foreach, zoo, fields, animation, geoR, tcltk, utils,
+        RcppArmadillo
+Suggests: doMC
 License: GPL (>= 2)
 NeedsCompilation: no
 
