@@ -5945,7 +5945,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DALY
-Version: 1.2.0
+Version: 1.3.0
 Depends: R (>= 3.0.0), tcltk, grid
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -13474,6 +13474,12 @@ Depends: R (>= 2.15), methods, AnnotationDbi (>= 1.9.7)
 License: GPL-2
 NeedsCompilation: no
 
+Package: hpoPlot
+Version: 1.0
+Depends: R (>= 2.10), Rgraphviz, functional, plotrix, Hmisc
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: HPOSim
 Version: 1.2
 Depends: R (>= 2.15.1)
@@ -16625,7 +16631,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.00-5
+Version: 2.05
 Depends: methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix
 Suggests: nlme, lme4, pbkrtest, lattice, multcompView
@@ -24637,6 +24643,13 @@ Package: qPCR.CT
 Version: 1.1
 Depends: RColorBrewer
 License: GPL-2
+NeedsCompilation: no
+
+Package: qqman
+Version: 0.1.0
+Depends: R (>= 3.0.0)
+Suggests: knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: qrfactor
