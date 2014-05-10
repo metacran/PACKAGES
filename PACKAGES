@@ -18501,9 +18501,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mkin
-Version: 0.9-24
-Depends: FME, deSolve, minpack.lm
-Suggests: RUnit, gWidgetsWWW2, RSVGTipsDevice
+Version: 0.9-27
+Depends: minpack.lm, rootSolve
+Imports: FME, deSolve
+Suggests: knitr, RUnit
 License: GPL
 NeedsCompilation: no
 
@@ -27565,7 +27566,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rmatio
-Version: 0.9.0
+Version: 0.10.0
 Depends: R(>= 3.0.2), Matrix, methods, lattice
 License: GPL-3
 NeedsCompilation: yes
