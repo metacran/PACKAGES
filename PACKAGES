@@ -2155,6 +2155,14 @@ Depends: ergm, network, coda, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: BerlinData
+Version: 1.0.0
+Depends: R (>= 2.13.0)
+Imports: XML (>= 3.95), stringr
+Suggests: testthat, rjson
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: Bessel
 Version: 0.5-5
 Depends: Rmpfr
@@ -26677,9 +26685,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: repmis
-Version: 0.2.8
+Version: 0.2.9
 Depends: R (>= 3.0.0)
-Imports: digest, httr, plyr, R.cache
+Imports: digest, httr, plyr, R.cache, xlsx
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -28436,10 +28444,10 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RQDA
-Version: 0.2-5
+Version: 0.2-6
 Depends: R (>= 2.8.0), RSQLite, gWidgetsRGtk2 (>= 0.0-36)
 Imports: RGtk2 (>= 2.20), DBI, igraph, gWidgets (>= 0.0-31)
-Enhances: tcltk, rjpod
+Enhances: tcltk, rjpod, d3Network
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
