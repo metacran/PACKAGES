@@ -2870,7 +2870,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: BMA
-Version: 3.16.2.3
+Version: 3.17.1
 Depends: survival, leaps, robustbase
 Suggests: MASS, rrcov, forward
 License: GPL (>= 2)
@@ -22863,6 +22863,12 @@ Suggests: vegan
 License: GPL-2
 NeedsCompilation: no
 
+Package: phyloTop
+Version: 1.1
+Depends: phylobase, NHPoisson, ape, igraph
+License: GPL-2
+NeedsCompilation: no
+
 Package: phyreg
 Version: 0.7
 License: GPL-2 | GPL-3
@@ -33251,7 +33257,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: swirl
-Version: 2.2.5
+Version: 2.2.6
 Depends: R (>= 3.0.2)
 Imports: stringr, testthat, httr, yaml, RCurl, digest
 License: GPL-3
@@ -33821,7 +33827,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TFMPvalue
-Version: 0.0.4
+Version: 0.0.5
 Depends: R (>= 3.0.1)
 Imports: Rcpp(>= 0.11.1)
 LinkingTo: Rcpp
