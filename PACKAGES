@@ -4157,7 +4157,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: choroplethr
-Version: 1.4.0
+Version: 1.5.0
 Depends: R (>= 3.0.0)
 Imports: ggplot2, scales, plyr, Hmisc, grid, acs, stringr
 Suggests: testthat, maps, zipcode, knitr
@@ -8485,13 +8485,6 @@ Version: 0.0-8.1
 Suggests: network
 License: GPL-2
 NeedsCompilation: yes
-
-Package: epipen
-Version: 1.0-0
-Imports: pwr
-Suggests: asypow
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: epiR
 Version: 0.9-58
@@ -22798,7 +22791,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phonTools
-Version: 0.2-1.1
+Version: 0.2-1.2
 Depends: R (>= 2.15)
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -30823,8 +30816,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: siplab
-Version: 1.0
-Depends: spatstat
+Version: 1.1
+Depends: spatstat (>= 1.36-0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
