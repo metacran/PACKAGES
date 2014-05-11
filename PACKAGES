@@ -35438,10 +35438,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: vines
-Version: 1.0.11
+Version: 1.1.0
 Depends: methods, copula
 Imports: ADGofTest, cubature, TSP
-License: GPL (>= 3)
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: violinmplot
