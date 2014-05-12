@@ -5175,11 +5175,11 @@ License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
 
 Package: copulaedas
-Version: 1.3.1
+Version: 1.4.0
 Depends: methods
-Imports: copula, vines (>= 1.0.10), mvtnorm, truncnorm
+Imports: copula, vines (>= 1.1.0), mvtnorm, truncnorm
 Suggests: cec2005benchmark, cec2013
-License: GPL (>= 3)
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CopulaRegression
@@ -8198,8 +8198,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: emdatr
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.2)
+Imports: RCurl
+Suggests: ggplot2, plyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18100,7 +18102,7 @@ License: BSD
 NeedsCompilation: yes
 
 Package: MicroDatosEs
-Version: 0.4
+Version: 0.6.1
 Depends: memisc, Hmisc
 License: GPL-3
 NeedsCompilation: no
@@ -34909,6 +34911,12 @@ Package: turboEM
 Version: 2012.2-1
 Depends: R (>= 2.12.0), numDeriv, methods, graphics, quantreg, foreach
 Suggests: setRNG, doSNOW
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: turfR
+Version: 0.8-4
+Depends: R (>= 3.0.0), dplyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
