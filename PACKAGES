@@ -5206,9 +5206,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CORElearn
-Version: 0.9.42
-Depends: cluster, rpart, stats
-Suggests: lattice
+Version: 0.9.43
+Imports: cluster, rpart, stats
+Suggests: lattice,MASS
 License: GPL-3
 NeedsCompilation: yes
 
@@ -12758,7 +12758,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: GWmodel
-Version: 1.2-2
+Version: 1.2-3
 Depends: R (>= 3.0.0),maptools (>= 0.5-2), robustbase
 Suggests: mvoutlier, RColorBrewer, gstat
 License: GPL (>= 2)
@@ -17055,8 +17055,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markdown
-Version: 0.6.5
+Version: 0.7
 Depends: R (>= 2.11.1)
+Imports: mime (>= 0.1.1)
 Suggests: knitr, RCurl
 License: GPL-2
 NeedsCompilation: yes
@@ -18173,7 +18174,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mime
-Version: 0.1
+Version: 0.1.1
 Imports: tools
 License: GPL
 NeedsCompilation: no
@@ -32593,7 +32594,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stilt
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 2.15.1), fields
 License: GPL-3
 NeedsCompilation: no
