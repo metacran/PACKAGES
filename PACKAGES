@@ -4606,6 +4606,12 @@ Imports: grDevices
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: cna
+Version: 0.1-3
+Depends: R (>= 2.13.0), utils
+License: GPL-2
+NeedsCompilation: no
+
 Package: cncaGUI
 Version: 0.0-2
 Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tcltk2
@@ -7593,10 +7599,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dti
-Version: 1.1-7
-Depends: R (>= 2.14.0), awsMethods (>= 1.0-1)
-Imports: methods, parallel, oro.nifti (>= 0.3.9), oro.dicom, adimpro,
-        gsl, rgl
+Version: 1.2-0
+Depends: R (>= 2.14.0), awsMethods (>= 1.0-1), adimpro, rgl
+Imports: methods, parallel, oro.nifti (>= 0.3.9), oro.dicom, gsl
 Suggests: quadprog
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -19854,6 +19859,12 @@ Depends: R(>= 2.13.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MXM
+Version: 0.1
+Suggests: gRbase, hash, Biobase, VGAM, MASS, pcalg, survival, methods
+License: GPL-2
+NeedsCompilation: no
+
 Package: mycobacrvR
 Version: 1.0
 Depends: R (>= 2.15), methods
@@ -27141,7 +27152,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RGtk2
-Version: 2.20.27
+Version: 2.20.29
 Depends: R (>= 2.5.0)
 License: GPL
 NeedsCompilation: yes
@@ -29845,7 +29856,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: sdmvspecies
-Version: 0.2
+Version: 0.2.1
 Depends: raster, parallel, ggplot2
 License: GPL-2
 NeedsCompilation: no
