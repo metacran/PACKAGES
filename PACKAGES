@@ -35581,7 +35581,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VSURF
-Version: 0.8.1
+Version: 0.8.2
 Depends: randomForest, rpart, doParallel
 License: GPL (>= 2)
 NeedsCompilation: no
