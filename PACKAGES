@@ -2985,8 +2985,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: boilerpipeR
-Version: 1.1
-Depends: rJava
+Version: 1.2
+Imports: rJava
+Suggests: RCurl
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
@@ -32796,7 +32797,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: strvalidator
-Version: 1.1.0
+Version: 1.2.0
 Imports: gtable, ggplot2, gWidgets, plyr, scales, gridExtra, grid
 Suggests: ResourceSelection, gWidgetsRGtk2, testthat
 License: GPL-2
