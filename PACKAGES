@@ -16953,7 +16953,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAPA
-Version: 1.3
+Version: 1.4
 Depends: forecast (>= 5.3), miscTools, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21316,7 +21316,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: OptimalCutpoints
-Version: 1.1-1
+Version: 1.1-2
 License: GPL
 NeedsCompilation: no
 
@@ -29396,7 +29396,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: samplingEstimates
-Version: 0.1-2
+Version: 0.1-3
 Depends: R (>= 3.0.0), samplingVarEst
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -29408,7 +29408,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: samplingVarEst
-Version: 0.9-8
+Version: 0.9-9
 Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
