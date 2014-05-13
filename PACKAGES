@@ -31881,9 +31881,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spatsurv
-Version: 0.9-1
-Depends: survival, flexsurv, sp, tcltk
-Imports: iterators, RandomFields, fields, rgl, Matrix, FNN
+Version: 0.9-2
+Depends: survival, flexsurv, sp
+Imports: iterators, RandomFields, fields, rgl, Matrix
 Suggests: rgdal, gpclib
 License: GPL-3
 NeedsCompilation: no
