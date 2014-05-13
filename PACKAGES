@@ -20739,7 +20739,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: nplr
-Version: 0.1
+Version: 0.1-1
 Depends: methods
 Imports: stats,graphics
 Suggests: RUnit,knitr
@@ -22321,8 +22321,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PCPS
-Version: 1.0
-Depends: picante, SYNCSA, vegan
+Version: 1.0.1
+Depends: SYNCSA, vegan
+Imports: ape, picante, phylobase, plotrix
 License: GPL-2
 NeedsCompilation: no
 
@@ -30200,6 +30201,11 @@ Version: 1.2
 License: GPL-2
 NeedsCompilation: no
 
+Package: sensitivitymw
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: SensoMineR
 Version: 1.20
 Depends: R (>= 2.12.0), FactoMineR (>= 1.23)
@@ -33098,10 +33104,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: survMisc
-Version: 0.4
-Depends: R (>= 2.10), survival, km.ci, stats, ggplot2, data.table,
-        gridExtra
-Imports: graphics, utils, KMsurv, combinat, stringr, Hmisc, zoo, gam
+Version: 0.4.2
+Depends: R (>= 2.10), survival, stats, ggplot2, data.table, rpart
+Imports: graphics, gridExtra, utils, combinat, Hmisc, zoo, km.ci,
+        KMsurv, gam
 License: GPL-2
 NeedsCompilation: no
 
