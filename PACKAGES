@@ -300,7 +300,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: adegenet
-Version: 1.4-1
+Version: 1.4-2
 Depends: R (>= 2.14), methods, ade4
 Imports: utils, stats, MASS, igraph, ape, shiny, ggplot2
 Suggests: genetics, spdep, tripack, pegas, seqinr, adehabitat,
@@ -5783,6 +5783,13 @@ Version: 2.2
 Suggests: onion
 License: GPL-2
 NeedsCompilation: yes
+
+Package: cutoffR
+Version: 1.0
+Depends: R (>= 3.1.0)
+Imports: ggplot2, reshape2
+License: GPL-2
+NeedsCompilation: no
 
 Package: cuttlefish.model
 Version: 1.0
@@ -25207,8 +25214,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomForestSRC
-Version: 1.4
-Depends: R (>= 3.0.0), parallel
+Version: 1.5.0
+Depends: R (>= 3.1.0), parallel
 Suggests: glmnet, XML
 License: GPL (>= 3)
 NeedsCompilation: yes
