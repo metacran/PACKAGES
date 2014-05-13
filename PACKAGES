@@ -5253,7 +5253,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CorReg
-Version: 0.14.3
+Version: 0.14.5
 Depends: R(>= 3.0.2)
 Imports: Rcpp(>= 0.11.0), lars(>= 1.2), elasticnet(>= 1.1), clere(>=
         1.1), spikeslab(>= 1.1.5), corrplot(>= 0.73), Matrix(>= 1.1),
@@ -6183,7 +6183,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dbmss
-Version: 2.1.0
+Version: 2.1.1
 Depends: spatstat, Rcpp (>= 0.10.6)
 Imports: cubature
 LinkingTo: Rcpp
@@ -10487,7 +10487,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fSRM
-Version: 0.3.4
+Version: 0.3.5
 Depends: lavaan, plyr, reshape2
 Suggests: foreign, tcltk, tcltk2
 License: GPL (>= 2)
@@ -12399,7 +12399,7 @@ License: AGPL
 NeedsCompilation: no
 
 Package: groc
-Version: 1.0.1
+Version: 1.0.2
 Depends: pls, mgcv, robust, robustbase
 Suggests: ppls
 License: GPL (>= 2)
@@ -13151,7 +13151,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: hht
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 3.0.0)
 Imports: EMD (>= 1.5.5), fields (>= 6.7.6)
 License: GPL (>= 3)
@@ -16836,8 +16836,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: magicaxis
-Version: 1.7
-Depends: R (>= 2.13), MASS, plotrix
+Version: 1.8
+Depends: R (>= 2.13), MASS, plotrix, sm
 License: GPL-2
 NeedsCompilation: no
 
@@ -17898,7 +17898,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: mets
-Version: 0.2.7
+Version: 0.2.8
 Depends: R (>= 2.15), timereg (>= 1.8.4), lava (>= 1.2.4)
 Imports: numDeriv, compiler, Rcpp, splines
 LinkingTo: Rcpp, RcppArmadillo
@@ -18989,7 +18989,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Morpho
-Version: 2.0.2
+Version: 2.0.3-1
 Depends: R (>= 3.0.2)
 Imports: Rvcg (>= 0.7), rgl (>= 0.93.963), colorRamps, foreach (>=
         1.4.0), Matrix (>= 1.0-1), parallel, yaImpute, doParallel (>=
@@ -26090,6 +26090,14 @@ Version: 0.1
 Depends: R (>= 2.13.0), Rcpp (>= 0.9.4)
 LinkingTo: Rcpp
 License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: RcppRedis
+Version: 0.1.0
+Imports: methods, Rcpp (>= 0.11.0), RApiSerialize
+LinkingTo: Rcpp, RApiSerialize
+Suggests: rredis, RUnit
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppRoll
@@ -34078,7 +34086,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: timetools
-Version: 1.5.2
+Version: 1.6.0
 Depends: methods
 License: GPL
 NeedsCompilation: yes
