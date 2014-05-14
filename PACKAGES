@@ -948,7 +948,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: aprof
-Version: 0.1
+Version: 0.2
 License: GPL-2
 NeedsCompilation: no
 
@@ -14791,6 +14791,12 @@ Imports: sciplot, png, grid
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ivlewbel
+Version: 1.0
+Depends: stats, gmm, plyr, lmtest
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: ivpack
 Version: 1.1
 Depends: AER, sandwich, lmtest
@@ -24707,6 +24713,12 @@ Depends: R (>= 2.8.0), fitdistrplus
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: qmethod
+Version: 1.0
+Imports: methods, psych, GPArotation
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: qmrparser
 Version: 0.1.4
 Depends: R (>= 2.11.1)
@@ -29145,8 +29157,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rvHPDT
-Version: 2.0
-Depends: gregmisc, R(>= 2.15.0)
+Version: 3.0
+Depends: gtools, R(>= 2.15.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32699,10 +32711,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stm
-Version: 0.6.1
+Version: 0.6.12
 Depends: R (>= 2.10)
 Imports: matrixStats, splines, slam, lda, stringr
-Suggests: igraph, SnowballC, tm, huge, glmnet, Matrix, textir
+Suggests: igraph, SnowballC, tm, huge, glmnet, Matrix, jsonlite, clue
 License: MIT + file LICENSE
 NeedsCompilation: no
 
