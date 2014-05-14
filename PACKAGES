@@ -13082,8 +13082,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: helsinki
-Version: 0.9.12
-Depends: R (>= 3.0.1), rjson, RCurl, maptools, utils
+Version: 0.9.18
+Depends: R (>= 3.0.1), maptools
+Imports: rjson, RCurl
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
