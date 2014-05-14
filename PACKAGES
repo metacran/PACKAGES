@@ -23047,7 +23047,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pkgmaker
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.0.0), stats, registry
 Imports: methods, tools, codetools, digest, stringr, xtable, grDevices
 Suggests: devtools (>= 0.8), bibtex, RUnit, testthat, knitr,
