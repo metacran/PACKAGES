@@ -8650,6 +8650,13 @@ Depends: fdrtool, mnormt
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: erpR
+Version: 0.2.0
+Depends: R (>= 3.0.2), rpanel
+Suggests: akima
+License: GPL-3
+NeedsCompilation: no
+
 Package: ES
 Version: 1.0
 License: GPL-2
@@ -13743,7 +13750,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: hydroApps
-Version: 0.0-1
+Version: 0.1-1
 Depends: nsRFA
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14146,6 +14153,14 @@ Package: imputeMDR
 Version: 1.1.2
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: imputeR
+Version: 1.0.0
+Depends: R (>= 3.1.0),
+Imports: caret, reshape2, glmnet, pls, rda, Cubist, ridge, gbm, mboost,
+        rpart,
+License: GPL-2
+NeedsCompilation: no
 
 Package: imputeYn
 Version: 1.1
@@ -17760,7 +17775,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 3.5-0
+Version: 3.5-1
 Depends: R (>= 2.9.1), grid
 Suggests: metafor
 License: GPL (>= 2)
@@ -30600,7 +30615,7 @@ License: Apache License (>= 2.0)
 NeedsCompilation: yes
 
 Package: shp2graph
-Version: 0-1
+Version: 0-2
 Depends: R (>= 3.0.0),maptools,igraph
 License: GPL (>= 2)
 NeedsCompilation: yes
