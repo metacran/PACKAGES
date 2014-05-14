@@ -3860,6 +3860,13 @@ Suggests: tframe (>= 2006.1-1), tfplot
 License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
+Package: CDS
+Version: 0.1-0
+Depends: grid, R (>= 2.10),methods, Rcpp (>= 0.10.6), RCurl, XML
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: CDVine
 Version: 1.2
 Depends: R (>= 2.11.0), MASS, mvtnorm, igraph
@@ -16407,6 +16414,13 @@ Depends: R (>= 3.0.0), mice, mgcv
 License: GPL
 NeedsCompilation: yes
 
+Package: LogisticDx
+Version: 0.1
+Depends: R (>= 2.13.0), multcomp, data.table, pROC, car
+Imports: gRbase, rms, stats, statmod, graphics, speedglm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: logistiX
 Version: 1.0-1
 Depends: R (>= 2.15.1)
@@ -18521,7 +18535,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: mixtools
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10.0), boot, MASS, segmented
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -24371,7 +24385,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: psych
-Version: 1.4.4
+Version: 1.4.5
 Depends: R (>= 2.10)
 Suggests: MASS, parallel, GPArotation, mvtnorm, polycor, sem, lavaan,
         Rcsdp, graph, Rgraphviz
@@ -25536,8 +25550,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RbioRXN
-Version: 1.1
-Depends: R (>= 2.0.0), gdata, CHNOSZ, hash, foreach
+Version: 1.2
+Depends: R (>= 3.0.2), gdata, CHNOSZ, hash, foreach
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27380,6 +27394,15 @@ Version: 0.8-5
 Depends: vegan
 Suggests: lattice, RODBC, gdata, mgcv
 License: GPL-3
+NeedsCompilation: yes
+
+Package: ripa
+Version: 2.0-1
+Depends: R (>= 2.8.1), tcltk
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: e1071, reshape, methods, jpeg, png, tkrplot, fftw, rggobi
+License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
 Package: risaac
