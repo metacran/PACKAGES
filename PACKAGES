@@ -32846,7 +32846,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: stringi
-Version: 0.1-25
+Version: 0.2-3
 Depends: R (>= 2.15.0)
 License: file LICENSE
 License_is_FOSS: yes
