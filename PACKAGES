@@ -8591,7 +8591,7 @@ License: GPL (>= 2) | file LICENSE
 NeedsCompilation: no
 
 Package: equateIRT
-Version: 1.0-1
+Version: 1.1
 Imports: statmod
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12000,7 +12000,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Gmisc
-Version: 0.6.2.0
+Version: 0.6.2.3
 Depends: Hmisc
 Imports: grid, stringr, lattice, sp, methods
 Suggests: testthat, XML
@@ -30884,7 +30884,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SimRAD
-Version: 0.93
+Version: 0.94
 Depends: Biostrings, ShortRead
 Suggests: seqinr
 License: GPL-2
@@ -32879,7 +32879,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: stringi
-Version: 0.2-3
+Version: 0.2-4
 Depends: R (>= 2.15.0)
 License: file LICENSE
 License_is_FOSS: yes
