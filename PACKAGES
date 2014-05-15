@@ -7427,6 +7427,13 @@ Depends: graphics, grDevices, stats, utils, coneproj, Matrix, MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: DoubleExpSeq
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: numDeriv
+License: GPL-3
+NeedsCompilation: no
+
 Package: downloader
 Version: 0.3
 Imports: digest
@@ -19006,7 +19013,7 @@ License: MPL (== 1.1)
 NeedsCompilation: yes
 
 Package: monitoR
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10), tuneR, methods
 Suggests: fftw, parallel, RODBC, knitr
 License: GPL-2
@@ -36109,7 +36116,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wq
-Version: 0.3-11
+Version: 0.4-1
 Depends: methods, R (>= 3.0.0), zoo
 Suggests: ggplot2 (>= 0.9), grid, reshape2
 License: GPL-2
