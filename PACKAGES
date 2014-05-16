@@ -2425,12 +2425,11 @@ OS_type: unix
 NeedsCompilation: no
 
 Package: bigrf
-Version: 0.1-6
-Depends: R (>= 2.14), methods, bigmemory, BH
+Version: 0.1-11
+Depends: R (>= 2.14), methods, bigmemory
 Imports: foreach
 LinkingTo: bigmemory, BH
 Suggests: MASS, doParallel
-Enhances: bigmemory
 License: GPL-3
 OS_type: unix
 NeedsCompilation: yes
@@ -2571,13 +2570,6 @@ Suggests: vegan (>= 1.17-12), permute, lattice, MASS, mgcv, cluster,
         rgdal, gbm, randomForest, gam, earth, mda, kernlab, e1071,
         tools, methods
 License: GPL-2
-NeedsCompilation: no
-
-Package: BioGeoBEARS
-Version: 0.2.1
-Depends: rexpokit, cladoRcpp, ape, phylobase, methods
-Imports: optimx, FD, parallel, xtable, plotrix, gdata
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Biograph
@@ -2928,7 +2920,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bmmix
-Version: 0.1-0
+Version: 0.1-1
 Depends: R (>= 3.0.0)
 Imports: utils
 Suggests: ggplot2, reshape2
@@ -4302,13 +4294,6 @@ Depends: R (>= 2.10.0)
 License: LGPL (>= 3)
 NeedsCompilation: yes
 
-Package: cladoRcpp
-Version: 0.14.2
-Depends: methods, Rcpp (>= 0.9.10), RcppArmadillo
-LinkingTo: Rcpp, RcppArmadillo
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: CLAG
 Version: 2.18.1
 Depends: R (>= 2.14)
@@ -5092,12 +5077,6 @@ Package: ConjointChecks
 Version: 0.0.9
 Depends: R (>= 2.14.0), parallel, methods
 Suggests: snow, Rmpi
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: ConnMatTools
-Version: 0.1.4
-Suggests: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7770,6 +7749,12 @@ Depends: lpridge
 License: GPL-2
 NeedsCompilation: no
 
+Package: dynia
+Version: 0.2
+Depends: R (>= 2.0.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: dynlm
 Version: 0.3-3
 Depends: R (>= 2.10.0), zoo
@@ -9724,9 +9709,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FGN
-Version: 2.0-11
-Depends: R (>= 2.1.0), ltsa, akima
-Imports: ltsa
+Version: 2.0-12
+Depends: R (>= 2.1.0)
+Imports: akima, ltsa
 License: CC BY-NC-SA 3.0
 NeedsCompilation: yes
 
@@ -11144,7 +11129,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: geiger
-Version: 2.0.1
+Version: 2.0.3
 Depends: ape (>= 3.0-6), R (>= 2.15.0)
 Imports: MASS, mvtnorm, subplex, deSolve (>= 1.7), digest, Rcpp (>=
         0.9.0), coda
@@ -15107,12 +15092,6 @@ Version: 0.2.0
 Imports: randomForest, AUC, genalg, kernlab
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: kernelPop
-Version: 1.0.2
-Depends: ape, ade4, MASS
-License: GPL
-NeedsCompilation: yes
 
 Package: kernlab
 Version: 0.9-19
@@ -19329,12 +19308,6 @@ Version: 1.05
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: MSBVAR
-Version: 0.7-2
-Depends: R (>= 2.14.0), KernSmooth, xtable, coda, bit, mvtnorm, lattice
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: mseapca
 Version: 1.0
 Depends: XML
@@ -22284,8 +22257,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PBSddesolve
-Version: 1.10.25
+Version: 1.11.29
 Depends: R (>= 2.15.0)
+Suggests: PBSmodelling
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25306,7 +25280,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomForestSRC
-Version: 1.5.0
+Version: 1.5.1
 Depends: R (>= 3.1.0), parallel
 Suggests: glmnet, XML
 License: GPL (>= 3)
@@ -25929,11 +25903,11 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.NMBU
-Version: 1.7.1
-Depends: R (>= 3.0.0), mixlm (>= 1.0.2), MASS, pls
+Version: 1.7.2
+Depends: R (>= 3.0.0), mixlm (>= 1.0.3), MASS, pls
 Imports: Rcmdr (>= 2.0-0), tcltk
 Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, xtable,
-        pbkrtest, vcd, multcomp, e1071
+        pbkrtest, vcd, multcomp, e1071, nnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27773,12 +27747,6 @@ Version: 2.16
 Depends: grid
 License: GPL-2
 NeedsCompilation: no
-
-Package: rmetasim
-Version: 2.0.1
-Depends: ape, ade4, gtools
-License: GPL
-NeedsCompilation: yes
 
 Package: R.methodsS3
 Version: 1.6.1
@@ -32760,9 +32728,9 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: stochvol
-Version: 0.8-1
+Version: 0.8-2
 Depends: R (>= 2.14), coda
-Imports: Rcpp (>= 0.9.10)
+Imports: methods, Rcpp (>= 0.9.10)
 LinkingTo: Rcpp
 Suggests: mvtnorm
 License: GPL (>= 2)
@@ -32886,7 +32854,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: stringi
-Version: 0.2-4
+Version: 0.2-5
 Depends: R (>= 2.15.0)
 License: file LICENSE
 License_is_FOSS: yes
