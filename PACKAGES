@@ -8443,7 +8443,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: enviPat
-Version: 1.5
+Version: 1.6
 License: GPL-2
 NeedsCompilation: yes
 
@@ -32847,7 +32847,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.7.2
+Version: 0.7.3
 Depends: R (>= 2.15.3), parallel
 Suggests: testthat
 License: GPL-3
