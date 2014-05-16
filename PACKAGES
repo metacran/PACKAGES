@@ -28854,8 +28854,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rspa
-Version: 0.1-4
-Depends: editrules
+Version: 0.1-5
+Depends: R (>= 2.13.0), editrules
 Suggests: knitr, testthat
 License: GPL-3
 NeedsCompilation: yes
@@ -31028,7 +31028,7 @@ NeedsCompilation: no
 
 Package: Skillings.Mack
 Version: 1.0-2
-Depends: R (>= 3.0.1), MASS, gregmisc, matrixcalc, gtools
+Depends: R (>= 3.0.1), MASS, matrixcalc, gtools
 License: GPL-2
 NeedsCompilation: no
 
