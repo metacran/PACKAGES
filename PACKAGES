@@ -6609,7 +6609,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: detect
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 2.13.0), Formula, stats4
 Suggests: dclone, dcmle, pbapply
 License: GPL-2
@@ -17715,7 +17715,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mefa4
-Version: 0.3-0
+Version: 0.3-1
 Depends: R (>= 2.14.0), methods, Matrix
 Suggests: mefa
 License: GPL-2
@@ -22153,7 +22153,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pbapply
-Version: 1.1-0
+Version: 1.1-1
 License: GPL-2
 NeedsCompilation: no
 
@@ -24676,7 +24676,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapTools
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.0.0)
 Imports: chron, RCurl
 License: GPL-2
@@ -24753,7 +24753,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qqman
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0.0)
 Suggests: knitr
 License: GPL-3
@@ -24767,9 +24767,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: QRM
-Version: 0.4-9
-Depends: R (>= 2.10.0), gsl, Matrix, mvtnorm, numDeriv, timeSeries
-Imports: mgcv
+Version: 0.4-10
+Depends: R (>= 3.0.1), gsl, Matrix, mvtnorm, numDeriv, timeSeries
+Imports: Rcpp (>= 0.11.1), mgcv
+LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
