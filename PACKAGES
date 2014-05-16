@@ -9753,7 +9753,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fields
-Version: 6.9.1
+Version: 7.1
 Depends: R (>= 3.0), methods, spam, maps
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -19762,6 +19762,12 @@ Package: mvc
 Version: 1.3
 Depends: R (>= 2.14.1), rattle (>= 2.6.18)
 License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
+Package: mvctm
+Version: 1.0
+Depends: R (>= 3.1.0), Formula, nlme, MNM, quantreg, Rfit
+License: GPL-2
 NeedsCompilation: no
 
 Package: mvcwt
@@ -30818,7 +30824,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: simPH
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.2)
 Imports: car, DataCombine, data.table (>= 1.9.2), dplyr, ggplot2,
         gridExtra, MASS, mgcv, plyr, reshape2, stats, stringr,
