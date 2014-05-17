@@ -3006,6 +3006,14 @@ Suggests: igraph, XML
 License: Artistic-2.0
 NeedsCompilation: yes
 
+Package: boostr
+Version: 1.0.0
+Depends: R (>= 3.0.2)
+Imports: foreach, iterators, stringr
+Suggests: knitr, xtable, mlbench, nnet, class, e1071, randomForest
+License: GPL-2
+NeedsCompilation: no
+
 Package: boostSeq
 Version: 1.0
 Depends: R (>= 2.11.0), genetics, lpSolveAPI
@@ -9031,6 +9039,12 @@ Package: exsic
 Version: 1.0
 Depends: R (>= 2.15.1), stringr, markdown
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: ExtDist
+Version: 0.3
+Depends: numDeriv
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: extfunnel
@@ -19540,11 +19554,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: multicore
-Version: 0.1-7
-Depends: R (>= 2.0.0)
+Version: 0.2
+Depends: R (>= 2.14.0)
+Imports: parallel, tools
 License: GPL-2
 OS_type: unix
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: multiDimBio
 Version: 0.3.3
