@@ -8425,7 +8425,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: entropart
-Version: 1.1.3
+Version: 1.2.0
 Imports: ade4
 Suggests: vegan
 License: GNU General Public License
@@ -18124,7 +18124,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: micEconAids
-Version: 0.6-14
+Version: 0.6-16
 Depends: R (>= 2.14.0), lmtest, micEcon (>= 0.6-0)
 Imports: stats, systemfit (>= 1.1-12), miscTools (>= 0.6-0)
 License: GPL (>= 2)
@@ -27839,8 +27839,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rmpi
-Version: 0.6-3
-Depends: R (>= 2.14.0)
+Version: 0.6-4
+Depends: R (>= 2.15.1)
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
