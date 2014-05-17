@@ -29028,12 +29028,6 @@ Depends: pixmap
 License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
-Package: RTisean
-Version: 3.0.14
-Depends: R (>= 2.5.0), tcltk
-License: GPL-2
-NeedsCompilation: no
-
 Package: RTOMO
 Version: 1.1-2
 Depends: R (>= 2.12)
@@ -35646,6 +35640,11 @@ Depends: R (>= 2.13.0), MASS
 Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: VNM
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
 
 Package: Voss
 Version: 0.1-4
