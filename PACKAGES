@@ -2441,7 +2441,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bigsplines
-Version: 1.0-0
+Version: 1.0-1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -10624,6 +10624,12 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: FusedLasso
+Version: 1.0.5
+Depends: Matrix
+License: GPL-3
+NeedsCompilation: yes
+
 Package: FusedPCA
 Version: 0.2
 Depends: R (>= 2.15.1), genlasso
@@ -10799,7 +10805,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gambin
-Version: 1.0
+Version: 1.1
 Depends: stats
 License: GPL-2
 NeedsCompilation: no
@@ -16927,8 +16933,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mailR
-Version: 0.1
-Imports: rJava
+Version: 0.3
+Imports: rJava, stringr
 License: GPL-3
 NeedsCompilation: no
 
@@ -23464,7 +23470,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: pmr
-Version: 1.2.3
+Version: 1.2.4
 Depends: stats4
 License: GPL-2
 NeedsCompilation: no
@@ -27725,10 +27731,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: R.matlab
-Version: 2.2.3
+Version: 3.0.0
 Depends: R (>= 2.5.0)
-Imports: utils, R.methodsS3 (>= 1.6.1), R.oo (>= 1.17.0), R.utils (>=
-        1.29.8)
+Imports: utils, R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>=
+        1.32.4)
 Suggests: Matrix, SparseM
 License: LGPL (>= 2.1)
 NeedsCompilation: no
