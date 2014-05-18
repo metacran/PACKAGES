@@ -2572,6 +2572,13 @@ Suggests: vegan (>= 1.17-12), permute, lattice, MASS, mgcv, cluster,
 License: GPL-2
 NeedsCompilation: no
 
+Package: BioGeoBEARS
+Version: 0.2.1
+Depends: rexpokit, cladoRcpp, ape, phylobase, methods
+Imports: optimx, FD, parallel, xtable, plotrix, gdata
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: Biograph
 Version: 2.0.4
 Depends: R (>= 3.0.0)
@@ -4300,6 +4307,13 @@ Package: Ckmeans.1d.dp
 Version: 3.02
 Depends: R (>= 2.10.0)
 License: LGPL (>= 3)
+NeedsCompilation: yes
+
+Package: cladoRcpp
+Version: 0.14.4
+Imports: Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CLAG
@@ -17442,6 +17456,12 @@ Suggests: fitdistrplus, survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MC2toPath
+Version: 0.0.16
+Imports: RNetCDF
+License: GPL-2
+NeedsCompilation: no
+
 Package: MCAPS
 Version: 0.3-2
 Depends: R (>= 2.14.0)
@@ -26298,11 +26318,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: R.devices
-Version: 2.8.2
+Version: 2.9.2
 Depends: R (>= 2.10.0)
-Imports: R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>= 1.28.4),
+Imports: R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>= 1.32.4),
         base64enc (>= 0.1-1)
-Suggests: digest (>= 0.6.4), R.rsp (>= 0.9.28)
+Suggests: digest (>= 0.6.4), R.rsp (>= 0.15.0)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
