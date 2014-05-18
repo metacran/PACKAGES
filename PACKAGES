@@ -12903,6 +12903,11 @@ Suggests: MASS, rpart, mda, nnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: Hankel
+Version: 0.0-1
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: hapassoc
 Version: 1.2-6
 Depends: R (>= 2.6.0), stats
@@ -14241,10 +14246,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ineq
-Version: 0.2-11
+Version: 0.2-12
 Depends: R (>= 2.10.0)
 Imports: stats, graphics, grDevices
-License: GPL-2
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: InfDim
