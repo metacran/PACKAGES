@@ -14652,7 +14652,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: isingLenzMC
-Version: 0.1.1
+Version: 0.2.1
 Depends: R (>= 3.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -25215,7 +25215,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: R4CDISC
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.2), XML
 License: LGPL-3
 NeedsCompilation: no
@@ -28140,10 +28140,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: robust
-Version: 0.4-15
-Depends: R (>= 2.15.0), fit.models, MASS, lattice, robustbase, rrcov
-Imports: stats, robustbase
-License: GPL
+Version: 0.4-16
+Depends: fit.models, MASS, lattice, robustbase, rrcov, stats
+License: GPL-2
 NeedsCompilation: yes
 
 Package: RobustAFT
