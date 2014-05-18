@@ -5702,6 +5702,12 @@ Depends: R (>= 2.15), compiler
 License: LGPL
 NeedsCompilation: no
 
+Package: cstar
+Version: 1.0
+Suggests: MASS
+License: GPL-2
+NeedsCompilation: no
+
 Package: cts
 Version: 1.0-19
 License: GPL (>= 2)
@@ -24723,6 +24729,13 @@ Version: 0.9.2
 Imports: pheatmap
 Suggests: testthat, biom
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: qlcMatrix
+Version: 0.9.1
+Depends: Matrix (>= 1.1-0), R (>= 2.10)
+Suggests: MASS
+License: GPL-3
 NeedsCompilation: no
 
 Package: qLearn
