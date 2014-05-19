@@ -24635,9 +24635,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: PVAClone
-Version: 0.1-1
+Version: 0.1-2
 Depends: R (>= 2.15.0), methods, dcmle, dclone, stats4
-Suggests: snow
+Suggests: parallel
 License: GPL-2
 NeedsCompilation: no
 
@@ -30671,7 +30671,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sharx
-Version: 1.0-3
+Version: 1.0-4
 Depends: methods, stats4, Formula, dcmle, dclone
 License: GPL-2
 NeedsCompilation: no
