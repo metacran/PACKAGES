@@ -13471,7 +13471,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: hmm.discnp
-Version: 0.2-1
+Version: 0.2-2
 Depends: R (>= 0.99)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -32509,6 +32509,12 @@ Version: 1.4.4
 Depends: R (>= 2.10.0), stats, graphics, utils, tcltk, psych
 Suggests: MASS, TSA,TTR
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: sse
+Version: 0.5-1
+Depends: R (>= 2.5.0), methods, grid, lattice, graphics, base, stats
+License: GPL-3
 NeedsCompilation: no
 
 Package: ssfit
