@@ -4387,7 +4387,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: clickstream
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.0.1), methods
 Imports: igraph, plyr, reshape2, Rsolnp
 License: GPL-2
@@ -11659,7 +11659,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ggm
-Version: 2.0
+Version: 2.1
 Depends: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21111,9 +21111,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: oce
-Version: 0.9-13
+Version: 0.9-14
 Depends: R (>= 2.15), utils, methods, mapproj
-Suggests: ncdf, foreign
+Suggests: ocedata, foreign, ncdf4, tiff
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -23751,7 +23751,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PopGenome
-Version: 2.0.6
+Version: 2.0.7
 Depends: R (>= 2.14.2),ff
 Imports: methods
 Suggests: parallel, bigmemory, BASIX, WhopGenome
