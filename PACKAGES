@@ -7296,6 +7296,15 @@ Suggests: igraph, lars
 License: GPL-2
 NeedsCompilation: yes
 
+Package: DNAprofiles
+Version: 0.1.1
+Depends: RcppProgress
+Imports: Rcpp (>= 0.10.3), bit
+LinkingTo: Rcpp, RcppProgress
+Suggests: DNAtools
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: DNAtools
 Version: 0.1-8
 Depends: R (>= 2.10.0), Rsolnp, multicool
@@ -19998,7 +20007,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mwa
-Version: 0.2
+Version: 0.3
 Depends: R (>= 2.6), cem (>= 0.3), rJava (>= 0.9), MASS (>= 7.0)
 License: LGPL-3
 NeedsCompilation: no
