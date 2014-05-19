@@ -5131,8 +5131,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: conting
-Version: 1.1
-Depends: R (>= 2.15.0), mvtnorm, BMS, gregmisc, tseries, coda
+Version: 1.2
+Depends: R (>= 2.15.0)
+Imports: mvtnorm, BMS, gtools, tseries, coda
 License: GPL-2
 NeedsCompilation: no
 
@@ -17277,8 +17278,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MASSTIMATE
-Version: 1.1
-Depends: R (>= 2.10.0), epicalc
+Version: 1.2
+Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
