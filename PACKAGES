@@ -7308,10 +7308,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dnet
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.1.0), igraph, supraHex
 Imports: graph, Rgraphviz, Matrix, Biobase
-Suggests: limma, survival
+Suggests: limma, survival, foreach, doMC
 License: GPL-2
 NeedsCompilation: no
 
@@ -10050,6 +10050,12 @@ Suggests: eha
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FLIM
+Version: 1.1
+Depends: zoo, MASS
+License: GPL-2
+NeedsCompilation: no
+
 Package: flip
 Version: 2.4.2
 Depends: methods, e1071, someMTP, cherry
@@ -12546,8 +12552,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GRTo
-Version: 1.1
-Depends: R (>= 2.2.0), bootstrap
+Version: 1.2
+Depends: R (>= 2.2.0)
+Imports: bootstrap
 License: GPL
 NeedsCompilation: no
 
@@ -13012,9 +13019,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: hawkes
-Version: 0.0-3
-Depends: Rcpp (>= 0.11.1), RcppArmadillo (>= 0.4.100.2.1)
-LinkingTo: Rcpp,RcppArmadillo
+Version: 0.0-4
+Depends: R (>= 3.0.2)
+Imports: Rcpp (>= 0.11.1)
+LinkingTo: Rcpp, RcppArmadillo (>= 0.4.100.2.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -21157,8 +21165,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ODMconverter
-Version: 1.2
-Depends: R (>= 2.13.1), XML, xlsx
+Version: 2.0
+Depends: R (>= 2.13.1)
+Imports: XML, xlsx
 License: GPL
 NeedsCompilation: no
 
@@ -25692,6 +25701,13 @@ Version: 0.9
 Depends: R (>= 2.10), data.table
 Imports: RJSONIO, RCurl, digest
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: rbitcoinchartsapi
+Version: 1.0.0
+Depends: R (>= 3.0.3), RJSONIO, RCurl
+License: LGPL-3
+Archs: i386, x64
 NeedsCompilation: no
 
 Package: rbmn
@@ -36430,7 +36446,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.8.1
+Version: 0.9.0
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr
 License: FreeBSD
