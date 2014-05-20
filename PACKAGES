@@ -6717,6 +6717,12 @@ Depends: ggplot2, methods
 License: GPL
 NeedsCompilation: no
 
+Package: DFIT
+Version: 1.0
+Imports: simex, mvtnorm, ggplot2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: dfoptim
 Version: 2011.8-1
 Depends: R (>= 2.10.1)
@@ -10669,7 +10675,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FusedLasso
-Version: 1.0.5
+Version: 1.0.6
 Depends: Matrix
 License: GPL-3
 NeedsCompilation: yes
@@ -12335,6 +12341,11 @@ Version: 1.2-3
 Depends: R (>= 3.0.2), methods, gRbase (>= 1.7-0)
 Imports: igraph, graph
 Suggests: Rgraphviz
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: gramEvol
+Version: 1.0-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27009,7 +27020,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ResourceSelection
-Version: 0.2-3
+Version: 0.2-4
 Depends: R (>= 2.13.0)
 Suggests: MASS, pbapply
 License: GPL-2
@@ -33781,13 +33792,13 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.2.2
-Depends: R (>= 3.0.1)
+Version: 0.3.0
+Depends: R(>= 2.10.0)
 Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), RJSONIO,
-        foreach, ape, Taxonstand, reshape2, data.table, reshape, vegan,
-        rgbif
-Suggests: testthat, roxygen2, rjson, knitr
-License: CC0
+        foreach, ape, Taxonstand, reshape2, data.table, vegan,
+        assertthat
+Suggests: testthat, roxygen2, rjson, knitr, jsonlite
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Taxonstand
