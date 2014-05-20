@@ -18690,7 +18690,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mkin
-Version: 0.9-27
+Version: 0.9-28
 Depends: minpack.lm, rootSolve
 Imports: FME, deSolve
 Suggests: knitr, RUnit
@@ -31104,7 +31104,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.4.1
+Version: 1.4.2
 Imports: ggplot2, MASS, car, foreign, lmtest, plyr, psych, reshape2,
         scales
 License: GPL-3
