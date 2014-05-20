@@ -12023,6 +12023,13 @@ Depends: R (>= 2.6.0), methods
 License: GPL-3
 NeedsCompilation: yes
 
+Package: GLSME
+Version: 1.0
+Depends: R(>= 2.9.1), mvtnorm, corpcor
+Suggests: ape, mvSLOUCH, ouch
+License: GPL (>= 2) | file LICENCE
+NeedsCompilation: no
+
 Package: gmatrix
 Version: 0.1
 Depends: methods
@@ -36489,6 +36496,12 @@ Depends: methods, zoo, stats4, utils, expm
 Suggests: cubature, mvtnorm
 License: GPL-2
 NeedsCompilation: yes
+
+Package: zCompositions
+Version: 1.0.0
+Depends: R (>= 2.14.0), MASS, NADA, truncnorm
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: ZeBook
 Version: 0.5
