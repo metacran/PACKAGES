@@ -9103,10 +9103,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: extracat
-Version: 1.6-4
+Version: 1.7-0
 Depends: R (>= 3.0.0)
 Imports: grid, colorspace, hexbin, scales, ggplot2, reshape2, plyr, TSP
-Suggests: JGR, iplots, vcd, ca, amap, rgl, MASS
+Suggests: JGR, iplots, vcd, ca, amap, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -24056,9 +24056,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: prefmod
-Version: 0.8-31
-Depends: stats, gnm (>= 1.0-0), colorspace
-License: GPL
+Version: 0.8-32
+Depends: R (>= 3.0.0), stats, gnm (>= 1.0-0), colorspace
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PReMiuM
@@ -36374,35 +36374,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: xpose4
-Version: 4.4.1
-Depends: R (>= 2.2.0), methods, xpose4data (>= 4.4.1), xpose4generic
-        (>= 4.4.1), xpose4specific (>= 4.4.1), xpose4classic (>= 4.4.1)
-License: LGPL (>= 3)
-NeedsCompilation: no
-
-Package: xpose4classic
-Version: 4.4.1
-Depends: R (>= 2.2.0), methods, lattice, xpose4data (>= 4.4.1),
-        xpose4generic (>= 4.4.1), xpose4specific (>= 4.4.1)
-License: LGPL (>= 3)
-NeedsCompilation: no
-
-Package: xpose4data
-Version: 4.4.1
-Depends: R (>= 2.2.0), methods
-License: LGPL (>= 3)
-NeedsCompilation: no
-
-Package: xpose4generic
-Version: 4.4.1
-Depends: R (>= 2.2.0), lattice, grid, methods, xpose4data (>= 4.4.1)
-License: LGPL (>= 3)
-NeedsCompilation: no
-
-Package: xpose4specific
-Version: 4.4.1
-Depends: R (>= 2.2.0), lattice, grid, gam, methods, xpose4data (>=
-        4.4.1), xpose4generic (>= 4.4.1)
+Version: 4.5.0
+Depends: R (>= 2.2.0), methods, lattice, grid, gam
 Imports: Hmisc, survival
 License: LGPL (>= 3)
 NeedsCompilation: no
