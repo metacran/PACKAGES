@@ -33553,7 +33553,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sybilSBML
-Version: 2.0.7
+Version: 2.0.8
 Depends: R (>= 2.14.2), Matrix, sybil (>= 1.2.4)
 Imports: methods
 License: GPL-3
