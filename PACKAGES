@@ -8090,7 +8090,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: effsize
-Version: 0.5
+Version: 0.5.1
 License: GPL-2
 NeedsCompilation: no
 
