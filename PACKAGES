@@ -10509,9 +10509,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: freqweights
-Version: 0.0.1
-Imports: plyr, data.table, dplyr, biglm, fastcluster
-Suggests: MASS, hflights, cluster, ggplot2
+Version: 0.1.0
+Imports: plyr, dplyr (>= 0.2), data.table, biglm, fastcluster,
+        FactoMineR, stats
+Suggests: MASS, hflights, cluster, ggplot2, testthat, RSQLite
 License: GPL-3
 NeedsCompilation: no
 
@@ -19130,7 +19131,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: monomvn
-Version: 1.9-4
+Version: 1.9-5
 Depends: R (>= 2.10), pls, lars, MASS
 Suggests: quadprog, mvtnorm
 License: LGPL
