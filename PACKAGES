@@ -18572,9 +18572,9 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: mixAK
-Version: 3.5
-Depends: R (>= 3.0.0), colorspace
-Imports: splines, lme4 (>= 1.0), fastGHQuad, mnormt, parallel
+Version: 3.6
+Depends: R (>= 3.0.0), colorspace, lme4 (>= 1.0)
+Imports: splines, fastGHQuad, mnormt, parallel
 License: GPL (>= 3)
 NeedsCompilation: yes
 
