@@ -1335,6 +1335,11 @@ Version: 0.1-1
 License: MIT
 NeedsCompilation: no
 
+Package: autoencoder
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: automap
 Version: 1.0-14
 Depends: R (>= 2.10.0), sp (>= 0.9-55)
@@ -7266,7 +7271,7 @@ License: GPL (>= 2) | BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: dlnm
-Version: 2.0.9
+Version: 2.1.0
 Depends: R (>= 2.10)
 Imports: stats, graphics, grDevices, utils, splines, nlme
 Suggests: mgcv, survival, lme4, gee, geepack, mvmeta
@@ -11642,13 +11647,12 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: GGally
-Version: 0.4.5
-Depends: R (>= 3.0), ggplot2 (>= 0.9.3.1), reshape (>= 0.8.4)
-Imports: grid (>= 3.0.0), gtable (>= 0.1.2), plyr (>= 1.8), stringr (>=
-        0.6.2)
-Suggests: intergraph (>= 2.0-0), network (>= 1.7.2), RColorBrewer (>=
-        1.0-5), scales (>= 0.2.3), scagnostics (>= 0.2-4), sna (>=
-        2.3-1), survival (>= 2.37-4)
+Version: 0.4.6
+Depends: R (>= 2.14)
+Imports: ggplot2 (>= 1.0.0), grid (>= 3.0.0), gtable (>= 0.1.2), plyr
+        (>= 1.8), reshape (>= 0.8.4), stringr (>= 0.6.2)
+Suggests: scagnostics, intergraph (>= 2.0-0), network (>= 1.7.2),
+        RColorBrewer (>= 1.0-5), sna (>= 2.3-1)
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -11723,12 +11727,12 @@ License: MIT
 NeedsCompilation: no
 
 Package: ggplot2
-Version: 0.9.3.1
+Version: 1.0.0
 Depends: R (>= 2.14), stats, methods
 Imports: plyr (>= 1.7.1), digest, grid, gtable (>= 0.1.1), reshape2,
         scales (>= 0.2.3), proto, MASS
 Suggests: quantreg, Hmisc, mapproj, maps, hexbin, maptools, multcomp,
-        nlme, testthat
+        nlme, testthat, knitr, mgcv
 Enhances: sp
 License: GPL-2
 NeedsCompilation: no
