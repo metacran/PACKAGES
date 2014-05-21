@@ -32008,6 +32008,12 @@ Depends: R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: spatial.gev.bma
+Version: 1.0
+Depends: SpatialExtremes,msm,coda
+License: GPL
+NeedsCompilation: no
+
 Package: spatialkernel
 Version: 0.4-19
 Depends: R (>= 1.9.0)
