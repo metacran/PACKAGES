@@ -26134,6 +26134,13 @@ Imports: Rcmdr
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: RcmdrPlugin.steepness
+Version: 0.3-1
+Depends: tcltk, steepness
+Imports: Rcmdr (>= 1.9-3)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: RcmdrPlugin.survival
 Version: 1.0-4
 Depends: survival, date, stats
@@ -32800,6 +32807,12 @@ Suggests: ggplot2, gridExtra, grid, testthat, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: steepness
+Version: 0.2-1
+Depends: R (>= 3.1.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: stellaR
 Version: 0.3-3
 Suggests: lattice
@@ -36335,6 +36348,13 @@ NeedsCompilation: no
 Package: xgrid
 Version: 1.0-1
 License: GPL
+NeedsCompilation: no
+
+Package: xhmmScripts
+Version: 1.0
+Depends: R (>= 2.14.0)
+Imports: gplots, plotrix
+License: GPL-2
 NeedsCompilation: no
 
 Package: XiMpLe
