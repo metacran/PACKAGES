@@ -21573,8 +21573,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ORCME
-Version: 1.2.1
+Version: 2.0
 Depends: R (>= 2.10)
+Imports: Iso
 License: GPL-3
 NeedsCompilation: no
 
@@ -34665,7 +34666,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: treecm
-Version: 1.2
+Version: 1.2.1
 Imports: plyr
 Suggests: ggplot2, reshape2
 License: GPL-2
