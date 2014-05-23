@@ -623,8 +623,9 @@ License_restricts_use: yes
 NeedsCompilation: yes
 
 Package: alphashape3d
-Version: 1.0-4
+Version: 1.1
 Depends: geometry, rgl
+Suggests: alphahull
 License: GPL-2
 NeedsCompilation: yes
 
@@ -31889,9 +31890,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: sparkTable
-Version: 0.9.6
-Depends: graphics, xtable, utils, grid, Cairo, methods, Rglpk,
-        StatMatch,gridExtra,RGraphics,ggplot2,pixmap
+Version: 0.10.0
+Depends: utils, grid, Cairo, methods,gridExtra,ggplot2,shiny
+Imports: xtable,StatMatch,Rglpk,pixmap,RGraphics
 License: GPL
 NeedsCompilation: no
 
@@ -34874,9 +34875,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tsbridge
-Version: 1.0
-Depends: R(>= 2.15.0), mvtnorm, tsbugs
-Suggests: R2OpenBUGS
+Version: 1.1
+Depends: R(>= 2.15.0)
+Imports: mvtnorm, tsbugs
 License: GPL-2
 NeedsCompilation: no
 
