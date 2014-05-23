@@ -9580,7 +9580,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fda
-Version: 2.4.0
+Version: 2.4.3
 Depends: R (>= 2.10.0), splines, Matrix, graphics
 Suggests: deSolve, R.matlab, quadprog, DierckxSpline, nlme, lattice,
         RCurl, zoo
@@ -18299,7 +18299,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: MicSim
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.0.1), chron, snowfall, rlecuyer
 License: GPL-2
 NeedsCompilation: no
