@@ -13926,6 +13926,15 @@ Imports: elliptic (>= 1.3-2), contfrac (>= 1.1-9)
 License: GPL-2
 NeedsCompilation: no
 
+Package: hyperSpec
+Version: 0.98-20140523
+Depends: R (>= 2.15), methods, utils, lattice, grid, mvtnorm
+Suggests: R.matlab, latticeExtra, tripack, deldir, rgl, plotrix,
+        testthat, ggplot2 (>= 0.9.2), playwith, latticist, svUnit, sp,
+        baseline, compiler, inline, Rcpp, MASS, fastcluster, pls
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: hypervolume
 Version: 0.9.9.7
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
@@ -17850,6 +17859,13 @@ NeedsCompilation: no
 Package: mem
 Version: 1.3
 Depends: R (>= 3.00.1), sm, boot
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: memgene
+Version: 0.12
+Imports: ade4
+Suggests: adegenet, geosphere, vegan, raster
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -24812,9 +24828,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapTools
-Version: 0.2.0
+Version: 1.0.0
 Depends: R (>= 3.0.0)
-Imports: chron, RCurl
+Imports: chron, data.table, RCurl
+Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
 
