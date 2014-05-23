@@ -2869,7 +2869,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: blockTools
-Version: 0.5-8
+Version: 0.6-1
 Imports: MASS
 Suggests: nbpMatching, RItools, xtable
 License: GPL (>= 2) | file LICENSE
