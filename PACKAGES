@@ -7071,6 +7071,13 @@ Depends: R (>= 2.12)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: dissUtils
+Version: 0.0
+Depends: R (>= 2.14)
+Suggests: MASS (>= 1.0)
+License: GPL (>= 2) | file LICENSE
+NeedsCompilation: yes
+
 Package: Distance
 Version: 0.9
 Depends: R (>= 3.0), mrds
