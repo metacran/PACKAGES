@@ -9595,7 +9595,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fdakma
-Version: 1.0
+Version: 1.1
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -15821,7 +15821,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lazyWeave
-Version: 2.2.0
+Version: 2.2.5
 Depends: R (>= 2.10.0), Hmisc, survival
 License: GPL
 NeedsCompilation: no
@@ -19001,6 +19001,13 @@ Depends: R (>= 2.0.0), cclust, clv
 License: Artistic License 2.0
 NeedsCompilation: no
 
+Package: Modalclust
+Version: 0.6
+Depends: R (>= 2.14.0), mvtnorm, zoo, class
+Suggests: parallel, MASS
+License: GPL-2
+NeedsCompilation: no
+
 Package: modeest
 Version: 2.1
 Depends: R (>= 2.12.0)
@@ -20106,8 +20113,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: nanop
-Version: 2.0-2
-Imports: distrEx, geometry, rgl
+Version: 2.0-3
+Imports: distrEx, rgl
 Suggests: DEoptim, mco
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -28566,6 +28573,13 @@ Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: rpart.utils
+Version: 0.5
+Depends: R (>= 3.1.0), rpart
+Suggests: RODBC
+License: GPL-3
+NeedsCompilation: no
+
 Package: RPCLR
 Version: 1.0
 Depends: MASS, survival
@@ -35496,7 +35510,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VAR.etp
-Version: 0.2
+Version: 0.3
 License: GPL-2
 NeedsCompilation: no
 
