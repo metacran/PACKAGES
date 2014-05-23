@@ -9143,7 +9143,8 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: ExtremeBounds
-Version: 0.1.3
+Version: 0.1.4.1
+Imports: Formula
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28968,7 +28969,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RSNNS
-Version: 0.4-4
+Version: 0.4-5
 Depends: R (>= 2.10.0), methods, Rcpp (>= 0.8.5)
 LinkingTo: Rcpp
 Suggests: scatterplot3d
