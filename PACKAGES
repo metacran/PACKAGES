@@ -8368,7 +8368,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: EMMREML
-Version: 1.0
+Version: 2.0
 Depends: Matrix
 License: GPL-2
 NeedsCompilation: no
@@ -9340,10 +9340,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: faoutlier
-Version: 0.3.1
-Depends: R (>= 2.14), sem
-Imports: lattice, MASS
-Suggests: lavaan
+Version: 0.4
+Depends: R (>= 2.14), parallel, sem
+Imports: lattice, lavaan, MASS
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29023,8 +29023,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RSocrata
-Version: 1.4
-Depends: httr (>= 0.3), RJSONIO
+Version: 1.5
+Depends: httr (>= 0.3), jsonlite
 Suggests: RUnit
 License: MIT + file LICENSE
 NeedsCompilation: no
