@@ -11960,7 +11960,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: glmnet
-Version: 1.9-5
+Version: 1.9-8
 Depends: Matrix (>= 1.0-6), utils
 Suggests: survival, foreach
 License: GPL-2
