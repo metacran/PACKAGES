@@ -30898,8 +30898,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SigTree
-Version: 1.4
-Depends: ape, phylobase, phyext, RColorBrewer, phyloseq
+Version: 1.5
+Imports: ape, phyext, RColorBrewer, phyloseq
 License: GPL-3
 NeedsCompilation: yes
 
