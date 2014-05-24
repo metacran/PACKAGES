@@ -2376,7 +2376,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bigGP
-Version: 0.1-2
+Version: 0.1-3
 Depends: R (>= 3.0.0), Rmpi (>= 0.6-2), methods
 Suggests: rlecuyer, rsprng, fields
 License: GPL (>= 2)
@@ -17634,7 +17634,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: MCMCglmm
-Version: 2.19
+Version: 2.20
 Depends: Matrix, coda, ape
 Imports: corpcor, tensorA
 Suggests: rgl, combinat, mvtnorm, orthopolynom
@@ -33022,9 +33022,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stream
-Version: 0.2-0
-Depends: R (>= 2.13.0), methods, rJava (>= 0.6-3), proxy (>= 0.4-7),
-        birch, hash
+Version: 1.0-0
+Depends: R (>= 2.13.0), methods, proxy (>= 0.4-7), hash
 Imports: clue, clusterGeneration, MASS, animation, mlbench
 License: GPL-2
 NeedsCompilation: yes
