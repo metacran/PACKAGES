@@ -27839,10 +27839,13 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlme
-Version: 0.2
-Imports: MASS, quantreg, nlme, mgcv, stringr, magic
+Version: 0.3
+Depends: Rcpp (>= 0.10.3)
+Imports: MASS, quantreg, nlme, mgcv, stringr, magic, robustbase
+LinkingTo: Rcpp
+Suggests: testthat
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: RLRsim
 Version: 2.1-3
