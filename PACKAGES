@@ -15376,10 +15376,10 @@ License: CC0
 NeedsCompilation: no
 
 Package: knitr
-Version: 1.5
+Version: 1.6
 Depends: R (>= 2.14.1)
-Imports: evaluate (>= 0.4.7), digest, formatR (>= 0.9), highr (>= 0.2),
-        markdown (>= 0.6.3), stringr (>= 0.6), tools
+Imports: evaluate (>= 0.5.3), digest, formatR (>= 0.10), highr (>=
+        0.3), markdown (>= 0.6.5), stringr (>= 0.6), tools
 Suggests: testit, rgl, codetools, XML, RCurl
 License: GPL
 NeedsCompilation: no
@@ -33038,6 +33038,12 @@ Package: StreamMetabolism
 Version: 1.0
 Depends: zoo, chron, maptools
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: streamMOA
+Version: 0.1-0
+Depends: stream (>= 1.0-0), methods, rJava (>= 0.6-3)
+License: GPL-2
 NeedsCompilation: no
 
 Package: streamR
