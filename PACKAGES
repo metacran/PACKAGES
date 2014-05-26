@@ -12445,12 +12445,6 @@ Depends: gRbase,graph,Rgraphviz
 License: GPL
 NeedsCompilation: yes
 
-Package: gregmisc
-Version: 2.1.5
-Depends: gdata, gmodels, gplots, gtools
-License: GPL-2
-NeedsCompilation: no
-
 Package: greport
 Version: 0.5-1
 Depends: Hmisc (>= 3.14-2), data.table
@@ -32596,8 +32590,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SRRS
-Version: 0.1
-Depends: tcltk,tcltk2,gregmisc
+Version: 0.1.1
+Depends: tcltk,tcltk2,gtools
 License: GPL-2
 NeedsCompilation: no
 
