@@ -22342,7 +22342,7 @@ License: GPL (>= 2)
 NeedsCompilation: No
 
 Package: pbdMPI
-Version: 0.2-2
+Version: 0.2-3
 Depends: R (>= 3.0.0), methods, rlecuyer
 Enhances: pbdPROF
 License: Mozilla Public License 2.0
@@ -22356,7 +22356,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: pbdPROF
-Version: 0.2-2
+Version: 0.2-3
 Depends: R (>= 3.0.0), methods, graphics, grid, ggplot2, gridExtra,
         reshape2
 License: Mozilla Public License 2.0
@@ -28101,7 +28101,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RNetCDF
-Version: 1.6.1-2
+Version: 1.6.2-2
 Depends: R (>= 2.4.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
