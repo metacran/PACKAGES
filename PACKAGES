@@ -2675,8 +2675,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: biotools
-Version: 1.1
-Depends: R (>= 2.15), utils, rpanel, MASS, boot
+Version: 1.2
+Depends: R (>= 2.15), utils, rpanel, tkrplot, MASS, boot
 Suggests: soilphysics
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12045,7 +12045,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: GLSME
-Version: 1.0
+Version: 1.0.1
 Depends: R(>= 2.9.1), mvtnorm, corpcor
 Suggests: ape, mvSLOUCH, ouch
 License: GPL (>= 2) | file LICENCE
