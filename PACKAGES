@@ -900,7 +900,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ape
-Version: 3.1-1
+Version: 3.1-2
 Depends: R (>= 3.0.0)
 Imports: nlme, lattice, graphics, stats, tools, utils
 Suggests: gee, expm
@@ -2933,10 +2933,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bmmix
-Version: 0.1-1
+Version: 0.1-2
 Depends: R (>= 3.0.0)
-Imports: utils
-Suggests: ggplot2, reshape2
+Imports: utils, ggplot2, reshape2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20366,7 +20365,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: netmeta
-Version: 0.4-3
+Version: 0.4-4
 Depends: meta
 Imports: magic
 License: GPL (>= 2)
@@ -27934,6 +27933,12 @@ Version: 2.16
 Depends: grid
 License: GPL-2
 NeedsCompilation: no
+
+Package: rmetasim
+Version: 2.0.3
+Depends: ape, ade4, gtools
+License: GPL
+NeedsCompilation: yes
 
 Package: R.methodsS3
 Version: 1.6.1
