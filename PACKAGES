@@ -3057,6 +3057,13 @@ Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: bootLR
+Version: 0.9
+Imports: boot
+Suggests: testthat
+License: LGPL-2.1
+NeedsCompilation: no
+
 Package: BootPR
 Version: 0.60
 License: GPL-2
@@ -26311,10 +26318,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppGSL
-Version: 0.2.0
-Depends: Rcpp (>= 0.9.8)
+Version: 0.2.1
+Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
-Suggests: RUnit, inline
+Suggests: RUnit, inline, highlight
 License: GPL (>= 2)
 NeedsCompilation: yes
 
