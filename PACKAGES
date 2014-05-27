@@ -6810,7 +6810,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: DiceEval
-Version: 1.2
+Version: 1.3
 Depends: DiceKriging
 Suggests: gam, akima, mda, polspline
 License: GPL-3
@@ -12306,7 +12306,7 @@ License: GPL-2
 NeedsCompilation: No
 
 Package: GPLTR
-Version: 0.85
+Version: 0.95
 Depends: rpart , parallel
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -17909,7 +17909,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 3.5-1
+Version: 3.6-0
 Depends: R (>= 2.9.1), grid
 Suggests: metafor
 License: GPL (>= 2)
@@ -29831,7 +29831,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: scam
-Version: 1.1-6
+Version: 1.1-7
 Depends: R (>= 2.15.0), mgcv (>= 1.7-27), stats, graphics
 Imports: methods, Matrix
 Suggests: nlme, splines
