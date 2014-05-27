@@ -15224,7 +15224,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: KFAS
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.0.0)
 Imports: stats
 Suggests: MASS, testthat
