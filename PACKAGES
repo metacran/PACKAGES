@@ -11237,7 +11237,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gems
-Version: 0.9.4
+Version: 0.9.5
 Imports: MASS, methods, msm, mstate, plyr, graphics, stats, utils,
         data.table
 License: GPL-2
@@ -17961,7 +17961,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: metagen
-Version: 0.2
+Version: 1.0
 Imports: MASS, lhs, plyr, BBmisc, ParamHelpers, BatchJobs,
         BatchExperiments, ggplot2, metafor
 License: GPL-3
@@ -23803,9 +23803,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: PopED
-Version: 0.1.0
+Version: 0.1.1
 Depends: ggplot2
-Imports: MASS, mvtnorm
+Imports: MASS, mvtnorm, nlme
 Suggests: testthat, Hmisc
 License: LGPL (>= 3)
 NeedsCompilation: no
@@ -35518,6 +35518,13 @@ NeedsCompilation: no
 Package: vardiag
 Version: 0.2-0
 Depends: R (>= 2.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: vardpoor
+Version: 0.2.0.8.1
+Depends: R (>= 3.0.0), data.table, laeken
+Imports: foreach, lpSolve
 License: GPL (>= 2)
 NeedsCompilation: no
 
