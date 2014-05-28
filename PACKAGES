@@ -3150,10 +3150,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: bpkde
-Version: 1.0-2
-Depends: R (>= 2.15.0), mvtnorm, KernSmooth
+Version: 1.0-4
+Suggests: mvtnorm
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: bqtl
 Version: 1.0-30
@@ -13041,7 +13041,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: harvestr
-Version: 0.5.2
+Version: 0.6.0
 Imports: parallel, plyr, digest
 Suggests: testthat, dostats, doParallel, foreach, MCMCpack, boot
 License: GPL (>= 2)
@@ -13737,6 +13737,15 @@ Version: 2.1.7
 Depends: R (>= 3.0.1), lattice, coda, MASS, MCMCpack
 License: GPL-2
 NeedsCompilation: yes
+
+Package: htmltools
+Version: 0.2.4
+Depends: R (>= 2.14.1)
+Imports: utils, digest
+Suggests: markdown, testthat
+Enhances: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: HTMLUtils
 Version: 0.1.5
@@ -29939,9 +29948,9 @@ License: AGPL-3
 NeedsCompilation: yes
 
 Package: SciencesPo
-Version: 0.03.21
-Depends: R (>= 3.0),stats,utils,graphics,grDevices,data.table,maptools
-Suggests: Zelig,xtable,foreign,MCMCpack
+Version: 0.05.21
+Depends: R (>= 3.0),stats,utils,graphics,grDevices,data.table, xtable
+Suggests: Zelig,foreign,MCMCpack
 License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
