@@ -3002,6 +3002,13 @@ Suggests: RCurl
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
+Package: bold
+Version: 0.1.0
+Imports: XML, httr, stringr, assertthat
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: Bolstad
 Version: 0.2-25
 License: GPL (>= 2)
@@ -3608,9 +3615,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: caret
-Version: 6.0-24
+Version: 6.0-29
 Depends: R (>= 2.10), stats, lattice (>= 0.20), ggplot2
-Imports: car, reshape2, foreach, methods, plyr
+Imports: car, reshape2, foreach, methods, plyr, nlme, BradleyTerry2
 Suggests: e1071, earth (>= 2.2-3), ellipse, fastICA, gam, ipred,
         kernlab, klaR, MASS, mda, mgcv, mlbench, nnet, party (>=
         0.9-99992), pls, pROC, proxy, randomForest, RANN, spls, affy
@@ -12714,7 +12721,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: gss
-Version: 2.1-0
+Version: 2.1-1
 Depends: R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -18625,7 +18632,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mixexp
-Version: 1.1.1
+Version: 1.1.2
 Depends: gdata, lattice, grid
 License: GPL-2
 NeedsCompilation: yes
@@ -21943,7 +21950,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pairwise
-Version: 0.2.4
+Version: 0.2.5
 Depends: R (>= 2.10.1)
 Suggests: psych
 License: GPL-3
@@ -29768,7 +29775,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: SAVE
-Version: 0.9.3.8.4
+Version: 0.9.3.9.2
 Imports: coda, DiceKriging, methods
 Suggests: MASS
 License: GPL-2 | GPL-3
@@ -36583,9 +36590,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.9.0
+Version: 0.9.1
 Depends: R (>= 2.12.0)
-Imports: httr, RCurl, rjson, plyr
+Imports: httr, RCurl, rjson, plyr, jsonlite
 License: FreeBSD
 NeedsCompilation: no
 
