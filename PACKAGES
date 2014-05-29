@@ -16002,7 +16002,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: LearnBayes
-Version: 2.12
+Version: 2.15
 License: GPL (>= 2)
 NeedsCompilation: no
 
