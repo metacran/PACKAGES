@@ -3083,7 +3083,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: bootruin
-Version: 1.2-0
+Version: 1.2-1
 License: AGPL-3
 NeedsCompilation: yes
 
@@ -10144,6 +10144,13 @@ Suggests: testthat
 License: GPL-2
 NeedsCompilation: yes
 
+Package: FLSSS
+Version: 1.0
+Imports: Rcpp (>= 0.11.1)
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
 Package: FluOMatic
 Version: 1.0
 Depends: R (>= 2.10)
@@ -12281,7 +12288,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GPFDA
-Version: 2.0
+Version: 2.1
 Depends: R (>= 3.0),fda.usc,spam
 Imports: MASS
 License: GPL-3
@@ -12971,6 +12978,13 @@ Package: HadoopStreaming
 Version: 0.2
 Depends: getopt
 License: GPL
+NeedsCompilation: no
+
+Package: hamlet
+Version: 0.7
+Depends: R (>= 3.0.0)
+Suggests: lme4, nlme, amap, nbpMatching, lattice, lmerTest
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HandTill2001
@@ -14020,8 +14034,8 @@ License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
 Package: IBDsim
-Version: 0.9-2
-Depends: R (>= 2.15), paramlink (>= 0.7)
+Version: 0.9-3
+Depends: R (>= 3.0), paramlink (>= 0.9)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -32785,7 +32799,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: stargazer
-Version: 5.0
+Version: 5.1
+Enhances: AER, betareg, brglm, dynlm, eha, erer, ergm, gee, glmx, gmm,
+        lfe, lme4, lmtest, MASS, mclogit, mgcv, mlogit, nlme, nnet,
+        ordinal, plm, pscl, quantreg, rms, relevent, robustbase,
+        sampleSelection, spdep, stats, survey, survival, Zelig
 License: GPL (>= 2)
 NeedsCompilation: no
 
