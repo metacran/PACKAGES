@@ -2032,8 +2032,8 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: BDgraph
-Version: 2.7
-Depends: R (>= 3.0.2), huge
+Version: 2.8
+Depends: R (>= 3.0.0), huge, Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -9633,8 +9633,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fda.usc
-Version: 1.1.0
-Depends: R (>= 2.10), fda, splines, MASS, mgcv
+Version: 1.2.0
+Depends: R (>= 2.10), fda, splines, MASS, mgcv, rpart
 License: GPL-2
 NeedsCompilation: yes
 
@@ -14539,7 +14539,7 @@ License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: interventionalDBN
-Version: 1.2
+Version: 1.2.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21460,8 +21460,8 @@ License: GPL-2 | file LICENCE
 NeedsCompilation: no
 
 Package: openxlsx
-Version: 1.0.3
-Imports: methods, Rcpp
+Version: 2.0.1
+Imports: methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -25527,6 +25527,15 @@ Version: 3.6.4
 Depends: R (>= 3.0.0)
 Suggests: XML
 License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: randomUniformForest
+Version: 1.0.6
+Depends: R (>= 3.0.0)
+Imports: methods, Rcpp (>= 0.11.1), parallel, doParallel, foreach (>=
+        1.4.2), ggplot2, pROC, gtools
+LinkingTo: Rcpp
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: randtests
@@ -33884,10 +33893,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: taRifx
-Version: 1.0.5
-Depends: plyr, reshape2
-Suggests: xtable, grid, lattice, lattice, caTools, pspline, grid,
-        ggplot2, gdata
+Version: 1.0.6
+Imports: reshape2, plyr
+Suggests: xtable, grid, lattice, caTools, pspline, ggplot2, gdata,
+        RSQLite, data.table, stringr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36404,6 +36413,12 @@ Version: 1.0
 Depends: R (>= 2.10.0)
 License: GPL (>= 3)
 NeedsCompilation: no
+
+Package: wskm
+Version: 1.4.0
+Depends: R (>= 2.10), lattice, latticeExtra, clv
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: wsrf
 Version: 1.3.0
