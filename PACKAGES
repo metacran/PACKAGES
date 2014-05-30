@@ -11522,9 +11522,9 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
 Package: geomorph
-Version: 2.0.1
+Version: 2.1
 Depends: R (>= 2.10), rgl
-Imports: jpeg, calibrate, vegan, ape, geiger
+Imports: jpeg, vegan, ape, geiger
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25305,7 +25305,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R2jags
-Version: 0.04-01
+Version: 0.04-02
 Depends: R (>= 2.14.0), rjags (>= 3-3)
 Imports: abind, coda (>= 0.13), methods, R2WinBUGS, parallel
 License: GPL (>= 2)
@@ -31217,14 +31217,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 0.44-48
+Version: 0.45-23
 Depends: R (>= 2.15.0), MASS, coda, mvtnorm
 Imports: sfsmisc, TAM, CDM, combinat, ic.infer, sm, psych, pbivnorm,
-        gtools, Rcpp (>= 0.11.0), qgraph
+        gtools, Rcpp (>= 0.11.0), qgraph, lavaan, semPlot, igraph
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: eRm, ltm, MCMCglmm, mirt, mokken, mRm, plink, GPArotation,
-        fdrtool, lme4, difR, lavaan, semTools, MultiLCIRT, rcppbugs,
-        IsingFit
+        fdrtool, lme4, difR, semTools, MultiLCIRT, rcppbugs, IsingFit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -32045,7 +32044,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sparr
-Version: 0.3-4
+Version: 0.3-5
 Depends: R (>= 2.10.1), spatstat, rgl, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33015,7 +33014,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stm
-Version: 0.6.12
+Version: 0.6.16
 Depends: R (>= 2.10)
 Imports: matrixStats, splines, slam, lda, stringr
 Suggests: igraph, SnowballC, tm, huge, glmnet, Matrix, jsonlite, clue
@@ -33219,9 +33218,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stsm
-Version: 1.2
-Depends: R (>= 3.0.0), KFKSDS, stsm.class
-Imports: stats
+Version: 1.3
+Depends: R (>= 3.0.0)
+Imports: KFKSDS, parallel, stats, stsm.class
 Suggests: mvtnorm, numDeriv
 License: GPL-2
 NeedsCompilation: yes
