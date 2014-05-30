@@ -17781,8 +17781,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mcprofile
-Version: 0.1-7
-Depends: quadprog, ggplot2, splines, mvtnorm
+Version: 0.2-0
+Depends: ggplot2
+Imports: quadprog, mvtnorm, splines
 Suggests: knitr, multcomp, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
