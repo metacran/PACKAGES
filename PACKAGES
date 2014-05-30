@@ -14558,7 +14558,7 @@ License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: interventionalDBN
-Version: 1.2.1
+Version: 1.2.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20085,7 +20085,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvSLOUCH
-Version: 1.1
+Version: 1.1.1
 Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
@@ -20227,7 +20227,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: NbClust
-Version: 1.4
+Version: 2.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -20887,6 +20887,13 @@ Version: 0.6.9
 Depends: R (>= 1.5.0)
 License: GPL
 NeedsCompilation: no
+
+Package: NormPsy
+Version: 1.0.1
+Depends: R (>= 2.9.0)
+Imports: lcmm (>= 1.6.4)
+License: GPL
+NeedsCompilation: yes
 
 Package: NORMT3
 Version: 1.0-3
@@ -22247,11 +22254,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-13
+Version: 1.0-14
 Depends: R (>= 2.14.0), methods, grid, zoo, sandwich (>= 1.1-1),
         strucchange, stats, modeltools (>= 0.2-21)
 Imports: survival, coin
-Suggests: TH.data (>= 1.0-3), mlbench, colorspace, MASS, mvtnorm, vcd
+Suggests: TH.data (>= 1.0-3), mlbench, colorspace, MASS, mvtnorm, vcd,
+        ipred
 License: GPL-2
 NeedsCompilation: yes
 
