@@ -1050,6 +1050,12 @@ Suggests: knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: argparser
+Version: 0.1
+Depends: methods
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: arm
 Version: 1.7-03
 Depends: R (>= 3.0.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
@@ -1105,6 +1111,12 @@ Suggests: png (>= 0.1-7), Cairo (>= 1.5-5), EBImage (>= 4.0.0),
         (>= 1.32.0), GLAD (>= 1.12.0), sfit (>= 0.1.8), expectile (>=
         0.2.5), HaarSeg (>= 0.0.2), mpcbs (>= 1.1.1)
 License: LGPL (>= 2.1)
+NeedsCompilation: no
+
+Package: ARPobservation
+Version: 1.0
+Suggests: plyr, ggplot2, knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: aRpsDCA
@@ -4174,6 +4186,13 @@ Depends: R (>= 3.0.0), qpcR (>= 1.3.0)
 Imports: outliers, robustbase, signal
 Suggests: MBmca (>= 0.0.2)
 License: GPL-3
+NeedsCompilation: no
+
+Package: chngpt
+Version: 2014.5-29
+Depends: R (>= 3.0.0), kyotil, MASS
+Suggests: RUnit, xtable, mvtnorm
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CHNOSZ
@@ -10120,10 +10139,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: flora
-Version: 0.1
-Depends: R (>= 2.10), RCurl, XML, rjson
-License: GPL
-NeedsCompilation: yes
+Version: 0.2
+Depends: R (>= 3.0.2)
+Imports: dplyr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: flowfield
 Version: 1.0
@@ -12685,14 +12705,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GSIF
-Version: 0.4-0
+Version: 0.4-1
 Depends: R (>= 2.15.0)
 Imports: methods, sp (>= 1.0-8), RSAGA, dismo, rgdal, raster, aqp,
         plotKML, gstat, stats, boot, rpart, quantregForest,
         randomForest, nlme
-Suggests: utils, RCurl, tools, soiltexture, spatstat, stringr, plyr,
+Suggests: rjson, RCurl, tools, soiltexture, spatstat, stringr, plyr,
         XML, splines, mda, psych, nortest, fossil, AICcmodavg,
-        maptools, nnet, SDMTools, rJava (>= 0.5-0), gdalUtils, rjson
+        maptools, nnet, SDMTools, rJava (>= 0.5-0), gdalUtils
 License: GPL
 NeedsCompilation: no
 
@@ -14599,6 +14619,14 @@ Depends: nlme, methods
 License: GPL-2
 NeedsCompilation: no
 
+Package: ipdw
+Version: 0.1
+Depends: R (>= 3.0.2),gdistance
+Imports: raster
+Suggests: geoR,gstat,gdata,spatstat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ipfp
 Version: 1.0
 License: Apache License (== 2.0)
@@ -15193,6 +15221,13 @@ Depends: R (>= 3.0.0), mvtnorm, snowfall, corpcor
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: kdetrees
+Version: 0.1.5
+Depends: R (>= 2.15.1)
+Imports: ape, distory, ggplot2
+License: GPL-2
+NeedsCompilation: no
+
 Package: kedd
 Version: 1.0.0
 Depends: R (>= 2.15.0)
@@ -15389,8 +15424,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knitcitations
-Version: 0.5-0
-Depends: R (>= 2.15.0), knitr, bibtex
+Version: 0.6-0
+Depends: R (>= 3.0), knitr (>= 1.6), bibtex, RefManageR
 Imports: xtable, RCurl, XML, httr
 Suggests: testthat
 License: CC0
@@ -33177,7 +33212,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: stsm.class
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), methods
 Suggests: numDeriv
 License: GPL-2
@@ -35863,8 +35898,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: visreg
-Version: 2.0-4
-Depends: lattice
+Version: 2.0-5
+Imports: lattice
 Suggests: rgl, survival, MASS, nlme
 License: GPL-2
 NeedsCompilation: no
