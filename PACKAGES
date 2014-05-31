@@ -14556,14 +14556,6 @@ Depends: nlme, methods
 License: GPL-2
 NeedsCompilation: no
 
-Package: ipdw
-Version: 0.1
-Depends: R (>= 3.0.2),gdistance
-Imports: raster
-Suggests: geoR,gstat,gdata,spatstat
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: ipfp
 Version: 1.0
 License: Apache License (== 2.0)
@@ -22344,7 +22336,7 @@ License: GPL (>= 2)
 NeedsCompilation: No
 
 Package: pbdMPI
-Version: 0.2-3
+Version: 0.2-4
 Depends: R (>= 3.0.0), methods, rlecuyer
 Enhances: pbdPROF
 License: Mozilla Public License 2.0
@@ -22365,8 +22357,8 @@ License: Mozilla Public License 2.0
 NeedsCompilation: yes
 
 Package: pbdSLAP
-Version: 0.1-8
-Depends: R (>= 3.0.0), methods, rlecuyer, pbdMPI (>= 0.2-2)
+Version: 0.1-9
+Depends: R (>= 3.0.0), methods, rlecuyer, pbdMPI (>= 0.2-3)
 License: Mozilla Public License 2.0
 NeedsCompilation: yes
 
@@ -25362,7 +25354,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RadOnc
-Version: 1.0.7
+Version: 1.0.8
 Depends: R (>= 3.0.0), graphics, grDevices, methods, rgl, geometry,
         oro.dicom (>= 0.4.1), ptinpoly
 Imports: stats, utils
@@ -26323,7 +26315,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppGSL
-Version: 0.2.1
+Version: 0.2.2
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, inline, highlight
