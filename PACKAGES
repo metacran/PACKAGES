@@ -14798,6 +14798,12 @@ Depends: R (>= 1.7.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: IsoCI
+Version: 1.0
+Depends: R(>= 2.13.1), KernSmooth
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: isocir
 Version: 1.1-3
 Depends: circular(>= 0.4-3)
@@ -24880,7 +24886,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapDictionaries
-Version: 0.0.4
+Version: 1.0.1
 Depends: R (>= 3.0.0)
 Suggests: qdap
 License: GPL-2
@@ -27679,11 +27685,13 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ripa
-Version: 2.0-1
-Depends: R (>= 2.8.1), tcltk
+Version: 2.0-2
+Depends: R (>= 2.8.1), tcltk, parallel
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
-Suggests: e1071, reshape, methods, jpeg, png, tkrplot, fftw, rggobi
+Suggests: e1071, rggobi, reshape, methods, jpeg, png, tkrplot, fftw,
+        foreach, doSNOW
+Enhances: doMC
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
@@ -28719,8 +28727,8 @@ License: CC0
 NeedsCompilation: no
 
 Package: rplotengine
-Version: 1.0-3
-Depends: R (>= 2.6.2), xtable (>= 1.5-2)
+Version: 1.0-5
+Depends: R (>= 2.6.2), xtable
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34787,6 +34795,12 @@ Depends: methods, rJava, plyr, reshape2
 Suggests: testthat (>= 0.5)
 License: GPL (>= 3.0)
 NeedsCompilation: no
+
+Package: transport
+Version: 0.6-1
+Depends: R (>= 3.0.0), utils, grDevices, graphics, stats
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: trapezoid
 Version: 2.0-0
