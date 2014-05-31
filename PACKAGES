@@ -3885,13 +3885,6 @@ Suggests: tframe (>= 2006.1-1), tfplot
 License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
-Package: CDS
-Version: 0.1-0
-Depends: grid, R (>= 2.10),methods, Rcpp (>= 0.10.6), RCurl, XML
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: CDVine
 Version: 1.2
 Depends: R (>= 2.11.0), MASS, mvtnorm, igraph
@@ -11186,14 +11179,6 @@ Depends: R (>= 2.8.0), raster (>= 1.9-19), igraph (>= 0.7.0), Matrix,
         methods, sp
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: gdsfmt
-Version: 1.0.4
-Depends: R (>= 2.14.0)
-Imports: methods, parallel
-Suggests: RUnit
-License: LGPL-3
-NeedsCompilation: yes
 
 Package: gee
 Version: 4.13-18
@@ -23910,12 +23895,6 @@ Depends: MASS, Segmentor3IsBack
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: POT
-Version: 1.1-3
-Depends: R (>= 1.8.0)
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: potts
 Version: 0.5-2
 Depends: R (>= 2.6.0)
@@ -31598,13 +31577,6 @@ Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: SNPRelate
-Version: 0.9.19
-Depends: R (>= 2.10), gdsfmt (>= 0.9.12)
-Suggests: lattice, RUnit
-License: GPL-3
-NeedsCompilation: yes
-
 Package: snpStatsWriter
 Version: 1.5-6
 Depends: snpStats, colorspace
@@ -32842,10 +32814,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: statmod
-Version: 1.4.19
+Version: 1.4.20
 Depends: R (>= 1.6.1)
 Suggests: MASS, tweedie
-License: GPL (>= 2)
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: statnet
