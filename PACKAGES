@@ -33946,10 +33946,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: taRifx.geo
-Version: 1.0.4
-Depends: taRifx, sp, plyr, reshape2
+Version: 1.0.6
+Imports: taRifx, sp, rgdal, RJSONIO, rgeos, RCurl, methods
 Suggests: gdata, fields, maps, geoR, maptools, shapefiles, spatial,
-        mapproj, akima, mgcv, caTools, pspline, RCurl, RJSONIO
+        mapproj, akima, mgcv, caTools, pspline
 License: GPL (>= 2)
 NeedsCompilation: no
 
