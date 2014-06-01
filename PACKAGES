@@ -11688,7 +11688,7 @@ License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
 Package: gglasso
-Version: 1.1
+Version: 1.2
 License: GPL-2
 NeedsCompilation: yes
 
@@ -19300,6 +19300,13 @@ Imports: stringr, rSymPy, rJython, rJava, rjson, partitions, plyr,
         stats
 License: GPL-2
 NeedsCompilation: no
+
+Package: Mposterior
+Version: 0.1.1
+Depends: R (>= 3.0.2), Rcpp (>= 0.11.0)
+LinkingTo: Rcpp, RcppArmadillo (>= 0.3.4.4)
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: MPSEM
 Version: 0.2-3
