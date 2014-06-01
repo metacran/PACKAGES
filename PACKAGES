@@ -170,9 +170,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: acss
-Version: 0.1-1
+Version: 0.2-4
 Depends: R (>= 2.15.0), acss.data
 Imports: zoo
+Suggests: effects
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -1250,7 +1251,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: aster
-Version: 0.8-27
+Version: 0.8-30
 Depends: R (>= 2.10.0), trust
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -8565,6 +8566,13 @@ LinkingTo: Rcpp
 Suggests: animation, ggmap, testthat
 License: EUPL
 NeedsCompilation: yes
+
+Package: EpiDynamics
+Version: 0.1
+Depends: R (>= 3.0.2)
+Imports: deSolve, FME, reshape2, ggplot2, grid
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: EpiEstim
 Version: 1.1-2
@@ -20855,8 +20863,8 @@ License: LGPL-2
 NeedsCompilation: no
 
 Package: np
-Version: 0.50-1
-Depends: boot, cubature
+Version: 0.60-0
+Imports: boot, cubature, stats
 Suggests: quantreg, MASS
 License: GPL
 NeedsCompilation: yes
@@ -20963,8 +20971,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: npRmpi
-Version: 0.50-1.1
-Depends: boot, cubature
+Version: 0.60-0
+Imports: boot, cubature, stats
 Suggests: quantreg, MASS, parallel
 License: GPL
 NeedsCompilation: yes
@@ -27926,7 +27934,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rmetasim
-Version: 2.0.3
+Version: 2.0.4
 Depends: ape, ade4, gtools
 License: GPL
 NeedsCompilation: yes
@@ -33752,7 +33760,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tableone
-Version: 0.5.0
+Version: 0.6.0
 Imports: e1071, gmodels
 Suggests: survival
 License: GPL-2
