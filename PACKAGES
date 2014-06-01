@@ -25725,12 +25725,6 @@ Depends: methods
 License: GPL (>= 3)
 NeedsCompilation: no
 
-Package: rbamtools
-Version: 2.6.0
-Depends: methods
-License: Artistic-2.0
-NeedsCompilation: yes
-
 Package: rbefdata
 Version: 0.3.5
 Imports: XML, RCurl, rjson, wordcloud, rtematres, RColorBrewer
