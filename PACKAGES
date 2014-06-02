@@ -5249,7 +5249,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: CORE
-Version: 1.2
+Version: 2.0
 Imports: parallel
 License: GPL-2
 NeedsCompilation: no
@@ -11511,7 +11511,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: georob
-Version: 0.1-3
+Version: 0.1-4
 Depends: R(>= 2.14.0), sp(>= 0.9-60)
 Imports: constrainedKriging(>= 0.2-1), lmtest, nlme, nleqslv, quantreg,
         RandomFields(>= 3.0.10), robustbase(>= 0.90-2)
@@ -24913,10 +24913,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qpcR
-Version: 1.3-7.1
-Depends: R (>= 2.13.0), MASS, minpack.lm, rgl, robustbase
+Version: 1.3-8
+Depends: R (>= 2.13.0), MASS, minpack.lm, rgl, robustbase, Matrix
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: qPCR.CT
 Version: 1.1
