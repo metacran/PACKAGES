@@ -35242,6 +35242,12 @@ Suggests: testthat, knitr
 License: GPL-3
 NeedsCompilation: no
 
+Package: TurtleGraphics
+Version: 1.0-3
+Depends: R (>= 2.15.0), grid
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: TUWmodel
 Version: 0.1-2
 Depends: R (>= 2.10), stats, graphics
