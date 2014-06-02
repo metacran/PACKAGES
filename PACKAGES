@@ -8245,7 +8245,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ELT
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10.0), locfit, lattice, latticeExtra, grid, xlsx
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -16053,7 +16053,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: lgarch
-Version: 0.2
+Version: 0.3
 Depends: R (>= 2.15.0), zoo
 License: GPL-2
 NeedsCompilation: yes
@@ -19302,7 +19302,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Mposterior
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.0.2), Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, RcppArmadillo (>= 0.3.4.4)
 License: GPL (>= 3)
@@ -20189,7 +20189,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NCBI2R
-Version: 1.4.5
+Version: 1.4.6
 Depends: R (>= 2.10)
 License: GPL (> 2)
 NeedsCompilation: no
@@ -27435,7 +27435,7 @@ License: Mozilla Public License 1.1
 NeedsCompilation: no
 
 Package: rHealthDataGov
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.0.1), bit64, httr, jsonlite
 License: GPL-2
 NeedsCompilation: no
