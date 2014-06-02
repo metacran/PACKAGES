@@ -332,7 +332,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitatLT
-Version: 0.3.15
+Version: 0.3.16
 Depends: R (>= 2.10.0), sp, methods, ade4, adehabitatMA, CircStats
 Suggests: maptools, tkrplot, MASS
 License: GPL (>= 2)
@@ -1698,7 +1698,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bayesLife
-Version: 2.1-0
+Version: 2.1-1
 Depends: bayesTFR (>= 4.0-0)
 Imports: wpp2012, hett, car, coda
 Suggests: wpp2008, wpp2010
@@ -33769,9 +33769,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tableone
-Version: 0.6.0
+Version: 0.6.2
 Imports: e1071, gmodels
-Suggests: survival
+Suggests: survival, testthat
 License: GPL-2
 NeedsCompilation: no
 
