@@ -4198,7 +4198,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: choroplethr
-Version: 1.5.0
+Version: 1.6.0
 Depends: R (>= 3.0.0)
 Imports: ggplot2, scales, plyr, Hmisc, grid, acs, stringr
 Suggests: testthat, maps, zipcode, knitr
@@ -16376,7 +16376,7 @@ License: Common Public License Version 1.0
 NeedsCompilation: yes
 
 Package: lmomco
-Version: 2.0.1
+Version: 2.1.1
 Depends: R (>= 2.10.0), utils
 Suggests: copBasic, Lmoments
 License: GPL
@@ -19444,6 +19444,14 @@ Package: MsatAllele
 Version: 1.05
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: MSBVAR
+Version: 0.9-0
+Imports: KernSmooth, xtable, coda, bit, mvtnorm, lattice
+License: MIT + file LICENSE
+License_is_FOSS: yes
+License_restricts_use: no
+NeedsCompilation: yes
 
 Package: mseapca
 Version: 1.0
@@ -25790,7 +25798,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rbitcoinchartsapi
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.0.3), RJSONIO, RCurl
 License: LGPL-3
 Archs: i386, x64
@@ -36362,7 +36370,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: wskm
-Version: 1.4.0
+Version: 1.4.7
 Depends: R (>= 2.10), lattice, latticeExtra, clv
 License: GPL (>= 3)
 NeedsCompilation: yes
