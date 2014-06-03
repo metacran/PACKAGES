@@ -7958,6 +7958,11 @@ Imports: methods, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ebSNP
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: Ecdat
 Version: 0.2-5
 Depends: R (>= 2.10), Ecfun
@@ -12720,8 +12725,8 @@ License: GPL (>= 2.0) | file LICENCE
 NeedsCompilation: yes
 
 Package: gstudio
-Version: 1.2
-Depends: R (>= 2.15), ggplot2, raster
+Version: 1.3
+Depends: R (>= 3.0), ggplot2, raster
 Imports: sp, grid, reshape2, ggmap, popgraph
 Suggests: testthat, knitr
 License: GPL (>= 2)
@@ -23861,9 +23866,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: popgraph
-Version: 1.3
-Depends: R (>= 2.15), ggplot2
-Imports: MASS, sp, igraph, Matrix
+Version: 1.4
+Depends: R (>= 2.15), ggplot2, igraph
+Imports: MASS, sp, Matrix, sampling
 Suggests: testthat, maps, fields, grid
 License: GPL (>= 2)
 NeedsCompilation: no
