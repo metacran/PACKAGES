@@ -14935,10 +14935,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: jaatha
-Version: 2.3
+Version: 2.4
 Depends: R (>= 3.0), methods
 Imports: foreach (>= 1.2.0-1), phyclust (>= 0.1-14), Rcpp (>= 0.11.0),
-        plyr (>= 1.8), parallel
+        dplyr (>= 0.2), parallel
 LinkingTo: Rcpp
 Suggests: ape (>= 2.7), RUnit
 License: GPL (>= 3)
