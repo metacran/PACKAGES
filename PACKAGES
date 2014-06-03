@@ -17116,7 +17116,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapdata
-Version: 2.2-2
+Version: 2.2-3
 Depends: R (>= 2.10.0), maps (>= 2.0-7)
 License: GPL-2
 NeedsCompilation: yes
@@ -17155,7 +17155,7 @@ License: Lucent Public License
 NeedsCompilation: yes
 
 Package: maps
-Version: 2.3-6
+Version: 2.3-7
 Depends: R (>= 2.10.0)
 Suggests: mapproj (>= 1.2-0)
 License: GPL-2
@@ -27518,6 +27518,12 @@ NeedsCompilation: no
 Package: ri
 Version: 0.9
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RI2by2
+Version: 1.0
+Depends: compiler, gtools
+License: GPL-3
 NeedsCompilation: no
 
 Package: rich
