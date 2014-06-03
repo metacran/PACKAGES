@@ -23187,9 +23187,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pipeR
-Version: 0.2-4
+Version: 0.3
 Depends: R (>= 2.14)
-Suggests: dplyr
+Suggests: plyr,dplyr
 Enhances: magrittr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -35641,6 +35641,12 @@ Imports: lattice, grid, pixmap, mnormt
 Suggests: e1071, nnet
 License: GPL-2 | GPL-3
 OS_type: unix
+NeedsCompilation: yes
+
+Package: vbsr
+Version: 0.0.4
+Depends: R (>= 3.0.0)
+License: GPL-2
 NeedsCompilation: yes
 
 Package: vcd
