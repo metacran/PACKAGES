@@ -8672,8 +8672,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: erer
-Version: 2.0
-Depends: R (>= 3.0.0), systemfit, lmtest, tseries, ggplot2, urca
+Version: 2.1
+Depends: R (>= 3.0.0), lmtest
+Imports: systemfit, tseries, urca, ggplot2
+Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9155,7 +9157,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: extRemes
-Version: 2.0-0
+Version: 2.0-1
 Depends: R (>= 2.10.0), Lmoments, distillery, car
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -10932,7 +10934,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: gamlss
-Version: 4.2-8
+Version: 4.3-0
 Depends: R (>= 2.15.0), graphics, stats, splines, utils, gamlss.data,
         gamlss.dist, nlme
 Imports: MASS, survival
@@ -10940,7 +10942,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.add
-Version: 4.2-8
+Version: 4.3-0
 Depends: R (>= 2.15.0), gamlss (>= 2.4.0), mgcv, nnet, rpart
 Suggests: lattice
 License: GPL-2 | GPL-3
@@ -10966,7 +10968,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.dist
-Version: 4.2-7
+Version: 4.3-0
 Depends: R (>= 2.15.0), MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
