@@ -8897,7 +8897,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evmix
-Version: 2.0
+Version: 2.1
 Depends: stats, graphics, MASS, gsl
 License: GPL-3
 NeedsCompilation: no
@@ -28942,7 +28942,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rsdepth
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 2.4.0)
 License: GPL-2
 NeedsCompilation: yes
@@ -36740,6 +36740,12 @@ NeedsCompilation: no
 Package: zoeppritz
 Version: 1.0-4
 License: GPL
+NeedsCompilation: no
+
+Package: zoib
+Version: 1.0
+Depends: R (>= 3.0.2), rjags, coda, matrixcalc, Formula
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: zoo
