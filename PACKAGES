@@ -17113,7 +17113,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAPA
-Version: 1.4
+Version: 1.5
 Depends: forecast (>= 5.3), miscTools, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
