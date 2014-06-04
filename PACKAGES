@@ -11816,7 +11816,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GIGrvg
-Version: 0.2
+Version: 0.3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20582,7 +20582,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
-Version: 2.1.1
+Version: 2.2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29780,8 +29780,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sas7bdat
-Version: 0.4
-Depends: R (>= 2.10), chron
+Version: 0.5
+Depends: R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: no
 
