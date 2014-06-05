@@ -22623,6 +22623,12 @@ Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: yes
 
+Package: peacots
+Version: 1.0
+Depends: stats,graphics
+License: GPL-3
+NeedsCompilation: no
+
 Package: Peaks
 Version: 0.2
 Depends: R (>= 2.5)
@@ -25493,7 +25499,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomForestSRC
-Version: 1.5.1
+Version: 1.5.2
 Depends: R (>= 3.1.0), parallel
 Suggests: glmnet, XML
 License: GPL (>= 3)
@@ -32097,10 +32103,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: SpatialEpi
-Version: 1.2
-Depends: sp
-Imports: MASS, maps, maptools, shapefiles, spdep, gtools, rgeos,
-        lattice, Matrix, nlme
+Version: 1.2.1
+Depends: R (>= 3.0.2), sp
+Imports: Rcpp, MASS, maptools, spdep
+LinkingTo: Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.0)
 License: GPL-2
 NeedsCompilation: yes
 
