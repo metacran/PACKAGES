@@ -1003,6 +1003,12 @@ Depends: minpack.lm, deSolve
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: AR1seg
+Version: 1.0
+Depends: Segmentor3IsBack
+License: GPL-2
+NeedsCompilation: no
+
 Package: ARAMIS
 Version: 1.0.1
 Depends: R (>= 2.15.0), MASS, LearnBayes, methods, graphics
@@ -6879,7 +6885,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: diffIRT
-Version: 1.2
+Version: 1.4
 Depends: statmod
 License: GPL-2
 NeedsCompilation: yes
@@ -17510,6 +17516,13 @@ Version: 3.3.3
 Depends: R (>= 2.6.0)
 Suggests: MASS, sem, boot, nlme, gsl, lavaan, parallel, snow, OpenMx
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: mbest
+Version: 0.1
+Imports: lme4
+Suggests: testthat
+License: Apache License (== 2.0) | file LICENSE
 NeedsCompilation: no
 
 Package: MBI
