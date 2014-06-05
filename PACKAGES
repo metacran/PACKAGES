@@ -35680,7 +35680,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: vbsr
-Version: 0.0.4
+Version: 0.0.5
 Depends: R (>= 3.0.0)
 License: GPL-2
 NeedsCompilation: yes
