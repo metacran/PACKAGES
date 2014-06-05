@@ -7359,7 +7359,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dnet
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.1.0), igraph, supraHex
 Imports: graph, Rgraphviz, Matrix, Biobase
 Suggests: limma, survival, foreach, doMC
@@ -17196,7 +17196,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: maptools
-Version: 0.8-29
+Version: 0.8-30
 Depends: R (>= 2.10), sp (>= 1.0-11)
 Imports: foreign (>= 0.8), methods, grid, lattice, stats
 Suggests: rgeos (>= 0.1-8), spatstat (>= 1.18), PBSmapping,
@@ -23141,10 +23141,10 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: phylolm
-Version: 2.0
-Depends: R (>= 2.15.0), ape
+Version: 2.1
+Depends: R (>= 3.0), ape
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: phylosim
 Version: 2.1.1
@@ -26760,12 +26760,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RefManageR
-Version: 0.8.1
+Version: 0.8.2
 Depends: R (>= 3.0)
 Imports: XML, RCurl, RJSONIO, utils, plyr, tools, bibtex, lubridate,
         stringr, methods
 Suggests: knitr
-License: BSD_3_clause + file LICENSE
+License: GPL-2 | GPL-3 | BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: refund
