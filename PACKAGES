@@ -17440,7 +17440,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.8.14
+Version: 0.8.15
 Depends: R (>= 2.9.0)
 Imports: methods, R.methodsS3 (>= 1.5.2)
 License: Artistic-2.0
@@ -29386,7 +29386,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Rvcg
-Version: 0.7.1
+Version: 0.8
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
