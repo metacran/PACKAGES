@@ -9209,8 +9209,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ezsim
-Version: 0.5.3
-Depends: foreach, ggplot2, reshape, plyr, parallel, Jmisc, digest
+Version: 0.5.4
+Imports: foreach, ggplot2, parallel, digest, plyr, reshape, Jmisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17888,9 +17888,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: memgene
-Version: 0.12
-Imports: ade4
-Suggests: adegenet, geosphere, vegan, raster
+Version: 1.0
+Imports: ade4, raster, gdistance, vegan
+Suggests: adegenet, geosphere, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25165,7 +25165,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: quantspec
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 3.0.0), stats4
 Imports: methods, graphics, quantreg, testthat, abind, zoo, rje,
         snowfall
