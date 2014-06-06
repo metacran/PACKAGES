@@ -8674,8 +8674,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: equivalence
-Version: 0.5.7
-Depends: lattice, boot, grid
+Version: 0.6.0
+Depends: lattice, boot, grid, PairedData
 License: GPL-2
 NeedsCompilation: yes
 
@@ -16392,6 +16392,14 @@ Package: lmmlasso
 Version: 0.1-2
 Depends: methods, emulator, miscTools, penalized
 License: GPL
+NeedsCompilation: no
+
+Package: lmms
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: stats, methods, nlme, lmeSplines, parallel, reshape, gdata,
+        graphics
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lmodel2
