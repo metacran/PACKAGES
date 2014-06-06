@@ -35338,9 +35338,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: tweedie
-Version: 2.1.7
-Depends: R (>= 2.8.0), statmod(>= 1.0.8)
-Suggests: stabledist
+Version: 2.2.1
+Depends: R (>= 2.8.0)
+Suggests: stabledist, statmod(>= 1.4.20)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
