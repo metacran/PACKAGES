@@ -21869,7 +21869,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: overlap
-Version: 0.2.2
+Version: 0.2.3
 License: GPL (>= 3)
 NeedsCompilation: yes
 
