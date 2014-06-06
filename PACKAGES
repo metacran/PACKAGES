@@ -11285,6 +11285,12 @@ Version: 0.1.1.1
 License: GPL-2
 NeedsCompilation: no
 
+Package: genasis
+Version: 1.0
+Depends: R (>= 2.0.1), Kendall, fitdistrplus
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: GenBinomApps
 Version: 1.0-1
 Depends: stats
@@ -13577,8 +13583,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hoardeR
-Version: 0.0-1
-Depends: R (>= 3.0.2), httr (>= 0.2), XML (>= 3.98-1.1)
+Version: 0.0-2
+Depends: R (>= 3.0.2), httr (>= 0.2), XML (>= 3.98-1.1), stringr (>=
+        0.6.2)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27939,7 +27946,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rmalschains
-Version: 0.2-1
+Version: 0.2-2
 Depends: Rcpp (>= 0.9.10)
 LinkingTo: Rcpp
 Suggests: inline
