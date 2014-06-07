@@ -23977,6 +23977,12 @@ Depends: R (>= 2.10), methods, lattice, portfolio (>= 0.4.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PortRisk
+Version: 1.0
+Depends: zoo, R (>= 3.0.2)
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: postCP
 Version: 1.7.2
 Depends: MASS, Segmentor3IsBack
