@@ -3396,7 +3396,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: C50
-Version: 0.1.0-16
+Version: 0.1.0-19
 Depends: R (>= 2.10.0)
 License: GPL-3
 NeedsCompilation: yes
@@ -5783,7 +5783,7 @@ License: Mozilla Public License 2.0
 NeedsCompilation: yes
 
 Package: Cubist
-Version: 0.0.15
+Version: 0.0.18
 Depends: lattice
 Imports: reshape2
 Suggests: mlbench, caret
