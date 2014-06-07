@@ -14587,6 +14587,12 @@ Imports: optimx
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: io
+Version: 0.1
+Suggests: XML, rhdf5, yaml, jsonlite
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: ipdmeta
 Version: 2.4
 Depends: nlme, methods
@@ -28769,6 +28775,14 @@ Depends: R (>= 2.14)
 Imports: quantreg, limma, lattice, stats4, gam, gplots, grid, ggplot2,
         Hmisc, Biobase
 License: LGPL
+NeedsCompilation: no
+
+Package: rprintf
+Version: 0.1
+Depends: R (>= 2.15)
+Imports: stringr
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RProtoBuf
