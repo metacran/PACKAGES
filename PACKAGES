@@ -5011,6 +5011,13 @@ Version: 0.3.4
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: compositions
+Version: 1.40-1
+Depends: R (>= 2.2.0), tensorA, robustbase, energy, bayesm
+Suggests: rgl
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: compound.Cox
 Version: 1.4
 Depends: numDeriv, survival
@@ -14599,6 +14606,14 @@ Depends: nlme, methods
 License: GPL-2
 NeedsCompilation: no
 
+Package: ipdw
+Version: 0.2
+Depends: R (>= 3.0.2),gdistance
+Imports: raster
+Suggests: geoR,gstat,gdata,spatstat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ipfp
 Version: 1.0
 License: Apache License (== 2.0)
@@ -15442,10 +15457,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: kobe
-Version: 1.2.2
-Depends: R(>= 2.15.1), methods, ggplot2, reshape, plyr, grid, MASS,
-        coda, emdbook, tables, RCurl, ellipse
-License: GPL-2
+Version: 1.3.2
+Depends: R(>= 3.0.2), methods
+Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
+Suggests: akima,
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kohonen
@@ -17467,11 +17483,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.8.15
+Version: 0.9.7
 Depends: R (>= 2.9.0)
-Imports: methods, R.methodsS3 (>= 1.5.2)
+Imports: methods, R.methodsS3 (>= 1.6.1)
+Suggests: R.rsp
 License: Artistic-2.0
-NeedsCompilation: yes
+NeedsCompilation: TRUE
 
 Package: MATTOOLS
 Version: 1.1
