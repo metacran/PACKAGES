@@ -17483,12 +17483,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.9.7
+Version: 0.10.0
 Depends: R (>= 2.9.0)
 Imports: methods, R.methodsS3 (>= 1.6.1)
 Suggests: R.rsp
 License: Artistic-2.0
-NeedsCompilation: TRUE
+NeedsCompilation: yes
 
 Package: MATTOOLS
 Version: 1.1
@@ -21167,7 +21167,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: numOSL
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.15.3)
 License: GPL-3
 NeedsCompilation: yes
@@ -28971,13 +28971,12 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: R.rsp
-Version: 0.15.0
-Depends: R (>= 2.5.0), R.oo (>= 1.18.0)
-Imports: stats, utils, tools, R.methodsS3 (>= 1.6.1), R.utils (>=
-        1.29.8), R.cache (>= 0.9.0)
-Suggests: tcltk, digest (>= 0.6.4), ascii (>= 2.1), markdown (>=
-        0.6.4), knitr (>= 1.5), R.devices (>= 2.8.2), base64enc (>=
-        0.1-1)
+Version: 0.19.0
+Depends: R (>= 2.5.0)
+Imports: stats, utils, tools, R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0),
+        R.utils (>= 1.32.4), R.cache (>= 0.9.0)
+Suggests: tcltk, digest (>= 0.6.4), ascii (>= 2.1), markdown (>= 0.7),
+        knitr (>= 1.6), R.devices (>= 2.9.2), base64enc (>= 0.1-1)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
