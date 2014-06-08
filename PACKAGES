@@ -6542,7 +6542,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: dendroextras
-Version: 0.1-4
+Version: 0.2
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33838,7 +33838,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: synlik
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.10.4), methods, graphics, Matrix, compiler, stats,
         parallel
