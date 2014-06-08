@@ -16975,8 +16975,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Luminescence
-Version: 0.3.3
-Depends: R (>= 3.0.0), utils, Rserve
+Version: 0.3.4
+Depends: R (>= 3.1.0), utils, Rserve
 Imports: methods, XML, shape, rgl, matrixStats
 License: GPL-3
 NeedsCompilation: no
@@ -26338,7 +26338,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp
-Version: 0.11.1
+Version: 0.11.2
 Depends: R (>= 3.0.0)
 Imports: methods
 Suggests: RUnit, inline, rbenchmark, highlight
@@ -26586,6 +26586,12 @@ Version: 0.4-14
 Depends: R (>= 2.15.0), tools, gbRd
 Imports: bibtex
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: rdrobust
+Version: 0.5
+Depends: R (>= 3.0.2)
+License: GPL-2
 NeedsCompilation: no
 
 Package: Rdrools
