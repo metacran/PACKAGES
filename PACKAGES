@@ -12216,6 +12216,12 @@ Depends: stats, gPdtest, mvShapiroTest
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: goftest
+Version: 1.0-1
+Depends: R (>= 3.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: GOGANPA
 Version: 1.0
 Depends: R (>= 2.10), GANPA, WGCNA
@@ -13243,7 +13249,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: helsinki
-Version: 0.9.18
+Version: 0.9.20
 Depends: R (>= 3.0.1), maptools
 Imports: rjson, RCurl
 License: BSD_2_clause + file LICENSE
