@@ -14819,7 +14819,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: IsoCI
-Version: 1.0
+Version: 1.1
 Depends: R(>= 2.13.1), KernSmooth
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24294,7 +24294,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: primerTree
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.0.0), directlabels, gridExtra
 Imports: ggplot2, grid, XML, ape, httr, lubridate, plyr, scales,
         stringr, foreach
@@ -27818,7 +27818,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: rivervis
-Version: 0.38.3
+Version: 0.39.1
 Imports: graphics
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -36743,7 +36743,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.9.1
+Version: 0.10.0
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr, jsonlite
 License: FreeBSD
