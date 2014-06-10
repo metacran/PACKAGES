@@ -7388,6 +7388,12 @@ Suggests: pbkrtest (>= 0.3-8), ggplot2, multcomp, geepack
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: docopt
+Version: 0.1.1
+Imports: stringr, methods
+License: MIT +file LICENSE
+NeedsCompilation: no
+
 Package: Dodge
 Version: 0.8
 Depends: R (>= 2.14.0)
@@ -8932,6 +8938,12 @@ NeedsCompilation: no
 Package: evobiR
 Version: 1.0
 Depends: seqinr, ape, stringr, geiger, taxize
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: evolvability
+Version: 1.0
+Depends: coda
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25009,7 +25021,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qmap
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.8.0), fitdistrplus
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27902,7 +27914,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rjson
-Version: 0.2.13
+Version: 0.2.14
 Depends: R (>= 2.12.0)
 License: GPL-2
 NeedsCompilation: yes
@@ -30091,7 +30103,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SCI
-Version: 1.0-0
+Version: 1.0-1
 Depends: fitdistrplus, lmomco
 Suggests: evd
 License: GPL (>= 2)
@@ -30669,6 +30681,14 @@ Package: seqDesign
 Version: 1.0.1
 Depends: R (>= 2.16), survival, xtable
 License: GPL-2
+NeedsCompilation: no
+
+Package: SeqFeatR
+Version: 0.1.5
+Depends: R(>= 3.1.0),tcltk,tcltk2,Biostrings, plotrix, ape
+Imports: plyr,phangorn,qvalue,widgetTools
+Suggests: xtable
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: SeqGrapheR
