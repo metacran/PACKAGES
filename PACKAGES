@@ -3454,14 +3454,6 @@ Suggests: fUnitRoots
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: CAGExploreR
-Version: 1.0.2
-Depends: R (>= 3.0.2), edgeR, data.table, AnnotationDbi
-Imports: rbamtools, R2HTML, GenomicFeatures, biomaRt
-Suggests: knitr
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: cAIC4
 Version: 0.1
 Depends: lme4(>= 0.999375-31), methods, Matrix
@@ -12748,7 +12740,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: gsmoothr
-Version: 0.1.5
+Version: 0.1.7
 Depends: R (>= 2.8.0), methods
 License: LGPL (>= 2.0)
 NeedsCompilation: yes
@@ -13225,6 +13217,13 @@ NeedsCompilation: no
 Package: heatex
 Version: 1.0
 License: GPL-3
+NeedsCompilation: no
+
+Package: heatmap3
+Version: 1.0.4
+Imports: fastcluster
+Suggests: knitr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: heatmapFit
@@ -31230,6 +31229,14 @@ Version: 0.94
 Depends: Biostrings, ShortRead
 Suggests: seqinr
 License: GPL-2
+NeedsCompilation: no
+
+Package: simsalapar
+Version: 1.0-3
+Depends: R (>= 3.0.0), stats, graphics, parallel
+Imports: utils, methods, grid, sfsmisc, gridBase (>= 0.4-6), colorspace
+Suggests: Rmpi, snow, Hmisc, copula, foreach, doParallel, fGarch
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: simsem
