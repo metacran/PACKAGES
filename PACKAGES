@@ -14195,6 +14195,12 @@ Depends: R (>= 2.4.0), mvtnorm, ICS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ICsurv
+Version: 1.0
+Imports: MASS (>= 7.3-33), matrixcalc (>= 1.0-3)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: idbg
 Version: 1.0
 License: GPL-2
@@ -15372,10 +15378,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: klaR
-Version: 0.6-10
-Depends: R (>= 2.0.0), MASS
+Version: 0.6-11
+Depends: R (>= 2.10.0), MASS
 Imports: combinat
-Suggests: scatterplot3d (>= 0.3-22), som, mlbench, rpart, e1071, evtree
+Suggests: scatterplot3d (>= 0.3-22), som, mlbench, rpart, e1071
 License: GPL-2
 NeedsCompilation: no
 
