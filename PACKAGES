@@ -2158,7 +2158,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: BEQI2
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 3.0.2), methods, tcltk
 Imports: knitr, markdown, RJSONIO, xtable, plyr, reshape2
 Suggests: testthat
@@ -2728,10 +2728,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: birdring
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10.1), stats
-Imports: geosphere, ks, lazyData, raster, reshape, rgdal, rgeos,
-        rworldmap, rworldxtra, sp
+Imports: geosphere, ks, lazyData, raster, rgdal, rgeos, rworldmap,
+        rworldxtra, sp
 License: GPL-2
 NeedsCompilation: no
 
@@ -35838,7 +35838,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: vcdExtra
-Version: 0.6-0
+Version: 0.6-1
 Depends: R (>= 2.10), vcd, gnm (>= 1.0.3)
 Imports: MASS
 Suggests:
