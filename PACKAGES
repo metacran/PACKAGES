@@ -2107,7 +2107,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BEDASSLE
-Version: 1.3
+Version: 1.4
 Imports: MASS, matrixcalc, emdbook
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -2288,7 +2288,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BGLR
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.15.0)
 License: GPL-3
 NeedsCompilation: yes
@@ -3605,8 +3605,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: carcass
-Version: 1.1
-Depends: R (>= 2.12.0), stats, arm, survival
+Version: 1.2
+Depends: R (>= 3.0.0), stats, lme4, survival
+Imports: expm, arm
 License: GPL-2
 NeedsCompilation: no
 
@@ -13794,9 +13795,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: hts
-Version: 4.2
+Version: 4.3
 Depends: forecast (>= 5.0)
-Imports: SparseM, parallel
+Imports: SparseM, parallel, utils
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21702,6 +21703,12 @@ Suggests: graph
 License: LGPL-3
 NeedsCompilation: yes
 
+Package: ORCI
+Version: 1.1
+Imports: BiasedUrn, BlakerCI, PropCIs
+License: GPL-2
+NeedsCompilation: no
+
 Package: orclus
 Version: 0.2-5
 License: GPL (>= 2)
@@ -27527,16 +27534,16 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RGraphics
-Version: 2.0-7
+Version: 2.0-9
 Depends: R (>= 2.13.0), datasets, stats, grDevices, graphics, methods,
         grid, lattice, ggplot2
 Suggests: agricolae, animation, CircStats, circular, cluster,
         colorspace, diagram, dichromat, gplots, graph, gridBase,
         gridExtra, gridSVG, grImport, gWidgetsRGtk2, hexbin, Hmisc,
-        hyperdraw, igraph, iplots, ipred, latticeExtra, latticist,
-        mapdata, maps, maptools, MASS, misc3d, munsell, network,
-        openair, oz, party, pixmap, playwith, plotrix, pmg, png,
-        quantmod, raster, Rcmdr, RColorBrewer, rgdal, rggobi, rgl,
+        hyperdraw, hypergraph, igraph, iplots, ipred, latticeExtra,
+        latticist, mapdata, maps, maptools, MASS, misc3d, munsell,
+        network, openair, oz, party, pixmap, playwith, plotrix, pmg,
+        png, quantmod, raster, Rcmdr, RColorBrewer, rgdal, rggobi, rgl,
         RGraphics, Rgraphviz, scatterplot3d, soiltexture, sp,
         SVGAnnotation, symbols, TeachingDemos, tools, vcd, vcdExtra,
         venneuler, vrmlgen
@@ -27973,9 +27980,9 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlme
-Version: 0.3
-Depends: Rcpp (>= 0.10.3)
-Imports: MASS, quantreg, nlme, mgcv, stringr, magic, robustbase
+Version: 0.4
+Imports: MASS, quantreg, nlme, mgcv, stringr, magic, robustbase, Rcpp
+        (>= 0.11.1)
 LinkingTo: Rcpp
 Suggests: testthat
 License: GPL (>= 2)
