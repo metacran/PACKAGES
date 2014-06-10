@@ -3851,7 +3851,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CCTpack
-Version: 1.1
+Version: 1.2
 Depends: R2jags
 Imports: tcltk, rjags, psych, mvtnorm, polycor, MASS
 License: GPL (>= 2)
@@ -23952,6 +23952,13 @@ Depends: quadprog
 License: GPL
 NeedsCompilation: no
 
+Package: popdemo
+Version: 0.1-4
+Depends: R (>= 2.14.1)
+Imports: expm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PopED
 Version: 0.1.1
 Depends: ggplot2
@@ -30984,6 +30991,12 @@ Version: 0.20
 Depends: methods
 Imports: shiny (>= 0.8.0)
 License: GPL-3
+NeedsCompilation: no
+
+Package: shinyFiles
+Version: 0.3.1
+Imports: tools, shiny
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shinyRGL
