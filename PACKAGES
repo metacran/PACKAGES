@@ -5172,7 +5172,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: conting
-Version: 1.2
+Version: 1.3
 Depends: R (>= 2.15.0)
 Imports: mvtnorm, BMS, gtools, tseries, coda
 License: GPL-2
@@ -8281,6 +8281,12 @@ Version: 1.2.2
 Depends: R(>= 2.7.2), coda, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: ElstonStewart
+Version: 1.0
+Depends: kinship2, parallel, digest
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: ELT
 Version: 1.2
@@ -19962,6 +19968,12 @@ Version: 0.4.2
 Imports: colorspace
 Suggests: ggplot2 (>= 0.9.2)
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: munsellinterpol
+Version: 1.0.1
+Depends: R (>= 2.10), geometry
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: muRL
