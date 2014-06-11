@@ -7101,7 +7101,7 @@ License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
 Package: Distance
-Version: 0.9
+Version: 0.9.1
 Depends: R (>= 3.0), mrds
 Suggests: testthat
 License: GPL (>= 2)
@@ -12759,7 +12759,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: gss
-Version: 2.1-1
+Version: 2.1-2
 Depends: R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -19489,7 +19489,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mrds
-Version: 2.1.5
+Version: 2.1.6
 Depends: R (>= 3.0)
 Imports: optimx (>= 2013.8.6), mgcv, Rsolnp
 Suggests: testthat
