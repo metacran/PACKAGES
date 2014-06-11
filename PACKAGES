@@ -8459,7 +8459,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: enaR
-Version: 2.6
+Version: 2.7
 Depends: R (>= 2.10), sna, network, MASS, stringr, gdata
 Suggests: codetools, igraph
 License: GPL-2
@@ -36812,7 +36812,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yaml
-Version: 2.1.11
+Version: 2.1.12
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
