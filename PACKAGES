@@ -15108,7 +15108,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: JMbayes
-Version: 0.6-0
+Version: 0.6-1
 Depends: R (>= 3.0.0), MASS, nlme, splines, survival
 Enhances: xtable
 License: GPL (>= 2)
@@ -23349,7 +23349,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: PivotalR
-Version: 0.1.16.2
+Version: 0.1.16.12
 Depends: R (>= 2.14.0), methods, Matrix
 Enhances: DBI, RPostgreSQL, shiny, testthat, tools
 License: GPL (>= 2)
@@ -26009,11 +26009,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: R.cache
-Version: 0.9.0
+Version: 0.10.0
 Depends: R (>= 2.5.0)
-Imports: utils, R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>=
-        1.27.1)
-Suggests: digest (>= 0.6.3)
+Imports: utils, R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>=
+        1.32.4)
+Suggests: digest (>= 0.6.4)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
