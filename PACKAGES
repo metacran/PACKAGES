@@ -101,7 +101,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: accrued
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0), grid
 License: GPL-3
 NeedsCompilation: no
@@ -5252,7 +5252,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: CopyDetect
-Version: 1.0
+Version: 1.1
 Depends: irtoys
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -13400,6 +13400,11 @@ Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: yes
 
+Package: hiddenf
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: HiddenMarkov
 Version: 1.7-0
 Suggests: snow
@@ -18353,9 +18358,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mice
-Version: 2.21
-Depends: R (>= 2.10.0), methods, Rcpp (>= 0.10.6)
-Imports: lattice, MASS, nnet, randomForest, rpart
+Version: 2.22
+Depends: R (>= 2.10.0), methods, Rcpp (>= 0.10.6), lattice
+Imports: MASS, nnet, randomForest, rpart
 LinkingTo: Rcpp
 Suggests: AGD, gamlss, lme4, mitools, nlme, pan, survival, Zelig
 License: GPL-2 | GPL-3
@@ -24371,7 +24376,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: PRISMA
-Version: 0.2-1
+Version: 0.2-2
 Depends: R (>= 2.10), Matrix, gplots, ggplot2
 Suggests: tm
 License: GPL (>= 2.0)
@@ -34730,8 +34735,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: tm.plugin.alceste
-Version: 1.0
-Imports: tm (>= 0.5-10)
+Version: 1.1
+Imports: NLP, tm (>= 0.6)
+Suggests: stringi
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34744,20 +34750,20 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tm.plugin.europresse
-Version: 1.0.1
-Imports: tm (>= 0.5-10), XML
+Version: 1.1
+Imports: NLP, tm (>= 0.6), XML
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tm.plugin.factiva
-Version: 1.3
-Imports: tm (>= 0.5-10), XML
+Version: 1.4
+Imports: NLP, tm (>= 0.6), XML
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tm.plugin.lexisnexis
-Version: 1.0
-Imports: utils, tm (>= 0.5-10), XML, ISOcodes
+Version: 1.1
+Imports: utils, NLP, tm (>= 0.6), XML, ISOcodes
 License: GPL (>= 2)
 NeedsCompilation: no
 
