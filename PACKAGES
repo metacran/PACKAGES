@@ -14959,7 +14959,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: iterpc
-Version: 0.2.4
+Version: 0.2.5
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.0), polynom
 LinkingTo: Rcpp
@@ -25924,6 +25924,12 @@ Depends: methods
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: rbamtools
+Version: 2.9.2
+Depends: methods
+License: Artistic-2.0
+NeedsCompilation: yes
+
 Package: rbefdata
 Version: 0.3.5
 Imports: XML, RCurl, rjson, wordcloud, rtematres, RColorBrewer
@@ -27983,7 +27989,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RKEA
-Version: 0.0-3
+Version: 0.0-4
 Imports: rJava (>= 0.6-3), tm
 License: GPL-2
 NeedsCompilation: no
@@ -32405,6 +32411,14 @@ Package: spBayes
 Version: 0.3-8
 Depends: R (>= 1.8.0), coda, magic, abind, Formula
 Suggests: MBA, geoR
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: spBayesSurv
+Version: 1.0.0
+Depends: R (>= 3.0.2)
+Imports: Rcpp (>= 0.11.1), survival
+LinkingTo: Rcpp, RcppArmadillo (>= 0.4.300.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
