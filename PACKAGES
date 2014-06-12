@@ -10146,7 +10146,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: flip
-Version: 2.4.2
+Version: 2.4.3
 Depends: methods, e1071, someMTP, cherry
 Imports: Rcpp,
 LinkingTo: Rcpp, RcppArmadillo
@@ -18643,9 +18643,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: miscset
-Version: 0.1
-Imports: Rcpp (>= 0.11.1)
+Version: 0.2
+Imports: Rcpp (>= 0.11.1), parallel, xtable
 LinkingTo: Rcpp
+Suggests: knitr
 License: GPL-3
 NeedsCompilation: yes
 
