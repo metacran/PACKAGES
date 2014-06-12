@@ -35769,6 +35769,14 @@ Imports: methods, graphics, stats, nlmrt
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
+Package: ustyc
+Version: 1.0.0
+Depends: R (>= 3.0.3)
+Imports: XML, plyr
+Suggests: xts, lattice
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: utility
 Version: 1.2
 License: GPL (>= 2)
@@ -36857,7 +36865,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yaml
-Version: 2.1.12
+Version: 2.1.13
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
