@@ -9048,7 +9048,7 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: excursions
-Version: 1.0-20140427
+Version: 1.1-20140610
 Depends: Matrix
 Suggests: INLA
 License: GPL (>= 3)
