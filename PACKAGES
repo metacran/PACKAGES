@@ -26401,11 +26401,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.temis
-Version: 0.6.2
-Depends: tm, slam, zoo, lattice
-Imports: Rcmdr (>= 2.0-0), tcltk, utils, ca, R2HTML, RColorBrewer,
-        latticeExtra
-Suggests: SnowballC, ROpenOffice, RODBC, tm.plugin.factiva, twitteR
+Version: 0.7
+Depends: tm (>= 0.6), NLP, slam, zoo, lattice
+Imports: methods, Rcmdr (>= 2.0-0), tcltk, tcltk2, utils, ca, R2HTML,
+        RColorBrewer, latticeExtra, stringi
+Suggests: SnowballC, ROpenOffice, RODBC, tm.plugin.factiva (>= 1.4),
+        tm.plugin.lexisnexis (>= 1.1), tm.plugin.europresse (>= 1.1),
+        tm.plugin.alceste (>= 1.1), twitteR
 License: GPL (>= 2)
 NeedsCompilation: no
 
