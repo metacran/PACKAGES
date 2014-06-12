@@ -4584,6 +4584,12 @@ Suggests: RHmm
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: clustMD
+Version: 1.0
+Imports: tmvtnorm, mvtnorm, truncnorm, MASS, mclust, msm
+License: GPL-2
+NeedsCompilation: no
+
 Package: ClustOfVar
 Version: 0.8
 License: GPL (>= 2.0)
@@ -25354,6 +25360,15 @@ Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
 
+Package: qVarSel
+Version: 1.0
+Depends: lpSolveAPI
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: clusterGeneration, mclust
+License: GPL-2
+NeedsCompilation: yes
+
 Package: qvcalc
 Version: 0.8-8
 Suggests: relimp, MASS
@@ -29745,7 +29760,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RXMCDA
-Version: 1.5.0
+Version: 1.5.3
 Depends: XML
 Imports: kappalab
 License: CeCILL-2
