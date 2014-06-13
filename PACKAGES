@@ -1426,7 +1426,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: babel
-Version: 0.2-5
+Version: 0.2-6
 Depends: R (>= 2.14.0), edgeR
 Imports: parallel
 Suggests: R.rsp, R.devices, R.utils
@@ -20340,7 +20340,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: nat.utils
-Version: 0.4
+Version: 0.4.1
 Suggests: testthat, roxygen2, digest
 License: GPL-3
 NeedsCompilation: no
@@ -34047,9 +34047,9 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: table1xls
-Version: 0.3
+Version: 0.3.1
 Imports: XLConnect
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: tableone
