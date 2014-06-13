@@ -21484,13 +21484,6 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: OmicKriging
-Version: 1.1
-Depends: R(>= 2.15.1), SNPRelate, doMC
-Imports: ROCR, inline, gdsfmt, irlba, Rcpp, RcppEigen
-License: GPL (>= 3)
-NeedsCompilation: no
-
 Package: oncomodel
 Version: 1.0
 Depends: R (>= 2.5.1), ade4
@@ -31338,12 +31331,6 @@ Version: 1.0
 Depends: Formula, plotrix
 License: GPL-2
 NeedsCompilation: yes
-
-Package: simPopulation
-Version: 0.4.1
-Depends: R(>= 2.10.0), nnet, POT, lattice, vcd
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: Simpsons
 Version: 0.1.0
