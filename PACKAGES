@@ -24435,7 +24435,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pROC
-Version: 1.7.2
+Version: 1.7.3
 Depends: R (>= 2.13)
 Imports: plyr, utils, methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
@@ -25282,7 +25282,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: QuantifQuantile
-Version: 0.1
+Version: 0.2
 Depends: rgl
 License: GPL (>= 2.0)
 NeedsCompilation: no
