@@ -30365,15 +30365,6 @@ Imports: vcd, foreign, Hmisc,tools
 License: GPL-2
 NeedsCompilation: no
 
-Package: sdcTable
-Version: 0.16.0
-Depends: stringr, methods, Rcpp (>= 0.11.0), Rglpk, lpSolveAPI,
-        data.table
-LinkingTo: Rcpp
-Suggests: testthat (>= 0.3)
-License: GPL-2
-NeedsCompilation: yes
-
 Package: SDD
 Version: 1.1
 Depends: R (>= 2.15.0)
