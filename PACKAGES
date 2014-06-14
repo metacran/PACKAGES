@@ -7013,9 +7013,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: disclapmix
-Version: 1.4
+Version: 1.5
 Imports: Rcpp (>= 0.11), disclap (>= 1.4), cluster (>= 1.14.4)
 LinkingTo: Rcpp
+Suggests: ggplot2, gridExtra, ggdendro, scales, seriation
 License: GPL-2
 NeedsCompilation: yes
 
