@@ -26030,7 +26030,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rbitcoinchartsapi
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.0.3), RJSONIO, RCurl
 License: LGPL-3
 Archs: i386, x64
