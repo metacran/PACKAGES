@@ -1074,6 +1074,12 @@ Suggests: R2WinBUGS, foreign
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: arnie
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+License: CC BY-SA 3.0 US
+NeedsCompilation: no
+
 Package: aroma.affymetrix
 Version: 2.12.0
 Depends: R (>= 2.15.1), R.utils (>= 1.29.8), aroma.core (>= 2.12.1)
@@ -4218,7 +4224,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: choroplethr
-Version: 1.6.0
+Version: 1.7.0
 Depends: R (>= 3.0.0)
 Imports: ggplot2, scales, plyr, Hmisc, grid, acs, stringr
 Suggests: testthat, maps, zipcode, knitr
@@ -14539,7 +14545,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: installr
-Version: 0.14.0
+Version: 0.15.3
 Depends: R (>= 2.11.0)
 Imports: utils
 Suggests: XML, devtools, rjson, data.table, plyr, ggplot2, sp, tools
@@ -14666,7 +14672,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: InventorymodelPackage
-Version: 1.0.0
+Version: 1.0.1
 Depends: R(>= 2.15.0),e1071
 License: GPL-2
 NeedsCompilation: no
@@ -34318,7 +34324,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TEQR
-Version: 2.0-0
+Version: 4.0-0
 License: GPL-2
 NeedsCompilation: no
 
@@ -36807,6 +36813,14 @@ Package: xlsxjars
 Version: 0.6.0
 Depends: rJava
 License: GPL-3
+NeedsCompilation: no
+
+Package: Xmisc
+Version: 0.0.9
+Depends: R (>= 3.1.0)
+Imports: methods
+Suggests: data.table, stringr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: XML
