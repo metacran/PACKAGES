@@ -31089,7 +31089,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: shinyFiles
-Version: 0.3.1
+Version: 0.3.2
 Imports: tools, shiny
 License: GPL (>= 2)
 NeedsCompilation: no
