@@ -20792,6 +20792,12 @@ Imports: utils
 License: GPL-2
 NeedsCompilation: no
 
+Package: NLPutils
+Version: 0.0-1
+Imports: NLP (>= 0.1-3), SnowballC, qdap
+License: GPL-2
+NeedsCompilation: no
+
 Package: nlreg
 Version: 1.2-2
 Depends: R (>= 3.0.0), statmod, survival
@@ -34794,9 +34800,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tm.plugin.dc
-Version: 0.2-6
-Depends: DSL (>= 0.1-3), tm (>= 0.5-6.10)
-Imports: slam (>= 0.1-22), utils
+Version: 0.2-7
+Depends: DSL (>= 0.1-3), tm (>= 0.6)
+Imports: NLP, slam (>= 0.1-22), utils
 Suggests: XML
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -36813,14 +36819,6 @@ Package: xlsxjars
 Version: 0.6.0
 Depends: rJava
 License: GPL-3
-NeedsCompilation: no
-
-Package: Xmisc
-Version: 0.0.9
-Depends: R (>= 3.1.0)
-Imports: methods
-Suggests: data.table, stringr
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: XML
