@@ -15386,7 +15386,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: KFKSDS
-Version: 1.3
+Version: 1.4
 Depends: R (>= 3.0.0), stats
 Suggests: dlm, dse, FKF, numDeriv, stsm.class
 License: GPL-2
