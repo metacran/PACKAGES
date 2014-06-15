@@ -20243,7 +20243,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mwa
-Version: 0.3
+Version: 0.3.1
 Depends: R (>= 2.6), cem (>= 0.3), rJava (>= 0.9), MASS (>= 7.0)
 License: LGPL-3
 NeedsCompilation: no
