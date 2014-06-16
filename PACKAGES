@@ -12169,7 +12169,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Gmisc
-Version: 0.6.2.3
+Version: 0.6.4
 Depends: Hmisc
 Imports: grid, stringr, lattice, sp, methods
 Suggests: testthat, XML
@@ -14704,7 +14704,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ipdw
-Version: 0.2
+Version: 0.2-1
 Depends: R (>= 3.0.2),gdistance
 Imports: raster
 Suggests: geoR,gstat,gdata,spatstat
@@ -20131,9 +20131,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mvnfast
-Version: 0.1.0
+Version: 0.1.2
 Imports: Rcpp (>= 0.10.4)
-LinkingTo: Rcpp, RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo, BH
 Suggests: knitr, testthat, mvtnorm, microbenchmark, MASS, plyr
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -24637,10 +24637,10 @@ License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
 Package: protViz
-Version: 0.1.76
-Depends: R (>= 2.15.1), methods
+Version: 0.1.95
+Depends: R (>= 3.0.2), methods
 Imports: Rcpp (>= 0.9.9)
-Suggests: lattice
+Suggests: lattice, RUnit, BiocGenerics
 License: GPL-3
 NeedsCompilation: yes
 
@@ -28380,13 +28380,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RNetCDF
-Version: 1.6.2-2
+Version: 1.6.2-3
 Depends: R (>= 2.4.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RNetLogo
-Version: 0.9-7
+Version: 1.0-0
 Depends: R (>= 2.12.1), rJava (>= 0.6-3)
 Suggests: igraph, parallel
 License: GPL-2
@@ -33328,7 +33328,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: StratSel
-Version: 0.1
+Version: 1.0
 Depends: R (>= 3.0.0), mnormt, memisc, Formula
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34449,7 +34449,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: textometry
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 1.5.0)
 License: GPL (>= 3)
 NeedsCompilation: no
