@@ -27609,9 +27609,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: Rglpk
-Version: 0.5-2
+Version: 0.6-0
 Depends: slam (>= 0.1-9)
-License: GPL-2
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: Rgnuplot
@@ -31422,6 +31422,12 @@ NeedsCompilation: no
 Package: sirad
 Version: 2.0-7
 Depends: zoo, ncdf, RNetCDF, raster
+License: GPL-2
+NeedsCompilation: no
+
+Package: siRSM
+Version: 1.0
+Imports: rsm, MASS, foreach, doSNOW, parallel
 License: GPL-2
 NeedsCompilation: no
 
