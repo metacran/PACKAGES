@@ -10979,7 +10979,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gamboostLSS
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 2.10.0), mboost (>= 2.2-3)
 Suggests: gamlss, BayesX, gamlss.dist
 License: GPL-2
