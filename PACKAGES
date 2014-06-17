@@ -11696,7 +11696,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GetoptLong
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 2.10.0)
 Imports: rjson
 Suggests: testthat (>= 0.3)
@@ -17443,10 +17443,11 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: marmap
-Version: 0.7
+Version: 0.8
 Depends: R (>= 2.10)
-Imports: RSQLite, gdistance, geosphere, sp, raster, ncdf
-Suggests: maps, mapdata, shape, lattice
+Imports: RSQLite, gdistance, geosphere, sp, raster, ncdf, plotrix,
+        shape
+Suggests: maps, mapdata, lattice, mapproj
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -29103,7 +29104,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: Rrdrand
-Version: 0.1-7
+Version: 0.1-8
 Depends: R (>= 3.0.0)
 License: AGPL-3
 NeedsCompilation: yes
@@ -30980,7 +30981,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: sglasso
-Version: 1.0-0
+Version: 1.0-1
 Depends: Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
