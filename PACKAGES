@@ -4681,7 +4681,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: cmprsk
-Version: 2.2-6
+Version: 2.2-7
 Depends: R (>= 2.15.0), survival
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -13041,6 +13041,12 @@ Depends: methods, Rcpp, minqa, nlme, parallel
 License: GPL-2
 NeedsCompilation: no
 
+Package: h2o
+Version: 2.4.3.11
+Depends: R (>= 2.13.0), RCurl, rjson, statmod, tools, methods, utils
+License: Apache License (== 2.0)
+NeedsCompilation: no
+
 Package: h5r
 Version: 1.4.7
 Depends: R (>= 2.10.0), methods
@@ -16140,12 +16146,6 @@ Version: 2.15
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: LearnEDA
-Version: 1.2
-Depends: aplpack, vcd
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: learningr
 Version: 0.29
 Imports: plyr
@@ -16605,6 +16605,13 @@ Version: 0.33
 Depends: ggplot2, MASS, foreach, matrixStats
 License: GPL-2
 NeedsCompilation: yes
+
+Package: localsolver
+Version: 2.3
+Depends: R (>= 3.0.1)
+Suggests: knitr
+License: LGPL-2.1
+NeedsCompilation: no
 
 Package: locfdr
 Version: 1.1-7
@@ -17412,12 +17419,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: marked
-Version: 1.1.3
-Depends: R (>= 2.15.0)
+Version: 1.1.6
+Depends: R (>= 2.15.0), lme4, methods
 Imports: R2admb, truncnorm, coda, optimx (>= 2013.8.6), ggplot2,
         Matrix, numDeriv, Rcpp (>= 0.9.13), plyr
 LinkingTo: Rcpp
-Suggests: RMark
+Suggests: RMark, expm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
