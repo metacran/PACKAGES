@@ -35051,7 +35051,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: TreatmentSelection
-Version: 1.1.1
+Version: 1.1.2
 Imports: ggplot2, grid
 License: GPL-2
 NeedsCompilation: no
@@ -35418,6 +35418,13 @@ Version: 2013.9-1
 Depends: R (>= 2.8.0), TSdbi (>= 2013.9-1), RODBC (>= 0.6-0)
 Imports: methods, DBI, tframe, tframePlus , TSsql (>= 2013.9-1)
 Suggests: zoo, tseries, tfplot
+License: GPL-2
+NeedsCompilation: no
+
+Package: tsoutliers
+Version: 0.3
+Depends: R (>= 3.0.0)
+Imports: forecast, polynom, stsm, stsm.class, KFKSDS
 License: GPL-2
 NeedsCompilation: no
 
