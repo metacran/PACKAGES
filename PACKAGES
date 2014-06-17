@@ -2986,7 +2986,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: bnlearn
-Version: 3.5
+Version: 3.6
 Depends: R (>= 2.14.0)
 Imports: methods
 Suggests: parallel, graph, Rgraphviz, lattice, gRain
@@ -4117,6 +4117,13 @@ Version: 0.1-1
 Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
+
+Package: checkmate
+Version: 1.0
+Depends: R (>= 2.15.0)
+Suggests: testthat
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: yes
 
 Package: cheddar
 Version: 0.1-625
@@ -6572,7 +6579,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: dendsort
-Version: 0.2.0
+Version: 0.2.1
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -15372,8 +15379,8 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: KernSmoothIRT
-Version: 6.0
-Depends: Rcpp, plotrix, rgl
+Version: 6.1
+Imports: Rcpp, plotrix, rgl
 LinkingTo: Rcpp
 License: GPL-2
 NeedsCompilation: yes
@@ -36003,6 +36010,14 @@ Package: VDA
 Version: 1.3
 Depends: rgl
 License: GPL-2
+NeedsCompilation: yes
+
+Package: vdg
+Version: 1.0
+Depends: R (>= 3.1.0), parallel, splines, ggplot2, quantreg
+Imports: proxy
+Suggests: rsm, Vdgraph
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Vdgraph
