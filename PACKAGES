@@ -32509,7 +32509,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: spcr
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
