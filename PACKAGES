@@ -1171,11 +1171,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: arules
-Version: 1.1-2
+Version: 1.1-3
 Depends: R (>= 2.14.2), Matrix (>= 1.0-0)
 Imports: stats, methods
-Suggests: pmml, arulesViz, testthat
-License: GPL-2
+Suggests: pmml, XML, arulesViz, testthat
+License: GPL-3
 NeedsCompilation: yes
 
 Package: arulesNBMiner
@@ -7699,7 +7699,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: dsm
-Version: 2.2.3
+Version: 2.2.4
 Depends: R (>= 3.0), mgcv (>= 1.7), mrds
 Imports: nlme, ggplot2, statmod
 Suggests: Distance
@@ -33363,9 +33363,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: streamMOA
-Version: 0.1-0
-Depends: stream (>= 1.0-0), methods, rJava (>= 0.6-3)
-License: GPL-2
+Version: 0.1-1
+Depends: stream (>= 1.0-2), methods, rJava (>= 0.6-3)
+License: GPL-3
 NeedsCompilation: no
 
 Package: streamR
@@ -33621,14 +33621,15 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: surveillance
-Version: 1.7-0
+Version: 1.8-0
 Depends: R (>= 2.15.2), methods, grDevices, graphics, stats, utils,
-        Rcpp, sp (>= 1.0-6), xtable, polyCub (>= 0.4-0)
-Imports: MASS, Matrix, spatstat (>= 1.34-0)
+        Rcpp, sp (>= 1.0-15), xtable, polyCub (>= 0.4-2)
+Imports: MASS, Matrix, spatstat (>= 1.36-0)
 LinkingTo: Rcpp
-Suggests: msm, spc, colorspace, animation, quadprog, parallel, memoise,
-        polyclip, rgeos, gpclib, maptools, intervals, spdep, numDeriv,
-        maxLik, RUnit, digest, coda, splancs, gamlss
+Suggests: parallel, lattice, grid, gridExtra, colorspace, scales,
+        animation, msm, spc, quadprog, memoise, polyclip, rgeos,
+        gpclib, maptools, intervals, spdep, numDeriv, maxLik, testthat,
+        coda, splancs, gamlss, INLA, runjags
 License: GPL-2
 NeedsCompilation: yes
 
@@ -34560,6 +34561,12 @@ Package: tibbrConnector
 Version: 1.5.0-71
 Depends: RCurl, rjson
 License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
+Package: tictoc
+Version: 1.0
+Depends: R (>= 3.0.3), methods
+License: Apache License (== 2.0) | file LICENSE
 NeedsCompilation: no
 
 Package: TiddlyWikiR
