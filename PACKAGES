@@ -24728,7 +24728,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: pse
-Version: 0.3.3
+Version: 0.3.4
 Depends: R (>= 3.0.1), Hmisc, boot
 Suggests: sensitivity
 License: GPL-3
@@ -26760,7 +26760,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rdrobust
-Version: 0.5
+Version: 0.6
 Depends: R (>= 3.0.2)
 License: GPL-2
 NeedsCompilation: no
