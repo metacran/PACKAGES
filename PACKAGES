@@ -460,8 +460,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: agricolae
-Version: 1.1-8
-Suggests: akima, klaR, MASS, nlme, cluster
+Version: 1.1-9
+Suggests: akima, klaR, MASS, nlme, cluster, spdep
 License: GPL
 NeedsCompilation: no
 
