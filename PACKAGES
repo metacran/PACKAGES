@@ -10251,9 +10251,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fmri
-Version: 1.5-0
-Depends: tcltk
-Suggests: tkrplot, fastICA, adimpro
+Version: 1.5-1
+Suggests: tcltk, tkrplot, fastICA, adimpro, oro.nifti
 License: GPL (>= 2)
 NeedsCompilation: yes
 
