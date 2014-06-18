@@ -14170,6 +14170,18 @@ Suggests: R2jags, knitr
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: iC10
+Version: 1.0.1
+Depends: pamr, CONOR
+Imports: iC10TrainingData
+License: GPL-3
+NeedsCompilation: no
+
+Package: iC10TrainingData
+Version: 1.0.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: IC2
 Version: 1.0-1
 License: GPL-2
@@ -19063,9 +19075,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mmand
-Version: 0.1.2
-Depends: R (>= 2.9.0)
-Imports: reportr
+Version: 1.0.0
+Depends: R (>= 2.12.1)
+Imports: reportr, Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: png, testthat
 License: GPL-2
 NeedsCompilation: yes
 
