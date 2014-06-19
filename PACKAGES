@@ -8586,7 +8586,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: enviPat
-Version: 1.6
+Version: 1.7
 License: GPL-2
 NeedsCompilation: yes
 
@@ -13634,6 +13634,13 @@ Depends: MASS
 License: GPL-3
 NeedsCompilation: no
 
+Package: HLSM
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: MASS, coda
+License: GPL (> 3)
+NeedsCompilation: yes
+
 Package: hmeasure
 Version: 1.0
 Depends: R (>= 2.10)
@@ -14186,9 +14193,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: iC10
-Version: 1.0.1
-Depends: pamr, CONOR
-Imports: iC10TrainingData
+Version: 1.0.2
+Depends: pamr, CONOR, iC10TrainingData
 License: GPL-3
 NeedsCompilation: no
 
