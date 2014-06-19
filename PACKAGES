@@ -25535,7 +25535,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R2jags
-Version: 0.04-02
+Version: 0.04-03
 Depends: R (>= 2.14.0), rjags (>= 3-3)
 Imports: abind, coda (>= 0.13), methods, R2WinBUGS, parallel
 License: GPL (>= 2)
@@ -33187,9 +33187,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: StatMatch
-Version: 1.2.1
+Version: 1.2.2
 Depends: R (>= 2.7.0), proxy, clue, survey, RANN
-Suggests: lpSolve, SDaA, simPopulation, MASS, Hmisc
+Suggests: lpSolve, MASS, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
