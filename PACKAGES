@@ -3335,7 +3335,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BSSasymp
-Version: 1.0-0
+Version: 1.0-1
 Imports: fICA, JADE
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -4955,6 +4955,12 @@ Version: 0.7-1
 Depends: R (>= 2.10)
 Imports: methods,MASS,urca
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: CommunityCorrelogram
+Version: 1.0
+Depends: vegan, methods
+License: GPL-2
 NeedsCompilation: no
 
 Package: comorbidities
@@ -23680,9 +23686,10 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: plotGoogleMaps
-Version: 2.0
-Depends: R (>= 2.10.0), sp, rgdal, maptools,lattice
-License: GPL
+Version: 2.1
+Depends: R (>= 2.15.0), sp, spacetime
+Imports: rgdal, maptools,lattice, raster
+License: GPL-2
 NeedsCompilation: no
 
 Package: plotKML
