@@ -5254,12 +5254,12 @@ License: GPL
 NeedsCompilation: no
 
 Package: copula
-Version: 0.999-9
+Version: 0.999-10
 Depends: R (>= 2.15.2)
 Imports: stats, graphics, methods, stats4, Matrix, gsl, ADGofTest,
         stabledist (>= 0.6-4), mvtnorm, pspline
 Suggests: lattice, MASS, KernSmooth, sfsmisc, bbmle, scatterplot3d,
-        Rmpfr, colorspace, mvnormtest, tseries, zoo
+        Rmpfr, rugarch, colorspace, mvnormtest, tseries, zoo
 Enhances: nor1mix
 License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
@@ -20446,7 +20446,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ncdf4
-Version: 1.10
+Version: 1.12
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -24689,7 +24689,7 @@ License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
 Package: protViz
-Version: 0.1.96
+Version: 0.1.97
 Depends: R (>= 3.0.2), methods
 Imports: Rcpp (>= 0.9.9)
 Suggests: lattice, RUnit, BiocGenerics
@@ -28932,7 +28932,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: rpf
-Version: 0.30
+Version: 0.32
 Depends: methods, R (>= 2.14.0)
 Imports: mvtnorm
 Suggests: plink, testthat, roxygen2, ggplot2, reshape2, gridExtra,
