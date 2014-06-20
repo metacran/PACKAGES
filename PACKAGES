@@ -1817,8 +1817,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: bayesSurv
-Version: 2.1-1
-Depends: R (>= 2.10.0), survival, coda, smoothSurv
+Version: 2.3
+Depends: R (>= 3.0.0), survival, coda, smoothSurv
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20370,7 +20370,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nadiv
-Version: 2.13
+Version: 2.13.2
 Depends: Matrix
 Suggests: parallel, asreml
 License: GPL (>= 2)
@@ -22573,7 +22573,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pawacc
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0)
 Imports: SparseM
 License: GPL (>= 2)
