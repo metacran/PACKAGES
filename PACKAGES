@@ -2185,7 +2185,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Bergm
-Version: 2.6
+Version: 2.7
 Depends: ergm, network, coda, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14068,6 +14068,12 @@ Depends: R (>= 2.10), aylmer (>= 1.0.11), abind
 Imports: methods, mvtnorm, cubature
 License: GPL-2
 NeedsCompilation: no
+
+Package: hypergea
+Version: 0.99.4
+Depends: R (>= 3.0.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: hypergeo
 Version: 1.2-5
