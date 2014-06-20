@@ -23102,9 +23102,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: permGPU
-Version: 0.14.3
-Depends: R (>= 2.15.2), Biobase (>= 2.6.1), RUnit (>= 0.4.26), foreach
-        (>= 1.4.0)
+Version: 0.14.4
+Depends: R (>= 2.15.3), Biobase (>= 2.18.0), RUnit (>= 0.4.26), foreach
+        (>= 1.4.2)
 License: GPL-3
 NeedsCompilation: yes
 
