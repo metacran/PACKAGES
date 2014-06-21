@@ -466,7 +466,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: agridat
-Version: 1.8
+Version: 1.8.1
 Depends: grid, lattice, reshape2
 Suggests: agricolae, car, coin, corrgram, equivalence, FrF2, gam,
         gstat, HH, latticeExtra, lme4 (>= 1.0), mapproj, maps, MASS,
@@ -5271,7 +5271,7 @@ License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
 
 Package: copulaedas
-Version: 1.4.0
+Version: 1.4.1
 Depends: methods
 Imports: copula, vines (>= 1.1.0), mvtnorm, truncnorm
 Suggests: cec2005benchmark, cec2013
@@ -5765,6 +5765,13 @@ Version: 0.1-3
 Depends: R (>= 2.10), mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: csn
+Version: 1.0
+Depends: R (>= 2.2.0)
+Imports: mnormt
+License: GPL-2
+NeedsCompilation: no
 
 Package: csound
 Version: 0.1-1
@@ -29373,6 +29380,12 @@ Depends: R (>= 2.15.0), survival, parallel
 Imports: BBmisc, glmnet, superpc, survcomp, Matrix
 Suggests: testthat
 License: GPL-2
+NeedsCompilation: no
+
+Package: RsimMosaic
+Version: 1.0
+Imports: jpeg, fields, RANN
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RSiteCatalyst
