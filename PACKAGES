@@ -10799,6 +10799,13 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: funreg
+Version: 1.1
+Depends: R (>= 2.15.0)
+Imports: MASS, mgcv, mvtnorm, splines
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FusedLasso
 Version: 1.0.6
 Depends: Matrix
@@ -17486,7 +17493,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markovchain
-Version: 0.0.9
+Version: 0.0.9.5
 Depends: R (>= 2.14), methods
 Imports: igraph, Matrix, matlab, expm, stats4, parallel
 License: GPL-2
