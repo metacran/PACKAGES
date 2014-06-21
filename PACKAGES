@@ -1925,8 +1925,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BBmisc
-Version: 1.6
-Imports: stats
+Version: 1.7
+Imports: stats, checkmate
 Suggests: testthat, microbenchmark
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -2043,6 +2043,13 @@ LinkingTo: Rcpp
 Suggests: knitr
 License: Unlimited
 NeedsCompilation: yes
+
+Package: bcpmeta
+Version: 1.0
+Depends: R (>= 2.14.0)
+Imports: mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: bcrm
 Version: 0.4.4
@@ -3718,9 +3725,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: catIrt
-Version: 0.4-1
-Depends: R (>= 2.11.0), numDeriv (>= 2012.3-1), sfsmisc (>= 1.0-14),
-        stats
+Version: 0.4-2
+Depends: R (>= 2.11.0), numDeriv (>= 2012.3-1), sfsmisc (>= 1.0-14)
 Suggests: irtoys, ltm, catR
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -11903,6 +11909,15 @@ Version: 1.7.0
 Depends: R (>= 2.14), ggplot2 (>= 0.9.2)
 Imports: colorspace, grid, proto, scales,
 Suggests: plyr, reshape2, extrafont
+License: GPL-2
+NeedsCompilation: no
+
+Package: ggvis
+Version: 0.3
+Depends: R (>= 3.0)
+Imports: assertthat, RJSONIO, shiny (>= 0.10), magrittr, dplyr (>=
+        0.2), htmltools (>= 0.2.4)
+Suggests: MASS, mgcv, testthat (>= 0.8.1), knitr (>= 1.6), rmarkdown
 License: GPL-2
 NeedsCompilation: no
 
