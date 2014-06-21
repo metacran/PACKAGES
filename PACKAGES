@@ -3062,6 +3062,13 @@ Suggests: igraph, XML
 License: Artistic-2.0
 NeedsCompilation: yes
 
+Package: Boom
+Version: 0.1
+Depends: MASS, R(>= 3.0.2)
+LinkingTo: BH (>= 1.15.0-2)
+License: LGPL-2.1 | file LICENSE
+NeedsCompilation: yes
+
 Package: boostr
 Version: 1.0.0
 Depends: R (>= 3.0.2)
@@ -29722,9 +29729,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: runjags
-Version: 1.2.0-7
+Version: 1.2.1-0
 Depends: R (>= 2.14)
-Imports: parallel, lattice (>= 0.20-10), coda (>= 0.16-1)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.16-1), stats, utils
 Suggests: rjags
 License: GPL-2
 NeedsCompilation: yes
