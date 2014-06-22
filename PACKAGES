@@ -14121,7 +14121,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hypergea
-Version: 0.99.4
+Version: 0.99.5
 Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23344,9 +23344,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phenology
-Version: 3.63
-Depends: fields, zoo, coda, shiny, XML, R (>= 2.14.0)
-Suggests: ncdf4, ncdf
+Version: 3.69
+Depends: fields, zoo, coda, shiny, R (>= 2.14.0)
+Suggests: ncdf4, ncdf, RNetCDF, XML, maps
 License: GPL-2
 NeedsCompilation: no
 
@@ -29420,7 +29420,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RsimMosaic
-Version: 1.0
+Version: 1.0.1
 Imports: jpeg, fields, RANN
 License: GPL (>= 2)
 NeedsCompilation: no
