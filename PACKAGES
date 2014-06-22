@@ -18035,7 +18035,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mded
-Version: 0.1-0
+Version: 0.1-1
 License: CC0
 NeedsCompilation: no
 
@@ -33698,13 +33698,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: support.BWS
-Version: 0.1-1
+Version: 0.1-2
 Suggests: DoE.base, crossdes, survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: support.CEs
-Version: 0.3-1
+Version: 0.3-2
 Depends: DoE.base, MASS, simex
 Suggests: survival, stats
 License: GPL (>= 2)
