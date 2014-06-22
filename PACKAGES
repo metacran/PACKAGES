@@ -19995,8 +19995,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MultiLCIRT
-Version: 2.6
-Depends: R (>= 2.0.0), MASS
+Version: 2.7
+Depends: R (>= 2.0.0), MASS, limSolve
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -35181,7 +35181,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: transport
-Version: 0.6-1
+Version: 0.6-2
 Depends: R (>= 3.0.0), utils, grDevices, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
