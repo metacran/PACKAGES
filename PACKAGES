@@ -12515,7 +12515,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: GPvam
-Version: 3.0-1
+Version: 3.0-2
 Depends: R (>= 3.0.0), Rcpp (>= 0.10.6), RcppArmadillo (>= 0.4.000.2),
         Matrix
 Imports: numDeriv
@@ -18740,11 +18740,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mirt
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.15), stats4, lattice, methods
 Imports: GPArotation, Rcpp, numDeriv
 LinkingTo: Rcpp
-Suggests: testthat, plink, boot, latticeExtra, shiny, parallel
+Suggests: testthat, plink, boot, latticeExtra, shiny, knitr, parallel
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -34270,6 +34270,11 @@ Package: TANOVA
 Version: 1.0.0
 Depends: R (>= 2.3.0), MASS, splines
 License: LGPL
+NeedsCompilation: no
+
+Package: TaoTeProgramming
+Version: 1.0
+License: Unlimited
 NeedsCompilation: no
 
 Package: TapeR
