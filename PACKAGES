@@ -23153,6 +23153,13 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: PerMallows
+Version: 1.0
+Depends: Rcpp (>= 0.10.3)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: permGPU
 Version: 0.14.4
 Depends: R (>= 2.15.3), Biobase (>= 2.18.0), RUnit (>= 0.4.26), foreach
@@ -31754,11 +31761,12 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: smacof
-Version: 1.2-3
-Depends: R (>= 3.0.2), polynom, rgl, scatterplot3d, Hmisc, colorspace
-Imports: graphics, stats
+Version: 1.5-0
+Depends: R (>= 3.0.2), rgl
+Imports: graphics, stats, polynom, scatterplot3d, Hmisc, colorspace,
+        nnls
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: smam
 Version: 0.2-2
