@@ -20273,7 +20273,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: mvoutlier
-Version: 2.0.4
+Version: 2.0.5
 Depends: sgeostat, R (>= 2.14)
 Imports: robCompositions, robustbase
 License: GPL (>= 3)
