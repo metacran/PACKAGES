@@ -12350,8 +12350,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: goftest
-Version: 1.0-1
-Depends: R (>= 3.0)
+Version: 1.0-2
+Depends: R (>= 3.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -17049,7 +17049,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: LS2Wstat
-Version: 2.0-2
+Version: 2.0-3
 Depends: LS2W(>= 1.3-1), matrixStats, geoR, RandomFields, spdep
 License: GPL-2
 NeedsCompilation: no
