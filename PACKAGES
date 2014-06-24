@@ -3069,6 +3069,13 @@ LinkingTo: BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
 
+Package: BoomSpikeSlab
+Version: 0.4.1
+Depends: Boom, R (>= 3.0.2)
+LinkingTo: BH (>= 1.15.0-2)
+License: LGPL-2.1 | file LICENSE
+NeedsCompilation: yes
+
 Package: boostr
 Version: 1.0.0
 Depends: R (>= 3.0.2)
@@ -3730,6 +3737,14 @@ Package: catenary
 Version: 1.1
 Depends: R (>= 2.15.0), ggplot2, methods, boot
 License: GPL-3
+NeedsCompilation: no
+
+Package: cati
+Version: 0.8
+Depends: R (>= 3.0.2), nlme, ade4, ape
+Imports: e1071, mice, rasterVis, hypervolume
+Suggests: lattice, vegan, FD, spacodiR, entropart, fBasics, picante
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: catIrt
@@ -5273,12 +5288,6 @@ NeedsCompilation: no
 Package: COP
 Version: 1.0-2
 Depends: dr, MASS
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: copas
-Version: 0.8-0
-Depends: meta (>= 0.8)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -12453,8 +12462,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GPfit
-Version: 0.1-0
-Depends: lhs, lattice
+Version: 0.2-0
+Imports: lhs (>= 0.5), lattice (>= 0.18-8)
 License: GPL-2
 NeedsCompilation: no
 
@@ -18309,6 +18318,12 @@ Suggests: HTSFilter (>= 0.1.1), DESeq (>= 1.8.3), DESeq2 (>= 1.0.17)
 License: GPL
 NeedsCompilation: no
 
+Package: metasens
+Version: 0.1-0
+Depends: meta (>= 0.8)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: MetaSKAT
 Version: 0.40
 Depends: R (>= 2.13.0)
@@ -20295,10 +20310,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvpart
-Version: 1.6-1
+Version: 1.6-2
 Depends: R (>= 2.14.0), graphics, stats, grDevices
 Suggests: survival
-License: GPL (>= 2)
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: MVPARTwrap
@@ -27004,6 +27019,13 @@ Suggests: MALDIquant (>= 1.0)
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: readODS
+Version: 1.2
+Depends: XML
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+NeedsCompilation: no
+
 Package: reams
 Version: 0.1
 Depends: R (>= 2.9.0), leaps, mgcv
@@ -28668,7 +28690,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: RobPer
-Version: 1.0
+Version: 1.1
 Depends: robustbase, quantreg, splines, BB, rgenoud
 License: GPL-2 | GPL-3
 NeedsCompilation: no
