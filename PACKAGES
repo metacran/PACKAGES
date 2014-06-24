@@ -2543,9 +2543,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bingat
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.13.0)
-Imports: cluster, network
+Imports: matrixStats, network
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
@@ -3708,6 +3708,11 @@ Version: 1.4
 Depends: forecast, Hmisc, its, timeSeries
 Suggests: dse, e1071, expsmooth, fBasics, FitARMA, fGarch, polynom,
         TSA, xtable
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: caseMatch
+Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8677,8 +8682,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Epi
-Version: 1.1.49
-Depends: R (>= 2.14.0), utils
+Version: 1.1.65
+Depends: R (>= 3.0.0), utils
 Suggests: splines, nlme, survival, mstate, etm, MASS
 License: GPL-2
 NeedsCompilation: yes
@@ -14809,7 +14814,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: InventorymodelPackage
-Version: 1.0.1
+Version: 1.0.2
 Depends: R(>= 2.15.0),e1071
 License: GPL-2
 NeedsCompilation: no
@@ -17115,7 +17120,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.05
+Version: 2.10
 Depends: methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix
 Suggests: nlme, lme4, pbkrtest, lattice, multcompView
@@ -17683,7 +17688,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: matlab
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.15)
 Imports: methods
 License: Artistic-2.0
@@ -18608,7 +18613,7 @@ License: BSD
 NeedsCompilation: yes
 
 Package: MicroDatosEs
-Version: 0.6.1
+Version: 0.6.2
 Depends: memisc, Hmisc
 License: GPL-3
 NeedsCompilation: no
@@ -20983,13 +20988,6 @@ Version: 0.2
 Depends: proto
 Suggests: nlstools
 License: GPL-2
-NeedsCompilation: no
-
-Package: NLSdata
-Version: 0.9
-Imports: reshape2
-Suggests: RUnit
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nlsmsn
@@ -29913,6 +29911,12 @@ Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: RWBP
+Version: 1.0
+Depends: RANN, igraph, lsa, SnowballC
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: RWeather
 Version: 0.4
 Depends: R (>= 2.11.0), XML
@@ -29983,8 +29987,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rwt
-Version: 0.9.4
-Depends: R (>= 2.7), matlab
+Version: 1.0.0
+Depends: R (>= 2.15)
+Imports: matlab
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -30115,10 +30120,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: sampleSelection
-Version: 0.7-2
-Depends: R (>= 2.10), maxLik (>= 0.7-3), systemfit (>= 1.0-0)
-Imports: miscTools (>= 0.6-3)
-Suggests: VGAM, MASS, mvtnorm, plm
+Version: 1.0-2
+Depends: R (>= 2.10), maxLik (>= 0.7-3), stats
+Imports: miscTools (>= 0.6-3), systemfit (>= 1.0-0), Formula (>= 1.1-1)
+Suggests: VGAM (>= 0.9-4), mvtnorm (>= 0.9-9994), lmtest
 License: GPL (>= 2)
 NeedsCompilation: no
 
