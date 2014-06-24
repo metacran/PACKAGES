@@ -8644,7 +8644,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: enviPat
-Version: 1.7
+Version: 1.8
 License: GPL-2
 NeedsCompilation: yes
 
@@ -9742,7 +9742,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fdakma
-Version: 1.1
+Version: 1.1.1
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -13359,6 +13359,14 @@ Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: HDPenReg
+Version: 0.89.5
+Depends: methods
+Imports: Rcpp
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: hdrcde
 Version: 3.1
 Depends: R (>= 2.15), mvtnorm
@@ -13887,7 +13895,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: HSAUR2
-Version: 1.1-9
+Version: 1.1-10
 Depends: R (>= 2.2.0), tools
 Suggests: lattice, MASS, scatterplot3d (>= 0.3-23), alr3, ape (>= 1.6),
         coin (>= 0.3-3), flexmix (>= 1.1-0), gee (>= 4.13-10), lme4 (>=
@@ -20702,7 +20710,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: netmeta
-Version: 0.4-4
+Version: 0.5-0
 Depends: meta
 Imports: magic
 License: GPL (>= 2)
@@ -23599,9 +23607,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PKfit
-Version: 1.2.1
-Depends: R (>= 2.12.0), stats4
-Imports: deSolve, minpack.lm
+Version: 1.2.2
+Depends: R (>= 2.12.0)
+Imports: stats4, deSolve, minpack.lm
 License: GPL (>= 2)
 NeedsCompilation: no
 
