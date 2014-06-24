@@ -3364,8 +3364,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bst
-Version: 0.3-3
-Depends: rpart, gbm
+Version: 0.3-4
+Imports: rpart, gbm
+Suggests: hdi
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8016,6 +8017,12 @@ Version: 4.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: EasyStrata
+Version: 8.6
+Depends: methods,Cairo,plotrix
+License: GPL-3
+NeedsCompilation: no
+
 Package: eba
 Version: 1.7-1
 Depends: R (>= 2.15.0), stats
@@ -10082,7 +10089,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: FisHiCal
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2), igraph, RcppArmadillo (>= 0.4.100.2.1)
 LinkingTo: Rcpp (>= 0.11.1), RcppArmadillo (>= 0.4.100.2.1)
 Suggests: rgl
@@ -10778,8 +10785,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ftsa
-Version: 3.9
-Depends: R (>= 2.10.0), forecast, rainbow
+Version: 4.0
+Depends: R (>= 3.0.2), forecast, rainbow
 Imports: colorspace
 Suggests: fds
 License: GPL (>= 2)
@@ -11927,11 +11934,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggvis
-Version: 0.3
+Version: 0.3.0.1
 Depends: R (>= 3.0)
 Imports: assertthat, RJSONIO, shiny (>= 0.10), magrittr, dplyr (>=
         0.2), htmltools (>= 0.2.4)
-Suggests: MASS, mgcv, testthat (>= 0.8.1), knitr (>= 1.6), rmarkdown
+Suggests: MASS, mgcv, testthat (>= 0.8.1), knitr (>= 1.6)
 License: GPL-2
 NeedsCompilation: no
 
@@ -14287,6 +14294,14 @@ NeedsCompilation: yes
 Package: ICC
 Version: 2.2.1
 License: GPL-2
+NeedsCompilation: no
+
+Package: icd9
+Version: 0.1.1
+Depends: R (>= 3.0.3)
+Imports: memoise
+Suggests: testthat, roxygen2, devtools, knitr, microbenchmark
+License: GPL-3
 NeedsCompilation: no
 
 Package: ICE
@@ -21899,7 +21914,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: optR
-Version: 1.0.3
+Version: 1.1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27514,6 +27529,13 @@ Suggests: testthat (>= 0.8)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: revealedPrefs
+Version: 0.1
+Depends: Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: review
 Version: 2.5
 Depends: XML, Hmisc
@@ -32991,7 +33013,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: spTimer
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 2.14.0), coda, forecast (>= 3.0.2), spacetime
 License: GPL (>= 2)
 NeedsCompilation: yes
