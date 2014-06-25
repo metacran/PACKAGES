@@ -2770,6 +2770,11 @@ Imports: geosphere, ks, lazyData, raster, rgdal, rgeos, rworldmap,
 License: GPL-2
 NeedsCompilation: no
 
+Package: birk
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: bisectr
 Version: 0.1.0
 Depends: R (>= 2.14)
@@ -5856,6 +5861,13 @@ Suggests: MASS
 License: GPL-2
 NeedsCompilation: no
 
+Package: csvread
+Version: 1.0
+Depends: R (>= 3.0.3), methods
+Enhances: bit64
+License: Apache License (== 2.0)
+NeedsCompilation: yes
+
 Package: cts
 Version: 1.0-19
 License: GPL (>= 2)
@@ -6109,6 +6121,11 @@ Version: 1.0-37
 Depends: s20x
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: dagbag
+Version: 1.1
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: DAGGER
 Version: 1.4
@@ -6773,8 +6790,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: deSolve
-Version: 1.10-8
-Depends: R (>= 2.6.0)
+Version: 1.10-9
+Depends: R (>= 3.1.0)
+Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -6875,9 +6893,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dgmb
-Version: 1.0
-Depends: R (>= 2.13.1), abind, tcltk, MASS
-Suggests: abind, tcltk, MASS
+Version: 1.1
+Depends: R (>= 2.13.1), tcltk, MASS, abind
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11249,6 +11266,14 @@ Depends: R (>= 2.5.0), boot
 License: Unlimited
 NeedsCompilation: yes
 
+Package: GB2
+Version: 1.2
+Depends: R (>= 3.1.0)
+Imports: cubature, hypergeo, laeken, numDeriv, stats
+Suggests: simFrame, survey
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: gbm
 Version: 2.1
 Depends: R (>= 2.9.0), survival, lattice, splines, parallel
@@ -14353,9 +14378,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icensmis
-Version: 1.1
+Version: 1.2
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: ICGE
 Version: 0.3
@@ -23053,7 +23080,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pedigreemm
-Version: 0.3-1
+Version: 0.3-3
 Depends: R(>= 3.0.0), lme4 (>= 1.0), Matrix (>= 1.0), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -25836,9 +25863,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: raincpc
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.2)
-License: GPL (>= 2)
+Imports: SDMTools
+Suggests: knitr, raster, ggplot2
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rainfreq
@@ -32381,6 +32410,13 @@ Suggests: RColorBrewer, rgdal (>= 0.8-7), rgeos (>= 0.2-20), gstat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: sp23design
+Version: 0.9
+Depends: R (>= 3.0), mvtnorm, survival
+Suggests: RUnit
+License: LGPL-3
+NeedsCompilation: no
+
 Package: spa
 Version: 2.0
 Depends: R (>= 2.10), cluster, MASS
@@ -37193,7 +37229,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.10.0
+Version: 0.11.0
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr, jsonlite
 License: FreeBSD
