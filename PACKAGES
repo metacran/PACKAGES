@@ -18489,11 +18489,11 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: mgcv
-Version: 1.7-29
+Version: 1.8-0
 Priority: recommended
 Depends: R (>= 2.14.0), nlme (>= 3.1-64)
 Imports: methods, stats, graphics, Matrix
-Suggests: splines, parallel
+Suggests: splines, parallel, survival, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -23986,6 +23986,12 @@ Enhances: MixSim, pbdSLAP (>= 0.1-7), pbdBASE (>= 0.3-0), pbdDMAT (>=
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: PMCMR
+Version: 1.0
+Depends: R (>= 3.0.0), stats, base
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: pmg
 Version: 0.9-42
 Depends: lattice, MASS, proto, foreign, gWidgets(>= 0.0-36),
@@ -24826,7 +24832,7 @@ License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
 Package: protViz
-Version: 0.1.97
+Version: 0.1.98
 Depends: R (>= 3.0.2), methods
 Imports: Rcpp (>= 0.9.9)
 Suggests: lattice, RUnit, BiocGenerics
