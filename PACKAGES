@@ -2141,6 +2141,12 @@ Imports: MASS, matrixcalc, emdbook
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: beepr
+Version: 1.0
+Imports: stringr, audio
+License: GPL-3
+NeedsCompilation: no
+
 Package: beeswarm
 Version: 0.1.6
 License: Artistic-2.0
@@ -4130,7 +4136,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: changepoint
-Version: 1.1.3
+Version: 1.1.5
 Depends: R(>= 3.0), methods, stats, zoo
 License: GPL
 NeedsCompilation: yes
@@ -13373,14 +13379,6 @@ Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: HDPenReg
-Version: 0.89.5
-Depends: methods
-Imports: Rcpp
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: hdrcde
 Version: 3.1
 Depends: R (>= 2.15), mvtnorm
@@ -17829,8 +17827,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MBmca
-Version: 0.0.3-2
-Depends: R (>= 3.0.0), robustbase (>= 0.9), chipPCR (>= 0.0.6)
+Version: 0.0.3-3
+Depends: R (>= 3.0.0), robustbase (>= 0.9), chipPCR (>= 0.0.7)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23205,7 +23203,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PerMallows
-Version: 1.0
+Version: 1.1
 Depends: Rcpp (>= 0.10.3)
 LinkingTo: Rcpp
 License: GPL (>= 2)
@@ -33006,7 +33004,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.1.2
+Version: 0.1.4
 Depends: ggplot2
 Imports: rinat (>= 0.1.1), rbison (>= 0.3.2), rgbif (>= 0.6.2),
         ecoengine (>= 1.3), rebird (>= 0.1.1), AntWeb (>= 0.6.1), plyr,
