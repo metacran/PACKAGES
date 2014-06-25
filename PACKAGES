@@ -3056,6 +3056,14 @@ Version: 1.0-28
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: boolean3
+Version: 3.1.5
+Depends: R (>= 3.0), utils
+Imports: stats, optimx (>= 2013.8.6), numDeriv, lattice, rgenoud,
+        parallel, mvtnorm, rlecuyer
+License: GPL-3
+NeedsCompilation: no
+
 Package: BoolNet
 Version: 1.63
 Suggests: igraph, XML
@@ -11611,7 +11619,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: geoChina
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 2.11.0)
 Imports: RCurl, RJSONIO, plyr
 License: GPL-3
@@ -20832,7 +20840,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ngram
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.14.0), methods
 License: BSD 2-clause License + file LICENSE
 NeedsCompilation: yes
@@ -25882,7 +25890,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomForestSRC
-Version: 1.5.2
+Version: 1.5.3
 Depends: R (>= 3.1.0), parallel
 Suggests: glmnet, XML
 License: GPL (>= 3)
@@ -32430,9 +32438,12 @@ License: GPL | file LICENSE
 NeedsCompilation: yes
 
 Package: spaMM
-Version: 1.1
-Imports: Matrix, MASS, lpSolveAPI (>= 5.5.0.14)
-Suggests: nlme
+Version: 1.2.0
+Depends: R (>= 2.10)
+Imports: Matrix, MASS, lpSolveAPI (>= 5.5.0.14), proxy, geometry, Rcpp
+        (>= 0.11.0)
+LinkingTo: Rcpp, RcppEigen
+Suggests: nlme, maps
 License: CeCILL-2
 NeedsCompilation: yes
 
