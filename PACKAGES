@@ -856,7 +856,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: antitrust
-Version: 0.93
+Version: 0.94
 Imports: methods, MASS, evd, BB, numDeriv, ggplot2
 License: Unlimited
 NeedsCompilation: no
@@ -32160,6 +32160,12 @@ Version: 0.7.1
 Depends: R (>= 2.15.0), ggplot2
 Imports: gridExtra, ellipse, scales, grid
 License: GPL-3
+NeedsCompilation: no
+
+Package: SocialMediaMineR
+Version: 0.1
+Imports: RCurl, jsonlite, httr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SocialNetworks
