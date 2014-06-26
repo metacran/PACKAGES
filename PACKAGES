@@ -11095,9 +11095,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gamboostLSS
-Version: 1.1-1
-Depends: R (>= 2.10.0), mboost (>= 2.2-3)
-Suggests: gamlss, BayesX, gamlss.dist
+Version: 1.1-2
+Depends: R (>= 2.10.0), mboost (>= 2.3-0)
+Suggests: gamlss, BayesX, gamlss.dist, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -17866,9 +17866,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mboost
-Version: 2.2-3
-Depends: R (>= 2.14.0), methods, stats, parallel, survival
-Imports: Matrix, splines, lattice
+Version: 2.3-0
+Depends: R (>= 2.14.0), methods, stats, parallel
+Imports: Matrix, survival, splines, lattice, nnls, quadprog, utils
 Suggests: party (>= 1.0-3), TH.data, MASS, fields, BayesX, gbm,
         mlbench, RColorBrewer, rpart (>= 4.0-3)
 License: GPL-2
