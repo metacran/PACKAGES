@@ -3830,7 +3830,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: CAvariants
-Version: 1.0
+Version: 2.0
 Depends: methods
 License: GPL
 NeedsCompilation: no
