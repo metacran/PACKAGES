@@ -896,7 +896,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: apcluster
-Version: 1.3.4
+Version: 1.3.5
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.1), methods, stats, graphics
 LinkingTo: Rcpp
@@ -5528,7 +5528,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CovSel
-Version: 1.0
+Version: 1.1
 Depends: MASS, dr, np, boot, cubature
 License: GPL-3
 NeedsCompilation: no
