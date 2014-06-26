@@ -9379,7 +9379,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ezsim
-Version: 0.5.4
+Version: 0.5.5
 Imports: foreach, ggplot2, parallel, digest, plyr, reshape, Jmisc
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27387,6 +27387,12 @@ Imports: MASS
 License: GPL
 NeedsCompilation: yes
 
+Package: RelValAnalysis
+Version: 1.0
+Depends: zoo
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: remix
 Version: 2.1
 Depends: R (>= 2.13.0), plyr, survival
@@ -27686,7 +27692,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: Rfit
-Version: 0.17
+Version: 0.18
 Depends: methods, quantreg
 License: GPL (>= 2)
 NeedsCompilation: yes
