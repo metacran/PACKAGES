@@ -19316,7 +19316,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mnormt
-Version: 1.4-7
+Version: 1.5-0
 Depends: R (>= 2.2.0)
 License: GPL-2
 NeedsCompilation: yes
@@ -29382,10 +29382,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RSA
-Version: 0.9
+Version: 0.9.3
 Depends: R (>= 2.15.0), lavaan (>= 0.5.11), ggplot2, lattice, gridExtra
 Imports: plyr, RColorBrewer
-Suggests: fields, SDMTools, tkrplot, rgl, qgraph, aplpack
+Suggests: fields, SDMTools, tkrplot, rgl, qgraph, aplpack, AICcmodavg
 License: GPL (>= 2)
 NeedsCompilation: no
 
