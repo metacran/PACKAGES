@@ -4338,12 +4338,6 @@ Depends: R(>= 3.0.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: cimis
-Version: 0.1-7
-Depends: R (>= 2.8.1), XML, RCurl
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: cin
 Version: 0.1
 License: GPL-2
@@ -11799,12 +11793,6 @@ Depends: R (>= 2.15.0), mclust, gtools
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: GetNenshuJP
-Version: 0.1
-Depends: XML
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: getopt
 Version: 1.20.0
 Suggests: testthat
@@ -13972,10 +13960,10 @@ License: GPL
 NeedsCompilation: yes
 
 Package: hsphase
-Version: 1.2.6
-Depends: snowfall, R (>= 3.0.2)
+Version: 2.0.0
+Depends: snowfall, R (>= 3.1.0)
 Imports: Rcpp
-LinkingTo: RcppArmadillo (>= 0.4.100.2.1), Rcpp (>= 0.11.0)
+LinkingTo: RcppArmadillo (>= 0.4.300.8.0), Rcpp (>= 0.11.2)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -14371,7 +14359,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icensmis
-Version: 1.2
+Version: 1.2.1
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: GPL (>= 2)
@@ -17061,8 +17049,7 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: lpSolveAPI
-Version: 5.5.2.0-9
-Depends: R (>= 2.13.1)
+Version: 5.5.2.0-11
 License: LGPL-2
 NeedsCompilation: yes
 
@@ -23946,10 +23933,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plsRglm
-Version: 0.8.3
+Version: 1.0.0
 Depends: R (>= 2.4.0)
 Imports: mvtnorm, boot, bipartite
-Suggests: MASS, plsdof
+Suggests: MASS, plsdof, R.rsp
 Enhances: pls
 License: GPL-3
 NeedsCompilation: no
@@ -28339,6 +28326,14 @@ Version: 8.0.1
 Depends: R (>= 2.14.1), methods
 License: LGPL (>= 2.1)
 NeedsCompilation: yes
+
+Package: rlist
+Version: 0.1
+Depends: R (>= 2.15)
+Imports: yaml,jsonlite,XML
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: rlme
 Version: 0.4
