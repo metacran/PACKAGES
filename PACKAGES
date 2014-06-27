@@ -16440,7 +16440,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: likelihood
-Version: 1.5
+Version: 1.6
 Depends: R (>= 2.1.1), nlme
 License: GPL-2
 NeedsCompilation: no
@@ -32802,6 +32802,13 @@ Suggests: parallel, spam(>= 0.13-1), RANN, RColorBrewer, lattice,
         xtable, maptools (>= 0.5-4), foreign
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: spdynmod
+Version: 1.0
+Imports: deSolve, raster, animation
+Suggests: knitr, roxygen2, testthat
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: spe
 Version: 1.1.2
