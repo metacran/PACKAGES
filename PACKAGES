@@ -4197,7 +4197,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.15.0)
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
@@ -12432,7 +12432,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: googleVis
-Version: 0.5.2
+Version: 0.5.3
 Depends: R (>= 3.0.2)
 Imports: methods, RJSONIO, utils
 Suggests: shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)
@@ -12640,7 +12640,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: GrapheR
-Version: 1.9-82
+Version: 1.9-83
 Depends: R (>= 2.13.0), tcltk
 License: GPL-2
 NeedsCompilation: no
