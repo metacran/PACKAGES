@@ -13175,13 +13175,6 @@ Depends: R (>= 2.13.0), RCurl, rjson, statmod, tools, methods, utils
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
-Package: h5r
-Version: 1.4.7
-Depends: R (>= 2.10.0), methods
-Imports: utils, methods
-License: LGPL
-NeedsCompilation: yes
-
 Package: haarfisz
 Version: 4.5
 Depends: R (>= 2.0), wavethresh
@@ -23561,10 +23554,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: phytools
-Version: 0.4-05
-Depends: R (>= 2.10), ape (>= 3.0-10), maps, rgl
+Version: 0.4-21
+Depends: R (>= 2.10), ape (>= 3.0-10), maps
 Imports: animation, clusterGeneration, mnormt, msm, numDeriv, phangorn
         (>= 1.6-3), plotrix, scatterplot3d
+Suggests: rgl
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23947,7 +23941,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plsRcox
-Version: 0.9.999
+Version: 1.0
 Depends: R (>= 2.4.0)
 Imports: boot, plsRglm, lars, survival, pls, kernlab, mixOmics
 Suggests: survivalROC, plsdof
@@ -23955,7 +23949,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plsRglm
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.4.0)
 Imports: mvtnorm, boot, bipartite
 Suggests: MASS, plsdof, R.rsp
@@ -27216,7 +27210,7 @@ License: GPL-2 | GPL-3 | BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: refund
-Version: 0.1-10
+Version: 0.1-11
 Depends: R (>= 2.14.0), fda,
 Imports: lattice, boot, mgcv (>= 1.7-28), MASS, glmnet, magic, nlme,
         wavethresh, Matrix, gamm4, matrixStats, lme4, splines, RLRsim
