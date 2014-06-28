@@ -23232,7 +23232,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: permGPU
-Version: 0.14.4
+Version: 0.14.5
 Depends: R (>= 2.15.3), Biobase (>= 2.18.0), RUnit (>= 0.4.26), foreach
         (>= 1.4.2)
 License: GPL-3
@@ -23599,10 +23599,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pipeR
-Version: 0.3
+Version: 0.3-1
 Depends: R (>= 2.14)
-Suggests: plyr,dplyr
-Enhances: magrittr
+Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -33784,6 +33783,16 @@ Version: 0.12-3
 Suggests: MASS, ISwR, corpcor
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: subsemble
+Version: 0.0.8
+Depends: R (>= 2.14.0), SuperLearner
+Suggests: arm, caret, class, e1071, earth, gam, gbm, glmnet, Hmisc,
+        ipred, lattice, LogicReg, MASS, mda, mlbench, nnet, parallel,
+        party, polspline, quadprog, randomForest, rpart, SIS, spls,
+        stepPlr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: subtype
 Version: 1.0
