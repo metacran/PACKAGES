@@ -20253,9 +20253,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mvabund
-Version: 3.8.4
+Version: 3.9.1
 Depends: R (>= 2.11.1)
-Imports: Rcpp, MASS, methods, stats
+Imports: Rcpp, MASS, methods, stats, tweedie, statmod
 License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
@@ -21273,7 +21273,7 @@ License: LGPL-2
 NeedsCompilation: no
 
 Package: np
-Version: 0.60-0
+Version: 0.60-2
 Imports: boot, cubature, stats
 Suggests: quantreg, MASS
 License: GPL
