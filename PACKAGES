@@ -7956,9 +7956,10 @@ License: LGPL
 NeedsCompilation: yes
 
 Package: dynBiplotGUI
-Version: 1.0.1
-Depends: R (>= 2.15.0), tcltk2 (>= 1.2-3), tkrplot (>= 0.0-23), RODBC
-        (>= 1.3-6)
+Version: 1.1.0
+Depends: R (>= 2.15.0)
+Imports: tcltk, tcltk2 (>= 1.2-3), tkrplot (>= 0.0-23)
+Suggests: RODBC (>= 1.3-6)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21380,7 +21381,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: npRmpi
-Version: 0.60-0
+Version: 0.60-2
 Imports: boot, cubature, stats
 Suggests: quantreg, MASS, parallel
 License: GPL
@@ -29358,7 +29359,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: Rrdrand
-Version: 0.1-8
+Version: 0.1-9
 Depends: R (>= 3.0.0)
 License: AGPL-3
 NeedsCompilation: yes
@@ -33584,7 +33585,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stosim
-Version: 0.0.11
+Version: 0.0.12
 Depends: tcltk2
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
@@ -34840,6 +34841,13 @@ Imports: RCurl, RJSONIO
 License: GPL-2
 NeedsCompilation: no
 
+Package: threeboost
+Version: 1.0
+Imports: Matrix
+Suggests: mvtnorm
+License: GPL-3
+NeedsCompilation: no
+
 Package: ThreeWay
 Version: 1.1.2
 Depends: R(>= 2.8.1), base, graphics, stats
@@ -35737,7 +35745,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tsoutliers
-Version: 0.3
+Version: 0.4
 Depends: R (>= 3.0.0)
 Imports: forecast, polynom, stsm, stsm.class, KFKSDS
 License: GPL-2
