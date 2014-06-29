@@ -1528,9 +1528,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BANOVA
-Version: 0.1
-Depends: R (>= 3.0.1)
-Imports: runjags (>= 1.2.1-0), coda (>= 0.16-1)
+Version: 0.2
+Depends: R (>= 3.0.1), rjags(>= 3-13), runjags (>= 1.2.1-0), coda (>=
+        0.16-1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
