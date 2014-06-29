@@ -18827,7 +18827,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: miRtest
-Version: 1.6
+Version: 1.7
 Depends: corpcor, MASS
 Imports: globaltest, GlobalAncova, limma, RepeatedHighDim
 License: GPL
@@ -18981,7 +18981,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: mixlm
-Version: 1.0.3
+Version: 1.0.5
 Depends: multcomp, pls
 Imports: leaps, lme4, car
 License: GPL
@@ -19337,9 +19337,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mnormt
-Version: 1.5-0
+Version: 1.5-1
 Depends: R (>= 2.2.0)
-License: GPL-2
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: MNP
