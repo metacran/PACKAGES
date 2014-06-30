@@ -3592,8 +3592,8 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: CAMAN
-Version: 0.67
-Depends: R (>= 2.10), methods, sp
+Version: 0.70
+Depends: R (>= 2.10), methods, sp, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -5395,7 +5395,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CORM
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10.0), cluster, limma
 Suggests: MASS
 License: GPL (>= 2)
@@ -7190,6 +7190,12 @@ Depends: sp, R (>= 2.10)
 Imports: mgcv
 Enhances: glmmBUGS, spdep
 License: GPL
+NeedsCompilation: no
+
+Package: diskmemoiser
+Version: 1.0-1
+Imports: digest
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dismo
@@ -11499,7 +11505,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GenBinomApps
-Version: 1.0-1
+Version: 1.0-2
 Depends: stats
 License: GPL-3
 NeedsCompilation: no
@@ -12765,8 +12771,9 @@ License: AGPL
 NeedsCompilation: no
 
 Package: groc
-Version: 1.0.2
-Depends: pls, mgcv, robust, robustbase
+Version: 1.0.4
+Depends: rrcov
+Imports: pls, mgcv, robust, robustbase, MASS
 Suggests: ppls
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -33680,6 +33687,13 @@ Package: stremo
 Version: 0.2
 Depends: lavaan (>= 0.4-9), numDeriv, MASS
 License: GPL
+NeedsCompilation: no
+
+Package: stressr
+Version: 1.0.0
+Imports: xts, XML, lattice, latticeExtra
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: StressStrength
