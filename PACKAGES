@@ -1299,6 +1299,12 @@ Depends: MASS,plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: astrochron
+Version: 0.3
+Imports: baseline, multitaper, fields
+License: GPL-3
+NeedsCompilation: yes
+
 Package: astroFns
 Version: 4.1-0
 License: GPL (>= 2)
@@ -14215,8 +14221,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 0.9.9.7
-Depends: Rcpp, rgl, methods, R (>= 3.0.0)
+Version: 1.0.0
+Depends: Rcpp, methods, R (>= 3.0.0)
+Imports: rgl, MASS, geometry, igraph
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -28487,10 +28494,10 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rmgarch
-Version: 1.2-6
+Version: 1.2-8
 Depends: R (>= 3.0.2), methods, rugarch
-Imports: Rsolnp, MASS, parallel, Matrix, zoo, xts, Bessel, ff, fftw,
-        shape, pcaPP, spd, Rcpp
+Imports: Rsolnp, MASS, parallel, Matrix, zoo, xts, Bessel, ff, shape,
+        pcaPP, spd, Rcpp
 LinkingTo: Rcpp (>= 0.10.6), RcppArmadillo (>= 0.2.34)
 License: GPL-3
 NeedsCompilation: yes
@@ -33545,10 +33552,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stm
-Version: 0.6.16
+Version: 0.6.24
 Depends: R (>= 2.10)
 Imports: matrixStats, splines, slam, lda, stringr
-Suggests: igraph, SnowballC, tm, huge, glmnet, Matrix, jsonlite, clue
+Suggests: igraph, SnowballC, tm, huge, glmnet, Matrix, jsonlite, clue,
+        wordcloud
 License: MIT + file LICENSE
 NeedsCompilation: no
 
