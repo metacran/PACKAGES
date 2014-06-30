@@ -22605,7 +22605,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-14
+Version: 1.0-15
 Depends: R (>= 2.14.0), methods, grid, zoo, sandwich (>= 1.1-1),
         strucchange, stats, modeltools (>= 0.2-21)
 Imports: survival, coin
@@ -26583,8 +26583,8 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.NMBU
-Version: 1.7.2
-Depends: R (>= 3.0.0), mixlm (>= 1.0.3), MASS, pls
+Version: 1.7.3
+Depends: R (>= 3.0.0), mixlm (>= 1.0.5), MASS, pls
 Imports: Rcmdr (>= 2.0-0), tcltk
 Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, xtable,
         pbkrtest, vcd, multcomp, e1071, nnet
@@ -33793,7 +33793,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: subplex
-Version: 1.1-3
+Version: 1.1-4
 Depends: R (>= 2.5.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -33837,6 +33837,12 @@ Version: 0.0-5
 Depends: R (>= 2.9.0), stats, grDevices, graphics
 License: AGPL-3
 NeedsCompilation: no
+
+Package: Sunder
+Version: 0.0.1
+Depends: RandomFields
+License: GPL
+NeedsCompilation: yes
 
 Package: SunterSampling
 Version: 1.0
