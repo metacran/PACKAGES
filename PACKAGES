@@ -33606,7 +33606,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 0.8-2
+Version: 0.8-4
 Depends: R (>= 2.14), coda
 Imports: methods, Rcpp (>= 0.9.10)
 LinkingTo: Rcpp
