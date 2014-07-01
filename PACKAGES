@@ -16413,7 +16413,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: lgarch
-Version: 0.3
+Version: 0.4
 Depends: R (>= 2.15.0), zoo
 License: GPL-2
 NeedsCompilation: yes
@@ -24697,7 +24697,7 @@ NeedsCompilation: no
 Package: PRISMA
 Version: 0.2-2
 Depends: R (>= 2.10), Matrix, gplots, ggplot2
-Suggests: tm
+Suggests: tm (>= 0.6)
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -26753,7 +26753,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: Rcplex
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 2.6.0), slam
 Enhances: Matrix
 License: LGPL (>= 2.0)
@@ -30597,7 +30597,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: scoring
-Version: 0.5
+Version: 0.5-1
 Depends: R (>= 2.10)
 Suggests: testthat
 License: GPL-2
