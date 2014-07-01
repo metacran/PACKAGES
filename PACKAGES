@@ -7826,6 +7826,13 @@ Suggests: hive (>= 0.1-14), parallel
 License: GPL-3
 NeedsCompilation: yes
 
+Package: dslice
+Version: 1.0
+Depends: Rcpp (>= 0.11.1), ggplot2 (>= 0.9.3.1), scales
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: dsm
 Version: 2.2.4
 Depends: R (>= 3.0), mgcv (>= 1.7), mrds
@@ -25290,7 +25297,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: qcc
-Version: 2.3
+Version: 2.5
 Depends: R (>= 2.11)
 Imports: MASS
 License: GPL (>= 2)
