@@ -36593,13 +36593,6 @@ LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: vimcom
-Version: 0.9-93
-Imports: tools
-Suggests: knitr
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: VIMGUI
 Version: 0.9.0
 Depends: R (>= 2.13), tcltk, tkrplot,VIM (>=
