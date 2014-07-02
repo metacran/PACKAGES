@@ -955,7 +955,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: aprof
-Version: 0.2
+Version: 0.2.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -14385,6 +14385,14 @@ Depends: tcltk
 License: GPL
 NeedsCompilation: no
 
+Package: icamix
+Version: 1.0
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: mixtools
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
+
 Package: icaOcularCorrection
 Version: 3.0.0
 Depends: fastICA, mgcv
@@ -16871,7 +16879,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: LogConcDEAD
-Version: 1.5-8
+Version: 1.5-9
 Depends: R (>= 3.0), MASS, mvtnorm
 Suggests: logcondens, rgl, mclust, tkrplot
 License: GPL (>= 2)
@@ -18728,7 +18736,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: MicSim
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 3.0.1), chron, snowfall, rlecuyer
 License: GPL-2
 NeedsCompilation: no
@@ -24526,7 +24534,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.1-11
+Version: 1.1-12
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30075,8 +30083,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RWebLogo
-Version: 1.0.1
-Imports: raster, jpeg, findpython
+Version: 1.0.2
+Imports: grImport, findpython, grid
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
