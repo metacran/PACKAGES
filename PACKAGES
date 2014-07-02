@@ -10943,6 +10943,12 @@ Version: 0.4
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FunctionalNetworks
+Version: 1.0.0
+Depends: R (>= 2.10), breastCancerVDX, Biobase
+License: Artistic-2.0
+NeedsCompilation: yes
+
 Package: fUnitRoots
 Version: 3010.78
 Depends: R (>= 2.4.0), urca, methods, timeDate, timeSeries, fBasics
@@ -23208,6 +23214,11 @@ Package: PenLNM
 Version: 1.0
 Depends: remMap, MASS, Matrix
 License: GPL-2
+NeedsCompilation: no
+
+Package: penMSM
+Version: 0.97
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pensim
