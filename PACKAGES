@@ -7683,7 +7683,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: no
 
 Package: dpcR
-Version: 0.1.2
+Version: 0.1.2-1
 Depends: R (>= 3.0.0), methods, qpcR
 Imports: binom, chipPCR, e1071, dgof, pracma, rateratio.test, signal,
         shiny, spatstat
@@ -24983,11 +24983,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: PSAboot
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0),graphics,ggplot2,PSAgraphics
 Imports:
         utils,Matching,MatchIt,modeltools,parallel,party,psych,reshape2,rpart,TriMatch
-Suggests: devtools,knitr
+Suggests: devtools,knitr,ggthemes
 License: GPL
 NeedsCompilation: no
 
@@ -27956,7 +27956,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rgl
-Version: 0.93.996
+Version: 0.93.1098
 Depends: R (>= 2.15.0),stats,grDevices
 Suggests: MASS
 License: GPL
@@ -32826,7 +32826,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SpatialTools
-Version: 0.5.7
+Version: 0.5.8
 Depends: R (>= 3.0.2)
 Imports: spBayes (>= 0.3.0), Rcpp
 LinkingTo: Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.0)
