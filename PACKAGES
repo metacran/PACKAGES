@@ -2085,10 +2085,10 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: BDgraph
-Version: 2.8
-Depends: R (>= 3.0.0), huge, Matrix, igraph
+Version: 2.9
+Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: bdoc
 Version: 1.2
@@ -7513,7 +7513,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dnet
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 3.1.0), igraph, supraHex
 Imports: graph, Rgraphviz, Matrix, Biobase
 Suggests: limma, survival, foreach, doMC
@@ -17825,6 +17825,12 @@ Package: MATTOOLS
 Version: 1.1
 Depends: R (>= 2.15.0)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: MAVTgsa
+Version: 1.3
+Depends: R (>= 2.13.2), corpcor, foreach, multcomp, randomForest, MASS
+License: GPL-2
 NeedsCompilation: no
 
 Package: MaXact
