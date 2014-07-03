@@ -1730,7 +1730,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: Bayesianbetareg
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.12.1), mvtnorm, betareg
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -17531,7 +17531,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAPA
-Version: 1.5
+Version: 1.6
 Depends: forecast (>= 5.3), miscTools, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -17982,6 +17982,11 @@ NeedsCompilation: no
 Package: mcbiopi
 Version: 1.1.2
 License: LGPL (>= 2)
+NeedsCompilation: no
+
+Package: mcc
+Version: 1.0
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mcclust
@@ -25629,6 +25634,13 @@ Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: qualCI
+Version: 0.1
+Depends: R (>= 2.15.0)
+Imports: combinat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: qualityTools
 Version: 1.54
 Depends: R(>= 2.15.0), graphics, methods
@@ -33054,9 +33066,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: spfrontier
-Version: 0.1.3
+Version: 0.1.10
 Depends: R (>= 2.14.0), moments, ezsim,tmvtnorm, mvtnorm
-Imports: Matrix, methods
+Imports: Matrix, methods, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -35861,7 +35873,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: tsintermittent
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
