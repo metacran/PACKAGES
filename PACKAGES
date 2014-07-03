@@ -19683,10 +19683,11 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: movMF
-Version: 0.1-3
+Version: 0.2-0
 Depends: R (>= 3.0.0)
 Imports: skmeans (>= 0.2-2), clue, slam (>= 0.1-30), stats
-Suggests: lattice, tm (>= 0.5-8.5), vcd, SnowballC, HSAUR2, colorspace
+Suggests: lattice, tm (>= 0.5-8.5), vcd, SnowballC, HSAUR2, colorspace,
+        corpus.useR.2008.abstracts
 License: GPL-2
 NeedsCompilation: yes
 
