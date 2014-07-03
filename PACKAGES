@@ -2629,6 +2629,12 @@ Version: 1.0-1
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: binr
+Version: 1.0
+Depends: R (>= 3.0.3),
+License: Apache License (== 2.0)
+NeedsCompilation: no
+
 Package: binseqtest
 Version: 0.4
 Depends: methods, graphics, stats, clinfun
@@ -10355,9 +10361,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: flora
-Version: 0.2
-Depends: R (>= 3.0.2)
-Imports: dplyr
+Version: 0.2.2
+Depends: R (>= 2.14.1)
+Imports: shiny
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19646,11 +19652,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mosaic
-Version: 0.8-27
-Depends: R (>= 3.0.0), grid, lattice (>= 0.20-21), car
-Imports: Hmisc, methods, utils, splines, latticeExtra
-Suggests: MASS, reshape2, ggplot2, plyr, maptools, manipulate, vcd,
-        RCurl, testthat, knitr, tools, parallel
+Version: 0.9-0
+Depends: R (>= 3.0.0), car, dplyr, lattice (>= 0.20-21), ggplot2
+Imports: grid, reshape2, plyr, Hmisc, methods, utils, splines,
+        latticeExtra, gridExtra, ggdendro
+Suggests: MASS, maptools, manipulate, vcd, RCurl, testthat, knitr,
+        R.rsp, tools, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -22565,11 +22572,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ParamHelpers
-Version: 1.1-36
-Imports: BBmisc
-Suggests: lhs, irace, testthat
+Version: 1.2
+Imports: BBmisc (>= 1.7), checkmate (>= 1.1)
+Suggests: emoa, lhs, irace, testthat, soobench
 License: BSD_3_clause + file LICENSE
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: paramlink
 Version: 0.9-6
@@ -24660,6 +24667,13 @@ Package: PredictiveRegression
 Version: 0.1-4
 License: file LICENSE
 License_restricts_use: yes
+NeedsCompilation: no
+
+Package: predictmeans
+Version: 0.97
+Depends: R (>= 3.0.0), lme4, nlme
+Imports: ggplot2, lattice, parallel, pbkrtest, plyr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: predmixcor
@@ -33846,7 +33860,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: strum
-Version: 0.3
+Version: 0.4
 Depends: R (>= 3.0.0), methods, pedigree, Rgraphviz(>= 2.6.0)
 Imports: MASS, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
@@ -36532,7 +36546,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: VennDiagram
-Version: 1.6.5
+Version: 1.6.7
 Depends: R (>= 2.14.1), grid (>= 2.14.1)
 License: GPL-2
 NeedsCompilation: no
