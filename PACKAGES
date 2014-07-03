@@ -16692,14 +16692,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lme4
-Version: 1.1-6
+Version: 1.1-7
 Depends: R (>= 2.15.1), Matrix (>= 1.1.1), methods, stats, Rcpp (>=
         0.10.5)
 Imports: graphics, grid, splines, parallel, MASS, nlme, lattice, minqa
-        (>= 1.1.15), RcppEigen (>= 0.3.2.0)
+        (>= 1.1.15), nloptr
 LinkingTo: Rcpp, RcppEigen
-Suggests: boot, PKPDmodels, MEMSS, testthat, ggplot2, mlmRev, optimx
-        (>= 2013.8.6), plyr, reshape, pbkrtest
+Suggests: knitr, boot, PKPDmodels, MEMSS, testthat (>= 0.8.1), ggplot2,
+        mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26859,7 +26859,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RcppArmadillo
-Version: 0.4.300.8.0
+Version: 0.4.320.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit
