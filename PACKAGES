@@ -17339,6 +17339,13 @@ Imports: methods, XML, shape, rgl, matrixStats
 License: GPL-3
 NeedsCompilation: no
 
+Package: lvm4net
+Version: 0.1
+Depends: R (>= 3.0.2), ergm, ellipse
+Imports: igraph
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: LVMMCOR
 Version: 0.01.1
 Depends: R (>= 2.14.0),nlme,MASS
@@ -21053,7 +21060,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
-Version: 2.2
+Version: 2.3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -24422,11 +24429,11 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: PopGenReport
-Version: 1.8
-Depends: R (>= 3.0.0), adegenet, mmod, knitr
+Version: 2.0
+Depends: R (>= 3.0.0), knitr, adegenet, raster
 Imports: lattice, RgoogleMaps, gap, calibrate, xtable, plyr, dismo,
         reshape, ggplot2, R.utils, ade4, pegas, genetics, rgdal,
-        gdistance, vegan, sp, raster
+        gdistance, vegan, sp, mmod
 License: GPL
 NeedsCompilation: no
 
@@ -28488,9 +28495,9 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlist
-Version: 0.1
+Version: 0.2.1
 Depends: R (>= 2.15)
-Imports: yaml,jsonlite,XML
+Imports: yaml, jsonlite
 Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -31549,8 +31556,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shotGroups
-Version: 0.4
-Depends: R (>= 2.12)
+Version: 0.5
+Depends: R (>= 2.15.2)
 Imports: boot, coin, CompQuadForm, energy, graphics, grDevices,
         KernSmooth, mvoutlier, robustbase, stats, utils
 Suggests: knitr
@@ -32369,6 +32376,13 @@ Version: 1.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: GPL
+NeedsCompilation: yes
+
+Package: SOD
+Version: 1.0
+Depends: methods, Rcpp (>= 0.10.5)
+LinkingTo: Rcpp
+License: GPL-2
 NeedsCompilation: yes
 
 Package: SoDA
