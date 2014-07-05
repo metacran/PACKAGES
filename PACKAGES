@@ -8418,7 +8418,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: eive
-Version: 2.0
+Version: 2.1
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
 License: GPL
@@ -35371,7 +35371,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tm.plugin.factiva
-Version: 1.4
+Version: 1.5
 Imports: NLP, tm (>= 0.6), XML
 License: GPL (>= 2)
 NeedsCompilation: no
