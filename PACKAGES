@@ -34926,7 +34926,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: TestScorer
-Version: 1.5
+Version: 1.6
 Depends: tcltk
 License: GPL-2
 NeedsCompilation: no
