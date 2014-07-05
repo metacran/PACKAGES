@@ -4393,6 +4393,12 @@ Depends: graphics, utils, stats
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: CINOEDV
+Version: 1.0
+Depends: R.matlab, igraph, ggplot2, reshape2
+License: GPL-2
+NeedsCompilation: no
+
 Package: CircE
 Version: 1.0
 Depends: R (>= 1.6.0), stats
@@ -10579,6 +10585,11 @@ Package: ForImp
 Version: 1.0.2
 Depends: homals, sampling, mvtnorm
 License: GPL
+NeedsCompilation: no
+
+Package: ForIT
+Version: 1.0
+License: GPL-3
 NeedsCompilation: no
 
 Package: fork
@@ -28862,7 +28873,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.0.0
+Version: 2.0.1
 Depends: R (>= 3.1.0)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6), XML
         (>= 3.98.1.1), GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
@@ -35050,7 +35061,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: Thinknum
-Version: 1.2
+Version: 1.3.0
 Imports: RCurl, RJSONIO
 License: GPL-2
 NeedsCompilation: no
