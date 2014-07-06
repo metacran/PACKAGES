@@ -3511,7 +3511,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ca
-Version: 0.53
+Version: 0.55
 Depends: R (>= 2.8.0)
 Suggests: rgl (>= 0.64-10)
 License: GPL
@@ -27060,6 +27060,12 @@ License: GPL-2
 OS_type: unix
 NeedsCompilation: yes
 
+Package: RCryptsy
+Version: 0.1
+Depends: R (>= 3.0.3), RJSONIO, RCurl
+License: GPL-3
+NeedsCompilation: no
+
 Package: Rcsdp
 Version: 0.1.53
 Enhances: Matrix
@@ -30915,8 +30921,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: sdmvspecies
-Version: 0.2.1
-Depends: raster, parallel, ggplot2
+Version: 0.3
+Depends: GPArotation
+Imports: ggplot2, psych, raster, parallel
+Suggests: testthat, roxygen2
 License: GPL-2
 NeedsCompilation: no
 
