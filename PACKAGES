@@ -2701,8 +2701,8 @@ License: LGPL
 NeedsCompilation: no
 
 Package: biomod2
-Version: 3.1-25
-Depends: stats, utils, sp, raster, parallel
+Version: 3.1-48
+Depends: stats, utils, sp, raster, parallel, reshape
 Imports: abind, rasterVis, pROC, nnet, gbm, mda, randomForest, rpart,
         MASS, methods
 Suggests: ade4, foreign, Hmisc, mgcv, gam
@@ -4683,7 +4683,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clusterSim
-Version: 0.43-4
+Version: 0.43-5
 Depends: cluster, MASS
 Imports: ade4, e1071, rgl, R2HTML
 Suggests: mlbench
@@ -14466,9 +14466,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: icd9
-Version: 0.2.1
+Version: 0.3
 Depends: R (>= 3.0.3)
-Imports: memoise
+Imports: memoise, magrittr
 Suggests: testthat, roxygen2, devtools, knitr, microbenchmark
 License: GPL-3
 NeedsCompilation: no
