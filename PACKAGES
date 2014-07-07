@@ -21878,6 +21878,12 @@ Suggests: qtl
 License: GPL-3
 NeedsCompilation: yes
 
+Package: ONETr
+Version: 0.1-1
+Depends: XML, RCurl
+License: GPL-3
+NeedsCompilation: no
+
 Package: OneTwoSamples
 Version: 1.0-3
 License: GPL (>= 2)
@@ -28527,7 +28533,8 @@ License: Apache License 2.0
 NeedsCompilation: yes
 
 Package: rLakeAnalyzer
-Version: 1.3
+Version: 1.4
+Imports: plyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
