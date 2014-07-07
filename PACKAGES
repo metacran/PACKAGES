@@ -4865,8 +4865,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CoClust
-Version: 0.2-9
-Depends: R (>= 2.15.1),methods, copula, gtools
+Version: 0.3-0
+Depends: R (>= 2.15.1), methods, copula
+Imports: gtools
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17231,7 +17232,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LSAfun
-Version: 0.3
+Version: 0.3.1
 Depends: R (>= 3.0.3), lsa, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18018,6 +18019,12 @@ Version: 0.3-2
 Depends: R (>= 2.14.0)
 Imports: stashR
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: MCAvariants
+Version: 1.0
+Depends: methods
+License: GPL
 NeedsCompilation: no
 
 Package: mcbiopi
