@@ -14312,9 +14312,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.0.0
-Depends: Rcpp, methods, R (>= 3.0.0)
-Imports: rgl, MASS, geometry, igraph
+Version: 1.0.1
+Depends: Rcpp, rgl, methods, R (>= 3.0.0)
+Imports: MASS, geometry, igraph
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -20036,9 +20036,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msm
-Version: 1.3
+Version: 1.4
+Depends: R (>= 2.10)
 Imports: survival,mvtnorm,expm
-Suggests: mstate
+Suggests: mstate,minqa,doParallel,numDeriv,testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -28735,6 +28736,13 @@ LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
 
+Package: RmixmodCombi
+Version: 1.0
+Depends: R(>= 3.0.2), Rmixmod(>= 2.0.1), Rcpp(>= 0.8.0), methods,
+        graphics
+License: GPL-3
+NeedsCompilation: no
+
 Package: rmmseg4j
 Version: 0.2-0
 Depends: rJava
@@ -31698,6 +31706,12 @@ Package: sidier
 Version: 2.3
 Depends: R (>= 2.10.1)
 Imports: ape, network, igraph
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: sievetest
+Version: 1.2.2
+Depends: R (>= 3.1.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
