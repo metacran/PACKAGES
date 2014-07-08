@@ -20588,7 +20588,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvtnorm
-Version: 0.9-99992
+Version: 1.0-0
 Depends: R(>= 1.9.0)
 Imports: stats
 License: GPL-2
