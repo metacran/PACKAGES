@@ -21476,8 +21476,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: npcp
-Version: 0.0-1
-Depends: numDeriv
+Version: 0.1-0
 Suggests: copula
 License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
@@ -28047,7 +28046,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rgeos
-Version: 0.3-5
+Version: 0.3-6
 Depends: R (>= 2.14.0)
 Imports: methods, sp (>= 1.0-12)
 LinkingTo: sp
@@ -32319,7 +32318,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sms
-Version: 2.2
+Version: 2.3
 Depends: doParallel, foreach, parallel, methods, stats
 License: GPL-3
 NeedsCompilation: no
