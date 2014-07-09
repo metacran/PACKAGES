@@ -14802,7 +14802,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: INLABMA
-Version: 0.1-4
+Version: 0.1-5
 Depends: R(>= 2.15.0), parallel
 Imports: Matrix, spdep
 Suggests: INLA
@@ -20963,9 +20963,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: network
-Version: 1.9.0
+Version: 1.10.2
 Depends: R (>= 2.10), utils
-Suggests: sna
+Suggests: sna, statnet.common (>= 3.1-0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
