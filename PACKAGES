@@ -12291,7 +12291,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: glmmLasso
-Version: 1.3.0
+Version: 1.3.1
 Imports: minqa
 License: GPL-2
 NeedsCompilation: no
@@ -14302,7 +14302,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hypergea
-Version: 0.99.5
+Version: 1.0.1
 Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -21547,7 +21547,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: npmlreg
-Version: 0.45-4
+Version: 0.45-5
 Depends: R (>= 1.9)
 Imports: statmod
 Suggests: MASS, forward, nlme, lattice
