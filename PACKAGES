@@ -1632,9 +1632,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: BatchExperiments
-Version: 1.1
-Depends: R (>= 2.15.0), BatchJobs (>= 1.2)
-Imports: BBmisc (>= 1.5), DBI, RSQLite, plyr
+Version: 1.2
+Depends: R (>= 2.15.0), BatchJobs (>= 1.3)
+Imports: checkmate (>= 1.1), BBmisc (>= 1.7), DBI, RSQLite, plyr
 Suggests: randomForest, rpart, testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
@@ -11902,7 +11902,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 0.9.7
+Version: 0.9.9
 Depends: methods, Matrix, raster, sp, R (>= 3.0.0)
 Suggests: pracma, geoR, RandomFields, rgdal, parallel, numDeriv
 Enhances: spatstat, mapmisc, ellipse
@@ -37599,7 +37599,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: yaImpute
-Version: 1.0-21
+Version: 1.0-22
 Depends: R (>= 2.11.0)
 Suggests: vegan, ccaPP, randomForest, gam, fastICA
 License: GPL (>= 2)
