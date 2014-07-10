@@ -18454,6 +18454,15 @@ Depends: survival, impute,Biobase,combinat,tools
 License: GPL-2
 NeedsCompilation: no
 
+Package: metafolio
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.2), plyr, colorspace, MASS
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: knitr, devtools, TeachingDemos, RColorBrewer, reshape2
+License: GPL-2
+NeedsCompilation: yes
+
 Package: metafor
 Version: 1.9-3
 Depends: R (>= 3.0.0), stats, Formula, Matrix
@@ -25111,6 +25120,12 @@ Version: 0.4-12
 Depends: R (>= 2.4.0)
 Suggests: cba
 License: GPL-2
+NeedsCompilation: yes
+
+Package: pRSR
+Version: 3.0.2
+Depends: R (>= 2.10)
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PSAboot
@@ -33746,6 +33761,12 @@ Version: 1.2.2
 Depends: R (>= 2.7.0), proxy, clue, survey, RANN
 Suggests: lpSolve, MASS, Hmisc
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: StatMethRank
+Version: 1.0
+Depends: MASS, utils, rjags, pmr
+License: GPL-2
 NeedsCompilation: no
 
 Package: statmod
