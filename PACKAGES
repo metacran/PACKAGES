@@ -1515,7 +1515,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BAMMtools
-Version: 1.0.1
+Version: 2.0.2
 Depends: ape
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -1640,10 +1640,10 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: BatchJobs
-Version: 1.2
-Depends: R (>= 2.15.0), BBmisc (>= 1.5)
-Imports: utils, digest, DBI, RSQLite, sendmailR, brew, plyr, stringr,
-        fail (>= 1.2)
+Version: 1.3
+Depends: R (>= 2.15.0), BBmisc (>= 1.7), methods
+Imports: checkmate (>= 1.1), utils, stats, digest, DBI, RSQLite,
+        sendmailR, brew, stringr, fail (>= 1.2)
 Suggests: testthat, MASS
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
