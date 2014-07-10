@@ -5241,7 +5241,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CondReg
-Version: 0.16
+Version: 0.20
 License: GPL-3
 NeedsCompilation: no
 
@@ -5525,8 +5525,8 @@ License: Artistic License 2.0
 NeedsCompilation: no
 
 Package: COSINE
-Version: 2.0
-Depends: R (>= 2.10), MASS, genalg
+Version: 2.1
+Depends: R (>= 3.1.0), MASS,genalg
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20471,6 +20471,12 @@ Package: mvcwt
 Version: 1.2
 Depends: foreach, RColorBrewer, grDevices
 License: GPL
+NeedsCompilation: no
+
+Package: mvglmmRank
+Version: 1.0-2
+Depends: Matrix, numDeriv
+License: GPL-2
 NeedsCompilation: no
 
 Package: mvinfluence
