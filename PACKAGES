@@ -9552,6 +9552,13 @@ Depends: methods, RJSONIO, RCurl
 License: Apache License 2.0
 NeedsCompilation: no
 
+Package: FADA
+Version: 1.0
+Depends: MASS, elasticnet
+Imports: sparseLDA,sda,glmnet,mnormt
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FAdist
 Version: 2.0
 License: GPL-2
@@ -16585,9 +16592,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: likeLTD
-Version: 5.3.3
+Version: 5.4.0
 Depends: R (>= 2.10), DEoptim, ggplot2, gtools, rtf
-Imports: gdata, tools
+Imports: gdata, tools, tcltk
 Suggests: svUnit, scales
 License: GPL-3
 NeedsCompilation: yes
@@ -23968,9 +23975,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: planor
-Version: 0.1-12
-Depends: methods, conf.design, biganalytics, bigmemory (>= 4.2.3)
-LinkingTo: bigmemory, BH
+Version: 0.2-0
+Depends: methods, conf.design
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29151,6 +29157,14 @@ Depends: R (>= 2.3.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: robustvarComp
+Version: 0.1-2
+Depends: R (>= 2.15.1)
+Imports: robustbase, GSE, numDeriv, robust, plyr
+Suggests: nlme, Matrix, mvtnorm, WWGbook
+License: GPL-2
+NeedsCompilation: yes
+
 Package: robustX
 Version: 1.1-4
 Depends: robustbase
@@ -30394,7 +30408,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rysgran
-Version: 2.0
+Version: 2.1.0
 Depends: R (>= 2.10.0) , soiltexture , lattice
 Suggests: plotrix
 License: GPL (>= 2.0)
@@ -34252,7 +34266,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: surv2sampleComp
-Version: 1.0-3
+Version: 1.0-4
 Depends: survival, plotrix, flexsurv, survC1
 License: GPL-2
 NeedsCompilation: no
