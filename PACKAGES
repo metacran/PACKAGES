@@ -31123,6 +31123,11 @@ Imports: parallel, abind
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: seedy
+Version: 0.1
+License: GPL-3
+NeedsCompilation: no
+
 Package: seeg
 Version: 1.0
 Depends: car,spatstat,sgeostat
