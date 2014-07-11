@@ -36208,7 +36208,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tth
-Version: 4.3-1
+Version: 4.3-2
 Depends: R (>= 2.14.0)
 License: GPL-2
 NeedsCompilation: yes
