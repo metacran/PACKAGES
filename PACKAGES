@@ -18420,7 +18420,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 3.6-0
+Version: 3.7-0
 Depends: R (>= 2.9.1), grid
 Suggests: metafor
 License: GPL (>= 2)
@@ -19258,7 +19258,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mkin
-Version: 0.9-29
+Version: 0.9-30
 Depends: minpack.lm, rootSolve
 Imports: FME, deSolve
 Suggests: knitr, RUnit
@@ -24556,6 +24556,13 @@ Depends: R (>= 2.15), ggplot2, igraph
 Imports: MASS, sp, Matrix, sampling
 Suggests: testthat, maps, fields, grid
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: popKorn
+Version: 0.3-0
+Depends: R (>= 3.0.0), boot
+Suggests: plotrix
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: poppr
@@ -31169,7 +31176,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: segmented
-Version: 0.3-1.0
+Version: 0.4-0.0
 License: GPL
 NeedsCompilation: no
 
@@ -31601,8 +31608,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sgof
-Version: 2.0.2
-Depends: R (>= 3.0.2), stats
+Version: 2.1
+Depends: R (>= 3.0.2), stats, poibin, prot2D, discreteMTP
 License: GPL-2
 NeedsCompilation: no
 
