@@ -6,8 +6,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: abc
-Version: 1.8
-Depends: R (>= 2.10), nnet, quantreg, MASS
+Version: 2.0
+Depends: R (>= 2.10), nnet, quantreg, MASS, locfit
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -4406,7 +4406,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.0.8
+Version: 0.0.9
 Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27505,6 +27505,12 @@ Version: 0.1-11
 Depends: R (>= 2.14.0), fda,
 Imports: lattice, boot, mgcv (>= 1.7-28), MASS, glmnet, magic, nlme,
         wavethresh, Matrix, gamm4, matrixStats, lme4, splines, RLRsim
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: refund.wave
+Version: 0.1
+Depends: R (>= 2.14.0), glmnet, wavethresh
 License: GPL (>= 2)
 NeedsCompilation: no
 
