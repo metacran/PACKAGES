@@ -5446,7 +5446,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: corHMM
-Version: 1.13
+Version: 1.14
 Depends: ape, nloptr, parallel
 Imports: expm, numDeriv, corpcor, phangorn, rgenoud
 License: GPL (>= 2)
