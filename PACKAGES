@@ -2085,7 +2085,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: BDgraph
-Version: 2.9
+Version: 2.10
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
