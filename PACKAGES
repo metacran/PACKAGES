@@ -14743,8 +14743,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: indicspecies
-Version: 1.7.1
+Version: 1.7.2
 Depends: permute
+Imports: sp, rgeos
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19042,10 +19043,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: miscset
-Version: 0.2
-Imports: Rcpp (>= 0.11.1), parallel, xtable
+Version: 0.3.1
+Imports: parallel, Rcpp (>= 0.11.1), xtable
 LinkingTo: Rcpp
-Suggests: knitr
+Suggests: data.table, knitr
 License: GPL-3
 NeedsCompilation: yes
 
@@ -29133,7 +29134,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustlmm
-Version: 1.5
+Version: 1.6
 Depends: lme4 (>= 1.0), Matrix (>= 1.0-13),
 Imports: ggplot2, lattice, nlme, methods, robustbase (>= 0.9.5), xtable
 Suggests: digest, reshape2
