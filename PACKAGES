@@ -906,7 +906,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ape
-Version: 3.1-2
+Version: 3.1-3
 Depends: R (>= 3.0.0)
 Imports: nlme, lattice, graphics, stats, tools, utils
 Suggests: gee, expm
@@ -2418,7 +2418,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BIFIEsurvey
-Version: 0.1-61
+Version: 0.2-37
 Depends: R (>= 2.15.0)
 Imports: Rcpp (>= 0.11.0), miceadds
 LinkingTo: Rcpp, RcppArmadillo
@@ -9728,7 +9728,7 @@ License: MIT
 NeedsCompilation: yes
 
 Package: FastHCS
-Version: 0.0.1
+Version: 0.0.2
 Depends: matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
