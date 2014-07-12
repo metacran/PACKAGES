@@ -1783,6 +1783,13 @@ Imports: rjags (>= 2.1.0), coda (>= 0.13)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: BayesNetDiscovery
+Version: 0.1
+Depends: R (>= 3.0.3)
+Imports: DPpackage,igraph,mclust,pscl,tmvtnorm
+License: GPL-2
+NeedsCompilation: no
+
 Package: BayesNI
 Version: 0.1
 License: GPL-2
@@ -14693,6 +14700,12 @@ Package: imprProbEst
 Version: 1.0.1
 Depends: R(>= 2.7.0), inline, lpSolve
 License: LGPL-3
+NeedsCompilation: no
+
+Package: imputeLCMD
+Version: 1.0
+Depends: R (>= 2.10), tmvtnorm, norm, pcaMethods, impute
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: imputeMDR
