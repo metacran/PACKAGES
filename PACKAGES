@@ -2521,7 +2521,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bigsplines
-Version: 1.0-1
+Version: 1.0-2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -15827,10 +15827,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knitcitations
-Version: 0.6-2
-Depends: R (>= 3.0), knitr (>= 1.6), bibtex, RefManageR
-Imports: xtable, RCurl, XML, httr
-Suggests: testthat
+Version: 1.0-1
+Depends: R (>= 3.0)
+Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3)
+Suggests: testthat, knitr (>= 1.6)
 License: CC0
 NeedsCompilation: no
 
@@ -20849,7 +20849,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ncvreg
-Version: 3.1-0
+Version: 3.2-0
 License: GPL-2
 NeedsCompilation: yes
 
@@ -26079,9 +26079,9 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: r4ss
-Version: 1.22
-Depends: R (>= 2.10.0), tcltk, coda, maps
-Imports: corpcor, gplots, gtools, pso, RCurl
+Version: 1.22.1
+Depends: R (>= 2.10.0)
+Imports: coda, corpcor, gplots, gtools, maps, pso, RCurl, tcltk
 License: GPL-3
 NeedsCompilation: no
 
