@@ -568,7 +568,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: algstat
-Version: 0.0.0
+Version: 0.0.1
 Depends: mpoly
 Imports: stringr, reshape2, Rcpp
 LinkingTo: Rcpp
@@ -6397,6 +6397,14 @@ Depends: mvtnorm, ibdreg, boot
 Suggests: survival
 License: GPL-2 | GPL-3
 NeedsCompilation: no
+
+Package: dbarts
+Version: 0.8-2
+Depends: R (>= 3.0-0)
+Imports: methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: dbConnect
 Version: 1.0
@@ -23582,6 +23590,11 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
+Package: pgmm
+Version: 1.1
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: pgnorm
 Version: 1.1
 License: GPL (>= 2)
@@ -31892,7 +31905,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Sim.DiffProc
-Version: 2.6
+Version: 2.7
 Depends: R (>= 2.15.1)
 Suggests: rgl, scatterplot3d
 License: GPL (>= 3) | file LICENCE
@@ -37705,8 +37718,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: YuGene
-Version: 1.1.1
-Depends: R (>= 2.10)
+Version: 1.1.2
+Depends: mixOmics,R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: no
 
