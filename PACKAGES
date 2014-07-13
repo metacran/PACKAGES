@@ -6154,7 +6154,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: d3Network
-Version: 0.5
+Version: 0.5.1
 Depends: R (>= 3.0.0)
 Imports: plyr, rjson, whisker
 Suggests: RCurl
