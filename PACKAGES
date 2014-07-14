@@ -26247,7 +26247,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomForestSRC
-Version: 1.5.3
+Version: 1.5.4
 Depends: R (>= 3.1.0), parallel
 Suggests: glmnet, XML
 License: GPL (>= 3)
