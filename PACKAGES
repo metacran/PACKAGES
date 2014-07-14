@@ -9830,6 +9830,14 @@ Depends: R (>= 2.10), kinship2, multgee
 License: GPL
 NeedsCompilation: no
 
+Package: FatTailsR
+Version: 1.0-3
+Depends: R (>= 3.1.0)
+Imports: minpack.lm
+Suggests: timeSeries, timeDate
+License: GPL-2
+NeedsCompilation: no
+
 Package: FAwR
 Version: 1.0.1
 Depends: R (>= 2.10), MASS, lattice
@@ -13717,7 +13725,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: HiClimR
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.10)
 Enhances: stats
 License: GPL (>= 2)
@@ -14990,6 +14998,13 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: inTrees
+Version: 1.0
+Imports: RRF, arules, gbm
+Suggests: xtable
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: intReg
 Version: 0.1-2
 Depends: R (>= 2.7.0), maxLik (>= 1.0-3), sets
@@ -15023,9 +15038,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: investr
-Version: 1.0.1
+Version: 1.1.0
 Depends: graphics, stats
-Suggests: boot, car, lme4, nlme, RColorBrewer
+Suggests: boot, car, nlme, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34054,7 +34069,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stream
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.13.0), methods, hash, proxy (>= 0.4-7)
 Imports: animation, clue, cluster, clusterGeneration, fpc, MASS,
         mlbench
@@ -36317,6 +36332,12 @@ Imports: signal, methods
 Suggests: pastecs
 License: GPL-2
 NeedsCompilation: yes
+
+Package: tuple
+Version: 0.3-06
+Depends: R (>= 2.10.0)
+License: LGPL-3
+NeedsCompilation: no
 
 Package: turboEM
 Version: 2012.2-1
