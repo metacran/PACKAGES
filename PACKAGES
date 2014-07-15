@@ -906,7 +906,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ape
-Version: 3.1-3
+Version: 3.1-4
 Depends: R (>= 3.0.0)
 Imports: nlme, lattice, graphics, stats, tools, utils
 Suggests: gee, expm
