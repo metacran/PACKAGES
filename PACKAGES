@@ -502,10 +502,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: AICcmodavg
-Version: 1.35
+Version: 2.00
 Depends: methods, stats
-Suggests: lme4, MASS, Matrix, nlme, nnet, ordinal, R2jags, R2OpenBUGS,
-        R2WinBUGS, stats4, survival, unmarked
+Suggests: coxme, lme4, MASS, Matrix, maxlike, nlme, nnet, ordinal,
+        pscl, R2jags, R2OpenBUGS, R2WinBUGS, stats4, survival,
+        unmarked, VGAM
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25829,6 +25830,12 @@ Imports: igraph
 License: LGPL
 NeedsCompilation: yes
 
+Package: quad
+Version: 1.0
+Imports: PearsonDS
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: quadprog
 Version: 1.5-5
 Depends: R (>= 2.15.0)
@@ -29430,7 +29437,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ROSE
-Version: 0.0-2
+Version: 0.0-3
 Suggests: MASS, nnet, rpart, tree
 License: GPL-2
 NeedsCompilation: no
@@ -36090,7 +36097,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSdist
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.3), stats, proxy
 Imports: zoo, xts
 License: GPL (>= 2)
