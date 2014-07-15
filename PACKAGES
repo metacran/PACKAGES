@@ -34757,7 +34757,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: synchrony
-Version: 0.2.2
+Version: 0.2.3
 License: GPL (>= 2)
 NeedsCompilation: no
 
