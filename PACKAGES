@@ -1033,6 +1033,12 @@ Suggests: mclust, parallel, copula, evd
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: archdata
+Version: 0.1
+Suggests: circular, plotrix
+License: GPL
+NeedsCompilation: no
+
 Package: archetypes
 Version: 2.2-0
 Depends: methods, stats, modeltools, nnls (>= 1.1)
@@ -3446,6 +3452,14 @@ LinkingTo: Boom, BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
 
+Package: btf
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: Matrix, coda,
+LinkingTo: Rcpp (>= 0.11.0), RcppEigen (>= 0.3.2.1.1)
+License: GPL (>= 2.0)
+NeedsCompilation: yes
+
 Package: BTYD
 Version: 1.0
 Depends: gsl, Matrix
@@ -5486,12 +5500,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CorReg
-Version: 0.14.5
+Version: 0.15.0
 Depends: R(>= 3.0.2)
 Imports: Rcpp(>= 0.11.0), lars(>= 1.2), elasticnet(>= 1.1), clere(>=
         1.1), spikeslab(>= 1.1.5), corrplot(>= 0.73), Matrix(>= 1.1),
         mclust(>= 4.2), Rmixmod(>= 2.0.1), ridge(>= 2.1), rpart(>=
-        4.1-5), MASS(>= 7.3-30), parcor(>= 0.2)
+        4.1-5), MASS(>= 7.3-30), parcor(>= 0.2), mvtnorm(>= 0.9)
 LinkingTo: Rcpp, RcppEigen
 License: CeCILL
 NeedsCompilation: yes
@@ -5574,7 +5588,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: countrycode
-Version: 0.16
+Version: 0.17
 License: GPL-3
 NeedsCompilation: no
 
