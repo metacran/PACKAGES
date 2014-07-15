@@ -6965,7 +6965,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: DFIT
-Version: 1.0
+Version: 1.0-1
 Imports: simex, mvtnorm, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12028,12 +12028,14 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: GGally
-Version: 0.4.6
+Version: 0.4.7
 Depends: R (>= 2.14)
 Imports: ggplot2 (>= 1.0.0), grid (>= 3.0.0), gtable (>= 0.1.2), plyr
         (>= 1.8), reshape (>= 0.8.4), stringr (>= 0.6.2)
-Suggests: scagnostics, intergraph (>= 2.0-0), network (>= 1.7.2),
-        RColorBrewer (>= 1.0-5), sna (>= 2.3-1)
+Suggests: arm (>= 1.7), intergraph (>= 2.0-0), network (>= 1.7.2),
+        RColorBrewer (>= 1.0-5), scales (>= 0.2.3), scagnostics (>=
+        0.2-4), sna (>= 2.3-1), survival (>= 2.37-4), tnet (>= 3.0),
+        roxygen2 (>= 4.0.1)
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -22746,7 +22748,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ParamHelpers
-Version: 1.2
+Version: 1.3
 Imports: BBmisc (>= 1.7), checkmate (>= 1.1)
 Suggests: emoa, lhs, irace, testthat, soobench
 License: BSD_3_clause + file LICENSE
