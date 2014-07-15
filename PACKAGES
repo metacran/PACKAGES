@@ -4549,7 +4549,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: clickstream
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.0.1), methods
 Imports: igraph, plyr, reshape2, Rsolnp
 License: GPL-2
@@ -22721,7 +22721,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ParallelForest
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 2.10), methods
 Suggests: knitr
 License: AGPL-3
@@ -33167,9 +33167,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spatsurv
-Version: 0.9-5
-Depends: survival, flexsurv, sp
-Imports: iterators, RandomFields, fields, rgl, Matrix
+Version: 0.9-6
+Depends: survival, sp
+Imports: iterators, RandomFields, fields, rgl, Matrix, stringr
 Suggests: rgdal, gpclib
 License: GPL-3
 NeedsCompilation: no
