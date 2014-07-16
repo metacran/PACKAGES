@@ -28850,7 +28850,7 @@ License: BSD
 NeedsCompilation: no
 
 Package: RMessenger
-Version: 0.1.4
+Version: 0.1.5
 Imports: methods, Rcpp (>= 0.9.9)
 LinkingTo: Rcpp
 License: GPL (>= 3)
@@ -36200,7 +36200,8 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: tsintermittent
-Version: 1.1
+Version: 1.2
+Depends: MAPA, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
