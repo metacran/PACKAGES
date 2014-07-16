@@ -11059,7 +11059,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: functional
-Version: 0.4
+Version: 0.6
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23789,7 +23789,7 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: phreeqc
-Version: 1.0-8809
+Version: 1.0-8847
 Depends: R (>= 2.10)
 License: GPL-3 + file LICENSE
 NeedsCompilation: yes
@@ -35960,6 +35960,13 @@ Depends: R (>= 1.9.0)
 Suggests: fpc
 License: GPL
 NeedsCompilation: no
+
+Package: trimTrees
+Version: 1.0
+Depends: R (>= 2.5.0),stats,randomForest,mlbench
+Suggests: MASS
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: trioGxE
 Version: 0.1-1
