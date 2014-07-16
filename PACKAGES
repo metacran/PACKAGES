@@ -11475,6 +11475,12 @@ Depends: R (>= 1.8.0), nlme
 License: GPL
 NeedsCompilation: no
 
+Package: GCAI.bias
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: gcbd
 Version: 0.2.5
 Depends: R (>= 2.11.1), RSQLite, plyr, reshape, lattice
@@ -12569,7 +12575,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: GoFKernel
-Version: 1.0
+Version: 2.0-3
 Depends: KernSmooth
 License: GPL
 NeedsCompilation: no
@@ -13821,6 +13827,13 @@ Version: 1.1
 Depends: spatstat, ks
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: hillmakeR
+Version: 0.2
+Depends: R (>= 2.10)
+Suggests: plyr
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: HiLMM
 Version: 1.0
@@ -24442,8 +24455,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pollstR
-Version: 1.0-0
-Depends: R (>= 3.1.0)
+Version: 1.0.1
+Depends: R (>= 3.0.3)
 Imports: httr, plyr, jsonlite
 Suggests: knitr, dplyr, ggplot2, testthat
 License: GPL-2
@@ -31915,7 +31928,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SigTree
-Version: 1.5
+Version: 1.6
 Imports: ape, phyext, RColorBrewer, phyloseq
 License: GPL-3
 NeedsCompilation: yes
@@ -35803,9 +35816,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: translate
-Version: 0.1
+Version: 0.1.2
 Imports: RCurl, RJSONIO, functional, lisp
-Suggests: debug
 License: GPL
 NeedsCompilation: no
 
