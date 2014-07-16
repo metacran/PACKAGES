@@ -25961,9 +25961,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: questionr
-Version: 0.4
+Version: 0.4.1
 Depends: R (>= 2.10)
-Imports: shiny, highr
+Imports: shiny (>= 0.10), highr, classInt
 Suggests: memisc, testthat, roxygen2, R2HTML
 License: GPL (>= 2)
 NeedsCompilation: no
