@@ -6694,7 +6694,7 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: Delaporte
-Version: 2.1-1
+Version: 2.2-0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: testthat
@@ -17572,7 +17572,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: magicaxis
-Version: 1.8
+Version: 1.9
 Depends: R (>= 2.13), MASS, plotrix, sm
 License: GPL-2
 NeedsCompilation: no
@@ -23247,7 +23247,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PCovR
-Version: 2.4
+Version: 2.5
 Depends: GPArotation, ThreeWay, MASS, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
