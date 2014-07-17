@@ -21785,7 +21785,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: numOSL
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.15.3)
 License: GPL-3
 NeedsCompilation: yes
@@ -26313,7 +26313,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: randomForest
-Version: 4.6-7
+Version: 4.6-10
 Depends: R (>= 2.5.0), stats
 Suggests: RColorBrewer, MASS
 License: GPL (>= 2)
