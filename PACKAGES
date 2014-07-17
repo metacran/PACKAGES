@@ -30177,6 +30177,13 @@ Depends: R (>= 2.14), graphics
 License: GPL-3
 NeedsCompilation: no
 
+Package: RTDE
+Version: 0.1-0
+Depends: R (>= 3.0.0), parallel
+Suggests: tseries
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: rtematres
 Version: 0.2
 Imports: XML, RCurl, plyr, gdata
@@ -30912,10 +30919,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SCGLR
-Version: 1.2
+Version: 2.0
 Depends: R (>= 3.0.0)
-Imports: Matrix,Formula,expm,graphics,ggplot2,grid,stringr,ROCR
-Suggests: parallel
+Imports: Matrix,Formula,expm,graphics,ggplot2,grid,ROCR
+Suggests: parallel,gridExtra,knitr
 License: CeCILL-2 | GPL-2
 NeedsCompilation: no
 
