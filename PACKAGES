@@ -13582,6 +13582,14 @@ Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: HDPenReg
+Version: 0.89.7
+Depends: methods
+Imports: Rcpp
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: hdrcde
 Version: 3.1
 Depends: R (>= 2.15), mvtnorm
@@ -26185,6 +26193,13 @@ Version: 1.22.1
 Depends: R (>= 2.10.0)
 Imports: coda, corpcor, gplots, gtools, maps, pso, RCurl, tcltk
 License: GPL-3
+NeedsCompilation: no
+
+Package: R6
+Version: 1.0.1
+Depends: R (>= 3.0)
+Suggests: knitr, microbenchmark, testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: race
