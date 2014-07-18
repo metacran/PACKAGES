@@ -11153,6 +11153,14 @@ Version: 1.0
 License: GPL
 NeedsCompilation: no
 
+Package: fuzzyMM
+Version: 1.0.1
+Depends: R (>= 2.15.0), osmar, frbs,
+Imports: methods, igraph, rgeos, rgdal,
+Suggests: rjson, maptools, stringr, RCurl,
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FuzzyNumbers
 Version: 0.3-3
 Depends: R (>= 2.12.0), methods, grDevices, graphics, stats
@@ -20621,7 +20629,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mvmeta
-Version: 0.4.3
+Version: 0.4.4
 Depends: R (>= 2.13.0)
 Imports: stats, graphics, grDevices, utils
 Suggests: metafor, meta, rmeta, nlme, MASS, dlnm
@@ -28094,9 +28102,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rfigshare
-Version: 0.3-1
+Version: 0.3.5
 Depends: R (>= 3.0), methods
-Imports: RJSONIO, httr (>= 0.3), plyr, yaml, ggplot2, XML
+Imports: RJSONIO, httr (>= 0.3), httpuv, plyr, yaml, ggplot2, XML
 Suggests: knitr, testthat, gdata, uuid
 License: CC0
 NeedsCompilation: no
