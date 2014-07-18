@@ -26592,13 +26592,13 @@ License: GPL
 NeedsCompilation: no
 
 Package: rattle
-Version: 3.0.2
+Version: 3.1.0
 Depends: R (>= 2.13.0)
 Suggests: RGtk2, pmml (>= 1.2.13), bitops, colorspace, ada, amap,
         arules, arulesViz, biclust, cairoDevice, cba, corrplot, descr,
-        doBy, e1071, ellipse, fBasics, foreign, fpc, gdata, ggdendro,
-        ggplot2, gplots, graph, grid, gtools, gWidgetsRGtk2, hmeasure,
-        Hmisc, kernlab, latticist, Matrix, methods, mice, network,
+        doBy, dplyr, e1071, ellipse, fBasics, foreign, fpc, gdata,
+        ggdendro, ggplot2, gplots, graph, grid, gtools, gWidgetsRGtk2,
+        hmeasure, Hmisc, kernlab, latticist, Matrix, methods, mice,
         nnet, odfWeave, party, playwith, plyr, psych, randomForest,
         RBGL, RColorBrewer, reshape, rggobi, RGtk2Extras, ROCR, RODBC,
         rpart, rpart.plot, SnowballC, stringr, survival, timeDate, tm,
