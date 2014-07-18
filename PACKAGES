@@ -1922,6 +1922,15 @@ Suggests: mvnmle, moments
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: bayou
+Version: 1.0
+Depends: ape (>= 3.0-6), geiger(>= 2.0), R (>= 2.15.0), phytools, coda
+Imports: Rcpp (>= 0.10.3), MASS, mnormt, fitdistrplus, denstrip
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: doMC, foreach
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: BaySIC
 Version: 1.0
 Depends: R (>= 2.10), rjags, fields, poibin
@@ -2317,7 +2326,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bezier
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -28781,7 +28790,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlist
-Version: 0.2.2
+Version: 0.2.3
 Depends: R (>= 2.15)
 Imports: data.table, yaml, jsonlite
 Suggests: testthat, knitr
@@ -32215,7 +32224,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: siRSM
-Version: 1.0
+Version: 1.1
 Imports: rsm, MASS, foreach, doSNOW, parallel
 License: GPL-2
 NeedsCompilation: no
@@ -34026,8 +34035,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: StereoMorph
-Version: 1.0
-Depends: grid
+Version: 1.1
+Imports: bezier (>= 1.1), grid, rjson, shiny
 Suggests: rgl
 License: GPL-2
 NeedsCompilation: no
