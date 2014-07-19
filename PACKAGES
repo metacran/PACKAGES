@@ -1308,12 +1308,6 @@ Depends: MASS,plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: astrochron
-Version: 0.3
-Imports: baseline, multitaper, fields
-License: GPL-3
-NeedsCompilation: yes
-
 Package: astroFns
 Version: 4.1-0
 License: GPL (>= 2)
