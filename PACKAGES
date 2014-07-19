@@ -11905,9 +11905,9 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
 Package: geomorph
-Version: 2.1
+Version: 2.1.1
 Depends: R (>= 2.10), rgl
-Imports: jpeg, vegan, ape, geiger
+Imports: jpeg, vegan, ape, geiger, phytools
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20880,7 +20880,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: NbClust
-Version: 2.0
+Version: 2.0.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -23600,9 +23600,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: permGPU
-Version: 0.14.5
+Version: 0.14.6
 Depends: R (>= 2.15.3), Biobase (>= 2.18.0), RUnit (>= 0.4.26), foreach
-        (>= 1.4.2)
+        (>= 1.4.2), survival(>= 2.37-7)
 License: GPL-3
 NeedsCompilation: yes
 
@@ -24321,15 +24321,16 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plsRcox
-Version: 1.0
+Version: 1.7.0
 Depends: R (>= 2.4.0)
-Imports: boot, plsRglm, lars, survival, pls, kernlab, mixOmics
+Imports: survival, plsRglm, lars, pls, kernlab, mixOmics, risksetROC,
+        survcomp, survAUC, rms
 Suggests: survivalROC, plsdof
 License: GPL-3
 NeedsCompilation: no
 
 Package: plsRglm
-Version: 1.0.1
+Version: 1.1.0
 Depends: R (>= 2.4.0)
 Imports: mvtnorm, boot, bipartite
 Suggests: MASS, plsdof, R.rsp
@@ -28374,7 +28375,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RGtk2
-Version: 2.20.29
+Version: 2.20.30
 Depends: R (>= 2.5.0)
 License: GPL
 NeedsCompilation: yes
@@ -29121,13 +29122,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RNeXML
-Version: 1.1-0
+Version: 1.1.2
 Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), taxize (>= 0.2.2), reshape2 (>=
-        1.2.2), httr (>= 0.3), uuid (>= 0.1-1)
+        1.2.2), httr (>= 0.3), uuid (>= 0.1-1), testthat (>= 0.8.1)
 Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
-        (>= 1.5), testthat (>= 0.8.1), rfigshare (>= 0.3.0),
-        knitcitations (>= 1.0.1), Sxslt
+        (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1), Sxslt
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -32393,6 +32393,14 @@ Version: 1.2-1
 License: LGPL-2.1
 NeedsCompilation: yes
 
+Package: slp
+Version: 1.0-3
+Depends: R (>= 2.15.1)
+Imports: mgcv (>= 1.7.18)
+Suggests: gam (>= 1.09)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: sltl
 Version: 1.0
 Depends: R (>= 2.10), FitAR, timeSeries, lubridate
@@ -35216,7 +35224,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TEQR
-Version: 4.0-0
+Version: 5.0-0
 License: GPL-2
 NeedsCompilation: no
 
@@ -37845,9 +37853,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.11.0
+Version: 0.12.1
 Depends: R (>= 2.12.0)
-Imports: httr, RCurl, rjson, plyr, jsonlite
+Imports: httr, RCurl, rjson, plyr, jsonlite, stringr
 License: FreeBSD
 NeedsCompilation: no
 
