@@ -12645,7 +12645,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: googleVis
-Version: 0.5.3
+Version: 0.5.4
 Depends: R (>= 3.0.2)
 Imports: methods, RJSONIO, utils
 Suggests: shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)
@@ -13305,9 +13305,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gWidgets
-Version: 0.0-52
+Version: 0.0-53
 Depends: methods, utils
-Suggests: gWidgetsRGtk2, cairoDevice, gWidgetstcltk
+Suggests: gWidgetstcltk
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25174,8 +25174,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: ProgGUIinR
-Version: 0.0-3
-Depends: methods, utils, ggplot2, svMisc, ggplot2, MASS
+Version: 0.0-4
+Depends: methods, utils, ggplot2, svMisc, MASS
 Suggests: qtbase, RGtk2, cairoDevice, gWidgetsRGtk2, gWidgets, tcltk
 License: GPL (>= 2)
 NeedsCompilation: no
