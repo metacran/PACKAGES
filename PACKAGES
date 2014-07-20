@@ -5652,6 +5652,12 @@ Suggests: parallel, snowfall
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: coxinterval
+Version: 1.0
+Depends: Matrix, parallel, survival, timereg, R (>= 2.13.0)
+License: GPL (>= 2)
+NeedsCompilation: Yes
+
 Package: coxme
 Version: 2.2-3
 Priority: optional
@@ -13341,7 +13347,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gWidgetstcltk
-Version: 0.0-54
+Version: 0.0-55
 Depends: R (>= 2.14.0), methods, gWidgets(>= 0.0.51), tcltk(>= 2.7.0),
         digest
 License: GPL (>= 2)
@@ -30887,6 +30893,13 @@ Package: sbioPN
 Version: 1.1.0
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: SBRect
+Version: 0.26
+Depends: rJava
+Suggests: MASS
+License: GPL-2
+NeedsCompilation: no
 
 Package: SBSA
 Version: 0.2.3
