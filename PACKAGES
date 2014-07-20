@@ -8334,6 +8334,14 @@ Depends: XML
 License: GPL
 NeedsCompilation: no
 
+Package: ecp
+Version: 1.6.0
+Depends: R (>= 2.10), Rcpp
+LinkingTo: Rcpp
+Suggests: mvtnorm,MASS,combinat
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: edcc
 Version: 1.0-0
 Depends: spc
