@@ -1308,6 +1308,12 @@ Depends: MASS,plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: astrochron
+Version: 0.3.1
+Imports: baseline, multitaper, fields
+License: GPL-3
+NeedsCompilation: yes
+
 Package: astroFns
 Version: 4.1-0
 License: GPL (>= 2)
@@ -9359,7 +9365,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: ExomeDepth
-Version: 1.0.5
+Version: 1.0.7
 Depends: R (>= 2.15.0), methods, aod, VGAM (>= 0.8.4), GenomicRanges
         (>= 1.8.10), Rsamtools
 License: GPL-3
@@ -13966,7 +13972,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: HLSM
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.0)
 Imports: MASS, coda
 License: GPL (> 3)
@@ -16856,6 +16862,11 @@ NeedsCompilation: no
 Package: lmbc
 Version: 0.9.1
 Depends: mseq, lars
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: lm.beta
+Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
