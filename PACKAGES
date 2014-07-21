@@ -34462,12 +34462,12 @@ License: GPL
 NeedsCompilation: no
 
 Package: SuperLearner
-Version: 2.0-10
+Version: 2.0-15
 Depends: R (>= 2.14.0), nnls
-Suggests: arm, BayesTree, caret, class, e1071, earth, gam, gbm,
-        genefilter, ggplot2, glmnet, Hmisc, ipred, lattice, LogicReg,
-        MASS, mda, mlbench, nnet, parallel, party, polspline, quadprog,
-        randomForest, rpart, SIS, spls, stepPlr, sva
+Suggests: arm, caret, class, cvAUC, e1071, earth, gam, gbm, genefilter,
+        ggplot2, glmnet, Hmisc, ipred, lattice, LogicReg, MASS, mda,
+        mlbench, nloptr, nnet, parallel, party, polspline, quadprog,
+        randomForest, ROCR, rpart, SIS, spls, stepPlr, sva
 License: GPL-3
 NeedsCompilation: no
 
