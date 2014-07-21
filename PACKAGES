@@ -11424,7 +11424,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamm4
-Version: 0.2-2
+Version: 0.2-3
 Depends: R (>= 2.9.0), methods, Matrix, lme4 (>= 0.999375-31), mgcv (>=
         1.7-23)
 License: GPL (>= 2)
@@ -18840,7 +18840,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: mgcv
-Version: 1.8-1
+Version: 1.8-2
 Priority: recommended
 Depends: R (>= 2.14.0), nlme (>= 3.1-64)
 Imports: methods, stats, graphics, Matrix
@@ -34635,7 +34635,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: survsim
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.13.1), eha, statmod
 License: GPL (>= 2)
 NeedsCompilation: no
