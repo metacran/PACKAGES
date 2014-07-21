@@ -4257,7 +4257,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15.0)
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
@@ -6418,9 +6418,8 @@ License: CC BY-NC-SA 3.0
 NeedsCompilation: no
 
 Package: dave
-Version: 1.4
-Depends: R (>= 2.10), stats, graphics, labdsv, vegan, cluster, nnet,
-        tree, rpart, MASS
+Version: 1.5
+Depends: R (>= 2.10), labdsv, vegan
 License: LGPL (>= 2.0)
 NeedsCompilation: no
 
@@ -6810,6 +6809,11 @@ Package: denpro
 Version: 0.9.1
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: densityClust
+Version: 0.1-1
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: Density.T.HoldOut
 Version: 1.02
