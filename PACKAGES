@@ -1662,7 +1662,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesBridge
-Version: 0.4
+Version: 0.5
 Depends: R (>= 2.10)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -1758,7 +1758,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BayesLogit
-Version: 0.4
+Version: 0.5.1
 Depends: R (>= 2.14.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -24794,7 +24794,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PottsUtils
-Version: 0.3-0
+Version: 0.3-1
 Depends: R (>= 3.0.2)
 Imports: miscF (>= 0.1-2)
 License: GPL-2
