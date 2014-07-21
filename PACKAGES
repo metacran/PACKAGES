@@ -3228,6 +3228,13 @@ Depends: stats, R (>= 2.10.0)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
+Package: bootSVD
+Version: 0.1
+Depends: R (>= 3.0.2)
+Imports: parallel
+License: GPL-2
+NeedsCompilation: no
+
 Package: Boruta
 Version: 3.1.0
 Depends: R (>= 2.0.0), randomForest, rFerns
@@ -17186,7 +17193,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: logitchoice
-Version: 0.9.0
+Version: 0.9.1
 License: GPL-2
 NeedsCompilation: yes
 
@@ -29205,10 +29212,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rnoaa
-Version: 0.1.0
-Imports: httr, lubridate, plyr, ggplot2, scales, rgdal, maptools,
-        stringr, XML, data.table
-Suggests: testthat, roxygen2
+Version: 0.2.0
+Imports: httr, lubridate, plyr, ggplot2, scales, sp, rgdal, rgeos,
+        maptools, stringr, XML, data.table, assertthat, jsonlite
+Suggests: testthat, roxygen2, knitr, taxize
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -35515,6 +35522,14 @@ NeedsCompilation: no
 Package: Tides
 Version: 1.0
 License: GPL
+NeedsCompilation: no
+
+Package: tidyr
+Version: 0.1
+Depends: R (>= 3.1.0)
+Imports: reshape2, dplyr (>= 0.2)
+Suggests: knitr, testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: tiff
