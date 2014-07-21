@@ -4510,7 +4510,7 @@ License: BSD_2_clause + file LICENSE | GPL (>= 2)
 NeedsCompilation: no
 
 Package: class
-Version: 7.3-10
+Version: 7.3-11
 Priority: recommended
 Depends: R (>= 3.0.0), stats, utils
 Imports: MASS
@@ -20229,7 +20229,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: msme
-Version: 0.4.4
+Version: 0.5.1
 Depends: R (>= 2.10), MASS, lattice
 License: GPL-3
 NeedsCompilation: no
