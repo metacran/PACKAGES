@@ -11885,7 +11885,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GeoGenetix
-Version: 0.0.1
+Version: 0.0.2
 Depends: RandomFields
 License: GPL
 NeedsCompilation: yes
@@ -13163,7 +13163,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: gss
-Version: 2.1-2
+Version: 2.1-3
 Depends: R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -17170,6 +17170,11 @@ Package: logistiX
 Version: 1.0-1
 Depends: R (>= 2.15.1)
 License: GPL
+NeedsCompilation: yes
+
+Package: logitchoice
+Version: 0.9.0
+License: GPL-2
 NeedsCompilation: yes
 
 Package: LogitNet
@@ -34411,7 +34416,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: Sunder
-Version: 0.0.1
+Version: 0.0.2
 Depends: RandomFields
 License: GPL
 NeedsCompilation: yes
