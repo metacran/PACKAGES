@@ -239,7 +239,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: AdaptFitOS
-Version: 0.50
+Version: 0.54
 Depends: SemiPar, nlme, MASS, mgcv
 Suggests: splines
 License: GPL (>= 2)
@@ -2251,7 +2251,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Bergm
-Version: 2.8
+Version: 2.9
 Depends: ergm, network, coda, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -16886,10 +16886,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: llama
-Version: 0.6
-Depends: R (>= 2.10)
+Version: 0.7
+Depends: R (>= 2.10), mlr (>= 2.1)
 Imports: plyr, rJava, parallelMap
-Suggests: RWeka, FSelector, e1071, flexclust, testthat
+Suggests: FSelector, testthat, ParamHelpers
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -29137,6 +29137,12 @@ Version: 0.0.3
 Depends: R (>= 2.10.0)
 Suggests: RnavGraph
 License: GPL-2
+NeedsCompilation: no
+
+Package: rnbn
+Version: 1.0.0
+Depends: RCurl, RJSONIO, tcltk
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RNCBI
