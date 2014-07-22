@@ -1469,6 +1469,12 @@ Depends: R (>= 2.12.0), MASS, nnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: babynames
+Version: 0.1
+Depends: R (>= 3.1.0)
+License: CC0
+NeedsCompilation: no
+
 Package: BACCO
 Version: 2.0-9
 Depends: emulator (>= 1.2-13), calibrator (>= 1.2-5), approximator (>=
@@ -11056,6 +11062,13 @@ Depends: R (>= 3.0.2), forecast, rainbow
 Imports: colorspace
 Suggests: fds
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: fueleconomy
+Version: 0.1
+Depends: R (>= 3.1.0)
+Suggests: dplyr
+License: CC0
 NeedsCompilation: no
 
 Package: fugeR
@@ -20905,6 +20918,12 @@ Depends: R (>= 3.0.1), plyr (>= 1.8), NanoStringNorm (>= 1.1)
 License: GPL-2
 NeedsCompilation: no
 
+Package: nasaweather
+Version: 0.1
+Depends: R (>= 3.1.0)
+License: GPL-3
+NeedsCompilation: no
+
 Package: nat
 Version: 1.4.10
 Depends: R (>= 2.15.1), rgl
@@ -21899,6 +21918,13 @@ Package: nws
 Version: 1.7.0.1
 Depends: R (>= 2.1), methods
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: nycflights13
+Version: 0.1
+Depends: R (>= 3.1.0)
+Suggests: dplyr
+License: CC0
 NeedsCompilation: no
 
 Package: OAIHarvester
