@@ -6745,7 +6745,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: deltaPlotR
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.10.0), MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -15719,6 +15719,12 @@ NeedsCompilation: yes
 Package: JPSurv
 Version: 1.0.1
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: jSonarR
+Version: 1.0
+Depends: R (>= 2.12.1), RCurl, methods
+License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
@@ -32366,7 +32372,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SIS
-Version: 0.7-2
+Version: 0.7-3
 Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
 NeedsCompilation: no
@@ -33273,7 +33279,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: spartan
-Version: 1.3
+Version: 2.0
 Suggests: lhs, gplots, XML
 License: GPL-2
 NeedsCompilation: no
@@ -34882,7 +34888,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sweSCB
-Version: 0.3.4
+Version: 0.3.5
 Imports: data.table, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2
 License: AGPL-3
