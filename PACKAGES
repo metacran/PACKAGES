@@ -4610,7 +4610,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clinfun
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 2.0.0), graphics, stats
 Imports: mvtnorm
 Suggests: survival
@@ -10904,6 +10904,12 @@ Depends: R (>= 2.14.2), splines, methods
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: FreeSortR
+Version: 1.0
+Depends: methods, smacof, vegan, ellipse
+License: GPL-2
+NeedsCompilation: no
+
 Package: freestats
 Version: 0.0.3
 Imports: MASS, mvtnorm
@@ -13685,8 +13691,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: heatmapFit
-Version: 1.0
-Depends: R (>= 2.15.1)
+Version: 2.0
+Depends: R (>= 3.1.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15895,7 +15901,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: kinship2
-Version: 1.5.7
+Version: 1.6.0
 Depends: R (>= 2.14.0), Matrix, quadprog
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19345,6 +19351,12 @@ Depends: gdata, lattice, grid
 License: GPL-2
 NeedsCompilation: yes
 
+Package: MixGHD
+Version: 1.0
+Depends: Bessel, stats, MASS, mvtnorm, ghyp, numDeriv, R (>= 3.1.1)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: mixlm
 Version: 1.0.5
 Depends: multcomp, pls
@@ -21573,6 +21585,12 @@ Package: nontarget
 Version: 1.2
 License: GPL-2
 NeedsCompilation: yes
+
+Package: nontargetData
+Version: 1.1
+Depends: R (>= 2.10)
+License: GPL-3
+NeedsCompilation: no
 
 Package: nopp
 Version: 1.0.3
@@ -27238,8 +27256,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp11
-Version: 3.1.0.1
-Depends: R (>= 3.1.0)
+Version: 3.1.1
+Depends: R (>= 3.1.1)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -29091,6 +29109,12 @@ Depends: R (>= 2.15.1)
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: RMRAINGEN
+Version: 1.0
+Depends: R (>= 3.0), copula, RGENERATE,RMAWGEN,blockmatrix,Matrix
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: rms
 Version: 4.2-0
@@ -33087,8 +33111,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SPACECAP
-Version: 1.0.6
-Depends: R (>= 2.9.2), tcltk, TeachingDemos, coda, lattice
+Version: 1.1.0
+Depends: R (>= 2.15.3), tcltk, coda
 License: GPL (>= 2)
 NeedsCompilation: no
 
