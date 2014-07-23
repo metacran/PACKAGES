@@ -156,6 +156,12 @@ Suggests: mvtnorm
 License: GPL-2
 NeedsCompilation: no
 
+Package: acp
+Version: 1.0
+Depends: tseries
+License: GPL-2
+NeedsCompilation: no
+
 Package: aCRM
 Version: 0.1.1
 Imports: dummies, randomForest, kernelFactory, ada
@@ -13781,7 +13787,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hglm
-Version: 2.0-4
+Version: 2.0-8
+Depends: R (>= 2.10), utils, Matrix, MASS, hglm.data
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: hglm.data
+Version: 1.0-0
 Depends: R (>= 2.10), utils, Matrix, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19226,7 +19238,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: miscFuncs
-Version: 1.2-4
+Version: 1.2-6
 Depends: roxygen2, mvtnorm
 License: GPL-3
 NeedsCompilation: no
@@ -19996,6 +20008,13 @@ NeedsCompilation: yes
 Package: mpa
 Version: 0.7.3
 Depends: R (>= 2.5.1), network
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: MPAgenomics
+Version: 1.1.0
+Imports: R.utils,changepoint(>= 1.1),glmnet,cghseg
+Suggests: HDPenReg,CGHcall,aroma.affymetrix,aroma.cn,snowfall
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27989,6 +28008,14 @@ Suggests: geiger
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ReorderCluster
+Version: 1.0
+Depends: R (>= 2.10),gplots,graphics
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: Reot
 Version: 0.1.0
 Depends: R (>= 2.10), Rcpp (>= 0.10.3), raster, foreach
@@ -29148,7 +29175,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rnaseqWrapper
-Version: 1.0
+Version: 1.0-1
 Depends: ecodist, gplots, gtools
 Suggests: topGO,seqinr,DESeq
 License: GPL
@@ -34721,7 +34748,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: survsim
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 2.13.1), eha, statmod
 License: GPL (>= 2)
 NeedsCompilation: no
