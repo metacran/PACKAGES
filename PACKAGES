@@ -21588,7 +21588,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: nontarget
-Version: 1.2
+Version: 1.3
+Depends: enviPat(>= 1.7), nontargetData(>= 1.1), mgcv(>= 1.7-22)
 License: GPL-2
 NeedsCompilation: yes
 
