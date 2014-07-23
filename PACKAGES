@@ -8327,10 +8327,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ecoengine
-Version: 1.3
+Version: 1.4
 Depends: R (>= 3.0.0)
-Imports: httr (>= 0.3), plyr, assertthat, whisker, data.table, RJSONIO,
-        lubridate, leafletR (>= 0.1-1)
+Imports: httr (>= 0.3), plyr, assertthat, whisker, dplyr (>= 0.2),
+        RJSONIO, lubridate, leafletR (>= 0.1-1)
 Suggests: testthat, knitr, ggplot2, jsonlite
 License: CC0
 NeedsCompilation: no
@@ -8357,6 +8357,15 @@ Package: ecosim
 Version: 1.2
 Depends: methods, deSolve, stoichcalc
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ecospat
+Version: 1.0
+Depends: ade4, ape, gam, gbm, sp
+Imports: adehabitatHR, adehabitatMA, biomod2, dismo, ecodist, maptools,
+        randomForest, spatstat, raster, rms
+Suggests: MigClim, rgdal, rJava, XML
+License: GPL
 NeedsCompilation: no
 
 Package: EcoTroph
@@ -24107,9 +24116,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pitchRx
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.15.1), ggplot2 (>= 0.9.3)
-Imports: XML2R (>= 0.0.6), plyr, MASS, hexbin, mgcv, lubridate
+Imports: XML2R (>= 0.0.6), plyr, MASS, hexbin, mgcv
 Suggests: DBI, dplyr, RSQLite, RSQLite.extfuns, parallel, knitr,
         animation, shiny, testthat, ggsubplot, rgl
 License: MIT + file LICENSE
