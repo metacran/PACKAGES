@@ -8902,9 +8902,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Epi
-Version: 1.1.65
+Version: 1.1.67
 Depends: R (>= 3.0.0), utils
-Suggests: splines, nlme, survival, mstate, etm, MASS
+Suggests: splines, nlme, survival, mstate, etm, MASS, cmprsk
 License: GPL-2
 NeedsCompilation: yes
 
@@ -10855,7 +10855,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: frailtypack
-Version: 2.6
+Version: 2.6.1
 Depends: R (>= 2.10), survival, boot, MASS, survC1
 License: GPL (>= 2.0)
 NeedsCompilation: yes
