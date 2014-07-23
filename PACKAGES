@@ -14285,7 +14285,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: hts
-Version: 4.3
+Version: 4.4
 Depends: forecast (>= 5.0)
 Imports: SparseM, parallel, utils
 Suggests: testthat
@@ -14539,7 +14539,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: IBDhaploRtools
-Version: 1.5
+Version: 1.7
 Depends: R (>= 2.10)
 License: GPL-3
 NeedsCompilation: no
@@ -23433,7 +23433,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pdfetch
-Version: 0.1.3
+Version: 0.1.4
 Imports: zoo, xts, RCurl, XML, lubridate, jsonlite, reshape2
 License: GPL
 NeedsCompilation: no
