@@ -24828,10 +24828,12 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: poppr
-Version: 1.0.6
-Depends: R (>= 2.15.1), adegenet
-Imports: vegan, ggplot2, phangorn, ape, igraph, pegas, methods
-License: GPL-2
+Version: 1.1.0
+Depends: R (>= 2.15.1), adegenet (>= 1.4-2)
+Imports: vegan, ggplot2, phangorn, ape, igraph, methods, ade4, pegas,
+        reshape2
+Suggests: testthat, knitr, polysat
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: popRange
@@ -30548,6 +30550,11 @@ Suggests: ordinal, survival
 License: GPL-2
 NeedsCompilation: no
 
+Package: rvalues
+Version: 0.2
+License: GPL-2
+NeedsCompilation: yes
+
 Package: Rvcg
 Version: 0.8
 Depends: R (>= 3.0.0)
@@ -31711,7 +31718,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sensitivitymw
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -33845,7 +33852,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spuRs
-Version: 1.0.5
+Version: 2.0.0
 Depends: R (>= 2.10), MASS, lattice
 License: GPL-3
 NeedsCompilation: no
