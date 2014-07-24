@@ -28766,11 +28766,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RItools
-Version: 0.1-11
-Depends: R (>= 2.2.0), methods
-Imports: graphics, stats, lattice, grid, SparseM, xtable
-Suggests: optmatch, xtable
-Enhances: optmatch, xtable
+Version: 0.1-12
+Depends: R (>= 2.2.0)
+Imports: graphics, stats, lattice, grid, SparseM, xtable, svd, abind
+Suggests: testthat, MASS, RSVGTipsDevice
+Enhances: optmatch
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29801,6 +29801,15 @@ LinkingTo: RcppEigen
 Suggests: plink, testthat, roxygen2, ggplot2, reshape2, gridExtra,
         numDeriv, knitr, mirt
 License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: rpg
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.11.1), uuid (>= 0.1-1), RApiSerialize (>= 0.1.0)
+LinkingTo: Rcpp, RApiSerialize
+Suggests: foreach (>= 1.4.2), doParallel (>= 1.0.0), hflights (>= 0.1)
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rphast
@@ -32298,7 +32307,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: simPH
-Version: 1.2.1
+Version: 1.2.2
 Depends: R (>= 3.0.2)
 Imports: car, DataCombine, data.table (>= 1.9.2), dplyr, ggplot2,
         gridExtra, MASS, mgcv, plyr, reshape2, stats, stringr,
