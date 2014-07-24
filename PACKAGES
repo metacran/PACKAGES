@@ -3116,7 +3116,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: bold
-Version: 0.1.0
+Version: 0.1.2
 Imports: XML, httr, stringr, assertthat
 Suggests: knitr, testthat
 License: MIT + file LICENSE
@@ -20404,7 +20404,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: multcomp
-Version: 1.3-4
+Version: 1.3-5
 Depends: stats, graphics, mvtnorm (>= 0.8-0), survival (>= 2.35-7),
         TH.data (>= 1.0-2)
 Imports: sandwich (>= 2.3-0)
@@ -24587,7 +24587,7 @@ License: AGPL
 NeedsCompilation: no
 
 Package: pocrm
-Version: 0.7
+Version: 0.8
 Depends: dfcrm, nnet
 License: GPL-2
 NeedsCompilation: no
@@ -33978,6 +33978,13 @@ Package: ssfit
 Version: 1.1
 Depends: survey
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ssh.utils
+Version: 1.0
+Depends: R (>= 3.0.3), stringr
+License: Apache License (== 2.0)
+OS_type: unix
 NeedsCompilation: no
 
 Package: ssize.fdr
