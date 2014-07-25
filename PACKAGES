@@ -948,7 +948,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: AppliedPredictiveModeling
-Version: 1.1-5
+Version: 1.1-6
 Depends: R (>= 2.10)
 Imports: CORElearn, MASS, plyr, reshape2
 Suggests: caret (>= 6.0-22), lattice, ellipse
@@ -5583,6 +5583,13 @@ Depends: R (>= 3.1.0), MASS,genalg
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: cosinor
+Version: 1.0
+Depends: R (>= 2.11.0)
+Imports: ggplot2
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: cosmoFns
 Version: 1.0-1
 License: GPL (>= 2)
@@ -6540,7 +6547,7 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: dcGOR
-Version: 1.0.0
+Version: 1.0.2
 Depends: R (>= 3.1.0), Matrix, igraph, dnet
 Imports: methods
 Suggests: foreach, doMC
@@ -20137,8 +20144,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MRCV
-Version: 0.3-1
-Depends: R (>= 3.0.3)
+Version: 0.3-2
+Depends: R (>= 3.1.1)
 Imports: tables
 Suggests: geepack
 License: GPL (>= 3)
@@ -23992,6 +23999,12 @@ Enhances: phylobase
 License: GPL-3
 NeedsCompilation: no
 
+Package: phylin
+Version: 1.0
+Suggests: geometry
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: phylobase
 Version: 0.6.8
 Depends: grid
@@ -25399,6 +25412,14 @@ Package: pRSR
 Version: 3.0.2
 Depends: R (>= 2.10)
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: pryr
+Version: 0.1
+Imports: stringr, codetools, methods, Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: testthat (>= 0.8.0)
+License: GPL-2
 NeedsCompilation: yes
 
 Package: PSAboot
