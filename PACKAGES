@@ -8406,13 +8406,6 @@ Depends: R (>= 2.12.0), igraph, lpSolveAPI
 License: GPL-3
 NeedsCompilation: no
 
-Package: edmr
-Version: 0.6.3
-Depends: R (>= 3.0.2)
-Imports: GenomicRanges, IRanges, data.table, mixtools
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: EDR
 Version: 0.6-5.1
 Suggests: sm, akima
@@ -15142,9 +15135,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: inTrees
-Version: 1.0
-Imports: RRF, arules, gbm
-Suggests: xtable
+Version: 1.1
+Imports: RRF, arules, gbm, xtable
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -17936,7 +17928,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markdown
-Version: 0.7
+Version: 0.7.2
 Depends: R (>= 2.11.1)
 Imports: mime (>= 0.1.1)
 Suggests: knitr, RCurl
@@ -19125,7 +19117,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mime
-Version: 0.1.1
+Version: 0.1.2
 Imports: tools
 License: GPL
 NeedsCompilation: no
@@ -26480,9 +26472,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.10
+Version: 3.0.30
 Depends: R (>= 3.0.2), sp
-Suggests: raster, tcltk2, tcltk, tkrplot, spam, methods, colorspace
+Suggests: raster, tcltk2, tcltk, tkrplot, spam, methods, colorspace,
+        RColorBrewer
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -36205,7 +36198,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TreeSimGM
-Version: 1.1
+Version: 1.2
 Depends: TreeSim
 License: GPL-2
 NeedsCompilation: no
