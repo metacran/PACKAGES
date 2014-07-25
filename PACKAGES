@@ -21364,6 +21364,13 @@ License: MIT + file LICENSE
 OS_type: unix
 NeedsCompilation: yes
 
+Package: nicheROVER
+Version: 1.0
+Depends: R (>= 1.9.0), mvtnorm
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: NightDay
 Version: 1.0.1
 Depends: R(>= 2.9.9), maps
