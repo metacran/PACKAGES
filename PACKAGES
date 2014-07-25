@@ -818,10 +818,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: animation
-Version: 2.2
+Version: 2.3
 Depends: R (>= 2.14.0)
-Imports: MASS
-License: GPL-2 | GPL-3
+Suggests: MASS, testit
+License: GPL
 NeedsCompilation: no
 
 Package: AnnotLists
