@@ -6169,9 +6169,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cvxclustr
-Version: 1.0.0
-Depends: R (>= 2.15.0)
-Suggests: compiler, testthat, roxygen2, ggplot2
+Version: 1.1.0
+Depends: R (>= 2.15.2), Matrix, igraph
+Suggests: ggplot2
 License: CC BY-NC-SA 3.0
 NeedsCompilation: yes
 
@@ -6581,6 +6581,14 @@ Depends: R (>= 2.15.0), dclone (>= 2.0-0), rjags
 Imports: methods, stats4, coda, lattice
 Suggests: parallel
 License: GPL-2
+NeedsCompilation: no
+
+Package: dcmr
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: ggplot2, KFAS, plyr, reshape2, tableplot, methods
+Suggests: testthat
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: dcv
@@ -7284,7 +7292,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: DiscML
-Version: 1.0
+Version: 1.0.1
 Depends: ape
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12534,6 +12542,13 @@ Suggests: ape, mvSLOUCH, ouch
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
 
+Package: gmailr
+Version: 0.0.1
+Depends: R (>= 3.0.0)
+Imports: httr, base64enc, jsonlite
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: gmatrix
 Version: 0.1
 Depends: methods
@@ -14983,7 +14998,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: infotheo
-Version: 1.1.1
+Version: 1.2.0
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -17408,7 +17423,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: lpSolve
-Version: 5.6.9
+Version: 5.6.10
 License: LGPL-2
 NeedsCompilation: yes
 
@@ -22701,7 +22716,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: OUwie
-Version: 1.42
+Version: 1.43
 Depends: ape, nloptr
 Imports: numDeriv, corpcor, lattice, grDevices, phytools, phangorn
 License: GPL (>= 2)
