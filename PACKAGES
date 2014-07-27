@@ -13858,7 +13858,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: HiClimR
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 2.10)
 Enhances: stats
 License: GPL (>= 2)
@@ -15919,7 +15919,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: KFKSDS
-Version: 1.4
+Version: 1.5
 Depends: R (>= 3.0.0), stats
 Suggests: dlm, dse, FKF, numDeriv, stsm.class
 License: GPL-2
@@ -22334,9 +22334,10 @@ License: GPL-2 | file LICENCE
 NeedsCompilation: no
 
 Package: openxlsx
-Version: 2.0.1
+Version: 2.0.15
 Imports: methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
+Suggests: knitr
 License: GPL-3
 NeedsCompilation: yes
 
@@ -24865,7 +24866,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: poppr
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.15.1), adegenet (>= 1.4-2)
 Imports: vegan, ggplot2, phangorn, ape, igraph, methods, ade4, pegas,
         reshape2
