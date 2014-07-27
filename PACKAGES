@@ -19112,7 +19112,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: migest
-Version: 1.5
+Version: 1.6
 License: GPL-2
 NeedsCompilation: no
 
@@ -21016,6 +21016,7 @@ NeedsCompilation: no
 
 Package: NbClust
 Version: 2.0.1
+Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
 
