@@ -6331,7 +6331,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: DatABEL
-Version: 0.9-4
+Version: 0.9-4.1
 Depends: R (>= 2.4.0), methods
 Suggests: GenABEL, RUnit
 License: GPL (>= 2)
