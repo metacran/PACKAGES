@@ -34530,7 +34530,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stsm
-Version: 1.3
+Version: 1.4
 Depends: R (>= 3.0.0)
 Imports: KFKSDS, parallel, stats, stsm.class
 Suggests: mvtnorm, numDeriv
