@@ -6169,10 +6169,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cvxclustr
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.15.2), Matrix, igraph
 Suggests: ggplot2
-License: CC BY-NC-SA 3.0
+License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: cwhmisc
@@ -12581,9 +12581,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Gmisc
-Version: 0.6.4
+Version: 0.6.7
 Depends: Hmisc
-Imports: grid, stringr, lattice, sp, methods
+Imports: grid, stringr, lattice, sp, utils, methods
 Suggests: testthat, XML
 License: GPL (>= 3)
 NeedsCompilation: no
