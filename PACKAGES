@@ -12577,7 +12577,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: gmp
-Version: 0.5-11
+Version: 0.5-12
 Imports: methods
 Suggests: Rmpfr
 License: GPL
@@ -25373,6 +25373,7 @@ NeedsCompilation: yes
 
 Package: pryr
 Version: 0.1
+Depends: R (>= 3.1.0)
 Imports: stringr, codetools, methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: testthat (>= 0.8.0)
@@ -36155,14 +36156,14 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TreePar
-Version: 2.5
-Depends: ape, Matrix, subplex, TreeSim (>= 1.6), deSolve
+Version: 3.0
+Depends: ape, Matrix, subplex, TreeSim (>= 2.0), deSolve
 License: GPL-2
 NeedsCompilation: no
 
 Package: TreeSim
-Version: 1.9.1
-Depends: ape, geiger
+Version: 2.0
+Depends: ape, geiger, laser
 License: GPL-2
 NeedsCompilation: no
 
