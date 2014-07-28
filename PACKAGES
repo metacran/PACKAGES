@@ -7315,7 +7315,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: discreteRV
-Version: 1.1
+Version: 1.1.2
 Suggests: testthat, roxygen2, MASS, plyr
 License: GPL-3
 NeedsCompilation: no
