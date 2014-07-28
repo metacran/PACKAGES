@@ -23693,8 +23693,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: peptider
-Version: 0.1.4
-Imports: discreteRV (>= 1.1), plyr
+Version: 0.1.5
+Imports: discreteRV (>= 1.1.2), plyr, dplyr
 Suggests: ggplot2
 License: GPL-3
 NeedsCompilation: no
