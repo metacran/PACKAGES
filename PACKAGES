@@ -5561,9 +5561,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cosinor
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.11.0)
-Imports: ggplot2
+Imports: ggplot2, shiny
+Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
