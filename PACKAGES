@@ -36297,13 +36297,6 @@ Suggests: fpc
 License: GPL
 NeedsCompilation: no
 
-Package: trimTrees
-Version: 1.0
-Depends: R (>= 2.5.0),stats,randomForest,mlbench
-Suggests: MASS
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: trioGxE
 Version: 0.1-1
 Depends: msm, mgcv, gtools
