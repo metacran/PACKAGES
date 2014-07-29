@@ -9682,7 +9682,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: Familias
-Version: 1.2
+Version: 2.0
 Depends: R (>= 1.8.0), paramlink
 License: GPL-2
 NeedsCompilation: yes
@@ -23872,7 +23872,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pheno2geno
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 2.14.1), graphics, stats, utils, qtl, VGAM, mixtools
 Suggests: RankProd
 License: GPL-3
@@ -27437,7 +27437,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RCurl
-Version: 1.95-4.2
+Version: 1.95-4.3
 Depends: R (>= 2.7.0), methods, bitops
 Imports: methods
 Suggests: Rcompression, XML
