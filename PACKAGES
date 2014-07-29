@@ -13682,7 +13682,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: heatmapFit
-Version: 2.0
+Version: 2.0.1
 Depends: R (>= 3.1.1)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19105,6 +19105,13 @@ NeedsCompilation: yes
 Package: Miney
 Version: 0.1
 License: GPL-2
+NeedsCompilation: no
+
+Package: miniCRAN
+Version: 0.0-16
+Imports: tools, XML
+Suggests: igraph, RCurl, testthat, knitr
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: miniGUI
@@ -29755,7 +29762,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rpg
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.1), uuid (>= 0.1-1), RApiSerialize (>= 0.1.0)
 LinkingTo: Rcpp, RApiSerialize
@@ -34247,7 +34254,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: stocc
-Version: 1.0-7
+Version: 1.23
 Depends: truncnorm, coda, Matrix, fields
 License: Unlimited
 NeedsCompilation: no
