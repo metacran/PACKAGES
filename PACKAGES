@@ -26740,8 +26740,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rbamtools
-Version: 2.9.11
+Version: 2.9.14
 Depends: methods
+Suggests: xtable
 License: Artistic-2.0
 NeedsCompilation: yes
 
