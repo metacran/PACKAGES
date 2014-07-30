@@ -9497,6 +9497,12 @@ Depends: rmeta
 License: GPL-2
 NeedsCompilation: no
 
+Package: extlasso
+Version: 0.1
+Depends: R (>= 3.1.1)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: extraBinomial
 Version: 2.1
 License: GPL-3
@@ -26638,6 +26644,12 @@ Depends: R (>= 2.3.0), RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: rareGE
+Version: 0.1
+Imports: MASS, nlme, survey
+License: GPL-3
+NeedsCompilation: no
+
 Package: rareNMtests
 Version: 1.0
 Depends: vegan
@@ -27528,20 +27540,6 @@ Package: rdrobust
 Version: 0.6
 Depends: R (>= 3.0.2)
 License: GPL-2
-NeedsCompilation: no
-
-Package: Rdrools
-Version: 0.0.2
-Depends: R (>= 2.11.0), rJava (>= 0.6-0), Rdroolsjars (>= 0.0.1)
-Imports: rJava (>= 0.6-0), Rdroolsjars (>= 0.0.1)
-License: LGPL-3
-NeedsCompilation: no
-
-Package: Rdroolsjars
-Version: 0.0.1
-Depends: R (>= 2.11.0), rJava (>= 0.6-0)
-Imports: rJava (>= 0.6-0)
-License: LGPL-3
 NeedsCompilation: no
 
 Package: rdryad
@@ -34936,9 +34934,9 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: swirl
-Version: 2.2.9
+Version: 2.2.14
 Depends: R (>= 3.0.2)
-Imports: stringr, testthat, httr, yaml, RCurl, digest
+Imports: stringr, testthat, httr, yaml, RCurl, digest, tools
 License: GPL-3
 NeedsCompilation: no
 
