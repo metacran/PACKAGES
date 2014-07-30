@@ -2890,7 +2890,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BLCOP
-Version: 0.2.7
+Version: 0.2.8
 Depends: methods, MASS, quadprog
 Suggests: RUnit (>= 0.4.22), fPortfolio (>= 2100.78), sn, corpcor
 License: GPL-3
@@ -3459,8 +3459,8 @@ License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
 
 Package: btf
-Version: 1.0
-Depends: R (>= 3.0.2)
+Version: 1.1
+Depends: R (>= 3.1.0)
 Imports: Matrix, coda,
 LinkingTo: Rcpp (>= 0.11.0), RcppEigen (>= 0.3.2.1.1)
 License: GPL (>= 2.0)
@@ -5812,7 +5812,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: CRF
-Version: 0.3-7
+Version: 0.3-8
 Depends: R (>= 2.12.0)
 Imports: Rglpk (>= 0.3-5), Matrix (>= 1.1-2)
 License: GPL (>= 2)
@@ -20843,7 +20843,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mwa
-Version: 0.3.1
+Version: 0.3.2
 Depends: R (>= 2.6), cem (>= 0.3), rJava (>= 0.9), MASS (>= 7.0)
 License: LGPL-3
 NeedsCompilation: no
@@ -34617,7 +34617,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Surrogate
-Version: 0.1-1
+Version: 0.1-2
 Depends: MASS, nlme, msm, lme4
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -36713,7 +36713,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: twostageTE
-Version: 1.0
+Version: 1.01
 Depends: isotone
 License: GPL-2
 NeedsCompilation: no
