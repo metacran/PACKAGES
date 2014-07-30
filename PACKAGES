@@ -1197,7 +1197,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: arulesNBMiner
-Version: 0.1-2
+Version: 0.1-4
 Depends: R (>= 2.10), arules (>= 0.6-6), rJava (>= 0.6-3)
 Imports: methods
 License: GPL-2
@@ -12061,7 +12061,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GetoptLong
-Version: 0.0.4
+Version: 0.0.5
 Depends: R (>= 2.10.0)
 Imports: rjson
 Suggests: testthat (>= 0.3)
@@ -18949,10 +18949,10 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: miceadds
-Version: 0.13-7
+Version: 0.14-9
 Depends: R (>= 2.15.0), MASS, mice (>= 2.21), mvtnorm, pan (>= 0.9)
 Imports: sirt (>= 0.42), lme4, MBESS, pls, mitools, bayesm, Rcpp (>=
-        0.11-0), inline
+        0.11-0), inline, car, foreign
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: Amelia, Zelig, rbenchmark, reshape
 License: GPL (>= 2.0)
@@ -35852,6 +35852,15 @@ Suggests: filehash, Rcampdf, Rgraphviz, Rpoppler, SnowballC,
         tm.lexicon.GeneralInquirer, XML
 License: GPL-3
 NeedsCompilation: yes
+
+Package: tmap
+Version: 0.6
+Depends: R (>= 3.0)
+Imports: rgeos, grid, gridBase, sp, rgdal, classInt, RColorBrewer,
+        igraph, fields, vegan
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
 
 Package: tmle
 Version: 1.2.0-4
