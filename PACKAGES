@@ -33927,7 +33927,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.5
+Version: 1.4.6
 Depends: R (>= 2.10.0), stats, graphics, utils, tcltk, psych
 Suggests: MASS, TSA,TTR
 License: GPL (>= 2)
