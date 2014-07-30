@@ -4934,7 +4934,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: codep
-Version: 0.2-2
+Version: 0.4-1
 Depends: R (>= 3.0.0), stats
 Suggests: vegan
 License: GPL-2
@@ -18647,10 +18647,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: metafor
-Version: 1.9-3
+Version: 1.9-4
 Depends: R (>= 3.0.0), stats, Formula, Matrix
 Suggests: lme4, numDeriv, polycor, BiasedUrn, survival, Epi, minqa,
-        multcomp, plyr, igraph, testthat
+        multcomp, plyr, igraph, testthat, CompQuadForm, R.rsp, nloptr
 License: GPL (>= 2)
 NeedsCompilation: no
 
