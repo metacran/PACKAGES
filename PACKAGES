@@ -12616,7 +12616,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GNE
-Version: 0.98
+Version: 0.99-0
 Depends: R (>= 2.6.0), alabama, nleqslv, BB, SQUAREM
 Suggests: sensitivity
 License: GPL (>= 2)
@@ -38089,7 +38089,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yuima
-Version: 1.0.21
+Version: 1.0.24
 Depends: methods, zoo, stats4, utils, expm
 Suggests: cubature, mvtnorm
 License: GPL-2
