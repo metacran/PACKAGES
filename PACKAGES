@@ -891,9 +891,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aoristic
-Version: 0.4
+Version: 0.5
 Depends: ggplot2, spatstat, GISTools
-Imports: lubridate, classInt, reshape2
+Imports: lubridate, classInt, reshape2, rgdal, plotKML
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11015,7 +11015,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fslr
-Version: 1.0
+Version: 1.1
 Depends: stringr, oro.nifti, matrixStats
 Suggests: knitr
 License: GPL-2
@@ -11913,6 +11913,12 @@ Suggests: coda, distrEx, reldist, snow, snowfall
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: GeoDE
+Version: 1.0
+Depends: R (>= 2.10), Matrix, MASS
+License: GPL-2
+NeedsCompilation: no
+
 Package: GeoGenetix
 Version: 0.0.2
 Depends: RandomFields
@@ -12321,7 +12327,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: glarma
-Version: 1.1-0
+Version: 1.2-0
 Depends: R (>= 2.3.0)
 Imports: MASS
 Suggests: RUnit, knitr
@@ -17470,10 +17476,10 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.10
+Version: 2.11
 Depends: methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix
-Suggests: nlme, lme4, pbkrtest, lattice, multcompView
+Suggests: nlme, lme4, pbkrtest, lattice, multcompView, car
 Enhances: survival, MASS, coxme
 License: GPL-2
 NeedsCompilation: no
@@ -27752,7 +27758,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RefFreeEWAS
-Version: 1.2
+Version: 1.3
 Depends: R (>= 2.3.12), isva
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28338,11 +28344,12 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.6.2
+Version: 0.7.0
 Imports: XML, RCurl (>= 1.6), plyr, ggplot2, maps, httr, maptools,
-        rgdal, rgeos, RJSONIO, data.table, stringr, assertthat
+        rgdal, rgeos, sp, RJSONIO, data.table, stringr, assertthat,
+        whisker
 Suggests: roxygen2, testthat, jsonlite, knitr
-License: CC0
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Rgbp
@@ -33762,6 +33769,12 @@ Suggests: base, RBGL, XML, graphics, png, graph, EBImage, igraph
 License: GPL-2
 NeedsCompilation: no
 
+Package: spnet
+Version: 0.9.0.1
+Depends: methods, sp, shape
+License: GPL-3
+NeedsCompilation: no
+
 Package: spocc
 Version: 0.1.4
 Depends: ggplot2
@@ -37814,7 +37827,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: wskm
-Version: 1.4.7
+Version: 1.4.11
 Depends: R (>= 2.10), lattice, latticeExtra, clv
 License: GPL (>= 3)
 NeedsCompilation: yes
