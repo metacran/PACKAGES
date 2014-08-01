@@ -22427,6 +22427,12 @@ Suggests: testthat, grid, ggplot2, ggthemes, knitr, AUC, scales,
 License: GPL-3
 NeedsCompilation: no
 
+Package: optiscale
+Version: 1.1
+Depends: lattice
+License: GPL-2
+NeedsCompilation: no
+
 Package: optmatch
 Version: 0.9-1
 Depends: R (>= 2.15.1), stats, methods, graphics, digest
@@ -32445,7 +32451,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SIS
-Version: 0.7-3
+Version: 0.7-4
 Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
 NeedsCompilation: no
