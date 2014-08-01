@@ -14722,7 +14722,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ic.infer
-Version: 1.1-4
+Version: 1.1-5
 Depends: R(>= 2.5.0)
 Imports: quadprog, mvtnorm, boot, kappalab
 Suggests: relaimpo
@@ -16837,10 +16837,10 @@ License: GPL
 NeedsCompilation: yes
 
 Package: LinearizedSVR
-Version: 1.2
+Version: 1.3
 Imports: kernlab, LiblineaR, expectreg
 Suggests: testthat
-License: BSD
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: lineup
