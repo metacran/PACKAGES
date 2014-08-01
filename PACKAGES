@@ -4967,6 +4967,13 @@ Imports: plyr, reshape2, useful, scales, proto
 License: BSD
 NeedsCompilation: no
 
+Package: coenocliner
+Version: 0.1-0
+Imports: stats
+Suggests: testthat, knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: coexist
 Version: 1.0
 License: GPL (>= 2.0)
@@ -17411,7 +17418,7 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: LPStimeSeries
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.5.0), stats
 Suggests: RColorBrewer
 License: GPL (>= 2)
@@ -28952,9 +28959,9 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlist
-Version: 0.2.4
+Version: 0.2.5
 Depends: R (>= 2.15)
-Imports: data.table, yaml, jsonlite
+Imports: stringdist, data.table, yaml, jsonlite
 Suggests: testthat, knitr, pipeR
 License: MIT + file LICENSE
 NeedsCompilation: no
