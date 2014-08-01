@@ -20889,10 +20889,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.1
+Version: 0.2
 Suggests: gRbase, hash, Biobase, VGAM, MASS, pcalg, survival, methods
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: mycobacrvR
 Version: 1.0
@@ -27803,7 +27803,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RefManageR
-Version: 0.8.2
+Version: 0.8.3
 Depends: R (>= 3.0)
 Imports: XML, RCurl, RJSONIO, utils, plyr, tools, bibtex, lubridate,
         stringr, methods
@@ -34540,6 +34540,12 @@ Depends: graphics, grDevices, stats, utils
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: subgroup
+Version: 1.1
+Depends: graphics, grDevices, utils, stats, R (>= 3.1)
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: SubLasso
 Version: 1.0
 Depends: R(>= 2.10), glmnet, psych, gplots
@@ -37018,11 +37024,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vardpoor
-Version: 0.2.0.8.1
-Depends: R (>= 3.0.0), data.table, laeken
-Imports: foreach, lpSolve
+Version: 0.2.0.9.2
+Depends: R (>= 3.0.0), data.table (>= 1.9.2), laeken
+Imports: reshape2, foreach, lpSolve, plyr, gdata
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: VarEff
 Version: 1.0
