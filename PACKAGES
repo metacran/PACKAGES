@@ -4443,7 +4443,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.0.9
+Version: 0.1.0
 Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12116,9 +12116,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gettingtothebottom
-Version: 2.0
-Depends: R (>= 3.0.2), ggplot2, grid, Matrix
-License: CC BY-NC-SA 3.0
+Version: 3.0
+Depends: R (>= 3.0.2), ggplot2, grid, Matrix, lpSolve, reshape2
+License: CC BY-NC-SA 4.0
 NeedsCompilation: no
 
 Package: GEVcdn
@@ -38003,7 +38003,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: xlsx
-Version: 0.5.5
+Version: 0.5.7
 Depends: rJava, xlsxjars
 License: GPL-3
 NeedsCompilation: no
