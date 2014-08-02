@@ -36068,10 +36068,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: topologyGSA
-Version: 1.4.3
-Imports: graph, gRbase (>= 1.7), qpgraph, fields
+Version: 1.4.4
+Imports: graph, gRbase (>= 1.7), qpgraph, fields (>= 7.0)
 Suggests: Rgraphviz
-License: AGPL-3
+License: GPL-3
 NeedsCompilation: no
 
 Package: topsis
