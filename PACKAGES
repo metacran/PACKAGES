@@ -25006,6 +25006,12 @@ Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PowerVenn
+Version: 0.0.1
+Depends: grid
+License: GPL-2
+NeedsCompilation: yes
+
 Package: PP
 Version: 0.2-1
 Depends: R (>= 2.15.0), splines
@@ -32490,15 +32496,6 @@ Package: SIS
 Version: 0.7-4
 Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
-NeedsCompilation: no
-
-Package: sisus
-Version: 3.9-12
-Depends: R (>= 3.0.0)
-Imports: MASS, RColorBrewer, coda, gtools, moments, polyapost, rcdd,
-        stats
-Suggests: gdata
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sitar
