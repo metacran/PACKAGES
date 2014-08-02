@@ -4125,6 +4125,14 @@ Suggests: tourr
 License: GPL-3
 NeedsCompilation: no
 
+Package: CerioliOutlierDetection
+Version: 1.0.8
+Depends: R (>= 3.0.0)
+Imports: robustbase (>= 0.91-1)
+Suggests: rrcov, robust, mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: cfa
 Version: 0.9-3
 Depends: R (>= 2.14)
@@ -14421,6 +14429,13 @@ Suggests: xtable, RUnit
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: HWxtest
+Version: 1.0.2
+Depends: R (>= 2.14)
+Suggests: knitr, knitcitations, adegenet, genetics, parallel
+License: GPL
+NeedsCompilation: yes
+
 Package: hybridEnsemble
 Version: 0.1.1
 Imports:
@@ -18927,6 +18942,13 @@ Suggests: gstat,MASS
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: MGRASTer
+Version: 0.9
+Depends: R (>= 3.0), utils
+Suggests: RJSONIO
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: no
+
 Package: MGSDA
 Version: 1.0
 Imports: glmnet
@@ -21599,6 +21621,14 @@ Suggests: RUnit
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: nonnest2
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: CompQuadForm, mvtnorm, sandwich
+Suggests: testthat
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: nonparaeff
 Version: 0.5-8
 Depends: R (>= 1.8.0), lpSolve, gdata, Hmisc, rms, geometry, psych, pwt
@@ -24120,7 +24150,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pipeR
-Version: 0.3-2
+Version: 0.3-3
 Depends: R (>= 2.14)
 Suggests: testthat,knitr,magrittr,dplyr,rlist
 License: MIT + file LICENSE
@@ -30496,6 +30526,13 @@ Depends: R (>= 2.15)
 License: file LICENSE
 License_is_FOSS: yes
 NeedsCompilation: yes
+
+Package: rtype
+Version: 0.1
+Depends: R (>= 2.15)
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: Ruchardet
 Version: 0.0-3
