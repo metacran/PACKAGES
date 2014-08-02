@@ -19059,7 +19059,7 @@ License: BSD
 NeedsCompilation: yes
 
 Package: MicroDatosEs
-Version: 0.6.2.1
+Version: 0.6.3
 Depends: memisc, Hmisc
 License: GPL-3
 NeedsCompilation: no
@@ -25862,14 +25862,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qdap
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 3.0.0), ggplot2 (>= 0.9.3.1), qdapDictionaries (>=
-        1.0.1), qdapTools (>= 1.0.1), RColorBrewer
-Imports: chron, dplyr, gdata, grid, gridExtra, igraph, RCurl, openNLP
-        (>= 0.2-1), NLP, parallel, plotrix, reports, reshape2, scales,
-        tm (>= 0.6), tools, venneuler, wordcloud, xlsx, XML
-Suggests: english, koRpus, knitr, lda, proxy, stringi, SnowballC,
-        testthat
+        1.0.2), qdapTools (>= 1.0.1), RColorBrewer
+Imports: chron, dplyr, gdata, grid, gridExtra, igraph, NLP, openNLP (>=
+        0.2-1), parallel, plotrix, RCurl, reports, reshape2, scales,
+        stringdist, tm (>= 0.6), tools, venneuler, wordcloud, xlsx, XML
+Suggests: koRpus, knitr, lda, proxy, stringi, SnowballC, testthat
 License: GPL-2
 NeedsCompilation: no
 
