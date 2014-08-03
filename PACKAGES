@@ -24939,7 +24939,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PottsUtils
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 3.0.2)
 Imports: miscF (>= 0.1-2)
 License: GPL-2
