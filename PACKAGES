@@ -20042,6 +20042,11 @@ Suggests: lattice, tm (>= 0.5-8.5), vcd, SnowballC, HSAUR2, colorspace,
 License: GPL-2
 NeedsCompilation: yes
 
+Package: mp
+Version: 0.1
+License: GPL
+NeedsCompilation: no
+
 Package: mpa
 Version: 0.7.3
 Depends: R (>= 2.5.1), network
@@ -31656,7 +31661,7 @@ License: EUPL
 NeedsCompilation: no
 
 Package: sem
-Version: 3.1-4
+Version: 3.1-5
 Depends: R (>= 2.14.0), stats
 Imports: matrixcalc
 Suggests: boot, tcltk, polycor, MBESS, mi
@@ -34216,7 +34221,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: statfi
-Version: 0.9.06
+Version: 0.9.8
 Depends: R (>= 3.0.2), pxR
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
