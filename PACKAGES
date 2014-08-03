@@ -15126,6 +15126,13 @@ Depends: igraph, grDevices
 License: GPL-2
 NeedsCompilation: no
 
+Package: interAdapt
+Version: 0.1
+Depends: R (>= 3.0.1)
+Imports: shiny, knitcitations, RCurl, mvtnorm, knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: intergraph
 Version: 2.0-0
 Imports: utils, graphics, network (>= 1.4-1-1), igraph (>= 0.6-0)
@@ -21620,14 +21627,6 @@ Depends: Matrix, rgl, tseries, TSA
 Suggests: RUnit
 License: GPL (>= 3)
 NeedsCompilation: yes
-
-Package: nonnest2
-Version: 0.1
-Depends: R (>= 3.0.0)
-Imports: CompQuadForm, mvtnorm, sandwich
-Suggests: testthat
-License: GPL-2 | GPL-3
-NeedsCompilation: no
 
 Package: nonparaeff
 Version: 0.5-8
@@ -29978,7 +29977,7 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: rPython
-Version: 0.0-4
+Version: 0.0-5
 Depends: RJSONIO (>= 0.7-3)
 License: GPL-2
 OS_type: unix
@@ -31022,6 +31021,11 @@ Imports: stats, zoo
 Suggests: car, lmtest, strucchange, AER, survival, MASS, scatterplot3d
 License: GPL-2 | GPL-3
 NeedsCompilation: no
+
+Package: sanitizers
+Version: 0.1.0
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: sanon
 Version: 1.3
