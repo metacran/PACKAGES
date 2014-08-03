@@ -6753,7 +6753,7 @@ License: GPL (>= 2) | LGPL (>= 3)
 NeedsCompilation: yes
 
 Package: deldir
-Version: 0.1-5
+Version: 0.1-6
 Depends: R (>= 0.99)
 Suggests: polyclip
 License: GPL (>= 2)
@@ -15773,9 +15773,9 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.9
+Version: 0.9.10
 Depends: methods
-Suggests: testthat, knitr, reshape2, httr (>= 0.3), rjson
+Suggests: testthat, knitr, reshape2, httr (>= 0.3), RCurl, rjson, plyr
 License: Apache License 2.0
 NeedsCompilation: yes
 
@@ -19733,9 +19733,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mmod
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 2.6.0), adegenet, pegas
-License: MIT
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: MMS
