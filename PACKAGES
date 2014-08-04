@@ -425,11 +425,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: afex
-Version: 0.9-109
+Version: 0.10-113
 Depends: R (>= 3.0.0), car, lme4 (>= 1.0.5), pbkrtest (>= 0.3-6),
         reshape2
 Imports: stringr, coin, Matrix
-Suggests: ascii, xtable, parallel
+Suggests: ascii, xtable, parallel, plyr
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -6832,7 +6832,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: dendroextras
-Version: 0.2
+Version: 0.2.1
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14031,9 +14031,9 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: hitandrun
-Version: 0.4-1
+Version: 0.4-2
 Imports: rcdd (>= 1.1)
-License: GPL (>= 3)
+License: GPL-3
 NeedsCompilation: yes
 
 Package: hive
@@ -20947,7 +20947,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.2
+Version: 0.2.1
 Suggests: gRbase, hash, Biobase, VGAM, MASS, pcalg, survival, methods
 License: GPL-2
 NeedsCompilation: yes
@@ -28331,7 +28331,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rfigshare
-Version: 0.3.5
+Version: 0.3.6
 Depends: R (>= 3.0), methods
 Imports: RJSONIO, httr (>= 0.3), httpuv, plyr, yaml, ggplot2, XML
 Suggests: knitr, testthat, gdata, uuid
