@@ -24037,7 +24037,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phonTools
-Version: 0.2-1.2
+Version: 0.2-2.0
 Depends: R (>= 2.15)
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -32893,8 +32893,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.0-0
-Depends: R (>= 2.15.3), methods, mnormt, numDeriv, stats4
+Version: 1.1-0
+Depends: R (>= 2.15.3), methods, stats4
+Imports: mnormt, numDeriv
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
