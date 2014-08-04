@@ -21486,8 +21486,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: nloptr
-Version: 1.0.0
-Suggests: testthat
+Version: 1.0.4
+Suggests: testthat (>= 0.8.1)
 License: LGPL-3
 NeedsCompilation: yes
 
@@ -24820,9 +24820,9 @@ License: CeCILL-2
 NeedsCompilation: no
 
 Package: pomp
-Version: 0.53-1
-Depends: R(>= 3.0.0), stats, graphics, methods, mvtnorm, subplex,
-        nloptr, deSolve, coda
+Version: 0.53-5
+Depends: R(>= 3.0.0), subplex, nloptr
+Imports: stats, graphics, methods, mvtnorm, deSolve, coda
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -35129,8 +35129,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: symmoments
-Version: 1.1
-Depends: mvtnorm
+Version: 1.2
+Depends: mvtnorm, cubature, combinat, multipol
+Suggests: mpoly, ape
 License: GPL
 NeedsCompilation: no
 
