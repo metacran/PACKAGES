@@ -3333,6 +3333,11 @@ Depends: Imap
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: breakaway
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: breakpoint
 Version: 1.0
 Depends: R (>= 2.5.0), ggplot2, foreach
@@ -10611,7 +10616,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fmsb
-Version: 0.4.5
+Version: 0.5.0
 Depends: R (>= 2.2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19394,6 +19399,12 @@ Depends: R (>= 1.10.0), nnet, MASS
 License: FreeBSD
 NeedsCompilation: no
 
+Package: MixedTS
+Version: 1.0.1
+Depends: methods, stats4, MASS
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: mixer
 Version: 1.7
 Depends: R (>= 2.5.0), methods
@@ -20914,6 +20925,14 @@ Version: 0.3.2
 Depends: R (>= 2.6), cem (>= 0.3), rJava (>= 0.9), MASS (>= 7.0)
 License: LGPL-3
 NeedsCompilation: no
+
+Package: mwaved
+Version: 1.0
+Imports: Rcpp (>= 0.11.1), shiny
+LinkingTo: Rcpp
+Suggests: fracdiff, ggplot2, gridExtra
+License: GPL
+NeedsCompilation: Yes
 
 Package: mxkssd
 Version: 1.1
