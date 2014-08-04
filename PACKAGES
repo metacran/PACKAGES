@@ -9825,9 +9825,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fAssets
-Version: 3003.81
+Version: 3003.81-1
 Depends: R (>= 2.15.1), methods, MASS, timeDate, timeSeries, fBasics,
         fCopulae, sn, robustbase, ecodist, energy, mvnormtest
+Imports: mnormt
 License: GPL (>= 2)
 NeedsCompilation: no
 
