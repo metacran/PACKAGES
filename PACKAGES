@@ -6662,7 +6662,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: decctools
-Version: 0.1.6
+Version: 0.2.0
 Depends: XLConnect
 Imports: stringr, XML, reshape2, RCurl, lubridate, plyr
 License: GPL-2
@@ -8510,6 +8510,12 @@ Version: 1.4
 Depends: R (>= 3.0.0), mgcv, lattice
 Suggests: vegdata, vegan, knitr
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: EIAdata
+Version: 0.0.1
+Depends: R (>= 2.11.0), XML, plyr, xts, zoo
+License: GPL-2
 NeedsCompilation: no
 
 Package: eigeninv
@@ -12067,7 +12073,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 0.9.9
+Version: 0.9.999
 Depends: methods, Matrix, raster, sp, R (>= 3.0.0)
 Suggests: pracma, geoR, RandomFields, rgdal, parallel, numDeriv
 Enhances: spatstat, mapmisc, ellipse
@@ -21902,6 +21908,13 @@ Version: 0.2-1
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: npsm
+Version: 0.01
+Depends: Rfit
+Suggests: boot
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: npsp
 Version: 0.2-4
 Depends: R (>= 2.14.0)
@@ -29944,6 +29957,15 @@ Imports: quantreg, limma, lattice, stats4, gam, gplots, grid, ggplot2,
 License: LGPL
 NeedsCompilation: no
 
+Package: rPref
+Version: 0.1
+Depends: R (>= 3.0.0), methods
+Imports: Rcpp, dplyr, igraph
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: rprintf
 Version: 0.1
 Depends: R (>= 2.15)
@@ -37512,6 +37534,12 @@ Package: W2CWM2C
 Version: 1.0
 Depends: R (>= 2.10.0), waveslim, wavemulcor
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: W3CMarkupValidator
+Version: 0.1-0
+Imports: XML, RCurl
+License: GPL-2
 NeedsCompilation: no
 
 Package: waffect
