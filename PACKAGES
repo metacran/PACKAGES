@@ -25803,8 +25803,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pvsR
-Version: 0.1.1
-Depends: R (>= 2.14.2), XML, nnet
+Version: 0.2
+Depends: R (>= 3.0)
+Imports: XML, nnet, httr
 License: GPL-2
 NeedsCompilation: no
 
@@ -32526,10 +32527,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 0.45-23
-Depends: R (>= 2.15.0), MASS, coda, mvtnorm
+Version: 0.46-15
+Depends: R (>= 2.15.0)
 Imports: sfsmisc, TAM, CDM, combinat, ic.infer, sm, psych, pbivnorm,
-        gtools, Rcpp (>= 0.11.0), qgraph, lavaan, semPlot, igraph
+        gtools, Rcpp (>= 0.11.0), qgraph, lavaan, semPlot, igraph,
+        coda, mvtnorm, MASS
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: eRm, ltm, MCMCglmm, mirt, mokken, mRm, plink, GPArotation,
         fdrtool, lme4, difR, semTools, MultiLCIRT, rcppbugs, IsingFit
