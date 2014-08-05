@@ -6446,7 +6446,7 @@ NeedsCompilation: no
 
 Package: dave
 Version: 1.5
-Depends: R (>= 2.10), labdsv, vegan
+Depends: R (>= 3.1.0), labdsv, vegan
 License: LGPL (>= 2.0)
 NeedsCompilation: no
 
@@ -9514,8 +9514,8 @@ License: BSD_3_clause + file LICENCE
 NeedsCompilation: yes
 
 Package: expp
-Version: 1.0
-Depends: methods, sp, spdep, rgeos, deldir
+Version: 1.1
+Depends: R (>= 3.0.0), methods, sp, spdep, rgeos, deldir
 Suggests: knitr, spatstat, lme4
 License: GPL-3
 NeedsCompilation: no
