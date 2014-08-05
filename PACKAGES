@@ -25042,12 +25042,6 @@ Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: PowerVenn
-Version: 0.0.1
-Depends: grid
-License: GPL-2
-NeedsCompilation: yes
-
 Package: PP
 Version: 0.2-1
 Depends: R (>= 2.15.0), splines
@@ -38073,10 +38067,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Xmisc
-Version: 0.0.10
+Version: 0.1.0
 Depends: R (>= 3.1.0)
 Imports: methods
-Suggests: data.table, stringr
+Suggests: datasets, data.table, stringr
 License: GPL (>= 2)
 NeedsCompilation: no
 
