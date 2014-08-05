@@ -7604,7 +7604,7 @@ License: GPL (>= 2) | BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: dlnm
-Version: 2.1.2
+Version: 2.1.3
 Depends: R (>= 2.10)
 Imports: stats, graphics, grDevices, utils, splines, nlme
 Suggests: mgcv, survival, lme4, gee, geepack, mvmeta
