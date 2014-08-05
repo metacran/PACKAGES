@@ -31497,7 +31497,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SDMTools
-Version: 1.1-20
+Version: 1.1-221
 Imports: R.utils
 Suggests: adehabitat, raster, sp
 License: GPL (>= 3)
