@@ -5078,7 +5078,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: colourlovers
-Version: 0.1.2
+Version: 0.1.3
 Imports: XML, RJSONIO, png
 License: GPL-2
 NeedsCompilation: no
@@ -26492,8 +26492,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rags2ridges
-Version: 1.2
-Depends: stats, expm, GeneNet, reshape, ggplot2, igraph
+Version: 1.3
+Depends: R (>= 2.15.1), GeneNet
+Imports: stats, expm, reshape, ggplot2, igraph, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
