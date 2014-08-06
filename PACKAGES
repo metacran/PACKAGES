@@ -2724,9 +2724,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BioMark
-Version: 0.4.1
-Depends: pls, glmnet, st (>= 1.1.6)
-Suggests: MASS
+Version: 0.4.2
+Depends: pls, glmnet, MASS, st (>= 1.1.6)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10146,7 +10145,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: federalregister
-Version: 0.1
+Version: 0.1.2
 Imports: RCurl, RJSONIO
 License: GPL-2
 NeedsCompilation: no
@@ -29360,12 +29359,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RNeXML
-Version: 1.1.2
+Version: 1.1.3
 Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), taxize (>= 0.2.2), reshape2 (>=
-        1.2.2), httr (>= 0.3), uuid (>= 0.1-1), testthat (>= 0.8.1)
+        1.2.2), httr (>= 0.3), uuid (>= 0.1-1)
 Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
-        (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1), Sxslt
+        (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1),
+        testthat (>= 0.8.1), Sxslt
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -29908,6 +29908,15 @@ Depends: R (>= 2.13.0), rjson, RCurl, seqinr, knitcitations
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: rplexos
+Version: 0.8
+Depends: R(>= 3.1.0), dplyr (>= 0.2), RSQLite, RSQLite.extfuns
+Imports: Rcpp, DBI, lubridate, plyr, reshape2, assertthat
+LinkingTo: Rcpp (>= 0.11.1)
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: rplos
 Version: 0.4.1
 Depends: ggplot2
@@ -30437,6 +30446,12 @@ NeedsCompilation: yes
 Package: rstudioapi
 Version: 0.1
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: rsubgroup
+Version: 0.5
+Depends: R (>= 2.10), methods, rJava (>= 0.6.3), foreign (>= 0.8.40)
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: Rsundials
@@ -38056,11 +38071,17 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: XLConnect
-Version: 0.2-7
-Depends: R (>= 2.10.0)
-Imports: methods, rJava, utils
+Version: 0.2-8
+Depends: R (>= 2.10.0), XLConnectJars (== 0.2-8)
+Imports: methods, rJava
 Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), fImport, forecast, zoo,
         scales
+License: GPL-3
+NeedsCompilation: no
+
+Package: XLConnectJars
+Version: 0.2-8
+Imports: rJava
 License: GPL-3
 NeedsCompilation: no
 
