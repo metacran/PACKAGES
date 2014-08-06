@@ -36309,6 +36309,15 @@ Suggests: TreePar, testthat
 License: CC0
 NeedsCompilation: no
 
+Package: treeclim
+Version: 1.0.5
+Depends: R (>= 3.0.2), base, stats, utils, Rcpp (>= 0.10.6)
+Imports: abind, plyr, ggplot2, lmtest, lmodel2, np, boot
+LinkingTo: Rcpp, RcppArmadillo (>= 0.4.000.2)
+Suggests: dplR, testthat (>= 0.7.1.99)
+License: GPL-3
+NeedsCompilation: yes
+
 Package: treecm
 Version: 1.2.1
 Imports: plyr
