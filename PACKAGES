@@ -16003,7 +16003,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: klaR
-Version: 0.6-11
+Version: 0.6-12
 Depends: R (>= 2.10.0), MASS
 Imports: combinat
 Suggests: scatterplot3d (>= 0.3-22), som, mlbench, rpart, e1071
@@ -22713,10 +22713,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: osDesign
-Version: 1.6
+Version: 1.7
 Depends: R (>= 2.10)
 License: GPL (>= 3)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: osmar
 Version: 1.1-7
