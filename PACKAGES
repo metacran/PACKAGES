@@ -14448,7 +14448,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HWxtest
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.14)
 Suggests: knitr, knitcitations, adegenet, genetics, parallel
 License: GPL
@@ -27557,12 +27557,6 @@ Suggests: reshape
 License: GPL-2
 OS_type: unix
 NeedsCompilation: yes
-
-Package: RCryptsy
-Version: 0.1
-Depends: R (>= 3.0.3), RJSONIO, RCurl
-License: GPL-3
-NeedsCompilation: no
 
 Package: Rcsdp
 Version: 0.1.53
