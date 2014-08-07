@@ -24716,7 +24716,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pollstR
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.0.3)
 Imports: httr, plyr, jsonlite
 Suggests: knitr, dplyr, ggplot2, testthat
@@ -32303,6 +32303,14 @@ Package: signalextraction
 Version: 2.0.3
 Suggests: tcltk
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: signal.hsmm
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: seqinr, shiny
+Suggests: knitr, markdown, shinyAce
+License: GPL-3
 NeedsCompilation: no
 
 Package: sigora
