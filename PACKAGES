@@ -3451,7 +3451,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BSSasymp
-Version: 1.0-1
+Version: 1.0-2
 Imports: fICA, JADE
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -28479,7 +28479,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RGENERATE
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10),RMAWGEN
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -38041,11 +38041,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: xergm
-Version: 1.0
-Depends: R (>= 2.14.0), network, ergm (>= 3.0.0), ROCR
-Imports: stats4, utils, methods, texreg (>= 1.30.2), Matrix, parallel,
-        boot, coda
-Suggests: sna, RSiena (>= 1.0.12.169)
+Version: 1.1
+Depends: R (>= 2.14.0), ergm
+Imports: stats4, utils, methods, statnet, statnet.common, network, sna,
+        texreg (>= 1.33), Matrix, parallel, boot, coda, stats, ROCR,
+        igraph, vegan, lme4 (>= 1.0)
+Suggests: RSiena (>= 1.0.12.169)
 License: GPL (>= 2)
 NeedsCompilation: no
 
