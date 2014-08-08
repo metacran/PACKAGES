@@ -2025,6 +2025,13 @@ Depends: methods
 License: GPL-2
 NeedsCompilation: no
 
+Package: BcDiag
+Version: 1.0.4
+Depends: R (>= 2.10)
+Suggests: biclust, fabia, isa2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: BCE
 Version: 2.1
 Depends: R (>= 2.0.1), FME, limSolve, Matrix
@@ -10805,15 +10812,6 @@ NeedsCompilation: no
 Package: FPDC
 Version: 1.0
 Depends: ThreeWay
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: fPortfolio
-Version: 2130.80
-Depends: R (>= 2.8.0), methods, MASS, robustbase, timeDate, timeSeries,
-        fBasics, fAssets (>= 2100.78)
-Imports: quadprog, Rglpk
-Suggests: RUnit, tcltk
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20123,7 +20121,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MPTinR
-Version: 1.4.0
+Version: 1.5.1
 Depends: R (>= 2.15.1), numDeriv
 Imports: Brobdingnag, Rcpp
 LinkingTo: Rcpp, RcppEigen
