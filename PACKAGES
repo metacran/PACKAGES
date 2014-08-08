@@ -34449,7 +34449,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: strap
-Version: 1.2
+Version: 1.3
 Depends: ape,geoscale
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -35059,7 +35059,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: swirl
-Version: 2.2.14
+Version: 2.2.15
 Depends: R (>= 3.0.2)
 Imports: stringr, testthat, httr, yaml, RCurl, digest, tools
 License: GPL-3
