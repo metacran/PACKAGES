@@ -1317,6 +1317,11 @@ Version: 4.1-0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: astrolibR
+Version: 0.1
+License: GPL
+NeedsCompilation: no
+
 Package: astsa
 Version: 1.2
 License: GPL-2
@@ -2665,9 +2670,9 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: binseqtest
-Version: 0.5
+Version: 1.0
 Depends: methods, graphics, stats, clinfun
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: Biodem
@@ -4238,7 +4243,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: CHAT
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10), parallel, DNAcopy, DPpackage
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8330,6 +8335,12 @@ Version: 0.1-0
 Depends: R (>= 3.0.1)
 Suggests: car, systemfit, sem, lmtest, sandwich, gdata, RCurl, XML,
         tis, Ecdat, fda
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ecipex
+Version: 1.0
+Imports: CHNOSZ
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -13051,6 +13062,16 @@ Imports: RcppArmadillo (>= 0.4.000), reshape2 (>= 1.2.1), scales (>=
         0.8)
 LinkingTo: Rcpp (>= 0.10.6), RcppArmadillo (>= 0.4.000)
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: growfunctions
+Version: 0.1
+Depends: R (>= 3.1.1), Rcpp (>= 0.11.2)
+Imports: Matrix(>= 1.1), spam(>= 0.41-0), mvtnorm(>= 1.0-0), ggplot2(>=
+        0.9.3.1), reshape2(>= 1.2.2), scales(>= 0.2.3)
+LinkingTo: Rcpp (>= 0.11.2), RcppArmadillo (>= 0.4.000)
+Suggests: testthat(>= 0.8.1)
+License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: growthmodels
@@ -32909,8 +32930,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: SnowballC
-Version: 0.5
-License: BSD
+Version: 0.5.1
+License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: snowfall
