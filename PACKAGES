@@ -16598,6 +16598,13 @@ Depends: R (>= 3.0.0), GrassmannOptim, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: LDRTools
+Version: 0.1
+Depends: R (>= 3.0.0)
+Suggests: dr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: LDtests
 Version: 1.0
 License: GPL
@@ -28502,7 +28509,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: rgp
-Version: 0.4-0
+Version: 0.4-1
 Depends: R (>= 3.0.0), utils
 Imports: emoa (>= 0.5-0)
 Suggests: igraph (>= 0.5.5), rrules (>= 0.1-0), rgpui (>= 0.1-0),
@@ -30515,6 +30522,12 @@ Depends: sp
 Imports: gstat
 Suggests: igraph, rgdal, intamap, rgeos
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: RTriangle
+Version: 1.6-0.6
+Depends: R (>= 3.0.0)
+License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: rts
@@ -36261,7 +36274,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: treeclim
-Version: 1.0.5
+Version: 1.0.7
 Depends: R (>= 3.0.2), base, stats, utils, Rcpp (>= 0.10.6)
 Imports: abind, plyr, ggplot2, lmtest, lmodel2, np, boot
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.000.2)
@@ -37618,7 +37631,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wbs
-Version: 1.1
+Version: 1.2
 Depends: graphics
 License: GPL-2
 NeedsCompilation: yes
