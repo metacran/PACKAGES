@@ -581,14 +581,6 @@ Version: 1.1-7.2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: algstat
-Version: 0.0.1
-Depends: mpoly
-Imports: stringr, reshape2, Rcpp
-LinkingTo: Rcpp
-License: GPL-2
-NeedsCompilation: yes
-
 Package: ALKr
 Version: 0.5.3.1
 Depends: R (>= 2.15.2)
@@ -2556,12 +2548,6 @@ Suggests: MASS, doParallel
 License: GPL-3
 OS_type: unix
 NeedsCompilation: yes
-
-Package: bigRR
-Version: 1.3-8
-Depends: R (>= 2.10), utils, hglm, DatABEL
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: bigsplines
 Version: 1.0-2
@@ -22458,14 +22444,6 @@ Depends: lattice
 License: GPL-2
 NeedsCompilation: no
 
-Package: optmatch
-Version: 0.9-1
-Depends: R (>= 2.15.1), stats, methods, graphics, digest
-Suggests: boot, RItools, biglm, testthat, survival, brglm, arm
-License: file LICENSE
-License_restricts_use: yes
-NeedsCompilation: yes
-
 Package: optparse
 Version: 1.2.0
 Depends: R (>= 2.9.0)
@@ -23599,6 +23577,15 @@ Depends: R(>= 3.0.0), lme4 (>= 1.0), Matrix (>= 1.0), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: pedometrics
+Version: 0.1-9
+Depends: R (>= 1.8.0)
+Imports: spsurvey, xtable, XML, stringr, sp, car, pbapply, MASS, plyr,
+        lattice, latticeExtra, grid, VecStatGraphs2D, mvtsplot
+Suggests: methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: pegas
 Version: 0.5-1
 Depends: R (>= 2.6.0), ape (>= 2.4), adegenet
@@ -24146,7 +24133,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pipeR
-Version: 0.3-3
+Version: 0.4
 Depends: R (>= 2.14)
 Suggests: testthat,knitr,magrittr,dplyr,rlist
 License: MIT + file LICENSE
@@ -24898,7 +24885,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: portes
-Version: 2.1-1
+Version: 2.1-3
 Depends: R (>= 2.14.0), parallel
 Suggests: fGarch, FitAR, FGN, TSA, vars, tseries, forecast, akima
 License: GPL (>= 2)
@@ -33490,6 +33477,12 @@ Version: 1.1-1
 Depends: R (>= 2.4.0)
 Suggests: ICSNP, MNM
 License: GPL-2
+NeedsCompilation: yes
+
+Package: SpatialPack
+Version: 0.2-3
+Suggests: geoR
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spatialprobit
