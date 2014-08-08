@@ -15522,7 +15522,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: itertools2
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.0.2)
 Imports: iterators (>= 1.0.7)
 Suggests: testthat (>= 0.8.1)
@@ -34528,7 +34528,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.7.3
+Version: 0.8.0
 Depends: R (>= 2.15.3), parallel
 Suggests: testthat
 License: GPL-3
