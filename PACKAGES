@@ -13783,9 +13783,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hexbin
-Version: 1.26.3
-Depends: R (>= 2.0.1), methods, grid, lattice
-Imports: graphics, grDevices, stats, utils
+Version: 1.27.0
+Depends: R (>= 2.0.1), methods
+Imports: lattice, grid, graphics, grDevices, stats, utils
 Suggests: marray, affy, Biobase
 License: GPL-2
 NeedsCompilation: yes
@@ -13810,7 +13810,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hglasso
-Version: 1.1
+Version: 1.2
 Depends: glasso, mvtnorm, igraph
 Imports: fields
 License: GPL (>= 2)
@@ -21438,7 +21438,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
-Version: 2.3.1
+Version: 2.4
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -27834,8 +27834,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: referenceIntervals
-Version: 1.0
-Depends: boot, extremevalues
+Version: 1.1
+Imports: boot, extremevalues, car, outliers
 License: GPL-3
 NeedsCompilation: no
 
@@ -36996,7 +36996,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: UScancer
-Version: 0.1-1
+Version: 0.1-2
 Depends: R (>= 3.0.0), rgdal
 Suggests: diseasemapping
 License: GPL-2
