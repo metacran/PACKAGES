@@ -37424,6 +37424,13 @@ Version: 0.2-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: visova
+Version: 1.0
+Depends: R (>= 2.11.0)
+Imports: methods, RJSONIO, utils, tools
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: visreg
 Version: 2.0-5
 Imports: lattice
