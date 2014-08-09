@@ -1858,7 +1858,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: bayesSurv
-Version: 2.3
+Version: 2.3-1
 Depends: R (>= 3.0.0), survival, coda, smoothSurv
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -20913,7 +20913,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: mwaved
-Version: 1.0
+Version: 1.0.1
 Imports: Rcpp (>= 0.11.1), shiny
 LinkingTo: Rcpp
 Suggests: fracdiff, ggplot2, gridExtra
@@ -30651,7 +30651,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RVAideMemoire
-Version: 0.9-36
+Version: 0.9-37
 Imports: ade4, boot, car, lme4 (>= 1.0-4), lsmeans (>= 2.0.1), MASS,
         mixOmics (>= 4.1), multcomp, statmod, stats
 Suggests: ordinal, survival
