@@ -3658,6 +3658,12 @@ Imports: utils, MASS, R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8),
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
+Package: CAMAN
+Version: 0.71
+Depends: R (>= 2.10), methods, sp, mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: camel
 Version: 0.2.0
 Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
@@ -7432,11 +7438,11 @@ License: BSD
 NeedsCompilation: yes
 
 Package: distr
-Version: 2.5.2
+Version: 2.5.3
 Depends: R(>= 2.14.0), methods, graphics, startupmsg, sfsmisc,
         SweaveListingUtils
 Imports: stats
-Suggests: distrEx
+Suggests: distrEx, svUnit (>= 0.7-11)
 License: LGPL-3
 NeedsCompilation: yes
 
@@ -20766,7 +20772,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mvmeta
-Version: 0.4.4
+Version: 0.4.5
 Depends: R (>= 2.13.0)
 Imports: stats, graphics, grDevices, utils
 Suggests: metafor, meta, rmeta, nlme, MASS, dlnm
@@ -21931,8 +21937,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NScluster
-Version: 1.0.0
-Depends: R (>= 2.9.0)
+Version: 1.0.2
+Depends: R (>= 2.14.0), graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -33007,7 +33013,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SNSequate
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 2.10), magic, stats
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -35117,7 +35123,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sybilcycleFreeFlux
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.10.0), sybil, Matrix, MASS
 Suggests: cplexAPI (>= 1.2.6), glpkAPI (>= 1.2.1)
 License: GPL-3
@@ -37919,7 +37925,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wpp2012
-Version: 2.0-0
+Version: 2.2-0
 Depends: R (>= 2.14.2)
 License: GPL (>= 2)
 NeedsCompilation: no
