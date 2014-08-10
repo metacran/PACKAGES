@@ -23512,7 +23512,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pdfetch
-Version: 0.1.4
+Version: 0.1.5
 Imports: zoo, xts, RCurl, XML, lubridate, jsonlite, reshape2
 License: GPL
 NeedsCompilation: no
@@ -37536,7 +37536,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vrtest
-Version: 0.96
+Version: 0.97
 License: GPL-2
 NeedsCompilation: no
 
