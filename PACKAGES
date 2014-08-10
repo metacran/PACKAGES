@@ -601,6 +601,12 @@ Depends: R (>= 2.10.0), gplots
 License: GPL-2
 NeedsCompilation: no
 
+Package: alleHap
+Version: 0.7.2
+Imports: gtools
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: allelematch
 Version: 2.03
 Depends: dynamicTreeCut
