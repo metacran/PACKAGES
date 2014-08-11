@@ -13582,8 +13582,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: HardyWeinberg
-Version: 1.5.2
-Depends: R (>= 1.8.0), graphics, stats, mice
+Version: 1.5.4
+Depends: R (>= 1.8.0), mice
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16339,6 +16339,14 @@ Suggests: lattice, ggplot2, googleVis, data.table, vcd, plyr, reshape2,
 License: GPL
 NeedsCompilation: no
 
+Package: LakeMetabolizer
+Version: 1.1
+Depends: R (>= 2.15.0), rLakeAnalyzer (>= 1.4)
+Imports: plyr
+Suggests: R2jags
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: Lambda4
 Version: 3.0
 Suggests: mice, GPArotation, testthat
@@ -17792,14 +17800,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MALDIquant
-Version: 1.10
+Version: 1.11
 Depends: R (>= 3.0.0), methods
 Suggests: knitr, testthat (>= 0.8)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: MALDIquantForeign
-Version: 0.8
+Version: 0.9
 Depends: R (>= 3.0.0), methods, MALDIquant (>= 1.8)
 Imports: base64enc, digest, downloader, readBrukerFlexData (>= 1.7),
         readMzXmlData (>= 2.7), XML
@@ -37230,6 +37238,14 @@ NeedsCompilation: no
 
 Package: VarSwapPrice
 Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
+Package: vartors
+Version: 0.2.6
+Depends: R (>= 3.0.2)
+Imports: methods
+Suggests: testthat, roxygen2, utils, knitr
 License: GPL-3
 NeedsCompilation: no
 
