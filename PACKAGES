@@ -16900,7 +16900,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: linkcomm
-Version: 1.0-9
+Version: 1.0-10
 Depends: igraph, RColorBrewer
 Imports: dynamicTreeCut, grid, utils
 Suggests: fastcluster
@@ -23358,7 +23358,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pbkrtest
-Version: 0.3-8
+Version: 0.4-0
 Depends: R (>= 3.0.0), MASS, lme4, parallel
 Imports: Matrix
 Suggests: gplots
