@@ -984,9 +984,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: apt
-Version: 2.1
-Depends: R (>= 3.0.0), erer, urca
-Imports: car
+Version: 2.2
+Depends: R (>= 3.0.0), erer, gWidgets
+Imports: car, urca, copula
+Suggests: RGtk2, gWidgetsRGtk2, cairoDevice
 License: GPL
 NeedsCompilation: no
 
@@ -9102,7 +9103,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: erer
-Version: 2.1
+Version: 2.2
 Depends: R (>= 3.0.0), lmtest
 Imports: systemfit, tseries, urca, ggplot2
 Suggests: MASS
@@ -38072,7 +38073,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: XBRL
-Version: 0.99.11
+Version: 0.99.12
 Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp
 License: GPL (>= 2)
