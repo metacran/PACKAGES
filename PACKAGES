@@ -5944,7 +5944,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crs
-Version: 0.15-22
+Version: 0.15-23
 Imports: boot, stats
 Suggests: np, npRmpi, rgl, quadprog, quantreg, logspline
 License: GPL
@@ -14507,6 +14507,12 @@ Depends: R (>= 2.13.0)
 Imports: Hmisc, sp, lattice, zoo(>= 1.7-2), grid, lhs
 Suggests: hydroGOF(>= 0.3-5), hydroTSM(>= 0.3-6), xts(>= 0.8-2),
         parallel, scatterplot3d, vioplot, SWAT2R
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: hydrostats
+Version: 0.2
+Suggests: plyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
