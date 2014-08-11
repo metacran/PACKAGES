@@ -3749,6 +3749,14 @@ Suggests: boot, deldir, foreign, grid, maptools, Matrix, nlme,
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: CARBayesST
+Version: 1.0
+Depends: R (>= 3.0.0), Rcpp (>= 0.11.2)
+Imports: truncdist, coda
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: carcass
 Version: 1.2
 Depends: R (>= 3.0.0), stats, lme4, survival
@@ -12895,6 +12903,14 @@ Package: gramEvol
 Version: 1.1-1
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: GrammR
+Version: 1.0.0
+Depends: R (>= 3.0.0)
+Imports: gWidgets, RGtk2, gWidgetsRGtk2, MASS, cluster, rgl, GUniFrac,
+        ape
+License: LGPL-3
+NeedsCompilation: yes
 
 Package: granova
 Version: 2.0
@@ -25979,7 +25995,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qpcR
-Version: 1.3-8
+Version: 1.3-9
 Depends: R (>= 2.13.0), MASS, minpack.lm, rgl, robustbase, Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -26553,7 +26569,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.32
+Version: 3.0.34
 Depends: R (>= 3.0.2), sp
 Suggests: raster, tcltk2, tcltk, tkrplot, spam, methods, colorspace,
         RColorBrewer
@@ -27481,6 +27497,13 @@ Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, inline, highlight
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: RcppMLPACK
+Version: 1.0.9
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo, BH
+License: LGPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppOctave
