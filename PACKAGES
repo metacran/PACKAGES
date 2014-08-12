@@ -16767,7 +16767,7 @@ License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: lfstat
-Version: 0.6
+Version: 0.6.1
 Depends: R (>= 2.10), lattice, lmom, lmomRFA, latticeExtra
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -25062,7 +25062,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.1-12
+Version: 1.1-13
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -26590,7 +26590,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.34
+Version: 3.0.35
 Depends: R (>= 3.0.2), sp
 Suggests: raster, tcltk2, tcltk, tkrplot, spam, methods, colorspace,
         RColorBrewer
