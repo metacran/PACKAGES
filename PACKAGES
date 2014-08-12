@@ -16906,6 +16906,12 @@ Imports: quadprog, lpSolve, MASS
 License: GPL
 NeedsCompilation: yes
 
+Package: LindenmayeR
+Version: 0.1-0
+Depends: stringr, grid
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: LinearizedSVR
 Version: 1.3
 Imports: kernlab, LiblineaR, expectreg
