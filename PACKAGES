@@ -20690,7 +20690,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MuMIn
-Version: 1.10.0
+Version: 1.10.5
 Depends: R (>= 3.0.0)
 Imports: stats
 Suggests: stats4, nlme, mgcv (>= 1.7.5), lme4 (>= 0.999375-16), gamm4,
@@ -25662,7 +25662,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: psych
-Version: 1.4.8
+Version: 1.4.8.11
 Depends: R (>= 2.10)
 Suggests: MASS, parallel, GPArotation, mvtnorm, sem, lavaan, Rcsdp,
         graph, Rgraphviz
@@ -28432,8 +28432,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: rfPermute
-Version: 1.5.2
-Depends: R (>= 2.15.1), randomForest, parallel, ggplot2, gridExtra
+Version: 1.6.1
+Depends: R (>= 2.15.1)
+Imports: randomForest, parallel, ggplot2, gridExtra
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36936,7 +36937,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: twostageTE
-Version: 1.01
+Version: 1.2
 Depends: isotone
 License: GPL-2
 NeedsCompilation: no
