@@ -1319,6 +1319,11 @@ Imports: baseline, multitaper, fields
 License: GPL-3
 NeedsCompilation: yes
 
+Package: astrodatR
+Version: 0.1
+License: GPL
+NeedsCompilation: no
+
 Package: astroFns
 Version: 4.1-0
 License: GPL (>= 2)
@@ -9132,10 +9137,10 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: ergm.graphlets
-Version: 1.0.1
+Version: 1.0.2
 Depends: statnet (>= 3.1-0)
 LinkingTo: ergm
-Suggests: snow, rlecuyer
+Suggests: parallel, rlecuyer
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -38189,10 +38194,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Xmisc
-Version: 0.1.0
+Version: 0.2.1
 Depends: R (>= 3.1.0)
 Imports: methods
-Suggests: datasets, data.table, stringr
+Suggests: RUnit, datasets, data.table
 License: GPL (>= 2)
 NeedsCompilation: no
 
