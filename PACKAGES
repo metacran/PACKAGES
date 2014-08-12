@@ -5827,6 +5827,12 @@ Depends: Hmisc (>= 3.14-3), evd (>= 2.3-0)
 License: GPL-3
 NeedsCompilation: no
 
+Package: cramer
+Version: 0.9-1
+Depends: R (>= 0.65), boot
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: crank
 Version: 1.0-5
 License: GPL (>= 2)
@@ -10720,7 +10726,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: forecast
-Version: 5.4
+Version: 5.5
 Depends: R (>= 3.0.2), stats, graphics, zoo, timeDate
 Imports: tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,
         parallel
@@ -26637,7 +26643,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: random.polychor.pa
-Version: 1.1.4
+Version: 1.1.4-1
 Depends: psych, nFactors, boot
 Imports: MASS, mvtnorm, sfsmisc
 License: GPL (>= 2)
@@ -35135,6 +35141,13 @@ Version: 0.3.5
 Imports: data.table, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2
 License: AGPL-3
+NeedsCompilation: no
+
+Package: swfscMisc
+Version: 1.0.1
+Depends: mapdata
+Imports: maps
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: swirl
