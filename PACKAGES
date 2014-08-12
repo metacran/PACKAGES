@@ -22522,6 +22522,13 @@ Depends: lattice
 License: GPL-2
 NeedsCompilation: no
 
+Package: optmatch
+Version: 0.9-3
+Depends: R (>= 2.15.1), stats, methods, graphics, digest
+Suggests: boot, RItools, biglm, testthat, survival, brglm, arm
+License: file LICENSE
+NeedsCompilation: yes
+
 Package: optparse
 Version: 1.2.0
 Depends: R (>= 2.9.0)
