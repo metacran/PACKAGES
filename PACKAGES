@@ -20297,7 +20297,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msarc
-Version: 1.3.2
+Version: 1.3.4
 Depends: R (>= 2.14.0)
 Imports: AnnotationDbi, gplots
 Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db
