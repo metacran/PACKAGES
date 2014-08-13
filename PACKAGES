@@ -13139,7 +13139,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: grpreg
-Version: 2.6-0
+Version: 2.7-0
 Depends: R (>= 2.13.0), Matrix
 License: GPL-2
 NeedsCompilation: yes
