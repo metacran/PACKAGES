@@ -7195,9 +7195,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dicionariosIBGE
-Version: 1.5
-Depends: R (>= 2.10)
-License: GPL-2
+Version: 1.6
+Depends: R (>= 2.15.1)
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dielectric
@@ -13140,9 +13140,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: growthrate
-Version: 1.2
+Version: 1.3
 Depends: Matrix, clime, mvtnorm
-License: GPL-3
+License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: grplasso
@@ -16952,7 +16952,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: linkcomm
-Version: 1.0-10
+Version: 1.0-11
 Depends: igraph, RColorBrewer
 Imports: dynamicTreeCut, grid, utils
 Suggests: fastcluster
@@ -27842,7 +27842,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: REBayes
-Version: 0.45
+Version: 0.48
 Depends: R (>= 2.10), Rmosek,Matrix,SparseM
 Suggests: reliaR
 License: GPL (>= 2)
