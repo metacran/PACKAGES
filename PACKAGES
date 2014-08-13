@@ -5234,6 +5234,12 @@ Depends: R (>= 2.13.1), eha, statmod
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: complmrob
+Version: 0.5.4
+Imports: robustbase, ggplot2, boot, parallel, scales
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: CompLognormal
 Version: 3.0
 Depends: R (>= 2.15.0), numDeriv
@@ -6380,7 +6386,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: DataCombine
-Version: 0.1.26
+Version: 0.2.2
 Depends: R (>= 3.0.2)
 Imports: data.table, dplyr
 License: GPL (>= 3)
@@ -8205,9 +8211,10 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: dynsim
-Version: 0.2.4
+Version: 1.0
 Depends: R (>= 3.0.0)
-Imports: DataCombine, ggplot2, gridExtra, Zelig
+Imports: ggplot2, gridExtra, MASS
+Suggests: DataCombine
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -13511,7 +13518,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HAC
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 2.15.2)
 Imports: copula, graphics
 License: GPL (>= 3)
@@ -17011,7 +17018,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: llama
-Version: 0.7
+Version: 0.7.1
 Depends: R (>= 2.10), mlr (>= 2.1)
 Imports: plyr, rJava, parallelMap
 Suggests: FSelector, testthat, ParamHelpers
