@@ -16719,7 +16719,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LEAPFrOG
-Version: 1.0.6
+Version: 1.0.7
 Depends: alabama, MASS
 Suggests: rjags
 License: GPL
@@ -18615,7 +18615,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mediation
-Version: 4.4
+Version: 4.4.1
 Depends: R (>= 2.15.1), MASS, Matrix, lpSolve, sandwich
 Suggests: mgcv, quantreg, VGAM, SuppDists, lme4 (>= 1.0), arm,
         survival, parallel
@@ -29687,8 +29687,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rockchalk
-Version: 1.8.0
-Depends: R (>= 2.10), MASS, car
+Version: 1.8.86
+Depends: R (>= 2.10)
+Imports: grDevices, lme4, car, MASS
 License: GPL (>= 3.0)
 NeedsCompilation: no
 
