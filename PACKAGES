@@ -8451,6 +8451,12 @@ Depends: rJava, rjson, rJython
 License: GPL-2
 NeedsCompilation: no
 
+Package: edgeRun
+Version: 1.0.7
+Depends: edgeR, data.table
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: EDISON
 Version: 1.0
 Depends: corpcor, MASS
@@ -13696,6 +13702,13 @@ Depends: R (>= 3.0.0)
 Imports: MASS, multtest
 Suggests: knitr
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: hddtools
+Version: 0.1.1
+Depends: R (>= 3.0.2)
+Imports: sp, rgdal, raster, RCurl, XML, zoo
+License: GPL-3
 NeedsCompilation: no
 
 Package: hdeco
@@ -24209,6 +24222,12 @@ Suggests: brglm, circular, corpcor, quantreg
 License: GPL-2
 NeedsCompilation: yes
 
+Package: picasso
+Version: 0.1.0
+Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
+License: GPL-2
+NeedsCompilation: yes
+
 Package: PIGE
 Version: 0.9
 Depends: snowfall,ARTP,xtable,survival
@@ -34694,7 +34713,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stylo
-Version: 0.5.6
+Version: 0.5.7
 Imports: tcltk, tcltk2, ape, pamr, e1071, class, lattice, tsne
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -36924,6 +36943,14 @@ Package: TUWmodel
 Version: 0.1-2
 Depends: R (>= 2.10), stats, graphics
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: tvd
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: EPL (>= 1.0)
 NeedsCompilation: yes
 
 Package: tvm
