@@ -19331,7 +19331,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mirt
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.15), stats4, lattice, methods
 Imports: GPArotation, Rcpp, numDeriv
 LinkingTo: Rcpp
