@@ -9904,10 +9904,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fastGHQuad
-Version: 0.1-1
-Depends: Rcpp (>= 0.9.6)
+Version: 0.2
+Depends: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
-License: MIT
+License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: FastHCS
@@ -36512,6 +36512,13 @@ Suggests: fpc
 License: GPL
 NeedsCompilation: no
 
+Package: trimTrees
+Version: 1.2
+Depends: R (>= 2.5.0),stats,randomForest,mlbench
+Suggests: MASS
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: trioGxE
 Version: 0.1-1
 Depends: msm, mgcv, gtools
@@ -38214,8 +38221,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: XLConnect
-Version: 0.2-8
-Depends: R (>= 2.10.0), XLConnectJars (== 0.2-8)
+Version: 0.2-9
+Depends: R (>= 2.10.0), XLConnectJars (== 0.2-9)
 Imports: methods, rJava
 Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), fImport, forecast, zoo,
         scales
@@ -38223,7 +38230,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: XLConnectJars
-Version: 0.2-8
+Version: 0.2-9
 Imports: rJava
 License: GPL-3
 NeedsCompilation: no
