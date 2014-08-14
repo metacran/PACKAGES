@@ -1830,7 +1830,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayesPop
-Version: 5.0-0
+Version: 5.1-5
 Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
 Imports: parallel, abind, plyr, wpp2012
 Suggests: rworldmap, fields, wpp2008, wpp2010
@@ -3957,7 +3957,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CBPS
-Version: 0.8
+Version: 0.9
 Depends: R (>= 2.14), MASS, MatchIt, nnet, numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8397,8 +8397,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ecoengine
-Version: 1.4
-Depends: R (>= 3.0.0)
+Version: 1.5
+Depends: R (>= 3.1.0)
 Imports: httr (>= 0.3), plyr, assertthat, whisker, dplyr (>= 0.2),
         RJSONIO, lubridate, leafletR (>= 0.1-1)
 Suggests: testthat, knitr, ggplot2, jsonlite
@@ -8832,11 +8832,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: emplik
-Version: 0.9-9-2
+Version: 0.9-9-5
 Depends: R (>= 2.15), quantreg
 Suggests: KMsurv, boot
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: emplik2
 Version: 1.10
@@ -28456,8 +28456,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RFLPtools
-Version: 1.5
-Depends: R(>= 2.10.0), stats, utils, graphics, grDevices, RColorBrewer
+Version: 1.6
+Depends: R(>= 3.0.0), stats, utils, graphics, grDevices, RColorBrewer
 Suggests: lattice, MKmisc(>= 0.8)
 License: LGPL-3
 NeedsCompilation: no
