@@ -15697,7 +15697,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: jaatha
-Version: 2.5
+Version: 2.5.1
 Depends: R (>= 3.0), methods
 Imports: phyclust (>= 0.1-14), Rcpp (>= 0.11.0), reshape2 (>= 1.4),
         parallel
@@ -33652,7 +33652,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: spatialTailDep
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 3.0.1), cubature, mvtnorm, SpatialExtremes
 License: GPL-3
 NeedsCompilation: yes
