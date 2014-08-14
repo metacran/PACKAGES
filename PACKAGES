@@ -7405,9 +7405,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: diseasemapping
-Version: 0.7.5
-Depends: sp, R (>= 2.10)
-Imports: mgcv
+Version: 0.7.7
+Depends: sp, R (>= 3.0)
+Suggests: mgcv
 Enhances: glmmBUGS, spdep
 License: GPL
 NeedsCompilation: no
@@ -19339,6 +19339,14 @@ Suggests: testthat, plink, boot, latticeExtra, shiny, knitr, parallel
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: mirtCAT
+Version: 0.1
+Depends: R (>= 2.15), mirt (>= 1.5), shiny (>= 0.10.0)
+Imports: methods
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: miRtest
 Version: 1.7
 Depends: corpcor, MASS
@@ -27198,9 +27206,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcmdrMisc
-Version: 1.0-0
-Depends: R (>= 3.0.0), grDevices, utils
-Imports: abind, Hmisc, MASS, e1071, car
+Version: 1.0-1
+Depends: R (>= 3.0.0), grDevices, utils, car, sandwich
+Imports: abind, Hmisc, MASS, e1071
 License: GPL (>= 2)
 NeedsCompilation: no
 
