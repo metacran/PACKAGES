@@ -1536,6 +1536,13 @@ Depends: R (>= 1.4.1), bayesm, coda, MASS, stats, mice, survival,
 License: GPL
 NeedsCompilation: no
 
+Package: bamboo
+Version: 0.9.5
+Depends: R (>= 2.10)
+Imports: rJava, jvmr
+License: GPL-3
+NeedsCompilation: no
+
 Package: bamdit
 Version: 1.1-1
 Depends: R (>= 2.9.0), coda (>= 0.13), rjags (>= 2.2.0-4)
@@ -23118,7 +23125,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: parcor
-Version: 0.2-4
+Version: 0.2-5
 Depends: MASS, glmnet, ppls, Epi, GeneNet
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34935,12 +34942,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: survey
-Version: 3.29-5
-Depends: R (>= 2.10.0)
+Version: 3.30-2
+Depends: R (>= 2.14.0)
 Suggests: foreign, survival, MASS, splines, KernSmooth, hexbin,
         mitools, lattice, RSQLite, RODBC, quantreg, Matrix, parallel,
         CompQuadForm
-Enhances: odfWeave.survey
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
