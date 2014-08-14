@@ -8517,7 +8517,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: effects
-Version: 3.0-0
+Version: 3.0-1
 Depends: R (>= 2.10), lattice, grid, colorspace
 Suggests: nlme, lme4, MASS, nnet, poLCA, heplots
 License: GPL (>= 2)
@@ -14167,8 +14167,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: hmmm
-Version: 1.0-2
-Depends: quadprog, MASS, mvtnorm
+Version: 1.0-3
+Imports: quadprog, MASS, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32701,9 +32701,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.4.2
-Imports: ggplot2, MASS, car, foreign, lmtest, plyr, psych, reshape2,
-        scales
+Version: 1.4.3
+Imports: ggplot2, MASS, car, coin, foreign, lmtest, lsmeans, plyr,
+        psych, reshape2, scales
 License: GPL-3
 NeedsCompilation: no
 
