@@ -1984,6 +1984,12 @@ Depends: R (>= 3.0.1), MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: BBEST
+Version: 0.1-0
+Imports: DEoptim, aws, grid, ggplot2, reshape2, shiny, methods
+License: GPL-3
+NeedsCompilation: no
+
 Package: BBmisc
 Version: 1.7
 Imports: stats, checkmate
