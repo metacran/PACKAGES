@@ -23531,12 +23531,6 @@ Imports: nleqslv (>= 2.2), matrixcalc (>= 1.0-3)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: pcenum
-Version: 1.0.1
-Depends: R (>= 2.10.1), methods
-License: GPL (>= 3)
-NeedsCompilation: yes
-
 Package: pcg
 Version: 1.1
 License: GPL (>= 2)
