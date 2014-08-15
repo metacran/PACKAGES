@@ -4304,7 +4304,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.2
+Version: 1.3
 Depends: R (>= 2.15.0)
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
@@ -27608,6 +27608,11 @@ Suggests: RUnit, knitr, bibtex
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: RcppParallel
+Version: 4.2.5.1
+License: GPL-2
+NeedsCompilation: yes
+
 Package: RcppProgress
 Version: 0.1
 Depends: R (>= 2.13.0), Rcpp (>= 0.9.4)
@@ -31904,7 +31909,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: semPlot
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.15.0)
 Imports: qgraph (>= 1.2.4), lavaan (>= 0.5-11), sem (>= 3.1-0), plyr,
         XML, igraph (>= 0.6-3), lisrelToR, rockchalk, colorspace,
@@ -32772,6 +32777,13 @@ Version: 0.3
 Depends: R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: sld
+Version: 0.2.1
+Depends: stats, lmom
+Suggests: graphics
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: Sleuth2
 Version: 1.0-7
