@@ -12389,8 +12389,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GISTools
-Version: 0.7-2
-Depends: R (>= 2.15.0), maptools, RColorBrewer, MASS, rgeos
+Version: 0.7-3
+Depends: R (>= 2.15.0), maptools, sp, RColorBrewer, MASS, rgeos
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19263,7 +19263,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: minerva
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.14.0)
 Enhances: parallel
 License: GPL-3
@@ -29524,6 +29524,13 @@ Version: 2.0.1
 Depends: R (>= 3.1.0)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6), XML
         (>= 3.98.1.1), GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: rnrfa
+Version: 0.1.0
+Depends: R (>= 3.0.2), utils
+Imports: XML2R, RCurl, zoo, rjson, rgdal, sp, stringr
 License: GPL (>= 3)
 NeedsCompilation: no
 
