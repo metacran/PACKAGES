@@ -3749,7 +3749,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: car
-Version: 2.0-20
+Version: 2.0-21
 Depends: R (>= 2.14.0), stats, graphics
 Imports: MASS, nnet
 Suggests: alr4, boot, leaps, lme4, lmtest, nlme, quantreg, sandwich,
@@ -28673,6 +28673,13 @@ Enhances: colorspace, png, rgdal, sp
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: RGoogleAnalytics
+Version: 0.1.1
+Depends: R(>= 3.0.2), lubridate, httr
+Suggests: testthat
+License: Apache License 2.0
+NeedsCompilation: no
+
 Package: RgoogleMaps
 Version: 1.2.0.6
 Depends: R (>= 2.10)
@@ -35597,7 +35604,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tbart
-Version: 0.9
+Version: 0.9.1
 Depends: Rcpp (>= 0.10.3), sp
 LinkingTo: Rcpp
 Suggests: GISTools, RColorBrewer
