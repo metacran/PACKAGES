@@ -8709,7 +8709,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ELT
-Version: 1.2
+Version: 1.3
 Depends: R (>= 2.10.0), locfit, lattice, latticeExtra, grid, xlsx
 License: GPL (>= 2)
 NeedsCompilation: no
