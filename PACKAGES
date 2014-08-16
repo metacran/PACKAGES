@@ -24419,10 +24419,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: planar
-Version: 1.5
+Version: 1.5.2
 Depends: methods, dielectric
-Imports: Rcpp (>= 0.9.5), RcppArmadillo (>= 0.2.3), statmod, cubature,
-        reshape2, plyr
+Imports: Rcpp, statmod, cubature, reshape2, plyr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: ggplot2, Hmisc, grid, gridExtra, lattice, knitr, testthat
 License: GPL-3
