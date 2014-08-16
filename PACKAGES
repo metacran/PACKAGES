@@ -8456,6 +8456,12 @@ Depends: XML
 License: GPL
 NeedsCompilation: no
 
+Package: EcoVirtual
+Version: 0.1
+Depends: tcltk
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ecp
 Version: 1.6.0
 Depends: R (>= 2.10), Rcpp
@@ -12780,7 +12786,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: googleVis
-Version: 0.5.4
+Version: 0.5.5
 Depends: R (>= 3.0.2)
 Imports: methods, RJSONIO, utils
 Suggests: shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)
