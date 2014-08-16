@@ -7757,7 +7757,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: DoE.base
-Version: 0.26-1
+Version: 0.26-2
 Depends: R(>= 2.10.0), grid, conf.design
 Imports: stats, utils, graphics, vcd, combinat, MASS
 License: GPL (>= 2)
@@ -23030,7 +23030,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: paleotree
-Version: 2.0
+Version: 2.1
 Depends: R (>= 3.0.0), ape
 Imports: phangorn
 License: GPL (>= 2)
@@ -24199,9 +24199,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: phyloland
-Version: 1.0
-Imports: ape, gsubfn
-License: GPL (>= 2.0)
+Version: 1.1
+Imports: ape
+License: GPL-2
 NeedsCompilation: yes
 
 Package: phylolm
@@ -27079,12 +27079,6 @@ Suggests: testthat (>= 0.8), roxygen2
 License: GPL-3
 NeedsCompilation: no
 
-Package: RC
-Version: 1.0.2.13
-Depends: igraph, bitops
-License: GPL-2
-NeedsCompilation: no
-
 Package: RCA
 Version: 1.4.5
 Depends: igraph, R (>= 2.15.1)
@@ -29838,6 +29832,11 @@ Version: 1.0-9
 Depends: R (>= 2.13.0), utils, tools, methods, brew
 License: GPL-2
 NeedsCompilation: yes
+
+Package: RootsExtremaInflections
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
 
 Package: rootSolve
 Version: 1.6.5
