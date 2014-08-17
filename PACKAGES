@@ -25808,7 +25808,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: PTAk
-Version: 1.2-6
+Version: 1.2-9
 Depends: tensor
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27621,7 +27621,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppParallel
-Version: 4.2.5.1
+Version: 4.2.5.3
+Suggests: Rcpp, testthat
 License: GPL-2
 NeedsCompilation: yes
 
