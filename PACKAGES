@@ -4048,8 +4048,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CCTpack
-Version: 1.2
-Depends: R2jags
+Version: 1.3
+Depends: R2jags (>= 0.04-03)
 Imports: tcltk, rjags, psych, mvtnorm, polycor, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -17513,7 +17513,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: LPmerge
-Version: 1.5
+Version: 1.6
 Depends: Rglpk, Matrix
 License: GPL-3
 NeedsCompilation: no
