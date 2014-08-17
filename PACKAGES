@@ -5247,7 +5247,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: complmrob
-Version: 0.5.4
+Version: 0.5.5
 Imports: robustbase, ggplot2, boot, parallel, scales
 License: GPL (>= 2)
 NeedsCompilation: no
