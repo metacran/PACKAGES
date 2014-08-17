@@ -27123,15 +27123,15 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rcdk
-Version: 3.2.3.2
+Version: 3.2.9.1
 Depends: fingerprint
-Imports: rJava, rcdklibs (>= 1.5.4), methods, png, iterators
+Imports: rJava, rcdklibs (>= 1.5.8), methods, png, iterators
 Suggests: xtable, RUnit
 License: LGPL
 NeedsCompilation: no
 
 Package: rcdklibs
-Version: 1.5.4
+Version: 1.5.8.3
 Depends: R (>= 2.0.0), rJava
 License: LGPL
 NeedsCompilation: no
