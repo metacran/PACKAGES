@@ -1370,11 +1370,6 @@ Suggests: RSEIS
 License: GPL
 NeedsCompilation: yes
 
-Package: attfad
-Version: 1.1
-License: GPL-2
-NeedsCompilation: yes
-
 Package: AUC
 Version: 0.3.0
 License: GPL (>= 2)
@@ -1589,11 +1584,6 @@ Version: 0.1-0
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: Barnard
-Version: 1.3
-License: GPL-2
-NeedsCompilation: yes
-
 Package: bartMachine
 Version: 1.0.2
 Depends: R (>= 2.14.0), rJava (>= 0.8-4), car, randomForest, missForest
@@ -1606,13 +1596,6 @@ Depends: R (>= 2.15), stats, MASS
 Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: BaSAR
-Version: 1.3
-Depends: polynom, orthopolynom
-Suggests: fields
-License: GPL-2
-NeedsCompilation: no
 
 Package: base64
 Version: 1.1
@@ -3110,12 +3093,6 @@ Package: boa
 Version: 1.1.7-2
 Depends: R (>= 1.7)
 License: GPL-2
-NeedsCompilation: no
-
-Package: BOG
-Version: 1.1
-Depends: R(>= 2.10.0), hash, DIME
-License: GPL-3
 NeedsCompilation: no
 
 Package: boilerpipeR
@@ -9244,12 +9221,6 @@ Package: esotericR
 Version: 1.0
 License: GPL-2
 NeedsCompilation: yes
-
-Package: ESPRESSO
-Version: 2.0
-Depends: MASS
-License: GPL-2
-NeedsCompilation: no
 
 Package: EstCRM
 Version: 1.3
@@ -15678,11 +15649,6 @@ Depends: R (>= 2.14), R2jags, Matching, boot
 License: GPL-3
 NeedsCompilation: no
 
-Package: ivbma
-Version: 1.02
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: ivfixed
 Version: 1.0
 Imports: Formula
@@ -17418,11 +17384,6 @@ Suggests: MASS, survival
 License: GPL-2
 NeedsCompilation: no
 
-Package: logregperm
-Version: 1.0
-License: GPL-3
-NeedsCompilation: no
-
 Package: logspline
 Version: 2.1.5
 License: GPL (>= 2)
@@ -18972,13 +18933,6 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: lava.tobit (>= 0.4-7), prodlim, testthat, ucminf
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: MetSizeR
-Version: 0.99
-Depends: R (>= 2.6.0), gWidgets, cairoDevice, pscl, gtools,
-        MetabolAnalyze
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: MetStaT
 Version: 1.0
@@ -20999,6 +20953,11 @@ Version: 1.20.0
 Depends: R (>= 2.15.0), parallel, statmod
 License: GPL (>= 3) | file LICENSE
 Archs: i386, x64
+NeedsCompilation: yes
+
+Package: mvrtn
+Version: 1.0
+License: LGPL (>= 2.0, < 3) | Mozilla Public License
 NeedsCompilation: yes
 
 Package: mvsf
@@ -26235,13 +26194,6 @@ Suggests: xtable
 License: LGPL (>= 2)
 NeedsCompilation: yes
 
-Package: QuACN
-Version: 1.7.4
-Depends: graph, RBGL, combinat, Rmpfr
-Imports: igraph
-License: LGPL
-NeedsCompilation: yes
-
 Package: quad
 Version: 1.0
 Imports: PearsonDS
@@ -27941,9 +27893,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: recommenderlab
-Version: 0.1-4
-Depends: R (>= 2.10.0), methods, Matrix, registry, arules (>= 1.0-1),
-        proxy
+Version: 0.1-5
+Depends: R (>= 2.10.0), Matrix, registry, arules (>= 1.0-1), proxy
+Imports: methods
 Suggests: ROCR
 License: GPL-2
 NeedsCompilation: no
@@ -28036,12 +27988,6 @@ Package: RegClust
 Version: 1.0
 Depends: R (>= 3.0.2)
 License: Artistic-2.0
-NeedsCompilation: no
-
-Package: REGENT
-Version: 1.0.5
-Depends: R (>= 2.14.0)
-License: GPL
 NeedsCompilation: no
 
 Package: registry
@@ -28896,12 +28842,6 @@ Suggests: png, testthat
 License: GPL-3
 NeedsCompilation: no
 
-Package: RImpala
-Version: 0.1.3
-Depends: R (>= 2.7.0), rJava (>= 0.5-0)
-License: GPL-3
-NeedsCompilation: no
-
 Package: rinat
 Version: 0.1.4
 Imports: httr, plyr, jsonlite, ggplot2, maps
@@ -29106,12 +29046,6 @@ Version: 1.3-0
 Imports: methods
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
-
-Package: RJSONLD
-Version: 1.0.3
-Imports: RJSONIO,formula.tools,methods,stringr,lmtest
-License: MIT + file LICENSE
-NeedsCompilation: no
 
 Package: rJython
 Version: 0.0-4
@@ -29588,9 +29522,8 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: robCompositions
-Version: 1.8.0
-Depends: R (>= 2.10), utils, robustbase, rrcov, car (>= 2.0-0), MASS,
-        pls
+Version: 1.9.0
+Depends: R (>= 2.10), utils, robustbase, rrcov, GGally, MASS, pls
 License: GPL-2
 NeedsCompilation: yes
 
@@ -32454,11 +32387,6 @@ Package: sigclust
 Version: 1.1.0
 Depends: R (>= 2.4.0), methods
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: SightabilityModel
-Version: 1.2
-License: GPL-2
 NeedsCompilation: no
 
 Package: signal
@@ -35863,12 +35791,6 @@ Depends: R (>= 1.5.0)
 License: GPL (>= 3)
 NeedsCompilation: no
 
-Package: TFDEA
-Version: 0.9.4
-Depends: R (>= 3.0.0), lpSolveAPI
-License: GPL-2
-NeedsCompilation: no
-
 Package: tfer
 Version: 1.1
 Depends: methods
@@ -36045,12 +35967,6 @@ NeedsCompilation: yes
 Package: TilePlot
 Version: 1.3.1
 License: GPL-2
-NeedsCompilation: no
-
-Package: tilting
-Version: 1.0
-Depends: mvtnorm
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: timeDate
@@ -37130,11 +37046,6 @@ Version: 1.0-3
 License: LGPL
 NeedsCompilation: no
 
-Package: UBCRM
-Version: 1.0
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: ucbthesis
 Version: 1.0
 Depends: R (>= 3.1.0)
@@ -37501,12 +37412,6 @@ Version: 1.01
 Depends: R (>= 3.0.2), DoE.wrapper, AlgDesign
 Imports: permute
 License: GPL-2
-NeedsCompilation: no
-
-Package: vec2dtransf
-Version: 1.0
-Depends: sp, methods
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vecsets
