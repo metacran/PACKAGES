@@ -2547,11 +2547,10 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: bigmemory.sri
-Version: 0.1.2
-Depends: methods
+Version: 0.1.3
+Imports: methods
 Enhances: bigmemory, synchronicity
-License: LGPL-3
-OS_type: unix
+License: LGPL-3 | Apache License 2.0
 NeedsCompilation: no
 
 Package: bigml
@@ -17040,7 +17039,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: list
-Version: 6.1
+Version: 7.0
 Depends: R (>= 3.0.0), utils, sandwich (>= 2.2-10)
 Imports: VGAM (>= 0.9-0), magic (>= 1.5-4), gamlss.dist (>= 4.2-0),
         MASS (>= 7.3-26), quadprog (>= 1.5-4), arm (>= 1.6-05), corpcor
@@ -23864,12 +23863,6 @@ Imports: corpcor, gnm, matlab, Matrix, signal
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
-Package: PerfMeas
-Version: 1.1
-Depends: limma, graph, RBGL
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: PerformanceAnalytics
 Version: 1.1.0
 Depends: R (>= 2.14.0), zoo, xts (>= 0.8-9)
@@ -24162,6 +24155,11 @@ Package: PhViD
 Version: 1.0.6
 Depends: R (>= 2.10), LBE, MCMCpack
 License: GPL-2
+NeedsCompilation: no
+
+Package: PhyActBedRest
+Version: 1.0
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: phyclust
@@ -24824,7 +24822,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pollstR
-Version: 1.0.2
+Version: 1.1.0
 Depends: R (>= 3.0.3)
 Imports: httr, plyr, jsonlite
 Suggests: knitr, dplyr, ggplot2, testthat
