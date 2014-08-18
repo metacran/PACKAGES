@@ -12138,7 +12138,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GetoptLong
-Version: 0.0.5
+Version: 0.0.6
 Depends: R (>= 2.10.0)
 Imports: rjson
 Suggests: testthat (>= 0.3)
@@ -36919,7 +36919,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: TukeyC
-Version: 1.1-4
+Version: 1.1-5
 Depends: R (>= 2.6.0), base
 License: GPL (>= 2)
 NeedsCompilation: no
