@@ -13176,7 +13176,7 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: grplasso
-Version: 0.4-3
+Version: 0.4-4
 Depends: methods
 License: GPL
 NeedsCompilation: no
@@ -38064,6 +38064,13 @@ Version: 1.09
 Depends: R (>= 2.10.0), chron, survival, sp, maptools, spatstat, ICSNP,
         ks
 Suggests: gpclib
+License: GPL-3
+NeedsCompilation: no
+
+Package: wildlifeDI
+Version: 0.1
+Imports: sp, rgeos, adehabitatLT
+Suggests: knitr, adehabitatHR
 License: GPL-3
 NeedsCompilation: no
 
