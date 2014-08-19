@@ -16345,7 +16345,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: laeken
-Version: 0.4.5
+Version: 0.4.6
 Depends: R (>= 2.10.0), boot, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27252,6 +27252,12 @@ NeedsCompilation: no
 Package: RcmdrPlugin.EBM
 Version: 1.0-3
 Depends: R (>= 2.10), Rcmdr (>= 1.7.0), epiR, abind
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RcmdrPlugin.EcoVirtual
+Version: 0.1
+Depends: Rcmdr (>= 1.4-0), EcoVirtual
 License: GPL (>= 2)
 NeedsCompilation: no
 
