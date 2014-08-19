@@ -9600,7 +9600,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: extlasso
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.1.1)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -26533,9 +26533,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: R6
-Version: 1.0.1
+Version: 2.0
 Depends: R (>= 3.0)
-Suggests: knitr, microbenchmark, testthat
+Suggests: knitr, pryr, testthat,
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -32464,11 +32464,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Sim.DiffProc
-Version: 2.7
-Depends: R (>= 2.15.1)
-Suggests: rgl, scatterplot3d
+Version: 2.8
+Depends: R (>= 2.15.1), scatterplot3d, rgl
 License: GPL (>= 3) | file LICENCE
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: simecol
 Version: 0.8-4
