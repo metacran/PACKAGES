@@ -27257,7 +27257,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.EZR
-Version: 1.24
+Version: 1.25
 Depends: R (>= 3.00)
 Imports: Rcmdr (>= 2.0.0)
 Suggests: abind, aod, aplpack, car, clinfun, cmprsk, foreign, meta,
@@ -28931,9 +28931,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: rite
-Version: 0.3.1
-Imports: tcltk, tcltk2, RCurl, tools
-Suggests: knitr, markdown
+Version: 0.3.4
+Imports: tcltk, tcltk2, RCurl, tools, knitr, markdown
 License: GPL-2
 NeedsCompilation: no
 
