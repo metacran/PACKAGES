@@ -6824,12 +6824,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dendextend
-Version: 0.16.1
+Version: 0.17.1
 Depends: R (>= 3.0.0)
-Imports: utils, stats, magrittr (>= 1.0.1), whisker, ape
-Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, plyr, profdpm,
-        microbenchmark, colorspace, gplots,
-        DendSer,labeltodendro,dendroextras, dynamicTreeCut, ggdendro
+Imports: utils, stats, magrittr (>= 1.0.1), whisker
+Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, colorspace, plyr,
+        profdpm, microbenchmark, gplots, DendSer, dynamicTreeCut,
+        pvclust
+Enhances: ggdendro, labeltodendro,dendroextras, ape
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -8019,6 +8020,14 @@ Version: 1.0.1
 Depends: shapefiles, splancs, mrds, mgcv, methods
 Suggests: testthat, parallel
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: DStree
+Version: 1.0
+Depends: rpart,pec,Ecdat
+Imports: rpart.plot,survival, Rcpp
+LinkingTo: Rcpp
+License: GPL-2
 NeedsCompilation: no
 
 Package: DTComPair
@@ -23166,7 +23175,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-15
+Version: 1.0-16
 Depends: R (>= 2.14.0), methods, grid, zoo, sandwich (>= 1.1-1),
         strucchange, stats, modeltools (>= 0.2-21)
 Imports: survival, coin
@@ -35594,7 +35603,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: teigen
-Version: 2.0.1
+Version: 2.0.7
 Imports: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
