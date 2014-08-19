@@ -1636,6 +1636,12 @@ Suggests: snowfall
 License: GPL
 NeedsCompilation: no
 
+Package: BAT
+Version: 1.0
+Depends: R (>= 3.0.0), vegan
+License: GPL-3
+NeedsCompilation: no
+
 Package: batade
 Version: 0.1
 Depends: hwriter
@@ -10070,7 +10076,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: FD
-Version: 1.0-11
+Version: 1.0-12
 Depends: ade4, ape, geometry, vegan
 License: GPL-2
 NeedsCompilation: yes
