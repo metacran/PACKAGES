@@ -3086,8 +3086,8 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: bold
-Version: 0.1.2
-Imports: XML, httr, stringr, assertthat
+Version: 0.2.0
+Imports: XML, httr, stringr, assertthat, jsonlite, reshape, plyr
 Suggests: knitr, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -4007,9 +4007,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CCTpack
-Version: 1.3
+Version: 1.4
 Depends: R2jags (>= 0.04-03)
-Imports: tcltk, rjags, psych, mvtnorm, polycor, MASS
+Imports: tcltk, rjags, psych, mvtnorm, polycor, MASS, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29529,7 +29529,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: robumeta
-Version: 1.2
+Version: 1.3
 Depends: grid
 License: GPL-2
 NeedsCompilation: no
