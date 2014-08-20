@@ -20880,7 +20880,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mvnfast
-Version: 0.1.2
+Version: 0.1.3
 Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp, RcppArmadillo, BH
 Suggests: knitr, testthat, mvtnorm, microbenchmark, MASS, plyr
