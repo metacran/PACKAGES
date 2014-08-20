@@ -746,11 +746,6 @@ Imports: graphics, stats
 License: GPL
 NeedsCompilation: no
 
-Package: anaglyph
-Version: 0.1-1
-License: GPL-2
-NeedsCompilation: no
-
 Package: analogue
 Version: 0.12-0
 Depends: R (>= 2.15.0), vegan (>= 1.17-12), lattice, rgl
@@ -1182,7 +1177,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: arules
-Version: 1.1-4
+Version: 1.1-5
 Depends: R (>= 2.14.2), Matrix (>= 1.0-0)
 Imports: stats, methods
 Suggests: pmml, XML, arulesViz, testthat
@@ -6923,6 +6918,16 @@ Suggests: robustbase, MASS
 License: GPL-2
 NeedsCompilation: yes
 
+Package: DepthProc
+Version: 1.0
+Depends: R (>= 3.0.0), ggplot2, Rcpp (>= 0.11.2), rrcov, np, methods,
+        MASS
+Imports: lattice, sm, geometry
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: mvtnorm, rgl, sn, robustbase,
+License: GPL-2
+NeedsCompilation: yes
+
 Package: depthTools
 Version: 0.4
 Depends: R (>= 2.8.0)
@@ -12558,7 +12563,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: GLSME
-Version: 1.0.1
+Version: 1.0.2
 Depends: R(>= 2.9.1), mvtnorm, corpcor
 Suggests: ape, mvSLOUCH, ouch
 License: GPL (>= 2) | file LICENCE
@@ -14523,7 +14528,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hydrostats
-Version: 0.2
+Version: 0.2.1
 Suggests: plyr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -17321,7 +17326,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: logitchoice
-Version: 0.9.1
+Version: 0.9.2
 License: GPL-2
 NeedsCompilation: yes
 
@@ -18156,6 +18161,12 @@ Imports: methods
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: matpow
+Version: 0.1.1
+Suggests: bigmemory, gputools
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: Matrix
 Version: 1.1-4
 Priority: recommended
@@ -18803,6 +18814,13 @@ Depends: R (>= 2.10.0), foreach
 Suggests: MASS, GEOquery, pcaPP, affy, hgu133plus2.db, doMC, doSMP,
         ellipse, impute
 License: GPL-2
+NeedsCompilation: no
+
+Package: metaplus
+Version: 0.6-0
+Depends: R(>= 3.1.0), bbmle, metafor
+Imports: boot, methods, numDeriv
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MetaQC
@@ -19947,9 +19965,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mokken
-Version: 2.7.5
-Depends: R (>= 2.8.1)
-Suggests: poLCA
+Version: 2.7.7
+Depends: R (>= 2.8.1), graphics, poLCA
+Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -22356,10 +22374,10 @@ License: BSD
 NeedsCompilation: yes
 
 Package: opencpu
-Version: 1.4.3
+Version: 1.4.4
 Depends: R (>= 3.0.0)
 Imports: parallel, tools, stats, evaluate (>= 0.5.1), httpuv (>= 1.3),
-        knitr (>= 1.4), jsonlite (>= 0.9.8), devtools (>= 1.5), httr
+        knitr (>= 1.4), jsonlite (>= 0.9.9), devtools (>= 1.5), httr
         (>= 0.3), brew, pander
 Suggests: RAppArmor, sendmailR, RProtoBuf (>= 0.4)
 License: Apache License 2.0
@@ -23129,12 +23147,6 @@ Version: 1.0.2
 License: AGPL-3
 NeedsCompilation: yes
 
-Package: parspatstat
-Version: 0.1-4
-Depends: R (>= 2.14.0), Rmpi (>= 0.6-3), spatstat (>= 1.31-1), methods
-License: GPL-2
-NeedsCompilation: no
-
 Package: partDSA
 Version: 0.9.5
 Depends: R (>= 2.5), survival
@@ -23881,13 +23893,6 @@ Package: PF
 Version: 9.5
 Depends: methods, grid, xtable, RColorBrewer, gdata
 License: MIT + file LICENSE
-NeedsCompilation: no
-
-Package: pfa
-Version: 1.0
-Depends: lars, POET, quantreg
-Suggests: MASS
-License: GPL-2
 NeedsCompilation: no
 
 Package: pgam
@@ -24690,11 +24695,6 @@ NeedsCompilation: no
 Package: pocrm
 Version: 0.8
 Depends: dfcrm, nnet
-License: GPL-2
-NeedsCompilation: no
-
-Package: POET
-Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -25746,7 +25746,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: PtProcess
-Version: 3.3-1
+Version: 3.3-6
 Suggests: snow
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27034,20 +27034,6 @@ Depends: R (>= 2.6.0)
 License: GPL-2
 NeedsCompilation: yes
 
-Package: rcdk
-Version: 3.2.9.1
-Depends: fingerprint
-Imports: rJava, rcdklibs (>= 1.5.8), methods, png, iterators
-Suggests: xtable, RUnit
-License: LGPL
-NeedsCompilation: no
-
-Package: rcdklibs
-Version: 1.5.8.3
-Depends: R (>= 2.0.0), rJava
-License: LGPL
-NeedsCompilation: no
-
 Package: RCEIM
 Version: 0.1
 Suggests: multicore
@@ -27159,13 +27145,6 @@ Package: RcmdrPlugin.depthTools
 Version: 1.3
 Depends: Rcmdr (>= 1.4-0), tcltk, depthTools
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: RcmdrPlugin.doBy
-Version: 0.1-3
-Depends: Rcmdr (>= 1.9-2), doBy
-Imports: tcltk
-License: GPL-2
 NeedsCompilation: no
 
 Package: RcmdrPlugin.DoE
@@ -28039,8 +28018,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: reldist
-Version: 1.6-2
-Suggests: locfit, mgcv
+Version: 1.6-3
+Depends: mgcv
+Suggests: locfit
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
@@ -28460,6 +28440,13 @@ NeedsCompilation: no
 Package: RFreak
 Version: 0.3-0
 Imports: methods, rJava (>= 0.5.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RGA
+Version: 0.1.1
+Depends: R (>= 2.15.1)
+Imports: RCurl, jsonlite, httr (>= 0.3), httpuv, shiny (>= 0.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29542,7 +29529,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: robumeta
-Version: 1.1
+Version: 1.2
 Depends: grid
 License: GPL-2
 NeedsCompilation: no
@@ -30503,6 +30490,13 @@ Version: 1.6
 Depends: R (>= 2.3.0)
 License: GPL
 NeedsCompilation: yes
+
+Package: rsunlight
+Version: 0.3.0
+Imports: httr, plyr, jsonlite, stringr, assertthat
+Suggests: knitr, testthat, rCharts
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: RSurvey
 Version: 0.8-0
@@ -32553,12 +32547,6 @@ Suggests: ggplot2, knitr, parallel, boot, RUnit
 License: GPL-3
 NeedsCompilation: no
 
-Package: SimuChemPC
-Version: 1.3
-Depends: stats, graphics, grDevices, utils, rcdk, R (>= 2.13)
-License: GPL-3
-NeedsCompilation: no
-
 Package: SimultAnR
 Version: 1.1
 License: GPL (>= 2)
@@ -32749,12 +32737,6 @@ Imports: mgcv (>= 1.7.18)
 Suggests: gam (>= 1.09)
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: sltl
-Version: 1.0
-Depends: R (>= 2.10), FitAR, timeSeries, lubridate
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: sm
 Version: 2.2-5.4
@@ -35541,7 +35523,7 @@ License: LGPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: TDA
-Version: 1.0
+Version: 1.1
 Depends: FNN, igraph, parallel, scales
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -38130,6 +38112,13 @@ Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: x.ent
+Version: 0.0.4
+Depends: R (>= 3.0.0),opencpu,rJava
+Imports: stringr,xtable,jsonlite,venneuler
+License: GPL-3
+NeedsCompilation: no
 
 Package: xergm
 Version: 1.1
