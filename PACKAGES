@@ -23681,7 +23681,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pegas
-Version: 0.5-1
+Version: 0.6
 Depends: R (>= 2.6.0), ape (>= 2.4), adegenet
 Imports: graphics, utils
 License: GPL (>= 2)
