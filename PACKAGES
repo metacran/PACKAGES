@@ -24261,7 +24261,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PKfit
-Version: 1.2.2
+Version: 1.2.3
 Depends: R (>= 2.12.0)
 Imports: stats4, deSolve, minpack.lm
 License: GPL (>= 2)
@@ -27478,7 +27478,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppEigen
-Version: 0.3.2.1.2
+Version: 0.3.2.2.0
 Depends: R (>= 2.15.1)
 Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
