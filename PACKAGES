@@ -31337,7 +31337,7 @@ License: CeCILL-2 | GPL-2
 NeedsCompilation: no
 
 Package: scholar
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 2.15.1)
 Imports: stringr, plyr, R.cache, XML
 Suggests: roxygen2
