@@ -17334,7 +17334,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: logitchoice
-Version: 0.9.2
+Version: 0.9.2.1
 License: GPL-2
 NeedsCompilation: yes
 
