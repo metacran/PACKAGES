@@ -36886,7 +36886,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: tuple
-Version: 0.3-06
+Version: 0.4-01
 Depends: R (>= 2.10.0)
 License: LGPL-3
 NeedsCompilation: no
@@ -37514,7 +37514,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: visova
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.11.0)
 Imports: methods, RJSONIO, utils, tools
 License: GPL (>= 2)
