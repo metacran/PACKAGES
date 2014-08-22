@@ -29160,13 +29160,6 @@ Depends: R (>= 2.11.0), base, MASS, lavaan, e1071
 License: GPL-2
 NeedsCompilation: yes
 
-Package: RMessenger
-Version: 0.1.5
-Imports: methods, Rcpp (>= 0.9.9)
-LinkingTo: Rcpp
-License: GPL (>= 3)
-NeedsCompilation: yes
-
 Package: rmeta
 Version: 2.16
 Depends: grid
