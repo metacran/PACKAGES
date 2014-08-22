@@ -8251,12 +8251,6 @@ Suggests: mda
 License: GPL-3
 NeedsCompilation: yes
 
-Package: easi
-Version: 0.2
-Depends: systemfit, stats, micEcon
-License: GPL (>= 2.0)
-NeedsCompilation: no
-
 Package: easingr
 Version: 1.0.0
 Imports: utils, xts, lattice, latticeExtra
@@ -29074,7 +29068,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlist
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 2.15)
 Imports: stringdist, data.table, yaml, jsonlite
 Suggests: testthat, knitr, pipeR
@@ -38042,15 +38036,16 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wpp2012
-Version: 2.2-0
+Version: 2.2-1
 Depends: R (>= 2.14.2)
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wppExplorer
-Version: 1.3-0
+Version: 1.4-0
 Depends: R (>= 3.0.0)
-Imports: shiny, plyr, reshape2, googleVis, wpp2012, Hmisc, ggplot2
+Imports: shiny (>= 0.10.0), plyr, reshape2, googleVis, wpp2012, Hmisc,
+        ggplot2
 Suggests: wpp2008, wpp2010
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -38217,7 +38212,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: xlsxjars
-Version: 0.6.0
+Version: 0.6.1
 Depends: rJava
 License: GPL-3
 NeedsCompilation: no
