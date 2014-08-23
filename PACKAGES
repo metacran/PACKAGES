@@ -722,7 +722,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: AMOEBA
-Version: 1.0
+Version: 1.1
 Depends: snowfall, rlecuyer, spdep
 Suggests: maptools, plotrix,
 License: GPL (>= 2)
@@ -38189,11 +38189,6 @@ Package: xgobi
 Version: 1.2-15
 License: file LICENSE
 License_restricts_use: no
-NeedsCompilation: no
-
-Package: xgrid
-Version: 1.0-1
-License: GPL
 NeedsCompilation: no
 
 Package: xhmmScripts
