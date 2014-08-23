@@ -37082,6 +37082,12 @@ Imports: DoseFinding, MASS, mvtnorm, quadprog, SEL, splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: unittest
+Version: 1.0-0
+Depends: R (>= 3.0.0)
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: unmarked
 Version: 0.10-4
 Depends: R (>= 2.12.0), methods, reshape, lattice, Rcpp (>= 0.8.0)
