@@ -14108,7 +14108,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: HLSM
-Version: 0.2
+Version: 0.4
 Depends: R (>= 3.0.0)
 Imports: MASS, coda
 License: GPL (> 3)
@@ -19590,6 +19590,14 @@ Imports: methods, plyr, reshape2, ggplot2
 Suggests: testthat, roxygen2
 License: GPL-3
 NeedsCompilation: no
+
+Package: mkde
+Version: 0.1
+Depends: R (>= 2.10)
+Imports: Rcpp (>= 0.9.6), raster, sp
+LinkingTo: Rcpp
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: mkin
 Version: 0.9-32
@@ -25246,6 +25254,11 @@ Depends: R (>= 2.2.0)
 License: Unlimited
 NeedsCompilation: no
 
+Package: preseqR
+Version: 1.0
+License: GPL-3
+NeedsCompilation: yes
+
 Package: PResiduals
 Version: 0.2-0
 Imports: Formula, rms, sandwich, actuar
@@ -25520,8 +25533,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: protr
-Version: 0.2-1
-Suggests: Biostrings, GOSemSim, foreach, doParallel, doMC
+Version: 0.3-1
+Suggests: Biostrings, GOSemSim, foreach, doParallel
 License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
@@ -30367,7 +30380,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RsimMosaic
-Version: 1.0.1
+Version: 1.0.2
+Depends: R (>= 3.1.0)
 Imports: jpeg, fields, RANN
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -31378,7 +31392,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: schoRsch
-Version: 1.0
+Version: 1.1
 License: GPL
 NeedsCompilation: no
 
@@ -33273,6 +33287,12 @@ Package: somplot
 Version: 1.6.4
 Depends: hexbin
 License: GPL-2
+NeedsCompilation: no
+
+Package: sonicLength
+Version: 1.4.4
+Depends: R (>= 2.14.0), splines
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: soobench
