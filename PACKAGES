@@ -13202,7 +13202,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gsDesign
-Version: 2.8-8
+Version: 2.9-2
 Depends: R (>= 3.0.0), ggplot2, xtable, stringr, RUnit, plyr
 Suggests: knitr
 License: GPL (>= 2)
