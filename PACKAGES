@@ -16301,8 +16301,8 @@ License: MIT
 NeedsCompilation: no
 
 Package: labeling
-Version: 0.2
-License: MIT | Unlimited
+Version: 0.3
+License: MIT + file LICENSE | Unlimited
 NeedsCompilation: no
 
 Package: label.switching
