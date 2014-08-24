@@ -8830,7 +8830,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: EMP
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.0.0)
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -27171,13 +27171,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.0-4
-Depends: R (>= 3.0.0), grDevices, utils, splines
-Imports: tcltk, tcltk2 (>= 1.2-6)
-Suggests: abind, aplpack, car (>= 2.0-18), colorspace, effects (>=
-        1.0-7), e1071, foreign, grid, Hmisc, knitr, lattice, leaps,
-        lmtest, markdown, MASS, mgcv, multcomp (>= 0.991-2), nlme,
-        nnet, relimp, rgl, RODBC, sem (>= 2.1-1)
+Version: 2.1-0
+Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-1),
+        car (>= 2.0-21)
+Imports: tcltk, tcltk2 (>= 1.2-6), markdown, knitr, abind
+Suggests: aplpack, colorspace, effects (>= 3.0-1), e1071, foreign,
+        grid, Hmisc, lattice, leaps, lmtest, MASS, mgcv, multcomp (>=
+        0.991-2), nlme, nnet, relimp, rgl, rJava, RODBC, sem (>= 2.1-1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
