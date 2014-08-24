@@ -18028,7 +18028,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markdown
-Version: 0.7.2
+Version: 0.7.4
 Depends: R (>= 2.11.1)
 Imports: mime (>= 0.1.1)
 Suggests: knitr, RCurl
