@@ -5611,6 +5611,14 @@ Version: 1.0-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: CosmoPhotoz
+Version: 0.1
+Depends: R (>= 3.0)
+Imports: ggplot2, ggthemes, arm, COUNT, gridExtra, pcaPP, mvtnorm,
+        shiny
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: cosmosR
 Version: 1.0
 Depends: xlsx
@@ -34481,11 +34489,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: StereoMorph
-Version: 1.1
-Imports: bezier (>= 1.1), grid, rjson, shiny
-Suggests: rgl
-License: GPL-2
-NeedsCompilation: no
+Version: 1.2
+Depends: R (>= 2.11.0)
+Imports: bezier (>= 1.1), grid, rjson, shiny, Rcpp (>= 0.9.9), jpeg
+LinkingTo: Rcpp
+Suggests: rgl, RUnit
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: stilt
 Version: 1.0.1
