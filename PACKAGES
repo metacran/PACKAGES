@@ -3767,12 +3767,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: caret
-Version: 6.0-34
+Version: 6.0-35
 Depends: R (>= 2.10), stats, lattice (>= 0.20), ggplot2
 Imports: car, reshape2, foreach, methods, plyr, nlme, BradleyTerry2
-Suggests: e1071, earth (>= 2.2-3), ellipse, fastICA, gam, ipred,
-        kernlab, klaR, MASS, mda, mgcv, mlbench, nnet, party (>=
-        0.9-99992), pls, pROC, proxy, randomForest, RANN, spls, affy
+Suggests: e1071, earth (>= 2.2-3), fastICA, gam, ipred, kernlab, klaR,
+        MASS, ellipse, mda, mgcv, mlbench, nnet, party (>= 0.9-99992),
+        pls, pROC, proxy, randomForest, RANN, spls
 License: GPL-2
 NeedsCompilation: yes
 
@@ -14594,7 +14594,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.0.1
+Version: 1.0.2
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
 Imports: MASS, geometry, igraph
 LinkingTo: Rcpp
