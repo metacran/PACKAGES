@@ -5128,14 +5128,14 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: commandr
-Version: 0.9.5
-Depends: R (>= 2.15.0), methods
-Imports: methods, utils
+Version: 1.0.1
+Depends: methods
+Imports: utils
 License: Artistic-2.0
 NeedsCompilation: no
 
 Package: CommonJavaJars
-Version: 1.0-4
+Version: 1.0-5
 Depends: R (>= 2.8.0)
 Suggests: rJava
 License: GPL-2
@@ -13554,7 +13554,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: hapassoc
-Version: 1.2-6
+Version: 1.2-7
 Depends: R (>= 2.6.0), stats
 License: GPL-2
 NeedsCompilation: yes
@@ -20818,9 +20818,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: mutossGUI
-Version: 0.1-8
-Depends: R (>= 2.8.0), rJava (>= 0.8-0), JavaGD (>= 0.5-2),
-        CommonJavaJars (>= 1.0.3), plotrix, mutoss (>= 0.1-6), multcomp
+Version: 0.1-9
+Depends: R (>= 2.8.0), mutoss (>= 0.1-6), multcomp, plotrix
+Imports: rJava (>= 0.8-0), JavaGD (>= 0.5-2), CommonJavaJars (>=
+        1.0.4), JGR
 License: GPL
 NeedsCompilation: no
 
@@ -21193,7 +21194,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ncdf
-Version: 1.6.7
+Version: 1.6.8
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26893,12 +26894,12 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rasterVis
-Version: 0.28
+Version: 0.31
 Depends: R (>= 2.14.0), methods, raster (>= 2.0-12), lattice,
         latticeExtra, hexbin
 Imports: grid, grDevices, sp (>= 1.0-6), zoo, RColorBrewer
-Suggests: parallel, mgcv, rgl, ggplot2, colorspace, dichromat
-License: GPL-3 | file LICENSE
+Suggests: parallel, rgl, ggplot2, colorspace, dichromat
+License: GPL-3
 NeedsCompilation: no
 
 Package: rateratio.test
@@ -31616,7 +31617,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sde
-Version: 2.0.10
+Version: 2.0.13
 Depends: MASS, stats4, fda, zoo
 License: GPL (>= 2)
 NeedsCompilation: yes
