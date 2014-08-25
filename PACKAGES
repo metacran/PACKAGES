@@ -3223,6 +3223,14 @@ Imports: parallel
 License: GPL-2
 NeedsCompilation: no
 
+Package: boral
+Version: 0.4
+Depends: coda
+Imports: R2jags, mvtnorm, fishMod, MASS
+Suggests: mvabund (>= 3.8.4), corrplot
+License: GPL-2
+NeedsCompilation: no
+
 Package: Boruta
 Version: 3.1.0
 Depends: R (>= 2.0.0), randomForest, rFerns
@@ -9415,9 +9423,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: exact2x2
-Version: 1.3.0
+Version: 1.4.0
 Depends: stats, exactci, ssanv
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: exactci
@@ -28157,6 +28165,14 @@ NeedsCompilation: yes
 Package: remMap
 Version: 0.1-0
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: remote
+Version: 0.3.0
+Depends: R (>= 2.10), Rcpp (>= 0.10.3), raster, foreach, methods
+LinkingTo: Rcpp
+Suggests: maps, lattice, latticeExtra, grid, gridExtra, sp
+License: GPL (>= 3) | file LICENSE
 NeedsCompilation: yes
 
 Package: Renext
