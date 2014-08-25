@@ -8119,6 +8119,11 @@ Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
 
+Package: dunn.test
+Version: 1.1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: dupiR
 Version: 1.1
 Depends: R (>= 2.15.1), methods, plotrix
@@ -10801,8 +10806,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: formatR
-Version: 0.10
-Suggests: codetools, gWidgetsRGtk2, testit, knitr
+Version: 1.0
+Suggests: codetools, shiny, testit, knitr
 License: GPL
 NeedsCompilation: no
 
@@ -27659,9 +27664,9 @@ License: BSD
 NeedsCompilation: yes
 
 Package: Rd2roxygen
-Version: 1.4
-Imports: roxygen2 (>= 2.1), formatR (> 0.8)
-Suggests: knitr
+Version: 1.5
+Imports: roxygen2 (>= 3.1.0), formatR (>= 1.0)
+Suggests: knitr (> 1.5)
 License: GPL
 NeedsCompilation: no
 
