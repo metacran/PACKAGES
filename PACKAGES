@@ -20746,6 +20746,11 @@ Suggests: parallel, lmtest
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
+Package: MultNonParam
+Version: 1.0
+License: GPL-2
+NeedsCompilation: yes
+
 Package: multxpert
 Version: 0.1
 Depends: R (>= 2.1.0), stats, mvtnorm (>= 0.9)
