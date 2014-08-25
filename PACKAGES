@@ -12948,9 +12948,9 @@ License: LGPL-3
 NeedsCompilation: yes
 
 Package: granova
-Version: 2.0.1
-Depends: R (>= 2.12.0), car
-Suggests: mgcv, rgl, MASS
+Version: 2.1
+Depends: R (>= 3.1.1), car (>= 2.0-21)
+Suggests: mgcv, rgl, tcltk, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21101,7 +21101,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: nanop
-Version: 2.0-3
+Version: 2.0-4
 Imports: distrEx, rgl
 Suggests: DEoptim, mco
 License: GPL (>= 2)
@@ -33129,6 +33129,12 @@ Package: SNPtools
 Version: 1.1
 Depends: R (>= 2.10), IRanges, GenomicRanges, Biostrings, Rsamtools
 License: GPL-3
+NeedsCompilation: no
+
+Package: sns
+Version: 0.9
+Imports: mvtnorm
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SNSequate
