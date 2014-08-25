@@ -24074,9 +24074,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phenology
-Version: 3.69
+Version: 3.72
 Depends: fields, zoo, coda, shiny, R (>= 2.14.0)
-Suggests: ncdf4, ncdf, RNetCDF, XML, maps
+Suggests: RNetCDF, XML, maps
 License: GPL-2
 NeedsCompilation: no
 
