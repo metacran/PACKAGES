@@ -6938,16 +6938,6 @@ Suggests: robustbase, MASS
 License: GPL-2
 NeedsCompilation: yes
 
-Package: DepthProc
-Version: 1.0
-Depends: R (>= 3.0.0), ggplot2, Rcpp (>= 0.11.2), rrcov, np, methods,
-        MASS
-Imports: lattice, sm, geometry
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: mvtnorm, rgl, sn, robustbase,
-License: GPL-2
-NeedsCompilation: yes
-
 Package: depthTools
 Version: 0.4
 Depends: R (>= 2.8.0)
@@ -21789,8 +21779,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nopp
-Version: 1.0.3
-Depends: R (>= 2.10), mlogit, MASS
+Version: 1.0.4
+Depends: R (>= 2.10), mlogit
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28206,14 +28196,6 @@ LinkingTo: Rcpp
 License: GPL (>= 3)
 NeedsCompilation: yes
 
-Package: Reot
-Version: 0.1.0
-Depends: R (>= 2.10), Rcpp (>= 0.10.3), raster, foreach
-LinkingTo: Rcpp
-Suggests: latticeExtra, gridExtra, mapdata, scales
-License: GPL (>= 3)
-NeedsCompilation: yes
-
 Package: RepeatedHighDim
 Version: 2.0.0
 Depends: MASS, nlme
@@ -32332,7 +32314,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shotGroups
-Version: 0.5
+Version: 0.6
 Depends: R (>= 2.15.2)
 Imports: boot, coin, CompQuadForm, energy, graphics, grDevices,
         KernSmooth, mvoutlier, robustbase, stats, utils
