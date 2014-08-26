@@ -12626,9 +12626,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: gmatrix
-Version: 0.1
+Version: 0.2
 Depends: methods
 License: GPL-2
+OS_type: unix
 NeedsCompilation: yes
 
 Package: GMCM
@@ -26625,7 +26626,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: raincpc
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.2)
 Imports: SDMTools
 Suggests: knitr, raster, ggplot2
@@ -30029,9 +30030,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 0.8
+Version: 0.9
 Depends: R(>= 3.1.0), dplyr (>= 0.2), RSQLite, RSQLite.extfuns
-Imports: Rcpp, DBI, lubridate, plyr, reshape2, assertthat
+Imports: Rcpp, DBI, lubridate, reshape2, assertthat
 LinkingTo: Rcpp (>= 0.11.1)
 Suggests: knitr
 License: MIT + file LICENSE
@@ -30944,12 +30945,6 @@ NeedsCompilation: yes
 Package: Rwinsteps
 Version: 1.0-1
 Depends: R (>= 2.12.0)
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: rwm
-Version: 1.53
-Depends: R (>= 2.0.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37646,7 +37641,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: visreg
-Version: 2.0-5
+Version: 2.0-6
 Imports: lattice
 Suggests: rgl, survival, MASS, nlme
 License: GPL-2
