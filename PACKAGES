@@ -4139,6 +4139,12 @@ Depends: R (>= 2.15.0)
 License: GPL (>= 3.0)
 NeedsCompilation: no
 
+Package: cents
+Version: 0.1-41
+Depends: R (>= 2.1.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: CePa
 Version: 0.5
 Depends: R (>= 2.10.0), igraph (>= 0.6), stats, snow
@@ -9676,7 +9682,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: extRemes
-Version: 2.0-2
+Version: 2.0-3
 Depends: R (>= 2.10.0), Lmoments, distillery, car
 License: GPL (>= 2)
 NeedsCompilation: no
