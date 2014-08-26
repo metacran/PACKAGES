@@ -3117,8 +3117,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BoolNet
-Version: 2.0
-Suggests: igraph (>= 0.6), XML
+Version: 2.0.1
+Imports: igraph (>= 0.6), XML
 License: Artistic-2.0
 NeedsCompilation: yes
 
@@ -14419,9 +14419,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HTSCluster
-Version: 2.0.3
-Depends: R (>= 2.10.0), plotrix, ggplot2, RColorBrewer
-Imports: edgeR, poisson.glm.mix
+Version: 2.0.4
+Depends: R (>= 2.10.0), capushe
+Imports: edgeR, poisson.glm.mix, plotrix
+Suggests: HTSFilter, Biobase
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -19270,9 +19271,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: minerva
-Version: 1.4
+Version: 1.4.1
 Depends: R (>= 2.14.0)
-Enhances: parallel
+Imports: parallel
 License: GPL-3
 NeedsCompilation: yes
 
@@ -36368,6 +36369,13 @@ Depends: stats, lgtdl
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: TR8
+Version: 0.8
+Depends: R (>= 2.10), XML, RCurl, plyr, methods, taxize
+Imports: gWidgets
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: track
 Version: 1.0-15
 Depends: R (>= 2.1.0), methods
@@ -36743,7 +36751,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: tsDyn
-Version: 0.9-33
+Version: 0.9-41
 Imports: mnormt, mgcv, nnet, tseriesChaos, tseries, utils, vars, urca,
         forecast, MASS, Matrix, foreach
 Suggests: sm, scatterplot3d, rgl, FinTS
@@ -37331,9 +37339,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vardpoor
-Version: 0.2.0.9.2
+Version: 0.2.0.12
 Depends: R (>= 3.0.0), data.table (>= 1.9.2), laeken
-Imports: reshape2, foreach, lpSolve, plyr, gdata
+Imports: reshape2, foreach, lpSolve, plyr, gdata, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
