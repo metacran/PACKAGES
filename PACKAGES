@@ -32436,12 +32436,6 @@ Suggests: pracma
 License: GPL-2
 NeedsCompilation: yes
 
-Package: signalextraction
-Version: 2.0.3
-Suggests: tcltk
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: signal.hsmm
 Version: 1.0
 Depends: R (>= 3.0.0)
