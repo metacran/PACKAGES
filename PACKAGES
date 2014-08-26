@@ -8856,7 +8856,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: emplik
-Version: 0.9-9-5
+Version: 0.9-9-6
 Depends: R (>= 2.15), quantreg
 Suggests: KMsurv, boot
 License: GPL (>= 2)
@@ -18342,7 +18342,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MBmca
-Version: 0.0.3-3
+Version: 0.0.3-4
 Depends: R (>= 3.0.0), robustbase (>= 0.9), chipPCR (>= 0.0.7)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -31969,10 +31969,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensitivity
-Version: 1.8-2
+Version: 1.9
 Depends: R (>= 3.0.0)
 Imports: boot
-Suggests: rgl, evd, numbers, DiceKriging, fanovaGraph
+Suggests: rgl, evd, numbers, DiceKriging, ks, fanovaGraph
 License: GPL-2
 NeedsCompilation: yes
 
