@@ -5931,6 +5931,17 @@ Suggests: MASS
 License: GPL-2
 NeedsCompilation: no
 
+Package: Crossover
+Version: 0.1-10
+Depends: R (>= 3.0.2), rJava (>= 0.8-3), CommonJavaJars (>= 1.0.5),
+        JavaGD, ggplot2
+Imports: MASS, crossdes (>= 1.1-1), xtable, methods, Matrix, multcomp,
+        stats4, digest
+LinkingTo: Rcpp (>= 0.10.3), RcppArmadillo (>= 0.2.0)
+Suggests: knitr, RUnit, nlme
+License: GPL-2
+NeedsCompilation: yes
+
 Package: crossReg
 Version: 1.0
 Suggests: boot, MASS
@@ -6719,6 +6730,12 @@ NeedsCompilation: no
 Package: DECIDE
 Version: 1.1
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: decompr
+Version: 1.1
+Depends: R (>= 2.10)
+License: GPL-3
 NeedsCompilation: no
 
 Package: decon
@@ -25652,11 +25669,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pscl
-Version: 1.04.4
-Depends: R (>= 2.10.0), MASS, stats, mvtnorm, coda, gam, vcd
-Imports: lattice
-Suggests: MCMCpack, car, lmtest, sandwich, zoo
-Enhances: stats, MASS
+Version: 1.4.6
+Depends: R (>= 2.10.0), MASS, lattice
+Suggests: MCMCpack, car, lmtest, sandwich, zoo, coda, gam, vcd, mvtnorm
+Enhances: stats
 License: GPL-2
 NeedsCompilation: yes
 
@@ -32376,6 +32392,13 @@ NeedsCompilation: no
 Package: SHIP
 Version: 1.0.2
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: shopifyr
+Version: 0.28
+Depends: R (>= 3.0), RCurl
+Imports: R6 (>= 2.0), RJSONIO
+License: GPL-3
 NeedsCompilation: no
 
 Package: shotGroups
