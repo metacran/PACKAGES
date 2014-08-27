@@ -2345,10 +2345,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: bfast
-Version: 1.4.4
-Depends: R (>= 2.0.0), graphics, stats, strucchange, MASS, forecast,
-        zoo, raster, sp
-Imports: graphics, stats, strucchange, zoo, raster
+Version: 1.5.7
+Depends: R (>= 2.15.0)
+Imports: graphics, stats, strucchange, zoo, forecast, sp, raster
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7877,6 +7876,12 @@ Depends: R (>= 2.12.0)
 Imports: stats
 Suggests: plyr, testthat
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: dotenv
+Version: 1.0
+Imports: magrittr, falsy
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: DoubleCone
@@ -13487,7 +13492,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gWidgets
-Version: 0.0-53
+Version: 0.0-54
 Depends: methods, utils
 Suggests: gWidgetstcltk
 License: GPL (>= 2)
@@ -28288,6 +28293,12 @@ Imports: locfdr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: replicationInterval
+Version: 0.1
+Imports: MBESS
+License: Unlimited
+NeedsCompilation: no
+
 Package: repmis
 Version: 0.2.9
 Depends: R (>= 3.0.0)
@@ -30824,8 +30835,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: Runuran
-Version: 0.20.0
-Depends: R (>= 2.4.0), methods
+Version: 0.21.0
+Depends: R (>= 3.0.0), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -36474,6 +36485,15 @@ Package: traitr
 Version: 0.13
 Depends: digest, proto, gWidgets
 Suggests: RGtk2, testthat
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: trajectories
+Version: 0.1-0
+Depends: R (>= 2.14.0)
+Imports: methods, lattice, sp (>= 1.0-14), spacetime (>= 1.0-0), rgdal,
+        rgeos
+Suggests: rgl, OpenStreetMap, RCurl, rjson, adehabitatLT
 License: GPL (>= 2)
 NeedsCompilation: no
 
