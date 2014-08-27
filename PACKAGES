@@ -13368,7 +13368,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gsubfn
-Version: 0.6-5
+Version: 0.6-6
 Depends: R (>= 2.15.0), proto
 Suggests: boot, chron, doBy, grid, lattice, quantreg, reshape, svUnit,
         tcltk, zoo
@@ -17174,6 +17174,12 @@ Version: 1.0
 Depends: MASS, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: lmeVarComp
+Version: 1.0
+Suggests: RLRsim, varComp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: lmf
 Version: 1.2
