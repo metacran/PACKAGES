@@ -12657,12 +12657,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GMD
-Version: 0.3.1.1
-Depends: R (>= 2.9.0), stats, grDevices, gplots
+Version: 0.3.3
+Depends: R (>= 3.1.0)
+Imports: stats, grDevices, gplots
 Suggests: datasets, MASS, cluster
-Enhances: stats, cluster, gplots
 License: GPL (>= 2)
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: Gmisc
 Version: 0.6.7
@@ -31938,7 +31938,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiParSampleSel
-Version: 1.1
+Version: 1.1-1
 Depends: R (>= 2.15.1), copula, mgcv, mvtnorm
 Imports: magic, trust, Matrix
 License: GPL (>= 2)
