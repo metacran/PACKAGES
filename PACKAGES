@@ -9775,8 +9775,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FactoMineR
-Version: 1.26
-Imports: car,ellipse,lattice,cluster,scatterplot3d,leaps
+Version: 1.27
+Depends: R (>= 2.12.0)
+Imports: car,MASS,ellipse,lattice,cluster,scatterplot3d,leaps
 Suggests: missMDA,flashClust
 License: GPL (>= 2)
 NeedsCompilation: no
