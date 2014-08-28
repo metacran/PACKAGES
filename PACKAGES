@@ -4305,7 +4305,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: cheddar
-Version: 0.1-625
+Version: 0.1-626
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -11112,18 +11112,18 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fscaret
-Version: 0.8.5.6
+Version: 0.8.5.7
 Depends: R (>= 3.0.0), caret, gsubfn, utils, parallel
 Suggests: ada, arm, Boruta, bst, C50, car, caTools, class, Cubist,
         e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree,
         extraTrees, fastICA, foba, gam, gbm (>= 2.1), glmnet (>= 1.8),
-        grid, hda, HDclassif, HiDimDA, Hmisc, ipred, kernlab, kknn,
-        klaR, kohonen, KRLS, lars, leaps, LogicReg, MASS, mboost, mda,
-        mgcv, mlbench, neuralnet, nnet, nodeHarvest, obliqueRF, pamr,
+        grid, hda, HDclassif, Hmisc, ipred, kernlab, kknn, klaR,
+        kohonen, KRLS, lars, leaps, LogicReg, MASS, mboost, mda, mgcv,
+        mlbench, neuralnet, nnet, nodeHarvest, obliqueRF, pamr,
         partDSA, party (>= 0.9-99992), penalized, penalizedLDA, pls,
         pROC, proxy, qrnn, quantregForest, randomForest, RANN, relaxo,
         rFerns, rocc, rpart, rrcov, RRF, rrlda, RSNNS, RWeka (>=
-        0.4-1), sda, SDDA, sparseLDA (>= 0.1-1), spls, stepPlr,superpc
+        0.4-1), sda, sparseLDA (>= 0.1-1), spls, stepPlr, superpc
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -12120,10 +12120,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: georob
-Version: 0.1-4
+Version: 0.1-5
 Depends: R(>= 2.14.0), sp(>= 0.9-60)
 Imports: constrainedKriging(>= 0.2-1), lmtest, nlme, nleqslv, quantreg,
-        RandomFields(>= 3.0.10), robustbase(>= 0.90-2)
+        RandomFields(>= 3.0.10), robustbase(>= 0.90-2), snowfall(>=
+        1.84-6)
 Suggests: geoR
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23267,6 +23268,14 @@ Version: 1.0.2
 License: AGPL-3
 NeedsCompilation: yes
 
+Package: parsedate
+Version: 1.0.2
+Depends: methods
+Imports: lubridate
+Suggests: testthat
+License: GPL-2
+NeedsCompilation: yes
+
 Package: partDSA
 Version: 0.9.5
 Depends: R (>= 2.5), survival
@@ -26328,7 +26337,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: QuantifQuantile
-Version: 0.2
+Version: 1.0
 Depends: rgl
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -36493,7 +36502,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: trajectories
-Version: 0.1-0
+Version: 0.1-1
 Depends: R (>= 2.14.0)
 Imports: methods, lattice, sp (>= 1.0-14), spacetime (>= 1.0-0), rgdal,
         rgeos
