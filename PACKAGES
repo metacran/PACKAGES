@@ -4200,9 +4200,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cgAUC
-Version: 1.1.2
-License: GPL-2
-NeedsCompilation: no
+Version: 1.2.1
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: cgdsr
 Version: 1.1.30
@@ -10018,10 +10020,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fastR
-Version: 0.4-2
-Depends: R (>= 2.10), lattice, grid, mosaic
+Version: 0.8-1
+Depends: R (>= 3.0.0), mosaic
+Imports: lattice, grid, mosaicData
 Suggests: MASS, faraway, Hmisc, DAAG, multcomp, vcd, car, alr3,
-        corrgram, BradleyTerry2, cubature, Devore6
+        corrgram, BradleyTerry2, cubature, Devore6, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -14960,7 +14963,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ifultools
-Version: 2.0-0
+Version: 2.0-1
 Depends: R (>= 3.0.2), splus2R (>= 1.2-0), MASS
 License: GPL-2
 NeedsCompilation: yes
@@ -16583,7 +16586,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LatticeKrig
-Version: 3.3
+Version: 3.4
 Depends: R (>= 3.0.1), spam, fields (>= 6.9.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -27015,8 +27018,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rAvis
-Version: 0.1.1
-Depends: R (>= 3.0.1)
+Version: 0.1.2
+Depends: R (>= 2.10)
 Imports: stringr, XML, RCurl, scrapeR, gdata, scales, rgdal, maptools,
         raster, sp, tools
 Suggests: testthat, roxygen2
@@ -33810,7 +33813,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: spatstat
-Version: 1.38-0
+Version: 1.38-1
 Depends: R (>= 3.0.2), stats, graphics, grDevices, utils
 Imports: mgcv, deldir (>= 0.0-21), abind, tensor, polyclip (>= 1.3-0),
         goftest
