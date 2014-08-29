@@ -15369,6 +15369,11 @@ Suggests: XML, rhdf5, yaml, jsonlite
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: iosmooth
+Version: 0.91
+License: GPL
+NeedsCompilation: no
+
 Package: ipdmeta
 Version: 2.4
 Depends: nlme, methods
@@ -19870,8 +19875,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mme
-Version: 0.1-4
-Depends: R (>= 1.8.0), mixstock, MASS, Matrix
+Version: 0.1-5
+Depends: R (>= 1.8.0), MASS
+Imports: Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29043,7 +29049,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: riverplot
-Version: 0.2
+Version: 0.3
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
