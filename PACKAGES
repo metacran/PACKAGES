@@ -2743,6 +2743,13 @@ Suggests: ade4, foreign, Hmisc, mgcv, gam
 License: GPL-2
 NeedsCompilation: no
 
+Package: BIOM.utils
+Version: 0.9
+Depends: R (>= 3.0), utils
+Suggests: RJSONIO, MGRASTer
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: no
+
 Package: biopara
 Version: 1.5
 License: GPL
@@ -5602,8 +5609,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: corrgram
-Version: 1.5
-Depends: graphics, seriation, stats
+Version: 1.6
+Imports: graphics, seriation, stats
+Suggests: knitr, Matrix
 License: GPL-2
 NeedsCompilation: no
 
@@ -9142,6 +9150,11 @@ Package: epitools
 Version: 0.5-7
 Depends: R (>= 2.1.0)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: Eplot
+Version: 1.0
+License: GPL-2
 NeedsCompilation: no
 
 Package: epoc
@@ -19119,8 +19132,8 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: MGSDA
-Version: 1.0
-Imports: glmnet
+Version: 1.1
+Imports: glmnet, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25848,18 +25861,19 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: psychotools
-Version: 0.2-0
+Version: 0.3-0
 Depends: R (>= 2.10.0)
 Imports: graphics, stats
+Suggests: multcomp, Formula
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: psychotree
-Version: 0.13-0
-Depends: R (>= 2.10.0), party, psychotools (>= 0.2-0)
-Imports: graphics, stats, modeltools (>= 0.2-21), sandwich, strucchange
-Suggests: colorspace
-License: GPL-2
+Version: 0.14-0
+Depends: R (>= 2.15.0), partykit (>= 0.2-0), psychotools (>= 0.3-0)
+Imports: graphics, grid, stats, Formula
+Suggests: colorspace, strucchange
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: psyphy
@@ -27177,7 +27191,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: Rcapture
-Version: 1.3-1
+Version: 1.4-2
 Imports: stats, graphics
 License: GPL-2
 NeedsCompilation: no
@@ -27360,6 +27374,13 @@ Imports: Rcmdr (>= 2.0.0)
 Suggests: abind, aod, aplpack, car, clinfun, cmprsk, foreign, meta,
         metatest, multcomp, mvtnorm, optmatch, pROC, RODBC, tableone,
         XLConnect
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RcmdrPlugin.FactoMineR
+Version: 1.5-0
+Depends: FactoMineR
+Imports: Rcmdr (>= 2.0-0), tcltk
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34287,7 +34308,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: no
 
 Package: SQUAREM
-Version: 2012.7-1
+Version: 2014.8-1
 Depends: R (>= 2.10.0)
 Suggests: setRNG
 License: GPL (>= 2)
@@ -37079,9 +37100,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ttScreening
-Version: 1.3
-Depends: R (>= 3.0.2)
-Imports: limma, sva, matrixStats, corpcor
+Version: 1.4
+Depends: sva, limma, matrixStats, corpcor, stats, MASS
 License: Artistic-2.0
 NeedsCompilation: no
 
