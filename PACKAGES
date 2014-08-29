@@ -6724,7 +6724,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: decompr
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10)
 License: GPL-3
 NeedsCompilation: no
@@ -11025,8 +11025,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FreeSortR
-Version: 1.0
-Depends: methods, smacof, vegan, ellipse
+Version: 1.1
+Depends: R (>= 3.1), methods, smacof, vegan, ellipse
 License: GPL-2
 NeedsCompilation: no
 
