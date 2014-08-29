@@ -9696,7 +9696,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: extraTrees
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 Suggests: testthat, Matrix
 License: Apache License 2.0
@@ -16451,6 +16451,13 @@ Suggests: R2jags
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: lakemorpho
+Version: 1.0
+Depends: R (>= 2.10), maptools
+Imports: rgdal, raster, rgeos, sp, geosphere
+License: CC0
+NeedsCompilation: no
+
 Package: Lambda4
 Version: 3.0
 Suggests: mice, GPArotation, testthat
@@ -19082,7 +19089,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: mgcv
-Version: 1.8-2
+Version: 1.8-3
 Priority: recommended
 Depends: R (>= 2.14.0), nlme (>= 3.1-64)
 Imports: methods, stats, graphics, Matrix
@@ -27366,8 +27373,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.IPSUR
-Version: 0.1-8
-Depends: Rcmdr (>= 1.4-0)
+Version: 0.2-0
+Imports: Rcmdr (>= 2.1-0)
 Suggests: abind, car, distr, distrEx, e1071, effects (>= 1.0-7),
         foreign, grid, lattice, lmtest, MASS, mgcv, multcomp (>=
         0.991-2), nlme, nnet, qcc, relimp, RODBC
