@@ -2386,7 +2386,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BH
-Version: 1.54.0-3
+Version: 1.54.0-4
 License: BSL-1.0
 NeedsCompilation: no
 
@@ -2814,7 +2814,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: birk
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -5223,6 +5223,13 @@ Package: compeir
 Version: 1.0
 Depends: grid, lattice, etm
 License: GPL-2
+NeedsCompilation: no
+
+Package: compendiumdb
+Version: 0.1.0
+Depends: Biobase, RMySQL
+Suggests: inSilicoDb, limma, hgu133a.db, GSVA, GSVAdata
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CompGLM
@@ -37063,10 +37070,11 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: turboEM
-Version: 2012.2-1
-Depends: R (>= 2.12.0), numDeriv, methods, graphics, quantreg, foreach
-Suggests: setRNG, doSNOW
-License: GPL (>= 2)
+Version: 2014.8-1
+Depends: R (>= 2.12.0), doParallel, foreach, numDeriv, quantreg
+Imports: iterators
+Suggests: setRNG
+License: GPL-2
 NeedsCompilation: no
 
 Package: turfR
