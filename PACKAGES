@@ -1702,10 +1702,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesFactor
-Version: 0.9.7
+Version: 0.9.8
 Depends: R (>= 3.0.0), coda, methods
 Imports: pbapply, mvtnorm, stringr, utils, graphics
-Suggests: doMC, testthat, knitr, markdown, arm, lme4, xtable, languageR
+Suggests: doMC, foreach, testthat, knitr, markdown, arm, lme4, xtable,
+        languageR
 License: GPL-2
 NeedsCompilation: yes
 
@@ -37768,9 +37769,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: vows
-Version: 0.2-1
-Depends: R (>= 2.9.0), fda, gamm4, RLRsim, Rniftilib, rpanel (>=
-        1.1-1), shape, stringr, tcltk, tkrplot
+Version: 0.3
+Depends: R (>= 2.9.0), fda, gamm4, rpanel (>= 1.1-1)
+Imports: mgcv, RLRsim, Rniftilib, shape, stringr
 License: GPL (>= 2)
 NeedsCompilation: no
 
