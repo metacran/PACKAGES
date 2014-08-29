@@ -747,10 +747,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: analogue
-Version: 0.12-0
-Depends: R (>= 2.15.0), vegan (>= 1.17-12), lattice, rgl
-Imports: mgcv, MASS, stats, graphics, grid, brglm, princurve
-Suggests: testthat
+Version: 0.14-0
+Depends: R (>= 2.15.0), vegan (>= 1.17-12)
+Imports: mgcv, MASS, stats, graphics, grid, brglm, princurve, lattice
+Suggests: rgl, testthat
 License: GPL-2
 NeedsCompilation: yes
 
@@ -1566,12 +1566,6 @@ Package: bark
 Version: 0.1-0
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: bartMachine
-Version: 1.0.2
-Depends: R (>= 2.14.0), rJava (>= 0.8-4), car, randomForest, missForest
-License: GPL-2 | GPL-3 | MIT + file LICENSE
-NeedsCompilation: no
 
 Package: BAS
 Version: 1.0
@@ -2574,13 +2568,6 @@ Version: 1.0
 Depends: glmnet,tree,randomForest,gbm
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: bilan
-Version: 2013.12
-Depends: Rcpp (>= 0.9.10)
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: bild
 Version: 1.1-3
@@ -6463,20 +6450,6 @@ Package: datamerge
 Version: 1.0-1
 Depends: xtermStyle
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: dataone
-Version: 1.0.0
-Depends: R (>= 2.9.2), rJava (>= 0.8-5), XML (>= 3.95-0.1), methods,
-        dataonelibs
-Imports: rJava, XML
-License: Apache License 2.0
-NeedsCompilation: no
-
-Package: dataonelibs
-Version: 1.0.0
-Depends: R (>= 2.9.2), rJava (>= 0.8-5)
-License: Apache License 2.0
 NeedsCompilation: no
 
 Package: dataQualityR
@@ -13866,7 +13839,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: heatmap3
-Version: 1.0.4
+Version: 1.0.7
 Imports: fastcluster
 Suggests: knitr
 License: GPL (>= 2)
@@ -14822,7 +14795,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: icamix
-Version: 1.0
+Version: 1.0.1
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: mixtools
@@ -22374,14 +22347,6 @@ LinkingTo: Rcpp, RcppArmadillo (>= 0.2.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: Ohmage
-Version: 2.11-3
-Depends: R (>= 2.14), stats, methods
-Imports: RCurl, RJSONIO
-Suggests: XML
-License: GPL
-NeedsCompilation: no
-
 Package: OIdata
 Version: 1.0
 Depends: RCurl, maps, R (>= 2.10)
@@ -26708,7 +26673,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: raincpc
-Version: 0.3
+Version: 0.4
 Depends: R (>= 3.0.2)
 Imports: SDMTools
 Suggests: knitr, raster, ggplot2
@@ -27239,13 +27204,6 @@ Version: 0.1
 Depends: R (>= 2.10), maxLik, Formula
 Imports: sandwich, ggplot2, plotrix, car, lmtest
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: rChoiceDialogs
-Version: 1.0.4
-Depends: rJava, utils
-Imports: tcltk
-License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: rcicr
@@ -29139,20 +29097,6 @@ Depends: R (>= 2.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: Rjms
-Version: 0.0.5
-Depends: R (>= 2.11.0), rJava (>= 0.6-0), Rjmsjars (>= 0.0.1)
-Imports: rJava (>= 0.6-0), Rjmsjars (>= 0.0.1)
-License: LGPL-3
-NeedsCompilation: no
-
-Package: Rjmsjars
-Version: 0.0.1
-Depends: R (>= 2.11.0), rJava (>= 0.6-0)
-Imports: rJava (>= 0.6-0)
-License: LGPL-3
-NeedsCompilation: no
-
 Package: rJPSGCS
 Version: 0.2-6
 Depends: R (>= 2.12.0), rJava (>= 0.8-4), chopsticks (>= 1.18.0),
@@ -29505,21 +29449,6 @@ Package: rnbn
 Version: 1.0.0
 Depends: RCurl, RJSONIO, tcltk
 License: MIT + file LICENSE
-NeedsCompilation: no
-
-Package: RNCBI
-Version: 0.9.1
-Depends: R (>= 2.9.0), rJava (>= 0.8), XML (>= 2.8), RNCBIEUtilsLibs,
-        RNCBIAxis2Libs
-Imports: methods
-License: GPL-3
-NeedsCompilation: no
-
-Package: RNCBIAxis2Libs
-Version: 0.9
-Depends: R (>= 2.9.0), rJava (>= 0.8)
-Imports: methods
-License: GPL-3
 NeedsCompilation: no
 
 Package: RNCBIEUtilsLibs
@@ -30322,18 +30251,6 @@ Imports: stats4, norm
 Suggests: grid, lattice, cluster
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: rrdf
-Version: 2.0.2
-Depends: R (>= 2.0.0), rJava, rrdflibs (>= 1.3.0)
-License: AGPL-3
-NeedsCompilation: no
-
-Package: rrdflibs
-Version: 1.3.0
-Depends: R (>= 2.0.0), rJava
-License: AGPL-3
-NeedsCompilation: no
 
 Package: Rrdrand
 Version: 0.1-9
@@ -33997,11 +33914,6 @@ Package: speedglm
 Version: 0.2
 Depends: Matrix
 License: GPL
-NeedsCompilation: no
-
-Package: speedRlibs
-Version: 1.1-36
-License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: speedRlibTF
