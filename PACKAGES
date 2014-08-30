@@ -1041,6 +1041,13 @@ Suggests: MASS, vcd, mlbench, ggplot2, TSP
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: archivist
+Version: 1.0
+Depends: R (>= 3.0.0), RSQLite, DBI, lubridate, jsonlite
+Imports: RCurl, digest, httr
+License: GPL-2
+NeedsCompilation: no
+
 Package: ArDec
 Version: 2.0
 License: GPL (>= 2)
@@ -10975,7 +10982,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: frailtypack
-Version: 2.6.1
+Version: 2.7
 Depends: R (>= 2.10), survival, boot, MASS, survC1
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -15916,7 +15923,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: jvmr
-Version: 2.11.1.1
+Version: 2.11.2.1
 Imports: rJava
 License: GPL (>= 2) | BSD_3_clause + file LICENSE
 NeedsCompilation: no
@@ -22144,7 +22151,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nsRFA
-Version: 0.7-11
+Version: 0.7-12
 Depends: R (>= 3.0.0), stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23244,7 +23251,7 @@ License: AGPL-3
 NeedsCompilation: yes
 
 Package: parsedate
-Version: 1.0.2
+Version: 1.0.3
 Depends: methods
 Imports: lubridate
 Suggests: testthat
@@ -23893,9 +23900,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Peptides
-Version: 0.4
+Version: 1.0
 Depends: seqinr , R (>= 2.10.0)
-License: GPL (>= 2)
+Suggests: RUnit
+License: GPL-2
 NeedsCompilation: no
 
 Package: pequod
@@ -35031,7 +35039,7 @@ License: LGPL (>= 2)
 NeedsCompilation: yes
 
 Package: survivalMPL
-Version: 0.1.0
+Version: 0.1.1
 Depends: survival
 License: LGPL (>= 2)
 NeedsCompilation: yes
