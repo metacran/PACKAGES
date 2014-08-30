@@ -18486,8 +18486,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: mcIRT
-Version: 0.40
-Depends: R (>= 2.10), Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.1)
+Version: 0.41
+Depends: R (>= 2.14)
+Imports: Rcpp (>= 0.8.0)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: GPL-3
@@ -25014,7 +25015,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PopGenome
-Version: 2.0.8
+Version: 2.0.9
 Depends: R (>= 2.14.2),ff
 Imports: methods
 Suggests: parallel, bigmemory, BASIX, WhopGenome
@@ -32666,14 +32667,16 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 0.46-15
+Version: 0.47-36
 Depends: R (>= 2.15.0)
-Imports: sfsmisc, TAM, CDM, combinat, ic.infer, sm, psych, pbivnorm,
-        gtools, Rcpp (>= 0.11.0), qgraph, lavaan, semPlot, igraph,
-        coda, mvtnorm, MASS
+Imports: sfsmisc, TAM (>= 1.0-3), CDM (>= 3.3), mirt (>= 1.5),
+        combinat, ic.infer, sm, psych, pbivnorm, gtools, Rcpp (>=
+        0.11.0), qgraph, lavaan, semPlot, igraph, coda, mvtnorm, MASS,
+        Matrix
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: eRm, ltm, MCMCglmm, mirt, mokken, mRm, plink, GPArotation,
-        fdrtool, lme4, difR, semTools, MultiLCIRT, rcppbugs, IsingFit
+Suggests: eRm, ltm, MCMCglmm, mokken, mRm, plink, GPArotation, fdrtool,
+        lme4, difR, semTools, MultiLCIRT, rcppbugs, IsingFit,
+        MplusAutomation (>= 0.6)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
