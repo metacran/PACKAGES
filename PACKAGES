@@ -25178,11 +25178,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PP
-Version: 0.2-1
-Depends: R (>= 2.15.0), splines
-Suggests: testthat
-License: GPL
-NeedsCompilation: no
+Version: 0.5
+Depends: R (>= 3.0)
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+Suggests: testthat, roxygen2
+License: GPL-3
+NeedsCompilation: yes
 
 Package: ppcor
 Version: 1.0
@@ -35659,10 +35661,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TDMR
-Version: 1.1
-Depends: R (>= 2.14.0), SPOT, e1071,
-Suggests: adabag, cmaes, parallel, powell, ROCR, twiddler,
-        randomForest, rCMA, rSFA
+Version: 1.2
+Depends: R (>= 2.14.0), testit, SPOT
+Suggests: adabag, cmaes, parallel, e1071, powell, ROCR, randomForest,
+        rCMA, rSFA, twiddler
 License: GPL (>= 2)
 NeedsCompilation: no
 
