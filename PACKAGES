@@ -891,6 +891,11 @@ Imports: lubridate, classInt, reshape2, rgdal, plotKML
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: apc
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: apcluster
 Version: 1.3.5
 Depends: R (>= 3.0.0)
@@ -19980,14 +19985,6 @@ Depends: parallel, party, lattice
 Imports: methods, modeltools
 Suggests: mlbench
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: Mobilize
-Version: 2.16-2
-Depends: R (>= 2.14), stats, methods, Ohmage
-Imports: ggplot2, wordcloud, reshape2
-Suggests: XML, maps
-License: GPL
 NeedsCompilation: no
 
 Package: MOCCA
