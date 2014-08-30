@@ -33208,7 +33208,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sns
-Version: 0.9
+Version: 0.9.1
 Imports: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
