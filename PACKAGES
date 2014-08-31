@@ -4071,11 +4071,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CDM
-Version: 3.3-24
+Version: 3.4-21
 Depends: R (>= 2.15.0), mvtnorm
-Imports: MASS, psych, polycor, sfsmisc, Rcpp (>= 0.11)
+Imports: MASS, psych, polycor, sfsmisc, Rcpp (>= 0.11),
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: sirt, TAM, NPCD, ACTCD, pks
+Suggests: TAM (>= 1.0-3), mirt (>= 1.5), sirt (>= 0.47), NPCD, ACTCD,
+        pks
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -4421,10 +4422,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: chords
-Version: 0.67
-Depends: R (>= 2.10)
+Version: 0.90
+Imports: MASS
 License: GPL-2
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: choroplethr
 Version: 1.7.0
