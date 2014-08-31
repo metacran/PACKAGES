@@ -16666,6 +16666,13 @@ Depends: R (>= 2.10.0), Hmisc, survival
 License: GPL
 NeedsCompilation: no
 
+Package: lbfgs
+Version: 1.2.1
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: lbiassurv
 Version: 1.1
 Depends: R (>= 2.15.0), actuar
@@ -24758,10 +24765,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: pmg
-Version: 0.9-42
-Depends: lattice, MASS, proto, foreign, gWidgets(>= 0.0-36),
-        gWidgetsRGtk2(>= 0.0-53)
-Enhances: iplots, reshape, ggplot2, cairoDevice
+Version: 0.9-43
+Depends: gWidgets, gWidgetsRGtk2, proto, lattice
+Imports: foreign, MASS
+Enhances: reshape, cairoDevice
 License: GPL (>= 2)
 NeedsCompilation: no
 
