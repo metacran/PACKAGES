@@ -27170,6 +27170,20 @@ Depends: R (>= 2.6.0)
 License: GPL-2
 NeedsCompilation: yes
 
+Package: rcdk
+Version: 3.3.0
+Depends: fingerprint
+Imports: rJava, rcdklibs (>= 1.5.8), methods, png, iterators
+Suggests: xtable, RUnit
+License: LGPL
+NeedsCompilation: no
+
+Package: rcdklibs
+Version: 1.5.8.4
+Depends: R (>= 2.0.0), rJava
+License: LGPL
+NeedsCompilation: no
+
 Package: RCEIM
 Version: 0.1
 Suggests: multicore
@@ -32636,6 +32650,12 @@ Version: 1.0
 Depends: R (>= 2.14.0)
 Imports: plyr (>= 1.8.1), reshape (>= 0.8.5)
 Suggests: ggplot2, knitr, parallel, boot, RUnit
+License: GPL-3
+NeedsCompilation: no
+
+Package: SimuChemPC
+Version: 1.3
+Depends: stats, graphics, grDevices, utils, rcdk, R (>= 2.13)
 License: GPL-3
 NeedsCompilation: no
 
