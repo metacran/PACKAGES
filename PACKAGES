@@ -6993,6 +6993,12 @@ Depends: R (>= 2.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: descomponer
+Version: 1.0
+Depends: taRifx
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: descr
 Version: 1.0.3
 Imports: xtable
@@ -8286,7 +8292,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: e1071
-Version: 1.6-3
+Version: 1.6-4
 Imports: graphics, grDevices, class
 Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
         Matrix, MASS
@@ -20676,14 +20682,6 @@ Version: 0.1-2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: multicore
-Version: 0.2
-Depends: R (>= 2.14.0)
-Imports: parallel, tools
-License: GPL-2
-OS_type: unix
-NeedsCompilation: no
-
 Package: multiDimBio
 Version: 0.3.3
 Imports: ggplot2 (>= 0.9.3.1), lme4 (>= 1.0-5), pcaMethods (>= 1.48.0),
@@ -27194,8 +27192,8 @@ License: LGPL
 NeedsCompilation: no
 
 Package: RCEIM
-Version: 0.1
-Suggests: multicore
+Version: 0.2
+Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38301,6 +38299,13 @@ Imports: stats4, utils, methods, statnet, statnet.common, network, sna,
 Suggests: RSiena (>= 1.0.12.169)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: xgboost
+Version: 0.3-0
+Depends: R (>= 2.0.2)
+Imports: Matrix (>= 1.1-0), methods
+License: Apache License (== 2.0) | file LICENSE
+NeedsCompilation: yes
 
 Package: xgobi
 Version: 1.2-15
