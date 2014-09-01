@@ -463,8 +463,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: agricolae
-Version: 1.2-0
-Suggests: akima, klaR, MASS, nlme, cluster, spdep
+Version: 1.2-1
+Imports: klaR, MASS, nlme, cluster, spdep
 License: GPL
 NeedsCompilation: no
 
@@ -12283,10 +12283,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GGIR
-Version: 1.0-4
+Version: 1.0-6
 Depends: stats, utils, R (>= 2.10)
-Imports: GENEAread, matlab
-Suggests: MASS, signal, seewave, zoo, mmap, bitops
+Imports: GENEAread
+Suggests: MASS, signal, seewave, zoo, mmap, bitops, matlab
 License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
@@ -16888,7 +16888,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: lgarch
-Version: 0.4
+Version: 0.5
 Depends: R (>= 2.15.0), zoo
 License: GPL-2
 NeedsCompilation: yes
@@ -21307,9 +21307,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NCmisc
-Version: 1.1
+Version: 1.1.2
 Depends: R (>= 2.10), grDevices, graphics, stats, utils
-Imports: tools, proftools
+Imports: tools, proftools, BiocInstaller
+Suggests: KernSmooth
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26836,9 +26837,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RankAggreg
-Version: 0.4-3
-Depends: R (>= 2.12.0), gtools, clValid
-Suggests: tcltk, xtable, kohonen, mclust
+Version: 0.5
+Depends: R (>= 2.12.0)
+Imports: gtools
+Suggests: xtable, kohonen, mclust, clValid
 License: LGPL
 NeedsCompilation: yes
 
@@ -27894,7 +27896,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: reader
-Version: 1.0.1
+Version: 1.0.4
 Depends: R (>= 2.10), utils, NCmisc (>= 1.1)
 Imports: grDevices, graphics, stats
 License: GPL (>= 2)
@@ -30351,14 +30353,6 @@ Version: 0.1-5
 Depends: R (>= 2.4.0)
 License: GPL-2
 NeedsCompilation: yes
-
-Package: rsdmx
-Version: 0.3
-Depends: R (>= 2.15)
-Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
-Suggests: testthat
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: RSeed
 Version: 0.1.31
