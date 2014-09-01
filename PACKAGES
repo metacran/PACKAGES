@@ -23712,6 +23712,11 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: pdR
+Version: 1.1
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PDSCE
 Version: 1.2
 Depends: R (>= 2.10)
@@ -28609,7 +28614,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RGA
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 2.15.1)
 Imports: RCurl, jsonlite, httr (>= 0.3), httpuv, shiny (>= 0.10.0)
 License: GPL (>= 2)
