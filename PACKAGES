@@ -19612,7 +19612,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mixOmics
-Version: 5.0-2
+Version: 5.0-3
 Depends: R (>= 2.10), MASS, lattice
 Imports: RGCCA, igraph, rgl, pheatmap
 License: GPL (>= 2)
@@ -21373,12 +21373,6 @@ Depends: optimbase (>= 1.0-9), optimsimplex (>= 1.0-5), methods
 License: CeCILL-2
 NeedsCompilation: no
 
-Package: Nemenyi
-Version: 1.2
-Depends: stats
-License: GPL-2
-NeedsCompilation: no
-
 Package: nephro
 Version: 1.0
 License: GPL (>= 3)
@@ -22445,9 +22439,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: OpasnetUtils
-Version: 1.0.0
+Version: 1.1.0
 Imports: methods, rjson, RCurl, reshape2, triangle, httpRequest,
-        digest, xtable
+        digest, xtable, ggplot2, rgdal, sp
 License: GPL-3
 NeedsCompilation: no
 
@@ -35555,6 +35549,13 @@ Suggests: CDM, sirt
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: Tampo
+Version: 1.0
+Depends: R(>= 3.0.2), mvpart
+Suggests: boot, reshape, reshape2, ggplot2, grid, ggdendro, sets, mgcv
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: TANOVA
 Version: 1.0.0
 Depends: R (>= 2.3.0), MASS, splines
@@ -36445,9 +36446,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: traitr
-Version: 0.13
+Version: 0.14
 Depends: digest, proto, gWidgets
-Suggests: RGtk2, testthat
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38162,7 +38163,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: wordnet
-Version: 0.1-9
+Version: 0.1-10
 Imports: rJava (>= 0.6-3)
 License: MIT + file LICENSE
 NeedsCompilation: no
