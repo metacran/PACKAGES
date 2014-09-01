@@ -1791,13 +1791,6 @@ Imports: rjags (>= 2.1.0), coda (>= 0.13)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: BayesNetDiscovery
-Version: 0.1
-Depends: R (>= 3.0.3)
-Imports: DPpackage,igraph,mclust,pscl,tmvtnorm
-License: GPL-2
-NeedsCompilation: no
-
 Package: BayesNI
 Version: 0.1
 License: GPL-2
@@ -27094,9 +27087,9 @@ License: CC0
 NeedsCompilation: no
 
 Package: Rbitcoin
-Version: 0.9
+Version: 0.9.2
 Depends: R (>= 2.10), data.table
-Imports: RJSONIO, RCurl, digest
+Imports: RCurl, digest, RJSONIO
 License: MIT + file LICENSE
 NeedsCompilation: no
 
