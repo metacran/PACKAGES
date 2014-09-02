@@ -10994,6 +10994,12 @@ Imports: emdbook, boot, parallel
 License: GPL-2
 NeedsCompilation: no
 
+Package: Frames2
+Version: 0.0.3
+Depends: sampling
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FRAPO
 Version: 0.3-8
 Depends: R (>= 2.11), methods, quadprog, Rglpk, timeSeries
@@ -31561,7 +31567,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: SCRT
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.14.1)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -31581,7 +31587,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SCVA
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.15.2)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32275,8 +32281,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sgr
-Version: 1.1
-Suggests: MASS, polycor
+Version: 1.2
+Depends: MASS
+Suggests: polycor
 License: GPL (>= 2)
 NeedsCompilation: no
 
