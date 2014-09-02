@@ -8021,7 +8021,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ds
-Version: 2.0
+Version: 3.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -19273,13 +19273,6 @@ Imports: MASS, numDeriv, Matrix
 License: GPL-2 | MIT + file LICENCE
 NeedsCompilation: no
 
-Package: MIfuns
-Version: 5.1
-Depends: reshape, methods, lattice, grid, XML, MASS
-Suggests: chron, fork
-License: GPL
-NeedsCompilation: no
-
 Package: MigClim
 Version: 1.6
 Depends: SDMTools, raster
@@ -25476,7 +25469,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: prodlim
-Version: 1.4.3
+Version: 1.4.5
 Depends: R (>= 1.9.1)
 Imports: stats, survival, KernSmooth, lava
 License: GPL (>= 2)
@@ -35382,7 +35375,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: synbreed
-Version: 0.9-7
+Version: 0.10-1
 Depends: R (>= 2.14), doBy, BLR, regress (>= 1.3-8), abind
 Imports: lattice, igraph, MASS, LDheatmap, qtl, synbreedData (>= 1.3)
 License: GPL-2
