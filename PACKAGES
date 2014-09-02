@@ -6552,9 +6552,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: DBI
-Version: 0.2-7
+Version: 0.3.0
 Depends: R (>= 2.15.0), methods
-Imports: methods
+Suggests: testthat, RSQLite
 License: LGPL (>= 2)
 NeedsCompilation: no
 
@@ -8315,7 +8315,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: easingr
-Version: 1.0.0
+Version: 1.0.1
 Imports: utils, xts, lattice, latticeExtra
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -27180,6 +27180,12 @@ Package: RCassandra
 Version: 0.1-3
 License: GPL-2
 NeedsCompilation: yes
+
+Package: rcbalance
+Version: 1.0
+Depends: R (>= 3.0.0), MASS, plyr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: rcdd
 Version: 1.1-8
