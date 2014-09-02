@@ -9499,7 +9499,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: exactmeta
-Version: 1.0-1
+Version: 1.0-2
 License: GPL-2
 NeedsCompilation: no
 
@@ -19145,7 +19145,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mht
-Version: 3.00
+Version: 3.0.11
 Depends: glmnet
 License: GPL-3
 NeedsCompilation: yes
@@ -34554,11 +34554,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: StereoMorph
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 2.11.0)
 Imports: bezier (>= 1.1), grid, rjson, shiny, Rcpp (>= 0.9.9), jpeg
 LinkingTo: Rcpp
-Suggests: rgl, RUnit
+Suggests: rgl
 License: GPL (>= 2)
 NeedsCompilation: yes
 
