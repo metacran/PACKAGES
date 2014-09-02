@@ -14802,6 +14802,11 @@ Depends: tcltk
 License: GPL
 NeedsCompilation: no
 
+Package: ica
+Version: 1.0-0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: icamix
 Version: 1.0.1
 Imports: Rcpp (>= 0.11.2)
@@ -26898,6 +26903,13 @@ License: GPL | Apache License (== 2.0)
 OS_type: unix
 NeedsCompilation: yes
 
+Package: rappdirs
+Version: 0.3
+Depends: R (>= 2.14), methods
+Suggests: testthat, roxygen2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: rapport
 Version: 0.51
 Depends: R (>= 2.15.0), lattice, plyr, pander, yaml
@@ -29537,8 +29549,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.0.1
-Depends: R (>= 3.1.0)
+Version: 2.0.2
+Depends: R (>= 3.1.1)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6), XML
         (>= 3.98.1.1), GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
 License: GPL (>= 3)
@@ -29938,7 +29950,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: roxygen2
-Version: 4.0.1
+Version: 4.0.2
 Depends: R (>= 3.0.2)
 Imports: stringr (>= 0.5), brew, digest, methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
