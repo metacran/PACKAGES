@@ -22671,6 +22671,12 @@ Version: 1.1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: optrees
+Version: 1.0
+Depends: R (>= 2.7.0), igraph (>= 0.7.1)
+License: GPL-3
+NeedsCompilation: no
+
 Package: ora
 Version: 2.0-1
 Depends: DBI, ROracle
@@ -27779,11 +27785,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: R.devices
-Version: 2.9.2
+Version: 2.11.0
 Depends: R (>= 2.10.0)
-Imports: R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>= 1.32.4),
-        base64enc (>= 0.1-1)
-Suggests: digest (>= 0.6.4), R.rsp (>= 0.15.0)
+Imports: R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>= 1.33.0),
+        base64enc (>= 0.1-2)
+Suggests: digest (>= 0.6.4), R.rsp (>= 0.19.0)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
@@ -30013,9 +30019,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rpg
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0)
-Imports: Rcpp (>= 0.11.1), uuid (>= 0.1-1), RApiSerialize (>= 0.1.0)
+Imports: Rcpp (>= 0.11.1), uuid (>= 0.1-1), RApiSerialize (>= 0.1.0),
+        tcltk (>= 3.0.0)
 LinkingTo: Rcpp, RApiSerialize
 Suggests: foreach (>= 1.4.2), doParallel (>= 1.0.0), hflights (>= 0.1)
 License: GPL (>= 2)
