@@ -9019,7 +9019,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: enviPick
-Version: 1.0
+Version: 1.2
 Depends: R (>= 3.0.1), shiny(>= 0.7.0), readMzXmlData(>= 2.7)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -14490,13 +14490,13 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: httr
-Version: 0.4
+Version: 0.5
 Depends: R (>= 3.0.0)
 Imports: RCurl (>= 1.95-0), stringr (>= 0.6.1), digest, tools, methods,
         jsonlite
 Suggests: XML, testthat (>= 0.8.0), png, jpeg, httpuv, knitr
 License: MIT + file LICENSE
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: huge
 Version: 1.2.6
@@ -21849,7 +21849,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nor1mix
-Version: 1.1-4
+Version: 1.2-0
 Imports: stats, graphics
 Suggests: cluster
 License: GPL (>= 2)
