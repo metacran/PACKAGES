@@ -7736,8 +7736,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: DNAtools
-Version: 0.1-8
+Version: 0.1-21
 Depends: R (>= 2.10.0), Rsolnp, multicool
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -16447,9 +16449,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: laGP
-Version: 1.1
+Version: 1.1-1
 Depends: R (>= 2.14)
-Suggests: mvtnorm, MASS, parallel, akima, tgp
+Imports: tgp, parallel
+Suggests: mvtnorm, MASS, akima
 License: LGPL
 NeedsCompilation: yes
 
@@ -20342,7 +20345,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MPV
-Version: 1.29
+Version: 1.35
 Depends: R (>= 2.0.1)
 License: Unlimited
 NeedsCompilation: no
