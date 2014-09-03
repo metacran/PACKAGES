@@ -14716,6 +14716,14 @@ Imports: data.table, ggplot2
 License: Apache License 2.0
 NeedsCompilation: no
 
+Package: iBATCGH
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: Rcpp (>= 0.11.2), msm
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-2
+NeedsCompilation: yes
+
 Package: ibd
 Version: 1.1
 Depends: R (>= 2.15.1), lpSolve, MASS
@@ -21140,6 +21148,15 @@ Imports: rJava (>= 0.6-3)
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
+Package: nabor
+Version: 0.4.2
+Depends: R (>= 3.0.2)
+Imports: Rcpp (>= 0.11.2), methods
+LinkingTo: Rcpp, RcppEigen (>= 0.3.2.2.0), BH (>= 1.54.0-4)
+Suggests: testthat, RANN
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: yes
+
 Package: nacopula
 Version: 0.8-1
 Depends: copula (>= 0.99-0)
@@ -22988,6 +23005,15 @@ Version: 1.8
 Depends: survival
 Imports: WriteXLS (>= 2.3.0)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: packrat
+Version: 0.4.1
+Depends: R (>= 3.0)
+Imports: tools, utils
+Suggests: testthat (>= 0.7), devtools
+Enhances: knitr, BiocInstaller
+License: GPL-2
 NeedsCompilation: no
 
 Package: packS4
@@ -30369,6 +30395,14 @@ Depends: R (>= 2.4.0)
 License: GPL-2
 NeedsCompilation: yes
 
+Package: rsdmx
+Version: 0.4-1
+Depends: R (>= 2.15)
+Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
+Suggests: testthat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: RSeed
 Version: 0.1.31
 Depends: R (>= 2.15.0), methods, sybil, RBGL, graph
@@ -37310,9 +37344,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: UsingR
-Version: 2.0-1
-Depends: R (>= 2.15.0), MASS, HistData, Hmisc, aplpack, quantreg
-Suggests: zoo, coin, ggplot2, vcd, lubridate
+Version: 2.0-2
+Depends: R (>= 2.15.0), MASS, HistData, Hmisc, quantreg
+Suggests: zoo, coin, ggplot2, vcd, lubridate, aplpack
 License: GPL (>= 2)
 NeedsCompilation: no
 
