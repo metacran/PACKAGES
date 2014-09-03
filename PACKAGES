@@ -4301,7 +4301,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.15.0)
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
@@ -15775,12 +15775,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: jaatha
-Version: 2.5.1
+Version: 2.6
 Depends: R (>= 3.0), methods
 Imports: phyclust (>= 0.1-14), Rcpp (>= 0.11.0), reshape2 (>= 1.4),
         parallel
 LinkingTo: Rcpp
-Suggests: ape (>= 2.7), RUnit
+Suggests: ape (>= 2.7), testthat
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -34870,7 +34870,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stylo
-Version: 0.5.7
+Version: 0.5.8
 Imports: tcltk, tcltk2, ape, pamr, e1071, class, lattice, tsne
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -36386,7 +36386,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tolerance
-Version: 0.5.3
+Version: 1.0.0
 Depends: rgl, stats4
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -37277,8 +37277,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: upclass
-Version: 1.0
-Depends: mclust, classifly, gclus
+Version: 2.0
+Depends: mclust
+Suggests: classifly, gclus
 License: GPL-2
 NeedsCompilation: no
 
@@ -38064,7 +38065,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wgaim
-Version: 1.4-0
+Version: 1.4-3
 Depends: R (>= 2.0.0), qtl, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
