@@ -7773,8 +7773,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: docopt
-Version: 0.1.1
-Imports: stringr, methods
+Version: 0.3
+Depends: methods
+Imports: stringr
 License: MIT +file LICENSE
 NeedsCompilation: no
 
