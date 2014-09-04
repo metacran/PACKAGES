@@ -25266,7 +25266,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: ppls
-Version: 1.6-0
+Version: 1.6-1
 Depends: splines, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
