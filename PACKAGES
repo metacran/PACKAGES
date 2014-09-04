@@ -5468,6 +5468,13 @@ Imports: reshape2, gmp, ggplot2
 License: GPL-2
 NeedsCompilation: no
 
+Package: cooptrees
+Version: 1.0
+Depends: R (>= 2.7.0), igraph (>= 0.7.1), optrees (>= 1.0)
+Imports: gtools
+License: GPL-3
+NeedsCompilation: no
+
 Package: COP
 Version: 1.0-2
 Depends: dr, MASS
@@ -25252,11 +25259,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PP
-Version: 0.5
+Version: 0.5.3
 Depends: R (>= 3.0)
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
-Suggests: testthat, roxygen2
+Suggests: testthat, roxygen2, knitr
 License: GPL-3
 NeedsCompilation: yes
 
@@ -27339,8 +27346,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.1-0
-Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-1),
+Version: 2.1-1
+Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-2),
         car (>= 2.0-21)
 Imports: tcltk, tcltk2 (>= 1.2-6), markdown, knitr, abind
 Suggests: aplpack, colorspace, effects (>= 3.0-1), e1071, foreign,
@@ -27350,7 +27357,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcmdrMisc
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 3.0.0), grDevices, utils, car, sandwich
 Imports: abind, Hmisc, MASS, e1071
 License: GPL (>= 2)
