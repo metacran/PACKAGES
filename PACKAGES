@@ -13881,7 +13881,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: helloJavaWorld
-Version: 0.0-7
+Version: 0.0-9
 Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 License: GPL-3
 NeedsCompilation: no
@@ -17312,9 +17312,9 @@ License: Common Public License Version 1.0
 NeedsCompilation: yes
 
 Package: lmSupport
-Version: 1.07.1
+Version: 2.09
 Depends: car
-Imports: psych, gplots, gvlma, MASS
+Imports: psych, gvlma, AICcmodavg, lme4, pbkrtest
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18501,8 +18501,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MCDA
-Version: 0.0.3
-Depends: R(>= 2.1.0), methods, Rglpk, Kendall, glpkAPI
+Version: 0.0.6
+Imports: Rglpk, Kendall, glpkAPI
 License: CeCILL-2
 NeedsCompilation: no
 
@@ -22009,7 +22009,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NPBayesImpute
-Version: 0.1
+Version: 0.2
 Depends: methods, Rcpp (>= 0.10.2)
 LinkingTo: Rcpp
 License: GPL (>= 3)
@@ -24716,7 +24716,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plsdof
-Version: 0.2-6
+Version: 0.2-7
 Depends: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
