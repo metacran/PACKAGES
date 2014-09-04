@@ -4710,7 +4710,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cluster
-Version: 1.15.2
+Version: 1.15.3
 Priority: recommended
 Depends: R (>= 2.12.0), stats, utils
 Imports: graphics, grDevices
@@ -5843,7 +5843,7 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: Cprob
-Version: 1.2.2
+Version: 1.2.3
 Depends: prodlim
 Imports: tpr, geepack, lgtdl, lattice
 License: GPL (>= 2)
@@ -13677,7 +13677,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: haplo.stats
-Version: 1.6.8
+Version: 1.6.11
 Depends: R (>= 2.15.0)
 Suggests: rms
 License: GPL (>= 2)
@@ -16188,7 +16188,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kmi
-Version: 0.5
+Version: 0.5.1
 Depends: survival
 Imports: mitools
 License: GPL (>= 2)
@@ -34931,6 +34931,11 @@ Package: subplex
 Version: 1.1-4
 Depends: R (>= 2.5.1)
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: subrank
+Version: 0.8.5
+License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: subselect
