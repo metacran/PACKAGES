@@ -10399,7 +10399,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: fICA
-Version: 1.0-0
+Version: 1.0-1
 Imports: JADE
 Suggests: BSSasymp
 License: GPL (>= 2)
