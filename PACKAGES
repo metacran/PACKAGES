@@ -4726,12 +4726,6 @@ Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: clusterCrit
-Version: 1.2.3
-Suggests: RUnit, rbenchmark
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: cluster.datasets
 Version: 1.0-1
 Depends: R (>= 2.0.1)
@@ -11291,12 +11285,6 @@ Imports: MASS, mgcv, mvtnorm, splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: FusedLasso
-Version: 1.0.6
-Depends: Matrix
-License: GPL-3
-NeedsCompilation: yes
-
 Package: FusedPCA
 Version: 0.2
 Depends: R (>= 2.15.1), genlasso
@@ -11774,13 +11762,6 @@ NeedsCompilation: no
 Package: g.data
 Version: 2.4
 License: GPL
-NeedsCompilation: no
-
-Package: GDAtools
-Version: 1.1
-Imports: FactoMineR
-Suggests: cluster, WeightedCluster
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GDELTtools
@@ -13606,8 +13587,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GxM
-Version: 1.0
-Depends: methods, Rcpp, minqa, nlme, parallel
+Version: 1.1
+Imports: methods, Rcpp, minqa, nlme, parallel
 License: GPL-2
 NeedsCompilation: no
 
@@ -15838,6 +15819,13 @@ Suggests: ICS, ICSNP
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: JAGUAR
+Version: 1.0
+Depends: R (>= 3.0.0), Rcpp, plyr, lme4, doMC
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
 Package: JASPAR
 Version: 0.0.1
 Depends: R (>= 2.9.0), gtools
@@ -16769,12 +16757,6 @@ Version: 2.0
 Depends: R (>= 3.0.0)
 License: GPL-2
 NeedsCompilation: no
-
-Package: lcmm
-Version: 1.6.4
-Depends: R (>= 2.9.0), survival
-License: GPL (>= 2.0)
-NeedsCompilation: yes
 
 Package: lctools
 Version: 0.1-3
@@ -21960,13 +21942,6 @@ Version: 0.6.9
 Depends: R (>= 1.5.0)
 License: GPL
 NeedsCompilation: no
-
-Package: NormPsy
-Version: 1.0.1
-Depends: R (>= 2.9.0)
-Imports: lcmm (>= 1.6.4)
-License: GPL
-NeedsCompilation: yes
 
 Package: NORMT3
 Version: 1.0-3
@@ -33105,12 +33080,6 @@ Version: 2.4
 Depends: R(>= 3.0.1),Matrix,PerformanceAnalytics(>= 1.1.0)
 License: GPL (>= 3.0)
 NeedsCompilation: no
-
-Package: SmoothHazard
-Version: 1.0.9
-Depends: R (>= 1.9.1), prodlim, mvtnorm
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: smoothHR
 Version: 1.0.1
