@@ -3836,7 +3836,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: caseMatch
-Version: 1.0
+Version: 1.0.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27959,8 +27959,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: readbitmap
-Version: 0.1-2
-Depends: bmp, jpeg, png
+Version: 0.1-4
+Imports: bmp, jpeg, png
 Suggests: pixmap, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
