@@ -5498,12 +5498,13 @@ License: GPL
 NeedsCompilation: no
 
 Package: copula
-Version: 0.999-10
+Version: 0.999-11
 Depends: R (>= 2.15.2)
-Imports: stats, graphics, methods, stats4, Matrix, gsl, ADGofTest,
-        stabledist (>= 0.6-4), mvtnorm, pspline
-Suggests: lattice, MASS, KernSmooth, sfsmisc, bbmle, scatterplot3d,
-        Rmpfr, rugarch, colorspace, mvnormtest, tseries, zoo
+Imports: stats, graphics, methods, stats4, Matrix, lattice, gsl,
+        ADGofTest, stabledist (>= 0.6-4), mvtnorm, pspline
+Suggests: MASS, KernSmooth, sfsmisc, bbmle, scatterplot3d, Rmpfr,
+        partitions, polynom, rugarch, colorspace, mvnormtest, tseries,
+        zoo
 Enhances: nor1mix
 License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
@@ -23809,11 +23810,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pec
-Version: 2.2.9
-Depends: R (>= 1.9.1), prodlim (>= 1.1.3), survival, rms
-Imports: foreach
-Suggests: timereg, randomForestSRC, party, rpart, cmprsk, doMC,
-        CoxBoost, crrstep, riskRegression
+Version: 2.3.7
+Depends: R (>= 1.9.1)
+Imports: prodlim, foreach, rms, survival
+Suggests: timereg, randomForestSRC, party, cmprsk, rpart, doMC,
+        CoxBoost, crrstep, riskRegression, lava, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -28012,7 +28013,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: REBayes
-Version: 0.48
+Version: 0.50
 Depends: R (>= 2.10), Rmosek,Matrix,SparseM
 Suggests: reliaR
 License: GPL (>= 2)
@@ -28025,7 +28026,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rebmix
-Version: 2.6.1
+Version: 2.6.2
 Depends: R (>= 2.10)
 Suggests: flexmix, mclust, mixtools
 License: GPL (>= 2)
@@ -29457,7 +29458,7 @@ License: GNU General Public License
 NeedsCompilation: yes
 
 Package: Rmpfr
-Version: 0.5-5
+Version: 0.5-6
 Depends: gmp (>= 0.5-8), R (>= 2.12.0)
 Imports: stats, utils, methods
 Suggests: MASS, polynom, sfsmisc (>= 1.0-20), Matrix
