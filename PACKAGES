@@ -1573,6 +1573,12 @@ Version: 0.1-0
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: bartMachine
+Version: 1.0.4
+Depends: R (>= 2.14.0), rJava (>= 0.8-4), car, randomForest, missForest
+License: GPL-3
+NeedsCompilation: no
+
 Package: BAS
 Version: 1.0
 Depends: R (>= 2.15), stats, MASS
@@ -25213,7 +25219,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: powerGWASinteraction
-Version: 1.0.0
+Version: 1.1.0
+Depends: R (>= 2.10), mvtnorm, pwr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28455,7 +28462,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: REPPlab
-Version: 0.2
+Version: 0.9
 Depends: R (>= 2.15.1), rJava, lattice
 Suggests: tourr, amap
 License: GPL (>= 2)
