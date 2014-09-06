@@ -26571,7 +26571,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: R2HTML
-Version: 2.2.1
+Version: 2.3.0
 Depends: R (>= 2.0)
 Suggests: boot, splines, survival, stats, cluster, nlme, rpart, nnet,
         utils
@@ -27605,9 +27605,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.temis
-Version: 0.7
-Depends: tm (>= 0.6), NLP, slam, zoo, lattice
-Imports: methods, Rcmdr (>= 2.0-0), tcltk, tcltk2, utils, ca, R2HTML,
+Version: 0.7.1
+Depends: methods, tm (>= 0.6), NLP, slam, zoo, lattice
+Imports: Rcmdr (>= 2.1-1), tcltk, tcltk2, utils, ca, R2HTML (>= 2.3.0),
         RColorBrewer, latticeExtra, stringi
 Suggests: SnowballC, ROpenOffice, RODBC, tm.plugin.factiva (>= 1.4),
         tm.plugin.lexisnexis (>= 1.1), tm.plugin.europresse (>= 1.1),
