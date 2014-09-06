@@ -13451,7 +13451,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUILDS
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.0), pracma, subplex
 LinkingTo: Rcpp
@@ -35372,7 +35372,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sweSCB
-Version: 0.3.5
+Version: 0.3.6
 Imports: data.table, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2
 License: AGPL-3
