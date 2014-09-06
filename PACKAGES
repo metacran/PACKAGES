@@ -26076,7 +26076,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pyramid
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
