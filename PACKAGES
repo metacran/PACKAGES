@@ -1212,11 +1212,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: asbio
-Version: 1.0-5
+Version: 1.1-1
 Depends: R (>= 2.15.1), tcltk
 Imports: scatterplot3d, pixmap, tkrplot, plotrix, mvtnorm, deSolve,
-        lattice
-Suggests: akima, MASS
+        lattice, multcompView
+Suggests: akima, MASS, boot
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20852,9 +20852,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multiwayvcov
-Version: 1.0.4
+Version: 1.2.0
 Depends: R (>= 3.0.0)
-Imports: sandwich
+Imports: sandwich, boot
 Suggests: parallel, lmtest
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -27038,7 +27038,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: raster
-Version: 2.2-31
+Version: 2.3-0
 Depends: methods, sp (>= 1.0-13), R (>= 2.15.0)
 Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-1), ncdf, ncdf4, igraph,
         snow, tcltk, rasterVis
