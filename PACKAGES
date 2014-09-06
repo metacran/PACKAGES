@@ -17432,9 +17432,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: logcondens
-Version: 2.1.1
+Version: 2.1.2
 Depends: R (>= 2.10)
-Suggests: ks
+Imports: ks
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -22803,8 +22803,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: OrdFacReg
-Version: 1.0.4
-Depends: eha, MASS
+Version: 1.0.5
+Depends: survival, eha, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31938,7 +31938,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: selectMeta
-Version: 1.0.6
+Version: 1.0.7
 Depends: DEoptim (>= 2.0-6)
 License: GPL (>= 2)
 NeedsCompilation: no
