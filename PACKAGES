@@ -8620,7 +8620,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: eggCounts
-Version: 0.2
+Version: 0.3
 Depends: coda
 Imports: actuar, boot
 License: GPL (>= 2)
@@ -11777,6 +11777,13 @@ NeedsCompilation: no
 Package: g.data
 Version: 2.4
 License: GPL
+NeedsCompilation: no
+
+Package: GDAtools
+Version: 1.3
+Imports: FactoMineR
+Suggests: cluster, WeightedCluster
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GDELTtools
@@ -27613,7 +27620,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.temis
-Version: 0.7.1
+Version: 0.7.2
 Depends: methods, tm (>= 0.6), NLP, slam, zoo, lattice
 Imports: Rcmdr (>= 2.1-1), tcltk, tcltk2, utils, ca, R2HTML (>= 2.3.0),
         RColorBrewer, latticeExtra, stringi
