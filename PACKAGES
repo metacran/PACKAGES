@@ -30886,8 +30886,9 @@ License: MPL
 NeedsCompilation: yes
 
 Package: rucm
-Version: 0.3
+Version: 0.4
 Depends: KFAS
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
