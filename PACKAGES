@@ -5503,6 +5503,14 @@ Depends: R (>= 2.10), lmomco
 License: GPL
 NeedsCompilation: no
 
+Package: copCAR
+Version: 1.0
+Depends: numDeriv, Rcpp, spam
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: lattice
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: copula
 Version: 0.999-11
 Depends: R (>= 2.15.2)
@@ -22575,9 +22583,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: OpenRepGrid
-Version: 0.1.8
-Depends: methods, grid, colorspace, plyr, abind, rgl, GPArotation,
-        psych, XML, tcltk, xlsx, pvclust
+Version: 0.1.9
+Depends: pvclust
+Imports: methods, grid, colorspace, plyr, stringr, abind, rgl,
+        GPArotation, psych, XML, tcltk
+Suggests: xlsx
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26859,8 +26869,8 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: randomLCA
-Version: 0.8-7
-Depends: R(>= 2.15.1), lattice, nlme, boot, utils
+Version: 0.9-0
+Depends: R(>= 3.0.0), lattice, boot, fastGHQuad
 Suggests: xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
