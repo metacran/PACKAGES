@@ -2746,6 +2746,12 @@ Suggests: RJSONIO, MGRASTer
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
+Package: bionetdata
+Version: 1.0.1
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: biopara
 Version: 1.5
 License: GPL
@@ -9454,7 +9460,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evmix
-Version: 2.1
+Version: 2.3
 Depends: stats, graphics, MASS, gsl
 License: GPL-3
 NeedsCompilation: no
@@ -13474,7 +13480,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUILDS
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.0), pracma, subplex
 LinkingTo: Rcpp
