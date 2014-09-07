@@ -9731,7 +9731,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: extraTrees
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 Suggests: testthat, Matrix
 License: Apache License 2.0
@@ -15856,8 +15856,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: JAGUAR
-Version: 1.0
-Depends: R (>= 3.0.0), Rcpp, plyr, lme4, doMC
+Version: 1.1
+Depends: R (>= 3.0.0), Rcpp, plyr, lme4, doParallel
 LinkingTo: Rcpp
 License: GPL-2
 NeedsCompilation: yes
