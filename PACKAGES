@@ -27103,7 +27103,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: rattle
-Version: 3.1.0
+Version: 3.3.0
 Depends: R (>= 2.13.0)
 Suggests: RGtk2, pmml (>= 1.2.13), bitops, colorspace, ada, amap,
         arules, arulesViz, biclust, cairoDevice, cba, corrplot, descr,
@@ -30622,7 +30622,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: Rsomoclu
-Version: 1.4
+Version: 1.4.1
 Depends: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -38435,8 +38435,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: xgboost
-Version: 0.3-0
-Depends: R (>= 2.0.2)
+Version: 0.3-1
+Depends: R (>= 2.10)
 Imports: Matrix (>= 1.1-0), methods
 License: Apache License (== 2.0) | file LICENSE
 NeedsCompilation: yes
