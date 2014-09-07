@@ -24014,6 +24014,12 @@ Imports: corpcor, gnm, matlab, Matrix, signal
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: PerfMeas
+Version: 1.2.1
+Depends: limma, graph, RBGL
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: PerformanceAnalytics
 Version: 1.1.0
 Depends: R (>= 2.14.0), zoo, xts (>= 0.8-9)
