@@ -1297,7 +1297,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: astro
-Version: 1.1
+Version: 1.2
 Depends: MASS,plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8369,8 +8369,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: easyanova
-Version: 3.0
-Depends: R (>= 2.13), car, nlme
+Version: 4.0
+Depends: R (>= 3.0.0)
+Imports: car, nlme
 License: GPL-2
 NeedsCompilation: no
 
@@ -17130,7 +17131,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LinRegInteractive
-Version: 0.2-1
+Version: 0.2-2
 Depends: R (>= 3.0.0), rpanel (>= 1.1-3)
 Suggests: AER
 License: GPL-2
@@ -27449,7 +27450,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.EBM
-Version: 1.0-3
+Version: 1.0-8
 Depends: R (>= 2.10), Rcmdr (>= 1.7.0), epiR, abind
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28853,7 +28854,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rgl
-Version: 0.93.1098
+Version: 0.94.1131
 Depends: R (>= 2.15.0),stats,grDevices
 Suggests: MASS
 License: GPL
