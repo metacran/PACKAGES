@@ -734,11 +734,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: anacor
-Version: 1.0-4
-Depends: rgl, scatterplot3d, fda, colorspace, car
-Imports: graphics, stats
-License: GPL
-NeedsCompilation: no
+Version: 1.0-5
+Depends: R (>= 3.0.2), rgl, splines
+Imports: graphics, stats, car, scatterplot3d, colorspace, fda,
+License: GPL-2
+NeedsCompilation: yes
 
 Package: analogue
 Version: 0.14-0
@@ -8938,8 +8938,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: emulator
-Version: 1.2-13
-Depends: R (>= 2.10), mvtnorm
+Version: 1.2-15
+Depends: R (>= 3.0.1), mvtnorm
 License: GPL
 NeedsCompilation: no
 
@@ -14776,8 +14776,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ibd
-Version: 1.1
-Depends: R (>= 2.15.1), lpSolve, MASS
+Version: 1.2
+Depends: R (>= 3.1.1), lpSolve, MASS, car, lsmeans, multcompView
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19448,8 +19448,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: minque
-Version: 1.0
-Depends: klaR, stats,utils, agridat,Matrix
+Version: 1.1
+Depends: klaR, stats,utils,Matrix
 License: GPL-2
 NeedsCompilation: no
 
