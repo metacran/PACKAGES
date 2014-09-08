@@ -11301,6 +11301,12 @@ Depends: R (>= 2.10), breastCancerVDX, Biobase
 License: Artistic-2.0
 NeedsCompilation: yes
 
+Package: funHDDC
+Version: 1.0
+Depends: fda
+License: GPL-2
+NeedsCompilation: no
+
 Package: fUnitRoots
 Version: 3010.78
 Depends: R (>= 2.4.0), urca, methods, timeDate, timeSeries, fBasics
@@ -14491,7 +14497,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: htmltools
-Version: 0.2.4
+Version: 0.2.6
 Depends: R (>= 2.14.1)
 Imports: utils, digest
 Suggests: markdown, testthat
@@ -35688,11 +35694,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TAM
-Version: 1.0-3
+Version: 1.0-3.18-1
 Depends: R (>= 2.15.1), MASS
-Imports: mvtnorm, tensor, sfsmisc, GPArotation, psych, Rcpp
+Imports: mvtnorm, CDM (>= 3.4), tensor, sfsmisc, GPArotation, psych,
+        Rcpp
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: CDM, sirt
+Suggests: sirt (>= 0.47)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -36357,6 +36364,12 @@ Version: 0.1.3
 Depends: R (>= 2.10), methods
 Suggests: mvtnorm, tcltk, flexmix
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: tlm
+Version: 0.1.2
+Depends: R (>= 3.0.1), stats, utils, boot
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tlmec
