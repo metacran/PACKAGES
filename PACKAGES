@@ -10050,7 +10050,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FastPCS
-Version: 0.0.9
+Version: 0.1.0
 Depends: matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
@@ -10067,7 +10067,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FastRCS
-Version: 0.0.3
+Version: 0.0.4
 Depends: matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
@@ -23410,8 +23410,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: partykit
-Version: 0.8-0
-Depends: R (>= 2.15.0), graphics, grid
+Version: 0.8-1
+Depends: R (>= 3.1.0), graphics, grid
 Imports: stats, survival
 Suggests: XML, pmml, rJava, rpart, mvtnorm, Formula, sandwich,
         strucchange, vcd, AER, mlbench, TH.data (>= 1.0-3), coin, RWeka
@@ -32933,6 +32933,14 @@ Version: 0.2-6
 Imports: slam (>= 0.1-31), clue (>= 0.3-39), cluster, stats, utils
 Enhances: Matrix, kmndirs
 License: GPL-2
+NeedsCompilation: no
+
+Package: slackr
+Version: 1.2
+Depends: R (>= 3.0.0), httr (>= 0.4.0), jsonlite, data.table (>=
+        1.9.2), ggplot2
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: slam
