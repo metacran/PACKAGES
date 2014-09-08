@@ -101,7 +101,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: accrued
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0), grid
 License: GPL-3
 NeedsCompilation: no
@@ -20115,7 +20115,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MODISTools
-Version: 0.93.9
+Version: 0.94.4
 Imports: RCurl, XML
 License: GPL-3
 NeedsCompilation: no
@@ -33230,7 +33230,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SNFtool
-Version: 2.1
+Version: 2.2
+Imports: heatmap.plus
 License: GPL
 NeedsCompilation: no
 
