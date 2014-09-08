@@ -14060,7 +14060,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: hiddenf
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -20671,9 +20671,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MTurkR
-Version: 0.4
-Imports: RCurl, digest, XML
-Suggests: tcltk
+Version: 0.5.1
+Imports: RCurl, digest, XML, tcltk
 License: GPL-2
 NeedsCompilation: no
 
@@ -22620,9 +22619,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: operators
-Version: 0.1-6
-Suggests: RUnit
-License: GPL-3
+Version: 0.1-7
+Depends: R (>= 3.1.0)
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: operator.tools
