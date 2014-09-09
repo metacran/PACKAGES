@@ -3293,8 +3293,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: bpkde
-Version: 1.0-4
-Suggests: mvtnorm
+Version: 1.0-7
+Suggests: mvtnorm, KernSmooth
 License: GPL-2
 NeedsCompilation: yes
 
@@ -10961,10 +10961,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fpc
-Version: 2.1-7
-Depends: R (>= 2.0), MASS, cluster, mclust, flexmix
-Suggests: prabclus, class, diptest, mvtnorm, robustbase, kernlab,
-        trimcluster
+Version: 2.1-8
+Depends: R (>= 2.0)
+Imports: MASS, cluster, mclust, flexmix, prabclus, class, diptest,
+        mvtnorm, robustbase, kernlab, trimcluster
 License: GPL
 NeedsCompilation: no
 
@@ -21649,7 +21649,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ngspatial
-Version: 1.0-3
+Version: 1.0-4
 Depends: Rcpp, utils, batchmeans
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: parallel
@@ -35797,12 +35797,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.3.0
+Version: 0.4.0
 Depends: R(>= 2.10.0)
-Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), RJSONIO,
+Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), jsonlite,
         foreach, ape, Taxonstand, reshape2, data.table, vegan,
-        assertthat
-Suggests: testthat, roxygen2, rjson, knitr, jsonlite
+        assertthat, bold,
+Suggests: testthat, roxygen2, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
