@@ -4497,7 +4497,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CircE
-Version: 1.0
+Version: 1.1
 Depends: R (>= 1.6.0), stats
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7856,7 +7856,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: domino
-Version: 0.1-7
+Version: 0.2-1
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -10178,7 +10178,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fcros
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -12691,7 +12691,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: globalOptTests
-Version: 1.0
+Version: 1.1
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -14708,7 +14708,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hypergea
-Version: 1.0.1
+Version: 1.2.1
 Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -19343,6 +19343,12 @@ Version: 1.0.3
 Depends: R (>= 2.15.0)
 Imports: graphics, RColorBrewer, grDevices, stats
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: micropan
+Version: 1.0
+Depends: R (>= 2.15.0), igraph
+License: GPL-2
 NeedsCompilation: no
 
 Package: MicroStrategyR
@@ -36823,9 +36829,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TripleR
-Version: 1.2.1
-Depends: reshape, plyr
-Suggests: lme4, ggplot2 (>= 0.9.3)
+Version: 1.4
+Depends: ggplot2 (>= 0.9.3)
+Imports: reshape2, plyr
+Suggests: lme4
 License: GPL (>= 2)
 NeedsCompilation: no
 
