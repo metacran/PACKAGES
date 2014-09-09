@@ -15440,9 +15440,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: investr
-Version: 1.1.0
+Version: 1.1.1
 Depends: graphics, stats
-Suggests: boot, car, nlme, testthat
+Imports: nlme
+Suggests: boot, car, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
