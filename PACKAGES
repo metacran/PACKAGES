@@ -25456,7 +25456,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PReMiuM
-Version: 3.0.28
+Version: 3.0.29
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11), ggplot2 (>= 0.9.2.1), cluster, plotrix (>=
         3.5)
@@ -33668,10 +33668,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: spam
-Version: 0.41-0
+Version: 1.0-1
 Depends: R (>= 2.15), methods, grid
-Suggests: fields, SparseM, Matrix
-License: GPL | file LICENSE
+Suggests: fields, Matrix
+License: LGPL-2
 NeedsCompilation: yes
 
 Package: spaMM
