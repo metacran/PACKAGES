@@ -3908,7 +3908,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: catR
-Version: 3.1
+Version: 3.2
 Depends: R (>= 2.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27975,6 +27975,14 @@ Version: 1.1
 License: GNU General Public License
 NeedsCompilation: no
 
+Package: RDML
+Version: 0.4-2
+Depends: XML (>= 3.98-1.1)
+Imports: chipPCR (>= 0.0.8-1)
+Suggests: qpcR (>= 1.3-9)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: rDNA
 Version: 1.30.1
 Depends: R (>= 2.14), rJava (>= 0.5-0)
@@ -29100,6 +29108,12 @@ Version: 0.1
 Depends: R (>= 3.0.2)
 Imports: spatstat
 Suggests: png, testthat
+License: GPL-3
+NeedsCompilation: no
+
+Package: RImpala
+Version: 0.1.4
+Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 License: GPL-3
 NeedsCompilation: no
 
@@ -32920,9 +32934,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.4.3
-Imports: ggplot2, MASS, car, coin, foreign, lmtest, lsmeans, plyr,
-        psych, reshape2, scales
+Version: 1.5
+Imports: ggplot2, MASS, car, foreign, plyr, psych, reshape2, scales
+Suggests: cluster, coin, lsmeans, lmtest, stringdist
 License: GPL-3
 NeedsCompilation: no
 
