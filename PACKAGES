@@ -10963,6 +10963,12 @@ Depends: R (>= 2.8), MASS
 License: GPL-2
 NeedsCompilation: no
 
+Package: ForwardSearch
+Version: 1.0
+Depends: robustbase
+License: GPL-3
+NeedsCompilation: no
+
 Package: fossil
 Version: 0.3.7
 Depends: sp, maps, shapefiles
@@ -24532,7 +24538,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pkgKitten
-Version: 0.1.0
+Version: 0.1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
