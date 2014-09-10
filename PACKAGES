@@ -8608,6 +8608,12 @@ Depends: R (>= 3.0.0), e1071 (>= 1.6), wmtsa (>= 2.0-0) , fields (>=
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: eegkit
+Version: 1.0-0
+Depends: R (>= 3.1.1), bigsplines, eegkitdata, ica, rgl
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: eegkitdata
 Version: 1.0
 Depends: R (>= 2.10)
@@ -23190,8 +23196,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: paleobioDB
-Version: 0.1
-Imports: maps, raster, rjson, gtools, RCurl, plyr, scales,
+Version: 0.2
+Depends: raster, maps
+Imports: rjson, gtools, RCurl, plyr, scales
 Suggests: roxygen2, testthat
 License: GPL-2
 NeedsCompilation: no
@@ -37687,6 +37694,14 @@ Version: 2.3
 License: GPL | file LICENSE
 NeedsCompilation: yes
 
+Package: vcrpart
+Version: 0.2-1
+Depends: R (>= 3.1.0), parallel, partykit
+Imports: stats, grid, graphics, methods, nlme, rpart, numDeriv, ucminf,
+        zoo, sandwich, strucchange
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: VDA
 Version: 1.3
 Depends: rgl
@@ -38717,7 +38732,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: zCompositions
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.14.0), MASS, NADA, truncnorm
 License: GPL (>= 2)
 NeedsCompilation: no
