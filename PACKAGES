@@ -3468,11 +3468,6 @@ Suggests: hdi
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: bstats
-Version: 1.1-11-5
-License: Unlimited
-NeedsCompilation: yes
-
 Package: bsts
 Version: 0.5.1
 Depends: BoomSpikeSlab, zoo, xts, Boom, R(>= 3.0.2)
@@ -8218,7 +8213,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dunn.test
-Version: 1.1.0
+Version: 1.2.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -15716,9 +15711,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: isotone
-Version: 1.0-1
-License: GPL
-NeedsCompilation: no
+Version: 1.0-2
+License: GPL-2
+NeedsCompilation: yes
 
 Package: isotonic.pen
 Version: 1.0
@@ -19982,9 +19977,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: mmcm
-Version: 1.2-4
+Version: 1.2-5
 Depends: mvtnorm
-License: GPL-2
+License: GPL-3
 NeedsCompilation: yes
 
 Package: mmds
@@ -32695,7 +32690,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Sim.DiffProc
-Version: 2.8
+Version: 2.9
 Depends: R (>= 2.15.1), scatterplot3d, rgl
 License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
