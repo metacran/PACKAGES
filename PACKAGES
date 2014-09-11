@@ -11697,6 +11697,13 @@ Suggests: BradleyTerry2, coxme, rms, MASS, NCBI2R, foreign, grid,
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: gapmap
+Version: 0.0.1
+Depends: ggplot2, grid, reshape2
+Suggests: knitr, dendsort
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: gaussDiff
 Version: 1.1
 Depends: R (>= 1.8.0)
