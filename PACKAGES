@@ -17354,10 +17354,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: lmms
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0)
 Imports: stats, methods, nlme, lmeSplines, parallel, reshape, gdata,
-        graphics
+        gplots, ggplot2, graphics
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -22493,6 +22493,12 @@ Depends: stats, survival, KMsurv
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: OjaNP
+Version: 0.9-8
+Depends: R (>= 2.9.0), ICS, ICSNP
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: okmesonet
 Version: 0.1.4
 Depends: R (>= 2.14.0), utils
@@ -27028,7 +27034,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RankResponse
-Version: 3.0.3
+Version: 3.1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -28204,6 +28210,15 @@ Package: Records
 Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: recosystem
+Version: 0.2.3
+Depends: methods
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: knitr
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: yes
 
 Package: RECSO
 Version: 1.0
