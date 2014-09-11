@@ -6447,8 +6447,8 @@ License: GPL
 NeedsCompilation: yes
 
 Package: DatABEL
-Version: 0.9-4.1
-Depends: R (>= 2.4.0), methods
+Version: 0.9-5
+Depends: R (>= 2.4.0), methods, utils
 Suggests: GenABEL, RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -11326,6 +11326,12 @@ Version: 1.0.0
 Depends: R (>= 2.10), breastCancerVDX, Biobase
 License: Artistic-2.0
 NeedsCompilation: yes
+
+Package: funFEM
+Version: 1.0
+Depends: R (>= 2.10), MASS, fda, elasticnet
+License: GPL-2
+NeedsCompilation: no
 
 Package: funHDDC
 Version: 1.0
@@ -27396,6 +27402,13 @@ Imports: sandwich, ggplot2, plotrix, car, lmtest
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: rChoiceDialogs
+Version: 1.0.6
+Depends: rJava, utils
+Imports: tcltk
+License: LGPL (>= 2.1)
+NeedsCompilation: no
+
 Package: rcicr
 Version: 0.2.1
 Imports: matlab, aspace, tcltk, jpeg
@@ -30241,7 +30254,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 0.9
+Version: 0.9.1
 Depends: R(>= 3.1.0), dplyr (>= 0.2), RSQLite, RSQLite.extfuns
 Imports: Rcpp, DBI, lubridate, reshape2, assertthat
 LinkingTo: Rcpp (>= 0.11.1)
