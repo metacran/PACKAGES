@@ -12077,6 +12077,15 @@ Depends: MASS, Matrix (>= 1.0-6), igraph (>= 0.6-2)
 License: GPL (>= 2.0)
 NeedsCompilation: yes
 
+Package: GENLIB
+Version: 1.0
+Depends: R (>= 3.0), Rcpp (>= 0.9.10)
+Imports: kinship2, methods, bootstrap, Matrix, lattice, quadprog,
+        foreach, parallel, doParallel
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: genMOSS
 Version: 1.1
 Depends: R (>= 2.10)
@@ -16975,6 +16984,13 @@ Version: 0.29
 Imports: plyr
 Suggests: knitr
 License: Unlimited
+NeedsCompilation: no
+
+Package: lefse
+Version: 0.1
+Depends: R (>= 2.10)
+Imports: ape, picante, geiger, fBasics, SDMTools, vegan
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: leiv
@@ -37865,7 +37881,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: VennDiagram
-Version: 1.6.7
+Version: 1.6.8
 Depends: R (>= 2.14.1), grid (>= 2.14.1)
 License: GPL-2
 NeedsCompilation: no
