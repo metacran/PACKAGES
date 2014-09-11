@@ -15477,8 +15477,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: intsvy
-Version: 1.3
-Depends: memisc, foreign, plyr
+Version: 1.4
+Depends: memisc, foreign, plyr, ggplot2, reshape
 License: GPL-2
 NeedsCompilation: no
 
@@ -16362,8 +16362,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: knnIndep
-Version: 1.0
-Depends: parallel
+Version: 2.0
+Imports: parallel
 License: GPL (>= 3)
 NeedsCompilation: no
 
