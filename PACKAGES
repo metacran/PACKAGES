@@ -28249,15 +28249,6 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: recosystem
-Version: 0.2.3
-Depends: methods
-Imports: Rcpp (>= 0.11.0)
-LinkingTo: Rcpp
-Suggests: knitr
-License: BSD_3_clause + file LICENSE
-NeedsCompilation: yes
-
 Package: RECSO
 Version: 1.0
 License: GPL-2
@@ -32768,7 +32759,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SimComp
-Version: 1.9.0
+Version: 2.2
 Depends: R (>= 2.10.0)
 Imports: mvtnorm, multcomp, mratios
 License: GPL
@@ -34051,7 +34042,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spatsurv
-Version: 0.9-6
+Version: 0.9-7
 Depends: survival, sp
 Imports: iterators, RandomFields, fields, rgl, Matrix, stringr
 Suggests: rgdal, gpclib
