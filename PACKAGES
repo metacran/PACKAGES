@@ -16940,9 +16940,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: leafletR
-Version: 0.2-1
-Depends: R (>= 3.0.0)
-Suggests: httr, RJSONIO, rgdal, sp
+Version: 0.3-0
+Depends: R (>= 3.0.0), brew, jsonlite
+Suggests: httr, rgdal, sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23518,7 +23518,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: partykit
-Version: 0.8-1
+Version: 0.8-2
 Depends: R (>= 3.1.0), graphics, grid
 Imports: stats, survival
 Suggests: XML, pmml, rJava, rpart, mvtnorm, Formula, sandwich,
