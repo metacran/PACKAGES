@@ -36803,6 +36803,13 @@ Imports: ggplot2, grid
 License: GPL-2
 NeedsCompilation: no
 
+Package: treatSens
+Version: 1.0
+Depends: R (>= 3.1.0)
+Suggests: doParallel, foreach
+License: GPL-2
+NeedsCompilation: no
+
 Package: tree
 Version: 1.0-35
 Depends: R (>= 2.15.0), grDevices, graphics, stats
