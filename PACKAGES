@@ -5615,13 +5615,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CorReg
-Version: 0.15.0
+Version: 0.15.6
 Depends: R(>= 3.0.2)
 Imports: Rcpp(>= 0.11.0), lars(>= 1.2), elasticnet(>= 1.1), clere(>=
         1.1), spikeslab(>= 1.1.5), corrplot(>= 0.73), Matrix(>= 1.1),
         mclust(>= 4.2), Rmixmod(>= 2.0.1), ridge(>= 2.1), rpart(>=
-        4.1-5), MASS(>= 7.3-30), parcor(>= 0.2), mvtnorm(>= 0.9)
+        4.1-5), MASS(>= 7.3-30), mvtnorm(>= 0.9)
 LinkingTo: Rcpp, RcppEigen
+Suggests: parcor(>= 0.2)
 License: CeCILL
 NeedsCompilation: yes
 
