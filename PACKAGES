@@ -20130,6 +20130,14 @@ Suggests: mlbench
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: Mobilize
+Version: 2.16-4
+Depends: R (>= 2.14), stats, methods, Ohmage
+Imports: ggplot2, wordcloud, reshape2
+Suggests: XML, maps
+License: GPL
+NeedsCompilation: no
+
 Package: MOCCA
 Version: 1.2
 Depends: R (>= 2.0.0), cclust, clv
@@ -29032,19 +29040,19 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RGraphics
-Version: 2.0-9
+Version: 2.0-12
 Depends: R (>= 2.13.0), datasets, stats, grDevices, graphics, methods,
         grid, lattice, ggplot2
 Suggests: agricolae, animation, CircStats, circular, cluster,
         colorspace, diagram, dichromat, gplots, graph, gridBase,
-        gridExtra, gridSVG, grImport, gWidgetsRGtk2, hexbin, Hmisc,
-        hyperdraw, hypergraph, igraph, iplots, ipred, latticeExtra,
-        latticist, mapdata, maps, maptools, MASS, misc3d, munsell,
+        gridExtra, gridSVG, grImport, gWidgets, gWidgetsRGtk2, hexbin,
+        Hmisc, hyperdraw, hypergraph, igraph, iplots, ipred,
+        latticeExtra, mapdata, maps, maptools, MASS, misc3d, munsell,
         network, openair, oz, party, pixmap, playwith, plotrix, pmg,
         png, quantmod, raster, Rcmdr, RColorBrewer, rgdal, rggobi, rgl,
         RGraphics, Rgraphviz, scatterplot3d, soiltexture, sp,
         SVGAnnotation, symbols, TeachingDemos, tools, vcd, vcdExtra,
-        venneuler, vrmlgen
+        venneuler, vrmlgen, XML
 License: GPL
 NeedsCompilation: no
 
@@ -38824,7 +38832,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: zCompositions
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.14.0), MASS, NADA, truncnorm
 License: GPL (>= 2)
 NeedsCompilation: no
