@@ -18351,12 +18351,6 @@ Suggests: lattice, nlme, nnet, survival
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
-Package: MASSI
-Version: 1.1
-Depends: fpc, gplots
-License: GPL-3
-NeedsCompilation: no
-
 Package: MASSTIMATE
 Version: 1.2
 Depends: R (>= 2.10.0)
