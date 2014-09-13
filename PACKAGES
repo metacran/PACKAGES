@@ -14831,7 +14831,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: iBATCGH
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.11.2), msm
 LinkingTo: Rcpp, RcppArmadillo
