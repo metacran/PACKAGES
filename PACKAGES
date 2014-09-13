@@ -16578,7 +16578,7 @@ License: LGPL
 NeedsCompilation: yes
 
 Package: Lahman
-Version: 2.0-3
+Version: 3.0-1
 Depends: R (>= 2.10)
 Suggests: lattice, ggplot2, googleVis, data.table, vcd, plyr, reshape2,
         zipcode
