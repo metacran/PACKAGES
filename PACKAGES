@@ -442,10 +442,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: agop
-Version: 0.1-3
-Depends: R (>= 2.12.0), base, stats, grDevices, graphics, Matrix,
-        igraph
-Suggests: testthat
+Version: 0.1-4
+Depends: R (>= 2.12.0), stats, grDevices, graphics, Matrix, igraph
 License: LGPL (>= 3)
 NeedsCompilation: yes
 
@@ -19637,7 +19635,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MissingDataGUI
-Version: 0.2-0
+Version: 0.2-2
 Depends: gWidgetsRGtk2, ggplot2
 Imports: GGally, cairoDevice, grid, reshape
 Suggests: Hmisc, norm, mice, mi
@@ -21625,8 +21623,8 @@ License: CC BY-NC-SA 4.0
 NeedsCompilation: no
 
 Package: netweavers
-Version: 1.0
-Depends: R (>= 2.10), BiocGenerics, Biobase, igraph, limma
+Version: 1.1
+Depends: R (>= 3.1.1), BiocGenerics, Biobase, igraph, limma
 License: GPL-2
 NeedsCompilation: no
 
@@ -31292,8 +31290,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Ryacas
-Version: 0.2-11
-Depends: XML
+Version: 0.2-12.1
+Imports: XML
 License: GPL-2
 NeedsCompilation: no
 
