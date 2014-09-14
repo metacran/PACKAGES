@@ -16186,7 +16186,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: KernSmooth
-Version: 2.23-12
+Version: 2.23-13
 Priority: recommended
 Depends: R (>= 2.5.0), stats
 Suggests: MASS
