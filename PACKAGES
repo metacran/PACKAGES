@@ -20859,7 +20859,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: multigroup
-Version: 0.4.1
+Version: 0.4.2
 Depends: R (>= 2.15.0)
 Imports: MASS
 License: GPL-3
@@ -27533,7 +27533,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.coin
-Version: 1.0-21
+Version: 1.0-22
 Depends: R (>= 2.10), Rcmdr (>= 1.7.0), coin, survival, multcomp
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -29083,8 +29083,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RH2
-Version: 0.1-2.12
-Depends: chron, methods, RJDBC
+Version: 0.2.3
+Depends: chron, methods, RJDBC, rJava
 License: Mozilla Public License 1.1
 NeedsCompilation: no
 
