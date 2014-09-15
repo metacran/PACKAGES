@@ -22010,6 +22010,13 @@ Suggests: RUnit
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: nonnest2
+Version: 0.1-1
+Depends: R (>= 3.0.0)
+Imports: CompQuadForm, mvtnorm, sandwich
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: nonparaeff
 Version: 0.5-8
 Depends: R (>= 1.8.0), lpSolve, gdata, Hmisc, rms, geometry, psych, pwt
