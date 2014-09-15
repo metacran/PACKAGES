@@ -26407,7 +26407,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qpcR
-Version: 1.3-9
+Version: 1.4-0
 Depends: R (>= 2.13.0), MASS, minpack.lm, rgl, robustbase, Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
