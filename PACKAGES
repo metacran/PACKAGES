@@ -24176,7 +24176,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PerMallows
-Version: 1.3
+Version: 1.7
 Depends: Rcpp (>= 0.10.3)
 LinkingTo: Rcpp
 License: GPL (>= 2)
