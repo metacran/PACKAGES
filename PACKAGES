@@ -10806,7 +10806,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fmsb
-Version: 0.5.0
+Version: 0.5.1
 Depends: R (>= 2.2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14417,6 +14417,13 @@ NeedsCompilation: no
 Package: homtest
 Version: 1.0-5
 Depends: stats
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: hot.deck
+Version: 1.0
+Depends: R (>= 3.0), mice
+Suggests: knitr, mitools, miceadds, Zelig
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25807,6 +25814,12 @@ Depends: R (>= 2.10), flashClust, dynamicTreeCut
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: propOverlap
+Version: 1.0
+Depends: R (>= 2.10), Biobase
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PropScrRand
 Version: 1.1
 License: GPL-3
@@ -33670,6 +33683,12 @@ Version: 1.0-73
 Suggests: rgl
 License: BSD
 NeedsCompilation: yes
+
+Package: SOR
+Version: 0.22
+Depends: Matrix, stats
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: SortableHTMLTables
 Version: 0.1-3
