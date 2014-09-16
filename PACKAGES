@@ -18024,6 +18024,12 @@ Depends: ncdf4,rgdal,maps,mapdata
 License: Unlimited
 NeedsCompilation: no
 
+Package: m4fe
+Version: 0.1
+Depends: R (>= 3.1.0)
+License: GPL-2
+NeedsCompilation: no
+
 Package: MAc
 Version: 1.1
 Depends: R (>= 2.10.1)
@@ -21474,7 +21480,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ncdf4
-Version: 1.12
+Version: 1.13
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -33339,6 +33345,11 @@ Depends: R(>= 3.0.1),Matrix,PerformanceAnalytics(>= 1.1.0)
 License: GPL (>= 3.0)
 NeedsCompilation: no
 
+Package: smoother
+Version: 1.0.0.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: smoothHR
 Version: 1.0.1
 Depends: R (>= 2.12.0),survival,splines
@@ -34608,9 +34619,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.6
-Depends: R (>= 2.10.0), stats, graphics, utils, tcltk, psych
-Suggests: MASS, TSA,TTR
+Version: 1.4.7
+Depends: R (>= 2.10.0) ,psych,TTR,MASS,tcltk,TSA
 License: GPL (>= 2)
 NeedsCompilation: no
 
