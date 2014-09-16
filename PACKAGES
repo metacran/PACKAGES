@@ -5325,7 +5325,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: compute.es
-Version: 0.2-3
+Version: 0.2-4
 Depends: R (>= 2.10.1)
 License: GPL-2
 NeedsCompilation: no
@@ -7710,7 +7710,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: dlm
-Version: 1.1-3
+Version: 1.1-4
 Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -13555,7 +13555,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GuardianR
-Version: 0.4
+Version: 0.5
 Imports: RCurl, RJSONIO
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18427,6 +18427,12 @@ Suggests: parallel, rgenoud (>= 2.12), rbounds
 License: GPL-3
 NeedsCompilation: yes
 
+Package: MatchingFrontier
+Version: 0.3.17
+Imports: igraph, MASS
+License: GPL-3
+NeedsCompilation: no
+
 Package: MatchIt
 Version: 2.4-21
 Depends: R (>= 2.6), MASS
@@ -19540,10 +19546,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: miniCRAN
-Version: 0.0-16
-Imports: tools, XML
-Suggests: igraph, RCurl, testthat, knitr
-License: GPL-2 | GPL-3
+Version: 0.1-0
+Imports: tools, XML, httr, igraph
+Suggests: testthat, knitr
+License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: miniGUI
@@ -24640,9 +24646,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: PivotalR
-Version: 0.1.16.17
+Version: 0.1.17.3
 Depends: R (>= 2.14.0), methods, Matrix
-Enhances: DBI, RPostgreSQL, shiny, testthat, tools
+Enhances: DBI, RPostgreSQL, shiny, testthat, tools, rpart
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -35855,7 +35861,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tab
-Version: 2.1.2
+Version: 2.1.3
 Depends: R (>= 2.10)
 Imports: survey, survival, gee
 License: GPL-2
