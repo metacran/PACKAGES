@@ -24186,12 +24186,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PerformanceAnalytics
-Version: 1.1.0
-Depends: R (>= 2.14.0), zoo, xts (>= 0.8-9)
-Suggests: Hmisc, MASS, tseries, quadprog, sn, robustbase, quantreg,
-        gplots, ff
-License: GPL
-NeedsCompilation: no
+Version: 1.4.3541
+Depends: R (>= 3.0.0), xts (>= 0.9)
+Imports: zoo
+Suggests: Hmisc, MASS, quantmod, gamlss, gamlss.dist, robustbase,
+        quantreg, gplots
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
 
 Package: performanceEstimation
 Version: 0.1.1
