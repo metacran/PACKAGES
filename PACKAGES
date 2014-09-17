@@ -9086,7 +9086,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: EntropyEstimation
-Version: 0.1
+Version: 1.0
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -32988,10 +32988,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: simsalapar
-Version: 1.0-3
-Depends: R (>= 3.0.0), stats, graphics, parallel
-Imports: utils, methods, grid, sfsmisc, gridBase (>= 0.4-6), colorspace
-Suggests: Rmpi, snow, Hmisc, copula, foreach, doParallel, fGarch
+Version: 1.0-4
+Depends: R (>= 3.0.0), stats, graphics
+Imports: parallel, utils, methods, grid, sfsmisc, gridBase (>= 0.4-6),
+        colorspace
+Suggests: Rmpi, Hmisc, copula, foreach, doParallel, fGarch, robustbase
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -38943,7 +38944,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yuima
-Version: 1.0.28
+Version: 1.0.30
 Depends: methods, zoo, stats4, utils, expm, cubature, mvtnorm
 License: GPL-2
 NeedsCompilation: yes
