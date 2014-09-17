@@ -7804,10 +7804,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dnet
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 3.1.0), igraph, supraHex
-Imports: graph, Rgraphviz, Matrix, Biobase
-Suggests: limma, survival, foreach, doMC
+Imports: graph, Rgraphviz, Matrix, Biobase, foreach, doMC
+Suggests: limma, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -10206,6 +10206,13 @@ Depends: R(>= 2.8.1), base, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: fCopulae
+Version: 3011.81
+Depends: R (>= 2.15.1), timeDate, timeSeries, fBasics, fMultivar
+Suggests: methods, RUnit, tcltk, mvtnorm, sn
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: fcros
 Version: 1.2
 License: GPL (>= 2.0)
@@ -11651,7 +11658,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.dist
-Version: 4.3-0
+Version: 4.3-1
 Depends: R (>= 2.15.0), MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
@@ -12288,9 +12295,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 0.9.999
+Version: 1.0.0
 Depends: methods, Matrix, raster, sp, R (>= 3.0.0)
-Suggests: pracma, geoR, RandomFields, rgdal, parallel, numDeriv
+Imports: abind, numDeriv, pracma
+Suggests: geoR, RandomFields, rgdal, parallel
 Enhances: spatstat, mapmisc, ellipse
 License: GPL
 NeedsCompilation: yes
