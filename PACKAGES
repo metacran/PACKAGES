@@ -5064,7 +5064,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: coin
-Version: 1.0-23
+Version: 1.0-24
 Depends: R (>= 2.2.0), methods, survival
 Imports: modeltools (>= 0.2-9), mvtnorm (>= 0.8-0)
 Suggests: multcomp, xtable, e1071, vcd, TH.data
@@ -11624,9 +11624,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: gamlss
-Version: 4.3-0
+Version: 4.3-1
 Depends: R (>= 2.15.0), graphics, stats, splines, utils, gamlss.data,
-        gamlss.dist, nlme
+        gamlss.dist (>= 4.3.1), nlme
 Imports: MASS, survival
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -23582,10 +23582,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-16
+Version: 1.0-17
 Depends: R (>= 2.14.0), methods, grid, zoo, sandwich (>= 1.1-1),
         strucchange, stats, modeltools (>= 0.2-21)
-Imports: survival, coin
+Imports: survival, coin (>= 1.0-24)
 Suggests: TH.data (>= 1.0-3), mlbench, colorspace, MASS, mvtnorm, vcd,
         ipred
 License: GPL-2
@@ -26409,6 +26409,12 @@ Imports: psych, ellipse, lavaan, sem, plyr, Hmisc, igraph, jpeg, png,
 Suggests: RSVGTipsDevice, fdrtool
 License: GPL-2
 NeedsCompilation: yes
+
+Package: qgtools
+Version: 1.0
+Depends: stats,utils,Matrix, MASS
+License: GPL-2
+NeedsCompilation: no
 
 Package: qiimer
 Version: 0.9.2
@@ -29621,6 +29627,15 @@ Suggests: lattice, splines, nlme, plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: rmarkdown
+Version: 0.3.3
+Depends: R (>= 3.0)
+Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
+        0.2.4), caTools
+Suggests: shiny (>= 0.10.1), testthat, digest
+License: GPL-3
+NeedsCompilation: no
+
 Package: rmatio
 Version: 0.10.0
 Depends: R(>= 3.0.2), Matrix, methods, lattice
@@ -29713,6 +29728,13 @@ NeedsCompilation: no
 Package: rmngb
 Version: 0.4-1
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: RMOAjars
+Version: 1.0
+Depends: R (>= 2.6.0)
+Imports: rJava (>= 0.6-3)
+License: GPL-3
 NeedsCompilation: no
 
 Package: RMongo
