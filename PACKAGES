@@ -1996,7 +1996,7 @@ License: GNU General Public License
 NeedsCompilation: no
 
 Package: bbo
-Version: 0.1
+Version: 0.2
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -2336,7 +2336,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: betategarch
-Version: 3.1
+Version: 3.2
 Depends: R (>= 2.15.0), zoo
 License: GPL-2
 NeedsCompilation: yes
@@ -12309,11 +12309,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 1.0.0
-Depends: methods, Matrix, raster, sp, R (>= 3.0.0)
-Imports: abind, numDeriv, pracma
-Suggests: geoR, RandomFields, rgdal, parallel
-Enhances: spatstat, mapmisc, ellipse
+Version: 1.0.1
+Depends: Matrix, raster, sp, R (>= 3.0.0)
+Imports: abind, numDeriv, pracma, methods
+Suggests: geoR, RandomFields, rgdal, parallel, mapmisc, ellipse
+Enhances: spatstat
 License: GPL
 NeedsCompilation: yes
 
@@ -31148,7 +31148,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: Rtsne
-Version: 0.8
+Version: 0.9
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: BSD_3_clause + file LICENSE
@@ -37034,7 +37034,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TreeSim
-Version: 2.0
+Version: 2.1
 Depends: ape, geiger, laser
 License: GPL-2
 NeedsCompilation: no
@@ -37788,6 +37788,12 @@ Package: UsingR
 Version: 2.0-2
 Depends: R (>= 2.15.0), MASS, HistData, Hmisc, quantreg
 Suggests: zoo, coin, ggplot2, vcd, lubridate, aplpack
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: uskewFactors
+Version: 1.0
+Depends: tmvtnorm, mvtnorm, MCMCpack, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
