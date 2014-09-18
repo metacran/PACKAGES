@@ -7413,7 +7413,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: DirichletReg
-Version: 0.5-1
+Version: 0.5-2
 Depends: R (>= 3.0.0), Formula, rgl
 Imports: stats, graphics, methods, maxLik
 Suggests: colorspace, testthat
@@ -20278,7 +20278,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: modTempEff
-Version: 1.5.1
+Version: 1.5.2
 Depends: mgcv, splines
 License: GPL
 NeedsCompilation: no
