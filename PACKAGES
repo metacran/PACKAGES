@@ -3254,7 +3254,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: boral
-Version: 0.4
+Version: 0.5
 Depends: coda
 Imports: R2jags, mvtnorm, fishMod, MASS
 Suggests: mvabund (>= 3.8.4), corrplot
@@ -4647,11 +4647,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: clhs
-Version: 0.5-1
-Depends: R (>= 2.9.0)
+Version: 0.5-4
+Depends: R (>= 2.14.0)
 Imports: utils, methods, grid, ggplot2, sp, raster, reshape2, plyr,
         scales
-Suggests: ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7823,6 +7822,7 @@ Depends: R (>= 3.1.0), igraph, supraHex
 Imports: graph, Rgraphviz, Matrix, Biobase, foreach, doMC
 Suggests: limma, survival
 License: GPL-2
+OS_type: unix
 NeedsCompilation: no
 
 Package: DOBAD
@@ -15913,6 +15913,11 @@ Depends: R (>= 2.14), R2jags, Matching, boot
 License: GPL-3
 NeedsCompilation: no
 
+Package: ivbma
+Version: 1.05
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ivfixed
 Version: 1.0
 Imports: Formula
@@ -23374,7 +23379,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: paleotree
-Version: 2.1
+Version: 2.2
 Depends: R (>= 3.0.0), ape
 Imports: phangorn
 License: GPL (>= 2)
@@ -25954,7 +25959,7 @@ License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
 Package: protViz
-Version: 0.1.98
+Version: 0.2.06
 Depends: R (>= 3.0.2), methods
 Imports: Rcpp (>= 0.9.9)
 Suggests: lattice, RUnit, BiocGenerics
@@ -28430,8 +28435,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: refGenome
-Version: 1.2.0
-Depends: methods,RSQLite,doBy
+Version: 1.3.0
+Depends: methods,doBy,RSQLite
+Imports: DBI
 License: GPL-2
 NeedsCompilation: yes
 
@@ -33431,6 +33437,13 @@ Package: smoother
 Version: 1.0.0.0
 License: GPL-2
 NeedsCompilation: no
+
+Package: SmoothHazard
+Version: 1.2.0
+Depends: R (>= 1.9.1)
+Imports: lava, mvtnorm, prodlim
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: smoothHR
 Version: 1.0.1
