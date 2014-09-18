@@ -226,6 +226,12 @@ Depends: imputeYn, glmnet, lars, R (>= 2.14.2)
 License: GPL-2
 NeedsCompilation: no
 
+Package: adaptDA
+Version: 1.0
+Depends: MASS
+License: GPL-2
+NeedsCompilation: no
+
 Package: AdaptFit
 Version: 0.2-2
 Depends: SemiPar, MASS, nlme, cluster
@@ -1207,6 +1213,14 @@ Depends: R (>= 2.14.0), arules (>= 1.0-5), grid
 Imports: scatterplot3d, vcd, seriation, igraph
 Suggests: iplots, Rgraphviz, graph
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: aRxiv
+Version: 0.5.2
+Depends: R (>= 3.0.0)
+Imports: httr, utils, XML
+Suggests: devtools, knitr, roxygen2, testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: asbio
@@ -12383,7 +12397,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: gfcanalysis
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10.0), raster, methods
 Imports: rgdal, geosphere, RCurl, rgeos, plyr, ggplot2, grid, sp,
         stringr, animation, rasterVis
@@ -18232,9 +18246,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapmisc
-Version: 0.9.4
+Version: 1.0.0
 Depends: sp, raster, R (>= 3.0.0)
-Suggests: rgdal, knitr,geonames, RColorBrewer, classInt
+Suggests: RColorBrewer, geonames, classInt, rgdal, knitr
 License: GPL
 NeedsCompilation: no
 
