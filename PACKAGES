@@ -600,7 +600,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: allelematch
-Version: 2.03
+Version: 2.5
 Depends: dynamicTreeCut
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -3377,9 +3377,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bReeze
-Version: 0.3-2
-Depends: R (>= 2.14.2), RColorBrewer
-Suggests: RgoogleMaps, XML
+Version: 0.4-0
+Depends: R (>= 2.14.2)
+Suggests: RColorBrewer, RgoogleMaps, XML
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8595,7 +8595,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: edgeRun
-Version: 1.0.7
+Version: 1.0.8
 Depends: edgeR, data.table
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -12820,9 +12820,10 @@ License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
 
 Package: gmailr
-Version: 0.0.1
+Version: 0.5.0
 Depends: R (>= 3.0.0)
-Imports: httr, base64enc, jsonlite
+Imports: httr, base64enc, magrittr, jsonlite
+Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
