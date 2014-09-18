@@ -28711,7 +28711,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: repmis
-Version: 0.2.9
+Version: 0.3
 Depends: R (>= 3.0.0)
 Imports: digest, httr, plyr, R.cache, xlsx
 License: GPL (>= 3)
@@ -29061,7 +29061,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rgdal
-Version: 0.8-16
+Version: 0.9-1
 Depends: R (>= 2.14.0), methods, sp (>= 1.0-9)
 LinkingTo: sp
 License: GPL (>= 2)
