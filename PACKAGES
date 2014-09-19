@@ -17629,6 +17629,13 @@ Suggests: svUnit, XML
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: LogicForest
+Version: 2.1.0
+Depends: R (>= 2.10), LogicReg, CircStats
+Imports: gtools, plotrix
+License: GPL-2
+NeedsCompilation: no
+
 Package: LOGICOIL
 Version: 0.99.0
 Depends: R (>= 2.12), nnet
@@ -22004,6 +22011,13 @@ Package: nlts
 Version: 0.2-0
 Depends: R (>= 2.2.0), locfit (>= 1.5.3), acepack
 License: GPL
+NeedsCompilation: no
+
+Package: nlWaldTest
+Version: 1.0.1
+Depends: R (>= 3.0.2)
+Imports: stringr, numDeriv
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nmcdr
@@ -29301,7 +29315,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RidgeFusion
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 3.0.0),mvtnorm, methods
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -29759,6 +29773,13 @@ Version: 0.4-1
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: RMOA
+Version: 1.0
+Depends: RMOAjars (>= 1.0), rJava (>= 0.6-3), methods
+Suggests: ff
+License: GPL-3
+NeedsCompilation: no
+
 Package: RMOAjars
 Version: 1.0
 Depends: R (>= 2.6.0)
@@ -29815,10 +29836,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rms
-Version: 4.2-0
-Depends: Hmisc (>= 3.12-2), survival (>= 2.37-6), SparseM
-Suggests: lattice, quantreg, nlme, rpart, polspline, multcomp, boot,
-        tcltk
+Version: 4.2-1
+Depends: Hmisc (>= 3.12-2), survival (>= 2.37-6), lattice, SparseM
+Imports: quantreg, nlme, rpart, polspline, multcomp
+Suggests: boot, tcltk
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -31242,7 +31263,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RVAideMemoire
-Version: 0.9-38
+Version: 0.9-39
 Imports: ade4, boot, car, lme4 (>= 1.0-4), lsmeans (>= 2.0.1), MASS,
         mixOmics (>= 5.0.2), multcomp, statmod, stats
 Suggests: ordinal, survival
@@ -33440,7 +33461,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SmoothHazard
-Version: 1.2.0
+Version: 1.2.3
 Depends: R (>= 1.9.1)
 Imports: lava, mvtnorm, prodlim
 License: GPL (>= 2)
@@ -34151,6 +34172,12 @@ Version: 0.4-19
 Depends: R (>= 1.9.0)
 License: CC BY-NC-SA 3.0 + file LICENSE
 NeedsCompilation: yes
+
+Package: spatialnbda
+Version: 1.0
+Depends: SocialNetworks(>= 1.1), mvtnorm(>= 0.9)
+License: GPL
+NeedsCompilation: no
 
 Package: SpatialNP
 Version: 1.1-1
