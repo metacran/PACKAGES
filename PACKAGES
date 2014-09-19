@@ -5110,7 +5110,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: comclim
-Version: 0.9.2
+Version: 0.9.4
 Depends: methods, R (>= 3.0.0)
 License: GPL-3
 NeedsCompilation: no
@@ -15073,6 +15073,13 @@ Package: igraphtosonia
 Version: 1.0
 Depends: igraph
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: iki.dataclim
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: methods, zoo, lubridate, climdex.pcic (>= 1.1-1), PCICt
+License: GPL-3
 NeedsCompilation: no
 
 Package: IM
@@ -27554,7 +27561,7 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.NMBU
-Version: 1.7.4
+Version: 1.7.5
 Depends: R (>= 3.0.0), mixlm (>= 1.0.6), MASS, pls
 Imports: Rcmdr (>= 2.0-0), tcltk
 Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, xtable,
@@ -29003,7 +29010,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rhpc
-Version: 0.14-256
+Version: 0.14-261
 Depends: R (>= 3.0.0)
 Imports: parallel
 License: AGPL-3
@@ -31842,7 +31849,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: sdmvspecies
-Version: 0.3
+Version: 0.3.1
 Depends: GPArotation
 Imports: ggplot2, psych, raster, parallel
 Suggests: testthat, roxygen2
@@ -34111,11 +34118,6 @@ Package: speedglm
 Version: 0.2
 Depends: Matrix
 License: GPL
-NeedsCompilation: no
-
-Package: speedRlibTF
-Version: 0.3-39
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: speff2trial
