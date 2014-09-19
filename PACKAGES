@@ -5338,6 +5338,14 @@ Suggests: stats, utils
 License: GPL-2
 NeedsCompilation: no
 
+Package: confidence
+Version: 1.0-0
+Depends: R (>= 3.0.0), tcltk
+Imports: knitr, markdown, plyr, xtable, ggplot2
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: confreq
 Version: 1.1
 Depends: R (>= 2.10.1), stats
@@ -20826,6 +20834,12 @@ Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: multipleNCC
+Version: 1.0
+Depends: survival, gam
+License: GPL-2
+NeedsCompilation: no
+
 Package: multiplex
 Version: 1.2
 Depends: R (>= 3.0.2)
@@ -21282,6 +21296,14 @@ Depends: R (>= 2.15.1), rgl
 Imports: RANN, igraph, methods, filehash, digest, nat.utils (>= 0.4.2),
         plyr
 Suggests: Rvcg, testthat, httr
+License: GPL-3
+NeedsCompilation: no
+
+Package: nat.nblast
+Version: 1.5
+Depends: R (>= 2.15.1), rgl, methods, nat (>= 1.5.12)
+Imports: nabor, dendroextras, plyr, spam
+Suggests: bigmemory, ff, testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -26944,11 +26966,12 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: randomUniformForest
-Version: 1.0.6
+Version: 1.0.8
 Depends: R (>= 3.0.0)
-Imports: methods, Rcpp (>= 0.11.1), parallel, doParallel, foreach (>=
-        1.4.2), ggplot2, pROC, gtools
+Imports: methods, Rcpp (>= 0.11.1), parallel, doParallel, iterators,
+        foreach (>= 1.4.2), ggplot2, pROC, gtools
 LinkingTo: Rcpp
+Suggests: R.rsp
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
