@@ -2139,7 +2139,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: beanplot
-Version: 1.1
+Version: 1.2
 Suggests: vioplot, lattice
 License: GPL-2
 NeedsCompilation: no
@@ -23717,7 +23717,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pcaPP
-Version: 1.9-49
+Version: 1.9-50
 Depends: mvtnorm
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -30958,7 +30958,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RUnit
-Version: 0.4.26
+Version: 0.4.27
 Depends: R (>= 2.5.0), utils (>= 2.5.0), methods (>= 2.5.0)
 License: GPL-2
 NeedsCompilation: no
