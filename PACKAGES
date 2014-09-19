@@ -2186,6 +2186,11 @@ Suggests: vioplot, lattice
 License: GPL-2
 NeedsCompilation: no
 
+Package: BEANSP
+Version: 1.0
+License: GPL-2
+NeedsCompilation: yes
+
 Package: bear
 Version: 2.6.3
 Depends: R (>= 2.12.0), reshape, nlme, gdata
@@ -8595,7 +8600,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: edgeRun
-Version: 1.0.8
+Version: 1.0.9
 Depends: edgeR, data.table
 License: MIT + file LICENSE
 NeedsCompilation: no
