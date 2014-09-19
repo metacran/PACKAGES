@@ -15392,8 +15392,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: intervals
-Version: 0.14.0
-Depends: R (>= 2.9.0), methods
+Version: 0.15.0
+Depends: R (>= 2.9.0)
+Imports: methods
 License: Artistic-2.0
 NeedsCompilation: yes
 
