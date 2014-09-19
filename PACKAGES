@@ -3072,6 +3072,11 @@ Suggests: RCurl
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
+Package: BOIN
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: bold
 Version: 0.2.0
 Imports: XML, httr, stringr, assertthat, jsonlite, reshape, plyr
@@ -11831,7 +11836,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gdsfmt
-Version: 1.1.0
+Version: 1.1.0.1
 Depends: R (>= 2.14.0)
 Imports: methods
 Suggests: parallel, RUnit
@@ -22658,6 +22663,14 @@ Depends: rJava, methods, raster, rgdal, R (>= 2.10.0)
 Imports: rJava
 Suggests: ggplot2 (>= 0.9.0), sp, colorspace, maptools
 License: GPL-2 | file LICENCE
+NeedsCompilation: no
+
+Package: opentraj
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: plyr, maptools, openair, raster, rgdal, reshape, doParallel,
+        parallel, foreach, sp
+License: GPL-2
 NeedsCompilation: no
 
 Package: openxlsx
@@ -34298,7 +34311,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: spMC
-Version: 0.3.2
+Version: 0.3.4
 Depends: R (>= 3.0.0), base, methods, datasets, utils, grDevices,
         graphics, stats
 License: GPL (>= 2)
