@@ -17201,7 +17201,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: llama
-Version: 0.7.1
+Version: 0.7.2
 Depends: R (>= 2.10), mlr (>= 2.1)
 Imports: plyr, rJava, parallelMap
 Suggests: FSelector, testthat, ParamHelpers
@@ -18674,8 +18674,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mco
-Version: 1.0.12
-Depends: R (>= 2.15.0)
+Version: 1.0.13
+Depends: R (>= 3.0.0)
 Suggests: scatterplot3d
 License: GPL-2
 NeedsCompilation: yes
@@ -19603,9 +19603,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mitools
-Version: 2.2
-Depends: foreign
-Suggests: RODBC, DBI
+Version: 2.3
+Depends: R (>= 2.10)
+Suggests: RODBC, DBI, foreign
 License: GPL-2
 NeedsCompilation: no
 
@@ -27847,7 +27847,7 @@ License: LGPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppOctave
-Version: 0.14.1
+Version: 0.14.5
 Depends: R (>= 3.0.0), methods, utils, stats, Rcpp (>= 0.10.1),
         pkgmaker (>= 0.20)
 Imports: digest, stringr, tools
