@@ -1363,6 +1363,13 @@ Version: 0.1-1
 License: MIT
 NeedsCompilation: no
 
+Package: audited
+Version: 1.9
+Imports: igraph, metrumrg, methods
+Suggests: xlsx, rJava
+License: GPL
+NeedsCompilation: no
+
 Package: autoencoder
 Version: 1.0
 License: GPL-2
@@ -26935,7 +26942,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: randomizationInference
-Version: 1.0.1
+Version: 1.0.2
 Imports: permute (>= 0.7-8), matrixStats
 License: GPL-2
 NeedsCompilation: no
@@ -32522,7 +32529,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: shapes
-Version: 1.1-9
+Version: 1.1-10
 Depends: scatterplot3d, rgl, MASS
 License: GPL-2
 NeedsCompilation: no
