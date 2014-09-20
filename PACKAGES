@@ -6921,7 +6921,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Density.T.HoldOut
-Version: 1.02
+Version: 2.00
 Imports: histogram
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -20297,9 +20297,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: mp
-Version: 0.1
+Version: 0.1.2
+Depends: R (>= 1.8.0)
 License: GPL
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: mpa
 Version: 0.7.3
@@ -20637,6 +20638,12 @@ Package: msSurv
 Version: 1.1-2
 Depends: R (>= 2.0), methods, class, graph, lattice
 Suggests: KMsurv
+License: GPL-2
+NeedsCompilation: no
+
+Package: MST
+Version: 1.0
+Imports: survival, MASS
 License: GPL-2
 NeedsCompilation: no
 
@@ -22914,6 +22921,12 @@ Version: 0.3
 Depends: R (>= 2.15.1),mirt,MASS,NominalLogisticBiplot
 License: GPL (>= 2)
 Archs: i386, x64
+NeedsCompilation: no
+
+Package: OrdLogReg
+Version: 1.1
+Depends: LogicReg
+License: GPL-2
 NeedsCompilation: no
 
 Package: OrdMonReg
@@ -28216,6 +28229,14 @@ Imports: chron, httr, stringr
 Suggests: DBI, Hmisc
 License: GPL-2
 NeedsCompilation: yes
+
+Package: REDCapR
+Version: 0.4-28
+Depends: R(>= 3.0.0), stats
+Imports: httr, plyr, stringr
+Suggests: devtools, knitr, methods, RODBC, testit, testthat
+License: GPL-3
+NeedsCompilation: no
 
 Package: REEMtree
 Version: 0.90.3
