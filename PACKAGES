@@ -7011,10 +7011,9 @@ License: BSD
 NeedsCompilation: no
 
 Package: DescTools
-Version: 0.99.7
-Depends: tcltk
-Imports: boot
-Suggests: RDCOMClient
+Version: 0.99.8
+Imports: boot, tcltk
+Suggests: RDCOMClient, manipulate
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26252,6 +26251,14 @@ Package: qdapDictionaries
 Version: 1.0.2
 Depends: R (>= 3.0.0)
 Suggests: qdap
+License: GPL-2
+NeedsCompilation: no
+
+Package: qdapRegex
+Version: 0.1.1
+Depends: R (>= 3.0.0)
+Imports: stringi
+Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
 
