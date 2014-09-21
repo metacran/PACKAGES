@@ -36920,7 +36920,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: trotter
-Version: 0.5
+Version: 0.6
 Depends: methods
 License: GPL-3
 NeedsCompilation: no
