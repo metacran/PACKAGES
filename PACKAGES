@@ -1010,7 +1010,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: archivist
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0), RSQLite, DBI, lubridate, jsonlite
 Imports: RCurl, digest, httr
 License: GPL-2
@@ -4217,6 +4217,11 @@ Version: 1.0.2
 Depends: methods, parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: CGP
+Version: 2.0-2
+License: LGPL-2.1
+NeedsCompilation: no
 
 Package: cgwtools
 Version: 1.1
@@ -27593,6 +27598,14 @@ Imports: Rcmdr (>= 1.9-5)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: RcmdrPlugin.MA
+Version: 0.0-2
+Depends: R (>= 2.15)
+Imports: Rcmdr, MAd, metafor
+Suggests: knitr, rmarkdown, compute.es, ggplot2, gridExtra, scales
+License: GPL-2
+NeedsCompilation: no
+
 Package: RcmdrPlugin.mosaic
 Version: 1.0-7
 Depends: ENmisc, vcd (>= 1.2-11), Hmisc, Rcmdr
@@ -31394,7 +31407,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: samplesize4surveys
-Version: 0.5.1
+Version: 2.1.0
 Depends: TeachingSampling
 License: GPL (>= 2)
 NeedsCompilation: no
