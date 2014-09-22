@@ -18157,7 +18157,7 @@ License: Lucent Public License
 NeedsCompilation: yes
 
 Package: maps
-Version: 2.3-7
+Version: 2.3-9
 Depends: R (>= 2.10.0)
 Suggests: mapproj (>= 1.2-0)
 License: GPL-2
@@ -26939,10 +26939,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.35
+Version: 3.0.42
 Depends: R (>= 3.0.2), sp
-Suggests: raster, tcltk2, tcltk, tkrplot, spam, methods, colorspace,
-        RColorBrewer
+Imports: colorspace, graphics, methods, spam, tcltk2, tcltk, tkrplot
+Suggests: raster
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -27798,10 +27798,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RcppArmadillo
-Version: 0.4.400.0
+Version: 0.4.450.1.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
-Suggests: RUnit, Matrix
+Suggests: RUnit, Matrix, pkgKitten
 License: GPL (>= 2)
 NeedsCompilation: yes
 
