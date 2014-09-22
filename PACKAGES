@@ -7756,10 +7756,9 @@ NeedsCompilation: no
 Package: dnet
 Version: 1.0.6
 Depends: R (>= 3.1.0), igraph, supraHex
-Imports: graph, Rgraphviz, Matrix, Biobase, foreach, doMC
-Suggests: limma, survival
+Imports: graph, Rgraphviz, Matrix, Biobase
+Suggests: limma, survival, foreach, doMC
 License: GPL-2
-OS_type: unix
 NeedsCompilation: no
 
 Package: DOBAD
@@ -7784,6 +7783,11 @@ Depends: methods
 Imports: stringr
 License: MIT +file LICENSE
 NeedsCompilation: no
+
+Package: documair
+Version: 0.6-0
+License: GPL (>= 2.15)
+NeedsCompilation: yes
 
 Package: Dodge
 Version: 0.8
@@ -28226,7 +28230,7 @@ NeedsCompilation: no
 
 Package: recosystem
 Version: 0.2.4
-Depends: methods
+Depends: R (>= 3.1.0), methods
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: knitr
@@ -32504,7 +32508,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: sglasso
-Version: 1.0-1
+Version: 1.1-0
 Depends: Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
