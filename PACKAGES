@@ -20348,6 +20348,13 @@ Suggests: HDPenReg,CGHcall,aroma.affymetrix,aroma.cn,snowfall
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: mpath
+Version: 0.1-14
+Depends: methods
+Imports: MASS,glmnet,pscl,numDeriv
+License: GPL-2
+NeedsCompilation: yes
+
 Package: MPCI
 Version: 1.0.6
 License: GPL (>= 2)
@@ -24558,6 +24565,12 @@ Version: 0.8
 Suggests: zoo, xts, highfrequency, TTR, timeDate, quantmod
 License: GPL-3
 NeedsCompilation: no
+
+Package: pingr
+Version: 1.0.0
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: pipeR
 Version: 0.4-2
