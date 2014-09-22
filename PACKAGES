@@ -6881,13 +6881,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dendextend
-Version: 0.17.1
+Version: 0.17.5
 Depends: R (>= 3.0.0)
 Imports: utils, stats, magrittr (>= 1.0.1), whisker
 Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, colorspace, plyr,
         profdpm, microbenchmark, gplots, DendSer, dynamicTreeCut,
         pvclust
-Enhances: ggdendro, labeltodendro,dendroextras, ape
+Enhances: ggdendro, labeltodendro,dendroextras, data.table, ape
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -9954,6 +9954,14 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: fAssets
+Version: 3011.82
+Depends: R (>= 2.15.1), timeDate, timeSeries, fBasics
+Imports: fMultivar, robustbase, MASS, sn
+Suggests: methods, mnormt, ecodist, mvnormtest, energy, RUnit
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: fast
 Version: 0.63
 Depends: zoo
@@ -10650,10 +10658,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: flexsurv
-Version: 0.3
+Version: 0.5
 Depends: survival
-Imports: muhaz,mvtnorm
-Suggests: eha
+Imports: muhaz,mvtnorm,deSolve
+Suggests: eha,mstate,numDeriv,testthat,msm,ActuDistns
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25501,9 +25509,9 @@ License_restricts_use: yes
 NeedsCompilation: no
 
 Package: predictmeans
-Version: 0.98
+Version: 0.99
 Depends: R (>= 3.0.0), lme4, nlme
-Imports: ggplot2, lattice, parallel, pbkrtest, plyr
+Imports: ggplot2, lattice, pbkrtest, plyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25826,7 +25834,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: proxy
-Version: 0.4-12
+Version: 0.4-13
 Depends: R (>= 2.4.0)
 Suggests: cba
 License: GPL-2
