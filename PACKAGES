@@ -7016,7 +7016,8 @@ License: BSD
 NeedsCompilation: no
 
 Package: DescTools
-Version: 0.99.8
+Version: 0.99.8.1
+Depends: R (>= 3.1.0)
 Imports: boot, tcltk
 Suggests: RDCOMClient, manipulate
 License: GPL (>= 2)
@@ -14855,6 +14856,12 @@ Imports: stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: IBrokers
+Version: 0.9-12
+Depends: xts, zoo
+License: GPL-3
+NeedsCompilation: no
+
 Package: iBUGS
 Version: 0.1.4
 Depends: R2WinBUGS, gWidgetsRGtk2
@@ -20377,6 +20384,12 @@ Depends: vegan
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: mpmi
+Version: 0.41
+Depends: KernSmooth
+License: GPL-3
+NeedsCompilation: yes
+
 Package: mpoly
 Version: 0.0.5
 Imports: stringr, rSymPy, rJython, rJava, rjson, partitions, plyr,
@@ -25107,9 +25120,9 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: polysat
-Version: 1.3-2
-Depends: combinat, methods
-Suggests: ade4, adegenet
+Version: 1.3-3
+Imports: methods
+Suggests: combinat, ade4, adegenet
 License: GPL-2
 NeedsCompilation: no
 
@@ -30248,12 +30261,12 @@ License: GPL
 NeedsCompilation: no
 
 Package: rpf
-Version: 0.38
+Version: 0.39
 Depends: methods, parallel, R (>= 2.14.0)
 Imports: mvtnorm
 LinkingTo: RcppEigen
-Suggests: plink, testthat, roxygen2, ggplot2, reshape2, gridExtra,
-        numDeriv, knitr, mirt
+Suggests: testthat, roxygen2, ggplot2, reshape2, gridExtra, numDeriv,
+        knitr, mirt
 License: GPL (>= 3)
 NeedsCompilation: yes
 
