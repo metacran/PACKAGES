@@ -12053,6 +12053,15 @@ Depends: MASS, Matrix, igraph
 License: GPL (>= 2.0)
 NeedsCompilation: yes
 
+Package: GENLIB
+Version: 1.0
+Depends: R (>= 3.0), Rcpp (>= 0.9.10)
+Imports: kinship2, methods, bootstrap, Matrix, lattice, quadprog,
+        foreach, parallel, doParallel
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: genMOSS
 Version: 1.1
 Depends: R (>= 2.10)
