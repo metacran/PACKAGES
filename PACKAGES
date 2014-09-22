@@ -32045,10 +32045,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: secr
-Version: 2.8.2
+Version: 2.9.0
 Depends: R (>= 3.0.0)
-Imports: abind, MASS, utils, parallel, nlme, sp
-Suggests: maptools, spsurvey, rgdal, rgeos, raster
+Imports: abind, MASS, utils, parallel, nlme, sp, mgcv, raster
+Suggests: maptools, spsurvey, rgdal, rgeos
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -36132,11 +36132,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: testthat
-Version: 0.8.1
-Depends: R (>= 2.15.0)
-Imports: digest, methods
+Version: 0.9
+Depends: R (>= 2.15.0), methods
+Imports: digest
+Suggests: devtools
 License: MIT + file LICENSE
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: testthatsomemore
 Version: 0.1
