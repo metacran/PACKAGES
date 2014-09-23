@@ -5893,6 +5893,12 @@ Depends: mvtnorm, sp, raster
 License: Unlimited
 NeedsCompilation: yes
 
+Package: crayon
+Version: 1.0.0
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: crblocks
 Version: 0.9-1
 License: GPL (>= 2)
@@ -17815,11 +17821,12 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.11
+Version: 2.12
 Depends: methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix
-Suggests: nlme, lme4, pbkrtest, lattice, multcompView, car
-Enhances: survival, MASS, coxme
+Suggests: nlme, lme4, pbkrtest (>= 0.4-1), lattice, multcompView, car,
+        mediation
+Enhances: survival, MASS, coxme, gee, geepack, glmmADMB, afex
 License: GPL-2
 NeedsCompilation: no
 
@@ -36854,8 +36861,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TreePar
-Version: 3.0
-Depends: ape, Matrix, subplex, TreeSim (>= 2.0), deSolve
+Version: 3.1
+Depends: ape, Matrix, subplex, TreeSim (>= 2.1), deSolve
 License: GPL-2
 NeedsCompilation: no
 
