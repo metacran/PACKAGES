@@ -2094,7 +2094,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: BDgraph
-Version: 2.10
+Version: 2.11
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -31113,7 +31113,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: Rvcg
-Version: 0.8
+Version: 0.9
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
