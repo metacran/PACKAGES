@@ -6822,7 +6822,7 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: Delaporte
-Version: 2.2-0
+Version: 2.2-1
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: testthat
@@ -23470,9 +23470,8 @@ License: AGPL-3
 NeedsCompilation: yes
 
 Package: parsedate
-Version: 1.0.3
+Version: 1.1.1
 Depends: methods
-Imports: lubridate
 Suggests: testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -26307,8 +26306,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapRegex
-Version: 0.1.1
-Depends: R (>= 3.0.0)
+Version: 0.1.2
+Depends: R (>= 3.1.0)
 Imports: stringi
 Suggests: testthat
 License: GPL-2
@@ -32650,8 +32649,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: shinyFiles
-Version: 0.3.2
-Imports: tools, shiny
+Version: 0.4.0
+Imports: tools, shiny (>= 0.10.1), htmltools
 License: GPL (>= 2)
 NeedsCompilation: no
 
