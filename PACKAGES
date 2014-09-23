@@ -6858,6 +6858,13 @@ Suggests: ggplot2, reshape
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: deming
+Version: 1.0-1
+Priority: optional
+Imports: boot
+License: LGPL (>= 2)
+NeedsCompilation: no
+
 Package: demography
 Version: 1.18
 Depends: R (>= 2.15.2), forecast (>= 3.09), rainbow, ftsa, cobs
@@ -29371,6 +29378,12 @@ Package: Rjpstatdb
 Version: 0.1
 Depends: methods, RCurl, XML
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RJSDMX
+Version: 1.1
+Depends: R (>= 2.12.0), rJava (>= 0.8-8), zoo (>= 1.6-4)
+License: EUPL
 NeedsCompilation: no
 
 Package: rjson
