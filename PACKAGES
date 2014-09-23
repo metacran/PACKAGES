@@ -6410,10 +6410,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: datacheck
-Version: 1.0.0
-Depends: R (>= 2.15.1), grDevices, Hmisc, stringr, shiny, testthat,
-        xtable
-Suggests: knitr
+Version: 1.0.4
+Depends: R (>= 2.15.1), grDevices
+Imports: Hmisc, shiny, stringr
+Suggests: knitr, xtable
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -20342,7 +20342,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mpath
-Version: 0.1-14
+Version: 0.1-15
 Depends: methods
 Imports: MASS,glmnet,pscl,numDeriv
 License: GPL-2
@@ -32203,7 +32203,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiPar
-Version: 1.0-4
+Version: 1.0-4.1
 Imports: MASS, cluster, nlme
 Suggests: lattice
 License: GPL (>= 2)
