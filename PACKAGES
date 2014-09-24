@@ -6560,7 +6560,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: DBI
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 2.15.0), methods
 Suggests: testthat, RSQLite
 License: LGPL (>= 2)
@@ -7439,10 +7439,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: diseasemapping
-Version: 0.7.7
+Version: 1.0.1
 Depends: sp, R (>= 3.0)
-Suggests: mgcv
-Enhances: glmmBUGS, spdep
+Suggests: mgcv, spdep, mapmisc (>= 1.0)
 License: GPL
 NeedsCompilation: no
 
@@ -10852,12 +10851,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: forecast
-Version: 5.5
+Version: 5.6
 Depends: R (>= 3.0.2), stats, graphics, zoo, timeDate
 Imports: tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,
         parallel
 LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)
-Suggests: Rmalschains, testthat, fpp
+Suggests: testthat, fpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -22970,6 +22969,13 @@ Suggests: lme4, nnet, xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ordinalgmifs
+Version: 1.0.0
+Depends: R (>= 2.10)
+Suggests: Biobase
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: OrdinalLogisticBiplot
 Version: 0.3
 Depends: R (>= 2.15.1),mirt,MASS,NominalLogisticBiplot
@@ -32911,6 +32917,12 @@ Version: 1.0
 Depends: Formula, plotrix
 License: GPL-2
 NeedsCompilation: yes
+
+Package: SimplicialCubature
+Version: 1.0
+Depends: R (>= 3.0.0)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: Simpsons
 Version: 0.1.0
