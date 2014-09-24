@@ -21742,6 +21742,14 @@ Imports: RCurl, rjson, biglm, bitops
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: NHMM
+Version: 3.3
+Depends: BayesLogit, msm, MCMCpack, MASS
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: NHMMfdr
 Version: 1.0.6
 Depends: R (>= 2.10.0), MASS, locfdr
