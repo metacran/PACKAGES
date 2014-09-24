@@ -2100,7 +2100,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: BDgraph
-Version: 2.11
+Version: 2.12
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -5228,6 +5228,13 @@ Package: compHclust
 Version: 1.0-2
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: Compind
+Version: 1.0
+Depends: Benchmarking, psych, boot
+Imports: Hmisc, MASS, GPArotation, lpSolve, nonparaeff
+License: GPL-3
+NeedsCompilation: no
 
 Package: complex.surv.dat.sim
 Version: 2.0.0
@@ -16373,6 +16380,11 @@ Depends: R(>= 3.0.2), methods
 Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
 Suggests: akima,
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: kofnGA
+Version: 1.0
+License: GPL-2
 NeedsCompilation: no
 
 Package: kohonen
