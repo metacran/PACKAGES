@@ -1220,6 +1220,12 @@ Version: 1.0-14
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ASMap
+Version: 0.3
+Depends: R (>= 2.0.0), qtl, gtools, fields, lattice
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: aspace
 Version: 3.2
 Depends: R (>= 2.15.1), splancs, Hmisc, shapefiles
