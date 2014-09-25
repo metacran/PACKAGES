@@ -3892,6 +3892,12 @@ Suggests: mlogit,survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: causaleffect
+Version: 1.0
+Imports: igraph, XML
+License: GPL-2
+NeedsCompilation: no
+
 Package: CausalGAM
 Version: 0.1-3
 Depends: R (>= 2.9.0), gam (>= 1.0.1)
@@ -15889,6 +15895,11 @@ Depends: AER, sandwich, lmtest
 License: GPL-2
 NeedsCompilation: no
 
+Package: ivprobit
+Version: 1.0
+License: Artistic-2.0
+NeedsCompilation: no
+
 Package: iWeigReg
 Version: 1.0
 Depends: R (>= 2.9.1), MASS (>= 7.2-1), trust
@@ -26437,7 +26448,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qqman
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.0.0)
 Suggests: knitr
 License: GPL-3
