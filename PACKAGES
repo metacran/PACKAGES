@@ -2303,10 +2303,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: betareg
-Version: 3.0-4
-Depends: R (>= 2.10.0), Formula
-Imports: graphics, methods, stats, flexmix, lmtest, modeltools,
-        sandwich
+Version: 3.0-5
+Depends: R (>= 2.10.0)
+Imports: graphics, methods, stats, flexmix, Formula, lmtest,
+        modeltools, sandwich
 Suggests: car, lattice, party, strucchange
 License: GPL-2
 NeedsCompilation: no
