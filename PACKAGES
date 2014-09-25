@@ -5977,7 +5977,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Crossover
-Version: 0.1-11
+Version: 0.1-12
 Depends: R (>= 3.0.2), rJava (>= 0.8-3), CommonJavaJars (>= 1.0.5),
         JavaGD, ggplot2
 Imports: MASS, crossdes (>= 1.1-1), xtable, methods, Matrix, multcomp,
@@ -6624,7 +6624,7 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: dcGOR
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.1.0), Matrix, igraph, dnet
 Imports: methods
 Suggests: foreach, doMC
