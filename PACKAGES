@@ -20274,7 +20274,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Morpho
-Version: 2.0.3-1
+Version: 2.1
 Depends: R (>= 3.0.2)
 Imports: Rvcg (>= 0.7), rgl (>= 0.93.963), colorRamps, foreach (>=
         1.4.0), Matrix (>= 1.0-1), parallel, yaImpute, doParallel (>=
@@ -34500,6 +34500,12 @@ Suggests: AlgDesign, BB, cmaes, DEoptim, dfoptim, DiceKriging,
         kernlab, penalizedSVM, pso, qrnn, randomForest, rgenoud, rgl,
         rgp (>= 0.3-4), rsm, tgp, twiddler
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: SPREDA
+Version: 1.0
+Depends: survival, nlme
+License: GPL-2
 NeedsCompilation: no
 
 Package: sprsmdl
