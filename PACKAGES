@@ -14898,13 +14898,13 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: iC10
-Version: 1.0.2
-Depends: pamr, CONOR, iC10TrainingData
+Version: 1.1.1
+Depends: pamr, iC10TrainingData
 License: GPL-3
 NeedsCompilation: no
 
 Package: iC10TrainingData
-Version: 1.0.0
+Version: 1.0.1
 License: GPL-3
 NeedsCompilation: no
 
@@ -33484,7 +33484,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: snpEnrichment
-Version: 1.4-1
+Version: 1.5-0
 Depends: R (>= 2.15.0), methods
 Imports: parallel, snpStats
 Suggests: grid, ggplot2
