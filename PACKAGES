@@ -5416,20 +5416,6 @@ Suggests: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: CONOR
-Version: 1.0.2
-Depends: CLSOCP, tseries, outliers, nortest, quadprog, zoo,
-        preprocessCore, fields, fpc, flexclust, plyr, CONORData
-License: GPL-2
-NeedsCompilation: yes
-
-Package: CONORData
-Version: 1.0.2
-Depends: R (>= 2.10), CLSOCP, tseries, outliers, nortest, quadprog,
-        zoo, preprocessCore, fields, fpc, flexclust, plyr
-License: GPL-2
-NeedsCompilation: no
-
 Package: constrainedKriging
 Version: 0.2.3
 Depends: R (>= 2.9.0), sp(>= 0.9-60), spatialCovariance(>= 0.6-4),
@@ -25383,12 +25369,6 @@ Version: 1.0
 Depends: zoo, R (>= 3.0.2)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
-
-Package: postCP
-Version: 1.7.2
-Depends: MASS, Segmentor3IsBack
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: potts
 Version: 0.5-2
