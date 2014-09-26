@@ -278,6 +278,11 @@ Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
+Package: ADDT
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: ade4
 Version: 1.6-2
 Depends: R (>= 2.10)
@@ -18376,10 +18381,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MAT
-Version: 0.1-3
-Depends: R (>= 2.7.0), MASS
+Version: 2.0
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: Matching
 Version: 4.8-3.4
