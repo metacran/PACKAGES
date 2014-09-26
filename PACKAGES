@@ -5489,9 +5489,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: copBasic
-Version: 1.5.4
-Depends: R (>= 2.10), lmomco
-License: GPL
+Version: 1.6.0
+Depends: R (>= 2.10)
+Imports: lmomco
+License: GPL-2
 NeedsCompilation: no
 
 Package: copCAR
@@ -12068,8 +12069,8 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: GENLIB
-Version: 1.0
-Depends: R (>= 3.0), Rcpp (>= 0.9.10)
+Version: 1.0.1
+Depends: R (>= 3.1.0), Rcpp (>= 0.9.10)
 Imports: kinship2, methods, bootstrap, Matrix, lattice, quadprog,
         foreach, parallel, doParallel
 LinkingTo: Rcpp
@@ -12131,6 +12132,13 @@ Depends: R (>= 2.12.0)
 Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: GenWin
+Version: 0.1
+Depends: R (>= 3.1.1)
+Imports: pspline
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: geoBayes
 Version: 0.1.3
