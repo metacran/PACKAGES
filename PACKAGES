@@ -16069,7 +16069,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.11
+Version: 0.9.12
 Depends: methods
 Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr
 License: Apache License 2.0
@@ -23102,10 +23102,12 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: oro.pet
-Version: 0.2.1
-Depends: R (>= 2.14.0), grDevices, methods, oro.nifti (>= 0.2.9), utils
-Suggests: minpack.lm, msm, oro.dicom
-License: BSD
+Version: 0.2.3
+Depends: R (>= 2.14.0)
+Imports: grDevices, methods, oro.dicom (>= 0.3.7), oro.nifti (>=
+        0.3.9), utils
+Suggests: minpack.lm, msm
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: orQA
@@ -27563,7 +27565,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.1-1
+Version: 2.1-2
 Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-2),
         car (>= 2.0-21)
 Imports: tcltk, tcltk2 (>= 1.2-6), markdown, knitr, abind
