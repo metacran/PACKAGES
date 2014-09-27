@@ -3308,9 +3308,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BrailleR
-Version: 0.9
-Depends: R (>= 3.0.0)
-Suggests: knitr
+Version: 0.11
+Depends: R (>= 3.0.0), nortest, xtable, moments, knitr
 License: GPL-2
 NeedsCompilation: no
 
@@ -14061,7 +14060,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hglm
-Version: 2.0-8
+Version: 2.0-9
 Depends: R (>= 2.10), utils, Matrix, MASS, hglm.data
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -25825,7 +25824,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: propagate
-Version: 1.0-3
+Version: 1.0-4
 Depends: R (>= 2.13.0), MASS, tmvtnorm, Rcpp (>= 0.10.1), ff,
         minpack.lm
 LinkingTo: Rcpp
@@ -31178,7 +31177,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RVAideMemoire
-Version: 0.9-39
+Version: 0.9-40
 Imports: ade4, boot, car, lme4 (>= 1.0-4), lsmeans (>= 2.0.1), MASS,
         mixOmics (>= 5.0.2), multcomp, statmod, stats
 Suggests: ordinal, survival
@@ -37081,10 +37080,11 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: trustOptim
-Version: 0.8.3
-Depends: R (>= 3.0.2), Rcpp (>= 0.10.6), RcppEigen (>= 0.3.2.0), Matrix
-LinkingTo: Rcpp, RcppEigen
-Suggests: sparseHessianFD, plyr, mvtnorm
+Version: 0.8.4.1
+Depends: R (>= 3.1.1)
+Imports: Matrix (>= 1.1.4), Rcpp (>= 0.11.1)
+LinkingTo: Rcpp (>= 0.11.1), RcppEigen (>= 0.3.2.1.2)
+Suggests: sparseHessianFD
 License: MPL (>= 2.0)
 NeedsCompilation: yes
 
