@@ -8646,8 +8646,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: eHOF
-Version: 1.4
-Depends: R (>= 3.0.0), mgcv, lattice
+Version: 1.5
+Depends: R (>= 2.5.0), mgcv, lattice
 Suggests: vegdata, vegan, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28186,9 +28186,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: readBrukerFlexData
-Version: 1.7
+Version: 1.8
 Depends: R (>= 2.15.0)
-Suggests: MALDIquant (>= 1.0)
 License: GPL (>= 3)
 NeedsCompilation: no
 
