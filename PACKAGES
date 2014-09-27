@@ -19139,6 +19139,12 @@ Depends: ggplot2, RadioSonde
 License: GPL-2
 NeedsCompilation: no
 
+Package: MetFns
+Version: 1.0
+Depends: astroFns, plotrix, graphics, R (>= 2.10)
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: Meth27QC
 Version: 1.1
 Depends: gplots,tcltk
