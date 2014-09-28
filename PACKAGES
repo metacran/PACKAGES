@@ -14417,8 +14417,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HotDeckImputation
-Version: 0.1.0
+Version: 1.0.0
 Depends: R (>= 3.0.0)
+Imports: Rglpk
 License: GPL-3
 NeedsCompilation: yes
 
