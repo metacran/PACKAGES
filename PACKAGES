@@ -7882,9 +7882,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DoseFinding
-Version: 0.9-11
-Depends: lattice, mvtnorm, R (>= 3.0.0)
-Suggests: numDeriv, Rsolnp, quadprog, multcomp
+Version: 0.9-12
+Depends: lattice, mvtnorm, R (>= 2.15.0)
+Suggests: numDeriv, Rsolnp, quadprog, parallel, multcomp
 License: GPL-3
 NeedsCompilation: yes
 
@@ -8495,6 +8495,12 @@ NeedsCompilation: yes
 Package: ecoreg
 Version: 0.2
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ecoretriever
+Version: 0.1
+Depends: R (>= 3.0.0)
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ecosim
@@ -17300,7 +17306,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lm.beta
-Version: 1.0
+Version: 1.5
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18589,7 +18595,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: mc2d
-Version: 0.1-14
+Version: 0.1-15
 Depends: R (>= 2.10.0), mvtnorm
 Suggests: fitdistrplus, survival
 License: GPL (>= 2)
@@ -18864,10 +18870,10 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: meboot
-Version: 1.4-3
-Depends: R (>= 2.0.0), dynlm, nlme
+Version: 1.4-5
+Depends: R (>= 3.0.0), dynlm, nlme
 Suggests: boot, car, ConvergenceConcepts, geepack, lmtest, strucchange,
-        tcltk, plm, zoo
+        plm, zoo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19384,10 +19390,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: microbenchmark
-Version: 1.3-0
-Imports: graphics
-Suggests: ggplot2
-License: BSD
+Version: 1.4-2
+Imports: graphics, ggplot2
+Suggests: multcomp
+License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: MicroDatosEs
@@ -21705,6 +21711,11 @@ Imports: coda (>= 0.11-3), igraph (>= 0.5), KFAS (>= 1.0), limSolve (>=
 License: LGPL-2
 NeedsCompilation: yes
 
+Package: neural
+Version: 1.4.2.2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: neuralnet
 Version: 1.32
 Depends: R (>= 2.9.0),grid, MASS
@@ -23968,8 +23979,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pdfetch
-Version: 0.1.5
-Imports: zoo, xts, RCurl, XML, lubridate, jsonlite, reshape2
+Version: 0.1.6
+Imports: httr, zoo, xts, XML, lubridate, jsonlite, reshape2
 License: GPL
 NeedsCompilation: no
 
@@ -35642,7 +35653,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sweidnumbr
-Version: 0.1.1
+Version: 0.2
 Imports: lubridate
 Suggests: testthat, knitr
 License: BSD_2_clause + file LICENSE
