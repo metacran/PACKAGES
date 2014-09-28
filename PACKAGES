@@ -9595,11 +9595,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: expands
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.10)
 Imports: rJava (>= 0.5-0), flexmix (>= 2.3), matlab (>= 0.8.9), mclust
         (>= 4.2), moments (>= 0.13), ape (>= 3.0), permute (>= 0.8)
-Suggests: rgl
 License: GPL-2
 NeedsCompilation: no
 
@@ -16692,7 +16691,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: LARF
-Version: 1.1
+Version: 1.2
 License: GPL-3
 NeedsCompilation: no
 
@@ -28224,10 +28223,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: readMzXmlData
-Version: 2.7
+Version: 2.8
 Depends: R (>= 2.15.0)
 Imports: base64enc, digest, XML
-Suggests: MALDIquant (>= 1.0)
 License: GPL (>= 3)
 NeedsCompilation: no
 
