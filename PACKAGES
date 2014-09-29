@@ -27892,10 +27892,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp
-Version: 0.11.2
+Version: 0.11.3
 Depends: R (>= 3.0.0)
 Imports: methods
-Suggests: RUnit, inline, rbenchmark, highlight
+Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
