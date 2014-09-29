@@ -21861,7 +21861,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
-Version: 2.4
+Version: 2.5
 License: GPL (>= 2)
 NeedsCompilation: yes
 
