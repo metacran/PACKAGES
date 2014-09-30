@@ -1234,7 +1234,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ASMap
-Version: 0.3
+Version: 0.3-1
 Depends: R (>= 2.0.0), qtl, gtools, fields, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -4482,8 +4482,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CINID
-Version: 1.0
-Depends: graphics, utils, stats
+Version: 1.1
+Imports: graphics, utils, stats
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -13623,7 +13623,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: gvcm.cat
-Version: 1.6
+Version: 1.7
 Depends: R (>= 2.10.0), Matrix, MASS, splines
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -16824,7 +16824,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: lavaan
-Version: 0.5-16
+Version: 0.5-17
 Depends: R(>= 2.14.0), methods
 Imports: stats4, stats, graphics, MASS, mnormt, pbivnorm, quadprog
 Suggests: lavaan.survey, semPlot, semTools, simsem
@@ -25525,7 +25525,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.1-13
+Version: 1.2-01
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27388,7 +27388,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rbamtools
-Version: 2.9.14
+Version: 2.10.0
 Depends: methods
 Suggests: xtable
 License: Artistic-2.0
@@ -27579,7 +27579,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rcicr
-Version: 0.2.1
+Version: 0.2.4
 Imports: matlab, aspace, tcltk, jpeg
 License: GPL-2
 NeedsCompilation: no
