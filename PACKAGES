@@ -22245,7 +22245,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NPBayesImpute
-Version: 0.2
+Version: 0.3
 Depends: methods, Rcpp (>= 0.10.2)
 LinkingTo: Rcpp
 License: GPL (>= 3)
@@ -24683,9 +24683,9 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: pipeR
-Version: 0.4-2
-Depends: R (>= 2.14)
-Suggests: testthat,knitr
+Version: 0.5
+Depends: R (>= 2.15)
+Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -25956,7 +25956,7 @@ License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
 Package: protViz
-Version: 0.2.06
+Version: 0.2.9
 Depends: R (>= 3.0.2), methods
 Imports: Rcpp (>= 0.9.9)
 Suggests: lattice, RUnit, BiocGenerics
@@ -28755,15 +28755,6 @@ Suggests: tourr, amap
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: repra
-Version: 0.4
-Depends: R(>= 3.1.0)
-Imports: data.table, dplyr, Rcpp, reshape2, ggplot2, assertthat
-LinkingTo: Rcpp (>= 0.11.1)
-Suggests: testthat, knitr
-License: MIT + file LICENSE
-NeedsCompilation: yes
-
 Package: represent
 Version: 1.0
 License: GPL-3
@@ -29113,7 +29104,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rgl
-Version: 0.94.1131
+Version: 0.94.1143
 Depends: R (>= 2.15.0),stats,grDevices
 Suggests: MASS
 License: GPL
