@@ -4904,9 +4904,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cna
-Version: 0.1-3
+Version: 1.0-0
 Depends: R (>= 2.13.0), utils
-License: GPL-2
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cncaGUI
@@ -5333,7 +5333,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ConConPiWiFun
-Version: 0.4.2
+Version: 0.4.3
 Depends: methods, graphics, Rcpp (>= 0.10.3)
 LinkingTo: Rcpp
 License: GPL (>= 2)
@@ -11435,8 +11435,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FuzzyNumbers
-Version: 0.3-3
-Depends: R (>= 2.12.0), methods, grDevices, graphics, stats
+Version: 0.3-5
+Depends: R (>= 3.0.0), methods, grDevices, graphics, stats
+Suggests: knitr
 License: LGPL (>= 3)
 NeedsCompilation: no
 
@@ -12834,9 +12835,10 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: GMCM
-Version: 1.0.1
-Imports: mvtnorm, Rcpp (>= 0.10.6)
+Version: 1.1
+Imports: Rcpp (>= 0.10.6)
 LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat (>= 0.3)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -16858,6 +16860,13 @@ Suggests: mgcv
 License: GPL-2
 NeedsCompilation: no
 
+Package: lazyeval
+Version: 0.1.9
+Depends: R (>= 3.1.0)
+Suggests: knitr, rmarkdown (>= 0.2.65), microbenchmark
+License: GPL-3
+NeedsCompilation: yes
+
 Package: lazyWeave
 Version: 2.2.5
 Depends: R (>= 2.10.0), Hmisc, survival
@@ -18891,6 +18900,12 @@ Depends: MASS, boot, RColorBrewer, scatterplot3d, tcltk, tcltk2,
         tkrplot, rpanel, graphics, rgl, smacof
 License: GPL (>= 3)
 OS_type: windows
+NeedsCompilation: no
+
+Package: measuRing
+Version: 0.1
+Depends: tiff, zoo, pastecs
+License: GPL-3
 NeedsCompilation: no
 
 Package: meboot
@@ -32746,7 +32761,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: shiny
-Version: 0.10.2
+Version: 0.10.2.1
 Depends: R (>= 3.0.0)
 Imports: tools, utils, httpuv (>= 1.2.2), mime (>= 0.1.3), RJSONIO,
         xtable, digest, htmltools (>= 0.2.6), R6 (>= 2.0)
