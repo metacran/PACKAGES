@@ -4319,6 +4319,13 @@ Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
+Package: checkpoint
+Version: 0.3.2
+Imports: knitr
+Suggests: testthat(>= 0.9)
+License: GPL-2
+NeedsCompilation: no
+
 Package: cheddar
 Version: 0.1-626
 License: BSD_2_clause + file LICENSE
@@ -9705,9 +9712,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: exsic
-Version: 1.0
+Version: 1.1.1
 Depends: R (>= 2.15.1), stringr, markdown
-License: GPL (>= 3)
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ExtDist
@@ -11304,12 +11311,6 @@ Depends: R (>= 2.15.1), snowfall, Rcpp (>= 0.9.12)
 LinkingTo: Rcpp
 License: GPL (>= 2.0)
 NeedsCompilation: yes
-
-Package: fume
-Version: 1.0
-Depends: R (>= 2.10.1), chron
-License: GPL-2
-NeedsCompilation: no
 
 Package: fun
 Version: 0.1-0
@@ -36294,8 +36295,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: testthat
-Version: 0.9
-Depends: R (>= 2.15.0), methods
+Version: 0.9.1
+Depends: R (>= 3.1.0), methods
 Imports: digest
 Suggests: devtools
 License: MIT + file LICENSE
@@ -36347,6 +36348,12 @@ Package: textometry
 Version: 0.1.3
 Depends: R (>= 1.5.0)
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: TFDEA
+Version: 0.9.5
+Depends: R (>= 3.0.0), lpSolveAPI
+License: GPL-2
 NeedsCompilation: no
 
 Package: tfer
