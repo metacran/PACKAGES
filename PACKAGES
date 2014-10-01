@@ -7596,7 +7596,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: distrom
-Version: 0.2
+Version: 0.3-1
 Depends: R (>= 2.15), Matrix, gamlr, parallel, methods
 Suggests: MASS, textir
 License: GPL-3
@@ -7794,6 +7794,7 @@ Depends: R (>= 3.1.0), igraph, supraHex
 Imports: graph, Rgraphviz, Matrix, Biobase
 Suggests: limma, survival, foreach, doMC
 License: GPL-2
+OS_type: unix
 NeedsCompilation: no
 
 Package: DOBAD
@@ -14203,13 +14204,6 @@ Depends: nnet, stats
 License: GPL (>= 3)
 NeedsCompilation: no
 
-Package: highfrequency
-Version: 0.2
-Depends: R (>= 2.12.0), xts, zoo
-Suggests: timeDate, robustbase, cubature, mvtnorm, chron, quantmod
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: highlight
 Version: 0.4.4
 Depends: R (>= 3.0.0)
@@ -17516,12 +17510,6 @@ Version: 2.3
 Depends: R (>= 3.0.1)
 Suggests: knitr
 License: LGPL-2.1
-NeedsCompilation: no
-
-Package: locfdr
-Version: 1.1-7
-Depends: splines
-License: GPL-2
 NeedsCompilation: no
 
 Package: locfit
@@ -22046,12 +22034,6 @@ Depends: R (>= 2.14)
 Suggests: MASS, RUnit, parallel, quadprog
 License: GPL-3
 NeedsCompilation: no
-
-Package: nnclust
-Version: 2.2
-Suggests: hexbin
-License: GPL-2
-NeedsCompilation: yes
 
 Package: nnet
 Version: 7.3-8
@@ -35289,7 +35271,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stylo
-Version: 0.5.8
+Version: 0.5.8-1
 Imports: tcltk, tcltk2, ape, pamr, e1071, class, lattice, tsne
 License: GPL (>= 3)
 NeedsCompilation: no
