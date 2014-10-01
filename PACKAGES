@@ -8340,7 +8340,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: eaf
-Version: 1.05
+Version: 1.06
 Depends: R (>= 2.10.0)
 Imports: modeltools
 License: GPL (>= 2)
@@ -9166,12 +9166,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EpiModel
-Version: 1.0.2
+Version: 1.1
 Depends: R (>= 3.0), network (>= 1.9.0), networkDynamic (>= 0.6.3),
         tergm (>= 3.1.4)
-Imports: deSolve (>= 1.10-6), ergm (>= 3.1.2), RColorBrewer,
-        statnet.common
-Suggests: knitr, ndtv, shiny, testthat
+Imports: deSolve (>= 1.10-6), doParallel, ergm (>= 3.1.2), foreach,
+        RColorBrewer, statnet.common
+Suggests: doMPI, knitr, ndtv, shiny, testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -10757,7 +10757,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FLSSS
-Version: 2.0
+Version: 2.0.1
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-2
@@ -11604,7 +11604,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gamlr
-Version: 1.12
+Version: 1.12-1
 Depends: R (>= 2.15), Matrix
 Suggests: parallel
 License: GPL-3
@@ -28755,6 +28755,15 @@ Suggests: tourr, amap
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: repra
+Version: 0.4.1
+Depends: R(>= 3.1.0)
+Imports: data.table, dplyr, Rcpp, reshape2, ggplot2, assertthat
+LinkingTo: Rcpp (>= 0.11.1)
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: represent
 Version: 1.0
 License: GPL-3
@@ -34653,6 +34662,13 @@ Depends: R (>= 2.10), MASS, lattice
 License: GPL-3
 NeedsCompilation: no
 
+Package: SQDA
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: limma (>= 3.18.13), PDSCE (>= 1.2), mvtnorm (>= 0.9.99992)
+License: GPL-3
+NeedsCompilation: no
+
 Package: sqldf
 Version: 0.4-7.1
 Depends: R (>= 2.14.0), gsubfn (>= 0.6), proto, RSQLite (>= 0.8-0),
@@ -34975,6 +34991,12 @@ Imports: truncdist, plyr
 Suggests: ggplot2, gridExtra, grid, testthat, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: steepness
+Version: 0.2-2
+Depends: R (>= 3.1.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: stellaR
 Version: 0.3-3
@@ -36181,11 +36203,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TED
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2)
-Imports: foreach, zoo, fields, animation, geoR, tcltk, utils,
+Imports: foreach, zoo, fields, animation, geoR, tcltk, utils, doMC,
         RcppArmadillo
-Suggests: doMC
 License: GPL (>= 2)
 NeedsCompilation: no
 
