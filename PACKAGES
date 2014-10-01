@@ -6825,7 +6825,7 @@ License: LGPL-2
 NeedsCompilation: no
 
 Package: deducorrect
-Version: 1.3-4
+Version: 1.3-5
 Depends: editrules (>= 2.5-0)
 License: GPL-3
 NeedsCompilation: no
@@ -16547,9 +16547,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: kyotil
-Version: 2014.4-1
+Version: 2014.10-5
 Depends: R (>= 3.0.0)
-Suggests: RUnit, knitr, lme4, nlme, xtable, MASS
+Suggests: RUnit, knitr, lme4, nlme, xtable, MASS, MethComp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19530,9 +19530,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: miniCRAN
-Version: 0.1-0
+Version: 0.1-1
 Imports: tools, XML, httr, igraph
-Suggests: testthat, knitr
+Suggests: testthat(>= 0.9), knitr
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
@@ -27059,7 +27059,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.42
+Version: 3.0.44
 Depends: R (>= 3.0.2), sp
 Imports: colorspace, graphics, methods, spam, tcltk2, tcltk, tkrplot
 Suggests: raster
