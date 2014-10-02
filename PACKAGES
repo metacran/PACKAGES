@@ -6552,7 +6552,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dawai
-Version: 1.0
+Version: 1.1
 Depends: mvtnorm, ibdreg, boot
 Suggests: survival
 License: GPL-2 | GPL-3
