@@ -5530,7 +5530,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: copula
-Version: 0.999-11
+Version: 0.999-12
 Depends: R (>= 2.15.2)
 Imports: stats, graphics, methods, stats4, Matrix, lattice, gsl,
         ADGofTest, stabledist (>= 0.6-4), mvtnorm, pspline
@@ -6727,8 +6727,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: DDIwR
-Version: 0.1-0
-Depends: R (>= 3.0.0)
+Version: 0.2-0
+Depends: R (>= 3.1.0)
 Imports: XML, foreign
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28686,9 +28686,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: repfdr
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10)
-Imports: locfdr
+Suggests: locfdr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -34856,6 +34856,14 @@ Version: 2.0
 Depends: R(>= 2.10.0),methods,Matrix,stats,utils,stabledist,testthat
 Imports: numDeriv,xtable,fBasics,MASS
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: stabs
+Version: 0.1-0
+Depends: R (>= 2.14.0), methods, stats, parallel
+Suggests: TH.data, hdi
+Enhances: glmnet, lars, mboost (> 2.3-0)
+License: GPL-2
 NeedsCompilation: no
 
 Package: Stack
