@@ -32165,8 +32165,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: seasonal
-Version: 0.60.0
-Enhances: manipulate
+Version: 0.70.1
+Depends: R (>= 2.15)
+Suggests: shiny (>= 0.10)
 License: GPL-3
 NeedsCompilation: no
 
