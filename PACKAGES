@@ -3765,9 +3765,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: carcass
-Version: 1.2
-Depends: R (>= 3.0.0), stats, lme4, survival
-Imports: expm, arm
+Version: 1.3
+Depends: R (>= 3.1.0), stats, lme4, survival
+Imports: expm, arm, MASS
 License: GPL-2
 NeedsCompilation: no
 
@@ -5340,7 +5340,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ConConPiWiFun
-Version: 0.4.3
+Version: 0.4.4
 Depends: methods, graphics, Rcpp (>= 0.10.3)
 LinkingTo: Rcpp
 License: GPL (>= 2)
@@ -6505,11 +6505,11 @@ License: MIT | file LICENSE
 NeedsCompilation: no
 
 Package: data.table
-Version: 1.9.2
+Version: 1.9.4
 Depends: R (>= 2.14.0)
-Imports: methods, reshape2
-Suggests: chron, ggplot2 (>= 0.9.0), plyr, reshape, testthat (>= 0.4),
-        hexbin, fastmatch, nlme, xts, bit64
+Imports: methods, chron, reshape2
+Suggests: ggplot2 (>= 0.9.0), plyr, reshape, testthat (>= 0.4), hexbin,
+        fastmatch, nlme, xts, bit64
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19365,7 +19365,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mi
-Version: 0.09-18.03
+Version: 0.09-19
 Depends: arm (>= 1.6-07)
 Imports: abind, car, foreign, lme4 (>= 0.999999-2), MASS, Matrix (>=
         1.0), methods, nnet, stats, R2WinBUGS
@@ -20842,12 +20842,12 @@ License: GPL
 NeedsCompilation: yes
 
 Package: multcomp
-Version: 1.3-6
+Version: 1.3-7
 Depends: stats, graphics, mvtnorm (>= 0.8-0), survival (>= 2.35-7),
         TH.data (>= 1.0-2)
 Imports: sandwich (>= 2.3-0)
-Suggests: lme4 (>= 0.999375-16), nlme, robustbase, mboost, coin, MASS,
-        car, foreign, xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR
+Suggests: lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, car,
+        foreign, xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR
 License: GPL-2
 NeedsCompilation: no
 
@@ -21353,6 +21353,14 @@ Package: mycobacrvR
 Version: 1.0
 Depends: R (>= 2.15), methods
 License: GPL-2
+NeedsCompilation: no
+
+Package: mycor
+Version: 0.1
+Depends: R (>= 3.1.1)
+Imports: lattice
+Suggests: knitr, testthat
+License: CC0
 NeedsCompilation: no
 
 Package: myepisodes
@@ -30891,7 +30899,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rsm
-Version: 2.06
+Version: 2.07
 Suggests: Vdgraph, conf.design, DoE.base, FrF2
 License: GPL-2
 NeedsCompilation: no
@@ -34649,8 +34657,8 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: spTimer
-Version: 1.0-2
-Depends: R (>= 2.14.0), coda, forecast (>= 3.0.2), spacetime
+Version: 1.0-3
+Depends: R (>= 2.15.0), coda, sp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
