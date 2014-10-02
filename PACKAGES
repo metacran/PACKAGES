@@ -36209,10 +36209,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TED
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 3.0.2)
-Imports: foreach, zoo, fields, animation, geoR, tcltk, utils, doMC,
+Imports: foreach, zoo, fields, animation, geoR, tcltk, utils,
         RcppArmadillo
+Suggests: doMC
 License: GPL (>= 2)
 NeedsCompilation: no
 
