@@ -12310,11 +12310,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 1.0.1
+Version: 1.1.0
 Depends: Matrix, raster, sp, R (>= 3.0.0)
 Imports: abind, numDeriv, pracma, methods
 Suggests: geoR, RandomFields, rgdal, parallel, mapmisc, ellipse
-Enhances: spatstat
+Enhances: spatstat, INLA
 License: GPL
 NeedsCompilation: yes
 
@@ -32849,8 +32849,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: shrink
-Version: 1.1
-Suggests: survival, mfp, rms, MASS
+Version: 1.2.0
+Imports: survival, MASS, rms
 License: GPL-2
 NeedsCompilation: no
 
@@ -38745,7 +38745,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WriteXLS
-Version: 3.5.0
+Version: 3.5.1
 License: GPL-2
 NeedsCompilation: no
 
