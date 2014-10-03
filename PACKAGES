@@ -14146,9 +14146,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: HIBAG
-Version: 1.2.3
+Version: 1.2.4
 Depends: R (>= 2.14.0)
-Imports: parallel
+Suggests: parallel
 License: GPL-3
 NeedsCompilation: yes
 
@@ -21862,12 +21862,6 @@ LinkingTo: Rcpp
 License: GPL (>= 3)
 NeedsCompilation: yes
 
-Package: NHMMfdr
-Version: 1.0.6
-Depends: R (>= 2.10.0), MASS, locfdr
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: NHPoisson
 Version: 3.0
 Depends: methods, stats4
@@ -24685,12 +24679,6 @@ Package: PIGShift
 Version: 1.0.0
 Depends: R (>= 2.10)
 Imports: ape, mvtnorm
-License: GPL-3
-NeedsCompilation: no
-
-Package: PIN
-Version: 0.8
-Suggests: zoo, xts, highfrequency, TTR, timeDate, quantmod
 License: GPL-3
 NeedsCompilation: no
 
@@ -28840,12 +28828,6 @@ Version: 0.2-4
 Depends: R (>= 2.13.0)
 Suggests: MASS, pbapply
 License: GPL-2
-NeedsCompilation: no
-
-Package: restlos
-Version: 0.1-2
-Depends: som, rgl, ade4, geometry, nnclust
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: restorepoint
@@ -33092,8 +33074,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: simsem
-Version: 0.5-3
-Depends: R(>= 2.15), methods, lavaan
+Version: 0.5-8
+Depends: R(>= 3.0), methods, lavaan(>= 0.5-17)
 Suggests: parallel, Amelia, quantreg, splines, foreign, KernSmooth,
         semTools, OpenMx, copula
 License: GPL (>= 2)
