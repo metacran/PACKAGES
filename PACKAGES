@@ -6843,11 +6843,6 @@ Version: 0.2
 License: GPL
 NeedsCompilation: no
 
-Package: Defaults
-Version: 1.1-1
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: degenes
 Version: 1.1
 License: GPL-2
@@ -34495,7 +34490,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: splancs
-Version: 2.01-34
+Version: 2.01-36
 Depends: R (>= 2.10.0), sp (>= 0.9)
 License: GPL (>= 2)
 NeedsCompilation: yes
