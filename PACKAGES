@@ -12844,12 +12844,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gMCP
-Version: 0.8-7
-Depends: R (>= 2.8.0), rJava (>= 0.6-3), JavaGD, methods, xlsxjars (>=
+Version: 0.8-8
+Depends: R (>= 3.0.0), rJava (>= 0.6-3), JavaGD, methods, xlsxjars (>=
         0.6.1)
 Imports: MASS, PolynomF, multcomp (>= 1.1), mvtnorm, Matrix,
         CommonJavaJars (>= 1.0.5), stats4
-Suggests: RUnit, Deducer, knitr, graph (>= 1.20), mutoss, boot
+Suggests: RUnit, Deducer, knitr, graph (>= 1.20), mutoss, boot, coin
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20674,6 +20674,12 @@ Imports: KernSmooth, xtable, coda, bit, mvtnorm, lattice
 License: MIT + file LICENSE
 License_is_FOSS: yes
 License_restricts_use: no
+NeedsCompilation: yes
+
+Package: msda
+Version: 1.0.1
+Depends: Matrix, MASS
+License: GPL-2
 NeedsCompilation: yes
 
 Package: mseapca
@@ -35083,11 +35089,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stm
-Version: 0.6.24
+Version: 1.0.0
 Depends: R (>= 2.10)
-Imports: matrixStats, splines, slam, lda, stringr
-Suggests: igraph, SnowballC, tm, huge, glmnet, Matrix, jsonlite, clue,
-        wordcloud
+Imports: matrixStats, splines, slam, lda, stringr, Matrix, glmnet
+Suggests: igraph, SnowballC, tm, huge, clue, wordcloud, KernSmooth, NLP
 License: MIT + file LICENSE
 NeedsCompilation: no
 
