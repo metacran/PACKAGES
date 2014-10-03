@@ -2983,7 +2983,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: blocksdesign
-Version: 1.0
+Version: 1.1
+Depends: R (>= 3.1.0)
 Imports: crossdes
 Suggests: knitr
 License: GPL (>= 2)
@@ -26685,9 +26686,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: quantmod
-Version: 0.4-0
-Depends: Defaults, xts(>= 0.9-0), zoo, TTR(>= 0.2), methods
-Suggests: DBI,RMySQL,RSQLite,timeSeries,its
+Version: 0.4-1
+Depends: xts (>= 0.9-0), zoo, TTR (>= 0.2), methods
+Suggests: Defaults, DBI, RMySQL, RSQLite, timeSeries, its
 License: GPL-3
 NeedsCompilation: no
 
