@@ -12533,11 +12533,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggvis
-Version: 0.3.0.1
+Version: 0.4
 Depends: R (>= 3.0)
-Imports: assertthat, RJSONIO, shiny (>= 0.10), magrittr, dplyr (>=
-        0.2), htmltools (>= 0.2.4)
-Suggests: MASS, mgcv, testthat (>= 0.8.1), knitr (>= 1.6)
+Imports: assertthat, jsonlite (>= 0.9.11), shiny (>= 0.10), magrittr,
+        dplyr (>= 0.3), lazyeval, htmltools (>= 0.2.4)
+Suggests: MASS, mgcv, lubridate, testthat (>= 0.8.1), knitr (>= 1.6),
+        rmarkdown
 License: GPL-2
 NeedsCompilation: no
 
@@ -22474,7 +22475,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: numOSL
-Version: 1.6
+Version: 1.7
 Depends: R (>= 2.15.3)
 License: GPL-3
 NeedsCompilation: yes
@@ -26404,12 +26405,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qdap
-Version: 2.1.1
-Depends: R (>= 3.0.0), ggplot2 (>= 0.9.3.1), qdapDictionaries (>=
-        1.0.2), qdapTools (>= 1.0.1), RColorBrewer
-Imports: chron, dplyr, gdata, grid, gridExtra, igraph, NLP, openNLP (>=
-        0.2-1), parallel, plotrix, RCurl, reports, reshape2, scales,
-        stringdist, tm (>= 0.6), tools, venneuler, wordcloud, xlsx, XML
+Version: 2.2.0
+Depends: R (>= 3.1.0), ggplot2 (>= 0.9.3.1), qdapDictionaries (>=
+        1.0.2), qdapRegex (>= 0.1.2), qdapTools (>= 1.0.3),
+        RColorBrewer
+Imports: chron, dplyr (>= 0.3), gdata, gender (>= 0.4.1), grid,
+        gridExtra, igraph, NLP, openNLP (>= 0.2-1), parallel, plotrix,
+        RCurl, reports, reshape2, scales, stringdist, tm (>= 0.6),
+        tools, venneuler, wordcloud, xlsx, XML
 Suggests: koRpus, knitr, lda, proxy, stringi, SnowballC, testthat
 License: GPL-2
 NeedsCompilation: no
