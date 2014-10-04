@@ -3011,7 +3011,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: BMA
-Version: 3.18
+Version: 3.18.1
 Depends: survival, leaps, robustbase, inline
 Suggests: MASS, rrcov, forward
 License: GPL (>= 2)
@@ -7990,13 +7990,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dplyr
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.2)
-Imports: assertthat, utils, methods, Rcpp, magrittr, Lahman, hflights
-LinkingTo: Rcpp (>= 0.11.1), BH (>= 1.51.0-2)
-Suggests: RSQLite, RSQLite.extfuns, RMySQL, MonetDB.R, RPostgreSQL,
-        data.table, bigrquery, testthat, knitr, microbenchmark,
-        ggplot2, mgcv
+Imports: assertthat, utils, R6, Rcpp, magrittr, lazyeval (>= 0.1.8),
+        DBI (>= 0.3)
+LinkingTo: Rcpp (>= 0.11.3), BH (>= 1.51.0-2)
+Suggests: RSQLite, RSQLite.extfuns, RMySQL, RPostgreSQL, data.table,
+        testthat, knitr, microbenchmark, ggplot2, mgcv, Lahman (>=
+        3.0-1), nycflights13, methods
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -25414,7 +25415,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: popRange
-Version: 1.1.1
+Version: 1.1.2
+Depends: findpython
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -26428,7 +26430,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapTools
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.0.0)
 Imports: chron, data.table, RCurl
 Suggests: testthat
@@ -31525,6 +31527,12 @@ Package: sac
 Version: 1.0.1
 Depends: R (>= 1.4)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: saccades
+Version: 0.1
+Depends: R (>= 2.10), zoom
+License: GPL-2
 NeedsCompilation: no
 
 Package: sads
