@@ -20162,6 +20162,12 @@ Suggests: Flury, gamlss
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: mnormpow
+Version: 0.1
+Depends: R (>= 2.2.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: mnormt
 Version: 1.5-1
 Depends: R (>= 2.2.0)
@@ -24501,7 +24507,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phenology
-Version: 3.72
+Version: 4.0
 Depends: fields, zoo, coda, shiny, R (>= 2.14.0)
 Suggests: RNetCDF, XML, maps
 License: GPL-2
@@ -25485,8 +25491,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: PoweR
-Version: 1.0.1
-Depends: R (>= 3.0), parallel
+Version: 1.0.2
+Depends: R (>= 3.0), parallel, Rcpp
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -32371,8 +32378,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiMarkov
-Version: 1.3.1
-Depends: numDeriv, MASS, Rsolnp
+Version: 1.4
+Depends: R (>= 2.10.0), numDeriv, MASS, Rsolnp
 License: GPL (>= 2)
 NeedsCompilation: no
 
