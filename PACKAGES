@@ -30301,6 +30301,13 @@ Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ropensecretsapi
+Version: 1.0.0
+Depends: R (>= 3.0.3), RJSONIO, RCurl
+License: LGPL-3
+Archs: i386, x64
+NeedsCompilation: no
+
 Package: ROptEst
 Version: 0.9
 Depends: R(>= 2.14.0), methods, distr(>= 2.5.2), distrEx(>= 2.4),
