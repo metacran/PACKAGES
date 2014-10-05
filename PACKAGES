@@ -3883,8 +3883,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: catIrt
-Version: 0.4-2
-Depends: R (>= 2.11.0), numDeriv (>= 2012.3-1), sfsmisc (>= 1.0-14)
+Version: 0.5-0
+Depends: R (>= 2.11.0), numDeriv (>= 2012.3-1)
 Suggests: irtoys, ltm, catR
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23088,7 +23088,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ordinalgmifs
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.10)
 Suggests: Biobase
 License: GPL (>= 2)
@@ -23823,7 +23823,7 @@ License: GPL (>= 2)
 NeedsCompilation: No
 
 Package: pbdMPI
-Version: 0.2-4
+Version: 0.2-5
 Depends: R (>= 3.0.0), methods, rlecuyer
 Enhances: pbdPROF
 License: Mozilla Public License 2.0
@@ -27043,11 +27043,11 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rainfreq
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.2)
 Imports: RCurl, SDMTools
-Suggests: raster, maps
-License: GPL (>= 2)
+Suggests: knitr, raster, maps
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rAltmetric
