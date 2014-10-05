@@ -9029,7 +9029,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ENMeval
-Version: 0.1.0
+Version: 0.1.1
 Depends: dismo, raster, rJava (>= 0.5-0), methods, R (>= 2.10)
 License: GPL
 NeedsCompilation: no
