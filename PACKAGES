@@ -5508,7 +5508,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: COPASutils
-Version: 0.1
+Version: 0.1.4
 Depends: R (>= 3.0), ggplot2 (>= 0.9), reshape2 (>= 1.0)
 Imports: dplyr (>= 0.2), kernlab (>= 0.9), stringr (>= 0.6), knitr (>=
         1.6)
@@ -17339,7 +17339,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: lllcrc
-Version: 1.1
+Version: 1.2
 Imports: data.table, combinat, VGAM, plyr
 License: GPL-2
 NeedsCompilation: no
@@ -24435,10 +24435,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: phangorn
-Version: 1.99-7
-Depends: R (>= 2.15.0), ape (>= 3.0-11)
-Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch
-Suggests: parallel, rgl, seqLogo, seqinr, xtable, flashClust, phytools
+Version: 1.99-8
+Depends: R (>= 3.0.0), ape (>= 3.1-4)
+Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch, parallel, rgl
+Suggests: seqLogo, seqinr, xtable, flashClust
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25895,11 +25895,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ProjectTemplate
-Version: 0.5-1
+Version: 0.6
 Depends: R (>= 2.7)
-Suggests: foreign, reshape, plyr, stringr, ggplot2, lubridate, log4r,
-        RMySQL, RSQLite, gdata, RODBC, RJDBC, xlsx, tuneR, pixmap,
-        data.table, RPostgreSQL, GetoptLong, testthat, Defaults
+Suggests: foreign, reshape, plyr, stringr, ggplot2, lubridate, log4r
+        (>= 0.1-5), DBI, RMySQL, RSQLite, gdata, RODBC, RJDBC, xlsx,
+        tuneR, pixmap, data.table, RPostgreSQL, GetoptLong, whisker,
+        testthat
 License: Artistic-2.0
 NeedsCompilation: no
 
