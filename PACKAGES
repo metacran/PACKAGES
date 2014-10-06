@@ -38310,8 +38310,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: VLMC
-Version: 1.3-14
-Depends: R (>= 2.13.0)
+Version: 1.4-0
+Depends: R (>= 2.15.1)
 Imports: stats, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
