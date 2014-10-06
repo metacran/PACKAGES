@@ -33598,6 +33598,13 @@ Imports: heatmap.plus
 License: GPL
 NeedsCompilation: no
 
+Package: snipEM
+Version: 1.0
+Depends: R (>= 3.0.0), Rcpp (>= 0.10.0), mvtnorm, MASS, GSE
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: snow
 Version: 0.3-13
 Depends: R (>= 2.12.1), utils
@@ -39062,7 +39069,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: YourCast
-Version: 1.6.1
+Version: 1.6.2
 Depends: R (>= 2.15.0), ggplot2
 Imports: grid, gridExtra, lattice, foreign, reshape2
 License: GPL (>= 2)
