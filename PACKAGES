@@ -11232,7 +11232,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fscaret
-Version: 0.8.6.2
+Version: 0.8.6.3
 Depends: R (>= 3.0.0), caret, gsubfn, utils, parallel
 Suggests: ada, arm, Boruta, bst, C50, car, caTools, class, Cubist,
         e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree,
@@ -13343,7 +13343,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: grofit
-Version: 1.1.1
+Version: 1.1.1-1
 License: GPL-2
 NeedsCompilation: no
 
@@ -37920,9 +37920,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vardpoor
-Version: 0.2.0.12
-Depends: R (>= 3.0.0), data.table (>= 1.9.2), laeken
-Imports: reshape2, foreach, lpSolve, plyr, gdata, MASS
+Version: 0.2.0.13
+Depends: R (>= 3.0.0), data.table (>= 1.9.4), laeken
+Imports: reshape2, foreach, plyr, gdata, MASS, stringr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
