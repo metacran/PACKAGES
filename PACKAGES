@@ -28797,9 +28797,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: repra
-Version: 0.4.1
+Version: 0.4.2
 Depends: R(>= 3.1.0)
-Imports: data.table, dplyr, Rcpp, reshape2, ggplot2, assertthat
+Imports: data.table, dplyr (>= 0.3), Rcpp, reshape2, ggplot2,
+        assertthat
 LinkingTo: Rcpp (>= 0.11.1)
 Suggests: testthat, knitr
 License: MIT + file LICENSE
@@ -29687,7 +29688,7 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: RMark
-Version: 2.1.8
+Version: 2.1.9
 Depends: R (>= 2.13.0)
 Imports: parallel, snowfall, matrixcalc, msm, coda
 Suggests: lattice, splines, nlme, plotrix
