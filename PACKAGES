@@ -12603,7 +12603,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GISTools
-Version: 0.7-3
+Version: 0.7-4
 Depends: R (>= 2.15.0), maptools, sp, RColorBrewer, MASS, rgeos
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12847,7 +12847,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: GMCM
-Version: 1.1
+Version: 1.1.1
 Imports: Rcpp (>= 0.10.6)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat (>= 0.3)
@@ -21513,6 +21513,11 @@ Package: nat.utils
 Version: 0.4.2
 Suggests: testthat, roxygen2, digest
 License: GPL-3
+NeedsCompilation: no
+
+Package: NB
+Version: 0.9
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NbClust
