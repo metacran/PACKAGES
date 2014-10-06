@@ -20313,8 +20313,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MonetDB.R
-Version: 0.9.4
-Depends: DBI (>= 0.2-7), digest (>= 0.6.4), methods
+Version: 0.9.5
+Depends: DBI (>= 0.3.1), digest (>= 0.6.4), methods, R (>= 3.1.1)
+Enhances: dplyr (>= 0.3.0)
 License: MPL (== 1.1)
 NeedsCompilation: yes
 
@@ -20555,8 +20556,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mpt
-Version: 0.4-1
-Depends: R (>= 2.15.0), stats
+Version: 0.5-0
+Depends: R (>= 3.0.0), stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25555,7 +25556,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.2-01
+Version: 1.2-02
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
