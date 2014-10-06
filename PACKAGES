@@ -21302,6 +21302,11 @@ Imports: bayesm (>= 2.2-4), miscTools (>= 0.6-11)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: mvprpb
+Version: 1.0.4
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
 Package: MVR
 Version: 1.20.0
 Depends: R (>= 2.15.0), parallel, statmod
@@ -24681,7 +24686,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: picasso
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
 License: GPL-2
 NeedsCompilation: yes
@@ -24700,7 +24705,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pingr
-Version: 1.0.0
+Version: 1.1.0
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -39139,7 +39144,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ZIM
-Version: 1.0.1
+Version: 1.0.2
 Depends: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
