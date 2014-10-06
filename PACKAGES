@@ -7473,9 +7473,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: diseasemapping
-Version: 1.0.1
+Version: 1.1.0
 Depends: sp, R (>= 3.0)
-Suggests: mgcv, spdep, mapmisc (>= 1.0)
+Imports: methods
+Suggests: mgcv, spdep, geostatsp, mapmisc (>= 1.0)
+Enhances: INLA
 License: GPL
 NeedsCompilation: no
 
@@ -8837,9 +8839,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: embryogrowth
-Version: 5.0
-Depends: deSolve, numDeriv, parallel, phenology, Hmisc, R (>= 2.14.0)
-Suggests: coda, optimx, devtools, shiny, entropy
+Version: 5.1
+Depends: deSolve, parallel, phenology, Hmisc, R (>= 2.14.2)
+Suggests: entropy, numDeriv, coda, shiny
 License: GPL-2
 NeedsCompilation: no
 
