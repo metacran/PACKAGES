@@ -34916,9 +34916,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ssym
-Version: 1.5
-Depends: GIGrvg, numDeriv, gsl, normalp
-Suggests: NISTnls, sn
+Version: 1.5.1
+Depends: GIGrvg, numDeriv, splines, normalp, Formula
+Suggests: NISTnls
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
