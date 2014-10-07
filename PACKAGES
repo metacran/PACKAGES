@@ -25504,7 +25504,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: PoweR
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.0), parallel, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
@@ -32697,7 +32697,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sft
-Version: 1.0-1
+Version: 2.0-7
 Depends: R (>= 1.8.0), methods, fda
 License: GPL (>= 2)
 NeedsCompilation: no
