@@ -20180,7 +20180,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mnormpow
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 2.2.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -24943,6 +24943,12 @@ Package: pln
 Version: 0.2-1
 Depends: R (>= 2.9.0)
 License: GPL-3
+NeedsCompilation: yes
+
+Package: PLordprob
+Version: 1.0
+Depends: mnormt
+License: GPL-2
 NeedsCompilation: yes
 
 Package: plot2groups
