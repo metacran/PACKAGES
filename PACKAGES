@@ -7138,7 +7138,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: devtools
-Version: 1.6
+Version: 1.6.1
 Depends: R (>= 3.0.2)
 Imports: httr (>= 0.4), RCurl, utils, tools, methods, memoise, whisker,
         evaluate, digest, rstudioapi, jsonlite
@@ -12801,10 +12801,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GlobalOptions
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 2.10.0)
 Imports: methods
-Suggests: testthat (>= 0.3)
+Suggests: testthat (>= 0.3), knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
