@@ -4490,7 +4490,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CINID
-Version: 1.1
+Version: 1.2
 Imports: graphics, utils, stats
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -14927,6 +14927,12 @@ Suggests: rgdal
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: ibelief
+Version: 1.0
+Depends: R (>= 3.0.2)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: IBHM
 Version: 1.1-11
 Depends: R(>= 2.15.2), compiler, DEoptim (>= 2.2-1), cmaes (>= 1.0-11),
@@ -18322,6 +18328,14 @@ Depends: R (>= 2.10), shape, seacarb
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: MareyMap
+Version: 1.2
+Depends: R (>= 2.10)
+Imports: tcltk, tkrplot, tools
+Suggests: methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: marg
 Version: 1.2-2
 Depends: R (>= 3.0.0), statmod, survival
@@ -20689,6 +20703,12 @@ Version: 1.05
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: msBP
+Version: 1.0
+Depends: DPpackage
+License: GPL-2
+NeedsCompilation: yes
+
 Package: MSBVAR
 Version: 0.9-1
 Imports: KernSmooth, xtable, coda, bit, mvtnorm, lattice
@@ -20849,7 +20869,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MTurkR
-Version: 0.5.1
+Version: 0.5.51
 Imports: RCurl, digest, XML, tcltk
 License: GPL-2
 NeedsCompilation: no
@@ -24296,6 +24316,12 @@ Imports: corpcor, gnm, matlab, Matrix, signal
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: PerFit
+Version: 1.2
+Depends: ltm, irtoys
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PerfMeas
 Version: 1.2.1
 Depends: limma, graph, RBGL
@@ -26413,7 +26439,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: qcc
-Version: 2.5
+Version: 2.6
 Depends: R (>= 2.11)
 Imports: MASS
 License: GPL (>= 2)
@@ -35301,8 +35327,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.8.0
-Depends: R (>= 2.15.3), parallel
+Version: 0.8.1
+Depends: R (>= 2.15.3)
+Imports: parallel
 Suggests: testthat
 License: GPL-3
 NeedsCompilation: yes
@@ -37627,8 +37654,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TurtleGraphics
-Version: 1.0-4
-Depends: R (>= 2.15.0), grid
+Version: 1.0-5
+Depends: R (>= 3.0), grid
+Suggests: knitr
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -38140,6 +38168,13 @@ Depends: permute (>= 0.8-0), lattice, R (>= 2.15.0)
 Suggests: MASS, mgcv, cluster, scatterplot3d, rgl, tcltk
 License: GPL-2
 NeedsCompilation: yes
+
+Package: vegan3d
+Version: 0.65-0
+Depends: vegan (>= 2.0-10)
+Imports: rgl, scatterplot3d
+License: GPL-2
+NeedsCompilation: no
 
 Package: vegclust
 Version: 1.6.3
