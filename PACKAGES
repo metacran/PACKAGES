@@ -7993,7 +7993,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dplyr
-Version: 0.3
+Version: 0.3.0.1
 Depends: R (>= 3.0.2)
 Imports: assertthat, utils, R6, Rcpp, magrittr, lazyeval (>= 0.1.8),
         DBI (>= 0.3)
@@ -26761,9 +26761,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: quantmod
-Version: 0.4-1
+Version: 0.4-2
 Depends: xts (>= 0.9-0), zoo, TTR (>= 0.2), methods
-Suggests: Defaults, DBI, RMySQL, RSQLite, timeSeries, its
+Suggests: DBI, RMySQL, RSQLite, timeSeries, its
 License: GPL-3
 NeedsCompilation: no
 
@@ -27612,7 +27612,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rcdk
-Version: 3.3.0
+Version: 3.3.1
 Depends: fingerprint
 Imports: rJava, rcdklibs (>= 1.5.8), methods, png, iterators
 Suggests: xtable, RUnit
@@ -28288,7 +28288,7 @@ License: LGPL-2.1
 NeedsCompilation: yes
 
 Package: Rdsm
-Version: 2.0.2
+Version: 2.1.1
 Imports: bigmemory (>= 4.0.0), parallel
 Suggests: synchronicity
 License: GPL (>= 2)
@@ -31787,6 +31787,14 @@ Version: 1.0.4
 Depends: R (>= 2.14.0), graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: saps
+Version: 1.0.0
+Depends: R (>= 2.14.0), survival
+Imports: piano, survcomp, reshape2
+Suggests: snowfall, knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: sas7bdat
 Version: 0.5
