@@ -32584,7 +32584,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: seqDesign
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.16), survival, xtable
 License: GPL-2
 NeedsCompilation: no
