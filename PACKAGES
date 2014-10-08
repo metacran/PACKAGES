@@ -12315,10 +12315,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: geospt
-Version: 0.5-0
-Depends: R (>= 2.15.0), geoR, gstat, genalg, limSolve, MASS, plyr,
-        TeachingDemos, gsl
-Suggests: sgeostat
+Version: 1.0-0
+Depends: R (>= 2.15.0), gstat, genalg, MASS, sp
+Imports: nloptr, fields, gsl, plyr, TeachingDemos, sgeostat
+Suggests: geoR
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32655,7 +32655,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sequenza
-Version: 2.0.0
+Version: 2.1.0
 Depends: R (>= 3.0.0), copynumber, parallel, squash
 License: GPL-3
 NeedsCompilation: no
