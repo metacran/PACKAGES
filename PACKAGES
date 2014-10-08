@@ -11087,7 +11087,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: frailtypack
-Version: 2.7
+Version: 2.7.1
 Depends: R (>= 2.10), survival, boot, MASS, survC1
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -20434,8 +20434,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: moult
-Version: 1.3
-Imports: Formula
+Version: 1.4
+Imports: Formula, Matrix
 License: GPL-2
 NeedsCompilation: no
 
@@ -35444,7 +35444,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: subselect
-Version: 0.12-3
+Version: 0.12-4
 Suggests: MASS, ISwR, corpcor
 License: GPL (>= 2)
 NeedsCompilation: yes
