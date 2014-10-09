@@ -818,6 +818,12 @@ Depends: tcltk
 License: GPL
 NeedsCompilation: no
 
+Package: anominate
+Version: 0.5
+Depends: coda, wnominate, oc, pscl, MCMCpack
+License: GPL-2
+NeedsCompilation: yes
+
 Package: AnthropMMD
 Version: 0.9.9
 Depends: R (>= 3.0.1), tcltk, tcltk2
@@ -19638,7 +19644,7 @@ License: GPL (>= 2.14)
 NeedsCompilation: no
 
 Package: minqa
-Version: 1.2.3
+Version: 1.2.4
 Imports: Rcpp (>= 0.9.10)
 LinkingTo: Rcpp
 License: GPL-2
@@ -27729,7 +27735,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.1-2
+Version: 2.1-3
 Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-2),
         car (>= 2.0-21)
 Imports: tcltk, tcltk2 (>= 1.2-6), markdown, knitr, abind
