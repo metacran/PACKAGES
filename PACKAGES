@@ -4108,6 +4108,11 @@ Depends: R (>= 2.11.0), MASS, mvtnorm, igraph
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: CEC
+Version: 0.9.1
+License: GPL-3
+NeedsCompilation: yes
+
 Package: cec2005benchmark
 Version: 1.0.3
 License: GPL (>= 3)
@@ -9039,6 +9044,13 @@ Depends: R (>= 2.9.0), lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ENiRG
+Version: 0.1
+Depends: ade4, raster, R.utils, sp, spgrass6
+Imports: gdata, fgui, miniGUI, tcltk
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ENMeval
 Version: 0.1.1
 Depends: dismo, raster, rJava (>= 0.5-0), methods, R (>= 2.10)
@@ -11181,8 +11193,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: freqweights
-Version: 0.1.1
-Imports: plyr, dplyr (>= 0.2), data.table, biglm, fastcluster,
+Version: 1.0.1
+Imports: plyr, dplyr (>= 0.3), data.table, biglm, fastcluster,
         FactoMineR, stats
 Suggests: MASS, hflights, cluster, ggplot2, testthat, RSQLite
 License: GPL-3
@@ -17116,10 +17128,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lfe
-Version: 1.7-1289
-Depends: R (>= 2.15.2), Matrix (>= 1.1-2)
-Imports: Formula, xtable
-Suggests: compiler, igraph, knitr, Rcgmin, stargazer
+Version: 1.7-1401
+Depends: R (>= 2.15.2), Matrix (>= 1.1-2),
+Imports: Formula, xtable, compiler
+Suggests: knitr, stargazer, Rcgmin, igraph
 License: Artistic-2.0
 NeedsCompilation: yes
 
@@ -20505,7 +20517,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mpcv
-Version: 1.0
+Version: 1.1
 Depends: lpSolve
 License: GPL (>= 2.0)
 NeedsCompilation: no
