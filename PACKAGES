@@ -403,6 +403,12 @@ Imports: ade4, spatstat
 License: GPL-2
 NeedsCompilation: yes
 
+Package: adwave
+Version: 1.0
+Depends: R (>= 2.10), waveslim
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: aemo
 Version: 0.1.0
 Depends: R (>= 3.1.0)
@@ -2234,9 +2240,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Benchmarking
-Version: 0.23
+Version: 0.24
 Depends: lpSolveAPI, ucminf
-Suggests: FEAR
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -4340,7 +4345,8 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: checkpoint
-Version: 0.3.2
+Version: 0.3.3
+Depends: R(>= 3.1.1)
 Imports: knitr
 Suggests: testthat(>= 0.9)
 License: GPL-2
@@ -14243,6 +14249,13 @@ Version: 1.6
 License: GPL-2
 NeedsCompilation: yes
 
+Package: HierO
+Version: 0.1
+Depends: methods, rneos
+Imports: XMLRPC, RCurl, bitops, XML, tcltk, tcltk2
+License: GPL-2
+NeedsCompilation: no
+
 Package: hier.part
 Version: 1.0-4
 Depends: gtools
@@ -19682,11 +19695,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mirt
-Version: 1.5
+Version: 1.6.1
 Depends: R (>= 2.15), stats4, lattice, methods
-Imports: GPArotation, Rcpp, numDeriv
+Imports: GPArotation, Rcpp, sfsmisc, numDeriv
 LinkingTo: Rcpp
-Suggests: testthat, plink, boot, latticeExtra, shiny, knitr, parallel
+Suggests: testthat, boot, latticeExtra, shiny, knitr, parallel, Rsolnp,
+        alabama, sirt, mirtCAT
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -20548,10 +20562,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MplusAutomation
-Version: 0.6-2
-Depends: plyr, boot
-Imports: gsubfn, coda, xtable, lattice
-Suggests: rhdf5, tcltk, relimp
+Version: 0.6-3
+Depends: R (>= 2.15.0), methods
+Imports: boot, plyr, gsubfn, coda, xtable, lattice, texreg
+Suggests: rhdf5, tcltk, relimp, testthat
 License: LGPL-3
 NeedsCompilation: no
 
@@ -23603,8 +23617,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ParamHelpers
-Version: 1.3
-Imports: BBmisc (>= 1.7), checkmate (>= 1.1)
+Version: 1.4
+Imports: BBmisc (>= 1.7), checkmate (>= 1.4)
 Suggests: emoa, lhs, irace, testthat, soobench
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -24802,7 +24816,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: PivotalR
-Version: 0.1.17.3
+Version: 0.1.17.8
 Depends: R (>= 2.14.0), methods, Matrix
 Enhances: DBI, RPostgreSQL, shiny, testthat, tools, rpart
 License: GPL (>= 2)
