@@ -3117,6 +3117,12 @@ Version: 1.1
 License: GPL
 NeedsCompilation: yes
 
+Package: BNSP
+Version: 1.0.0
+Depends: R (>= 3.1.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: boa
 Version: 1.1.7-2
 Depends: R (>= 1.7)
@@ -29800,10 +29806,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: R.matlab
-Version: 3.0.1
+Version: 3.1.1
 Depends: R (>= 2.5.0)
 Imports: utils, R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>=
-        1.32.4)
+        1.34.0)
 Suggests: Matrix, SparseM
 License: LGPL (>= 2.1)
 NeedsCompilation: no
@@ -30718,7 +30724,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RPushbullet
-Version: 0.0.2
+Version: 0.1.0
 Imports: utils, RJSONIO
 License: GPL (>= 2)
 NeedsCompilation: no
