@@ -25578,7 +25578,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Power2Stage
-Version: 0.1-4
+Version: 0.1-5
 Depends: PowerTOST
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -26056,7 +26056,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: protr
-Version: 0.3-1
+Version: 0.4-1
 Suggests: Biostrings, GOSemSim, foreach, doParallel
 License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
@@ -31106,6 +31106,13 @@ Depends: RSQLite (>= 0.9-1)
 LinkingTo: RSQLite
 License: Artistic-2.0
 NeedsCompilation: yes
+
+Package: RSQLServer
+Version: 0.1.1
+Depends: methods, DBI (>= 0.3.1), rJava (>= 0.9-6)
+Imports: RJDBC (>= 0.2-4)
+License: GPL-2
+NeedsCompilation: no
 
 Package: Rssa
 Version: 0.11
