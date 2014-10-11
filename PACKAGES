@@ -36798,7 +36798,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: timetools
-Version: 1.6.0
+Version: 1.6.1
 Depends: methods
 License: GPL
 NeedsCompilation: yes
