@@ -2278,7 +2278,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Bergm
-Version: 2.9.1
+Version: 3.0
 Depends: ergm, network, coda, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -2481,9 +2481,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BIFIEsurvey
-Version: 0.3-47
+Version: 1.0
 Depends: R (>= 2.15.0)
-Imports: Rcpp (>= 0.11.0), miceadds (>= 0.14-7)
+Imports: Rcpp (>= 0.11.0), miceadds (>= 0.14)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: survey, intsvy, svyPVpack, lavaan.survey, Hmisc, car
 License: GPL (>= 2)
@@ -30059,6 +30059,13 @@ Version: 1.6.3-1
 Depends: R (>= 2.4.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: RNetLogo
+Version: 1.0-1
+Depends: R (>= 2.12.1), rJava (>= 0.6-3), igraph
+Suggests: parallel
+License: GPL-2
+NeedsCompilation: no
 
 Package: RNeXML
 Version: 1.1.3
