@@ -430,11 +430,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: afex
-Version: 0.10-113
-Depends: R (>= 3.0.0), car, lme4 (>= 1.0.5), pbkrtest (>= 0.3-6),
-        reshape2
-Imports: stringr, coin, Matrix
-Suggests: ascii, xtable, parallel, plyr
+Version: 0.11-131
+Depends: R (>= 3.0.0), car, lme4 (>= 1.0.5), reshape2
+Imports: stringr, coin, Matrix, pbkrtest (>= 0.3-6)
+Suggests: ascii, xtable, parallel, plyr, optimx, nloptr
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -3462,6 +3461,12 @@ NeedsCompilation: no
 Package: BSDA
 Version: 1.01
 Depends: e1071, lattice
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: BSGW
+Version: 0.9
+Depends: survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19982,7 +19987,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mkin
-Version: 0.9-32
+Version: 0.9-33
 Depends: minpack.lm, rootSolve
 Imports: FME, deSolve
 Suggests: knitr, RUnit
@@ -38215,9 +38220,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VdgRsm
-Version: 1.01
-Depends: R (>= 3.0.2), DoE.wrapper, AlgDesign
-Imports: permute
+Version: 1.02
+Depends: R (>= 3.1.1)
+Imports: permute, AlgDesign
 License: GPL-2
 NeedsCompilation: no
 
