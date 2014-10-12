@@ -5513,8 +5513,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ConvergenceConcepts
-Version: 1.0
-Depends: R (>= 2.5.0), tkrplot, lattice
+Version: 1.1
+Depends: R (>= 2.5.0), tcltk, tkrplot, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
