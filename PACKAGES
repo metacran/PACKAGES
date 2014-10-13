@@ -16473,11 +16473,11 @@ License: CC0
 NeedsCompilation: no
 
 Package: knitr
-Version: 1.6
+Version: 1.7
 Depends: R (>= 2.14.1)
-Imports: evaluate (>= 0.5.3), digest, formatR (>= 0.10), highr (>=
-        0.3), markdown (>= 0.6.5), stringr (>= 0.6), tools
-Suggests: testit, rgl, codetools, XML, RCurl
+Imports: evaluate (>= 0.5.5), digest, formatR (>= 1.0), highr (>= 0.3),
+        markdown (>= 0.7.4), stringr (>= 0.6), tools
+Suggests: testit, rgl, codetools, rmarkdown, XML, RCurl
 License: GPL
 NeedsCompilation: no
 
@@ -20771,7 +20771,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msBP
-Version: 1.0
+Version: 1.0-1
 Depends: DPpackage
 License: GPL-2
 NeedsCompilation: yes
@@ -26792,6 +26792,12 @@ Version: 0.1
 Depends: R (>= 2.15.0)
 Imports: combinat
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: QualInt
+Version: 1.0.0
+Depends: survival, ggplot2
+License: GPL-2
 NeedsCompilation: no
 
 Package: qualityTools
@@ -34857,7 +34863,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sptm
-Version: 14.10-8
+Version: 14.10-11
 Depends: R (>= 3.0.0), survival, survey
 Imports: kyotil
 Suggests: RUnit, mvtnorm, Matrix, MASS
