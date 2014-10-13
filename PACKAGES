@@ -1245,7 +1245,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ASMap
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 2.0.0), qtl, gtools, fields, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -4544,8 +4544,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 2.10.0)
+Imports: GlobalOptions (>= 0.0.2)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6525,8 +6526,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: datamart
-Version: 0.4.2
-Imports: RJSONIO, XML, RCurl, base64, methods, markdown
+Version: 0.5.2
+Imports: RJSONIO, XML, RCurl, base64, gsubfn, methods, markdown
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -21454,10 +21455,10 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: mwaved
-Version: 1.0.1
+Version: 1.1.0
 Imports: Rcpp (>= 0.11.1), shiny
 LinkingTo: Rcpp
-Suggests: fracdiff, ggplot2, gridExtra
+Suggests: fracdiff, ggplot2, gridExtra, testthat, knitr
 License: GPL
 NeedsCompilation: Yes
 
@@ -29480,7 +29481,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RImpala
-Version: 0.1.4
+Version: 0.1.5
 Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 License: GPL-3
 NeedsCompilation: no
@@ -30121,7 +30122,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.0.2
+Version: 2.0.3
 Depends: R (>= 3.1.1)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6), XML
         (>= 3.98.1.1), GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
