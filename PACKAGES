@@ -19079,10 +19079,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: memisc
-Version: 0.96-9
+Version: 0.96-10
 Depends: R (>= 2.9.0), lattice, stats, methods, utils, MASS
 Imports: grid
 Suggests: car, splines
+Enhances: lme4
 License: GPL-2
 NeedsCompilation: yes
 
@@ -25839,6 +25840,13 @@ Version: 2.0-8
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: prettyunits
+Version: 1.0.0
+Imports: magrittr, assertthat
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: prevalence
 Version: 0.2.0
 Depends: R (>= 3.0.0), rjags, coda, methods
@@ -27699,7 +27707,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rcdk
-Version: 3.3.1
+Version: 3.3.2
 Depends: fingerprint
 Imports: rJava, rcdklibs (>= 1.5.8), methods, png, iterators
 Suggests: xtable, RUnit
@@ -34712,8 +34720,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: splitstackshape
-Version: 1.2.0
-Depends: R (>= 2.10), data.table
+Version: 1.4.0
+Depends: R (>= 2.10), data.table (>= 1.9.4)
 License: GPL-3
 NeedsCompilation: no
 
