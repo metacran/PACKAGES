@@ -5863,6 +5863,13 @@ Depends: R (>= 2.0.0), survival
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: CP
+Version: 1.5
+Depends: R(>= 3.0.1)
+Imports: survival
+License: GPL-3
+NeedsCompilation: no
+
 Package: cpa
 Version: 1.0
 Depends: tcltk
