@@ -9257,7 +9257,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: epinet
-Version: 0.0-8.1
+Version: 2.0.8
 Suggests: network
 License: GPL-2
 NeedsCompilation: yes
@@ -13088,14 +13088,6 @@ Depends: mvtnorm, quadprog, Matrix, nlme, MASS
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: GOsummaries
-Version: 1.1
-Depends: R (>= 2.15), ggplot2, Rcpp
-Imports: plyr, grid, gProfileR, reshape2, limma, gtable
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: govStatJPN
 Version: 0.1
@@ -18825,8 +18817,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mclogit
-Version: 0.2-7
-Depends: stats, memisc, Matrix
+Version: 0.3-1
+Depends: stats, Matrix
+Enhances: memisc
 License: GPL-2
 NeedsCompilation: no
 
@@ -23025,13 +23018,6 @@ NeedsCompilation: no
 Package: opmdata
 Version: 0.7.0
 Depends: R (>= 3.0.0), methods, opm (>= 1.0.0)
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: oposSOM
-Version: 0.2-3
-Depends: R (>= 2.11.0)
-Imports: som, fastICA, pixmap, igraph, biomaRt
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29054,6 +29040,13 @@ Version: 1.2.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: rex
+Version: 0.1.0
+Imports: magrittr, lazyeval
+Suggests: testthat, knitr, dplyr, ggplot2
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: rexpokit
 Version: 0.24.1
 Depends: methods, SparseM, Rcpp (>= 0.9.10)
@@ -33960,7 +33953,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: soilphysics
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15), utils, rpanel, MASS
 Suggests: soilwater, soiltexture, biotools
 License: GPL (>= 2)
