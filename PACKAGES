@@ -30737,10 +30737,10 @@ License: LGPL
 NeedsCompilation: no
 
 Package: rPref
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.0), methods
-Imports: Rcpp, dplyr, igraph
-LinkingTo: Rcpp
+Imports: Rcpp, RcppParallel, dplyr, igraph
+LinkingTo: Rcpp, RcppParallel
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -32085,7 +32085,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SCGLR
-Version: 2.0
+Version: 2.0.1
 Depends: R (>= 3.0.0)
 Imports: Matrix,Formula,expm,graphics,ggplot2,grid,ROCR
 Suggests: parallel,gridExtra,knitr
@@ -34660,9 +34660,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: spgwr
-Version: 0.6-24
+Version: 0.6-25
 Depends: R (>= 2.14), sp (>= 0.8-3)
-Suggests: spdep, parallel, snow, maptools (>= 0.7-32)
+Suggests: spdep, parallel, maptools (>= 0.7-32)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
