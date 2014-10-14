@@ -7279,7 +7279,7 @@ License_restricts_use: no
 NeedsCompilation: no
 
 Package: dice
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.0.0), gtools
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -13089,6 +13089,14 @@ Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: GOsummaries
+Version: 1.1
+Depends: R (>= 2.15), ggplot2, Rcpp
+Imports: plyr, grid, gProfileR, reshape2, limma, gtable
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: govStatJPN
 Version: 0.1
 License: GPL
@@ -15562,7 +15570,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: InterVA4
-Version: 1.4
+Version: 1.5
 License: GPL-2
 NeedsCompilation: no
 
