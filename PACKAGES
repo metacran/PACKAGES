@@ -580,7 +580,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: AlgDesign
-Version: 1.1-7.2
+Version: 1.1-7.3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -2293,9 +2293,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: berryFunctions
-Version: 1.5.2
-Imports: lmom, spatstat
-Suggests: evd, maptools
+Version: 1.6
+Suggests: RColorBrewer
 License: GPL-2
 NeedsCompilation: no
 
@@ -33325,10 +33324,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: simTool
-Version: 1.0
+Version: 1.0.2
 Depends: R (>= 2.14.0)
-Imports: plyr (>= 1.8.1), reshape (>= 0.8.5)
-Suggests: ggplot2, knitr, parallel, boot, RUnit
+Imports: plyr (>= 1.8.1), reshape (>= 0.8.5), parallel
+Suggests: ggplot2, knitr, boot, RUnit
 License: GPL-3
 NeedsCompilation: no
 
