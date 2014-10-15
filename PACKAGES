@@ -634,12 +634,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: alm
-Version: 0.1.9
-Imports: ggplot2, RCurl, plyr, stringr, reshape, reshape2, httr, grid,
-        RJSONIO, lubridate
-Suggests: testthat, roxygen2, rplos, knitr, jsonlite
+Version: 0.3.0
+Imports: ggplot2, plyr, stringr, reshape, reshape2, httr, grid,
+        jsonlite, lubridate
+Suggests: testthat, roxygen2, rplos, knitr
 Enhances: rCharts
-License: CC0
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: alphahull
@@ -4876,8 +4876,8 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: clustvarsel
-Version: 2.0
-Depends: R (>= 3.0.0), mclust (>= 4.0), BMA (>= 3.16), foreach,
+Version: 2.1
+Depends: R (>= 2.15), mclust (>= 4.4), BMA (>= 3.16), foreach,
         iterators
 Suggests: MASS, parallel, doParallel
 License: GPL (>= 2)
@@ -27624,11 +27624,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rbison
-Version: 0.3.2
+Version: 0.4.3
 Imports: plyr, httr, mapproj, ggplot2, grid, gridExtra, maptools, sp,
-        data.table, rjson
+        dplyr, jsonlite, assertthat
 Suggests: knitr, testthat
-License: CC0
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Rbitcoin
@@ -38373,6 +38373,13 @@ Package: verification
 Version: 1.40
 Depends: R (>= 2.10), methods, fields, boot, CircStats, MASS, dtw
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: vetools
+Version: 1.3-28
+Depends: R (>= 2.10), sp
+Imports: stringr, tis, lubridate, maptools, plyr, xts, scales
+License: GPL
 NeedsCompilation: no
 
 Package: VGAM
