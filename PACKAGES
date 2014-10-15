@@ -9601,11 +9601,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evtree
-Version: 0.1-5
+Version: 1.0-0
 Depends: R (>= 2.11.0), partykit
 Suggests: Formula, kernlab, lattice, mlbench, multcomp, party, rpart,
         xtable
-License: GPL-2
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: EWGoF
@@ -11586,9 +11586,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GA
-Version: 2.1
-Depends: R (>= 2.15), methods
-Suggests: parallel, doParallel, foreach, iterators
+Version: 2.2
+Depends: R (>= 2.15), methods, foreach, iterators
+Suggests: parallel, doParallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -12447,6 +12447,12 @@ Package: GetR
 Version: 0.1
 Depends: party
 License: GPL-3
+NeedsCompilation: no
+
+Package: gets
+Version: 0.1
+Depends: R (>= 2.4.1), zoo, lgarch
+License: GPL-2
 NeedsCompilation: no
 
 Package: gettingtothebottom
