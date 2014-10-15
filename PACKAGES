@@ -2704,6 +2704,14 @@ Depends: methods, graphics, stats, clinfun
 License: GPL-3
 NeedsCompilation: no
 
+Package: bio3d
+Version: 2.1-1
+Depends: R (>= 3.0.0)
+Imports: parallel, grid
+Suggests: XML, RCurl, lattice, ncdf, igraph, bigmemory, knitr, testthat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: Biodem
 Version: 0.3
 License: GPL-2
@@ -6341,6 +6349,12 @@ Depends: R (>= 2.15.2), Matrix, igraph
 Suggests: ggplot2
 License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
+
+Package: cwhmisc
+Version: 5.0
+Depends: R (>= 2.0), lattice, grid
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: cwm
 Version: 0.0.3
@@ -12584,6 +12598,14 @@ Enhances: sp
 License: GPL-2
 NeedsCompilation: no
 
+Package: ggRandomForests
+Version: 1.0.0
+Depends: R (>= 3.1.0), ggplot2, randomForestSRC, reshape2, survival,
+        dplyr
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: ggROC
 Version: 1.0
 Depends: R (>= 2.14.0), ggplot2
@@ -18620,7 +18642,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.10.0
+Version: 0.10.3
 Depends: R (>= 2.9.0)
 Imports: methods, R.methodsS3 (>= 1.6.1)
 Suggests: R.rsp
@@ -26407,8 +26429,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: PubMedWordcloud
-Version: 0.3.1
-Imports: XML, stringr, RCurl, wordcloud, tm, GOsummaries, RColorBrewer
+Version: 0.3.2
+Imports: XML, stringr, RCurl, wordcloud, tm, RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34614,7 +34636,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SpecsVerification
-Version: 0.2-0
+Version: 0.3-0
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -38900,6 +38922,12 @@ Version: 0.1
 Imports: sp, rgeos, adehabitatLT
 Suggests: knitr, adehabitatHR
 License: GPL-3
+NeedsCompilation: no
+
+Package: windex
+Version: 1.0
+Depends: geiger (>= 2.0), ape, scatterplot3d, utils, R (>= 3.0.0)
+License: GPL-2
 NeedsCompilation: no
 
 Package: witness
