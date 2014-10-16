@@ -13117,14 +13117,6 @@ Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: GOsummaries
-Version: 1.1
-Depends: R (>= 2.15), ggplot2, Rcpp
-Imports: plyr, grid, gProfileR, reshape2, limma, gtable
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: govStatJPN
 Version: 0.1
 License: GPL
@@ -17687,6 +17679,13 @@ Package: log4r
 Version: 0.2
 Suggests: testthat
 License: Artistic-2.0
+NeedsCompilation: no
+
+Package: logbin
+Version: 1.0
+Depends: R (>= 3.0.1)
+Imports: splines, glm2
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LogConcDEAD
@@ -24424,7 +24423,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Peptides
-Version: 1.0
+Version: 1.0.1
 Depends: seqinr , R (>= 2.10.0)
 Suggests: RUnit
 License: GPL-2
@@ -33780,7 +33779,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SMR
-Version: 1.0.0
+Version: 2.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
