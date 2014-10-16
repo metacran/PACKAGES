@@ -19252,6 +19252,14 @@ Depends: stats, mvtnorm, ellipse, bbmle, rjags, coda
 License: GPL-2
 NeedsCompilation: no
 
+Package: metaMix
+Version: 0.1
+Depends: R (>= 3.0.1)
+Imports: data.table (>= 1.9.2), Matrix, gtools, Rmpi, ggplot2
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: yes
+
 Package: metap
 Version: 0.6
 License: GPL-2
@@ -21663,7 +21671,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NbClust
-Version: 2.0.2
+Version: 2.0.3
 Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
@@ -29177,6 +29185,11 @@ Package: RfmriVC
 Version: 1.0.4
 Depends: methods, splines, mvtnorm, mgcv, Rniftilib
 License: GPL-2
+NeedsCompilation: no
+
+Package: rfoaas
+Version: 0.0.4
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RFOC
