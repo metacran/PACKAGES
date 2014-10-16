@@ -11167,7 +11167,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: frailtypack
-Version: 2.7.1
+Version: 2.7.2
 Depends: R (>= 2.10), survival, boot, MASS, survC1
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -19314,7 +19314,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: Metatron
-Version: 0.1-0
+Version: 0.1-1
 Depends: R (>= 2.15.0), lme4, mpt, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24191,7 +24191,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: pdc
-Version: 0.5
+Version: 1.0
 Suggests: plotrix, lattice
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -28091,6 +28091,12 @@ Imports: Rcmdr
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: RcmdrPlugin.steepness
+Version: 0.3-2
+Depends: Rcmdr (>= 2.1-2), tcltk, steepness
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: RcmdrPlugin.survival
 Version: 1.0-4
 Depends: survival, date, stats
@@ -28121,6 +28127,16 @@ Package: RcmdrPlugin.UCA
 Version: 1.0-2
 Depends: Rcmdr (>= 1.6)
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: RCMIP5
+Version: 1.0
+Depends: R (>= 2.11.0)
+Imports: abind (>= 1.4-0), plyr (>= 1.8.1), reshape2 (>= 1.4), foreach
+        (>= 1.4.2), digest
+Suggests: ggplot2 (>= 0.9.3), ncdf4 (>= 1.9), ncdf (>= 1.6), doParallel
+        (>= 1.0.8), fields(>= 7.1), testthat (>= 0.9), knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Rcolombos
@@ -37278,7 +37294,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: transport
-Version: 0.6-2
+Version: 0.6-3
 Depends: R (>= 3.0.0), utils, grDevices, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
