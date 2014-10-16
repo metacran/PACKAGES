@@ -9098,6 +9098,13 @@ Depends: R (>= 2.9.0), lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: enigma
+Version: 0.1.0
+Imports: httr, jsonlite, plyr
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: ENiRG
 Version: 0.1
 Depends: ade4, raster, R.utils, sp, spgrass6
@@ -13570,8 +13577,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gsg
-Version: 1.0
-Depends: mgcv, mvtnorm, boot, numDeriv
+Version: 2.0
+Imports: mgcv, mvtnorm, boot, numDeriv
 License: GPL-2
 NeedsCompilation: no
 
@@ -26411,8 +26418,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: PtProcess
-Version: 3.3-6
-Suggests: snow
+Version: 3.3-7
+Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27539,9 +27546,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: raster
-Version: 2.3-0
+Version: 2.3-10
 Depends: methods, sp (>= 1.0-13), R (>= 2.15.0)
-Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-1), ncdf, ncdf4, igraph,
+Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-8), ncdf, ncdf4, igraph,
         snow, tcltk, rasterVis
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -29695,6 +29702,11 @@ Depends: MASS, rrcov, quantreg
 License: GPL-2
 NeedsCompilation: no
 
+Package: rivernet
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: riverplot
 Version: 0.3
 License: GPL (>= 2.0)
@@ -30738,10 +30750,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 0.9.1
-Depends: R(>= 3.1.0), dplyr (>= 0.2), RSQLite, RSQLite.extfuns
-Imports: Rcpp, DBI, lubridate, reshape2, assertthat
-LinkingTo: Rcpp (>= 0.11.1)
+Version: 0.10
+Depends: R(>= 3.1.0), dplyr (>= 0.3), RSQLite
+Imports: Rcpp, DBI, data.table, lubridate, reshape2, stringi,
+        assertthat
+LinkingTo: Rcpp (>= 0.11.3)
 Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -30937,7 +30950,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rrdrand
-Version: 0.1-9
+Version: 0.1-10
 Depends: R (>= 3.0.0)
 License: AGPL-3
 NeedsCompilation: yes
@@ -32486,7 +32499,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: seedy
-Version: 0.2
+Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
@@ -35245,6 +35258,15 @@ Depends: R (>= 2.10)
 License: GPL-3
 NeedsCompilation: no
 
+Package: statar
+Version: 0.1
+Depends: R (>= 3.1.0)
+Imports: data.table, dplyr (>= 0.3), ggplot2, grid, Hmisc, lazyeval,
+        lubridate, matrixStats, stringr, tidyr
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: StatDA
 Version: 1.6.7
 Depends: R (>= 2.10), geoR, methods, sgeostat
@@ -35393,11 +35415,11 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: StMoSim
-Version: 2.2
-Depends: methods
-Imports: methods
+Version: 3.0
+Depends: methods,RcppParallel,Rcpp
+LinkingTo: RcppParallel,Rcpp
 License: GPL-2 | GPL-3
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: stocc
 Version: 1.23
@@ -35413,9 +35435,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 0.8-4
-Depends: R (>= 2.14), coda
-Imports: methods, Rcpp (>= 0.9.10)
+Version: 0.9-0
+Depends: R (>= 3.0.0), coda
+Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: mvtnorm
 License: GPL (>= 2)
