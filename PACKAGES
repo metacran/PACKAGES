@@ -22454,7 +22454,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: NPCirc
-Version: 2.0.0
+Version: 2.0.1
 Depends: R(>= 2.15.0), circular
 Imports: misc3d, movMF, plotrix, rgl, shape
 License: GPL-2
