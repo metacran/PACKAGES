@@ -4540,7 +4540,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: CINOEDV
-Version: 1.0
+Version: 1.1
 Depends: R.matlab, igraph, ggplot2, reshape2
 License: GPL-2
 NeedsCompilation: no
@@ -32538,6 +32538,14 @@ Version: 0.5-1
 Depends: R (>= 3.0.0), methods, stats, sp
 Imports: splancs
 Suggests: spdep, spgrass6, rgdal
+License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: segmag
+Version: 1.2.2
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: testthat
 License: GPL (>= 3)
 NeedsCompilation: yes
 
