@@ -9812,9 +9812,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ExtDist
-Version: 0.3.3
-Imports: numDeriv, optimx, matrixcalc
-Suggests: knitr
+Version: 0.3.7
+Imports: numDeriv, optimx, VGAM, SuppDists, truncdist
+Suggests: knitr, ggplot2, xtable, PerformanceAnalytics
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10218,7 +10218,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fat2Lpoly
-Version: 1.0.2
+Version: 1.1.1
 Depends: R (>= 2.10), kinship2, multgee
 License: GPL
 NeedsCompilation: no
@@ -24048,6 +24048,13 @@ Depends: utils, lattice
 Suggests: PerformanceAnalytics, foreach, grid, latticeExtra, testthat,
         doParallel, knitr
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: pBrackets
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: grid
+License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: pbs
