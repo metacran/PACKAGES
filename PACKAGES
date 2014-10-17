@@ -2035,10 +2035,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BcDiag
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 2.10)
-Suggests: biclust, fabia, isa2
-License: GPL (>= 2)
+Imports: fabia
+Suggests: biclust, isa2
+License: GPL-3
 NeedsCompilation: no
 
 Package: BCE
@@ -4733,6 +4734,14 @@ NeedsCompilation: no
 Package: clinUtiDNA
 Version: 1.0
 License: GPL-3
+NeedsCompilation: no
+
+Package: CLME
+Version: 1.0-1
+Depends: R (>= 3.0.2)
+Imports: MASS, quadprog, shiny, methods, Iso
+Suggests: nnet
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: clogitL1
@@ -8623,6 +8632,12 @@ Package: EcoTroph
 Version: 1.6
 Depends: XML
 License: GPL
+NeedsCompilation: no
+
+Package: ecoval
+Version: 1.0
+Depends: utility, rivernet
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EcoVirtual
@@ -17323,6 +17338,14 @@ Suggests: svUnit, scales
 License: GPL-3
 NeedsCompilation: yes
 
+Package: likert
+Version: 1.2
+Depends: R (>= 3.0),ggplot2,xtable
+Imports: psych,reshape,gridExtra,grid,plyr
+Suggests: devtools,shiny
+License: GPL
+NeedsCompilation: no
+
 Package: LIM
 Version: 1.4.5
 Depends: R (>= 2.10), limSolve, diagram
@@ -19031,6 +19054,13 @@ Package: MDR
 Version: 1.2
 Depends: lattice
 License: GPL-2
+NeedsCompilation: no
+
+Package: mdscore
+Version: 0.1-2
+Depends: R (>= 3.1.1), MASS
+Suggests: Sleuth3
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mdsdt
@@ -20777,6 +20807,14 @@ Package: mreg
 Version: 1.1
 License: GPL
 NeedsCompilation: no
+
+Package: MRH
+Version: 1.0
+Depends: survival, KMsurv
+Imports: coda, HI
+Suggests: R.rsp
+License: GPL-2
+NeedsCompilation: yes
 
 Package: mritc
 Version: 0.4-0
@@ -27071,7 +27109,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: R2GUESS
-Version: 1.4
+Version: 1.5
 Depends: R (>= 3.0.0), fields, MCMCpack, methods, mixOmics, mvtnorm,
         snowfall
 License: GPL (>= 2)
@@ -33482,6 +33520,13 @@ Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
 NeedsCompilation: no
 
+Package: sisVIVE
+Version: 1.0
+Depends: lars
+Suggests: MASS
+License: GPL-2
+NeedsCompilation: no
+
 Package: sitar
 Version: 1.0.1
 Depends: R (>= 3.0.0), nlme, splines
@@ -38835,12 +38880,6 @@ Depends: R (>= 2.10)
 Imports: plyr
 Suggests: testthat
 License: GPL
-NeedsCompilation: no
-
-Package: WebDevelopR
-Version: 1.0
-Depends: utils
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: webvis
