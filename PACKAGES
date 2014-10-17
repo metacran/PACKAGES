@@ -517,11 +517,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: AICcmodavg
-Version: 2.00
-Depends: methods, stats
-Suggests: coxme, lme4, MASS, Matrix, maxlike, nlme, nnet, ordinal,
-        pscl, R2jags, R2OpenBUGS, R2WinBUGS, stats4, survival,
+Version: 2.0-1
+Depends: R (>= 3.0.0)
+Imports: methods, stats, graphics, lattice, MASS, Matrix, nlme, stats4,
         unmarked, VGAM
+Suggests: betareg, coxme, lme4, maxlike, nnet, ordinal, pscl, R2jags,
+        R2OpenBUGS, R2WinBUGS, survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -14363,6 +14364,12 @@ Depends: spatstat, ks
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: highTtest
+Version: 1.0
+Depends: methods, colorfulVennPlot
+License: GPL-2
+NeedsCompilation: no
+
 Package: hillmakeR
 Version: 0.2
 Depends: R (>= 2.10)
@@ -16654,7 +16661,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: kselection
-Version: 0.1.0
+Version: 0.1.1
 Imports: tools
 Suggests: testthat
 License: GPL-3
@@ -16781,10 +16788,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: laGP
-Version: 1.1-1
+Version: 1.1-2
 Depends: R (>= 2.14)
 Imports: tgp, parallel
-Suggests: mvtnorm, MASS, akima
+Suggests: mvtnorm, MASS, akima, lhs, crs
 License: LGPL
 NeedsCompilation: yes
 
@@ -30064,6 +30071,12 @@ Depends: R(>= 3.0.2), Rmixmod(>= 2.0.1), Rcpp(>= 0.8.0), methods,
         graphics
 License: GPL-3
 NeedsCompilation: no
+
+Package: RMKdiscrete
+Version: 0.1
+Depends: stats, R (>= 2.15.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: rmngb
 Version: 0.5-1
