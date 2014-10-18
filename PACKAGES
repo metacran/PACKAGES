@@ -23084,7 +23084,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: openxlsx
-Version: 2.0.15
+Version: 2.2.1
 Imports: methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
 Suggests: knitr
