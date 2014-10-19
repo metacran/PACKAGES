@@ -221,8 +221,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: AdapEnetClass
-Version: 1.0
-Depends: imputeYn, glmnet, lars, R (>= 2.14.2)
+Version: 1.1
+Depends: imputeYn, glmnet, lars, quadprog, R (>= 3.0.2)
 License: GPL-2
 NeedsCompilation: no
 
@@ -19374,11 +19374,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: meteoForecast
-Version: 0.31
+Version: 0.43
 Depends: raster, sp, zoo
 Imports: ncdf, rjson
 Suggests: ncdf4, rgdal, lattice, rasterVis
-License: GPL-3 | file LICENSE
+License: GPL-3
 NeedsCompilation: no
 
 Package: meteogRam
@@ -36429,10 +36429,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TAM
-Version: 1.0-3.18-1
+Version: 1.1
 Depends: R (>= 2.15.1), MASS
 Imports: mvtnorm, CDM (>= 3.4), tensor, sfsmisc, GPArotation, psych,
-        Rcpp
+        Rcpp, mirt (>= 1.5), lattice
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: sirt (>= 0.47)
 License: GPL (>= 2)
