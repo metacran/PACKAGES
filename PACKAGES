@@ -5230,6 +5230,13 @@ Imports: utils
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: commentr
+Version: 0.1
+Imports: stringr
+Suggests: testthat
+License: GPL-2
+NeedsCompilation: no
+
 Package: CommonJavaJars
 Version: 1.0-5
 Depends: R (>= 2.8.0)
@@ -17766,7 +17773,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: logconPH
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: yes
 
@@ -21284,10 +21291,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multiwayvcov
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 3.0.0)
-Imports: sandwich, boot
-Suggests: parallel, lmtest
+Imports: sandwich, boot, compiler, parallel
+Suggests: lmtest
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
@@ -29142,6 +29149,12 @@ Version: 0.2-4
 Depends: R (>= 2.13.0)
 Suggests: MASS, pbapply
 License: GPL-2
+NeedsCompilation: no
+
+Package: restlos
+Version: 0.1-3
+Depends: som, rgl, geometry, igraph
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: restorepoint
