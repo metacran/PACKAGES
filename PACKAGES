@@ -15145,7 +15145,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: icapca
-Version: 1.0
+Version: 1.1
 License: Unlimited
 NeedsCompilation: yes
 
@@ -16185,6 +16185,12 @@ Version: 0.6-1
 Depends: R (>= 3.0.0), MASS, nlme, splines, survival
 Enhances: xtable
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: JMdesign
+Version: 1.0
+Depends: methods
+License: GPL-2
 NeedsCompilation: no
 
 Package: Jmisc
@@ -23364,6 +23370,13 @@ Version: 0.2-1
 Depends: grplasso, mgcv, RLRsim
 License: GPL-2
 NeedsCompilation: no
+
+Package: ore
+Version: 1.0.0
+Depends: R (>= 2.12.1)
+Suggests: crayon, rex, testthat
+License: BSD_3_clause + file LICENCE
+NeedsCompilation: yes
 
 Package: OrgMassSpecR
 Version: 0.4-4
@@ -30628,8 +30641,9 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: Rook
-Version: 1.0-9
-Depends: R (>= 2.13.0), utils, tools, methods, brew
+Version: 1.1-1
+Depends: R (>= 2.13.0)
+Imports: utils, tools, methods, brew
 License: GPL-2
 NeedsCompilation: yes
 
