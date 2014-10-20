@@ -12358,7 +12358,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: geonames
-Version: 0.996
+Version: 0.997
 Depends: R (>= 2.2.0)
 Imports: rjson
 License: GPL-3
@@ -19087,9 +19087,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MDSGUI
-Version: 0.1.1
+Version: 0.1.6
 Depends: MASS, boot, RColorBrewer, scatterplot3d, tcltk, tcltk2,
-        tkrplot, rpanel, graphics, rgl, smacof
+        tkrplot, rpanel, graphics, rgl
 License: GPL (>= 3)
 OS_type: windows
 NeedsCompilation: no
