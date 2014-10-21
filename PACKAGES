@@ -2707,7 +2707,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: bio3d
-Version: 2.1-1
+Version: 2.1-2
 Depends: R (>= 3.0.0)
 Imports: parallel, grid
 Suggests: XML, RCurl, lattice, ncdf, igraph, bigmemory, knitr, testthat
@@ -4105,6 +4105,14 @@ Depends: bitops
 Suggests: methods
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: cdcsis
+Version: 1.0
+Depends: R(>= 3.0.1), stats
+Imports: ks
+Suggests: MASS, energy
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: CDFt
 Version: 1.0.1
@@ -12568,10 +12576,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GGIR
-Version: 1.0-6
+Version: 1.1-3
 Depends: stats, utils, R (>= 2.10)
-Imports: GENEAread
-Suggests: MASS, signal, seewave, zoo, mmap, bitops, matlab
+Suggests: MASS, signal, zoo, mmap, bitops, matlab, GENEAread
 License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
@@ -16264,7 +16271,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.12
+Version: 0.9.13
 Depends: methods
 Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr
 License: Apache License 2.0
@@ -20771,9 +20778,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MPTinR
-Version: 1.5.1
-Depends: R (>= 2.15.1), numDeriv
-Imports: Brobdingnag, Rcpp
+Version: 1.6.3
+Depends: R (>= 2.15.1)
+Imports: numDeriv, Brobdingnag, Rcpp
 LinkingTo: Rcpp, RcppEigen
 Suggests: snowfall (>= 1.84)
 License: GPL (>= 2)
@@ -22105,7 +22112,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nhlscrapr
-Version: 1.5.1
+Version: 1.8
 Depends: R (>= 2.15.0)
 Imports: RCurl, rjson, biglm, bitops
 License: GPL (>= 3)
@@ -25998,7 +26005,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: prevalence
-Version: 0.2.0
+Version: 0.3.0
 Depends: R (>= 3.0.0), rjags, coda, methods
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -31527,6 +31534,14 @@ Depends: pixmap
 License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
+Package: rtkpp
+Version: 0.8.2
+Depends: R (>= 3.0.2), Rcpp
+Imports: methods
+LinkingTo: Rcpp
+License: GPL (>= 2) | LGPL (>= 2) | file LICENSE
+NeedsCompilation: yes
+
 Package: RTOMO
 Version: 1.1-2
 Depends: R (>= 2.12)
@@ -32404,6 +32419,14 @@ Package: scriptests
 Version: 1.0-9
 License: GPL
 NeedsCompilation: no
+
+Package: scrm
+Version: 1.3-1
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+Suggests: testthat (>= 0.9.0), knitr, ape
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: SCRT
 Version: 1.1
@@ -35352,8 +35375,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: STARSEQ
-Version: 1.02
-Depends: CompQuadForm,numDeriv,vcf2geno
+Version: 1.2.1
+Depends: CompQuadForm, numDeriv, seqminer
 License: GPL-3
 NeedsCompilation: yes
 
@@ -38448,11 +38471,6 @@ Suggests:
         ca,gmodels,Fahrmeir,effects,VGAM,plyr,rgl,lmtest,nnet,ggplot2,Sleuth2,car,lattice
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: vcf2geno
-Version: 2.3
-License: GPL | file LICENSE
-NeedsCompilation: yes
 
 Package: vcrpart
 Version: 0.2-1
