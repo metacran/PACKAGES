@@ -16264,7 +16264,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.13
+Version: 0.9.12
 Depends: methods
 Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr
 License: Apache License 2.0
