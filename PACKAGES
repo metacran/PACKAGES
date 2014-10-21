@@ -16264,7 +16264,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.12
+Version: 0.9.13
 Depends: methods
 Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr
 License: Apache License 2.0
@@ -23088,6 +23088,11 @@ Imports: methods, grid, colorspace, plyr, stringr, abind, rgl,
 Suggests: xlsx
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: openssl
+Version: 0.1
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: OpenStreetMap
 Version: 0.3.1
