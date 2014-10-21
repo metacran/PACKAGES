@@ -9859,10 +9859,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: extracat
-Version: 1.7-0
-Depends: R (>= 3.0.0)
+Version: 1.7-1
+Depends: R (>= 3.1.0)
 Imports: grid, colorspace, hexbin, scales, ggplot2, reshape2, plyr, TSP
-Suggests: JGR, iplots, vcd, ca, amap, MASS
+Suggests: iplots, ca, amap, MASS, proto
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -16112,8 +16112,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: jackknifeKME
-Version: 1.0
-Depends: imputeYn (>= 1.1), survival
+Version: 1.1
+Depends: imputeYn
 License: GPL-2
 NeedsCompilation: no
 
@@ -28378,7 +28378,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppParallel
-Version: 4.2.5.3
+Version: 4.3.3
 Suggests: Rcpp, testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -30223,11 +30223,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: RnavGraph
-Version: 0.1.6
+Version: 0.1.7
 Depends: R (>= 2.10.0), methods, graphics, tcltk, graph
-Imports: RBGL
-Suggests: PairViz, scagnostics, rgl, MASS, hexbin, RDRToolbox, vegan,
-        RnavGraphImageData, png, Rgraphviz
+Imports: scagnostics, rgl
+Suggests: PairViz, MASS, hexbin, RDRToolbox, vegan, RnavGraphImageData,
+        png, Rgraphviz
 License: GPL-2
 NeedsCompilation: yes
 
@@ -32023,7 +32023,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SamplingStrata
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.15.0)
 License: GPL (>= 2)
 NeedsCompilation: no
