@@ -15397,9 +15397,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: imputeYn
-Version: 1.1
-Depends: quadprog, emplik, mvtnorm
-Suggests: survival
+Version: 1.2
+Depends: quadprog, emplik, mvtnorm, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -22634,8 +22633,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: npsp
-Version: 0.2-4
-Depends: R (>= 2.14.0)
+Version: 0.3-6
+Depends: R (>= 2.14.0), graphics
 Imports: quadprog
 Suggests: sp, gstat, geoR, fields, DEoptim
 License: GPL (>= 2)
@@ -28714,7 +28713,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: redcapAPI
-Version: 1.0
+Version: 1.0.1
 Imports: chron, httr, stringr
 Suggests: DBI, Hmisc
 License: GPL-2
@@ -29208,7 +29207,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rex
-Version: 0.1.0
+Version: 0.1.1
 Imports: magrittr, lazyeval
 Suggests: testthat, knitr, dplyr, ggplot2
 License: MIT + file LICENSE
@@ -30851,7 +30850,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 0.10
+Version: 0.10.0.1
 Depends: R(>= 3.1.0), dplyr (>= 0.3), RSQLite
 Imports: Rcpp, DBI, data.table, lubridate, reshape2, stringi,
         assertthat
@@ -36601,6 +36600,12 @@ Depends: R (>= 2.8.0), tcltk
 Suggests: utils
 License: LGPL-3 + file LICENSE
 NeedsCompilation: no
+
+Package: tclust
+Version: 1.2-3
+Depends: R (>= 2.12.0), mvtnorm, sn, mclust, cluster
+License: GPL-3
+NeedsCompilation: yes
 
 Package: TDA
 Version: 1.2
