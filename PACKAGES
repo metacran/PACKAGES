@@ -5471,7 +5471,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: confidence
-Version: 1.0-0
+Version: 1.1-0
 Depends: R (>= 3.0.0), tcltk
 Imports: knitr, markdown, plyr, xtable, ggplot2
 Suggests: testthat
@@ -10913,7 +10913,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FLSSS
-Version: 2.0.1
+Version: 3.0
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-2
@@ -16225,7 +16225,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: JMdesign
-Version: 1.0
+Version: 1.1
 Depends: methods
 License: GPL-2
 NeedsCompilation: no
@@ -20055,8 +20055,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MixGHD
-Version: 1.0
-Depends: Bessel, stats, MASS, mvtnorm, ghyp, numDeriv, R (>= 3.1.1)
+Version: 1.1
+Depends: MASS, mclust, R (>= 3.1.1)
+Imports: Bessel, stats, mvtnorm, ghyp, numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27409,12 +27410,11 @@ License: CC0
 NeedsCompilation: no
 
 Package: RAM
-Version: 1.0.0
+Version: 1.1.0
 Depends: vegan, ggplot2, stats
-Imports: gridExtra, RColorBrewer, indicspecies, Heatplus,
-        splitstackshape, gplots, plyr, reshape2, scales, labdsv, grid,
-        stringr, ggmap, permute
-Suggests: testthat
+Imports: gridExtra, RColorBrewer, gplots, plyr, reshape2, scales,
+        labdsv, grid, stringr, ggmap, permute
+Suggests: testthat, Heatplus, indicspecies, lattice
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -33373,6 +33373,12 @@ NeedsCompilation: no
 Package: SightabilityModel
 Version: 1.3
 License: GPL-2
+NeedsCompilation: no
+
+Package: sigloc
+Version: 0.0.4
+Depends: R (>= 2.15.3), nleqslv, ellipse
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: signal
