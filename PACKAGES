@@ -10404,6 +10404,14 @@ Suggests: fda, fields, maps, mapdata
 License: GPL-2
 NeedsCompilation: no
 
+Package: FDGcopulas
+Version: 1.0
+Depends: Rcpp (>= 0.10.6), methods
+Imports: numDeriv, randtoolbox
+LinkingTo: Rcpp
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: fdrci
 Version: 2.0
 License: Artistic-2.0
@@ -13309,7 +13317,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gramEvol
-Version: 1.1-1
+Version: 1.2-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15443,6 +15451,13 @@ Depends: R (>= 2.3.0), xtable
 Suggests: snow, rsprng, Rmpi
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: indicoio
+Version: 0.3
+Depends: R (>= 3.0.2), httr, rjson, stringr, png
+Suggests: testthat, jpeg
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: indicspecies
 Version: 1.7.3
@@ -23846,8 +23861,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ParetoPosStable
-Version: 1.0.2
-Depends: R (>= 3.0.0), ADGofTest, lmom
+Version: 1.0.3
+Depends: R (>= 3.0.0)
+Imports: ADGofTest, lmom
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -35512,10 +35528,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stepp
-Version: 2.3-2
-Depends: cmprsk, survival, splines
+Version: 3.0-11
+Depends: methods, car, survival, splines
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: stepPlr
 Version: 0.92
