@@ -23391,7 +23391,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ore
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.12.1)
 Suggests: crayon, rex, testthat
 License: BSD_3_clause + file LICENCE
@@ -24225,8 +24225,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pcaPP
-Version: 1.9-50
-Depends: mvtnorm
+Version: 1.9-60
+Imports: mvtnorm
 License: GPL (>= 3)
 NeedsCompilation: yes
 
