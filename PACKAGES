@@ -15912,7 +15912,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: IsingFit
-Version: 0.2.0
+Version: 0.3.0
 Depends: R (>= 3.0.0)
 Imports: qgraph, Matrix, glmnet
 Suggests: IsingSampler
@@ -18706,6 +18706,13 @@ Package: matpow
 Version: 0.1.1
 Suggests: bigmemory, gputools
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: matR
+Version: 0.9
+Depends: R (>= 2.10), MGRASTer, BIOM.utils, graphics, stats, utils
+Suggests: RJSONIO, qvalue, ecodist, gplots, scatterplot3d
+License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: Matrix
