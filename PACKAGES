@@ -17206,7 +17206,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: leafletR
-Version: 0.3-0
+Version: 0.3-1
 Depends: R (>= 3.0.0), brew, jsonlite
 Suggests: httr, rgdal, sp
 License: GPL (>= 2)
@@ -31333,6 +31333,12 @@ Suggests: Vdgraph, conf.design, DoE.base, FrF2
 License: GPL-2
 NeedsCompilation: no
 
+Package: rsml
+Version: 1.0
+Imports: XML,rgl
+License: GPL-2
+NeedsCompilation: no
+
 Package: RSNNS
 Version: 0.4-5
 Depends: R (>= 2.10.0), methods, Rcpp (>= 0.8.5)
@@ -31580,7 +31586,7 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: rtkpp
-Version: 0.8.2
+Version: 0.8.3
 Depends: R (>= 3.0.2), Rcpp
 Imports: methods
 LinkingTo: Rcpp
@@ -35019,7 +35025,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: splitstackshape
-Version: 1.4.0
+Version: 1.4.2
 Depends: R (>= 2.10), data.table (>= 1.9.4)
 License: GPL-3
 NeedsCompilation: no
