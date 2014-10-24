@@ -18736,7 +18736,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: matrixpls
-Version: 0.3.0
+Version: 0.4.0
 Imports: assertive, matrixcalc, psych, lavaan, MASS
 Suggests: plspm, simsem, RUnit, parallel, semPLS, boot
 License: GPL-3
@@ -23805,6 +23805,14 @@ NeedsCompilation: no
 Package: Paneldata
 Version: 1.0
 License: Artistic-2.0
+NeedsCompilation: no
+
+Package: PANICr
+Version: 0.0.0.2
+Depends: R(>= 2.10.0)
+Imports: MCMCpack
+Suggests: knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: papeR
@@ -34769,7 +34777,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: spatstat
-Version: 1.39-0
+Version: 1.39-1
 Depends: R (>= 3.1.1), stats, graphics, grDevices, utils
 Imports: mgcv, deldir (>= 0.0-21), abind, tensor, polyclip (>= 1.3-0),
         goftest
