@@ -2708,14 +2708,6 @@ Depends: methods, graphics, stats, clinfun
 License: GPL-3
 NeedsCompilation: no
 
-Package: bio3d
-Version: 2.1-2
-Depends: R (>= 3.0.0)
-Imports: parallel, grid
-Suggests: XML, RCurl, lattice, ncdf, igraph, bigmemory, knitr, testthat
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: Biodem
 Version: 0.3
 License: GPL-2
@@ -25927,13 +25919,6 @@ Package: ppls
 Version: 1.6-1
 Depends: splines, MASS
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: ppmlasso
-Version: 1.0
-Depends: R (>= 3.0.0), spatstat (>= 1.32-0)
-Imports: methods
-License: GPL-3
 NeedsCompilation: no
 
 Package: pps
