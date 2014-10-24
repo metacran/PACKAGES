@@ -25603,7 +25603,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: polyCub
-Version: 0.5-0
+Version: 0.5-1
 Depends: R (>= 2.15.0), methods, sp
 Imports: grDevices, graphics, stats, spatstat
 Suggests: lattice, testthat, mvtnorm, statmod, rgeos, gpclib
@@ -31717,6 +31717,11 @@ Imports: utils, methods, R.methodsS3 (>= 1.6.1)
 Suggests: digest (>= 0.6.4)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
+
+Package: ruv
+Version: 0.9.4
+License: GPL
+NeedsCompilation: yes
 
 Package: rv
 Version: 2.3.1
