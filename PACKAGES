@@ -38768,10 +38768,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VIM
-Version: 4.0.0
-Depends: R (>= 2.13),colorspace,grid
+Version: 4.1.0
+Depends: R (>= 3.1.0),colorspace,grid,data.table(>= 1.9.4)
 Imports: car, grDevices, robustbase, stats, sp,
-        vcd,MASS,nnet,e1071,methods,Rcpp,glmnet
+        vcd,MASS,nnet,e1071,methods,Rcpp
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
