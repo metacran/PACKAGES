@@ -11390,8 +11390,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: FSelector
-Version: 0.19
-Imports: randomForest, RWeka, digest
+Version: 0.20
+Imports: randomForest, RWeka, digest, entropy
 Suggests: mlbench, rpart
 License: GPL-2
 NeedsCompilation: no
@@ -27742,7 +27742,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rasterVis
-Version: 0.31
+Version: 0.32
 Depends: R (>= 2.14.0), methods, raster (>= 2.0-12), lattice,
         latticeExtra, hexbin
 Imports: grid, grDevices, sp (>= 1.0-6), zoo, RColorBrewer
@@ -33648,7 +33648,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: simTool
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.14.0)
 Imports: plyr (>= 1.8.1), reshape (>= 0.8.5), parallel
 Suggests: ggplot2, knitr, boot, RUnit
