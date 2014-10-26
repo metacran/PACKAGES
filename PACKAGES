@@ -28625,7 +28625,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rdrobust
-Version: 0.61
+Version: 0.70
 Depends: R (>= 3.0.2)
 License: GPL-2
 NeedsCompilation: no
@@ -35514,10 +35514,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: statar
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: data.table, dplyr (>= 0.3), ggplot2, grid, Hmisc, lazyeval,
-        lubridate, matrixStats, stringr, tidyr
+        lfe, lubridate, matrixStats, stringr, tidyr
 Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
