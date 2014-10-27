@@ -10604,11 +10604,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: fICA
-Version: 1.0-1
-Imports: JADE
+Version: 1.0-2
+Imports: JADE, Rcpp (>= 0.11.0)
+LinkingTo: Rcpp, RcppArmadillo
 Suggests: BSSasymp
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: fields
 Version: 7.1
@@ -26829,6 +26830,12 @@ Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
 
+Package: qdm
+Version: 0.1-0
+Depends: R (>= 3.1.0), stats, graphics
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: qgraph
 Version: 1.2.5
 Depends: R (>= 3.0.0)
@@ -29449,9 +29456,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RGA
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 2.15.1)
-Imports: RCurl, jsonlite, httr (>= 0.3), httpuv, shiny (>= 0.10.0)
+Imports: httr (>= 0.3), jsonlite, httpuv, shiny (>= 0.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
