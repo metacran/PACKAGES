@@ -1332,7 +1332,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: astsa
-Version: 1.2
+Version: 1.3
 License: GPL-2
 NeedsCompilation: no
 
@@ -4495,10 +4495,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: choroplethr
-Version: 1.7.0
+Version: 2.0.0
 Depends: R (>= 3.0.0)
-Imports: ggplot2, scales, plyr, Hmisc, grid, acs, stringr
-Suggests: testthat, maps, zipcode, knitr
+Imports: scales, Hmisc, stringr, ggplot2, dplyr, R6, acs, WDI
+Suggests: testthat, zipcode, knitr, choroplethrMaps
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
