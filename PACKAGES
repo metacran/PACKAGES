@@ -2714,6 +2714,15 @@ Depends: methods, graphics, stats, clinfun
 License: GPL-3
 NeedsCompilation: no
 
+Package: bio3d
+Version: 2.1-3
+Depends: R (>= 3.1.0)
+Imports: parallel, grid
+Suggests: XML, RCurl, lattice, ncdf, igraph, bigmemory, knitr, testthat
+        (>= 0.9.1)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: Biodem
 Version: 0.3
 License: GPL-2
@@ -13904,6 +13913,14 @@ Package: GxM
 Version: 1.1
 Imports: methods, Rcpp, minqa, nlme, parallel
 License: GPL-2
+NeedsCompilation: no
+
+Package: h2o
+Version: 2.8.1.1
+Depends: R (>= 2.13.0), RCurl, rjson, statmod, survival, stats, tools,
+        utils, methods
+Suggests: plyr
+License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: haarfisz
@@ -27602,11 +27619,10 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: rangeMapper
-Version: 0.2-6
-Depends: R (>= 3.0.0), methods, utils, RSQLite, rgdal
-Imports: sp, raster, maptools, RSQLite.extfuns, lattice, RColorBrewer,
-        classInt
-Suggests: rgeos, shiny (>= 0.8.0)
+Version: 0.2-8
+Depends: R (>= 3.0.0), methods, utils, RSQLite (>= 1.0.0), rgdal
+Imports: sp, rgeos, raster, maptools, lattice, RColorBrewer, classInt
+Suggests: shiny (>= 0.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29934,7 +29950,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rjags
-Version: 3-13
+Version: 3-14
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
