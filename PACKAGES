@@ -31109,8 +31109,8 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RQDA
-Version: 0.2-6
-Depends: R (>= 2.8.0), RSQLite, gWidgetsRGtk2 (>= 0.0-36)
+Version: 0.2-7
+Depends: R (>= 2.8.0), RSQLite(>= 1.0.0), gWidgetsRGtk2 (>= 0.0-36)
 Imports: RGtk2 (>= 2.20), DBI, igraph, gWidgets (>= 0.0-31)
 Enhances: tcltk, rjpod, d3Network
 License: BSD_3_clause + file LICENSE
@@ -33722,16 +33722,15 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 0.47-36
+Version: 1.0-3
 Depends: R (>= 2.15.0)
 Imports: sfsmisc, TAM (>= 1.0-3), CDM (>= 3.3), mirt (>= 1.5),
         combinat, ic.infer, sm, psych, pbivnorm, gtools, Rcpp (>=
         0.11.0), qgraph, lavaan, semPlot, igraph, coda, mvtnorm, MASS,
         Matrix
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: eRm, ltm, MCMCglmm, mokken, mRm, plink, GPArotation, fdrtool,
-        lme4, difR, semTools, MultiLCIRT, rcppbugs, IsingFit,
-        MplusAutomation (>= 0.6)
+Suggests: eRm, ltm, MCMCglmm, mRm, GPArotation, lme4, semTools,
+        MultiLCIRT, IsingFit, MplusAutomation (>= 0.6)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -37173,8 +37172,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: timeDate
-Version: 3010.98
-Depends: R (>= 2.11.0), graphics, utils, stats, methods
+Version: 3011.99
+Depends: R (>= 2.15.1), graphics, utils, stats, methods
 Suggests: date, RUnit
 License: GPL (>= 2)
 NeedsCompilation: no
