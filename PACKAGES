@@ -14704,23 +14704,10 @@ Depends: R (>= 1.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: HPO.db
-Version: 1.2
-Depends: R (>= 2.15), methods, AnnotationDbi (>= 1.9.7)
-License: GPL-2
-NeedsCompilation: no
-
 Package: hpoPlot
 Version: 1.0
 Depends: R (>= 2.10), Rgraphviz, functional, plotrix, Hmisc
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: HPOSim
-Version: 1.2
-Depends: R (>= 2.15.1)
-Imports: AnnotationDbi, HPO.db, igraph
-License: GPL-2
 NeedsCompilation: no
 
 Package: hqmisc
