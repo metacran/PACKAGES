@@ -3923,6 +3923,12 @@ Depends: R (>= 2.15.0), ggplot2, methods, boot
 License: GPL-3
 NeedsCompilation: no
 
+Package: CateSelection
+Version: 1.0
+Depends: R(>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: cati
 Version: 0.8
 Depends: R (>= 3.0.2), nlme, ade4, ape
@@ -10110,10 +10116,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: FAOSTAT
-Version: 1.6
+Version: 1.9
 Imports: RJSONIO (>= 0.96-0), plyr (>= 1.7.1), data.table (>= 1.8.2),
         MASS (>= 7.3-22), classInt (>= 0.1-19), ggplot2 (>= 0.9.3),
         labeling (>= 0.1), scales (>= 0.2.3)
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17846,7 +17853,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: logconPH
-Version: 1.2
+Version: 1.3
 License: GPL-2
 NeedsCompilation: yes
 
@@ -19590,6 +19597,13 @@ NeedsCompilation: no
 Package: mfp
 Version: 1.5.0
 Depends: survival
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: MfUSampler
+Version: 0.9
+Depends: ars
+Suggests: sns
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -30625,10 +30639,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: robustreg
-Version: 0.1-5
+Version: 0.1-7
 Depends: R (>= 2.3.0)
+Imports: Rcpp (>= 0.11.3), Matrix (>= 1.1.0)
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: robustvarComp
 Version: 0.1-2
@@ -37869,7 +37885,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSclust
-Version: 1.2.1
+Version: 1.2.2
 Depends: R (>= 3.0.1), wmtsa, pdc, cluster
 Imports: locpol, KernSmooth, dtw, longitudinalData
 License: GPL-2
