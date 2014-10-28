@@ -23828,12 +23828,14 @@ License_restricts_use: no
 NeedsCompilation: yes
 
 Package: pander
-Version: 0.3.8
+Version: 0.5.0
 Depends: R (>= 2.15.0)
-Imports: methods, digest, tools
-Suggests: grid, lattice, ggplot2 (>= 0.9.2)
-License: AGPL-3
-NeedsCompilation: no
+Imports: methods, digest, tools, Rcpp
+LinkingTo: Rcpp
+Suggests: grid, lattice, ggplot2 (>= 0.9.2), koRpus, survival,
+        microbenchmark, zoo, nlme, descr, MASS, knitr
+License: AGPL-3 | file LICENSE
+NeedsCompilation: yes
 
 Package: panelAR
 Version: 0.1
@@ -33166,6 +33168,12 @@ Imports: stats
 Suggests: proxy
 License: GPL-2
 NeedsCompilation: yes
+
+Package: settings
+Version: 0.1.1
+Suggests: testthat, knitr
+License: GPL-3
+NeedsCompilation: no
 
 Package: setwidth
 Version: 1.0-3
