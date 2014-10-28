@@ -37225,10 +37225,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: timeSeries
-Version: 3010.97
-Depends: R (>= 2.10), graphics, grDevices, methods, stats, utils,
+Version: 3011.98
+Depends: R (>= 2.10), graphics, grDevices, stats, methods, utils,
         timeDate (>= 2150.95)
-Suggests: robustbase, RUnit
+Suggests: RUnit, robustbase, xts, PerformanceAnalytics, fTrading
 License: GPL (>= 2)
 NeedsCompilation: no
 
