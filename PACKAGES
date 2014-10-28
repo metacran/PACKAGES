@@ -16609,11 +16609,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knitcitations
-Version: 1.0-1
+Version: 1.0.4
 Depends: R (>= 3.0)
-Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3)
+Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3), methods
 Suggests: testthat, knitr (>= 1.6)
-License: CC0
+License: MIT
 NeedsCompilation: no
 
 Package: knitr
