@@ -29578,7 +29578,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rgl
-Version: 0.94.1143
+Version: 0.95.1157
 Depends: R (>= 2.15.0),stats,grDevices
 Suggests: MASS
 License: GPL
