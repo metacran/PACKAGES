@@ -3519,8 +3519,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BSSasymp
-Version: 1.0-2
-Imports: fICA, JADE
+Version: 1.1-0
+Imports: fICA (>= 1.0-2), JADE
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -9528,7 +9528,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: etasFLP
-Version: 1.0.3
+Version: 1.1.0
 Depends: R (>= 2.14.0),mapdata,rgl
 Imports: fields,maps
 Suggests: MASS
