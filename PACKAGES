@@ -8600,10 +8600,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Ecfun
-Version: 0.1-0
+Version: 0.1-2
 Depends: R (>= 3.0.1)
-Suggests: car, systemfit, sem, lmtest, sandwich, gdata, RCurl, XML,
-        tis, Ecdat, fda
+Imports: fda, gdata, RCurl, XML, tis, jpeg, MASS, TeachingDemos
+Suggests: BMA, car, DescTools, Ecdat, maps, grid, gridBase, pryr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9137,7 +9137,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: energy
-Version: 1.6.1
+Version: 1.6.2
 Imports: boot
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -16978,8 +16978,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lassoscore
-Version: 0.5
-Depends: R (>= 2.10), glasso, glmnet
+Version: 0.6
+Depends: R (>= 2.10), glasso, glmnet, Matrix
 Suggests: covTest, lars
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -26897,7 +26897,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qmethod
-Version: 1.2
+Version: 1.2.2
 Imports: methods, psych, GPArotation
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33066,7 +33066,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seqMeta
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.10), survival
 Imports: Matrix, coxme, CompQuadForm
 Suggests: SKAT, kinship2
@@ -37507,9 +37507,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: TR8
-Version: 0.8
-Depends: R (>= 2.10), XML, RCurl, plyr, methods, taxize
-Imports: gWidgets
+Version: 0.9
+Depends: R (>= 2.10), methods
+Imports: RCurl, XML, taxize, plyr, rappdirs, gWidgets, gWidgetstcltk
 License: GPL (>= 2)
 NeedsCompilation: no
 
