@@ -285,6 +285,13 @@ Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
+Package: addreg
+Version: 1.2
+Depends: R (>= 3.0.1)
+Imports: splines, combinat, glm2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ADDT
 Version: 1.0
 License: GPL-2
@@ -6527,6 +6534,12 @@ Depends: car, effects, lattice, sm, MASS, nnet, splines, pscl, gdata,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: DAMOCLES
+Version: 1.0
+Depends: R (>= 2.14.2), geiger, caper, ape, deSolve, matrixStats
+License: GPL-2
+NeedsCompilation: no
+
 Package: dams
 Version: 0.1
 Depends: R (>= 2.10)
@@ -7208,8 +7221,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: deSolve
-Version: 1.10-9
-Depends: R (>= 3.1.0)
+Version: 1.11
+Depends: R (>= 2.15.0)
 Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -20343,16 +20356,18 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mlr
-Version: 2.1
-Depends: R (>= 3.0.0), ParamHelpers (>= 1.2), BBmisc (>= 1.7), stats
-Imports: parallelMap (>= 1.1), codetools, survival, checkmate (>= 1.1)
-Suggests: testthat, ada, adabag, caret, class, cluster, clusterSim,
-        clValid, cmaes, CoxBoost, crs, DiceKriging, DiceOptim,
-        DiscriMiner, e1071, earth, emoa, FNN, FSelector, gbm, GenSA,
-        ggplot2, glmnet, Hmisc, irace, kernlab, kknn, klaR, LiblineaR,
-        mboost, mco, mda, mlbench, mRMRe, nnet, party, penalized, pls,
-        pROC, randomForest, randomForestSRC, reshape2, rrlda,
-        robustbase, rpart, rsm, RWeka, ROCR, stepPlr
+Version: 2.2
+Depends: R (>= 3.0.0), ParamHelpers (>= 1.4), BBmisc (>= 1.7), stats
+Imports: checkmate (>= 1.4), codetools, ggplot2, parallelMap (>= 1.1),
+        plyr, survival
+Suggests: testthat, ada, adabag, bartMachine, care, caret, class, clue,
+        cluster, clusterSim, clValid, cmaes, CoxBoost, crs,
+        DiceKriging, DiceOptim, DiscriMiner, e1071, earth, emoa, FNN,
+        FSelector, gbm, GenSA, glmnet, Hmisc, irace, kernlab, kknn,
+        klaR, lqa, LiblineaR, MASS, mboost, mco, mda, mlbench,
+        modeltools, mRMRe, nnet, party, penalized, pls, pROC,
+        randomForest, randomForestSRC, reshape2, rrlda, robustbase,
+        rpart, rsm, RWeka, ROCR, sda, stepPlr, TH.data
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -22812,9 +22827,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: nullabor
-Version: 0.2.1
-Imports: MASS, ggplot2, plyr
-Suggests: reshape2
+Version: 0.3.0
+Depends: ggplot2
+Imports: MASS, plyr, dplyr, moments, fpc
+Suggests: reshape2, knitr
 License: GPL
 NeedsCompilation: no
 
@@ -24453,7 +24469,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: peacots
-Version: 1.0
+Version: 1.1
 Depends: stats,graphics
 License: GPL-3
 NeedsCompilation: no
@@ -28888,7 +28904,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RefManageR
-Version: 0.8.34
+Version: 0.8.40
 Depends: R (>= 3.0)
 Imports: XML, RCurl, RJSONIO, utils, plyr, tools, bibtex, lubridate,
         stringr, methods
@@ -31119,6 +31135,12 @@ Depends: R (>= 2.8.0), RSQLite(>= 1.0.0), gWidgetsRGtk2 (>= 0.0-36)
 Imports: RGtk2 (>= 2.20), DBI, igraph, gWidgets (>= 0.0-31)
 Enhances: tcltk, rjpod, d3Network
 License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
+Package: rqPen
+Version: 1.0
+Depends: R (>= 3.0.0),quantreg
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Rquake
