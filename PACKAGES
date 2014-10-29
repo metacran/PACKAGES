@@ -642,7 +642,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: alm
-Version: 0.3.0
+Version: 0.3.1
 Imports: ggplot2, plyr, stringr, reshape, reshape2, httr, grid,
         jsonlite, lubridate
 Suggests: testthat, roxygen2, rplos, knitr
@@ -9780,6 +9780,13 @@ Version: 0.6
 Depends: RDCOMClient
 License: GPL (>= 2)
 OS_type: windows
+NeedsCompilation: no
+
+Package: exCon
+Version: 0.1-0
+Depends: R (>= 3.0)
+Imports: jsonlite
+License: GPL-3
 NeedsCompilation: no
 
 Package: excursions
@@ -36751,7 +36758,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Taxonstand
-Version: 1.4
+Version: 1.5
 License: GPL (>= 2)
 NeedsCompilation: no
 
