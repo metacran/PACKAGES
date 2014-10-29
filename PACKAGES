@@ -23858,7 +23858,7 @@ License_restricts_use: no
 NeedsCompilation: yes
 
 Package: pander
-Version: 0.5.0
+Version: 0.5.1
 Depends: R (>= 2.15.0)
 Imports: methods, digest, tools, Rcpp
 LinkingTo: Rcpp
@@ -31516,13 +31516,6 @@ Version: 1.0.0
 Depends: R (>= 2.10.0), DBI (>= 0.3.1), methods
 Suggests: testthat
 License: LGPL (>= 2)
-NeedsCompilation: yes
-
-Package: RSQLite.extfuns
-Version: 0.0.1
-Depends: RSQLite (>= 0.9-1)
-LinkingTo: RSQLite
-License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: RSQLServer
