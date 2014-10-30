@@ -1992,7 +1992,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BBmisc
-Version: 1.7
+Version: 1.8
 Imports: stats, checkmate
 Suggests: testthat, microbenchmark
 License: BSD_3_clause + file LICENSE
@@ -12345,6 +12345,12 @@ Depends: mvtnorm, Matrix, MASS
 License: GPL
 NeedsCompilation: no
 
+Package: genpathmox
+Version: 0.1
+Depends: R (>= 3.1.1),plspm, quantreg,mice,diagram, methods
+License: GPL-3
+NeedsCompilation: no
+
 Package: genridge
 Version: 0.6-3
 Depends: R (>= 2.11.1), car
@@ -18532,7 +18538,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: mapplots
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.10.0)
 Suggests: shapefiles
 License: GPL (>= 2)
@@ -30502,7 +30508,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.0.3
+Version: 2.0.4
 Depends: R (>= 3.1.1)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6), XML
         (>= 3.98.1.1), GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
