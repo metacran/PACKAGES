@@ -26145,6 +26145,12 @@ Depends: R (>= 3.0.0), rjags, coda, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PrevMap
+Version: 1.0
+Depends: geoR, maxLik, raster, pdist
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: prevR
 Version: 2.9
 Depends: R (>= 2.10), methods, sp, gstat, GenKern, rgdal (>= 0.7-4),
