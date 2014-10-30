@@ -11206,6 +11206,15 @@ Depends: ThreeWay
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: fPortfolio
+Version: 3011.81
+Depends: R (>= 2.15.1), methods, timeDate, timeSeries, fBasics, fAssets
+Imports: fCopulae, robustbase, MASS, Rglpk, slam, Rsymphony, Rsolnp,
+        kernlab, quadprog, rneos
+Suggests: Rsocp, Rnlminb2, Rdonlp2, dplR, bcp, fGarch, mvoutlier
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: fpow
 Version: 0.0-2
 Depends: R (>= 2.14.1)
@@ -14311,7 +14320,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hglm
-Version: 2.0-9
+Version: 2.0-11
 Depends: R (>= 2.10), utils, Matrix, MASS, hglm.data
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28100,13 +28109,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.1-3
+Version: 2.1-4
 Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-2),
         car (>= 2.0-21)
-Imports: tcltk, tcltk2 (>= 1.2-6), markdown, knitr, abind
+Imports: tcltk, tcltk2 (>= 1.2-6), abind
 Suggests: aplpack, colorspace, effects (>= 3.0-1), e1071, foreign,
-        grid, Hmisc, lattice, leaps, lmtest, MASS, mgcv, multcomp (>=
-        0.991-2), nlme, nnet, relimp, rgl, rJava, RODBC, sem (>= 2.1-1)
+        grid, Hmisc, knitr, lattice, leaps, lmtest, markdown, MASS,
+        mgcv, multcomp (>= 0.991-2), nlme, nnet, relimp, rgl, rJava,
+        RODBC, sem (>= 2.1-1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -36149,12 +36159,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: surveillance
-Version: 1.8-0
-Depends: R (>= 2.15.2), methods, grDevices, graphics, stats, utils,
-        Rcpp, sp (>= 1.0-15), xtable, polyCub (>= 0.4-2)
+Version: 1.8-1
+Depends: R (>= 3.0.2), methods, grDevices, graphics, stats, utils,
+        Rcpp, sp (>= 1.0-15), xtable, polyCub (>= 0.4-3)
 Imports: MASS, Matrix, spatstat (>= 1.36-0)
 LinkingTo: Rcpp
-Suggests: parallel, lattice, grid, gridExtra, colorspace, scales,
+Suggests: parallel, grid, gridExtra, lattice, colorspace, scales,
         animation, msm, spc, quadprog, memoise, polyclip, rgeos,
         gpclib, maptools, intervals, spdep, numDeriv, maxLik, testthat,
         coda, splancs, gamlss, INLA, runjags
