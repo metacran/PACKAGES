@@ -21270,7 +21270,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: multicon
-Version: 1.2
+Version: 1.3
 Depends: R (>= 3.0.0), psych, abind, foreach
 Imports: mvtnorm, sciplot,
 License: GPL-2
@@ -25645,7 +25645,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: pollstR
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.0.3)
 Imports: httr, plyr, jsonlite
 Suggests: knitr, dplyr, ggplot2, testthat
@@ -39154,6 +39154,13 @@ Depends: R (>= 2.10)
 Imports: plyr
 Suggests: testthat
 License: GPL
+NeedsCompilation: no
+
+Package: webutils
+Version: 0.2
+Imports: tools, utils, jsonlite
+Suggests: httpuv
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: webvis
