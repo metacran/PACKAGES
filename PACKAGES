@@ -1666,9 +1666,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: BatchExperiments
-Version: 1.3
-Depends: R (>= 2.15.0), BatchJobs (>= 1.4)
-Imports: checkmate (>= 1.4), BBmisc (>= 1.7), DBI, RSQLite, plyr
+Version: 1.4
+Depends: R (>= 2.15.0), BatchJobs (>= 1.5)
+Imports: checkmate (>= 1.5), BBmisc (>= 1.8), DBI, RSQLite (>= 1.0.0),
+        plyr
 Suggests: randomForest, rpart, testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
@@ -29376,7 +29377,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rex
-Version: 0.1.1
+Version: 0.1.2
 Imports: magrittr, lazyeval
 Suggests: testthat, knitr, dplyr, ggplot2
 License: MIT + file LICENSE
