@@ -14474,12 +14474,6 @@ Suggests: knitr, testit
 License: GPL
 NeedsCompilation: no
 
-Package: highriskzone
-Version: 1.1
-Depends: spatstat, ks
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: highTtest
 Version: 1.0
 Depends: methods, colorfulVennPlot
@@ -35572,12 +35566,6 @@ Enhances: AER, betareg, brglm, dynlm, eha, erer, ergm, gee, glmx, gmm,
         sampleSelection, spdep, stats, survey, survival, Zelig
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: STARSEQ
-Version: 1.2.1
-Depends: CompQuadForm, numDeriv, seqminer
-License: GPL-3
-NeedsCompilation: yes
 
 Package: startupmsg
 Version: 0.9
