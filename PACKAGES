@@ -16897,7 +16897,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: laGP
-Version: 1.1-2
+Version: 1.1-3
 Depends: R (>= 2.14)
 Imports: tgp, parallel
 Suggests: mvtnorm, MASS, akima, lhs, crs
@@ -38214,7 +38214,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: tuple
-Version: 0.4-01
+Version: 0.4-02
 Depends: R (>= 2.10.0)
 License: LGPL-3
 NeedsCompilation: no
