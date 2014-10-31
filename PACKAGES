@@ -33129,9 +33129,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: seqinr
-Version: 3.0-7
-Depends: R (>= 2.10.0)
-Suggests: ade4, segmented
+Version: 3.0-9
+Depends: ade4, R (>= 2.10.0)
+Suggests: segmented
 License: GPL (>= 2)
 NeedsCompilation: yes
 
