@@ -14280,6 +14280,12 @@ Depends: ergm (>= 3.1-1), parallel
 License: GPL-3
 NeedsCompilation: yes
 
+Package: hermite
+Version: 1.0
+Depends: R (>= 2.15.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: hett
 Version: 0.3-1
 Depends: R (>= 2.0.0), MASS, lattice
@@ -26211,7 +26217,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: PrivateLR
-Version: 1.1-69
+Version: 1.2-21
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33843,9 +33849,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SKAT
-Version: 0.95
+Version: 1.0
 Depends: R (>= 2.13.0)
-Suggests: seqminer
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -37571,7 +37576,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: TR8
-Version: 0.9
+Version: 0.9.11
 Depends: R (>= 2.10), methods
 Imports: RCurl, XML, taxize, plyr, rappdirs, gWidgets, gWidgetstcltk
 License: GPL (>= 2)
