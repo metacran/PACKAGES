@@ -16428,10 +16428,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kaps
-Version: 1.0-0
-Depends: R (>= 3.0.0), survival, Formula, coin
-Imports: graphics, methods
-Suggests: locfit, foreach, doMC
+Version: 1.0.2
+Depends: R (>= 3.0.0), methods, graphics, survival, Formula, coin
+Suggests: locfit
 License: GPL-3
 NeedsCompilation: yes
 
@@ -33984,6 +33983,14 @@ Imports: graphics, stats, polynom, scatterplot3d, Hmisc, colorspace,
 License: GPL-2
 NeedsCompilation: yes
 
+Package: smacpod
+Version: 1.0.0
+Depends: R (>= 3.1.1)
+Imports: spatstat
+Suggests: plotrix
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: smam
 Version: 0.2-2
 Depends: R (>= 3.0.0), Matrix
@@ -38784,7 +38791,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vegdata
-Version: 0.6-6
+Version: 0.6-7
 Depends: R (>= 3.0.0), foreign
 Imports: XML
 Suggests: vegan, labdsv, akima, gWidgets, googleVis, indicspecies,
