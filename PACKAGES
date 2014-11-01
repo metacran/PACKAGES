@@ -6109,7 +6109,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Crossover
-Version: 0.1-12
+Version: 0.1-13
 Depends: R (>= 3.0.2), rJava (>= 0.8-3), CommonJavaJars (>= 1.0.5),
         JavaGD, ggplot2
 Imports: MASS, crossdes (>= 1.1-1), xtable, methods, Matrix, multcomp,
@@ -35593,11 +35593,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: statar
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, dplyr (>= 0.3), ggplot2, grid, Hmisc, lazyeval,
         lfe, lubridate, matrixStats, stringr, tidyr
-Suggests: knitr
+Suggests: knitr, testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -37016,10 +37016,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: texreg
-Version: 1.33
+Version: 1.34
 Depends: R (>= 2.15.0)
 Imports: methods
 Suggests: nlme, survival, network, ergm, lme4 (>= 1.0), gamlss
+Enhances: AER, betareg, brglm, dynlm, eha, erer, fGarch, gee, gmm,
+        latentnet, lmtest, MASS, mgcv, mnlogit, nnet, ordinal, plm,
+        pscl, quantreg, relevent, rms, robustbase, RSiena, simex, sna,
+        spdep, stats, survey, systemfit, tergm, xergm, Zelig
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -38671,11 +38675,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: vcdExtra
-Version: 0.6-1
-Depends: R (>= 2.10), vcd, gnm (>= 1.0.3)
+Version: 0.6-3
+Depends: R (>= 2.10), vcd, gnm (>= 1.0.3), grid
 Imports: MASS
-Suggests:
-        ca,gmodels,Fahrmeir,effects,VGAM,plyr,rgl,lmtest,nnet,ggplot2,Sleuth2,car,lattice
+Suggests: ca, gmodels, Fahrmeir, effects, VGAM, plyr, lmtest, nnet,
+        ggplot2, Sleuth2, car, lattice, stats4, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38971,7 +38975,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: VNM
-Version: 1.0
+Version: 2.0
 License: GPL-2
 NeedsCompilation: no
 
