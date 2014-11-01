@@ -28787,6 +28787,14 @@ Suggests: testthat, devtools, roxygen2
 License: GPL-3
 NeedsCompilation: no
 
+Package: RealVAMS
+Version: 0.3-1
+Depends: R (>= 3.0.0), Matrix
+Imports: numDeriv, Rcpp (>= 0.10.6)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-2
+NeedsCompilation: yes
+
 Package: reams
 Version: 0.1
 Depends: R (>= 2.9.0), leaps, mgcv
