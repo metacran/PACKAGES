@@ -8835,7 +8835,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: eHOF
-Version: 1.5
+Version: 1.5.4
 Depends: R (>= 2.5.0), mgcv, lattice
 Suggests: vegdata, vegan, knitr
 License: GPL (>= 2)
@@ -12866,7 +12866,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GLDEX
-Version: 2.0.0.0
+Version: 2.0.0.1
 Depends: cluster
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -33973,6 +33973,11 @@ Package: smaa
 Version: 0.2-2
 Suggests: hitandrun
 License: GPL-3
+NeedsCompilation: yes
+
+Package: smac
+Version: 1.0
+License: GPL-2
 NeedsCompilation: yes
 
 Package: smacof
