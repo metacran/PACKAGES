@@ -2115,10 +2115,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bcpa
-Version: 1.0
-Depends: Rcpp (>= 0.10.2), intervals, plyr
+Version: 1.1
+Depends: Rcpp (>= 0.10.2), plyr
 LinkingTo: Rcpp
-Suggests: knitr
+Suggests: knitr, circular
 License: Unlimited
 NeedsCompilation: yes
 
@@ -9350,7 +9350,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EpiModel
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 3.0), network (>= 1.9.0), networkDynamic (>= 0.6.3),
         tergm (>= 3.1.4)
 Imports: deSolve (>= 1.10-6), doParallel, ergm (>= 3.1.2), foreach,
