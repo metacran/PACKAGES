@@ -5242,6 +5242,11 @@ Version: 0.0-8
 License: GPL-2
 NeedsCompilation: no
 
+Package: CombinePValue
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: CombinS
 Version: 1.0
 License: GPL-3
@@ -13020,9 +13025,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GlobalOptions
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 2.10.0)
-Imports: methods
 Suggests: testthat (>= 0.3), knitr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21262,7 +21266,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: multgee
-Version: 1.4
+Version: 1.5.0
 Depends: R (>= 2.15.0), gnm, VGAM
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -21536,9 +21540,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mvabund
-Version: 3.9.1
-Depends: R (>= 2.11.1)
-Imports: Rcpp, MASS, methods, stats, tweedie, statmod
+Version: 3.9.3
+Depends: R (>= 3.0.2), Rcpp (>= 0.11)
+Imports: MASS, methods, stats, tweedie, statmod
+LinkingTo: Rcpp (>= 0.11)
 License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
@@ -21705,7 +21710,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvSLOUCH
-Version: 1.1.3
+Version: 1.1.4
 Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
@@ -27803,7 +27808,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: rARPACK
-Version: 0.6-0
+Version: 0.7-0
 Depends: R (>= 3.0.2)
 Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, RcppEigen (>= 0.3.2.2.0)
@@ -30075,8 +30080,8 @@ License: EUPL
 NeedsCompilation: no
 
 Package: rjson
-Version: 0.2.14
-Depends: R (>= 2.12.0)
+Version: 0.2.15
+Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: yes
 
@@ -33495,7 +33500,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ShrinkCovMat
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.10)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -39564,9 +39569,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: x.ent
-Version: 0.0.4
+Version: 1.0.6
 Depends: R (>= 3.0.0),opencpu,rJava
-Imports: stringr,xtable,jsonlite,venneuler
+Imports: stringr,xtable,jsonlite,venneuler,ggplot2
 License: GPL-3
 NeedsCompilation: no
 
