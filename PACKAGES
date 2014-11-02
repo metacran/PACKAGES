@@ -5843,8 +5843,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: CountsEPPM
-Version: 1.0
-Depends: Matrix, Formula
+Version: 2.0
+Imports: Formula, expm, numDeriv
 License: GPL-2
 NeedsCompilation: no
 
@@ -6746,7 +6746,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dbmss
-Version: 2.1.1
+Version: 2.1.2
 Depends: spatstat, Rcpp (>= 0.10.6)
 Imports: cubature
 LinkingTo: Rcpp
@@ -7647,6 +7647,13 @@ Package: dispmod
 Version: 1.1
 Depends: R (>= 2.12)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: disposables
+Version: 1.0.0
+Depends: methods
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: dissUtils
@@ -9138,10 +9145,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: enaR
-Version: 2.7
-Depends: R (>= 2.10), sna, network, MASS, stringr, gdata
-Suggests: codetools, igraph
-License: GPL-2
+Version: 2.8
+Depends: R (>= 2.10), MASS, stringr, sna, network, gdata
+Suggests: codetools, igraph, R.rsp
+License: GPL-3
 NeedsCompilation: no
 
 Package: endogMNP
@@ -21783,6 +21790,16 @@ Imports: rJava (>= 0.6-3)
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
+Package: myTAI
+Version: 0.0.1
+Depends: R (>= 3.1.1)
+Imports: Rcpp (>= 0.11.3), nortest (>= 1.0-2), fitdistrplus (>= 1.0-2),
+        parallel (>= 3.1.1), foreach (>= 1.4.2), iterators (>= 1.0.7)
+LinkingTo: Rcpp
+Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1)
+License: GPL-3
+NeedsCompilation: yes
+
 Package: nabor
 Version: 0.4.3
 Depends: R (>= 3.0.2)
@@ -30383,8 +30400,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RMTstat
-Version: 0.2
-License: BSD
+Version: 0.3
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: RMySQL
@@ -39555,7 +39572,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: xergm
-Version: 1.1
+Version: 1.3
 Depends: R (>= 2.14.0), ergm
 Imports: stats4, utils, methods, statnet, statnet.common, network, sna,
         texreg (>= 1.33), Matrix, parallel, boot, coda, stats, ROCR,
