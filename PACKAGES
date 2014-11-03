@@ -437,7 +437,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: afex
-Version: 0.11-131
+Version: 0.12-135
 Depends: R (>= 3.0.0), car, lme4 (>= 1.0.5), reshape2
 Imports: stringr, coin, Matrix, pbkrtest (>= 0.3-6)
 Suggests: ascii, xtable, parallel, plyr, optimx, nloptr
@@ -17505,7 +17505,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: limSolve
-Version: 1.5.5
+Version: 1.5.5.1
 Depends: R (>= 2.10)
 Imports: quadprog, lpSolve, MASS
 License: GPL
@@ -25856,7 +25856,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PopGenome
-Version: 2.0.9
+Version: 2.1.0
 Depends: R (>= 2.14.2),ff
 Imports: methods
 Suggests: parallel, bigmemory, BASIX, WhopGenome
@@ -32589,6 +32589,11 @@ Depends: R (>= 2.11.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ScoreGGUM
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: SCORER2
 Version: 0.99.0
 Depends: R (>= 2.12)
@@ -32727,6 +32732,13 @@ LinkingTo: Rcpp
 Suggests: testthat (>= 0.3)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: sdcTarget
+Version: 0.9-11
+Depends: R (>= 2.10.0), methods, magic, foreach, parallel, doParallel,
+        tuple (>= 0.4-02)
+License: CC BY-NC 4.0
+NeedsCompilation: no
 
 Package: SDD
 Version: 1.1
