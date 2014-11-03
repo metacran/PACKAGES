@@ -36716,6 +36716,15 @@ Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
+Package: tagcloud
+Version: 0.4
+Depends: Rcpp (>= 0.9.4)
+Imports: RColorBrewer
+LinkingTo: Rcpp
+Suggests: extrafont
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: TAM
 Version: 1.1
 Depends: R (>= 2.15.1), MASS
