@@ -1900,6 +1900,12 @@ Depends: R(>= 2.15.2), lme4 (>= 0.999375-35), MASS, VGAM, mvtnorm,
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: BayesTree
+Version: 0.3-1.2
+Imports: nnet
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: BayesValidate
 Version: 0.0
 Depends: R (>= 2.0.1)
@@ -3144,8 +3150,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BNSP
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.1.0)
+Suggests: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19668,6 +19675,11 @@ Suggests: splines, parallel, survival, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: MGL
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: MGLM
 Version: 0.0.6
 Depends: R (>= 3.0.0)
@@ -26071,7 +26083,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: pracma
-Version: 1.7.3
+Version: 1.7.7
 Depends: R (>= 2.11.1)
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -31377,7 +31389,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rsdmx
-Version: 0.4-1
+Version: 0.4-2
 Depends: R (>= 2.15)
 Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
 Suggests: testthat
