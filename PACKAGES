@@ -10123,6 +10123,12 @@ Depends: R (>= 1.8.0), paramlink
 License: GPL-2
 NeedsCompilation: yes
 
+Package: FAMILY
+Version: 0.1.18
+Imports: pheatmap, pROC
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FAMT
 Version: 2.5
 Depends: mnormt, impute
@@ -18628,7 +18634,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: marelac
-Version: 2.1.3
+Version: 2.1.4
 Depends: R (>= 2.10), shape, seacarb
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -26211,9 +26217,10 @@ License: CeCILL
 NeedsCompilation: no
 
 Package: prim
-Version: 1.0.14
+Version: 1.0.15
 Depends: R (>= 2.10.0)
-Suggests: rgl (>= 0.66), misc3d (>= 0.4-0), MASS
+Imports: rgl (>= 0.66), misc3d (>= 0.4-0)
+Suggests: MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -34317,8 +34324,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: snpEnrichment
-Version: 1.5-0
-Depends: R (>= 2.15.0), methods
+Version: 1.6.0
+Depends: R (>= 3.0.0), methods
 Imports: parallel, snpStats
 Suggests: grid, ggplot2
 License: GPL (>= 2)
@@ -39371,6 +39378,13 @@ Package: whisker
 Version: 0.3-2
 Suggests: markdown
 License: GPL-3
+NeedsCompilation: no
+
+Package: WhiteStripe
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: oro.nifti, mgcv, fslr
+License: GPL-2
 NeedsCompilation: no
 
 Package: WhopGenome
