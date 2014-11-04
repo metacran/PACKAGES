@@ -5737,14 +5737,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CorReg
-Version: 0.15.7
+Version: 0.15.8
 Depends: R(>= 3.0.2)
-Imports: Rcpp(>= 0.11.0), lars(>= 1.2), elasticnet(>= 1.1), clere(>=
-        1.1), spikeslab(>= 1.1.5), corrplot(>= 0.73), Matrix(>= 1.1),
-        mclust(>= 4.2), Rmixmod(>= 2.0.1), ridge(>= 2.1), rpart(>=
-        4.1-5), MASS(>= 7.3-30), mvtnorm(>= 0.9)
+Imports: Rcpp(>= 0.11.0), lars(>= 1.2), elasticnet(>= 1.1), corrplot(>=
+        0.73), Matrix(>= 1.1), ridge(>= 2.1), rpart(>= 4.1-5), MASS(>=
+        7.3-30), mvtnorm(>= 0.9)
 LinkingTo: Rcpp, RcppEigen
-Suggests: parcor(>= 0.2)
+Suggests: clere(>= 1.1), spikeslab(>= 1.1.5), parcor(>= 0.2),
+        Rmixmod(>= 2.0.1), rtkpp (>= 0.8.3), mclust(>= 4.2)
 License: CeCILL
 NeedsCompilation: yes
 
@@ -6354,9 +6354,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cvAUC
-Version: 1.0-0
+Version: 1.0.1
 Depends: ROCR
-Suggests: MASS, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10507,8 +10506,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: feature
-Version: 1.2.10
-Depends: R (>= 1.4.0), ks (>= 1.8.0), tcltk
+Version: 1.2.11
+Depends: R (>= 1.4.0)
+Imports: ks (>= 1.8.0), rgl (>= 0.66), misc3d (>= 0.4-0), tcltk
 Suggests: MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -12463,8 +12463,8 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
 Package: geomorph
-Version: 2.1.1
-Depends: R (>= 2.10), rgl
+Version: 2.1.2
+Depends: rgl, R(>= 3.1.0)
 Imports: jpeg, vegan, ape, geiger, phytools
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23158,7 +23158,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ONETr
-Version: 1.0
+Version: 1.0.1
 Depends: XML, RCurl
 License: GPL-3
 NeedsCompilation: no
@@ -26767,9 +26767,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pvar
-Version: 1.0.9
+Version: 2.0
+Imports: Rcpp (>= 0.11.1)
+LinkingTo: Rcpp
+Suggests: e1071, testthat, knitr, formatR
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: pvclass
 Version: 1.1
@@ -31184,7 +31187,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RPushbullet
-Version: 0.1.0
+Version: 0.1.1
 Imports: utils, RJSONIO
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33359,7 +33362,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sglOptim
-Version: 1.0.122.0
+Version: 1.0.122.1
 Depends: R (>= 3.0.0), Matrix,
 LinkingTo: Rcpp, RcppProgress, RcppArmadillo, BH
 License: GPL (>= 2)
@@ -33903,7 +33906,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SKAT
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 2.13.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -38919,7 +38922,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VGAMdata
-Version: 0.9-4
+Version: 0.9-5
 Depends: R (>= 3.0.0)
 Suggests: VGAM
 License: GPL-2
