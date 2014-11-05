@@ -14192,6 +14192,11 @@ Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: hcp
+Version: 0.1
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: hda
 Version: 0.2-12
 Imports: e1071
@@ -16912,8 +16917,8 @@ License: MIT + file LICENSE | Unlimited
 NeedsCompilation: no
 
 Package: label.switching
-Version: 1.2
-Depends: lpSolve, combinat
+Version: 1.3
+Imports: combinat, lpSolve
 License: GPL-2
 NeedsCompilation: no
 
@@ -18777,7 +18782,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MAT
-Version: 2.0
+Version: 2.2
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
@@ -19705,7 +19710,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MGL
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -22514,9 +22519,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: NMOF
-Version: 0.28-2
+Version: 0.34-0
 Depends: R (>= 2.14)
-Suggests: MASS, RUnit, parallel, quadprog
+Imports: parallel
+Suggests: MASS, RUnit, quadprog
 License: GPL-3
 NeedsCompilation: no
 
@@ -33447,7 +33453,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shape
-Version: 1.4.1
+Version: 1.4.2
 Depends: R (>= 2.01), stats
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -37944,7 +37950,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: trip
-Version: 1.1-18
+Version: 1.1-19
 Depends: methods, sp
 Imports: maptools, MASS, spatstat
 Suggests: adehabitatLT, rgdal
