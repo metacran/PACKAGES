@@ -2941,8 +2941,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: biwavelet
-Version: 0.17.3
-Depends: R (>= 2.10)
+Version: 0.17.4
 Imports: fields
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7188,7 +7187,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: descr
-Version: 1.0.3
+Version: 1.0.4
 Imports: xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -7324,6 +7323,14 @@ Version: 1.0-1
 Imports: simex, mvtnorm, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: dfmta
+Version: 1.0
+Depends: R (>= 3.1.0)
+LinkingTo: RcppArmadillo (>= 0.3.910), BH (>= 1.54), RcppProgress (>=
+        0.1), Rcpp
+License: GPL-3
+NeedsCompilation: yes
 
 Package: dfoptim
 Version: 2011.8-1
@@ -23531,7 +23538,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ordinalgmifs
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10)
 Suggests: Biobase
 License: GPL (>= 2)
@@ -26128,6 +26135,13 @@ Version: 0.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: prc
+Version: 2014.11-4
+Depends: R (>= 3.0.0), kyotil, nlme
+Suggests: RUnit, Rmosek, Matrix
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: predfinitepop
 Version: 1.0
 Depends: R (>= 2.10)
@@ -27210,8 +27224,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Quandl
-Version: 2.3.2
-Imports: RCurl, RJSONIO, zoo, xts
+Version: 2.4.0
+Depends: R (>= 2.15.0), xts
+Imports: RCurl, RJSONIO, zoo
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -31149,7 +31164,7 @@ License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
 Package: RPPanalyzer
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.14)
 Imports: quantreg, limma, lattice, stats4, gam, gplots, grid, ggplot2,
         Hmisc, Biobase
@@ -39191,7 +39206,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: WARN
-Version: 1.0
+Version: 1.1
 Depends: MASS
 License: GPL (>= 3)
 NeedsCompilation: no
