@@ -5531,8 +5531,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: confreq
-Version: 1.1
-Depends: R (>= 2.10.1), stats
+Version: 1.3
+Depends: R (>= 2.10.1), stats, gmp
 License: GPL-3
 NeedsCompilation: no
 
@@ -7319,6 +7319,13 @@ Suggests: testthat, roxygen2
 License: GPL-3
 NeedsCompilation: no
 
+Package: dfcomb
+Version: 1.0
+Depends: R (>= 3.1.0)
+LinkingTo: BH (>= 1.54), RcppProgress (>= 0.1), Rcpp
+License: GPL-3
+NeedsCompilation: yes
+
 Package: dfcrm
 Version: 0.2-2
 License: GPL-2
@@ -7337,7 +7344,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dfmta
-Version: 1.0
+Version: 1.0-1
 Depends: R (>= 3.1.0)
 LinkingTo: RcppArmadillo (>= 0.3.910), BH (>= 1.54), RcppProgress (>=
         0.1), Rcpp
@@ -18765,11 +18772,11 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: marmap
-Version: 0.8
+Version: 0.9
 Depends: R (>= 2.10)
-Imports: RSQLite, gdistance, geosphere, sp, raster, ncdf, plotrix,
-        shape
-Suggests: maps, mapdata, lattice, mapproj
+Imports: DBI, RSQLite, gdistance, geosphere, sp, raster, ncdf, plotrix,
+        shape, reshape2
+Suggests: maps, mapdata, lattice, mapproj, R.rsp
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -30757,7 +30764,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RobustAFT
-Version: 1.2
+Version: 1.3
 Depends: R (>= 2.9.2), robustbase, stats, graphics, survival
 License: GPL (>= 2)
 NeedsCompilation: yes
