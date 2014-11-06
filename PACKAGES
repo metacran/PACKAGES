@@ -25539,6 +25539,14 @@ Suggests: MASS, parallel, Rmpi
 License: GPL-2
 NeedsCompilation: no
 
+Package: PLSbiplot1
+Version: 0.1
+Depends: R (>= 3.0.0)
+Suggests: chemometrics, MASS, mixOmics, mvabund, pls, plsgenomics,
+        robustbase, SensoMineR
+License: GPL-2
+NeedsCompilation: no
+
 Package: plsdepot
 Version: 0.1.17
 Depends: R (>= 2.15.1)
