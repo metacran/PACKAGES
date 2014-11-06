@@ -7357,8 +7357,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dglm
-Version: 1.6.2
-Depends: R (>= 1.0), statmod(>= 1.0.8)
+Version: 1.8
+Depends: R (>= 2.8.0), statmod(>= 1.4.20)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7916,8 +7916,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dma
-Version: 1.2-0
-Suggests: MASS, mnormt
+Version: 1.2-2
+Imports: MASS, mnormt
 License: GPL-2
 NeedsCompilation: no
 
@@ -26845,8 +26845,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pushoverr
-Version: 0.1.3
-Depends: R (>= 3.0.0),
+Version: 0.1.4
+Depends: R (>= 3.0.0)
 Imports: httr, methods
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
