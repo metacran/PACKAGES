@@ -28699,7 +28699,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: RcppRedis
-Version: 0.1.1
+Version: 0.1.2
 Imports: methods, Rcpp (>= 0.11.0), RApiSerialize
 LinkingTo: Rcpp, RApiSerialize
 Suggests: rredis, RUnit
@@ -36092,7 +36092,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: stringi
-Version: 0.2-5
+Version: 0.3-1
 Depends: R (>= 2.15.0)
 License: file LICENSE
 License_is_FOSS: yes
