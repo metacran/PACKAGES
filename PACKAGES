@@ -7387,7 +7387,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: diagram
-Version: 1.6.2
+Version: 1.6.3
 Depends: R (>= 2.01) ,shape
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12726,7 +12726,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GGIR
-Version: 1.1-3
+Version: 1.1-4
 Depends: stats, utils, R (>= 2.10)
 Suggests: MASS, signal, zoo, mmap, bitops, matlab, GENEAread
 License: LGPL (>= 2.0, < 3)
@@ -30975,7 +30975,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rootSolve
-Version: 1.6.5
+Version: 1.6.5.1
 Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -36860,7 +36860,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tagcloud
-Version: 0.4
+Version: 0.5
 Depends: Rcpp (>= 0.9.4)
 Imports: RColorBrewer
 LinkingTo: Rcpp
