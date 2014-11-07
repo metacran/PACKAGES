@@ -1227,7 +1227,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aRxiv
-Version: 0.5.2
+Version: 0.5.5
 Depends: R (>= 3.0.0)
 Imports: httr, utils, XML
 Suggests: devtools, knitr, roxygen2, testthat
@@ -1899,11 +1899,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayesTFR
-Version: 4.0-5
+Version: 4.0-9
 Depends: R (>= 2.14.2)
 Imports: mvtnorm, MASS, coda, wpp2012
-Suggests: rworldmap, snowFT, googleVis, rgdal, rworldxtra, wpp2008,
-        wpp2010
+Suggests: rworldmap, snowFT, snow, googleVis, rgdal, rworldxtra, sp,
+        wpp2008, wpp2010
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -1988,8 +1988,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BB
-Version: 2014.1-1
+Version: 2014.10-1
 Depends: R (>= 2.6.1)
+Imports: stats, quadprog
 Suggests: setRNG, survival, Hmisc, numDeriv
 License: GPL-3
 NeedsCompilation: no
@@ -2948,7 +2949,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: biwavelet
-Version: 0.17.4
+Version: 0.17.5
 Imports: fields
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -3582,8 +3583,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BTYD
-Version: 2.3
-Depends: gsl
+Version: 2.4
+Depends: hypergeo
 Imports: Matrix
 Suggests: knitr
 License: GPL-3
@@ -12804,6 +12805,13 @@ Version: 0.3.2
 Depends: methods, R (>= 2.15)
 Imports: ggplot2, plyr, proto, grid, scales, stringr
 License: GPL
+NeedsCompilation: no
+
+Package: ggswissmaps
+Version: 0.0.2
+Depends: R (>= 2.10), ggplot2
+Suggests: plyr, reshape2, testthat
+License: GPL-2
 NeedsCompilation: no
 
 Package: ggtern
