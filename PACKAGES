@@ -2902,7 +2902,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: birk
-Version: 1.1
+Version: 1.2
 License: GPL-2
 NeedsCompilation: no
 
@@ -7321,7 +7321,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: dfcomb
-Version: 1.0
+Version: 1.0-1
 Depends: R (>= 3.1.0)
 LinkingTo: BH (>= 1.54), RcppProgress (>= 0.1), Rcpp
 License: GPL-3
@@ -25480,7 +25480,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: plot3D
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 2.15)
 Imports: misc3d
 License: GPL (>= 3.0)
@@ -30683,7 +30683,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rnrfa
-Version: 0.1.0
+Version: 0.1.5
 Depends: R (>= 3.0.2), utils
 Imports: XML2R, RCurl, zoo, rjson, rgdal, sp, stringr
 License: GPL (>= 3)
