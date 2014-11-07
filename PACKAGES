@@ -14366,6 +14366,13 @@ Depends: ergm (>= 3.1-1), parallel
 License: GPL-3
 NeedsCompilation: yes
 
+Package: heritability
+Version: 1.0
+Depends: R (>= 2.10)
+Suggests: synbreed
+License: GPL-3
+NeedsCompilation: no
+
 Package: hermite
 Version: 1.0
 Depends: R (>= 2.15.0)
@@ -23998,6 +24005,12 @@ Suggests: mitools, lme4
 License: MIT + file LICENSE
 License_restricts_use: no
 NeedsCompilation: yes
+
+Package: PANDA
+Version: 0.9.9
+Imports: GO.db, cluster
+License: Artistic-2.0
+NeedsCompilation: no
 
 Package: pander
 Version: 0.5.1
@@ -39525,6 +39538,13 @@ NeedsCompilation: yes
 Package: wikibooks
 Version: 0.2
 Depends: R (>= 2.1.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: wikipediatrend
+Version: 0.2.0
+Depends: R (>= 3.0.0)
+Imports: jsonlite (>= 0.9.13), stringr (>= 0.6.2), RCurl (>= 1.95-4.3)
 License: GPL (>= 2)
 NeedsCompilation: no
 
