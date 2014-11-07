@@ -4611,9 +4611,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.1.2
-Depends: R (>= 2.10.0)
-Imports: GlobalOptions (>= 0.0.2)
+Version: 0.1.3
+Depends: R (>= 2.10.0), methods
+Imports: GlobalOptions (>= 0.0.3)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15134,9 +15134,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: hypergeo
-Version: 1.2-5
-Depends: R (>= 2.6.0),
-Imports: elliptic (>= 1.3-2), contfrac (>= 1.1-9)
+Version: 1.2-9
+Depends: R (>= 3.1.0),
+Imports: elliptic (>= 1.3-5), contfrac (>= 1.1-9)
 License: GPL-2
 NeedsCompilation: no
 
@@ -22872,9 +22872,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: npsm
-Version: 0.01
+Version: 0.5
 Depends: Rfit
-Suggests: boot
+Imports: plyr
+Suggests: boot, survival, sm, HSAUR2, devtools
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29703,11 +29704,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.7.0
-Imports: XML, RCurl (>= 1.6), plyr, ggplot2, maps, httr, maptools,
-        rgdal, rgeos, sp, RJSONIO, data.table, stringr, assertthat,
-        whisker
-Suggests: roxygen2, testthat, jsonlite, knitr
+Version: 0.7.7
+Imports: XML, plyr, ggplot2, maps, httr, rgeos, sp, data.table,
+        stringr, assertthat, whisker, magrittr, jsonlite (>= 0.9.12)
+Suggests: roxygen2, testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -35523,7 +35523,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sqldf
-Version: 0.4-9
+Version: 0.4-10
 Depends: R (>= 3.1.0), gsubfn (>= 0.6), proto, RSQLite (>= 1.0.0)
 Imports: DBI (>= 0.2-5), chron
 Suggests: RH2, RMySQL, RPostgreSQL, svUnit, tcltk, MASS
@@ -39414,7 +39414,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: weightedScores
-Version: 0.9
+Version: 0.9.1
 Depends: R (>= 2.0.0), mvtnorm, rootSolve
 License: GPL (>= 2)
 NeedsCompilation: no
