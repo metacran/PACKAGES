@@ -8406,6 +8406,11 @@ Depends: utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: dummy
+Version: 0.1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: DunnettTests
 Version: 2.0
 Depends: mvtnorm
@@ -17591,6 +17596,12 @@ Imports: quadprog, lpSolve, MASS
 License: GPL
 NeedsCompilation: yes
 
+Package: LinCal
+Version: 1.0
+Depends: R (>= 3.0.2)
+License: GPL-2
+NeedsCompilation: no
+
 Package: LindenmayeR
 Version: 0.1-0
 Depends: stringr, grid
@@ -19850,7 +19861,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: miceadds
-Version: 0.14-9
+Version: 1.0
 Depends: R (>= 2.15.0), MASS, mice (>= 2.21), mvtnorm, pan (>= 0.9)
 Imports: sirt (>= 0.42), lme4, MBESS, pls, mitools, bayesm, Rcpp (>=
         0.11-0), inline, car, foreign
@@ -24931,6 +24942,16 @@ Version: 0.4.9
 Depends: adimpro (>= 0.4.2)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: pez
+Version: 0.9-0
+Depends: ape (>= 3.1-4)
+Imports: caper (>= 0.5-2), picante (>= 1.6-2), quantreg (>= 5.05),
+        mvtnorm (>= 1.0-0), vegan (>= 2.0-10), PVR (>= 0.2.1), ade4 (>=
+        1.6-2), apTreeshape (>= 1.4-5), FD (>= 1.0-12)
+Suggests: knitr (>= 1.6), plotrix (>= 3.5-7), methods (>= 3.1.1)
+License: GPL-3
+NeedsCompilation: no
 
 Package: PF
 Version: 9.5
@@ -34834,12 +34855,12 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: spaMM
-Version: 1.3.0
+Version: 1.4.0
 Depends: R (>= 3.0.0)
 Imports: stats, graphics, Matrix, MASS, lpSolveAPI (>= 5.5.0.14),
         proxy, geometry, Rcpp (>= 0.11.0), nlme
 LinkingTo: Rcpp, RcppEigen
-Suggests: maps
+Suggests: maps, testthat
 License: CeCILL-2
 NeedsCompilation: yes
 
@@ -35946,7 +35967,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stm
-Version: 1.0.1
+Version: 1.0.8
 Depends: R (>= 2.10)
 Imports: matrixStats, splines, slam, lda, stringr, Matrix, glmnet
 Suggests: igraph, SnowballC, tm, huge, clue, wordcloud, KernSmooth, NLP
@@ -38904,7 +38925,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vcrpart
-Version: 0.2-1
+Version: 0.2-2
 Depends: R (>= 3.1.0), parallel, partykit
 Imports: stats, grid, graphics, methods, nlme, rpart, numDeriv, ucminf,
         zoo, sandwich, strucchange
