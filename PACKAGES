@@ -1647,6 +1647,12 @@ Suggests: gWidgets, IDPmisc, lattice, pls, MASS
 License: GPL-2
 NeedsCompilation: no
 
+Package: basicspace
+Version: 0.13
+Depends: R (>= 3.0.0), tools (>= 2.0.0)
+License: GPL-2
+NeedsCompilation: yes
+
 Package: BASIX
 Version: 1.1
 Depends: R (>= 2.14.2), methods
@@ -6053,7 +6059,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crank
-Version: 1.0-5
+Version: 1.0-6
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8141,6 +8147,11 @@ Version: 1.0
 Depends: R (>= 2.10)
 Imports: numDeriv
 License: GPL-3
+NeedsCompilation: no
+
+Package: DOvalidation
+Version: 0.1.0
+License: GPL-2
 NeedsCompilation: no
 
 Package: downloader
@@ -30136,6 +30147,12 @@ Package: risksetROC
 Version: 1.0.4
 Depends: R (>= 1.6.1), survival, MASS
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: riskSimul
+Version: 0.1
+Depends: Runuran
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: RISmed
