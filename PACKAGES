@@ -19540,6 +19540,15 @@ Imports: MASS, lhs, plyr, BBmisc, ParamHelpers, BatchJobs,
 License: GPL-3
 NeedsCompilation: no
 
+Package: MetaLandSim
+Version: 0.1
+Depends: R (>= 2.10), tcltk, spatstat, stats, sp
+Imports: Biobase, e1071, fgui, grDevices, graphics, googleVis,
+        maptools, rgeos, spgrass6, raster
+Suggests: rasterVis
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: metaLik
 Version: 0.41.0
 Priority: optional
