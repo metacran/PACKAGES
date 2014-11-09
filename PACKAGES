@@ -22046,7 +22046,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: nCal
-Version: 14.10-31
+Version: 14.11-8
 Depends: R (>= 3.0.0), drc, gdata, gWidgets, kyotil
 Suggests: knitr, RUnit, rjags, gWidgetstcltk, nlme, coda
 License: GPL (>= 2)
@@ -34860,12 +34860,12 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: spaMM
-Version: 1.4.0
+Version: 1.4.1
 Depends: R (>= 3.0.0)
 Imports: stats, graphics, Matrix, MASS, lpSolveAPI (>= 5.5.0.14),
         proxy, geometry, Rcpp (>= 0.11.0), nlme
 LinkingTo: Rcpp, RcppEigen
-Suggests: maps, testthat
+Suggests: maps, testthat, lme4
 License: CeCILL-2
 NeedsCompilation: yes
 
