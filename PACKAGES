@@ -15930,12 +15930,6 @@ Suggests: XML, rhdf5, yaml, jsonlite
 License: GPL (>= 3)
 NeedsCompilation: no
 
-Package: ionflows
-Version: 1.0
-Depends: Biostrings, BSgenome.Hsapiens.UCSC.hg19
-License: GPL-3
-NeedsCompilation: no
-
 Package: iosmooth
 Version: 0.91
 License: GPL
@@ -25583,7 +25577,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotrix
-Version: 3.5-7
+Version: 3.5-10
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34799,7 +34793,7 @@ License: MIT
 NeedsCompilation: no
 
 Package: sp
-Version: 1.0-15
+Version: 1.0-16
 Depends: R (>= 2.14.0)
 Imports: methods, graphics, utils, lattice, grid
 Suggests: RColorBrewer, rgdal (>= 0.8-7), rgeos (>= 0.2-20), gstat
