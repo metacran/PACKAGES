@@ -6478,6 +6478,14 @@ Depends: R (>= 2.13.1), GenKern, plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: D2C
+Version: 1.0
+Depends: randomForest
+Imports: gRbase, lazy, RBGL, MASS, corpcor, infotheo, methods,
+        Rgraphviz
+License: Artistic-2.0
+NeedsCompilation: no
+
 Package: d3Network
 Version: 0.5.1
 Depends: R (>= 3.0.0)
@@ -9437,6 +9445,12 @@ Version: 0.9-59
 Depends: R (>= 3.0.0), survival
 Suggests: MASS (>= 3.1-20)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: episplineDensity
+Version: 0.0-1
+Depends: nloptr, pracma
+License: GPL-2
 NeedsCompilation: no
 
 Package: epitools
@@ -12483,8 +12497,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: geocodeHERE
-Version: 0.1
-Depends: R (>= 3.1.1)
+Version: 0.1.1
+Depends: R (>= 3.0.0)
 Imports: httr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -13763,7 +13777,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gsDesign
-Version: 2.9-2
+Version: 2.9-3
 Depends: R (>= 3.0.0), ggplot2, xtable, stringr, RUnit, plyr
 Suggests: knitr
 License: GPL (>= 2)
@@ -24630,7 +24644,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: pdc
-Version: 1.0
+Version: 1.0.1
 Suggests: plotrix, lattice
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -28668,8 +28682,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp11
-Version: 3.1.1
-Depends: R (>= 3.1.1)
+Version: 3.1.2.0
+Depends: R (>= 3.1.2)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -37405,7 +37419,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TH.data
-Version: 1.0-3
+Version: 1.0-4
 Depends: R (>= 2.10.0)
 License: GPL-3
 NeedsCompilation: no
