@@ -2463,7 +2463,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BH
-Version: 1.54.0-4
+Version: 1.54.0-5
 License: BSL-1.0
 NeedsCompilation: no
 
@@ -15936,6 +15936,12 @@ Suggests: XML, rhdf5, yaml, jsonlite
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: ionflows
+Version: 1.1
+Depends: Biostrings
+License: GPL-3
+NeedsCompilation: no
+
 Package: iosmooth
 Version: 0.91
 License: GPL
@@ -18236,7 +18242,7 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: lpSolveAPI
-Version: 5.5.2.0-12
+Version: 5.5.2.0-13
 License: LGPL-2
 NeedsCompilation: yes
 
@@ -20721,7 +20727,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ModelGood
-Version: 1.0.8
+Version: 1.0.9
 Imports: prodlim, parallel
 Suggests: party, rpart, glmnet, rms, randomForest, randomForestSRC
 License: GPL (>= 2)
@@ -24241,7 +24247,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-17
+Version: 1.0-18
 Depends: R (>= 2.14.0), methods, grid, zoo, sandwich (>= 1.1-1),
         strucchange, stats, modeltools (>= 0.2-21)
 Imports: survival, coin (>= 1.0-24)
@@ -28485,11 +28491,11 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.NMBU
-Version: 1.7.5
-Depends: R (>= 3.0.0), mixlm (>= 1.0.6), MASS, pls
+Version: 1.7.6
+Depends: R (>= 3.0.0), mixlm (>= 1.0.7), MASS, pls, xtable
 Imports: Rcmdr (>= 2.0-0), tcltk
-Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, xtable,
-        pbkrtest, vcd, multcomp, e1071, nnet
+Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, pbkrtest, vcd,
+        multcomp, e1071, nnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31132,7 +31138,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: Rothermel
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), GA, ftsa
 License: GPL-2
 NeedsCompilation: no
