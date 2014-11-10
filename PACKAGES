@@ -7184,12 +7184,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: DepthProc
-Version: 1.0.1
-Depends: R (>= 3.0.0), ggplot2, Rcpp (>= 0.11.2), rrcov, np, methods,
-        MASS
-Imports: lattice, sm, geometry
+Version: 1.0.2
+Depends: R (>= 3.0.0), ggplot2, Rcpp (>= 0.11.2), rrcov, methods, MASS,
+        np
+Imports: lattice, sm, geometry, colorspace,
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: mvtnorm, rgl, sn, robustbase,
+Suggests: mvtnorm, rgl, sn, robustbase, dplyr, RcppArmadillo
 License: GPL-2
 NeedsCompilation: yes
 
@@ -16083,7 +16083,7 @@ License: CC BY-NC-SA 3.0
 NeedsCompilation: yes
 
 Package: ISBF
-Version: 0.2
+Version: 0.2.1
 License: GPL
 NeedsCompilation: yes
 
