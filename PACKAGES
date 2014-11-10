@@ -8656,6 +8656,12 @@ Depends: R (>= 2.10)
 License: GPL
 NeedsCompilation: yes
 
+Package: EBglmnet
+Version: 3.4
+Depends: R (>= 2.10)
+License: GPL
+NeedsCompilation: yes
+
 Package: EBMAforecast
 Version: 0.42
 Depends: separationplot, ensembleBMA, plyr, methods, Hmisc, abind
@@ -20292,7 +20298,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixlm
-Version: 1.0.6
+Version: 1.0.7
 Depends: multcomp, pls, pracma
 Imports: leaps, lme4, car
 License: GPL
@@ -20949,9 +20955,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mpath
-Version: 0.1-15
+Version: 0.1-16
 Depends: methods
 Imports: MASS,glmnet,pscl,numDeriv
+Suggests: zic
 License: GPL-2
 NeedsCompilation: yes
 
@@ -25214,6 +25221,12 @@ NeedsCompilation: yes
 Package: phyloclim
 Version: 0.9-4
 Depends: ape, raster
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: PHYLOGR
+Version: 1.0.8
+Depends: R(>= 1.8.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31660,7 +31673,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RSiteCatalyst
-Version: 1.4.0
+Version: 1.4.1
 Depends: R (>= 3.0)
 Imports: jsonlite (>= 0.9.5), httr (>= 0.3), plyr, base64enc, digest,
         stringr
@@ -38866,7 +38879,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VAR.etp
-Version: 0.5
+Version: 0.6
 License: GPL-2
 NeedsCompilation: no
 
