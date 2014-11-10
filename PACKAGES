@@ -13796,14 +13796,15 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GSIF
-Version: 0.4-1
+Version: 0.4-2
 Depends: R (>= 2.15.0)
 Imports: methods, sp (>= 1.0-8), RSAGA, dismo, rgdal, raster, aqp,
         plotKML, gstat, stats, boot, rpart, quantregForest,
         randomForest, nlme
-Suggests: rjson, RCurl, tools, soiltexture, spatstat, stringr, plyr,
-        XML, splines, mda, psych, nortest, fossil, AICcmodavg,
-        maptools, nnet, SDMTools, rJava (>= 0.5-0), gdalUtils
+Suggests: rjson, RCurl, soiltexture, spatstat, stringr, plyr, XML,
+        splines, mda, psych, nortest, reshape, fossil, AICcmodavg,
+        maptools, nnet, SDMTools, rJava (>= 0.5-0), spacetime,
+        gdalUtils, tools
 License: GPL
 NeedsCompilation: no
 
@@ -27865,7 +27866,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: randomUniformForest
-Version: 1.0.9
+Version: 1.1.0
 Depends: R (>= 3.0.0)
 Imports: methods, Rcpp (>= 0.11.1), parallel, doParallel, iterators,
         foreach (>= 1.4.2), ggplot2, pROC, gtools, cluster, MASS
@@ -38557,8 +38558,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: TUWmodel
-Version: 0.1-2
-Depends: R (>= 2.10), stats, graphics
+Version: 0.1-4
+Depends: R (>= 3.0.0), stats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
