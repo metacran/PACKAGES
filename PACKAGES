@@ -13149,7 +13149,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: glogis
-Version: 0.1-1
+Version: 1.0-0
 Depends: R (>= 2.10.0), zoo
 Imports: graphics, stats, sandwich
 Suggests: strucchange, fxregime, lattice
