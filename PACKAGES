@@ -16801,9 +16801,9 @@ License: MIT
 NeedsCompilation: no
 
 Package: knitr
-Version: 1.7
+Version: 1.8
 Depends: R (>= 2.14.1)
-Imports: evaluate (>= 0.5.5), digest, formatR (>= 1.0), highr (>= 0.3),
+Imports: evaluate (>= 0.5.5), digest, formatR (>= 1.0), highr (>= 0.4),
         markdown (>= 0.7.4), stringr (>= 0.6), tools
 Suggests: testit, rgl, codetools, rmarkdown, XML, RCurl
 License: GPL
@@ -25065,7 +25065,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: phangorn
-Version: 1.99-9
+Version: 1.99-11
 Depends: R (>= 3.0.0), ape (>= 3.1-4)
 Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch, parallel, rgl
 Suggests: seqLogo, seqinr, xtable, flashClust
