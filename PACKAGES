@@ -6733,10 +6733,10 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: dbarts
-Version: 0.8-3
-Depends: R (>= 3.0-0)
+Version: 0.8-4
+Depends: R (>= 3.1-0)
 Imports: methods, stats
-Suggests: testthat
+Suggests: testthat (>= 0.9-0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -12996,6 +12996,12 @@ Suggests: RUnit
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
+Package: GLDreg
+Version: 1.0
+Depends: GLDEX (>= 2.0.0.1)
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: glinternet
 Version: 0.9.0
 Suggests: ggplot2
@@ -18482,9 +18488,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: lymphclon
-Version: 1.2.3
+Version: 1.3.0
 Depends: R (>= 2.15.0)
-Imports: VGAM, MASS, expm, corpcor
+Imports: MASS, expm, corpcor
 License: LGPL-2
 NeedsCompilation: no
 
@@ -20801,8 +20807,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mombf
-Version: 1.5.7
+Version: 1.5.9
 Depends: R (>= 2.14.0), methods, mvtnorm, ncvreg, actuar, mgcv
+Imports: survival
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -27726,7 +27733,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RAdwords
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.0.3)
 Imports: RCurl, rjson
 License: GPL (>= 2) | MIT + file LICENSE
@@ -29657,7 +29664,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rFerns
-Version: 0.3.3
+Version: 1.0.0
 License: GPL-3
 NeedsCompilation: yes
 
