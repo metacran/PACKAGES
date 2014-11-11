@@ -27158,8 +27158,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qicharts
-Version: 0.1.0
-Depends: R (>= 3.1.1)
+Version: 0.1.1
+Depends: R (>= 3.1.2)
 Imports: lattice, latticeExtra
 Suggests: knitr
 License: GPL-3
@@ -31919,7 +31919,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: rTensor
-Version: 1.1
+Version: 1.2
 Depends: methods
 License: GPL (>= 2)
 NeedsCompilation: no
