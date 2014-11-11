@@ -6269,8 +6269,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: csvread
-Version: 1.0
-Depends: R (>= 3.0.3), methods
+Version: 1.1
+Depends: R (>= 2.15), methods
 Enhances: bit64
 License: Apache License (== 2.0)
 NeedsCompilation: yes
