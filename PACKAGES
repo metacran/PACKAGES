@@ -14135,7 +14135,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: HapEstXXR
-Version: 0.1-6
+Version: 0.1-7
 Depends: survival
 License: LGPL (>= 2.1)
 NeedsCompilation: yes
