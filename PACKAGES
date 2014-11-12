@@ -27574,7 +27574,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: R2GUESS
-Version: 1.5
+Version: 1.6
 Depends: R (>= 3.0.0), fields, MCMCpack, methods, mixOmics, mvtnorm,
         snowfall
 License: GPL (>= 2)
@@ -30581,7 +30581,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: rmongodb
-Version: 1.6.5
+Version: 1.8.0
 Depends: R (>= 2.10)
 Imports: jsonlite, plyr
 Suggests: RUnit, knitr
