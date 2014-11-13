@@ -22691,6 +22691,12 @@ Imports: graphics, quadprog,randomForest
 License: GPL-3
 NeedsCompilation: no
 
+Package: nodiv
+Version: 0.9.1
+Depends: R (>= 3.0), picante, raster, ape, sp, vegan
+License: GPL-2
+NeedsCompilation: no
+
 Package: noia
 Version: 0.96
 Depends: stats
@@ -23688,8 +23694,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ordinal
-Version: 2013.9-30
-Depends: R (>= 2.13.0)
+Version: 2014.11-12
+Depends: R (>= 2.13.0), methods
 Imports: ucminf, MASS, Matrix
 Suggests: lme4, nnet, xtable
 License: GPL (>= 2)
@@ -24505,9 +24511,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pbkrtest
-Version: 0.4-1
-Depends: R (>= 3.0.0), MASS, lme4
-Imports: Matrix, parallel
+Version: 0.4-2
+Depends: R (>= 3.0.0), lme4
+Imports: Matrix, parallel, MASS
 Suggests: gplots
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -35234,7 +35240,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spatsurv
-Version: 0.9-7
+Version: 0.9-8
 Depends: survival, sp
 Imports: iterators, RandomFields, fields, rgl, Matrix, stringr
 Suggests: rgdal, gpclib
