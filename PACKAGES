@@ -452,7 +452,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aftgee
-Version: 0.4-3
+Version: 1.0-0
 Imports: MASS, BB, survival, geepack
 Suggests: copula
 License: GPL (>= 3)
@@ -1016,12 +1016,12 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: aqp
-Version: 1.7
+Version: 1.7-7
 Depends: R (>= 2.15.0), methods
 Imports: plyr, reshape, grid, lattice, cluster, sp, Hmisc, stringr,
-        scales, plotrix, RColorBrewer
-Suggests: colorspace, maptools, foreign, MASS, ape, rgeos, soilDB,
-        latticeExtra, digest, maps
+        scales, plotrix, RColorBrewer, MASS
+Suggests: colorspace, maptools, foreign, ape, soilDB, latticeExtra,
+        digest, maps
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -1801,7 +1801,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bayesLife
-Version: 2.1-1
+Version: 2.1-2
 Depends: bayesTFR (>= 4.0-0)
 Imports: wpp2012, hett, car, coda
 Suggests: wpp2008, wpp2010
@@ -2173,6 +2173,13 @@ Version: 3.2.0-3
 Depends: R (>= 2.10.0), stats
 License: Unlimited
 NeedsCompilation: yes
+
+Package: bde
+Version: 1.0
+Depends: R (>= 2.0)
+Imports: methods,shiny,ggplot2
+License: GPL-2
+NeedsCompilation: no
 
 Package: BDgraph
 Version: 2.12
@@ -6733,7 +6740,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: dbarts
-Version: 0.8-4
+Version: 0.8-5
 Depends: R (>= 3.1-0)
 Imports: methods, stats
 Suggests: testthat (>= 0.9-0)
@@ -7669,7 +7676,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: diseasemapping
-Version: 1.1.0
+Version: 1.1.2
 Depends: sp, R (>= 3.0)
 Imports: methods
 Suggests: mgcv, spdep, geostatsp, mapmisc (>= 1.0)
@@ -8014,9 +8021,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: doBy
-Version: 4.5-11
-Depends: R (>= 3.0), survival, MASS, methods
-Imports: Matrix
+Version: 4.5-12
+Depends: R (>= 3.0), survival, methods
+Imports: MASS, Matrix
 Suggests: pbkrtest (>= 0.3-8), ggplot2, multcomp, geepack, lme4
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8891,6 +8898,14 @@ Version: 0.5.2
 License: GPL-2
 NeedsCompilation: no
 
+Package: ega
+Version: 1.0.0
+Depends: R (>= 2.14.0)
+Imports: ggplot2
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: egcm
 Version: 1.0.2
 Depends: grid, ggplot2, tseries, zoo, MASS
@@ -9323,7 +9338,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: entropart
-Version: 1.2.0
+Version: 1.2.1
 Imports: ade4
 Suggests: vegan
 License: GNU General Public License
@@ -12627,7 +12642,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 1.1.0
+Version: 1.1.5
 Depends: Matrix, raster, sp, R (>= 3.0.0)
 Imports: abind, numDeriv, pracma, methods
 Suggests: geoR, RandomFields, rgdal, parallel, mapmisc, ellipse
@@ -14521,7 +14536,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: HiClimR
-Version: 1.1.4
+Version: 1.1.5
 Depends: R (>= 2.10)
 Enhances: stats
 License: GPL (>= 2)
