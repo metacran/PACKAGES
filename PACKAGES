@@ -10343,8 +10343,8 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: FastHCS
-Version: 0.0.2
-Depends: matrixStats
+Version: 0.0.3
+Depends: R (>= 3.1.1), matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
 License: GPL (>= 2)
@@ -10382,7 +10382,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FastPCS
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.1), matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
@@ -10399,7 +10399,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FastRCS
-Version: 0.0.4
+Version: 0.0.5
 Depends: R (>= 3.1.1), matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
@@ -31295,7 +31295,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: rpf
-Version: 0.40
+Version: 0.43
 Depends: methods, parallel, R (>= 2.14.0)
 Imports: mvtnorm
 LinkingTo: RcppEigen
