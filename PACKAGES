@@ -7301,6 +7301,15 @@ Suggests: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: DetR
+Version: 0.0.1
+Depends: R (>= 3.1.1),
+Imports: matrixStats, robustbase
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.2.2)
+Suggests: mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: detrendeR
 Version: 1.0.4
 Depends: tcltk, dplR
@@ -22870,7 +22879,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NPBayesImpute
-Version: 0.3
+Version: 0.4
 Depends: methods, Rcpp (>= 0.10.2)
 LinkingTo: Rcpp
 License: GPL (>= 3)
@@ -25656,6 +25665,14 @@ NeedsCompilation: no
 Package: plotrix
 Version: 3.5-10
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: plotROC
+Version: 1.2
+Depends: R (>= 3.0.0)
+Imports: grid, ggplot2, gridSVG, shiny
+Suggests: ggthemes, knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: plotSEMM
@@ -36360,7 +36377,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: sudokuAlt
-Version: 0.1-3
+Version: 0.1-4
+Depends: R (>= 3.1.0)
 Imports: graphics
 Suggests: sudoku
 License: GPL (>= 2)
@@ -37903,6 +37921,11 @@ Depends: R (>= 2.14.0), tourr (>= 0.5.1), colorspace, RGtk2, gWidgets,
         Cairo
 Suggests: rggobi,TeachingDemos,ggplot2,ash
 License: MIT | GPL-2
+NeedsCompilation: no
+
+Package: toxtestD
+Version: 2.0
+License: GPL-2
 NeedsCompilation: no
 
 Package: tpe
