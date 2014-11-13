@@ -19470,6 +19470,14 @@ Suggests: mefa
 License: GPL-2
 NeedsCompilation: no
 
+Package: megaptera
+Version: 1.0-0
+Depends: R (>= 2.10), snowfall, ips
+Imports: ape, seqinr, methods, RPostgreSQL, XML
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: meifly
 Version: 0.3
 Imports: plyr, leaps, MASS,
@@ -21906,7 +21914,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvtnorm
-Version: 1.0-0
+Version: 1.0-1
 Depends: R(>= 1.9.0)
 Imports: stats
 License: GPL-2
@@ -23547,9 +23555,9 @@ License: CeCILL-2
 NeedsCompilation: no
 
 Package: optimx
-Version: 2013.8.6
-Depends: numDeriv
-Suggests: BB, ucminf, Rcgmin, Rvmmin, minqa, setRNG, dfoptim, svUnit
+Version: 2013.8.7
+Imports: numDeriv, ucminf, BB, Rcgmin, Rvmmin, minqa, setRNG, dfoptim,
+        svUnit
 License: GPL-2
 NeedsCompilation: no
 
@@ -26236,8 +26244,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.2-02
+Version: 1.2-03
 Depends: mvtnorm
+Suggests: crossdes
 License: GPL (>= 2)
 NeedsCompilation: no
 
