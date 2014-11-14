@@ -894,7 +894,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aoos
-Version: 0.0.1
+Version: 0.0.3
 Depends: methods
 Suggests: testthat
 License: GPL-3 | file LICENSE
