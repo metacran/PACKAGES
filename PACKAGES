@@ -16289,7 +16289,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: iterpc
-Version: 0.2.5
+Version: 0.2.6
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.0), polynom
 LinkingTo: Rcpp
@@ -23706,7 +23706,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ordinal
-Version: 2014.11-12
+Version: 2014.11-14
 Depends: R (>= 2.13.0), methods
 Imports: ucminf, MASS, Matrix
 Suggests: lme4, nnet, xtable
