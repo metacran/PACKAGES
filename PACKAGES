@@ -2200,7 +2200,7 @@ NeedsCompilation: no
 
 Package: bdscale
 Version: 1.2
-Depends: R (>= 3.0)
+Depends: R (>= 3.1.0)
 Imports: ggplot2, scales
 Suggests: knitr
 License: GPL-2
@@ -6678,10 +6678,10 @@ License: MIT | file LICENSE
 NeedsCompilation: no
 
 Package: dataRetrieval
-Version: 1.4.0
+Version: 2.0.0
 Depends: R (>= 3.0)
-Imports: zoo, XML, RCurl, reshape2, lubridate
-Suggests: xtable, EGRET, knitr, testthat
+Imports: XML, RCurl, reshape2, lubridate, plyr, httr
+Suggests: xtable, knitr, testthat
 License: Unlimited | file LICENSE
 NeedsCompilation: no
 
@@ -18372,12 +18372,13 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.12
+Version: 2.13
 Depends: methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix
-Suggests: nlme, lme4, pbkrtest (>= 0.4-1), lattice, multcompView, car,
-        mediation
-Enhances: survival, MASS, coxme, gee, geepack, glmmADMB, afex
+Suggests: pbkrtest (>= 0.4-1), lattice, multcompView, car, mediation,
+        ordinal
+Enhances: afex, coxme, gee, geepack, glmmADMB, lme4, MASS, nlme,
+        survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -24152,9 +24153,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: papeR
-Version: 0.4-0
-Depends: car, nlme, lme4, survival, utils
+Version: 0.5-0
+Depends: utils, car
 Imports: gmodels
+Enhances: nlme, lme4, survival
 License: GPL-2
 NeedsCompilation: no
 
