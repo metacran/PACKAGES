@@ -705,10 +705,10 @@ License: GPL
 NeedsCompilation: yes
 
 Package: Amelia
-Version: 1.7.2
-Depends: R (>= 2.15.3), foreign, utils, Rcpp (>= 0.10.0.4),
-        RcppArmadillo
-LinkingTo: Rcpp, RcppArmadillo
+Version: 1.7.3
+Depends: R (>= 3.0.2), Rcpp (>= 0.11)
+Imports: foreign, utils
+LinkingTo: Rcpp (>= 0.11), RcppArmadillo
 Suggests: tcltk, Zelig
 License: GPL (>= 2)
 NeedsCompilation: yes
