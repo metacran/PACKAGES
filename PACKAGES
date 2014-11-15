@@ -4207,7 +4207,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CEC
-Version: 0.9.1
+Version: 0.9.2
 License: GPL-3
 NeedsCompilation: yes
 
@@ -13765,7 +13765,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: grpreg
-Version: 2.7-1
+Version: 2.8-0
 Depends: R (>= 2.13.0), Matrix
 License: GPL-2
 NeedsCompilation: yes
@@ -26350,7 +26350,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: pracma
-Version: 1.7.7
+Version: 1.7.9
 Depends: R (>= 2.11.1)
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -32164,10 +32164,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RVAideMemoire
-Version: 0.9-40
-Imports: ade4, boot, car, lme4 (>= 1.0-4), lsmeans (>= 2.0.1), MASS,
-        mixOmics (>= 5.0.2), multcomp, statmod, stats
-Suggests: ordinal, survival
+Version: 0.9-41
+Imports: ade4, boot, car, lme4 (>= 1.0-4), MASS, mixOmics (>= 5.0.2),
+        statmod, stats
+Suggests: lsmeans, ordinal, survival
 License: GPL-2
 NeedsCompilation: no
 
