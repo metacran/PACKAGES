@@ -5523,7 +5523,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: coneproj
-Version: 1.4
+Version: 1.5
 Depends: R(>= 3.0.2)
 Imports: Rcpp (>= 0.10.4)
 LinkingTo: RcppArmadillo, Rcpp
@@ -13189,8 +13189,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: glpkAPI
-Version: 1.2.10
-Depends: R (>= 2.6.0), methods
+Version: 1.2.11
+Depends: R (>= 2.6.0)
+Imports: methods
 License: GPL-3
 NeedsCompilation: yes
 
@@ -16241,6 +16242,13 @@ NeedsCompilation: no
 
 Package: isopat
 Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
+Package: ISOpureR
+Version: 1.0.4
+Depends: R (>= 3.1.1)
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
 
