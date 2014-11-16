@@ -11084,7 +11084,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FLSSS
-Version: 3.0
+Version: 3.1
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-2
@@ -39436,6 +39436,11 @@ NeedsCompilation: no
 Package: VSURF
 Version: 0.8.2
 Depends: randomForest, rpart, doParallel
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: vudc
+Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
