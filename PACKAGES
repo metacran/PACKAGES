@@ -12386,9 +12386,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GeneNet
-Version: 1.2.10
-Depends: R (>= 2.15.1), corpcor (>= 1.6.6), longitudinal (>= 1.1.9),
-        fdrtool (>= 1.2.12), igraph (>= 0.6)
+Version: 1.2.11
+Depends: R (>= 2.15.1), corpcor (>= 1.6.7), longitudinal (>= 1.1.10),
+        fdrtool (>= 1.2.13), igraph (>= 0.6)
 License: GPL (>= 3)
 NeedsCompilation: no
 
