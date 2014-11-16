@@ -27971,7 +27971,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: randtests
-Version: 0.3
+Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
