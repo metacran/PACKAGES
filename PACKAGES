@@ -2182,7 +2182,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.12
+Version: 2.13
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -28394,7 +28394,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rcicr
-Version: 0.2.4
+Version: 0.2.5
 Imports: matlab, aspace, tcltk, jpeg
 License: GPL-2
 NeedsCompilation: no
@@ -35057,9 +35057,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: sparkTable
-Version: 0.11.0
-Depends: utils, grid, Cairo, methods,gridExtra,ggplot2,shiny
-Imports: xtable,StatMatch,Rglpk,pixmap,RGraphics
+Version: 0.12.0
+Depends: utils, methods, Cairo, gridExtra, ggplot2,shiny, Rglpk
+Imports: xtable,StatMatch,boot,pixmap,RGraphics,grid
 License: GPL
 NeedsCompilation: no
 
@@ -39192,9 +39192,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: vegan
-Version: 2.0-10
-Depends: permute (>= 0.8-0), lattice, R (>= 2.15.0)
-Suggests: MASS, mgcv, cluster, scatterplot3d, rgl, tcltk
+Version: 2.2-0
+Depends: permute (>= 0.7-8), lattice, R (>= 2.15.0)
+Imports: MASS, cluster, mgcv
+Suggests: parallel, tcltk
 License: GPL-2
 NeedsCompilation: yes
 
@@ -39897,6 +39898,13 @@ Depends: methods, R (>= 3.0.0), zoo
 Suggests: ggplot2 (>= 0.9), grid, reshape2
 License: GPL-2
 NeedsCompilation: no
+
+Package: wrassp
+Version: 0.1.2
+Depends: R (>= 3.1.1)
+Suggests: compare(>= 0.2.4), knitr(>= 1.7), testthat(>= 0.7.1.99)
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: WrightMap
 Version: 1.1
