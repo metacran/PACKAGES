@@ -12183,13 +12183,6 @@ Suggests: ggplot2, plyr, MASS
 License: GPL-2
 NeedsCompilation: no
 
-Package: GCPM
-Version: 1.0
-Imports: Rcpp (>= 0.11.2), methods, RcppProgress(>= 0.1)
-LinkingTo: Rcpp, RcppProgress
-License: GPL-2
-NeedsCompilation: yes
-
 Package: gdalUtils
 Version: 0.3.1
 Depends: R (>= 2.14.0)
@@ -33176,8 +33169,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: secr
-Version: 2.9.0
-Depends: R (>= 3.0.0)
+Version: 2.9.1
+Depends: R (>= 3.0.0), methods
 Imports: abind, MASS, utils, parallel, nlme, sp, mgcv, raster
 Suggests: maptools, spsurvey, rgdal, rgeos
 License: GPL (>= 2)
