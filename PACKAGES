@@ -1393,6 +1393,13 @@ Suggests: RSEIS
 License: GPL
 NeedsCompilation: yes
 
+Package: attribrisk
+Version: 0.1
+Depends: survival,boot
+Suggests: knitr,xtable,testthat
+License: LGPL (>= 2)
+NeedsCompilation: no
+
 Package: AUC
 Version: 0.3.0
 License: GPL (>= 2)
@@ -12176,6 +12183,13 @@ Suggests: ggplot2, plyr, MASS
 License: GPL-2
 NeedsCompilation: no
 
+Package: GCPM
+Version: 1.0
+Imports: Rcpp (>= 0.11.2), methods, RcppProgress(>= 0.1)
+LinkingTo: Rcpp, RcppProgress
+License: GPL-2
+NeedsCompilation: yes
+
 Package: gdalUtils
 Version: 0.3.1
 Depends: R (>= 2.14.0)
@@ -22733,7 +22747,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 0.9.1
+Version: 0.9.2
 Depends: R (>= 3.0), picante, raster, ape, sp, vegan
 License: GPL-2
 NeedsCompilation: no
@@ -35832,11 +35846,6 @@ Depends: R (>= 2.1.1), stats
 License: GPL-2
 NeedsCompilation: no
 
-Package: ssd
-Version: 0.2
-License: GPL-2
-NeedsCompilation: no
-
 Package: SSDforR
 Version: 1.4.7
 Depends: R (>= 2.10.0) ,psych,TTR,MASS,tcltk,TSA
@@ -38381,7 +38390,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSclust
-Version: 1.2.2
+Version: 1.2.3
 Depends: R (>= 3.0.1), wmtsa, pdc, cluster
 Imports: locpol, KernSmooth, dtw, longitudinalData
 License: GPL-2
