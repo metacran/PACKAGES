@@ -10067,7 +10067,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: ExtremeBounds
-Version: 0.1.4.1
+Version: 0.1.4.2
 Imports: Formula
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30972,7 +30972,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustbase
-Version: 0.91-1
+Version: 0.92-1
 Depends: R (>= 2.15.1)
 Imports: stats, graphics, utils, methods, DEoptimR
 Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust,
@@ -34365,7 +34365,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: smacpod
-Version: 1.0.0
+Version: 1.1.1
 Depends: R (>= 3.1.1)
 Imports: spatstat
 Suggests: plotrix
