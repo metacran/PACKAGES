@@ -3670,7 +3670,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: C50
-Version: 0.1.0-19
+Version: 0.1.0-21
 Depends: R (>= 2.10.0)
 License: GPL-3
 NeedsCompilation: yes
@@ -3830,11 +3830,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: car
-Version: 2.0-21
+Version: 2.0-22
 Depends: R (>= 2.14.0), stats, graphics
 Imports: MASS, nnet
-Suggests: alr4, boot, leaps, lme4, lmtest, nlme, quantreg, sandwich,
-        mgcv, pbkrtest (>= 0.3-2), rgl (>= 0.93.960), survival, survey
+Suggests: alr4, boot, leaps, lme4, lmtest, Matrix, MatrixModels, mgcv,
+        nlme, pbkrtest (>= 0.3-2), quantreg, rgl (>= 0.93.960),
+        sandwich, SparseM, survival, survey
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -4069,7 +4070,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CCAGFA
-Version: 1.0.3
+Version: 1.0.4
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25336,7 +25337,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: phylolm
-Version: 2.1
+Version: 2.2
 Depends: R (>= 3.0), ape
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -31437,9 +31438,10 @@ License: LGPL
 NeedsCompilation: no
 
 Package: rPref
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.0), methods
-Imports: Rcpp, RcppParallel, dplyr, igraph
+Imports: Rcpp (>= 0.11.3), RcppParallel (>= 4.2.5.3), dplyr (>= 0.3),
+        igraph (>= 0.7.1)
 LinkingTo: Rcpp, RcppParallel
 Suggests: testthat
 License: GPL (>= 2)
@@ -33860,10 +33862,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sidier
-Version: 2.3
+Version: 3.0
 Depends: R (>= 2.10.1)
-Imports: ape, network, igraph
-License: GPL (>= 2)
+Imports: ape, network, igraph, gridBase, grid, ggmap, ggplot2
+License: GPL-2
 NeedsCompilation: no
 
 Package: sievetest
