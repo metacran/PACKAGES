@@ -260,7 +260,7 @@ License: LGPL (>= 3.0)
 NeedsCompilation: yes
 
 Package: adaptivetau
-Version: 2.1
+Version: 2.2
 Depends: R (>= 2.10.1)
 Enhances: compiler
 License: GPL (>= 3)
