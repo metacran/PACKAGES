@@ -5145,8 +5145,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: cocorresp
-Version: 0.2-1
-Depends: stats, graphics, vegan (>= 1.17-12)
+Version: 0.2-3
+Depends: stats, graphics, vegan (>= 2.2-0)
 License: GPL-2
 NeedsCompilation: no
 
