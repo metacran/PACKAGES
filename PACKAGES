@@ -26130,9 +26130,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PopED
-Version: 0.1.1
+Version: 0.1.2
 Depends: ggplot2
-Imports: MASS, mvtnorm, nlme
+Imports: MASS, mvtnorm, nlme, dplyr, codetools
 Suggests: testthat, Hmisc
 License: LGPL (>= 3)
 NeedsCompilation: no
