@@ -764,10 +764,18 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: analogue
-Version: 0.14-0
-Depends: R (>= 2.15.0), vegan (>= 1.17-12)
+Version: 0.16-0
+Depends: R (>= 2.15.0), vegan (>= 2.2-0)
 Imports: mgcv, MASS, stats, graphics, grid, brglm, princurve, lattice
-Suggests: rgl, testthat
+Suggests: testthat
+License: GPL-2
+NeedsCompilation: yes
+
+Package: analogueExtra
+Version: 0.1-0
+Depends: vegan3d (>= 0.65-0), analogue (>= 0.16-0)
+Imports: rgl
+Suggests: testthat
 License: GPL-2
 NeedsCompilation: yes
 
@@ -24962,8 +24970,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Peptides
-Version: 1.0.1
-Depends: seqinr , R (>= 2.10.0)
+Version: 1.0.2
 Suggests: RUnit
 License: GPL-2
 NeedsCompilation: no
@@ -39557,8 +39564,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: waterData
-Version: 1.0.3
-Depends: R (>= 2.15.1), lattice, latticeExtra, XML
+Version: 1.0.4
+Depends: R (>= 2.15.1)
+Imports: lattice, latticeExtra, XML
 Suggests: xtable, maps, mapdata
 License: Unlimited | file LICENSE
 NeedsCompilation: no
