@@ -1663,7 +1663,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: basicspace
-Version: 0.13
+Version: 0.15
 Depends: R (>= 3.0.0), tools (>= 2.0.0)
 License: GPL-2
 NeedsCompilation: yes
@@ -6650,7 +6650,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: DataCombine
-Version: 0.2.2
+Version: 0.2.7
 Depends: R (>= 3.0.2)
 Imports: data.table, dplyr
 License: GPL (>= 3)
