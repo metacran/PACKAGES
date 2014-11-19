@@ -4793,11 +4793,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: climdex.pcic
-Version: 1.1-1
-Depends: R (>= 2.12.0), PCICt (>= 0.5-4),
+Version: 1.1-4
+Depends: R (>= 2.12.0), PCICt (>= 0.5-4)
 Imports: caTools (>= 1.0), methods, Rcpp (>= 0.10.0)
 Suggests: compiler, RUnit
-License: LGPL-2.1
+License: GPL-3
 NeedsCompilation: yes
 
 Package: clime
