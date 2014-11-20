@@ -6376,6 +6376,11 @@ Depends: lars
 License: GPL
 NeedsCompilation: no
 
+Package: curl
+Version: 0.2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: currentSurvival
 Version: 1.0
 Depends: R (>= 2.13.0), survival, cmprsk
@@ -7071,7 +7076,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: deltaPlotR
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.10.0), MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7395,6 +7400,14 @@ Version: 1.0-1
 Imports: simex, mvtnorm, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: dfmta
+Version: 1.0-3
+Depends: R (>= 3.1.0)
+LinkingTo: RcppArmadillo (>= 0.3.910), BH (>= 1.54), RcppProgress (>=
+        0.1), Rcpp
+License: GPL-3
+NeedsCompilation: yes
 
 Package: dfoptim
 Version: 2011.8-1
@@ -36082,6 +36095,12 @@ Depends: R (>= 3.1.0)
 Imports: data.table, dplyr (>= 0.3), ggplot2, grid, Hmisc, lazyeval,
         lfe, lubridate, matrixStats, stringr, tidyr
 Suggests: knitr, testthat
+License: GPL-2
+NeedsCompilation: no
+
+Package: statcheck
+Version: 1.0.0
+Depends: R (>= 2.14.2), plyr
 License: GPL-2
 NeedsCompilation: no
 
