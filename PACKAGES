@@ -1550,8 +1550,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BACprior
-Version: 1.2.1
-Depends: mvtnorm, leaps
+Version: 2.0
+Depends: mvtnorm, leaps, boot
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -2464,6 +2464,13 @@ Version: 0.2
 Depends: R (>= 2.15.1), mgcv
 Imports: magic, trust
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: bglm
+Version: 1.0
+Depends: R (>= 3.0.2), mvtnorm, methods
+Suggests: car, coda, faraway
+License: GPL-2
 NeedsCompilation: no
 
 Package: BGLR
@@ -28121,9 +28128,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: RAPIDR
-Version: 0.1
-Depends: R (>= 3.0.1)
-Imports: data.table, Biostrings, Rsamtools, GenomicRanges, PropCIs
+Version: 0.1.1
+Depends: R (>= 3.1.1)
+Imports: data.table, Biostrings, Rsamtools, GenomicRanges,
+        GenomicAlignments, PropCIs
 Suggests: BSgenome.Hsapiens.UCSC.hg19
 License: GPL-3
 NeedsCompilation: no
@@ -35769,6 +35777,13 @@ License: GPL (>= 3)
 OS_type: unix
 NeedsCompilation: yes
 
+Package: sprinter
+Version: 1.0.0
+Depends: R (>= 3.0.0), randomForestSRC, CoxBoost, survival, LogicReg
+Suggests: parallel, knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: sprsmdl
 Version: 0.1-0
 License: GPL-2
@@ -38286,6 +38301,12 @@ Version: 1.2
 Depends: TreeSim
 License: GPL-2
 NeedsCompilation: no
+
+Package: treethresh
+Version: 0.1-8
+Depends: R (>= 2.10), EbayesThresh, wavethresh
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: TrialSize
 Version: 1.3
