@@ -13858,7 +13858,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gset
-Version: 1.0
+Version: 1.1.0
 Depends: R (>= 3.0.2), Hmisc, mvtnorm, MCMCpack, graphics
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -15631,6 +15631,13 @@ Version: 1.0
 Depends: R (>= 3.0.0)
 Imports: methods, zoo, lubridate, climdex.pcic (>= 1.1-1), PCICt
 License: GPL-3
+NeedsCompilation: no
+
+Package: ilc
+Version: 1.0
+Depends: R (>= 3.0.3), demography, rainbow, forecast, date
+Imports: survival
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: IM
