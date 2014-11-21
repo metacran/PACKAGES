@@ -13199,7 +13199,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: glmvsd
-Version: 1.0
+Version: 1.1
 Depends: stats, glmnet, ncvreg, MASS
 License: GPL-2
 NeedsCompilation: no
