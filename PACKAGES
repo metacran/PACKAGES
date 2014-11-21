@@ -4213,9 +4213,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CDM
-Version: 3.4-21
+Version: 4.0
 Depends: R (>= 2.15.0), mvtnorm
-Imports: MASS, psych, polycor, sfsmisc, Rcpp (>= 0.11),
+Imports: Rcpp (>= 0.11), psych, MASS, polycor, sfsmisc
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: TAM (>= 1.0-3), mirt (>= 1.5), sirt (>= 0.47), NPCD, ACTCD,
         pks
@@ -13681,7 +13681,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: greport
-Version: 0.5-1
+Version: 0.5-2
 Depends: Hmisc (>= 3.14-2), data.table
 Imports: rms (>= 4.1-3), lattice, latticeExtra, Formula, survival
 License: GPL (>= 2)
@@ -14848,7 +14848,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Hmisc
-Version: 3.14-5
+Version: 3.14-6
 Depends: methods, grid, lattice, survival (>= 2.37-6), Formula
 Imports: latticeExtra, cluster, rpart, nnet, acepack, foreign
 Suggests: chron, rms, mice, tables
@@ -17949,9 +17949,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lmerTest
-Version: 2.0-11
+Version: 2.0-20
 Depends: R (>= 3.0.0), Matrix, stats, methods, lme4 (>= 1.0)
-Imports: numDeriv, MASS, Hmisc, gplots, pbkrtest
+Imports: plyr, numDeriv, MASS, Hmisc, gplots
+Suggests: pbkrtest
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18790,7 +18791,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAPA
-Version: 1.8
+Version: 1.9
 Depends: forecast (>= 5.3), parallel
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27626,12 +27627,14 @@ License: GPL
 NeedsCompilation: no
 
 Package: quantspec
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 3.0.0), stats4
-Imports: methods, graphics, quantreg, testthat, abind, zoo, rje,
-        snowfall
+Imports: methods, graphics, quantreg, abind, zoo, snowfall, Rcpp (>=
+        0.11.0)
+LinkingTo: Rcpp
+Suggests: testthat
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: QuasiSeq
 Version: 1.0-4
