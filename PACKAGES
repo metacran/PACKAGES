@@ -985,7 +985,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: aprof
-Version: 0.2.1
+Version: 0.2.4
 License: GPL-2
 NeedsCompilation: no
 
@@ -1880,7 +1880,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayesPop
-Version: 5.1-5
+Version: 5.2-1
 Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
 Imports: parallel, abind, plyr, wpp2012
 Suggests: rworldmap, fields, wpp2008, wpp2010
@@ -6838,6 +6838,15 @@ LinkingTo: Rcpp
 Suggests: knitr
 License: GNU General Public License
 NeedsCompilation: yes
+
+Package: db.r
+Version: 0.1.0
+Depends: R (>= 2.12), methods
+Imports: DBI, rjson (>= 0.2.14), stringr
+Suggests: testthat (>= 0.2), RPostgreSQL (>= 0.2.14), RMySQL (>=
+        0.2.14), RSQLite (>= 1.0.0)
+License: FreeBSD
+NeedsCompilation: no
 
 Package: dbstats
 Version: 1.0.3
@@ -17988,7 +17997,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: lmms
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0)
 Imports: stats, methods, nlme, lmeSplines, parallel, reshape, gdata,
         gplots, ggplot2, graphics
