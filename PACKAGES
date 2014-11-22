@@ -2561,7 +2561,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BIFIEsurvey
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.15.0)
 Imports: Rcpp (>= 0.11.0), miceadds (>= 0.14)
 LinkingTo: Rcpp, RcppArmadillo
@@ -4768,7 +4768,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: classyfire
-Version: 0.1-0
+Version: 0.1-1
 Depends: R (>= 3.0.0), snowfall (>= 1.84-6), e1071 (>= 1.6-3), boot (>=
         1.3-11), neldermead (>= 1.0-9)
 Imports: ggplot2 (>= 1.0-0), optimbase (>= 1.0-9)
@@ -18695,7 +18695,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: magrittr
-Version: 1.0.1
+Version: 1.5
 Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -19127,6 +19127,12 @@ Package: MATTOOLS
 Version: 1.1
 Depends: R (>= 2.15.0)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: MAVIS
+Version: 0.2
+Imports: shiny, shinyAce, metafor, MAd, MAc, quantreg, ggplot2
+License: GPL-3
 NeedsCompilation: no
 
 Package: MAVTgsa
@@ -31106,7 +31112,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustbase
-Version: 0.92-1
+Version: 0.92-2
 Depends: R (>= 2.15.1)
 Imports: stats, graphics, utils, methods, DEoptimR
 Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust,
@@ -37281,12 +37287,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.1
-Depends: R (>= 2.15.1), MASS
-Imports: mvtnorm, CDM (>= 3.4), tensor, sfsmisc, GPArotation, psych,
-        Rcpp, mirt (>= 1.5), lattice
+Version: 1.2
+Depends: R (>= 2.15.1), CDM (>= 4.0), MASS
+Imports: Rcpp, mirt (>= 1.6), lavaan (>= 0.5-17), tensor, sfsmisc,
+        GPArotation, psych, lattice, mvtnorm
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: sirt (>= 0.47)
+Suggests: sirt (>= 1.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
