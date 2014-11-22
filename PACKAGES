@@ -1089,7 +1089,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: arfima
-Version: 1.2-6
+Version: 1.2-7
 Depends: R (>= 2.14.0)
 Imports: ltsa, parallel
 License: GPL (>= 2)
@@ -1926,11 +1926,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayesTFR
-Version: 4.0-9
+Version: 4.0-11
 Depends: R (>= 2.14.2)
 Imports: mvtnorm, MASS, coda, wpp2012
-Suggests: rworldmap, snowFT, snow, googleVis, rgdal, rworldxtra, sp,
-        wpp2008, wpp2010
+Suggests: rworldmap, snowFT, googleVis, rgdal, rworldxtra, sp, wpp2008,
+        wpp2010
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -3408,7 +3408,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bpcp
-Version: 1.1.0
+Version: 1.2.4
 Depends: stats
 Suggests: survival
 License: GPL (>= 2)
@@ -17223,9 +17223,10 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: LambertW
-Version: 0.2.9.9.5
-Depends: moments, gsl, MASS, nortest, maxLik
-Suggests: Rsolnp
+Version: 0.5
+Depends: moments, MASS
+Imports: gsl
+Suggests: Rsolnp, nortest, numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20560,7 +20561,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mkin
-Version: 0.9-33
+Version: 0.9-34
 Depends: minpack.lm, rootSolve
 Imports: FME, deSolve
 Suggests: knitr, RUnit
@@ -22809,8 +22810,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 0.9.2
-Depends: R (>= 3.0), picante, raster, ape, sp, vegan
+Version: 0.9.3
+Depends: R (>= 3.0)
+Imports: picante, raster, ape, sp, vegan,
+Suggests: RColorBrewer, parallel
 License: GPL-2
 NeedsCompilation: no
 
@@ -24478,6 +24481,13 @@ Depends: e1071, MASS, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PASWR2
+Version: 1.0
+Depends: R (>= 2.10), ggplot2, lattice
+Imports: e1071, grid
+License: GPL-2
+NeedsCompilation: no
+
 Package: patchDVI
 Version: 1.9.1601
 Depends: R (>= 2.10.0)
@@ -24805,7 +24815,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: pdc
-Version: 1.0.1
+Version: 1.0.2
 Suggests: plotrix, lattice
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -26329,7 +26339,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: PoweR
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.0), parallel, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
@@ -26802,6 +26812,12 @@ Depends: MASS
 License: GPL-3
 NeedsCompilation: no
 
+Package: proteomics
+Version: 0.2
+Imports: plyr, reshape2, ggplot2, foreach
+License: GPL-3
+NeedsCompilation: no
+
 Package: protiq
 Version: 1.2
 Depends: methods
@@ -27208,7 +27224,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pxweb
-Version: 0.4
+Version: 0.5.2
+Depends: methods
 Imports: data.table, plyr, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2, knitr
 License: BSD_2_clause + file LICENSE
@@ -27903,7 +27920,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RadOnc
-Version: 1.0.8
+Version: 1.0.9
 Depends: R (>= 3.0.0), graphics, grDevices, methods, rgl, geometry,
         oro.dicom (>= 0.4.1), ptinpoly
 Imports: stats, utils
@@ -32328,6 +32345,14 @@ Suggests: roxygen2
 License: CC0
 NeedsCompilation: no
 
+Package: rvest
+Version: 0.1.0
+Depends: R (>= 3.0.1)
+Imports: httr (>= 0.5), XML, selectr, magrittr
+Suggests: testthat, knitr, png, stringi (>= 0.3.1)
+License: GPL-3
+NeedsCompilation: no
+
 Package: rvgtest
 Version: 0.7.4
 Depends: R (>= 3.0.0)
@@ -32977,9 +33002,10 @@ License: AGPL-3
 NeedsCompilation: yes
 
 Package: SciencesPo
-Version: 0.05.21
-Depends: R (>= 3.0),stats,utils,graphics,grDevices,data.table, xtable
-Suggests: Zelig,foreign,MCMCpack
+Version: 0.11.21
+Depends: R (>= 3.0),stats,utils,graphics,grDevices,ggplot2
+Imports: foreign,data.table,dplyr,gridExtra,grid,xtable
+Suggests: Zelig,MCMCpack
 License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
@@ -34295,6 +34321,14 @@ Package: SIS
 Version: 0.7-4
 Depends: glmnet, ncvreg, survival, R (>= 2.15)
 License: GPL-2
+NeedsCompilation: no
+
+Package: sisus
+Version: 3.9-13
+Depends: R (>= 3.0.0)
+Imports: MASS, RColorBrewer, coda, gdata, gtools, moments, polyapost,
+        rcdd, stats
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sisVIVE
@@ -40339,7 +40373,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.12.1
+Version: 0.13.1
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr, jsonlite, stringr
 License: FreeBSD
