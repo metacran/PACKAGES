@@ -9390,6 +9390,13 @@ Depends: R (>= 0.99)
 License: BSD
 NeedsCompilation: no
 
+Package: EnsembleBase
+Version: 0.7
+Depends: kknn,methods
+Imports: gbm,nnet,e1071,randomForest,doParallel,foreach
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ensembleBMA
 Version: 5.0.8
 Depends: R (>= 2.10), chron
@@ -19021,6 +19028,12 @@ Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: MATA
+Version: 0.1
+Depends: R (>= 3.1.1)
+License: GPL-2
+NeedsCompilation: no
 
 Package: Matching
 Version: 4.8-3.4
