@@ -2799,14 +2799,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BiodiversityR
-Version: 2.4-4
-Depends: R (>= 3.0.0), tcltk
-Imports: Rcmdr (>= 1.9-4)
-Suggests: vegan (>= 1.17-12), permute, lattice, MASS, mgcv, cluster,
-        car, RODBC, rpart, effects, multcomp, ellipse, maptree, sp,
-        splancs, spatial, akima, nnet, dismo, raster (>= 2.0-31),
-        rgdal, gbm, randomForest, gam, earth, mda, kernlab, e1071,
-        tools, methods
+Version: 2.5-1
+Depends: R (>= 3.0.0), tcltk, vegan (>= 2.2-0)
+Imports: Rcmdr (>= 2.1-4)
+Suggests: permute, lattice, MASS, mgcv, cluster, car, RODBC, rpart,
+        effects, multcomp, ellipse, maptree, sp, splancs, spatial,
+        akima, nnet, dismo, raster (>= 2.0-31), rgdal, gbm,
+        randomForest, gam, earth, mda, kernlab, e1071, tools, methods,
+        bootstrap
 License: GPL-2
 NeedsCompilation: no
 
