@@ -3527,6 +3527,14 @@ Suggests: testthat, devtools, roxygen2
 License: GPL-3
 NeedsCompilation: yes
 
+Package: broom
+Version: 0.3.4
+Imports: plyr, dplyr, tidyr, psych
+Suggests: knitr, survival, glmnet, lfe, Lahman, MASS, sp, maps,
+        maptools, multcomp, testthat, lme4, zoo, ggplot2
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: Brq
 Version: 1.0
 Depends: R (>= 2.10), quantreg, truncnorm
@@ -19040,6 +19048,14 @@ Imports: igraph, MASS
 License: GPL-3
 NeedsCompilation: no
 
+Package: matchingMarkets
+Version: 0.1-2
+Depends: R (>= 2.15.2)
+Imports: Rcpp (>= 0.11.2), lpSolve (>= 5.6.6), partitions
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2) | file LICENSE
+NeedsCompilation: yes
+
 Package: MatchIt
 Version: 2.4-21
 Depends: R (>= 2.6), MASS
@@ -19556,8 +19572,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mediation
-Version: 4.4.2
-Depends: R (>= 2.15.1), MASS, Matrix, lpSolve, sandwich, mvtnorm
+Version: 4.4.3
+Depends: R (>= 2.15.1), MASS, Matrix, mvtnorm, sandwich
+Imports: lpSolve, Hmisc
 Suggests: mgcv, quantreg, VGAM, SuppDists, lme4 (>= 1.0), survival,
         parallel
 License: GPL (>= 2)
