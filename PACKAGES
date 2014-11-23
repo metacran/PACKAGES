@@ -3908,7 +3908,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: care
-Version: 1.1.6
+Version: 1.1.7
 Depends: R (>= 2.15.1), corpcor (>= 1.6.7)
 Suggests: crossval
 License: GPL (>= 3)
@@ -9105,7 +9105,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EloRating
-Version: 0.41
+Version: 0.43
 Depends: zoo
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -22623,6 +22623,12 @@ LinkingTo: Rcpp
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: NHMSAR
+Version: 1.0
+Depends: R (>= 2.10), ucminf
+License: GPL
+NeedsCompilation: no
+
 Package: NHPoisson
 Version: 3.0
 Depends: methods, stats4
@@ -29080,6 +29086,12 @@ Suggests: highlight, rbenchmark, microbenchmark, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: RCryptsy
+Version: 0.2
+Depends: R (>= 3.0.3), RJSONIO, RCurl
+License: GPL-3
+NeedsCompilation: no
+
 Package: Rcsdp
 Version: 0.1.53
 Enhances: Matrix
@@ -34329,15 +34341,15 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 1.0-3
+Version: 1.1
 Depends: R (>= 2.15.0)
-Imports: sfsmisc, TAM (>= 1.0-3), CDM (>= 3.3), mirt (>= 1.5),
-        combinat, ic.infer, sm, psych, pbivnorm, gtools, Rcpp (>=
-        0.11.0), qgraph, lavaan, semPlot, igraph, coda, mvtnorm, MASS,
+Imports: TAM (>= 1.2), CDM (>= 4.0), mirt (>= 1.6), combinat, ic.infer,
+        sfsmisc, sm, psych, pbivnorm, gtools, Rcpp (>= 0.11.0), qgraph,
+        lavaan (>= 0.5-17), semPlot, igraph, coda, mvtnorm, MASS,
         Matrix
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: eRm, ltm, MCMCglmm, mRm, GPArotation, lme4, semTools,
-        MultiLCIRT, IsingFit, MplusAutomation (>= 0.6)
+Suggests: eRm, ltm, MultiLCIRT, mRm, MCMCglmm, lme4, GPArotation,
+        semTools, IsingFit, MplusAutomation (>= 0.6)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
