@@ -8379,18 +8379,6 @@ Depends: R (>= 2.5.0), tframe (>= 2007.5-3), setRNG (>= 2004.4-1),
 License: GPL-2
 NeedsCompilation: yes
 
-Package: dse1
-Version: 2011.11-2
-Depends: dse
-License: GPL-2 | file LICENSE
-NeedsCompilation: no
-
-Package: dse2
-Version: 2011.11-2
-Depends: EvalEst
-License: GPL-2 | file LICENSE
-NeedsCompilation: no
-
 Package: DSL
 Version: 0.1-5
 Suggests: hive (>= 0.1-14), parallel
