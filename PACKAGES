@@ -4569,6 +4569,12 @@ Suggests: limSolve, parallel, testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: choiceDes
+Version: 0.9-1
+Depends: R (>= 2.15.2), AlgDesign
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ChoiceModelR
 Version: 1.2
 Depends: R (>= 2.10)
@@ -8979,6 +8985,14 @@ Depends: sna
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: EGRET
+Version: 2.0.1
+Depends: R (>= 3.0)
+Imports: dataRetrieval, survival, fields, stats, lubridate, methods
+Suggests: xtable, knitr, extrafont
+License: CC0
+NeedsCompilation: no
+
 Package: eha
 Version: 2.4-1
 Depends: R (>= 3.0.0), survival (>= 2.37-6), stats, graphics
@@ -12551,7 +12565,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: genridge
-Version: 0.6-3
+Version: 0.6-5
 Depends: R (>= 2.11.1), car
 Suggests: MASS, ElemStatLearn, rgl, bestglm
 License: GPL (>= 2)
@@ -28855,12 +28869,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: RCMIP5
-Version: 1.0
-Depends: R (>= 2.11.0)
-Imports: abind (>= 1.4-0), plyr (>= 1.8.1), reshape2 (>= 1.4), foreach
-        (>= 1.4.2), digest
-Suggests: ggplot2 (>= 0.9.3), ncdf4 (>= 1.9), ncdf (>= 1.6), doParallel
-        (>= 1.0.8), fields(>= 7.1), testthat (>= 0.9), knitr
+Version: 1.1
+Depends: R (>= 3.1.0)
+Imports: abind (>= 1.4), dplyr (>= 0.3), reshape2 (>= 1.4), digest
+Suggests: ggplot2 (>= 0.9), ncdf4 (>= 1.9), ncdf (>= 1.6), testthat (>=
+        0.9), knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -29103,10 +29116,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rdatamarket
-Version: 0.6.4
+Version: 0.6.5
 Depends: R (>= 2.10.0), zoo
 Imports: RCurl, RJSONIO
-License: MIT
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rdd
@@ -30912,10 +30925,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RNCEP
-Version: 1.0.6
-Depends: R (>= 2.10), abind, maps, fields, tgp, fossil, tcltk,
-        RColorBrewer
-Suggests: raster, sp, RSAGA
+Version: 1.0.7
+Depends: R (>= 2.10), maps
+Imports: RColorBrewer, abind, fields, fossil, tgp, tcltk, graphics, sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
