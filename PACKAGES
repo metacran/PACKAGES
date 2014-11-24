@@ -4577,10 +4577,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: choplump
-Version: 1.0-0.3
+Version: 1.0-0.4
 Depends: R (>= 2.5.0), stats
 Suggests: coin, survival
-License: GPL
+License: GPL-3
 NeedsCompilation: no
 
 Package: chords
@@ -8392,8 +8392,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: dslice
-Version: 1.1.0
-Depends: Rcpp (>= 0.11.1), ggplot2 (>= 0.9.3.1), scales
+Version: 1.1.3
+Depends: R (>= 2.10), Rcpp (>= 0.11.1), ggplot2 (>= 0.9.3.1), scales
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -15779,7 +15779,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: indicspecies
-Version: 1.7.3
+Version: 1.7.4
 Depends: permute
 Imports: sp, rgeos
 License: GPL (>= 2)
@@ -19734,10 +19734,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: metafor
-Version: 1.9-4
-Depends: R (>= 3.0.0), stats, Formula, Matrix
-Suggests: lme4, numDeriv, polycor, BiasedUrn, survival, Epi, minqa,
-        multcomp, plyr, igraph, testthat, CompQuadForm, R.rsp, nloptr
+Version: 1.9-5
+Depends: R (>= 3.0.0)
+Imports: stats, utils, Matrix
+Suggests: R.rsp, testthat, Formula, lme4, numDeriv, polycor, BiasedUrn,
+        survival, Epi, minqa, multcomp, plyr, igraph, CompQuadForm,
+        nloptr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -24190,7 +24192,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: paleobioDB
-Version: 0.2
+Version: 0.3
 Depends: raster, maps
 Imports: rjson, gtools, RCurl, plyr, scales
 Suggests: roxygen2, testthat
@@ -31995,7 +31997,7 @@ License: Apache License 2.0
 NeedsCompilation: yes
 
 Package: Rsolnp
-Version: 1.14
+Version: 1.15
 Depends: R (>= 2.10.0), stats, truncnorm, parallel
 License: GPL
 NeedsCompilation: no
@@ -35016,7 +35018,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: someKfwer
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
