@@ -8328,12 +8328,6 @@ Imports: stats, nleqslv
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
-Package: DRI
-Version: 1.1
-Depends: impute, cghFLasso
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: drm
 Version: 0.5-8
 Depends: R(>= 1.0)
@@ -17279,13 +17273,6 @@ Version: 1.2
 License: GPL-3
 NeedsCompilation: no
 
-Package: LargeRegression
-Version: 1.0
-Depends: Matrix
-Suggests: cudaMatrixOps
-License: GPL
-NeedsCompilation: no
-
 Package: lars
 Version: 1.2
 Depends: R (>= 2.10)
@@ -20836,12 +20823,6 @@ Package: MMS
 Version: 3.00
 Depends: glmnet,Matrix, mht (>= 3.00)
 License: GPL-3
-NeedsCompilation: no
-
-Package: MMST
-Version: 0.6-1.1
-Depends: R (>= 2.10)
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mnlogit
@@ -33746,12 +33727,6 @@ Imports: lavaan, mgcv, gplots
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: SesIndexCreatoR
-Version: 1.0-2
-Depends: FactoMineR, class, R (>= 3.0.0)
-License: GPL-2 | GPL-3
-NeedsCompilation: no
-
 Package: session
 Version: 1.0.3
 License: GPL (>= 2)
@@ -39590,13 +39565,6 @@ Version: 0.4
 Depends: R (>= 2.14.0), stats, utils, gridBase, flip (>= 2.1),
         matrixStats, Hmisc
 License: GPL (>= 2.0)
-NeedsCompilation: no
-
-Package: visualizationTools
-Version: 0.2.05
-Depends: R (>= 2.12.2),utils, stats, grDevices, graphics
-Suggests: utils, stats, grDevices, graphics
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: visualize
