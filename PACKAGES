@@ -2352,7 +2352,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Bergm
-Version: 3.0
+Version: 3.0.1
 Depends: ergm, network, coda, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -10619,7 +10619,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: fdatest
-Version: 1.0
+Version: 2.0
 Depends: fda
 License: GPL-2
 NeedsCompilation: no
@@ -21310,12 +21310,6 @@ Depends: R (>= 3.1.1)
 Imports: tables
 Suggests: geepack
 License: GPL (>= 3)
-NeedsCompilation: no
-
-Package: mrdrc
-Version: 1.0-6
-Depends: R (>= 2.6.0), drc, locfit
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mrds
@@ -33894,7 +33888,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sgr
-Version: 1.2
+Version: 1.3
 Depends: MASS
 Suggests: polycor
 License: GPL (>= 2)
@@ -37748,8 +37742,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TH.data
-Version: 1.0-4
+Version: 1.0-5
 Depends: R (>= 2.10.0)
+Suggests: dplyr, gdata, plyr
 License: GPL-3
 NeedsCompilation: no
 
@@ -40346,7 +40341,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: xpose4
-Version: 4.5.0
+Version: 4.5.3
 Depends: R (>= 2.2.0), methods, lattice, grid, gam
 Imports: Hmisc, survival
 License: LGPL (>= 3)
