@@ -8386,7 +8386,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: dslice
-Version: 1.1.3
+Version: 1.1.4
 Depends: R (>= 2.10), Rcpp (>= 0.11.1), ggplot2 (>= 0.9.3.1), scales
 LinkingTo: Rcpp
 License: GPL (>= 2)
@@ -20430,7 +20430,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mistral
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 3.0.0)
 Imports: DiceKriging, e1071, kernlab, Matrix, mvtnorm, rgenoud
 License: CeCILL
@@ -29388,9 +29388,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: redcapAPI
-Version: 1.0.1
-Imports: chron, httr, stringr
-Suggests: DBI, Hmisc
+Version: 1.1
+Depends: R (>= 3.0.0)
+Imports: chron, Hmisc (>= 3.14-6), httr, stringr
+Suggests: DBI
 License: GPL-2
 NeedsCompilation: yes
 
