@@ -1442,13 +1442,6 @@ Version: 0.1-1
 License: MIT
 NeedsCompilation: no
 
-Package: audited
-Version: 1.9
-Imports: igraph, metrumrg, methods
-Suggests: xlsx, rJava
-License: GPL
-NeedsCompilation: no
-
 Package: autoencoder
 Version: 1.0
 License: GPL-2
@@ -19925,13 +19918,6 @@ Version: 0.9-17
 Depends: R (>= 2.14.0), base, stats
 Imports: graphics, MASS, numDeriv
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: metrumrg
-Version: 5.55
-Depends: reshape, lattice, XML, MASS, methods, grid
-Suggests: chron, fork
-License: GPL
 NeedsCompilation: no
 
 Package: mets
