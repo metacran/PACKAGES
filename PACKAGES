@@ -7701,7 +7701,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DiscreteInverseWeibull
-Version: 1.0
+Version: 1.0.1
 Depends: Rsolnp
 License: GPL
 NeedsCompilation: no
@@ -7875,9 +7875,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: distrMod
-Version: 2.5.2
+Version: 2.5.3
 Depends: R(>= 2.14.0), distr(>= 2.5.2), distrEx(>= 2.4), RandVar(>=
         0.6.3), MASS, stats4, methods
+Imports: sfsmisc, startupmsg
 License: LGPL-3
 NeedsCompilation: no
 
@@ -16225,6 +16226,13 @@ Suggests: lme4
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: IRTShiny
+Version: 1.0
+Imports: shiny, shinyAce, beeswarm, CTT, ltm, parallel,
+Suggests: psych
+License: GPL-3
+NeedsCompilation: no
+
 Package: isa2
 Version: 0.3.3
 Depends: methods
@@ -16680,7 +16688,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: Julia
-Version: 1.0
+Version: 1.1
 License: GPL-3
 NeedsCompilation: no
 
@@ -16835,7 +16843,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kinfit
-Version: 1.1.12
+Version: 1.1.13
 License: GPL
 NeedsCompilation: no
 
@@ -26617,8 +26625,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PrevMap
-Version: 1.0
+Version: 1.1
 Depends: geoR, maxLik, raster, pdist
+Imports: splancs
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27696,9 +27705,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: questionr
-Version: 0.4.1
+Version: 0.4.2
 Depends: R (>= 2.10)
-Imports: shiny (>= 0.10), highr, classInt
+Imports: shiny (>= 0.10), highr, classInt, htmltools
 Suggests: memisc, testthat, roxygen2, R2HTML
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27751,7 +27760,7 @@ License: Mozilla Public License 2.0
 NeedsCompilation: yes
 
 Package: R0
-Version: 1.2-4
+Version: 1.2-5
 Depends: R (>= 2.13.0), MASS
 Suggests: epicalc
 License: GPL (>= 2)
@@ -36511,7 +36520,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: StressStrength
-Version: 1.0
+Version: 1.0.1
 License: GPL
 NeedsCompilation: no
 
