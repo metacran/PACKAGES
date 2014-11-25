@@ -163,10 +163,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: acss
-Version: 0.2-4
+Version: 0.2-5
 Depends: R (>= 2.15.0), acss.data
 Imports: zoo
-Suggests: effects
+Suggests: effects, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -1815,7 +1815,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesLCA
-Version: 1.5
+Version: 1.6
 Depends: e1071, coda
 Imports: fields, nlme, MCMCpack
 License: GPL (>= 2)
@@ -2904,7 +2904,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bipartite
-Version: 2.04
+Version: 2.05
 Depends: vegan, sna
 Imports: fields, igraph, MASS, methods, permute
 License: GPL
@@ -4720,6 +4720,12 @@ NeedsCompilation: no
 Package: CityPlot
 Version: 2.0
 License: LGPL
+NeedsCompilation: no
+
+Package: cjoint
+Version: 1.0.2
+Depends: R (>= 2.0.0), sandwich, lmtest, ggplot2
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Ckmeans.1d.dp
@@ -6688,9 +6694,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: dataframes2xls
-Version: 0.4.5
+Version: 0.4.6
 Depends: R (>= 2.0.0)
-License: MIT
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: datalist
@@ -8373,9 +8379,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dse
-Version: 2013.3-2
-Depends: R (>= 2.5.0), tframe (>= 2007.5-3), setRNG (>= 2004.4-1),
-        tfplot
+Version: 2014.11-1
+Depends: R (>= 2.5.0), tfplot
+Imports: tframe (>= 2007.5-3), stats, setRNG (>= 2004.4-1)
 License: GPL-2
 NeedsCompilation: yes
 
@@ -9174,10 +9180,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: emdbook
-Version: 1.3.4
-Depends: MASS, lattice, plyr
-Suggests: R2WinBUGS, rgl, ellipse, coda, bbmle, reshape, SuppDists,
-        numDeriv, testthat
+Version: 1.3.6
+Imports: MASS, lattice, plyr, rgl, coda, bbmle
+Suggests: R2WinBUGS, ellipse, SuppDists, numDeriv, testthat
 License: GPL
 NeedsCompilation: no
 
@@ -13468,7 +13473,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GPArotation
-Version: 2012.3-1
+Version: 2014.11-1
 Depends: R (>= 2.0.0)
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: no
@@ -15490,6 +15495,14 @@ Package: ICC
 Version: 2.2.1
 License: GPL-2
 NeedsCompilation: no
+
+Package: iccbeta
+Version: 1.0
+Depends: R (>= 3.0.2), lme4
+Imports: Rcpp (>= 0.11.1)
+LinkingTo: Rcpp (>= 0.11.1), RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: icd9
 Version: 0.5
@@ -18670,6 +18683,13 @@ Suggests: parallel, RColorBrewer
 License: LGPL
 NeedsCompilation: no
 
+Package: mads
+Version: 0.1.0
+Depends: mrds
+Suggests: testthat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: madsim
 Version: 1.1
 License: GPL (>= 2.0)
@@ -21661,10 +21681,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: multilevelPSA
-Version: 1.2
-Depends: ggplot2, plyr, psych, reshape, proto, grid, xtable, R (>= 3.0)
-Imports: xtable
-Suggests: testthat, party, MASS
+Version: 1.2.2
+Depends: ggplot2, xtable, R (>= 3.0)
+Imports: PSAgraphics, plyr, psych, reshape, proto, grid, party
+Suggests: testthat, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21834,6 +21854,13 @@ Package: muscle
 Version: 3.8.31-4
 License: Unlimited
 NeedsCompilation: yes
+
+Package: musicNMR
+Version: 0.0.2
+Depends: R (>= 2.10.0), seewave
+Suggests: plsgenomics
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: muStat
 Version: 1.7.0
@@ -23887,8 +23914,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ore
-Version: 1.0.1
-Depends: R (>= 2.12.1)
+Version: 1.0.4
 Suggests: crayon, rex, testthat
 License: BSD_3_clause + file LICENCE
 NeedsCompilation: yes
@@ -32056,7 +32082,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rstiefel
-Version: 0.9
+Version: 0.10
 License: GPL-3
 NeedsCompilation: yes
 
@@ -33742,7 +33768,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: setRNG
-Version: 2011.11-2
+Version: 2013.9-1
 Depends: R (>= 2.5.0)
 License: GPL-2 | file LICENSE
 NeedsCompilation: no
@@ -35005,7 +35031,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: soma
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.5.0)
 Imports: reportr
 License: GPL-2
@@ -36636,8 +36662,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: summarytools
-Version: 0.1
-Imports: Hmisc, pander, timeDate
+Version: 0.2
+Imports: pander, rapportools
 License: GPL-2
 NeedsCompilation: no
 
@@ -37010,9 +37036,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: SweaveListingUtils
-Version: 0.6.1
-Depends: R(> 2.13.2), startupmsg
-Imports: stats
+Version: 0.6.2
+Depends: R(>= 2.14.0), startupmsg
 Suggests: distr, MASS, survival, distrEx, Matrix, splines
 License: LGPL-3
 NeedsCompilation: no
@@ -39077,6 +39102,16 @@ Imports: nlme, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: USAboundaries
+Version: 0.1
+Depends: R (>= 3.1.1),
+Imports: assertthat (>= 0.1), dplyr (>= 0.3.0.1), ggplot2 (>= 1.0.0),
+        lubridate (>= 1.3.3), maptools (>= 0.8-30), rgeos (>= 0.3-8),
+        sp (>= 1.0.15)
+Suggests: knitr, mapproj, testthat (>= 0.9.1)
+License: CC BY-NC-SA 4.0
+NeedsCompilation: no
+
 Package: UScancer
 Version: 0.1-2
 Depends: R (>= 3.0.0), rgdal
@@ -39325,7 +39360,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vcrpart
-Version: 0.2-2
+Version: 0.2-3
 Depends: R (>= 3.1.0), parallel, partykit
 Imports: stats, grid, graphics, methods, nlme, rpart, numDeriv, ucminf,
         zoo, sandwich, strucchange
