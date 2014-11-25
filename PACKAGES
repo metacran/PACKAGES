@@ -13725,6 +13725,13 @@ Suggests: RGraphics, pixmap, EBImage, ggplot2, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: gridGraphics
+Version: 0.1-1
+Depends: grid, graphics
+Suggests: KernSmooth
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: gridGraphviz
 Version: 0.1
 Depends: R (>= 2.15.0), grid, graph, Rgraphviz
@@ -34745,7 +34752,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SMR
-Version: 2.0
+Version: 2.0.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
