@@ -496,11 +496,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: agridat
-Version: 1.9
-Depends: grid, lattice, reshape2
+Version: 1.10
+Imports: grid, lattice, pcaMethods, reshape2
 Suggests: agricolae (>= 1.2), car, coin, corrgram, equivalence, FrF2,
-        gam, gstat, HH, knitr, latticeExtra, lme4 (>= 1.1-5), mapproj,
-        maps, MASS, MCMCglmm, mgcv, nlme, pcaMethods, pls, sp,
+        gam, gstat, HH, knitr, latticeExtra, lme4 (>= 1.1-5), lucid,
+        mapproj, maps, MASS, MCMCglmm, mgcv, nlme, pls, pscl, sp,
         survival, vcd
 License: GPL-2
 NeedsCompilation: no
@@ -1294,12 +1294,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aspect
-Version: 1.0-2
-Depends: R (>= 2.10)
+Version: 1.0-3
+Depends: R (>= 3.0.0)
 Imports: stats, graphics
 Suggests: sem, polycor
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: assertive
 Version: 0.1-8
@@ -1799,6 +1799,12 @@ Version: 1.0
 Depends: splines, truncdist, GIGrvg, normalp, gsl
 Suggests: ssym
 License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: BayesianAnimalTracker
+Version: 1.0
+Suggests: TrackReconstruction
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Bayesianbetareg
@@ -9725,6 +9731,11 @@ NeedsCompilation: no
 Package: estout
 Version: 1.2
 License: GPL-2
+NeedsCompilation: no
+
+Package: EstSimPDMP
+Version: 1.2
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: etable
@@ -20581,10 +20592,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixPHM
-Version: 0.7.0
-Depends: survival, lattice
-Imports: graphics, stats
-License: GPL
+Version: 0.7-1
+Depends: R (>= 3.0.0)
+Imports: graphics, stats, survival, lattice
+License: GPL-2
 NeedsCompilation: no
 
 Package: mixRasch
@@ -28328,8 +28339,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: RaschSampler
-Version: 0.8-6
-Depends: stats
+Version: 0.8-7
+Depends: R (>= 3.0.0)
+Imports: stats
 License: GPL-2
 NeedsCompilation: yes
 
@@ -29944,7 +29956,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rex
-Version: 0.1.2
+Version: 0.2.0
 Imports: magrittr, lazyeval
 Suggests: testthat, knitr, dplyr, ggplot2
 License: MIT + file LICENSE
