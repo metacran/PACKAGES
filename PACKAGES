@@ -33633,10 +33633,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensitivity
-Version: 1.9
+Version: 1.10
 Depends: R (>= 3.0.0)
 Imports: boot
-Suggests: rgl, evd, numbers, DiceKriging, ks, fanovaGraph
+Suggests: rgl, evd, numbers, DiceKriging, ks, igraph, fanovaGraph
 License: GPL-2
 NeedsCompilation: yes
 
@@ -37972,6 +37972,14 @@ Depends: R (>= 2.10), graphics, grDevices, stats, methods, utils,
         timeDate (>= 2150.95)
 Suggests: RUnit, robustbase, xts, PerformanceAnalytics, fTrading
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: timeseriesdb
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: DBI
+Suggests: RPostgreSQL
+License: GPL-2
 NeedsCompilation: no
 
 Package: timetools
