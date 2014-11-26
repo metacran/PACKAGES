@@ -9406,6 +9406,13 @@ Suggests: fields, maps
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: EnsembleCV
+Version: 0.7
+Depends: EnsembleBase
+Imports: parallel,methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ensembleMOS
 Version: 0.7
 Depends: R (>= 2.10.0), ensembleBMA, chron
@@ -13310,6 +13317,12 @@ Version: 0.3.3
 Depends: R (>= 3.1.0)
 Imports: stats, grDevices, gplots
 Suggests: datasets, MASS, cluster
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: GMDH
+Version: 1.0
+Depends: MASS, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18610,6 +18623,13 @@ NeedsCompilation: yes
 Package: luca
 Version: 1.0-5
 Depends: R (>= 2.0.0), survival, genetics
+License: GPL-2
+NeedsCompilation: no
+
+Package: lucid
+Version: 1.0
+Imports: nlme
+Suggests: knitr, lattice, lme4
 License: GPL-2
 NeedsCompilation: no
 
