@@ -4034,7 +4034,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: catR
-Version: 3.2
+Version: 3.3
 Depends: R (>= 2.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -16184,9 +16184,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: irace
-Version: 1.05
+Version: 1.06
 Depends: R (>= 2.14.0)
-Suggests: Rmpi (>= 0.6.0)
+Suggests: Rmpi (>= 0.6.0), parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16513,7 +16513,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: jaatha
-Version: 2.6
+Version: 2.7.0
 Depends: R (>= 3.0), methods
 Imports: phyclust (>= 0.1-14), Rcpp (>= 0.11.0), reshape2 (>= 1.4),
         parallel
@@ -17054,6 +17054,12 @@ Package: Kpart
 Version: 1.1
 Depends: leaps
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: kpodclustr
+Version: 1.0
+Depends: R (>= 3.1.0), clues
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: kriging
@@ -26111,6 +26117,12 @@ Version: 0.4
 License: GPL-3
 NeedsCompilation: yes
 
+Package: pointdensityP
+Version: 0.1
+Depends: R (>= 3.1.1)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: PoisNor
 Version: 1.0
 Depends: mvtnorm, corpcor, Matrix
@@ -28618,6 +28630,14 @@ Depends: R (>= 2.15)
 Imports: stringr, RCurl, XML, rjson, tm
 Suggests: testthat, roxygen2,
 License: GPL-2
+NeedsCompilation: no
+
+Package: rclinicaltrials
+Version: 1.4
+Depends: R (>= 3.0.0)
+Imports: httr, XML, plyr
+Suggests: devtools, knitr, roxygen2, testthat, ggplot2
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Rclusterpp
@@ -36716,7 +36736,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: SunterSampling
-Version: 1.0
+Version: 1.0.1
 License: GPL
 NeedsCompilation: no
 
