@@ -32072,7 +32072,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rspa
-Version: 0.1-5
+Version: 0.1-6
 Depends: R (>= 2.13.0), editrules
 Suggests: knitr, testthat
 License: GPL-3
