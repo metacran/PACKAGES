@@ -15580,11 +15580,6 @@ Depends: R (>= 2.15.0), lattice, caTools, gdata, gtools, gplots,
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: icomp
-Version: 0.1
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: ICS
 Version: 1.2-4
 Depends: R (>= 2.5.0), methods, mvtnorm, survey
@@ -16971,11 +16966,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knitcitations
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 3.0)
 Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3), methods
 Suggests: testthat, knitr (>= 1.6)
-License: MIT
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: knitr
@@ -19520,7 +19515,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MCPMod
-Version: 1.0-7
+Version: 1.0-8
 Depends: mvtnorm, lattice, R (>= 2.4.1)
 License: GPL-3
 NeedsCompilation: no
