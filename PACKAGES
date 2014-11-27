@@ -20196,7 +20196,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MiClip
-Version: 1.2
+Version: 1.3
 Depends: R (>= 2.15.0), moments, VGAM
 License: GPL-2
 NeedsCompilation: no
@@ -20404,7 +20404,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: miRtest
-Version: 1.7
+Version: 1.8
 Depends: corpcor, MASS
 Imports: globaltest, GlobalAncova, limma, RepeatedHighDim
 License: GPL
@@ -33422,9 +33422,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: secrdesign
-Version: 2.1.3
-Depends: R (>= 3.0.0), secr(>= 2.8.2)
+Version: 2.2.1
+Depends: R (>= 3.0.0), secr(>= 2.9.1)
 Imports: parallel, abind
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
