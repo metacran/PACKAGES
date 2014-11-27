@@ -7015,7 +7015,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: DECIDE
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36157,6 +36157,12 @@ Depends: R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: SSrat
+Version: 1.0
+Depends: plyr, sna
+License: GPL-2
+NeedsCompilation: no
+
 Package: sss
 Version: 0.0-11
 Depends: R (>= 2.11.0)
@@ -39681,7 +39687,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: visreg
-Version: 2.0-6
+Version: 2.1-0
 Imports: lattice
 Suggests: rgl, survival, MASS, nlme
 License: GPL-2
