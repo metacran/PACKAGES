@@ -7370,15 +7370,6 @@ Suggests: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: DetR
-Version: 0.0.1
-Depends: R (>= 3.1.1),
-Imports: matrixStats, robustbase
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.2.2)
-Suggests: mvtnorm
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: detrendeR
 Version: 1.0.4
 Depends: tcltk, dplR
@@ -30942,7 +30933,7 @@ License: GNU General Public License
 NeedsCompilation: yes
 
 Package: Rmpfr
-Version: 0.5-6
+Version: 0.5-7
 Depends: gmp (>= 0.5-8), R (>= 2.12.0)
 Imports: stats, utils, methods
 Suggests: MASS, polynom, sfsmisc (>= 1.0-20), Matrix
