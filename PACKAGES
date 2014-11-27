@@ -12577,7 +12577,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: genpathmox
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.1.1),plspm, quantreg,mice,diagram, methods
 License: GPL-3
 NeedsCompilation: no
