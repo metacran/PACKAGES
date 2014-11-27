@@ -6091,6 +6091,14 @@ Imports: tpr, geepack, lgtdl, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: cqrReg
+Version: 1.0
+Depends: Matrix,Rmosek
+Imports: Rcpp (>= 0.10.0)
+LinkingTo: Rcpp,RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: CR
 Version: 1.0
 Depends: methods
@@ -23913,6 +23921,13 @@ Version: 1.03
 Depends: R (>= 2.15.0), methods, graphics, lattice, hash, grid
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: orderedLasso
+Version: 1.7
+Depends: R (>= 3.0.0), Matrix
+Imports: Iso,quadprog,ggplot2,reshape2
+License: GPL-2
+NeedsCompilation: yes
 
 Package: OrdFacReg
 Version: 1.0.5
