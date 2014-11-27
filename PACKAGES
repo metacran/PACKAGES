@@ -1008,7 +1008,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: apt
-Version: 2.2
+Version: 2.3
 Depends: R (>= 3.0.0), erer, gWidgets
 Imports: car, urca, copula
 Suggests: RGtk2, gWidgetsRGtk2, cairoDevice
@@ -5069,6 +5069,13 @@ NeedsCompilation: no
 Package: cmprsk
 Version: 2.2-7
 Depends: R (>= 2.15.0), survival
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: cmprskQR
+Version: 0.9.0
+Depends: R (>= 2.13.0)
+Imports: survival, quantreg
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -9633,7 +9640,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: erer
-Version: 2.2
+Version: 2.3
 Depends: R (>= 3.0.0), lmtest
 Imports: systemfit, tseries, urca, ggplot2
 Suggests: MASS
