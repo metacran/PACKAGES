@@ -39160,7 +39160,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Unicode
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 2.10.0)
 Imports: utils
 License: GPL-2
