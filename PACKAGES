@@ -9439,6 +9439,13 @@ Imports: parallel,methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: EnsemblePenReg
+Version: 0.6
+Depends: EnsembleBase
+Imports: parallel,methods,glmnet
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ensurer
 Version: 1.0
 Suggests: magrittr, testthat, knitr
@@ -19236,8 +19243,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAVIS
-Version: 0.2
-Imports: shiny, shinyAce, metafor, MAd, MAc, quantreg, ggplot2
+Version: 1.0
+Imports: shiny, shinyAce, metafor, MAd, MAc, quantreg, ggplot2,
+        compute.es
 License: GPL-3
 NeedsCompilation: no
 
