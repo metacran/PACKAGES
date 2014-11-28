@@ -14763,6 +14763,14 @@ Depends: fastclime
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: highfrequency
+Version: 0.4
+Depends: R (>= 2.12.0), xts, zoo
+Suggests: robustbase, cubature, mvtnorm, chron, timeDate, quantmod,
+        MASS, sandwich, numDeriv, FKF, BMS, rugarch
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: highlight
 Version: 0.4.4
 Depends: R (>= 3.0.0)
