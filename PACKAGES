@@ -1071,8 +1071,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: archivist
-Version: 1.1
-Depends: R (>= 3.0.0), RSQLite, DBI, lubridate, jsonlite
+Version: 1.2
+Depends: R (>= 3.0.0), RSQLite, DBI, shiny, lubridate
 Imports: RCurl, digest, httr
 License: GPL-2
 NeedsCompilation: no
@@ -18130,7 +18130,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: Lmoments
-Version: 1.1-5
+Version: 1.1-6
 License: GPL-2
 NeedsCompilation: no
 
@@ -19529,7 +19529,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mco
-Version: 1.0-15
+Version: 1.0-15.1
 Depends: R (>= 3.0.0)
 Suggests: scatterplot3d, testthat
 License: GPL-2
@@ -29227,9 +29227,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RCurl
-Version: 1.95-4.3
-Depends: R (>= 2.7.0), methods, bitops
-Imports: methods
+Version: 1.95-4.4
+Depends: R (>= 3.0.0), methods, bitops
 Suggests: Rcompression, XML
 License: BSD
 NeedsCompilation: yes
@@ -39533,7 +39532,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VdgRsm
-Version: 1.02
+Version: 1.3
 Depends: R (>= 3.1.1)
 Imports: permute, AlgDesign
 License: GPL-2
