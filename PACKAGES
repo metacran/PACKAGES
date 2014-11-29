@@ -7581,6 +7581,12 @@ Depends: R (>= 2.01), deSolve, rootSolve, bvpSolve, ReacTran, diagram,
 License: GPL
 NeedsCompilation: no
 
+Package: diffeR
+Version: 0.0-1
+Depends: R (>= 2.14.0), rgdal, raster, methods, ggplot2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: diffIRT
 Version: 1.4
 Depends: statmod
@@ -9476,7 +9482,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: enviPick
-Version: 1.2
+Version: 1.3
 Depends: R (>= 3.0.1), shiny(>= 0.7.0), readMzXmlData(>= 2.7)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -17945,8 +17951,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: list
-Version: 7.0
-Depends: R (>= 3.0.0), utils, sandwich (>= 2.2-10)
+Version: 7.1
+Depends: R (>= 3.1.1), utils, sandwich (>= 2.2-10)
 Imports: VGAM (>= 0.9-0), magic (>= 1.5-4), gamlss.dist (>= 4.2-0),
         MASS (>= 7.3-26), quadprog (>= 1.5-4), arm (>= 1.6-05), corpcor
         (>= 1.6.5), mvtnorm (>= 0.9-9994), coda (>= 0.16-1)
@@ -19230,9 +19236,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: matrixpls
-Version: 0.4.0
-Imports: assertive, matrixcalc, psych, lavaan, MASS
-Suggests: plspm, simsem, RUnit, parallel, semPLS, boot
+Version: 0.5.0
+Imports: assertive, matrixcalc, lavaan, psych, MASS
+Suggests: plspm, simsem, RUnit, parallel, semPLS, boot, ASGSCA, RGCCA,
+        Matrix
 License: GPL-3
 NeedsCompilation: no
 
@@ -28093,7 +28100,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rainfreq
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.2)
 Imports: RCurl, SDMTools
 Suggests: knitr, raster, maps
@@ -29193,6 +29200,13 @@ LinkingTo: Rcpp, RcppGSL
 Suggests: highlight, rbenchmark, microbenchmark, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: rcrossref
+Version: 0.2.0
+Imports: jsonlite, XML, httr, plyr, bibtex, dplyr
+Suggests: testthat, roxygen2 (>= 4.0.1), knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: RCryptsy
 Version: 0.2
@@ -34360,6 +34374,13 @@ Package: SimRAD
 Version: 0.95
 Depends: Biostrings, ShortRead
 Suggests: seqinr
+License: GPL-2
+NeedsCompilation: no
+
+Package: simrel
+Version: 1.0-1
+Depends: FrF2, sfsmisc
+Suggests: pls
 License: GPL-2
 NeedsCompilation: no
 
