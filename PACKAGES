@@ -3141,7 +3141,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Bmix
-Version: 0.3
+Version: 0.4
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -29258,6 +29258,14 @@ Version: 0.56
 Depends: R (>= 2.15.0), sandwich, lmtest, AER, Formula
 License: Apache License (== 2.0)
 NeedsCompilation: no
+
+Package: rDEA
+Version: 1.0-1
+Imports: slam (>= 0.1-9), truncreg(>= 0.2-1), truncnorm(>= 1.0-7),
+        maxLik
+Suggests: testthat
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
 
 Package: rdetools
 Version: 1.0
