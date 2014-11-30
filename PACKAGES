@@ -9878,14 +9878,6 @@ Depends: R (>= 2.12.0), zoo, xts, boot
 License: GPL-2
 NeedsCompilation: no
 
-Package: EVER
-Version: 1.2
-Depends: R (>= 2.5.1)
-Suggests: MASS
-License: EUPL
-License_is_FOSS: yes
-NeedsCompilation: no
-
 Package: evir
 Version: 1.7-3
 Depends: stats
@@ -20769,11 +20761,6 @@ NeedsCompilation: yes
 Package: mlegp
 Version: 3.1.4
 Suggests: snowfall
-License: GPL (>= 2)
-NeedsCompilation: yes
-
-Package: MLEP
-Version: 0.0-3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
