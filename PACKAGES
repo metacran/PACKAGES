@@ -27360,7 +27360,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pxweb
-Version: 0.5.2
+Version: 0.5.3
 Depends: methods
 Imports: data.table, plyr, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2, knitr
