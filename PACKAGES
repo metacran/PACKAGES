@@ -25914,7 +25914,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plotmo
-Version: 2.0.0
+Version: 2.1.0
 Suggests: earth, rpart
 License: GPL-3
 NeedsCompilation: no
@@ -31594,8 +31594,8 @@ License: MIT
 NeedsCompilation: yes
 
 Package: rpart.plot
-Version: 1.4-5
-Depends: rpart (>= 3.1-48)
+Version: 1.5.0
+Depends: rpart (>= 4.1-0)
 License: GPL-3
 NeedsCompilation: no
 
