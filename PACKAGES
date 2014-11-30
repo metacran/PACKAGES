@@ -8320,7 +8320,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dr
-Version: 3.0.8
+Version: 3.0.9
 Depends: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
