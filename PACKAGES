@@ -29642,6 +29642,12 @@ Suggests: nlme, MASS
 License: GPL
 NeedsCompilation: no
 
+Package: RegressionFactory
+Version: 0.7
+Suggests: sns
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: regRSM
 Version: 0.4
 Depends: R (>= 3.0.0)
@@ -38450,7 +38456,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: traj
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.3)
 Imports: cluster, psych, pastecs, NbClust, graphics, grDevices, stats,
         utils, GPArotation
