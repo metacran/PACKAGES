@@ -16721,10 +16721,10 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.13
+Version: 0.9.14
 Depends: methods
-Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr
-License: Apache License 2.0
+Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr, curl
+License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: jtrans
@@ -17922,6 +17922,14 @@ Depends: R (>= 3.0)
 Imports: plyr, harvestr, stringr, dostats, foreach
 Suggests: testthat, roxygen2
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: lintr
+Version: 0.2.0
+Depends: R (>= 3.1.1)
+Imports: rex, crayon, codetools, stringdist, testthat, digest, igraph
+Suggests: knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: liso
@@ -20328,7 +20336,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MindOnStats
-Version: 0.8
+Version: 0.11
 Depends: R (>= 2.14.0)
 License: GPL
 NeedsCompilation: no
@@ -20398,6 +20406,11 @@ Package: miP
 Version: 1.1
 Depends: R(>= 2.10.0), VIM, mi, mice, Amelia, lattice, vcd
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: mipfp
+Version: 1.0
+License: GPL-2
 NeedsCompilation: no
 
 Package: MIPHENO
@@ -34882,7 +34895,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.1-1
+Version: 1.1-2
 Depends: R (>= 2.15.3), methods, stats4
 Imports: mnormt, numDeriv
 License: GPL-2 | GPL-3
@@ -36157,6 +36170,11 @@ NeedsCompilation: no
 Package: ssanv
 Version: 1.0-2
 Depends: R (>= 2.1.1), stats
+License: GPL-2
+NeedsCompilation: no
+
+Package: ssd
+Version: 0.3
 License: GPL-2
 NeedsCompilation: no
 
