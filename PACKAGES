@@ -572,7 +572,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: alabama
-Version: 2011.9-1
+Version: 2014.12-1
 Depends: R (>= 2.10.1), numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -3088,7 +3088,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: blocksdesign
-Version: 1.2
+Version: 1.3
 Depends: R (>= 3.1.0)
 Imports: crossdes
 Suggests: knitr
@@ -8096,9 +8096,9 @@ OS_type: unix
 NeedsCompilation: no
 
 Package: DOBAD
-Version: 1.0.3
+Version: 1.0.4
 Depends: numDeriv
-Imports: methods
+Imports: methods,lattice
 Suggests: MCMCpack
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12875,7 +12875,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: GGally
-Version: 0.4.8
+Version: 0.5.0
 Depends: R (>= 2.14)
 Imports: ggplot2 (>= 1.0.0), grid (>= 3.0.0), gtable (>= 0.1.2), plyr
         (>= 1.8), reshape (>= 0.8.4), stringr (>= 0.6.2)
@@ -25099,14 +25099,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pedometrics
-Version: 0.3-0
+Version: 0.4-1
 Depends: R (>= 1.8.0)
-Imports: car, grid, gstat, lattice, latticeExtra, MASS, moments, plyr,
-        pbapply, rgeos, sp, spsurvey, stringr, VecStatGraphs2D, xtable,
-        XML
+Imports: car, fields, grid, gstat, lattice, latticeExtra, MASS,
+        moments, plyr, pbapply, Rcpp (>= 0.11.0), sp, spsurvey, xtable
+LinkingTo: Rcpp
 Suggests: methods
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: pegas
 Version: 0.6
@@ -25850,9 +25850,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plgp
-Version: 1.1-5
+Version: 1.1-7
 Depends: R (>= 2.4), mvtnorm, tgp
-Suggests: akima, ellipse, splancs
+Suggests: ellipse, splancs, akima
 License: LGPL
 NeedsCompilation: yes
 
@@ -40326,6 +40326,13 @@ Suggests: ggplot2 (>= 0.9), grid, reshape2
 License: GPL-2
 NeedsCompilation: no
 
+Package: wrassp
+Version: 0.1.3
+Depends: R (>= 3.1.1)
+Suggests: compare(>= 0.2.4), knitr(>= 1.7), testthat(>= 0.7.1.99)
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: WrightMap
 Version: 1.1
 Depends: R (>= 3.0.0)
@@ -40636,9 +40643,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: YplantQMC
-Version: 0.5
-Depends: R (>= 2.10), rgl, geometry, LeafAngle, devtools
-Suggests: maps,gplots,ypaddon
+Version: 0.6-3
+Depends: R (>= 2.10), rgl, geometry, LeafAngle, gplots
+Suggests: maps
 License: GPL-2
 NeedsCompilation: yes
 
