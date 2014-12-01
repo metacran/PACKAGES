@@ -10663,7 +10663,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fda.usc
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 2.10), fda, splines, MASS, mgcv, rpart
 License: GPL-2
 NeedsCompilation: yes
@@ -15155,7 +15155,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HTMLUtils
-Version: 0.1.5
+Version: 0.1.6
 Depends: R2HTML
 License: GPL
 NeedsCompilation: no
@@ -16621,11 +16621,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: jiebaR
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.1)
 Imports: Rcpp,methods
 LinkingTo: Rcpp
-Suggests: testthat, knitr
+Suggests: knitr,testthat
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
