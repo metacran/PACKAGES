@@ -927,9 +927,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: apcluster
-Version: 1.3.5
+Version: 1.4.0
 Depends: R (>= 3.0.0)
-Imports: Rcpp (>= 0.11.1), methods, stats, graphics
+Imports: Rcpp (>= 0.11.1), methods, Matrix, stats, graphics
 LinkingTo: Rcpp
 Suggests: kernlab
 License: GPL (>= 2)
@@ -9562,11 +9562,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EpiModel
-Version: 1.1.1
-Depends: R (>= 3.0), network (>= 1.9.0), networkDynamic (>= 0.6.3),
-        tergm (>= 3.1.4)
-Imports: deSolve (>= 1.10-6), doParallel, ergm (>= 3.1.2), foreach,
-        RColorBrewer, statnet.common
+Version: 1.1.2
+Depends: R (>= 3.0), deSolve (>= 1.11), network (>= 1.10.2),
+        networkDynamic (>= 0.6.3), tergm (>= 3.1.4)
+Imports: doParallel, ergm (>= 3.1.3), foreach, RColorBrewer,
+        statnet.common
 Suggests: doMPI, knitr, ndtv, shiny, testthat
 License: GPL-2
 NeedsCompilation: no
