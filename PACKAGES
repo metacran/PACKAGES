@@ -22955,9 +22955,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 0.9.3
+Version: 1.0.0
 Depends: R (>= 3.0)
-Imports: picante, raster, ape, sp, vegan,
+Imports: picante, raster, ape, sp, vegan
 Suggests: RColorBrewer, parallel
 License: GPL-2
 NeedsCompilation: no
@@ -25907,14 +25907,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotKML
-Version: 0.4-5
+Version: 0.4-7
 Depends: R (>= 2.13.0)
 Imports: methods, XML, sp, raster, rgdal, spacetime, colorspace,
         plotrix, dismo, aqp, pixmap, plyr, stringr, colorRamps, scales,
         gstat, zoo, RColorBrewer, RSAGA, classInt
 Suggests: utils, adehabitat, maptools, fossil, spcosa, rjson,
         animation, spatstat, RCurl, rgbif, Hmisc, GSIF, stpp, uuid,
-        intervals, reshape
+        intervals, reshape, gdalUtils
 License: GPL
 NeedsCompilation: no
 
@@ -31115,6 +31115,11 @@ Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
         testthat (>= 0.8.1), Sxslt
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
+
+Package: rngSetSeed
+Version: 0.3-1
+License: GPL-3
+NeedsCompilation: yes
 
 Package: rngtools
 Version: 1.2.4
