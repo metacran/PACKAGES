@@ -14995,6 +14995,14 @@ Version: 0.3.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: hnp
+Version: 1.0
+Depends: R (>= 3.0.0), MASS (>= 7.3-35)
+Suggests: lme4, gamlss, gamlss.dist, pscl, nnet, aods3, VGAM, glmmADMB,
+        latticeExtra
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: hoardeR
 Version: 0.0-2
 Depends: R (>= 3.0.2), httr (>= 0.2), XML (>= 3.98-1.1), stringr (>=
@@ -16135,7 +16143,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: intsvy
-Version: 1.4
+Version: 1.5
 Depends: memisc, foreign, plyr, ggplot2, reshape
 License: GPL-2
 NeedsCompilation: no
@@ -21387,8 +21395,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MPSEM
-Version: 0.2-5
+Version: 0.2-6
 Depends: R (>= 3.0.0), ape, MASS
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -30045,6 +30054,15 @@ Package: retimes
 Version: 0.1-2
 Depends: methods
 License: GPL-3
+NeedsCompilation: yes
+
+Package: retistruct
+Version: 0.5.9
+Depends: R (>= 3.1.0)
+Imports: foreign, RImageJROI, png, ttutils, sp, geometry (>= 0.2-1),
+        RTriangle (>= 1.6-0.4), rgl, R.matlab
+Suggests: testthat, gWidgetsRGtk2, gWidgets, cairoDevice
+License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: reutils
