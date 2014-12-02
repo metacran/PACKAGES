@@ -13282,7 +13282,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GlobalOptions
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 2.10.0)
 Suggests: testthat (>= 0.3), knitr
 License: GPL (>= 2)
@@ -40583,9 +40583,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: yaImpute
-Version: 1.0-22
+Version: 1.0-23
 Depends: R (>= 2.11.0)
-Suggests: vegan, ccaPP, randomForest, gam, fastICA
+Suggests: vegan, ccaPP, randomForest, gam, fastICA, parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
 
