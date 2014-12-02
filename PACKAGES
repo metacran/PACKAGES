@@ -22275,13 +22275,6 @@ Suggests: testthat, RANN
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
-Package: nacopula
-Version: 0.8-1
-Depends: copula (>= 0.99-0)
-Imports: copula
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: NADA
 Version: 1.5-6
 Depends: methods,survival
@@ -31872,7 +31865,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RQuantLib
-Version: 0.3.12
+Version: 0.4.0
 Depends: R (>= 2.10.0)
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
