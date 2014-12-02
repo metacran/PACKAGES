@@ -33533,6 +33533,14 @@ Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: secrlinear
+Version: 1.0.3
+Depends: R (>= 3.0.0), secr(>= 2.9.1), sp, igraph
+Imports: parallel, maptools, rgeos, MASS
+Suggests: knitr, secrdesign
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: seedy
 Version: 1.0
 License: GPL-3
@@ -33853,7 +33861,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: seqinr
-Version: 3.0-9
+Version: 3.1-2
 Depends: ade4, R (>= 2.10.0)
 Suggests: segmented
 License: GPL (>= 2)
