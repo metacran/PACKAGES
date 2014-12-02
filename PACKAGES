@@ -1629,7 +1629,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bartMachine
-Version: 1.0.4
+Version: 1.1.1
 Depends: R (>= 2.14.0), rJava (>= 0.8-4), car, randomForest, missForest
 License: GPL-3
 NeedsCompilation: no
@@ -17126,9 +17126,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: krm
-Version: 13.11-03
-Depends: R (>= 3.0.0)
-Suggests: RUnit, xtable, MASS
+Version: 2014.12-1
+Depends: R (>= 3.0.0), kyotil
+Suggests: RUnit, MASS
 License: GPL-2
 NeedsCompilation: yes
 
@@ -21166,6 +21166,11 @@ Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MOrder
+Version: 0.1
+License: GPL-2
+NeedsCompilation: no
+
 Package: morgenstemning
 Version: 1.0
 Depends: R (>= 2.15.0)
@@ -22553,6 +22558,13 @@ NeedsCompilation: yes
 Package: NetData
 Version: 0.3
 License: GPL-2
+NeedsCompilation: no
+
+Package: netgsa
+Version: 1.0
+Depends: cvTools, corpcor, glasso, glmnet, igraph
+Suggests: MASS
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NetIndices
@@ -39097,8 +39109,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: turfR
-Version: 0.8-4
-Depends: R (>= 3.0.0), dplyr
+Version: 0.8-7
+Depends: R (>= 3.0.0), dplyr (>= 0.3.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39456,7 +39468,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VAR.etp
-Version: 0.6
+Version: 0.7
 License: GPL-2
 NeedsCompilation: no
 
