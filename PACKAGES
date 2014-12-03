@@ -5673,7 +5673,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: conting
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.15.0)
 Imports: mvtnorm, BMS, gtools, tseries, coda
 License: GPL-2
@@ -33952,10 +33952,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sequences
-Version: 0.5.8
+Version: 0.5.9
 Depends: methods, Rcpp
 LinkingTo: Rcpp
-Suggests: testthat
+Suggests: testthat, knitr
 License: GPL-3
 NeedsCompilation: yes
 
