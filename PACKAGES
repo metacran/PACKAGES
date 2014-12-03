@@ -3624,8 +3624,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bsts
-Version: 0.5.1
-Depends: BoomSpikeSlab, zoo, xts, Boom, R(>= 3.0.2)
+Version: 0.6.0
+Depends: BoomSpikeSlab (>= 0.5.1), zoo, xts, Boom (>= 0.2), R(>= 3.1.0)
 LinkingTo: Boom, BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
@@ -4843,6 +4843,13 @@ Version: 1.1.2
 Depends: R (>= 3.0.1), methods
 Imports: igraph, plyr, reshape2, Rsolnp
 License: GPL-2
+NeedsCompilation: no
+
+Package: ClimClass
+Version: 1.0
+Depends: R(>= 2.10.0),geosphere,ggplot2,reshape2
+Suggests: stringr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: climdex.pcic
@@ -9015,9 +9022,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EGRET
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 3.0)
-Imports: dataRetrieval, survival, fields, stats, lubridate, methods
+Imports: dataRetrieval (>= 2.0.1), survival, fields, stats, lubridate,
+        methods
 Suggests: xtable, knitr, extrafont
 License: CC0
 NeedsCompilation: no
@@ -12471,7 +12479,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gender
-Version: 0.4.1
+Version: 0.4.2
 Depends: R (>= 3.0.0), utils, stats
 Imports: devtools(>= 1.5), dplyr (>= 0.2), httr (>= 0.4), jsonlite (>=
         0.9.10)
@@ -23198,7 +23206,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NPCD
-Version: 1.0-6
+Version: 1.0-7
 Depends: R (>= 2.14.2), BB, R.oo
 Imports: R.methodsS3
 License: LGPL (>= 2.1)
@@ -24449,6 +24457,12 @@ Suggests: grid, lattice, ggplot2 (>= 0.9.2), koRpus, survival,
 License: AGPL-3 | file LICENSE
 NeedsCompilation: yes
 
+Package: panelaggregation
+Version: 0.1
+Depends: R (>= 3.0.0), data.table (>= 1.9.4)
+License: GPL-2
+NeedsCompilation: no
+
 Package: panelAR
 Version: 0.1
 Depends: R (>= 2.15.0)
@@ -25048,7 +25062,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pdR
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27584,7 +27598,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qmethod
-Version: 1.2.2
+Version: 1.2.4
 Imports: methods, psych, GPArotation
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33972,11 +33986,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: seriation
-Version: 1.0-13
+Version: 1.0-14
 Depends: R (>= 2.14.0)
 Imports: TSP, grid, cluster, gclus, colorspace, MASS
 Suggests: biclust, testthat
-License: GPL-2
+License: GPL-3
 NeedsCompilation: yes
 
 Package: servr
@@ -34775,7 +34789,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: smaa
-Version: 0.2-2
+Version: 0.2-3
 Suggests: hitandrun
 License: GPL-3
 NeedsCompilation: yes
