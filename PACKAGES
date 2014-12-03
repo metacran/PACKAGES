@@ -5496,7 +5496,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: complmrob
-Version: 0.5.5
+Version: 0.5.6
 Imports: robustbase, ggplot2, boot, parallel, scales
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7749,8 +7749,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: discreteRV
-Version: 1.1.2
-Suggests: testthat, roxygen2, MASS, plyr
+Version: 1.1.3
+Imports: plyr
+Suggests: testthat, roxygen2, MASS
 License: GPL-3
 NeedsCompilation: no
 
@@ -10202,9 +10203,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: extremevalues
-Version: 2.2
+Version: 2.3.0
 Depends: R (>= 2.8.0)
-Suggests: gWidgets, gWidgetstcltk
+Imports: gWidgets, gWidgetstcltk
 License: GPL-2
 NeedsCompilation: no
 
@@ -25241,7 +25242,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: peptider
-Version: 0.1.5
+Version: 0.1.6
 Imports: discreteRV (>= 1.1.2), plyr, dplyr
 Suggests: ggplot2
 License: GPL-3
@@ -40424,9 +40425,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: WRS2
-Version: 0.2-0
+Version: 0.3-1
 Depends: R (>= 3.0.0)
-Imports: MASS, reshape
+Imports: MASS, reshape, plyr
 License: GPL-2
 NeedsCompilation: no
 
