@@ -2114,7 +2114,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BcDiag
-Version: 1.0.6
+Version: 1.0.7
 Depends: R (>= 2.10)
 Imports: fabia
 Suggests: biclust, isa2
@@ -4610,10 +4610,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: choroplethr
-Version: 2.0.0
+Version: 2.1.0
 Depends: R (>= 3.0.0)
 Imports: scales, Hmisc, stringr, ggplot2, dplyr, R6, acs, WDI
-Suggests: testthat, zipcode, knitr, choroplethrMaps
+Suggests: testthat, zipcode, knitr, choroplethrMaps, choroplethrAdmin1
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -6766,11 +6766,11 @@ License: MIT | file LICENSE
 NeedsCompilation: no
 
 Package: dataRetrieval
-Version: 2.0.0
+Version: 2.0.1
 Depends: R (>= 3.0)
 Imports: XML, RCurl, reshape2, lubridate, plyr, httr
 Suggests: xtable, knitr, testthat
-License: Unlimited | file LICENSE
+License: CC0
 NeedsCompilation: no
 
 Package: data.table
@@ -12587,8 +12587,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: genMOSS
-Version: 1.1
-Depends: R (>= 2.10)
+Version: 1.2
+Depends: R (>= 2.10), ROCR
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -32092,7 +32092,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rsdmx
-Version: 0.4-2
+Version: 0.4-3
 Depends: R (>= 2.15)
 Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
 Suggests: testthat
@@ -32185,7 +32185,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RSiteCatalyst
-Version: 1.4.1
+Version: 1.4.2
 Depends: R (>= 3.0)
 Imports: jsonlite (>= 0.9.5), httr (>= 0.3), plyr, base64enc, digest,
         stringr
@@ -38091,10 +38091,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tigerstats
-Version: 0.1.6
-Depends: R(>= 2.10), lattice
-Imports: MASS
-Suggests: mosaic, manipulate, shiny
+Version: 0.2
+Depends: R(>= 2.10), mosaic, mosaicData, abd
+Imports: MASS, ggplot2, lattice
+Suggests: shiny, knitr
 License: GPL (>= 3)
 NeedsCompilation: no
 
