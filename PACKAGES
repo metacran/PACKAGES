@@ -3275,15 +3275,15 @@ License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: Boom
-Version: 0.1
-Depends: MASS, R(>= 3.0.2)
+Version: 0.2
+Depends: MASS, R(>= 3.1.0)
 LinkingTo: BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
 
 Package: BoomSpikeSlab
-Version: 0.4.1
-Depends: Boom, R (>= 3.0.2)
+Version: 0.5.1
+Depends: Boom (>= 0.2) , R (>= 3.1.0)
 LinkingTo: BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
@@ -7385,8 +7385,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: deTestSet
-Version: 1.1.1
-Depends: R (>= 2.01), ReacTran
+Version: 1.1.2
+Depends: R (>= 2.01), deSolve
 License: GPL
 NeedsCompilation: yes
 
@@ -31197,7 +31197,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: rngSetSeed
-Version: 0.3-1
+Version: 0.3-2
 License: GPL-3
 NeedsCompilation: yes
 
@@ -33832,7 +33832,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensitivity
-Version: 1.10
+Version: 1.10.1
 Depends: R (>= 3.0.0)
 Imports: boot
 Suggests: rgl, evd, numbers, DiceKriging, ks, igraph, fanovaGraph
@@ -40717,7 +40717,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: YplantQMC
-Version: 0.6-3
+Version: 0.6-4
 Depends: R (>= 2.10), rgl, geometry, LeafAngle, gplots
 Suggests: maps
 License: GPL-2
