@@ -15185,7 +15185,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: HSSVD
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10), bcv
 License: GPL-2
 NeedsCompilation: no
@@ -21531,9 +21531,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msarc
-Version: 1.3.4
+Version: 1.4.3
 Depends: R (>= 2.14.0)
-Imports: AnnotationDbi, gplots
+Imports: AnnotationDbi, gplots, XLConnect, wordcloud, RColorBrewer
 Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db
 License: Artistic-2.0
 NeedsCompilation: no
@@ -36727,7 +36727,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stratification
-Version: 2.2-4
+Version: 2.2-5
 License: GPL-2
 NeedsCompilation: yes
 
