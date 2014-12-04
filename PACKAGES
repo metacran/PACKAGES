@@ -12587,7 +12587,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: GENLIB
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.1.0), Rcpp (>= 0.9.10)
 Imports: kinship2, methods, bootstrap, Matrix, lattice, quadprog,
         foreach, parallel, doParallel
@@ -13346,9 +13346,9 @@ License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
 
 Package: gmailr
-Version: 0.5.0
+Version: 0.6.0
 Depends: R (>= 3.0.0)
-Imports: httr, base64enc, magrittr, jsonlite
+Imports: httr, base64enc, magrittr, jsonlite, mime
 Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -28187,8 +28187,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rAltmetric
-Version: 0.3
-Depends: plyr, RCurl, reshape2, png, ggplot2 (>= 0.9.2.1), RJSONIO
+Version: 0.6
+Imports: plyr, RCurl, reshape2, png, ggplot2 (>= 0.9.2.1), RJSONIO
+Suggests: testthat
 License: CC0
 NeedsCompilation: no
 
@@ -40223,12 +40224,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WGCNA
-Version: 1.41-1
-Depends: R (>= 2.14), dynamicTreeCut (>= 1.62), flashClust
+Version: 1.42
+Depends: R (>= 2.14), dynamicTreeCut (>= 1.62), fastcluster
 Imports: stats, grDevices, utils, matrixStats (>= 0.8.1), Hmisc,
-        impute, splines, foreach, doParallel, reshape
+        impute, splines, foreach, doParallel, reshape, preprocessCore,
+        survival, parallel
 Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db, AnnotationDbi, infotheo,
-        entropy, minet, survival
+        entropy, minet
 License: GPL (>= 2)
 NeedsCompilation: yes
 
