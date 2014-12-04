@@ -28298,13 +28298,6 @@ Imports: MASS, mvtnorm, sfsmisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: randomSurvivalForest
-Version: 3.6.4
-Depends: R (>= 3.0.0)
-Suggests: XML
-License: GPL (>= 3)
-NeedsCompilation: yes
-
 Package: randomUniformForest
 Version: 1.1.1
 Depends: R (>= 3.0.0)
