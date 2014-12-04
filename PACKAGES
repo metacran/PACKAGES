@@ -12950,7 +12950,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ggm
-Version: 2.1
+Version: 2.2
 Depends: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
