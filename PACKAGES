@@ -28588,7 +28588,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rbiouml
-Version: 1.4
+Version: 1.5
 Depends: RCurl, RJSONIO
 License: GPL-2
 NeedsCompilation: no
@@ -35826,7 +35826,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: spcr
-Version: 1.2
+Version: 1.2.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -36009,12 +36009,12 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: spikeSlabGAM
-Version: 1.1-7
+Version: 1.1-8
 Depends: R (>= 2.15.1), ggplot2
 Imports: akima, coda, cluster, grid, gridExtra, MASS, MCMCpack,
         mvtnorm, R2WinBUGS, reshape, scales, splines, parallel
 Suggests: mboost, mlbench
-License: CC BY-NC-SA 3.0
+License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: SPIn
