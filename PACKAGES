@@ -2296,7 +2296,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BEDASSLE
-Version: 1.4
+Version: 1.5
 Imports: MASS, matrixcalc, emdbook
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -6933,10 +6933,10 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: dcGOR
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.1.0), Matrix, igraph, dnet
 Imports: methods
-Suggests: foreach, doMC
+Suggests: foreach, doMC, ape
 License: GPL-2
 NeedsCompilation: no
 
@@ -10218,7 +10218,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: extWeibQuant
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -12386,7 +12386,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: geeM
-Version: 0.7.1
+Version: 0.7.2
 Depends: Matrix
 Suggests: geepack
 License: GPL (>= 2)
@@ -13483,7 +13483,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: GoFKernel
-Version: 2.0-4
+Version: 2.0-5
 Depends: KernSmooth
 License: GPL
 NeedsCompilation: no
@@ -14675,7 +14675,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HGNChelper
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 2.10)
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -17672,7 +17672,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: LeafAngle
-Version: 1.2
+Version: 1.2-1
 License: GPL
 NeedsCompilation: no
 
@@ -19173,7 +19173,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MasterBayes
-Version: 2.51
+Version: 2.52
 Depends: coda, genetics, gtools, kinship2
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23295,7 +23295,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: NPS
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28306,7 +28306,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: randomUniformForest
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.0.0)
 Imports: methods, Rcpp (>= 0.11.1), parallel, doParallel, iterators,
         foreach (>= 1.4.2), ggplot2, pROC, gtools, cluster, MASS
@@ -31274,9 +31274,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ROAuth
-Version: 0.9.3
-Depends: R (>= 2.12.0), RCurl (>= 1.6-4), digest, methods
-Imports: methods
+Version: 0.9.5
+Depends: R (>= 2.12.0)
+Imports: RCurl, digest, methods
 License: Artistic-2.0
 NeedsCompilation: no
 
@@ -33868,6 +33868,12 @@ Package: sensitivitymw
 Version: 1.1
 License: GPL-2
 NeedsCompilation: no
+
+Package: sensitivityPStrat
+Version: 1.0-6
+Imports: stats, survival
+License: GPL
+NeedsCompilation: yes
 
 Package: SensoMineR
 Version: 1.20
@@ -36723,7 +36729,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stratification
-Version: 2.2-3
+Version: 2.2-4
 License: GPL-2
 NeedsCompilation: yes
 
