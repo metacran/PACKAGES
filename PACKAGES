@@ -1077,6 +1077,12 @@ Suggests: MASS, vcd, mlbench, ggplot2, TSP
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: archiDART
+Version: 1.0
+Imports: stats, utils, graphics, grDevices
+License: GPL-2
+NeedsCompilation: no
+
 Package: archivist
 Version: 1.2
 Depends: R (>= 3.0.0), RSQLite, DBI, shiny, lubridate
@@ -1506,12 +1512,6 @@ Version: 1.0-3
 Depends: R (>= 2.14.0), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: AWS.tools
-Version: 0.0.5
-Depends: XML
-License: GPL-3
-NeedsCompilation: no
 
 Package: aylmer
 Version: 1.0-11
@@ -25849,12 +25849,6 @@ Package: pks
 Version: 0.3-0
 Depends: R (>= 2.14.0), stats, sets
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: PKtools
-Version: 1.5-0
-Depends: methods, lattice, nlme, R2HTML, xtable
-License: GPL-2
 NeedsCompilation: no
 
 Package: plan
