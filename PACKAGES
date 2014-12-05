@@ -4577,9 +4577,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: chngpt
-Version: 2014.5-29
+Version: 2014.12-2
 Depends: R (>= 3.0.0), kyotil, MASS
-Suggests: RUnit, xtable, mvtnorm
+Suggests: RUnit, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -13005,10 +13005,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggRandomForests
-Version: 1.0.0
-Depends: R (>= 3.1.0), ggplot2, randomForestSRC, reshape2, survival,
-        dplyr
-Suggests: testthat
+Version: 1.1.0
+Depends: R (>= 3.1.0)
+Imports: ggplot2, randomForestSRC (>= 1.5.5), survival, tidyr, dplyr
+Suggests: testthat, RColorBrewer, knitr, xtable
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -22830,6 +22830,12 @@ Depends: stats, R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: NISTunits
+Version: 1.0.0
+Depends: R (>= 2.7.0)
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: nlADG
 Version: 0.1-0
 Depends: R (>= 2.10.0), ggm
@@ -22865,7 +22871,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nlmrt
-Version: 2013-9.24
+Version: 2013-9.25
 Depends: R (>= 2.15.0)
 Suggests: minpack.lm, optimx, Rvmmin, Rcgmin, numDeriv
 License: GPL-2
@@ -23870,7 +23876,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: optextras
-Version: 2013-10.27
+Version: 2013-10.28
 Depends: numDeriv
 License: GPL-2
 NeedsCompilation: no
@@ -25313,8 +25319,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: performanceEstimation
-Version: 0.1.1
-Depends: R(>= 3.0), methods, graphics, ggplot2 (>= 0.9.3)
+Version: 1.0.0
+Depends: R(>= 3.0), methods
+Imports: ggplot2 (>= 0.9.3), foreach (>= 1.2.0), doParallel (>= 1.0.8)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28719,8 +28726,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Rcgmin
-Version: 2013-02.20
-Depends: numDeriv
+Version: 2013-2.21
+Imports: numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38476,7 +38483,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: tourr
-Version: 0.5.3
+Version: 0.5.4
 Depends: R (>= 2.14)
 Suggests: TeachingDemos, ash, testthat, colorspace, ggplot2, reshape2
 License: MIT + file LICENSE
