@@ -943,9 +943,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ape
-Version: 3.1-4
+Version: 3.2
 Depends: R (>= 3.0.0)
-Imports: nlme, lattice, graphics, stats, tools, utils
+Imports: nlme, lattice, graphics, stats, tools, utils, parallel
 Suggests: gee, expm
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -2056,7 +2056,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BBEST
-Version: 0.1-0
+Version: 0.1-1
 Imports: DEoptim, aws, grid, ggplot2, reshape2, shiny, methods
 License: GPL-3
 NeedsCompilation: no
@@ -6280,8 +6280,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: crqa
-Version: 1.0.4
-Depends: R (>= 3.0.0), Matrix, tseriesChaos, fields
+Version: 1.0.5
+Depends: R (>= 3.0.0), Matrix, tseriesChaos, fields, pracma
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -9619,6 +9619,14 @@ Depends: R (>= 3.0.0), survival
 Suggests: MASS (>= 3.1-20)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: EpiResTest
+Version: 1.0
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: RUnit, ADGofTest
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: episplineDensity
 Version: 0.0-1
@@ -14143,8 +14151,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: gumbel
-Version: 1.04
-Depends: R (>= 2.9.0)
+Version: 1.05
+Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -24191,9 +24199,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: outbreaker
-Version: 1.1-3
-Depends: R (>= 3.0.0)
-Imports: utils, ape, igraph, adegenet, parallel
+Version: 1.1-4
+Depends: R (>= 3.0.0), parallel
+Imports: utils, ape, igraph, adegenet
 Suggests: EpiEstim
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -27378,7 +27386,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pvclust
-Version: 1.3-0
+Version: 1.3-1
 Depends: R (>= 2.10.0)
 Suggests: MASS, parallel
 License: GPL (>= 2)
@@ -28311,7 +28319,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: randtoolbox
-Version: 1.15
+Version: 1.16
 Depends: rngWELL (>= 0.10-1)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -30479,7 +30487,7 @@ OS_type: unix
 NeedsCompilation: no
 
 Package: rhosp
-Version: 1.05
+Version: 1.06
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38089,9 +38097,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: tidyr
-Version: 0.1
+Version: 0.2.0
 Depends: R (>= 3.1.0)
-Imports: reshape2, dplyr (>= 0.2)
+Imports: reshape2, dplyr (>= 0.2), stringi, lazyeval
 Suggests: knitr, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -38298,7 +38306,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: tlm
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.0.1), stats, utils, boot
 License: GPL (>= 2)
 NeedsCompilation: no
