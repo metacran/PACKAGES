@@ -117,6 +117,13 @@ Version: 1.3-3.3
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
+Package: acid
+Version: 1.0
+Depends: gamlss,gamlss.dist,Hmisc
+Suggests: ineq
+License: GPL-3
+NeedsCompilation: no
+
 Package: acm4r
 Version: 1.0
 Depends: MASS
@@ -3624,7 +3631,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bsts
-Version: 0.6.0
+Version: 0.6.1
 Depends: BoomSpikeSlab (>= 0.5.1), zoo, xts, Boom (>= 0.2), R(>= 3.1.0)
 LinkingTo: Boom, BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
@@ -6902,11 +6909,11 @@ License: GNU General Public License
 NeedsCompilation: yes
 
 Package: db.r
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 2.12), methods
-Imports: DBI, rjson (>= 0.2.14), stringr
+Imports: DBI, rjson (>= 0.2.14), RSQLite (>= 1.0.0), stringr
 Suggests: testthat (>= 0.2), RPostgreSQL (>= 0.2.14), RMySQL (>=
-        0.2.14), RSQLite (>= 1.0.0)
+        0.2.14),
 License: FreeBSD
 NeedsCompilation: no
 
@@ -12870,9 +12877,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: gettingtothebottom
-Version: 3.0
-Depends: R (>= 3.0.2), ggplot2, grid, Matrix, lpSolve, reshape2
-License: CC BY-NC-SA 4.0
+Version: 3.2
+Depends: R (>= 3.0.2), ggplot2, grid, Matrix
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: GEVcdn
@@ -15418,7 +15425,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.0.2
+Version: 1.1
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
 Imports: MASS, geometry, igraph
 LinkingTo: Rcpp
@@ -21186,9 +21193,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: moonBook
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.1)
-Imports: DescTools, survival
+Imports: nortest, survival
 Suggests: testthat, knitr, ggplot2
 License: GPL-2
 NeedsCompilation: no
@@ -32315,6 +32322,13 @@ Imports: lattice
 Suggests: testthat (>= 0.7)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: rstackdeque
+Version: 1.1
+Depends: utils
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: RStars
 Version: 1.0
