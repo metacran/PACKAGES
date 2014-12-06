@@ -17095,6 +17095,13 @@ Imports: parallel
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: knockoff
+Version: 0.1
+Imports: glmnet, RJSONIO
+Suggests: lars, knitr, testthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: kobe
 Version: 1.3.2
 Depends: R(>= 3.0.2), methods
@@ -32659,7 +32666,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Rvmmin
-Version: 2013-11.11
+Version: 2013-11.12
 Depends: optextras
 License: GPL (>= 2)
 NeedsCompilation: no
