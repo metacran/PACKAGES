@@ -605,6 +605,14 @@ Version: 1.1-7.3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: algstat
+Version: 0.0.2
+Depends: mpoly
+Imports: stringr, reshape2, Rcpp
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
 Package: ALKr
 Version: 0.5.3.1
 Depends: R (>= 2.15.2)
@@ -2614,7 +2622,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bigGP
-Version: 0.1-3
+Version: 0.1-4
 Depends: R (>= 3.0.0), Rmpi (>= 0.6-2), methods
 Suggests: rlecuyer, rsprng, fields
 License: GPL (>= 2)
@@ -19297,7 +19305,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.10.3
+Version: 0.12.0
 Depends: R (>= 2.9.0)
 Imports: methods, R.methodsS3 (>= 1.6.1)
 Suggests: R.rsp
@@ -22651,7 +22659,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: network
-Version: 1.10.2
+Version: 1.11.3
 Depends: R (>= 2.10), utils
 Suggests: sna, statnet.common (>= 3.1-0)
 License: GPL (>= 2)
@@ -30034,7 +30042,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: reshape2
-Version: 1.4
+Version: 1.4.1
 Imports: plyr (>= 1.8.1), stringr, Rcpp
 LinkingTo: Rcpp
 Suggests: testthat (>= 0.8.0), lattice
@@ -31206,13 +31214,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RNeXML
-Version: 1.1.3
+Version: 2.0.0
 Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), taxize (>= 0.2.2), reshape2 (>=
         1.2.2), httr (>= 0.3), uuid (>= 0.1-1)
 Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
         (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1),
-        testthat (>= 0.8.1), Sxslt
+        testthat (>= 0.8.1), phylobase (>= 0.6.8), rmarkdown (>=
+        0.3.3), Sxslt
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
