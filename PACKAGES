@@ -513,7 +513,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: agrmt
-Version: 1.35
+Version: 1.39
 License: GPL-3
 NeedsCompilation: no
 
@@ -4736,10 +4736,11 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: CITAN
-Version: 2011.08-1
-Depends: R (>= 2.10.0), DBI, RSQLite, RGtk2, hash, ADGofTest
+Version: 2014.12-1
+Depends: R (>= 2.15.0), agop, RSQLite
+Imports: RGtk2, hash, stringi, DBI
 License: LGPL (>= 3)
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: citbcmst
 Version: 1.0.4
@@ -19857,7 +19858,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 4.0-1
+Version: 4.0-2
 Depends: R (>= 2.9.1)
 Imports: grid
 Suggests: metafor
