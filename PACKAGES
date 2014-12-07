@@ -31201,7 +31201,7 @@ NeedsCompilation: yes
 
 Package: ROCR
 Version: 1.0-5
-Depends: gplots, methods
+Depends: R (>= 2.10), gplots, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
