@@ -3366,7 +3366,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Boruta
-Version: 3.1.0
+Version: 4.0.0
 Depends: R (>= 2.0.0), randomForest, rFerns
 Suggests: mlbench
 License: GPL (>= 2)
@@ -6651,6 +6651,13 @@ Package: darts
 Version: 1.0
 License: GPL
 NeedsCompilation: yes
+
+Package: dashboard
+Version: 0.1.0
+Depends: R (>= 2.13.0)
+Imports: Rook
+License: GPL-2
+NeedsCompilation: no
 
 Package: DatABEL
 Version: 0.9-5
@@ -19132,7 +19139,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.12.0
+Version: 0.12.2
 Depends: R (>= 2.9.0)
 Imports: methods, R.methodsS3 (>= 1.6.1)
 Suggests: R.rsp
@@ -27633,7 +27640,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: queueing
-Version: 0.2.2
+Version: 0.2.3
 Depends: R (>= 2.11.1)
 License: GPL-2
 NeedsCompilation: no
