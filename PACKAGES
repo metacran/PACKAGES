@@ -34473,11 +34473,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: simPH
-Version: 1.2.3
+Version: 1.2.4
 Depends: R (>= 3.0.2)
 Imports: car, DataCombine, data.table (>= 1.9.2), dplyr (>= 0.3),
-        ggplot2, gridExtra, lazyeval, MASS, mgcv, reshape2, stringr,
-        survival, quadprog
+        ggplot2, gridExtra, lazyeval, MASS, mgcv, reshape2, stringr (<=
+        0.7), survival, quadprog
 Suggests: knitr, stats
 License: GPL-3
 NeedsCompilation: no
