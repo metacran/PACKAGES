@@ -1504,11 +1504,6 @@ Depends: R (>= 2.4.1), zoo, gets, lgarch
 License: GPL-2
 NeedsCompilation: no
 
-Package: avgrankoverlap
-Version: 1.0
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: aws
 Version: 1.9-4
 Depends: R (>= 2.14.0), methods, awsMethods (>= 1.0-1), gsl
@@ -1832,8 +1827,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: BayesianAnimalTracker
-Version: 1.0
-Suggests: TrackReconstruction
+Version: 1.2
+Depends: R (>= 2.10), TrackReconstruction
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -1901,12 +1896,6 @@ Package: BayesNI
 Version: 0.1
 License: GPL-2
 NeedsCompilation: no
-
-Package: BayesPen
-Version: 1.0
-Depends: lars, MCMCpack, SuppDists
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: bayesPop
 Version: 5.2-1
@@ -2660,12 +2649,6 @@ Enhances: bigmemory, synchronicity
 License: LGPL-3 | Apache License 2.0
 NeedsCompilation: no
 
-Package: bigml
-Version: 0.1-1
-Depends: RJSONIO, RCurl, plyr
-License: LGPL-3
-NeedsCompilation: no
-
 Package: bigpca
 Version: 1.0
 Depends: R (>= 3.0), grDevices, graphics, stats, utils, reader (>=
@@ -3125,13 +3108,6 @@ Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: blockTools
-Version: 0.6-1
-Imports: MASS
-Suggests: nbpMatching, RItools, xtable
-License: GPL (>= 2) | file LICENSE
-NeedsCompilation: yes
-
 Package: blowtorch
 Version: 1.0.1
 Depends: R (>= 3.0.2)
@@ -3329,15 +3305,6 @@ Package: bootES
 Version: 1.01
 Depends: R (>= 2.10.1), boot
 Imports: stats, graphics
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: bootfs
-Version: 1.4.2
-Depends: pROC
-Imports: igraph, ROCR, gbm, colorRamps, gplots, gtools, pamr,
-        randomForest, Boruta, caret, tgp, mlegp, penalizedSVM
-Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -3875,12 +3842,6 @@ Depends: R (>= 3.0.2)
 Imports: deSolve, FME, survey, ggplot2, reshape2, shiny, grid, rgdal,
         maptools, sp
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: capme
-Version: 1.3
-Depends: lpSolve
-License: GPL-2
 NeedsCompilation: no
 
 Package: capushe
@@ -4440,12 +4401,6 @@ Depends: systemfit
 Imports: Matrix, actuar, Hmisc, methods, stats, statmod, reshape2,
         MASS, lattice, grid, tweedie, utils
 Suggests: RUnit
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: changeLOS
-Version: 2.1
-Depends: R (>= 1.8.1), survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -5339,13 +5294,6 @@ Version: 2.3
 License: GPL
 NeedsCompilation: no
 
-Package: colorscience
-Version: 1.0.0
-Depends: R (>= 2.10), Hmisc, munsellinterpol, pracma
-Enhances: png
-License: GPL (>= 3)
-NeedsCompilation: no
-
 Package: colorspace
 Version: 1.2-4
 Depends: R (>= 2.13.0), methods
@@ -5432,11 +5380,6 @@ Depends: vegan, methods
 License: GPL-2
 NeedsCompilation: no
 
-Package: comorbidities
-Version: 1.0
-License: GPL-2
-NeedsCompilation: no
-
 Package: Comp2ROC
 Version: 1.0
 Depends: R (>= 2.15.1), ROCR, boot
@@ -5509,12 +5452,6 @@ Version: 1.0
 Depends: Benchmarking, psych, boot
 Imports: Hmisc, MASS, GPArotation, lpSolve, nonparaeff
 License: GPL-3
-NeedsCompilation: no
-
-Package: complex.surv.dat.sim
-Version: 2.0.0
-Depends: R (>= 2.13.1), eha, statmod
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: complmrob
@@ -5647,12 +5584,6 @@ Package: confreq
 Version: 1.3
 Depends: R (>= 2.10.1), stats, gmp
 License: GPL-3
-NeedsCompilation: no
-
-Package: conicfit
-Version: 1.0.0
-Depends: R (>= 2.7.0), pracma, geigen
-License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: conics
@@ -6507,13 +6438,6 @@ Version: 1.0-1
 License: GPL-2
 NeedsCompilation: no
 
-Package: CVD
-Version: 1.0.0
-Depends: R (>= 2.7.0)
-Enhances: png, gWidgets2, RGtk2
-License: GPL (>= 3)
-NeedsCompilation: no
-
 Package: cvplogistic
 Version: 3.1-0
 Depends: R (>= 2.9.0)
@@ -7010,14 +6934,6 @@ Version: 2.5
 Depends: R (>= 3.0.2), deSolve, ape, ade4
 License: GPL-2
 NeedsCompilation: no
-
-Package: ddepn
-Version: 2.2
-Depends: R (>= 2.14), lattice, coda, igraph, graph
-Imports: genefilter, gam, gplots
-Suggests: parallel, Rgraphviz, BoolNet
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: DDHFm
 Version: 1.1.1
@@ -9338,12 +9254,6 @@ Suggests: KMsurv, boot
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: emplik2
-Version: 1.10
-Depends: R (>= 1.8.0)
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: EMT
 Version: 1.1
 License: GPL
@@ -9357,13 +9267,6 @@ NeedsCompilation: no
 
 Package: EMVC
 Version: 0.1
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: ENA
-Version: 1.3-0
-Depends: R (>= 2.14.0), GeneNet(>= 1.2.5)
-Imports: space (>= 0.1), WGCNA (>= 1.20), parmigene (>= 1.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10267,12 +10170,6 @@ Package: FacPad
 Version: 3.0
 Depends: R (>= 2.12.1),Rlab,MASS
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: factas
-Version: 2.3
-Depends: R (>= 2.14.0), plotrix, FactoMineR, Matrix
-License: GPL
 NeedsCompilation: no
 
 Package: FactMixtAnalysis
@@ -11471,12 +11368,6 @@ Depends: sm,splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: FPDC
-Version: 1.0
-Depends: ThreeWay
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: fPortfolio
 Version: 3011.81
 Depends: R (>= 2.15.1), methods, timeDate, timeSeries, fBasics, fAssets
@@ -12287,15 +12178,6 @@ Depends: Matrix
 License: GPL-2
 NeedsCompilation: yes
 
-Package: gcExplorer
-Version: 0.9-4
-Depends: R (>= 2.10), graphics, methods, flexclust (>= 1.0-0),
-        Rgraphviz
-Imports: flexclust, modeltools
-Suggests: splines, lattice
-License: GPL-2
-NeedsCompilation: no
-
 Package: gclus
 Version: 1.3.1
 Depends: R (>= 2.10), cluster
@@ -12615,12 +12497,6 @@ Version: 1.0
 License: GPL-2
 OS_type: unix
 NeedsCompilation: yes
-
-Package: genomicper
-Version: 1.3
-Depends: R (>= 2.10)
-License: GPL-2
-NeedsCompilation: no
 
 Package: genoPlotR
 Version: 0.8.2
@@ -13275,13 +13151,6 @@ Suggests: tools
 License: GPL-2
 NeedsCompilation: no
 
-Package: glmperm
-Version: 1.0-5
-Depends: survival
-Suggests: coin, MASS
-License: GPL-3
-NeedsCompilation: no
-
 Package: glmulti
 Version: 1.0.7
 Depends: R (>= 2.13.0), rJava (>= 0.5-0), methods
@@ -13520,12 +13389,6 @@ Package: gogarch
 Version: 0.7-2
 Depends: R (>= 2.10.0), methods, stats, graphics, fGarch, fastICA
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: googlePublicData
-Version: 0.12.05
-Depends: R (>= 2.11.0), XML, utils, XLConnect
-License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: googleVis
@@ -16343,12 +16206,6 @@ Version: 0.2.1
 License: GPL
 NeedsCompilation: yes
 
-Package: iScreen
-Version: 1.0
-Depends: R (>= 2.15.0), stats, maptree
-License: GPL-2
-NeedsCompilation: no
-
 Package: isdals
 Version: 2.0-4
 Suggests: VGAM
@@ -18890,11 +18747,6 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
-Package: malaria.em
-Version: 2.0
-License: GPL-2
-NeedsCompilation: no
-
 Package: MALDIquant
 Version: 1.11
 Depends: R (>= 3.0.0), methods
@@ -19077,17 +18929,6 @@ Version: 1.2-2
 Depends: R (>= 3.0.0), statmod, survival
 Suggests: boot, cond, csampling, nlreg
 License: GPL (>= 2) | file LICENCE
-NeedsCompilation: no
-
-Package: margie
-Version: 1.0
-License: GPL-3
-NeedsCompilation: no
-
-Package: marginalmodelplots
-Version: 0.4.2
-Depends: R (>= 2.0.1), locfit (>= 1.5-4), grid
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markdown
@@ -19535,12 +19376,6 @@ Depends: Matrix, coda, ape
 Imports: corpcor, tensorA
 Suggests: rgl, combinat, mvtnorm, orthopolynom
 License: GPL (>= 2)
-NeedsCompilation: yes
-
-Package: MCMChybridGP
-Version: 4.3
-Depends: MASS
-License: GPL-2
 NeedsCompilation: yes
 
 Package: MCMC.OTU
@@ -20278,12 +20113,6 @@ Suggests: micEcon (>= 0.6-1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: MiClip
-Version: 1.3
-Depends: R (>= 2.15.0), moments, VGAM
-License: GPL-2
-NeedsCompilation: no
-
 Package: microbenchmark
 Version: 1.4-2
 Imports: graphics, ggplot2
@@ -20619,12 +20448,6 @@ Package: mixdist
 Version: 0.5-4
 Depends: R (>= 1.4.0)
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: mixedQF
-Version: 0.3
-Depends: R (>= 1.10.0), nnet, MASS
-License: FreeBSD
 NeedsCompilation: no
 
 Package: MixedTS
@@ -21240,13 +21063,6 @@ NeedsCompilation: no
 Package: MorseGen
 Version: 1.2
 License: GPL-2
-NeedsCompilation: no
-
-Package: MortalitySmooth
-Version: 2.3.3
-Depends: R (>= 3.0.2), svcm, lattice
-Suggests: knitr
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mosaic
@@ -21987,18 +21803,6 @@ Suggests: ggplot2 (>= 0.9.2)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: munsellinterpol
-Version: 1.0.1
-Depends: R (>= 2.10), geometry
-License: GPL (>= 3)
-NeedsCompilation: no
-
-Package: muRL
-Version: 0.1-9
-Depends: maps
-License: GPL-2 | file LICENSE
-NeedsCompilation: no
-
 Package: muscle
 Version: 3.8.31-4
 License: Unlimited
@@ -22166,12 +21970,6 @@ Version: 0.1-9.2
 Depends: mvpart
 Imports: Hmisc, labdsv, vegan, fBasics, ade4
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: MVpower
-Version: 2.0
-Depends: R (>= 2.7.1), randomForest, pamr, kernlab, class
-License: GPL-2
 NeedsCompilation: no
 
 Package: mvProbit
@@ -22712,12 +22510,6 @@ Imports: Matrix, yaImpute,
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: neuRosim
-Version: 0.2-10
-Depends: R (>= 2.12.0), deSolve
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: Newdistns
 Version: 1.0
 Depends: R (>= 2.15.0)
@@ -22778,12 +22570,6 @@ Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: GPL (>= 3)
 NeedsCompilation: yes
-
-Package: NHMSAR
-Version: 1.0
-Depends: R (>= 2.10), ucminf
-License: GPL
-NeedsCompilation: no
 
 Package: NHPoisson
 Version: 3.0
@@ -23022,12 +22808,6 @@ Suggests: RColorBrewer, parallel
 License: GPL-2
 NeedsCompilation: no
 
-Package: noia
-Version: 0.96
-Depends: stats
-License: GPL-2
-NeedsCompilation: no
-
 Package: NominalLogisticBiplot
 Version: 0.2
 Depends: R (>= 2.15.1),mirt,gmodels,MASS
@@ -23098,12 +22878,6 @@ Version: 1.2-0
 Imports: stats, graphics
 Suggests: cluster
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: nordklimdata1
-Version: 1.0
-Depends: R (>= 2.10)
-License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: norm
@@ -23339,12 +23113,6 @@ Package: NRAIA
 Version: 0.9-8
 Depends: lattice, stats
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: nricens
-Version: 1.2
-Depends: survival
-License: GPL-2
 NeedsCompilation: no
 
 Package: NSA
@@ -23664,13 +23432,6 @@ Package: Oncotree
 Version: 0.3.3
 Depends: R (>= 2.10), boot
 Suggests: lattice
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: OneHandClapping
-Version: 1.5
-Depends: R (>= 2.14)
-Imports: methods, graphics
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -24166,12 +23927,6 @@ Imports: BB, BHH2
 Suggests: setRNG
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: orthogonalsplinebasis
-Version: 0.1.5
-Depends: methods, stats, graphics
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: orthopolynom
 Version: 1.0-5
@@ -27194,12 +26949,6 @@ Depends: MASS, numDeriv, deSolve, ucminf
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: PSMix
-Version: 1.1.1
-Depends: R (>= 2.10)
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: pso
 Version: 1.0.3
 Depends: R (>= 2.10.0), methods
@@ -28162,12 +27911,6 @@ Imports: igraph, stats, expm, reshape, ggplot2, Hmisc, fdrtool,
         snowfall
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: RAHRS
-Version: 1.0.1
-Depends: R (>= 2.10), pracma, RSpincalc (>= 1.0.1)
-License: GPL (>= 3)
-NeedsCompilation: yes
 
 Package: rainbow
 Version: 3.2
@@ -29575,11 +29318,6 @@ Suggests: knitr
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
-Package: RECSO
-Version: 1.0
-License: GPL-2
-NeedsCompilation: no
-
 Package: REdaS
 Version: 0.9.1
 Depends: R (>= 3.0.0), grid
@@ -30088,12 +29826,6 @@ Suggests: pso
 License: GPL (>= 3)
 NeedsCompilation: yes
 
-Package: review
-Version: 2.5
-Depends: XML, Hmisc
-License: GPL-2
-NeedsCompilation: no
-
 Package: reweight
 Version: 1.2.1
 License: GPL (>= 2)
@@ -30288,13 +30020,6 @@ Suggests: roxygen2, testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: Rgbp
-Version: 1.0.6
-Depends: R (>= 2.2.0), sn (>= 0.4-18)
-Suggests: mnormt
-License: GPL-2
-NeedsCompilation: no
-
 Package: RGCCA
 Version: 2.0
 Depends: MASS
@@ -30372,13 +30097,6 @@ Package: Rglpk
 Version: 0.6-0
 Depends: slam (>= 0.1-9)
 License: GPL-2 | GPL-3
-NeedsCompilation: yes
-
-Package: Rgnuplot
-Version: 1.0.1
-Depends: R (>= 2.7.0)
-Enhances: colorspace, png, rgdal, sp
-License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: RGoogleAnalytics
@@ -30809,13 +30527,6 @@ Version: 0.0-4
 Imports: rJava (>= 0.6-3), tm
 License: GPL-2
 NeedsCompilation: no
-
-Package: rknn
-Version: 1.2
-Depends: R (>= 2.14), gmp (>= 0.5-5)
-Suggests: Hmisc, Biobase, genefilter, golubEsets, chemometrics
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: rkt
 Version: 1.3
@@ -31832,14 +31543,6 @@ Depends: R (>= 2.9.0), methods, DBI (>= 0.1-4)
 License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
-Package: RPPanalyzer
-Version: 1.4
-Depends: R (>= 2.14)
-Imports: quantreg, limma, lattice, stats4, gam, gplots, grid, ggplot2,
-        Hmisc, Biobase
-License: LGPL
-NeedsCompilation: no
-
 Package: rPref
 Version: 0.3
 Depends: R (>= 3.0.0), methods
@@ -32233,22 +31936,6 @@ Suggests: roxygen2, testthat, rjson
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: RSNPset
-Version: 0.2
-Imports: fastmatch (>= 1.0-4), foreach (>= 1.4.1), doRNG (>= 1.5.3),
-        qvalue (>= 1.34), Rcpp (>= 0.10.4)
-LinkingTo: Rcpp, RcppEigen
-Suggests: knitr
-License: GPL-3
-NeedsCompilation: yes
-
-Package: RSocrata
-Version: 1.5
-Depends: httr (>= 0.3), jsonlite
-Suggests: RUnit
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: RSofia
 Version: 1.1
 Depends: methods, Rcpp (>= 0.9.6)
@@ -32281,11 +31968,6 @@ Version: 0.1-2
 Imports: plyr (>= 1.0)
 Suggests: testthat, reshape2
 License: MIT + file LICENSE
-NeedsCompilation: no
-
-Package: RSpincalc
-Version: 1.0.1
-License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rsprng
@@ -32962,11 +32644,6 @@ Suggests: VGAM (>= 0.9-4), mvtnorm (>= 0.9-9994), lmtest
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: samplesize
-Version: 0.1-8
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: Sample.Size
 Version: 1.0
 License: GPL-2
@@ -33442,11 +33119,6 @@ Package: SDaA
 Version: 0.1-3
 Suggests: survey, ggplot2 (>= 0.8.2)
 License: GPL-3
-NeedsCompilation: no
-
-Package: SDBP
-Version: 1.0
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sdcMicro
@@ -34354,12 +34026,6 @@ Suggests: knitr, markdown, shinyAce
 License: GPL-3
 NeedsCompilation: no
 
-Package: sigora
-Version: 0.9.2
-Depends: R (>= 2.10)
-License: GPL-2
-NeedsCompilation: no
-
 Package: SigTree
 Version: 1.6
 Imports: ape, phyext, RColorBrewer, phyloseq
@@ -35105,15 +34771,6 @@ Imports: parallel, snpStats
 Suggests: grid, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: snplist
-Version: 0.12
-Depends: R (>= 3.0.0), RSQLite (>= 0.11.4), biomaRt (>= 2.16.0), Rcpp
-        (>= 0.10.5), R.utils (>= 1.27.1)
-LinkingTo: Rcpp
-Suggests: knitr
-License: GPL-3
-NeedsCompilation: yes
 
 Package: SNPmaxsel
 Version: 1.0-3
@@ -36269,12 +35926,6 @@ Depends: grDevices
 License: Artistic-2.0
 NeedsCompilation: no
 
-Package: sra
-Version: 0.1
-Depends: stats4
-License: GPL-2
-NeedsCompilation: no
-
 Package: sROC
 Version: 0.1-2
 License: GPL (>= 3)
@@ -36329,11 +35980,6 @@ Version: 1.0
 Depends: R (>= 3.0.3), stringr
 License: Apache License (== 2.0)
 OS_type: unix
-NeedsCompilation: no
-
-Package: ssize.fdr
-Version: 1.1
-License: GPL-3
 NeedsCompilation: no
 
 Package: ssmrob
@@ -36710,13 +36356,6 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
-Package: stpp
-Version: 1.0-4
-Depends: R (>= 2.10), splancs, KernSmooth, spatstat
-Suggests: rpanel, rgl
-License: GPL-3
-NeedsCompilation: yes
-
 Package: stppResid
 Version: 1.1
 Depends: deldir, splancs, cubature
@@ -36899,11 +36538,6 @@ Package: subplex
 Version: 1.1-4
 Depends: R (>= 2.5.1)
 License: GPL (>= 2)
-NeedsCompilation: yes
-
-Package: subrank
-Version: 0.8.5
-License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: subselect
@@ -37820,7 +37454,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tempdisagg
-Version: 0.23
+Version: 0.24.0
 License: GPL-3
 NeedsCompilation: no
 
@@ -38667,11 +38301,6 @@ Suggests: ggplot2, reshape2
 License: GPL-2
 NeedsCompilation: no
 
-Package: treelet
-Version: 1.0
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: treemap
 Version: 2.2
 Imports: colorspace, data.table (>= 1.8.8), ggplot2, grid, gridBase,
@@ -38707,16 +38336,6 @@ Package: TrialSize
 Version: 1.3
 License: GPL (>= 2.15.1)
 NeedsCompilation: yes
-
-Package: TRIANG
-Version: 1.2
-License: GPL-2
-NeedsCompilation: no
-
-Package: TRIANGG
-Version: 1.0
-License: GPL-2
-NeedsCompilation: no
 
 Package: triangle
 Version: 0.8
@@ -38853,13 +38472,6 @@ NeedsCompilation: yes
 Package: TSA
 Version: 1.01
 Depends: R (>= 2.5.1),leaps, locfit, mgcv, tseries
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: TSAgg
-Version: 1.0.1
-Depends: R (>= 2.10), lubridate
-Suggests: zoo
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39906,13 +39518,6 @@ Version: 4.2
 License: MIT License
 NeedsCompilation: no
 
-Package: VisuClust
-Version: 1.1
-Depends: aplpack
-Suggests: MASS, cluster
-License: LGPL (>= 3)
-NeedsCompilation: no
-
 Package: vitality
 Version: 1.0
 Depends: stats
@@ -40032,11 +39637,6 @@ Suggests: pROC
 License: GPL (>= 3)
 NeedsCompilation: yes
 
-Package: waldwolf
-Version: 0.1
-License: GPL
-NeedsCompilation: no
-
 Package: walkscoreAPI
 Version: 1.2
 License: GPL-2
@@ -40129,12 +39729,6 @@ Package: wbs
 Version: 1.2
 Depends: graphics
 License: GPL-2
-NeedsCompilation: yes
-
-Package: wccsom
-Version: 1.2.8
-Depends: class, MASS
-License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: WCQ
