@@ -19994,7 +19994,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: metasens
-Version: 0.1-0
+Version: 0.2-0
 Depends: meta (>= 0.8)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -22660,9 +22660,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: networkDynamic
-Version: 0.6.3
-Depends: R (>= 3.0.0), network (>= 1.9)
+Version: 0.7.1
+Depends: R (>= 3.0.0), network (>= 1.11.2)
 Imports: statnet.common
+LinkingTo: network
 Suggests: testthat
 License: GPL-3
 NeedsCompilation: yes
@@ -29095,7 +29096,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RColorBrewer
-Version: 1.0-5
+Version: 1.1-2
 Depends: R (>= 2.0.0)
 License: Apache License 2.0
 NeedsCompilation: no
@@ -32428,6 +32429,14 @@ Depends: R (>= 3.0.0), parallel
 Suggests: tseries
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: rtdists
+Version: 0.2-6
+Depends: R (>= 3.0.0)
+Imports: evd, msm, gsl
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: rtematres
 Version: 0.2
@@ -36306,7 +36315,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.7
+Version: 1.4.8
 Depends: R (>= 2.10.0) ,psych,TTR,MASS,tcltk,TSA
 License: GPL (>= 2)
 NeedsCompilation: no
