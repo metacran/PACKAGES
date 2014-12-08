@@ -33302,10 +33302,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: secrlinear
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.0.0), secr(>= 2.9.1), sp, igraph
-Imports: parallel, maptools, rgeos, MASS
-Suggests: knitr, secrdesign
+Imports: parallel, maptools, MASS
+Suggests: knitr, rgeos, secrdesign
 License: GPL (>= 2)
 NeedsCompilation: no
 
