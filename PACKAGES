@@ -3462,7 +3462,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: breakage
-Version: 1.0-1
+Version: 1.1-1
 Depends: Imap
 License: Artistic-2.0
 NeedsCompilation: no
@@ -4129,7 +4129,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ccda
-Version: 1.0
+Version: 1.1
 Depends: MASS
 License: GPL-2
 NeedsCompilation: no
@@ -4659,9 +4659,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.1.3
-Depends: R (>= 2.10.0), methods
-Imports: GlobalOptions (>= 0.0.3)
+Version: 0.2.0
+Depends: R (>= 2.10.0)
+Imports: GlobalOptions (>= 0.0.4)
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6675,9 +6676,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: DataCombine
-Version: 0.2.7
+Version: 0.2.7.1
 Depends: R (>= 3.0.2)
-Imports: data.table, dplyr
+Imports: data.table, dplyr (>= 0.3)
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -10103,8 +10104,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: extrafont
-Version: 0.16
-Depends: R (>= 2.15),
+Version: 0.17
+Depends: R (>= 2.15)
 Imports: extrafontdb, grDevices, utils, Rttf2pt1
 Suggests: fontcm
 License: GPL-2
@@ -10331,7 +10332,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: far
-Version: 0.6-3
+Version: 0.6-4
 Depends: R (>= 2.10.0), nlme
 License: LGPL-2.1
 NeedsCompilation: yes
@@ -11631,7 +11632,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fSRM
-Version: 0.6
+Version: 0.6.1
 Depends: lavaan
 Imports: plyr, reshape2, ggplot2, grid, scales, foreign, tcltk, tcltk2,
         gridExtra
@@ -15419,7 +15420,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: iC10
-Version: 1.1.1
+Version: 1.1.2
 Depends: pamr, iC10TrainingData
 License: GPL-3
 NeedsCompilation: no
@@ -19912,6 +19913,12 @@ Suggests: lava.tobit (>= 0.4-7), prodlim, testthat, ucminf
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: MetSizeR
+Version: 1.1
+Depends: mvtnorm,MetabolAnalyze,cairoDevice, gWidgets, gWidgetsRGtk2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: MetStaT
 Version: 1.0
 Depends: MASS, abind, pls
@@ -23685,11 +23692,11 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: optiRum
-Version: 0.33
+Version: 0.35
 Depends: R (>= 3.0.2)
-Imports: data.table
-Suggests: testthat, grid, ggplot2, ggthemes, knitr, AUC, scales,
-        stringr, plyr, XML
+Imports: data.table, ggplot2, AUC, grid, knitr, plyr, scales, stringr,
+        XML
+Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -26335,7 +26342,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Power2Stage
-Version: 0.1-5
+Version: 0.2-2
 Depends: PowerTOST
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28872,7 +28879,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RcppAnnoy
-Version: 0.0.3
+Version: 0.0.4
+Depends: R (>= 3.1)
 Imports: methods, Rcpp (>= 0.11.3)
 LinkingTo: Rcpp, BH
 Suggests: RUnit
@@ -33894,7 +33902,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: shiny
-Version: 0.10.2.1
+Version: 0.10.2.2
 Depends: R (>= 3.0.0)
 Imports: tools, utils, httpuv (>= 1.2.2), mime (>= 0.1.3), RJSONIO,
         xtable, digest, htmltools (>= 0.2.6), R6 (>= 2.0)
@@ -35753,8 +35761,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SPmlficmcm
-Version: 1.1
-Depends: numDeriv, nleqslv, boot
+Version: 1.3
+Depends: nleqslv
 License: GPL-2
 NeedsCompilation: no
 
@@ -37891,7 +37899,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: timetools
-Version: 1.6.1
+Version: 1.6.5
 Depends: methods
 License: GPL
 NeedsCompilation: yes
