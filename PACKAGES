@@ -4960,7 +4960,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clusterSim
-Version: 0.43-5
+Version: 0.44-1
 Depends: cluster, MASS
 Imports: ade4, e1071, rgl, R2HTML
 Suggests: mlbench
@@ -18081,7 +18081,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: localgauss
-Version: 0.33
+Version: 0.34
 Depends: ggplot2, MASS, foreach, matrixStats
 License: GPL-2
 NeedsCompilation: yes
@@ -22913,7 +22913,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: normalp
-Version: 0.6.9
+Version: 0.7.0
 Depends: R (>= 1.5.0)
 License: GPL
 NeedsCompilation: no
@@ -25746,13 +25746,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotKML
-Version: 0.4-7
+Version: 0.4-8
 Depends: R (>= 2.13.0)
 Imports: methods, XML, sp, raster, rgdal, spacetime, colorspace,
         plotrix, dismo, aqp, pixmap, plyr, stringr, colorRamps, scales,
         gstat, zoo, RColorBrewer, RSAGA, classInt
 Suggests: utils, adehabitat, maptools, fossil, spcosa, rjson,
-        animation, spatstat, RCurl, rgbif, Hmisc, GSIF, stpp, uuid,
+        animation, spatstat, RCurl, rgbif, Hmisc, GSIF, uuid,
         intervals, reshape, gdalUtils
 License: GPL
 NeedsCompilation: no
