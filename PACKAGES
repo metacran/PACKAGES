@@ -2376,11 +2376,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BerlinData
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.13.0)
-Imports: XML (>= 3.95), stringr
-Suggests: testthat, rjson
-License: MIT + file LICENSE
+Imports: XML (>= 3.95), stringr, rjson
+Suggests: testthat
+License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: berryFunctions
@@ -16025,7 +16025,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: intsvy
-Version: 1.5
+Version: 1.6
 Depends: memisc, foreign, plyr, ggplot2, reshape
 License: GPL-2
 NeedsCompilation: no
