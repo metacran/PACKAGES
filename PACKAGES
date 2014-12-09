@@ -74,7 +74,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: accelerometry
-Version: 2.2.3
+Version: 2.2.4
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
@@ -2292,7 +2292,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: bear
-Version: 2.6.3
+Version: 2.6.4
 Depends: R (>= 2.12.0), reshape, nlme, gdata
 Imports: ICSNP, sciplot, plotrix, ggplot2, png, grid
 Suggests: plyr
@@ -4015,10 +4015,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: catnet
-Version: 1.14.3
+Version: 1.14.5
 Depends: R (>= 3.0.2)
 Imports: methods, stats
-Suggests: igraph
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -5456,7 +5455,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: complmrob
-Version: 0.5.6
+Version: 0.5.8
 Imports: robustbase, ggplot2, boot, parallel, scales
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -35671,7 +35670,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: spgwr
-Version: 0.6-25
+Version: 0.6-26
 Depends: R (>= 2.14), sp (>= 0.8-3)
 Suggests: spdep, parallel, maptools (>= 0.7-32)
 License: GPL (>= 2)
@@ -37946,6 +37945,13 @@ Depends: R (>= 2.6)
 Suggests: scriptests, Holidays
 License: GPL
 NeedsCompilation: no
+
+Package: timma
+Version: 0.99.0
+Imports: Rcpp (>= 0.11.2), QCA (>= 1.1-3)
+LinkingTo: Rcpp, RcppArmadillo
+License: Artistic License 2.0
+NeedsCompilation: yes
 
 Package: TIMP
 Version: 1.12.0
