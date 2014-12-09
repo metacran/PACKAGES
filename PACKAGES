@@ -6429,8 +6429,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cvAUC
-Version: 1.0.2
-Depends: ROCR
+Version: 1.1.0
+Depends: ROCR, data.table
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
@@ -7528,13 +7528,6 @@ Suggests: ggplot2
 License: GPL-3
 NeedsCompilation: no
 
-Package: DierckxSpline
-Version: 1.1-9
-Depends: R (>= 2.4.0), stats, lattice, PolynomF, fda
-Suggests: splines
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: diffdepprop
 Version: 0.1-9
 Depends: gee, rootSolve, PropCIs
@@ -7586,7 +7579,7 @@ License_restricts_use: yes
 NeedsCompilation: no
 
 Package: digest
-Version: 0.6.4
+Version: 0.6.5
 Depends: R (>= 2.4.1)
 License: GPL-2
 NeedsCompilation: yes
@@ -12465,6 +12458,12 @@ Depends: combinat, gdata, gtools, MASS, mvtnorm
 License: GPL
 NeedsCompilation: no
 
+Package: GeneticSubsetter
+Version: 0.5
+Imports: rrBLUP
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: GeneticTools
 Version: 0.3
 Depends: R (>= 3.0.2), gMWT (>= 0.3), snpStats, Rcpp (>= 0.9.13),
@@ -13065,8 +13064,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: GLDreg
-Version: 1.0
-Depends: GLDEX (>= 2.0.0.1)
+Version: 1.0.1
+Depends: GLDEX (>= 2.0.0.1), MASS, quantreg
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -23049,7 +23048,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: NPMLEcmprsk
-Version: 1.0
+Version: 2.0
 License: Artistic-2.0
 NeedsCompilation: no
 
@@ -29081,6 +29080,14 @@ Package: rda
 Version: 1.0.2-2
 Depends: R (>= 2.10)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RDataCanvas
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: jsonlite
+Suggests: testthat
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: rdatamarket
@@ -39044,6 +39051,14 @@ Version: 1.2-8
 Depends: R (>= 2.0.0), methods
 Imports: nlme, graphics, stats
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: urltools
+Version: 0.5
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, knitr
+License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: USAboundaries
