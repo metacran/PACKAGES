@@ -32567,7 +32567,7 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: no
 
 Package: rzmq
-Version: 0.6.8
+Version: 0.7.7
 License: GPL-3
 NeedsCompilation: yes
 
