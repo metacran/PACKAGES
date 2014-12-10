@@ -7635,10 +7635,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: DirichletReg
-Version: 0.5-2
+Version: 0.6-1
 Depends: R (>= 3.0.0), Formula, rgl
 Imports: stats, graphics, methods, maxLik
-Suggests: colorspace, testthat
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
