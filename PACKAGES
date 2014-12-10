@@ -8472,7 +8472,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dunn.test
-Version: 1.2.0
+Version: 1.2.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -10851,6 +10851,12 @@ Version: 0.2-4
 Depends: R (>= 2.14.0), methods, filehash (>= 1.0), DBI, RSQLite
 Imports: filehash, DBI
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: filenamer
+Version: 0.2
+Suggests: io, testthat
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: fImport
@@ -27994,11 +28000,12 @@ License: CC0
 NeedsCompilation: no
 
 Package: RAM
-Version: 1.1.0
+Version: 1.2.0
 Depends: vegan, ggplot2, stats
 Imports: gridExtra, RColorBrewer, gplots, plyr, reshape2, scales,
-        labdsv, grid, stringr, ggmap, permute
-Suggests: testthat, Heatplus, indicspecies, lattice
+        labdsv, grid, ggmap, permute, VennDiagram, data.table, FD,
+        MASS, RgoogleMaps, ape, lattice, reshape
+Suggests: testthat, mapproj, gtable, indicspecies, Heatplus
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -36585,9 +36592,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: strum
-Version: 0.4
+Version: 0.5
 Depends: R (>= 3.0.0), methods, pedigree, Rgraphviz(>= 2.6.0)
-Imports: MASS, Rcpp
+Imports: Matrix, MASS, Rcpp, graph
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -39653,7 +39660,7 @@ License: MIT License
 NeedsCompilation: no
 
 Package: vitality
-Version: 1.0
+Version: 1.1
 Depends: stats
 Imports: IMIS
 License: GPL (>= 2)
