@@ -18836,8 +18836,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MapGAM
-Version: 0.7-0
-Depends: R (>= 2.10.0), gam, maptools
+Version: 0.7-4
+Depends: R (>= 2.10.0), sp, gam
+Imports: maptools
 Suggests: maps, mapproj, PBSmapping
 License: GPL-3
 NeedsCompilation: no
