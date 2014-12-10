@@ -1323,7 +1323,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ASPBay
-Version: 1.0
+Version: 1.1
 Depends: hexbin, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL-2
@@ -31104,7 +31104,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: robumeta
-Version: 1.3
+Version: 1.4
 Depends: grid
 License: GPL-2
 NeedsCompilation: no
@@ -38215,7 +38215,7 @@ License: MIT
 NeedsCompilation: no
 
 Package: TPmsm
-Version: 1.1.1
+Version: 1.2.0
 Depends: R (>= 2.12.0),graphics,grDevices,KernSmooth
 Enhances: p3state.msm,etm
 License: GPL (>= 2)
