@@ -8037,7 +8037,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: DnE
-Version: 1.01
+Version: 2.1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23464,6 +23464,13 @@ Depends: R (>= 2.10), boot
 Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: OneArmPhaseTwoStudy
+Version: 0.1
+Depends: methods, Rcpp (>= 0.9.11)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: onemap
 Version: 2.0-4
