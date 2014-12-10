@@ -6562,8 +6562,8 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: dae
-Version: 2.1-7
-Depends: R (>= 2.10.0), lattice, methods
+Version: 2.4-0
+Depends: R (>= 2.10.0), ggplot2, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16615,6 +16615,12 @@ Version: 0.1.1
 Depends: R (>= 2.14.0),nlme,MASS,survival
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: jomo
+Version: 0.1-0
+Suggests: BaBooN
+License: GPL-2
+NeedsCompilation: yes
 
 Package: JOP
 Version: 3.6
@@ -29705,7 +29711,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: repmis
-Version: 0.3
+Version: 0.3.3
 Depends: R (>= 3.0.0)
 Imports: digest, httr, plyr, R.cache, xlsx
 License: GPL (>= 3)
