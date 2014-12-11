@@ -3267,7 +3267,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BoolNet
-Version: 2.0.1
+Version: 2.0.2
 Imports: igraph (>= 0.6), XML
 License: Artistic-2.0
 NeedsCompilation: yes
@@ -3696,7 +3696,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: c060
-Version: 0.2-3
+Version: 0.2-4
 Imports: glmnet, survival, parallel, mlegp, tgp, peperr, penalizedSVM,
         lattice
 License: GPL-2
@@ -8072,7 +8072,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: doBy
-Version: 4.5-12
+Version: 4.5-13
 Depends: R (>= 3.0), survival, methods
 Imports: MASS, Matrix
 Suggests: pbkrtest (>= 0.3-8), ggplot2, multcomp, geepack, lme4
@@ -26624,7 +26624,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PrevMap
-Version: 1.1.2
+Version: 1.1.3
 Depends: geoR, maxLik, raster, pdist
 Imports: splancs
 License: GPL (>= 2)
@@ -31533,7 +31533,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: rpf
-Version: 0.43
+Version: 0.44
 Depends: methods, parallel, R (>= 2.14.0)
 Imports: mvtnorm
 LinkingTo: RcppEigen
@@ -36171,7 +36171,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: stab
-Version: 0.1.8
+Version: 0.1.9
 Depends: R (>= 2.12.0), stats4, MASS, reshape
 License: GPL (>= 2)
 NeedsCompilation: no
