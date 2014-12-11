@@ -203,7 +203,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: actuar
-Version: 1.1-6
+Version: 1.1-7
 Depends: R (>= 2.6.0)
 Imports: stats, graphics
 Suggests: MASS
@@ -8927,6 +8927,11 @@ Depends: VGAM
 License: GPL-2
 NeedsCompilation: no
 
+Package: EffectTreat
+Version: 0.1-1
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: effsize
 Version: 0.5.2
 License: GPL-2
@@ -16078,8 +16083,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: io
-Version: 0.1
-Suggests: XML, rhdf5, yaml, jsonlite
+Version: 0.2
+Depends: filenamer
+Imports: stringr
+Suggests: XML, rhdf5, yaml, jsonlite, testthat
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -29386,6 +29393,16 @@ Version: 0.1-0
 Depends: R (>= 2.10), recommenderlab (>= 0.1.3)
 License: GPL-2
 NeedsCompilation: no
+
+Package: RecordLinkage
+Version: 0.4-6
+Depends: R (>= 2.10.0), DBI, RSQLite(>= 0.9-1), ff, ffbase
+Imports: e1071, rpart, ada, ipred, stats, evd, methods, data.table (>=
+        1.7.8), nnet, xtable
+LinkingTo: RSQLite
+Suggests: RUnit
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: Records
 Version: 1.0
