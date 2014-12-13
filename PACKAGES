@@ -12330,6 +12330,14 @@ Suggests: parallel, ncbit, pls, msm, colorspace
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: gemmR
+Version: 1.3-2
+Depends: Rcpp(>= 0.11), doMC(>= 1.3.1), foreach (>= 1.4.2)
+LinkingTo: Rcpp
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: yes
+
 Package: gems
 Version: 0.9.5
 Imports: MASS, methods, msm, mstate, plyr, graphics, stats, utils,
@@ -17125,13 +17133,6 @@ Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
 
-Package: KsPlot
-Version: 1.3
-Depends: e1071, caret, nnet, MASS, caTools, mda, glmnet, randomForest,
-        mvpart
-License: GNU General Public License Version 2
-NeedsCompilation: no
-
 Package: kst
 Version: 0.2-1
 Depends: R (>= 2.7.0), proxy, relations (>= 0.4-0), sets (>= 0.3-2)
@@ -20547,7 +20548,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mixexp
-Version: 1.1.8
+Version: 1.1.9
 Depends: gdata, lattice, grid, daewr
 License: GPL-2
 NeedsCompilation: yes
@@ -20585,6 +20586,13 @@ Depends: R (>= 2.10), MASS, lattice
 Imports: RGCCA, igraph, rgl, pheatmap
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: mixor
+Version: 1.0.1
+Depends: R (>= 2.10)
+Suggests: survival
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: mixPHM
 Version: 0.7-1
@@ -22048,20 +22056,6 @@ Version: 2.0.5
 Depends: sgeostat, R (>= 2.14)
 Imports: robCompositions, robustbase
 License: GPL (>= 3)
-NeedsCompilation: no
-
-Package: mvpart
-Version: 1.6-2
-Depends: R (>= 2.14.0), graphics, stats, grDevices
-Suggests: survival
-License: GPL-2 | GPL-3
-NeedsCompilation: yes
-
-Package: MVPARTwrap
-Version: 0.1-9.2
-Depends: mvpart
-Imports: Hmisc, labdsv, vegan, fBasics, ade4
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvProbit
@@ -30244,9 +30238,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rgpui
-Version: 0.1-1
-Depends: R (>= 3.0.0), utils, parallel,
-Imports: rgp (>= 0.3-5), shiny (>= 0.8.0), emoa (>= 0.5-0)
+Version: 0.1-2
+Depends: R (>= 3.0.0), utils
+Imports: rgp (>= 0.3-5), shiny (>= 0.10.2), emoa (>= 0.5-0), parallel
 License: GPL-2
 NeedsCompilation: no
 
@@ -31495,7 +31489,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: roxygen2
-Version: 4.0.2
+Version: 4.1.0
 Depends: R (>= 3.0.2)
 Imports: stringr (>= 0.5), brew, digest, methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
@@ -37409,13 +37403,6 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: sirt (>= 1.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: Tampo
-Version: 1.0
-Depends: R(>= 3.0.2), mvpart
-Suggests: boot, reshape, reshape2, ggplot2, grid, ggdendro, sets, mgcv
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: TANOVA
 Version: 1.0.0
