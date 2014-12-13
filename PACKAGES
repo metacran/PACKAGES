@@ -15156,11 +15156,12 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: httr
-Version: 0.5
+Version: 0.6.0
 Depends: R (>= 3.0.0)
-Imports: RCurl (>= 1.95-0), stringr (>= 0.6.1), digest, tools, methods,
-        jsonlite
-Suggests: XML, testthat (>= 0.8.0), png, jpeg, httpuv, knitr
+Imports: digest, jsonlite, methods, mime, RCurl (>= 1.95-0), R6,
+        stringr (>= 0.6.1)
+Suggests: base64enc, httpuv, jpeg, knitr, PKI (>= 0.1-2), png, testthat
+        (>= 0.8.0), XML
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -21839,9 +21840,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multitaper
-Version: 1.0-8
-Depends: R (>= 2.15.0)
-Suggests: psd, fftwtools
+Version: 1.0-9
+Depends: R (>= 3.0)
+Suggests: psd, astrochron, fftwtools
 License: GPL (>= 2)
 NeedsCompilation: yes
 
