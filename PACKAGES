@@ -3365,7 +3365,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: boral
-Version: 0.5
+Version: 0.6
 Depends: coda
 Imports: R2jags, mvtnorm, fishMod, MASS
 Suggests: mvabund (>= 3.8.4), corrplot
