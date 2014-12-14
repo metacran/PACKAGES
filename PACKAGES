@@ -36628,8 +36628,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: stringi
-Version: 0.3-1
+Version: 0.4-1
 Depends: R (>= 2.15.0)
+Imports: tools
 License: file LICENSE
 License_is_FOSS: yes
 NeedsCompilation: yes
