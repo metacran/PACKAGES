@@ -18237,7 +18237,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: logconPH
-Version: 1.4
+Version: 1.5
 License: GPL-2
 NeedsCompilation: yes
 
@@ -31551,7 +31551,7 @@ License: MIT
 NeedsCompilation: yes
 
 Package: rpart.plot
-Version: 1.5.0
+Version: 1.5.1
 Depends: rpart (>= 4.1-0)
 License: GPL-3
 NeedsCompilation: no
