@@ -8708,7 +8708,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: EBglmnet
-Version: 3.5
+Version: 3.6
 Depends: R (>= 2.10)
 License: GPL
 NeedsCompilation: yes
@@ -9631,7 +9631,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ergm
-Version: 3.2.3
+Version: 3.2.4
 Depends: statnet.common (>= 3.1-0), network (>= 1.11)
 Imports: robustbase (>= 0.9-10), coda, trust, Matrix, Rglpk, parallel
 Suggests: lattice, latticeExtra, sna, latentnet, knitr
@@ -39165,7 +39165,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: unittest
-Version: 1.0-1
+Version: 1.1-1
 Depends: R (>= 3.0.0)
 License: GPL (>= 3)
 NeedsCompilation: no
