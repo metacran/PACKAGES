@@ -20384,7 +20384,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mirt
-Version: 1.6.1
+Version: 1.7
 Depends: R (>= 2.15), stats4, lattice, methods
 Imports: GPArotation, Rcpp, sfsmisc, numDeriv
 LinkingTo: Rcpp
@@ -20394,8 +20394,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mirtCAT
-Version: 0.2
-Depends: R (>= 2.15), mirt (>= 1.6.1), shiny (>= 0.10.0), lattice
+Version: 0.3
+Depends: R (>= 2.15), mirt (>= 1.7), shiny (>= 0.10.0), lattice
 Imports: methods
 Suggests: knitr, testthat
 License: GPL (>= 3)
@@ -27671,9 +27671,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: quantmod
-Version: 0.4-2
-Depends: xts (>= 0.9-0), zoo, TTR (>= 0.2), methods
-Suggests: DBI, RMySQL, RSQLite, timeSeries, its
+Version: 0.4-3
+Depends: xts(>= 0.9-0), zoo, TTR(>= 0.2), methods
+Suggests: DBI,RMySQL,RSQLite,timeSeries,its
 License: GPL-3
 NeedsCompilation: no
 
@@ -40119,7 +40119,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wildlifeDI
-Version: 0.1
+Version: 0.2
 Imports: sp, rgeos, adehabitatLT
 Suggests: knitr, adehabitatHR
 License: GPL-3
