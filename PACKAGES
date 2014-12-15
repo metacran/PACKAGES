@@ -40385,9 +40385,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: xkcd
-Version: 0.0.3
-Depends: Hmisc, ggplot2
-Suggests: methods, sysfonts, showtext
+Version: 0.0.4
+Depends: ggplot2, extrafont
+Imports: Hmisc
 License: GPL-3
 NeedsCompilation: no
 
@@ -40678,6 +40678,13 @@ Version: 2.0.4
 Depends: R (>= 2.10.0)
 Suggests: testthat
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: ztable
+Version: 0.1.0
+Depends: R (>= 3.1.2)
+Suggests: MASS, survival, testthat, knitr
+License: GPL-2
 NeedsCompilation: no
 
 Package: zyp
