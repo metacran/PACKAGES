@@ -17679,7 +17679,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lfe
-Version: 1.7-1404
+Version: 1.7-1416
 Depends: R (>= 2.15.2), Matrix (>= 1.1-2),
 Imports: Formula, xtable, compiler
 Suggests: knitr, stargazer, Rcgmin, igraph
@@ -24505,12 +24505,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: partykit
-Version: 0.8-2
+Version: 0.8-3
 Depends: R (>= 3.1.0), graphics, grid
 Imports: stats, survival
 Suggests: XML, pmml, rJava, rpart, mvtnorm, Formula, sandwich,
         strucchange, vcd, AER, mlbench, TH.data (>= 1.0-3), coin, RWeka
-        (>= 0.4-19), mvpart, datasets, psychotools, psychotree
+        (>= 0.4-19), datasets, psychotools, psychotree
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
@@ -34480,7 +34480,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.6
+Version: 1.6.5
 Imports: ggplot2, MASS, car, foreign, plyr, psych, reshape2, scales
 Suggests: arm, cluster, coin, lme4, lsmeans, lmtest, Matrix, stringdist
 License: GPL-3
@@ -37662,7 +37662,7 @@ License: LGPL-2.1
 NeedsCompilation: no
 
 Package: tergm
-Version: 3.2.3
+Version: 3.2.4
 Depends: statnet.common (>= 3.2), ergm (>= 3.2.3), network (>= 1.11),
         networkDynamic (>= 0.7)
 Imports: robustbase (>= 0.9-10), coda, nlme
