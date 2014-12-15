@@ -25125,7 +25125,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Peptides
-Version: 1.0.2
+Version: 1.0.3
 Suggests: RUnit
 License: GPL-2
 NeedsCompilation: no
@@ -37498,7 +37498,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Taxonstand
-Version: 1.6
+Version: 1.7
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39336,8 +39336,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: V8
-Version: 0.1
-Imports: Rcpp, jsonlite
+Version: 0.2
+Imports: Rcpp (>= 0.11.0), jsonlite
 LinkingTo: Rcpp
 License: MIT + file LICENSE
 NeedsCompilation: yes
