@@ -19313,11 +19313,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mboost
-Version: 2.4-0
-Depends: R (>= 2.14.0), methods, stats, parallel, stabs
+Version: 2.4-1
+Depends: R (>= 2.14.0), methods, stats, parallel, stabs (>= 0.5-0)
 Imports: Matrix, survival, splines, lattice, nnls, quadprog, utils
 Suggests: party (>= 1.0-3), TH.data, MASS, fields, BayesX, gbm,
-        mlbench, RColorBrewer, rpart (>= 4.0-3)
+        mlbench, RColorBrewer, rpart (>= 4.0-3), randomForest, nnet
 License: GPL-2
 NeedsCompilation: yes
 
@@ -24158,10 +24158,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: packrat
-Version: 0.4.1-1
-Depends: R (>= 3.0)
+Version: 0.4.2
+Depends: R (>= 3.0.0)
 Imports: tools, utils
-Suggests: testthat (>= 0.7), devtools
+Suggests: testthat (>= 0.7), devtools, httr
 Enhances: knitr, BiocInstaller
 License: GPL-2
 NeedsCompilation: no
@@ -29297,7 +29297,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: readBrukerFlexData
-Version: 1.8.1
+Version: 1.8.2
 Depends: R (>= 2.15.0)
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -37575,7 +37575,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: tdm
-Version: 3.0.2
+Version: 3.0.3
 Depends: R (>= 2.12.0)
 Imports: rjags, coda, png, grid, deSolve
 License: GPL (>= 2)
