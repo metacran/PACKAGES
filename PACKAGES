@@ -4158,12 +4158,6 @@ Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: CCMnet
-Version: 0.0-2
-Depends: sna, network, ergm, R(>= 2.12.2)
-License: GPL-3 + file LICENSE
-NeedsCompilation: yes
-
 Package: CCP
 Version: 1.1
 License: GPL
