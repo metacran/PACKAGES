@@ -36,8 +36,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: abctools
-Version: 0.3-2
-Depends: R (>= 2.10), abc, abind, parallel, pls, plyr
+Version: 1.0
+Depends: R (>= 2.10), abc, abind, parallel, plyr
 Suggests: ggplot2
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -8421,10 +8421,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dti
-Version: 1.2-0
+Version: 1.2-0.1
 Depends: R (>= 2.14.0), awsMethods (>= 1.0-1), adimpro, rgl
-Imports: methods, parallel, oro.nifti (>= 0.3.9), oro.dicom, gsl
-Suggests: quadprog
+Imports: methods, parallel, oro.nifti (>= 0.3.9), oro.dicom, gsl,
+        quadprog
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -9534,7 +9534,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: epinet
-Version: 2.0.8
+Version: 2.0.9
 Suggests: network
 License: GPL-2
 NeedsCompilation: yes
@@ -24184,7 +24184,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: packrat
-Version: 0.4.2
+Version: 0.4.2-1
 Depends: R (>= 3.0.0)
 Imports: tools, utils
 Suggests: testthat (>= 0.7), devtools, httr
@@ -33360,7 +33360,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sdnet
-Version: 2.01.3
+Version: 2.03.3
 Depends: R (>= 3.0.2)
 Imports: methods, stats
 License: GPL (>= 2)
