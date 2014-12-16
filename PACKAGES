@@ -6530,10 +6530,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: D2C
-Version: 1.0
-Depends: randomForest
-Imports: gRbase, lazy, RBGL, MASS, corpcor, infotheo, methods,
-        Rgraphviz
+Version: 1.1
+Depends: R(>= 2.10.0), randomForest
+Imports: gRbase, lazy, RBGL, MASS, corpcor, methods, Rgraphviz
 License: Artistic-2.0
 NeedsCompilation: no
 
@@ -19049,10 +19048,10 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: marmap
-Version: 0.9
+Version: 0.9.1
 Depends: R (>= 2.10)
 Imports: DBI, RSQLite, gdistance, geosphere, sp, raster, ncdf, plotrix,
-        shape, reshape2
+        shape, reshape2, adehabitatMA
 Suggests: maps, mapdata, lattice, mapproj, R.rsp
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -21142,7 +21141,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Morpho
-Version: 2.1
+Version: 2.2
 Depends: R (>= 3.0.2)
 Imports: Rvcg (>= 0.7), rgl (>= 0.93.963), colorRamps, foreach (>=
         1.4.0), Matrix (>= 1.0-1), parallel, yaImpute, doParallel (>=
@@ -32469,7 +32468,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: Rvcg
-Version: 0.9
+Version: 0.10
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
@@ -35648,6 +35647,14 @@ Version: 0.5.0
 Depends: R (>= 1.8.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: spca
+Version: 0.6.0
+Depends: R (>= 3.1)
+Imports: MASS
+Suggests: formatR, knitr (>= 1.8.0), ggplot2, reshape2
+License: GPL-3
+NeedsCompilation: no
 
 Package: spcadjust
 Version: 0.1-3
