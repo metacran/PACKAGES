@@ -5401,7 +5401,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: compare
-Version: 0.2-4
+Version: 0.2-5
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11070,9 +11070,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: flexCWM
-Version: 1.1
-Depends: R (>= 2.15.0)
-Imports: numDeriv,mnormt,mclust,ellipse,mixture,Flury
+Version: 1.3
+Depends: R (>= 3.0.0)
+Imports:
+        parallel,numDeriv,mnormt,mclust,ellipse,mixture,Flury,adehabitat,MASS,statmod
 License: GPL-2
 NeedsCompilation: no
 
@@ -26951,6 +26952,11 @@ Suggests: cba
 License: GPL-2
 NeedsCompilation: yes
 
+Package: PRROC
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: pRSR
 Version: 3.0.2
 Depends: R (>= 2.10)
@@ -32122,6 +32128,12 @@ Version: 0.1-6
 Depends: R (>= 2.13.0), editrules
 Suggests: knitr, testthat
 License: GPL-3
+NeedsCompilation: yes
+
+Package: rSPACE
+Version: 1.0
+Imports: raster, RMark, ggplot2, tcltk2, sp, grid, plyr, tcltk
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rspear
