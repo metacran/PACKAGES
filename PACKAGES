@@ -10880,9 +10880,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FinancialInstrument
-Version: 1.1
-Depends: R (>= 2.12.0), quantmod(>= 0.3-17), xts, zoo(>= 1.7-5)
-Suggests: foreach, XML
+Version: 1.2.0
+Depends: R (>= 2.12.0), quantmod (>= 0.4-3), zoo (>= 1.7-5), xts
+Imports: TTR
+Suggests: foreach, XML (>= 3.96.1.1), testthat, its, timeSeries
 License: GPL
 NeedsCompilation: no
 
@@ -13008,7 +13009,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: gimme
-Version: 0.1
+Version: 0.1-1
 Depends: R (>= 3.0.2), lavaan (>= 0.5-17), qgraph
 License: GPL-2
 NeedsCompilation: no
@@ -17593,6 +17594,11 @@ Package: LDtests
 Version: 1.0
 License: GPL
 NeedsCompilation: no
+
+Package: leaderCluster
+Version: 1.2
+License: LGPL-2
+NeedsCompilation: yes
 
 Package: LeafAngle
 Version: 1.2-1
@@ -29028,6 +29034,13 @@ Suggests: inline, DEoptim, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: RcppDL
+Version: 0.0.3
+Imports: methods, Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL-3
+NeedsCompilation: yes
+
 Package: RcppEigen
 Version: 0.3.2.2.0
 Depends: R (>= 2.15.1)
@@ -29364,7 +29377,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RECA
-Version: 1.0
+Version: 1.1
+Suggests: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36614,7 +36628,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.8.1
+Version: 0.8.2
 Depends: R (>= 2.15.3)
 Imports: parallel
 Suggests: testthat
