@@ -3880,12 +3880,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CARBayes
-Version: 3.0
+Version: 4.0
 Depends: R (>= 2.10.0), MASS, Rcpp (>= 0.10.6)
-Imports: truncdist, spam, coda
+Imports: truncdist, spam, coda, sp
 LinkingTo: Rcpp
 Suggests: boot, deldir, foreign, grid, maptools, Matrix, nlme,
-        shapefiles, sp, spdep, splines
+        shapefiles, spdep, splines
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -10586,10 +10586,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fda
-Version: 2.4.3
+Version: 2.4.4
 Depends: R (>= 2.10.0), splines, Matrix, graphics
-Suggests: deSolve, R.matlab, quadprog, DierckxSpline, nlme, lattice,
-        RCurl, zoo
+Suggests: deSolve, R.matlab, quadprog, nlme, lattice, RCurl, zoo
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -22599,6 +22598,13 @@ Depends: R (>= 2.9.0),grid, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: NeuralNetTools
+Version: 1.0.0
+Depends: R (>= 3.1.1)
+Imports: ggplot2, neuralnet, nnet, reshape2, RSNNS, scales
+License: CC0
+NeedsCompilation: no
+
 Package: neuroblastoma
 Version: 1.0
 Depends: R (>= 2.10)
@@ -25418,7 +25424,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PHeval
-Version: 0.5.1
+Version: 0.5.2
 Depends: R (>= 1.8.0), survival, graphics, splines
 License: GPL (>= 2.0)
 NeedsCompilation: no
