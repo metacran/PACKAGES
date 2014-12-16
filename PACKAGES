@@ -33403,7 +33403,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: season
-Version: 0.3-4
+Version: 0.3-5
 Depends: R (>= 3.0.1), ggplot2 (>= 0.9.3), MASS, mgcv, survival, coda
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -39936,6 +39936,12 @@ NeedsCompilation: no
 Package: waved
 Version: 1.1-2
 License: GPL
+NeedsCompilation: no
+
+Package: WaveletComp
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL-2
 NeedsCompilation: no
 
 Package: wavelets
