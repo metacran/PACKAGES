@@ -16666,7 +16666,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: jomo
-Version: 0.1-0
+Version: 0.1-1
 Suggests: BaBooN
 License: GPL-2
 NeedsCompilation: yes
@@ -33075,8 +33075,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SCEPtER
-Version: 0.1-0
-Depends: R (>= 2.10), MASS
+Version: 0.2-0
+Depends: R (>= 2.10), MASS, parallel
 Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
