@@ -335,14 +335,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitat
-Version: 1.8.14
+Version: 1.8.15
 Depends: R (>= 2.10.0), ade4, tkrplot, shapefiles, sp
 Suggests: spatstat, MASS, CircStats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitatHR
-Version: 0.4.11
+Version: 0.4.12
 Depends: R (>= 3.0.1), sp, methods, deldir, ade4, adehabitatMA,
         adehabitatLT
 Suggests: maptools, tkrplot, MASS, rgeos
@@ -350,14 +350,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitatHS
-Version: 0.3.9
+Version: 0.3.10
 Depends: R (>= 3.0.1), sp, methods, ade4, adehabitatMA, adehabitatHR
 Suggests: maptools, tkrplot, MASS, rgeos
 License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adehabitatLT
-Version: 0.3.16
+Version: 0.3.17
 Depends: R (>= 2.10.0), sp, methods, ade4, adehabitatMA, CircStats
 Suggests: maptools, tkrplot, MASS
 License: GPL (>= 2)
@@ -709,7 +709,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: amap
-Version: 0.8-12
+Version: 0.8-14
 Depends: R (>= 2.10.0)
 Suggests: Biobase
 License: GPL
@@ -4210,9 +4210,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CDM
-Version: 4.0
+Version: 4.1
 Depends: R (>= 2.15.0), mvtnorm
-Imports: Rcpp (>= 0.11), psych, MASS, polycor, sfsmisc
+Imports: Rcpp (>= 0.11), psych, MASS, polycor, sfsmisc, plyr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: TAM (>= 1.0-3), mirt (>= 1.5), sirt (>= 0.47), NPCD, ACTCD,
         pks
@@ -6719,9 +6719,9 @@ License: MIT | file LICENSE
 NeedsCompilation: no
 
 Package: dataRetrieval
-Version: 2.0.1
+Version: 2.1.0
 Depends: R (>= 3.0)
-Imports: XML, RCurl, reshape2, lubridate, plyr, httr
+Imports: XML, RCurl, reshape2, lubridate, plyr
 Suggests: xtable, knitr, testthat
 License: CC0
 NeedsCompilation: no
@@ -8615,7 +8615,7 @@ License: FreeBSD
 NeedsCompilation: no
 
 Package: earth
-Version: 4.0.0
+Version: 4.1.0
 Depends: plotmo (>= 2.2.0), plotrix
 Suggests: gam, mgcv, mda, MASS
 License: GPL-3
@@ -8968,10 +8968,10 @@ License: CC0
 NeedsCompilation: no
 
 Package: eha
-Version: 2.4-1
-Depends: R (>= 3.0.0), survival (>= 2.37-6), stats, graphics
-License: GPL (>= 3)
-NeedsCompilation: yes
+Version: 2.4-2
+Depends: R (>= 3.0.0), survival (>= 2.37-6)
+License: GPL (>= 2)
+NeedsCompilation: Yes
 
 Package: eHOF
 Version: 1.5.4
@@ -10129,10 +10129,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: extRemes
-Version: 2.0-3
+Version: 2.0-4
 Depends: R (>= 2.10.0), Lmoments, distillery, car
+Suggests: fields
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: extremevalues
 Version: 2.3.0
@@ -19760,6 +19761,13 @@ Depends: R (>= 2.14.0), utils, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MenuCollection
+Version: 1.0
+Depends: R (>= 3.0.0), RGtk2, RGtk2Extras
+Imports: gplots, grDevices, graphics
+License: GPL-2
+NeedsCompilation: no
+
 Package: MergeGUI
 Version: 0.2-1
 Depends: gWidgetsRGtk2, ggplot2
@@ -25886,7 +25894,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plotpc
-Version: 1.0-2
+Version: 1.0.3
 Depends: grid
 License: GPL-3
 NeedsCompilation: no
@@ -28610,9 +28618,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rchoice
-Version: 0.1
-Depends: R (>= 2.10), maxLik, Formula
-Imports: sandwich, ggplot2, plotrix, car, lmtest
+Version: 0.2
+Depends: R (>= 3.1.2), Formula, maxLik,
+Imports: msm, plm, plotrix
+Suggests: car, lmtest, memisc, pglm, sandwich, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28861,6 +28870,13 @@ Suggests: qcc,sp,vcd,MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: RcmdrPlugin.RMTCJags
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: Rcmdr, runjags, rmeta, igraph, coda, rjags
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: RcmdrPlugin.ROC
 Version: 1.0-16
 Depends: R (>= 2.10), Rcmdr (>= 1.7.0), pROC, ROCR, ResourceSelection,
@@ -29071,7 +29087,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppDL
-Version: 0.0.3
+Version: 0.0.5
 Imports: methods, Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-3
@@ -30721,7 +30737,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rlabkey
-Version: 2.1.125
+Version: 2.1.126
 Depends: RCurl, rjson (>= 0.1.3)
 License: Apache License 2.0
 NeedsCompilation: yes
