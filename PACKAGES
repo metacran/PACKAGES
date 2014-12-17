@@ -11281,7 +11281,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: forecast
-Version: 5.6
+Version: 5.7
 Depends: R (>= 3.0.2), stats, graphics, zoo, timeDate
 Imports: tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,
         parallel
@@ -21895,13 +21895,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MuMIn
-Version: 1.10.5
+Version: 1.12.1
 Depends: R (>= 3.0.0)
 Imports: stats
-Suggests: stats4, nlme, mgcv (>= 1.7.5), lme4 (>= 0.999375-16), gamm4,
-        MASS, nnet, survival, geepack
-Enhances: aod, coxme, glmmML, MCMCglmm, pscl, spdep, unmarked, ordinal,
-        gee, splm, logistf, caper, betareg, aods3, cplm
+Suggests: stats4, nlme, mgcv (>= 1.7.5), lme4 (>= 1.1.0), gamm4, MASS,
+        nnet, survival, geepack
+Enhances: aod, aods3, betareg, caper, coxme, cplm, gee, glmmML,
+        logistf, MCMCglmm, ordinal, pscl, spdep, splm, unmarked
 License: GPL-2
 NeedsCompilation: no
 
