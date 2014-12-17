@@ -8989,7 +8989,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EIAdata
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 2.11.0), XML, plyr, xts, zoo
 License: GPL-2
 NeedsCompilation: no
@@ -11389,6 +11389,12 @@ Depends: sm,splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FPDclustering
+Version: 1.0
+Depends: ThreeWay
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: fPortfolio
 Version: 3011.81
 Depends: R (>= 2.15.1), methods, timeDate, timeSeries, fBasics, fAssets
@@ -13733,7 +13739,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gridSVG
-Version: 1.4-0
+Version: 1.4-2
 Depends: R (>= 3.1)
 Imports: methods, grid, RJSONIO, XML
 Suggests: lattice
@@ -14588,8 +14594,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: HH
-Version: 3.1-5
-Depends: R (>= 3.0.2), lattice, stats, grid, latticeExtra, multcomp
+Version: 3.1-8
+Depends: R (>= 3.0.2), lattice, stats, grid, latticeExtra, multcomp,
+        gridExtra
 Imports: reshape2, leaps, vcd, colorspace, RColorBrewer, Rcmdr
 Suggests: methods, abind, mvtnorm, car, RcmdrPlugin.HH
 License: GPL (>= 2)
@@ -18076,7 +18083,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: lmmot
-Version: 0.1.1
+Version: 0.1.2
 Depends: maxLik, MASS
 License: GPL-3
 NeedsCompilation: no
@@ -18481,9 +18488,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lqmm
-Version: 1.5
+Version: 1.5.1
 Depends: R (>= 3.0.0)
 Imports: SparseGrid, nlme
+Suggests: R.rsp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25977,10 +25985,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: plsRglm
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.4.0)
-Imports: mvtnorm, boot, bipartite
-Suggests: MASS, plsdof, R.rsp
+Imports: mvtnorm, boot, bipartite, car
+Suggests: MASS, plsdof, R.rsp, chemometrics, plsdepot
 Enhances: pls
 License: GPL-3
 NeedsCompilation: no
@@ -29540,6 +29548,12 @@ Suggests: knitr
 License: GPL-2 | GPL-3 | BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
+Package: refset
+Version: 0.1.0
+Suggests: knitr, rmarkdown, testthat
+License: GPL-2
+NeedsCompilation: no
+
 Package: refund
 Version: 0.1-11
 Depends: R (>= 2.14.0), fda,
@@ -30797,7 +30811,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: rmatio
-Version: 0.10.0
+Version: 0.11.0
 Depends: R(>= 3.0.2), Matrix, methods, lattice
 License: GPL-3
 NeedsCompilation: yes
@@ -32102,6 +32116,15 @@ Imports: plyr, stringr, httr, RCurl, XML
 Suggests: roxygen2, testthat, rjson
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: RSNPset
+Version: 0.3
+Imports: fastmatch (>= 1.0-4), foreach (>= 1.4.1), doRNG (>= 1.5.3),
+        qvalue (>= 1.34), Rcpp (>= 0.10.4)
+LinkingTo: Rcpp, RcppEigen
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: yes
 
 Package: RSofia
 Version: 1.1
