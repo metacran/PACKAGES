@@ -7210,8 +7210,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DEoptim
-Version: 2.2-3
-Suggests: foreach, iterators, parallel
+Version: 2.2-2
+Suggests: foreach
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29433,7 +29433,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: recluster
-Version: 2.5
+Version: 2.7
 Depends: vegan, ape
 Imports: picante, phangorn, phytools, cluster
 License: GPL (>= 2.0)
@@ -36604,6 +36604,13 @@ Package: STPGA
 Version: 1.0
 License: GPL-2
 NeedsCompilation: no
+
+Package: stpp
+Version: 1.0-5
+Depends: R (>= 2.10), splancs, KernSmooth, spatstat
+Suggests: rpanel, rgl
+License: GPL-3
+NeedsCompilation: yes
 
 Package: stppResid
 Version: 1.1
