@@ -24545,12 +24545,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-18
-Depends: R (>= 2.14.0), methods, grid, zoo, sandwich (>= 1.1-1),
-        strucchange, stats, modeltools (>= 0.2-21)
-Imports: survival, coin (>= 1.0-24)
-Suggests: TH.data (>= 1.0-3), mlbench, colorspace, MASS, mvtnorm, vcd,
-        ipred
+Version: 1.0-19
+Depends: R (>= 2.14.0), methods, grid, stats, mvtnorm (>= 1.0-2),
+        modeltools (>= 0.2-21), strucchange
+Imports: survival, coin (>= 1.0-24), zoo, sandwich (>= 1.1-1)
+LinkingTo: mvtnorm
+Suggests: TH.data (>= 1.0-3), mlbench, colorspace, MASS, vcd, ipred
 License: GPL-2
 NeedsCompilation: yes
 
@@ -31028,7 +31028,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: RnavGraph
-Version: 0.1.7
+Version: 0.1.8
 Depends: R (>= 2.10.0), methods, graphics, tcltk, graph
 Imports: scagnostics, rgl
 Suggests: PairViz, MASS, hexbin, RDRToolbox, vegan, RnavGraphImageData,
@@ -36081,8 +36081,9 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: sprinter
-Version: 1.0.0
-Depends: R (>= 3.0.0), randomForestSRC, CoxBoost, survival, LogicReg
+Version: 1.1.0
+Depends: R (>= 3.0.0), CoxBoost, survival
+Imports: GAMBoost, randomForestSRC, LogicReg
 Suggests: parallel, knitr
 License: GPL-2
 NeedsCompilation: no
