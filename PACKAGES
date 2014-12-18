@@ -16360,10 +16360,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: IsoGene
-Version: 1.0-22
+Version: 1.0-23
 Depends: R (>= 2.10), Iso
-Imports: xtable, Biobase, affy, ff(>= 2.0.0)
-Suggests: tcltk
+Imports: xtable, Biobase, affy, ff(>= 2.0.0), tcltk
 License: GPL-3
 NeedsCompilation: no
 
@@ -22139,7 +22138,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvtnorm
-Version: 1.0-1
+Version: 1.0-2
 Depends: R(>= 1.9.0)
 Imports: stats
 License: GPL-2
@@ -31563,6 +31562,12 @@ Package: Rothermel
 Version: 1.2
 Depends: R (>= 3.0.0), GA, ftsa
 License: GPL-2
+NeedsCompilation: no
+
+Package: RoughSetKnowledgeReduction
+Version: 0.1
+Depends: methods
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RoughSets
