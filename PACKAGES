@@ -33638,6 +33638,12 @@ Depends: mvtnorm, Ecdat, xtable
 License: EUPL
 NeedsCompilation: no
 
+Package: selfingTree
+Version: 0.2
+Depends: R (>= 2.15.1),foreach
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
 Package: SelvarMix
 Version: 1.0
 Imports: Rcpp (>= 0.11.1), glasso, parallel, Rmixmod
