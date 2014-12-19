@@ -2490,7 +2490,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: bgmm
-Version: 1.6
+Version: 1.7
 Depends: R (>= 2.0), mvtnorm, car, lattice, combinat
 License: GPL-3
 NeedsCompilation: no
@@ -2825,6 +2825,14 @@ Version: 0.2.1
 Depends: rexpokit, cladoRcpp, ape, phylobase, methods
 Imports: optimx, FD, parallel, xtable, plotrix, gdata
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: biogram
+Version: 1.0
+Depends: R (>= 3.0.0), slam
+Imports: bit
+Suggests: testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: Biograph
@@ -4355,7 +4363,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cgdsr
-Version: 1.1.31
+Version: 1.1.32
 Depends: R (>= 2.12.0)
 Imports: R.oo, R.methodsS3
 License: GPL
@@ -39496,7 +39504,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vardpoor
-Version: 0.2.0.14
+Version: 0.2.1
 Depends: R (>= 3.0.0), data.table (>= 1.9.4), laeken, stringr
 Imports: reshape2, foreach, plyr, gdata, MASS
 License: GPL (>= 2)
