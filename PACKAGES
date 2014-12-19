@@ -12662,7 +12662,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: geonames
-Version: 0.997
+Version: 0.998
 Depends: R (>= 2.2.0)
 Imports: rjson
 License: GPL-3
@@ -13552,7 +13552,7 @@ License: GPL-2
 NeedsCompilation: No
 
 Package: GPLTR
-Version: 0.95
+Version: 1.1
 Depends: rpart , parallel
 License: GPL (>= 2.0)
 NeedsCompilation: no
