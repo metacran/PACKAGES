@@ -923,9 +923,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aoos
-Version: 0.0.3
-Depends: methods
-Suggests: testthat
+Version: 0.1.0
+Depends: methods, R(>= 3.0)
+Suggests: testthat, knitr
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
@@ -22835,6 +22835,12 @@ Suggests: nlstools
 License: GPL-2
 NeedsCompilation: no
 
+Package: nlsem
+Version: 0.1
+Depends: R (>= 3.1.0), gaussquad, mvtnorm, nlme
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: nlsMicrobio
 Version: 0.0-1
 Depends: stats, nlstools
@@ -28631,7 +28637,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rcicr
-Version: 0.2.5
+Version: 0.2.6
 Imports: matlab, aspace, tcltk, jpeg
 License: GPL-2
 NeedsCompilation: no
