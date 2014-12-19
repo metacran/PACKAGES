@@ -14497,9 +14497,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: helsinki
-Version: 0.9.20
-Depends: R (>= 3.0.1), maptools
-Imports: rjson, RCurl
+Version: 0.9.22
+Depends: R (>= 3.0.1), maptools, RCurl
+Imports: rjson, sp
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
@@ -26513,7 +26513,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.2-03
+Version: 1.2-04
 Depends: mvtnorm
 Suggests: crossdes
 License: GPL (>= 2)
