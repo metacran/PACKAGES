@@ -14533,7 +14533,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: hermite
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 2.15.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33711,7 +33711,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiParBIVProbit
-Version: 3.2-12.1
+Version: 3.2-13
 Depends: R (>= 3.1.1), mgcv, mvtnorm
 Imports: magic, CDVine, VineCopula, VGAM, survey, trust, Matrix, sn
 License: GPL (>= 2)
@@ -35429,6 +35429,12 @@ Suggests: maps, testthat, lme4
 License: CeCILL-2
 NeedsCompilation: yes
 
+Package: spanr
+Version: 1.0
+Imports: plyr, stringr, survival
+License: GPL-2
+NeedsCompilation: yes
+
 Package: SPAr
 Version: 0.1
 License: GPL (>= 2)
@@ -36218,6 +36224,12 @@ Depends: grDevices
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: srd
+Version: 1.0
+Imports: plyr,animation,colorspace,stringr,survival
+License: GPL-2
+NeedsCompilation: yes
+
 Package: sROC
 Version: 0.1-2
 License: GPL (>= 3)
@@ -36696,10 +36708,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stream
-Version: 1.0-3
+Version: 1.1-0
 Depends: R (>= 2.13.0), methods, hash, proxy (>= 0.4-7)
 Imports: animation, clue, cluster, clusterGeneration, fpc, MASS,
         mlbench
+Suggests: DBI, RSQLite, testthat
 License: GPL-3
 NeedsCompilation: yes
 
