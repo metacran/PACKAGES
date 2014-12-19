@@ -2221,7 +2221,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.13
+Version: 2.14
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -14411,13 +14411,6 @@ Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: hddtools
-Version: 0.2.2
-Depends: R (>= 3.0.2)
-Imports: sp, rgdal, raster, RCurl, XML, zoo
-License: GPL-3
-NeedsCompilation: no
-
 Package: hdeco
 Version: 0.4.1
 Depends: R(>= 2.0.1)
@@ -15350,7 +15343,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.1
+Version: 1.1.1
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
 Imports: MASS, geometry, igraph
 LinkingTo: Rcpp
@@ -16029,8 +16022,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: interpretR
-Version: 0.1.0
+Version: 0.2.0
 Depends: randomForest
+Imports: AUC
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16129,7 +16123,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: io
-Version: 0.2
+Version: 0.2.1
 Depends: filenamer
 Imports: stringr
 Suggests: XML, rhdf5, yaml, jsonlite, testthat
@@ -18439,7 +18433,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: lpme
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.300.0)
@@ -23573,13 +23567,6 @@ Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: OneArmPhaseTwoStudy
-Version: 0.1
-Depends: methods, Rcpp (>= 0.9.11)
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: onemap
 Version: 2.0-4
 Depends: tcltk, tkrplot, R (>= 2.12.0)
@@ -27957,7 +27944,7 @@ License: CC BY-NC-SA 3.0
 NeedsCompilation: no
 
 Package: R2SWF
-Version: 0.8-1
+Version: 0.8-2
 Depends: sysfonts
 Suggests: XML, Cairo
 License: GPL-2
@@ -30668,7 +30655,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RJDBC
-Version: 0.2-4
+Version: 0.2-5
 Depends: methods, DBI, rJava (>= 0.4-15), R (>= 2.4.0)
 License: GPL-2
 NeedsCompilation: no
@@ -35724,7 +35711,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spBayesSurv
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.1), survival, coda
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.300.0)
@@ -36723,8 +36710,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: streamMOA
-Version: 0.1-1
-Depends: stream (>= 1.0-2), methods, rJava (>= 0.6-3)
+Version: 1.0-0
+Depends: stream (>= 1.1-0), methods, rJava (>= 0.6-3)
 License: GPL-3
 NeedsCompilation: no
 
@@ -37622,11 +37609,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.4.0
+Version: 0.5.2
 Depends: R(>= 2.10.0)
 Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), jsonlite,
-        foreach, ape, Taxonstand, reshape2, data.table, vegan,
-        assertthat, bold,
+        foreach, ape, Taxonstand, reshape2, data.table, vegan, bold
 Suggests: testthat, roxygen2, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -40210,13 +40196,6 @@ Imports: oro.nifti, mgcv, fslr
 License: GPL-2
 NeedsCompilation: no
 
-Package: WhopGenome
-Version: 0.9.0
-Depends: R (>= 1.8.0)
-Suggests: RMySQL, DBI, AnnotationDbi
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: widals
 Version: 0.5.4
 Depends: snowfall
@@ -40827,7 +40806,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ztable
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.2)
 Suggests: MASS, survival, testthat, knitr
 License: GPL-2
