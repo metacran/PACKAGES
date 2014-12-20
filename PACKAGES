@@ -6938,9 +6938,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ddalpha
-Version: 1.0.6
+Version: 1.1.0
 Depends: MASS, class, robustbase
-LinkingTo: BH
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: BH, Rcpp
 License: GPL-2
 NeedsCompilation: yes
 
@@ -12289,14 +12290,6 @@ Depends: R (>= 2.8.0), raster (>= 1.9-19), igraph (>= 0.7.0), Matrix,
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: gdsfmt
-Version: 1.1.0.1
-Depends: R (>= 2.14.0)
-Imports: methods
-Suggests: parallel, RUnit
-License: LGPL-3
-NeedsCompilation: yes
-
 Package: gee
 Version: 4.13-18
 Depends: stats
@@ -14629,13 +14622,6 @@ Package: HI
 Version: 0.4
 Depends: R (>= 1.7.0)
 License: GPL (>= 2)
-NeedsCompilation: yes
-
-Package: HIBAG
-Version: 1.2.4
-Depends: R (>= 2.14.0)
-Suggests: parallel
-License: GPL-3
 NeedsCompilation: yes
 
 Package: HiClimR
@@ -37154,7 +37140,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: svDialogs
-Version: 0.9-55
+Version: 0.9-57
 Depends: R (>= 2.6.0), svGUI (>= 0.9-52)
 License: GPL-2
 NeedsCompilation: no
@@ -37679,7 +37665,7 @@ License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: tcltk2
-Version: 1.2-10
+Version: 1.2-11
 Depends: R (>= 2.8.0), tcltk
 Suggests: utils
 License: LGPL-3 + file LICENSE
