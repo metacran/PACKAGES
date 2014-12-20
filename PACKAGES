@@ -5316,7 +5316,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: colourlovers
-Version: 0.1.3
+Version: 0.1.4
 Imports: XML, RJSONIO, png
 License: GPL-2
 NeedsCompilation: no
@@ -23060,6 +23060,14 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
+Package: NORTARA
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: corpcor(>= 1.6.7), Matrix(>= 1.1-4)
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: nortest
 Version: 1.0-2
 License: GPL (>= 2)
@@ -25730,13 +25738,6 @@ Enhances: gmp
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
-Package: PKmodelFinder
-Version: 1.1
-Depends: gWidgets, tcltk, tkrplot, RGtk2,
-        gWidgetsRGtk2,cairoDevice,numDeriv
-License: LGPL-2.1
-NeedsCompilation: no
-
 Package: PKPDmodels
 Version: 0.3.2
 Depends: R(>= 2.13.0)
@@ -27053,9 +27054,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: pse
-Version: 0.3.4
-Depends: R (>= 3.0.1), Hmisc, boot
-Suggests: sensitivity
+Version: 0.4.0
+Depends: R (>= 3.0.1), Hmisc, boot, parallel
+Suggests: sensitivity, mcmc
 License: GPL-3
 NeedsCompilation: yes
 
@@ -28882,9 +28883,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.ROC
-Version: 1.0-16
-Depends: R (>= 2.10), Rcmdr (>= 1.7.0), pROC, ROCR, ResourceSelection,
-        PredictABEL
+Version: 1.0-17
+Depends: R (>= 2.10), Rcmdr (>= 1.7.0), pROC, ROCR, ResourceSelection
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31150,10 +31150,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rnoaa
-Version: 0.2.0
-Imports: httr, lubridate, plyr, ggplot2, scales, sp, rgdal, rgeos,
-        maptools, stringr, XML, data.table, assertthat, jsonlite
-Suggests: testthat, roxygen2, knitr, taxize
+Version: 0.3.3
+Imports: httr, lubridate, plyr, ggplot2, scales, sp, RCurl, rgdal,
+        rgeos, maptools, stringr, XML, data.table, jsonlite, digest
+Suggests: testthat, roxygen2, knitr, taxize, dplyr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -31793,8 +31793,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RPublica
-Version: 0.1.1
-Imports: XML, RJSONIO, RCurl
+Version: 0.1.2
+Imports: jsonlite, httr, RCurl
 License: GPL-2
 NeedsCompilation: no
 
@@ -33149,12 +33149,6 @@ Depends: R (>= 2.10), MASS, parallel
 Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: SCEPtERextras
-Version: 0.1-0
-Depends: R (>= 2.10)
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: SCGLR
 Version: 2.0.1
