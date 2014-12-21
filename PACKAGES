@@ -958,6 +958,13 @@ Suggests: gee, expm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: aplore3
+Version: 0.7
+Depends: R (>= 3.1.1)
+Suggests: knitr, MASS, vcdExtra, nnet, survival, pROC
+License: GPL-3
+NeedsCompilation: no
+
 Package: aplpack
 Version: 1.3.0
 Depends: R (>= 2.8.0), tcltk
@@ -2376,7 +2383,7 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: berryFunctions
-Version: 1.6
+Version: 1.7.1
 Suggests: RColorBrewer
 License: GPL-2
 NeedsCompilation: no
@@ -3487,9 +3494,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: breakpoint
-Version: 1.0
-Depends: R (>= 2.5.0), ggplot2, foreach
-Suggests: snow, doSNOW, doMC, parallel
+Version: 1.1
+Depends: R (>= 2.5.0)
+Imports: ggplot2, MASS, msm, foreach, doParallel, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15100,6 +15107,13 @@ Depends: R (>= 2.10), bcv
 License: GPL-2
 NeedsCompilation: no
 
+Package: htmlTable
+Version: 1.0
+Imports: stringr, magrittr, Hmisc, methods
+Suggests: testthat, XML, knitr, xtable, reshape
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: htmltools
 Version: 0.2.6
 Depends: R (>= 2.14.1)
@@ -15356,7 +15370,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hypred
-Version: 0.4
+Version: 0.5
 Depends: R (>= 2.11.1), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -26479,7 +26493,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: powerGWASinteraction
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.10), mvtnorm, pwr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27504,7 +27518,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qmrparser
-Version: 0.1.4
+Version: 0.1.5
 Depends: R (>= 2.11.1)
 Suggests: RUnit
 License: GPL (>= 3)
@@ -29123,7 +29137,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppMLPACK
-Version: 1.0.9-3
+Version: 1.0.10
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, RcppArmadillo, BH
 License: LGPL (>= 2)
@@ -29257,6 +29271,14 @@ Depends: R (>= 2.15.0), sandwich, lmtest, AER, Formula
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
+Package: rDEA
+Version: 1.0-2
+Imports: slam (>= 0.1-9), truncreg(>= 0.2-1), truncnorm(>= 1.0-7),
+        maxLik
+Suggests: testthat
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
+
 Package: rdetools
 Version: 1.0
 License: GPL-2
@@ -29328,6 +29350,11 @@ Depends: methods, ggplot2, gridExtra, rgexf
 Imports: igraph, scales, locfit, Hmisc, reshape2
 Suggests: testthat, isotone, survey, network
 License: LGPL-2.1
+NeedsCompilation: yes
+
+Package: Rdsdp
+Version: 1.0.0
+License: GPL-3
 NeedsCompilation: yes
 
 Package: Rdsm
@@ -29886,10 +29913,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: reports
-Version: 0.1.2
+Version: 0.1.4
 Depends: R (>= 2.15)
-Imports: knitr, knitcitations
-Suggests: pander, qdap, installr, ProjectTemplate
+Suggests: pander, knitr, knitcitations, ProjectTemplate
 License: GPL-2
 NeedsCompilation: no
 
