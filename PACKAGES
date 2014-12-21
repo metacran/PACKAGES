@@ -2515,7 +2515,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BH
-Version: 1.54.0-5
+Version: 1.55.0-1
 License: BSL-1.0
 NeedsCompilation: no
 
@@ -10686,6 +10686,15 @@ Imports: ks (>= 1.8.0), rgl (>= 0.66), misc3d (>= 0.4-0), tcltk
 Suggests: MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
+
+Package: FeatureHashing
+Version: 0.7
+Depends: methods
+Imports: Rcpp (>= 0.11), Matrix
+LinkingTo: Rcpp
+Suggests: pack
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: features
 Version: 2011.8-2
@@ -23745,9 +23754,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: OPI
-Version: 1.6
-Depends: methods,rJava
-Suggests: OPIOctopus900
+Version: 2.1
+Depends: methods
 License: GPL-3
 NeedsCompilation: no
 
@@ -26623,7 +26631,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: PredictABEL
-Version: 1.2-1
+Version: 1.2-2
 Depends: R (>= 2.12.0), Hmisc, ROCR, epitools, PBSmodelling
 Suggests: GenABEL
 License: GPL (>= 2)
@@ -30306,9 +30314,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rgl
-Version: 0.95.1158
+Version: 0.95.1201
 Depends: R (>= 2.15.0),stats,grDevices
-Suggests: MASS
+Suggests: MASS, knitr, rmarkdown
 License: GPL
 NeedsCompilation: yes
 
@@ -35895,9 +35903,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: spfrontier
-Version: 0.1.10
-Depends: R (>= 2.14.0), moments, ezsim,tmvtnorm, mvtnorm
-Imports: Matrix, methods, parallel
+Version: 0.1.12
+Depends: R (>= 3.0),moments,ezsim,tmvtnorm,mvtnorm,maxLik
+Imports: methods, parallel,spdep
 License: GPL (>= 2)
 NeedsCompilation: no
 
