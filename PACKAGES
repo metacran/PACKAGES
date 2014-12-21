@@ -223,7 +223,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: adabag
-Version: 3.2
+Version: 4.0
 Depends: rpart, mlbench, caret
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -5756,12 +5756,6 @@ NeedsCompilation: no
 Package: corcounts
 Version: 1.4
 License: GPL (>= 3)
-NeedsCompilation: no
-
-Package: CORE
-Version: 2.0
-Imports: parallel
-License: GPL-2
 NeedsCompilation: no
 
 Package: CORElearn
@@ -37675,12 +37669,6 @@ Package: tbdiag
 Version: 0.1
 Suggests: testthat
 License: MIT
-NeedsCompilation: no
-
-Package: TBEST
-Version: 3.0
-Depends: parallel, signal, fdrtool
-License: GPL-2
 NeedsCompilation: no
 
 Package: TBSSurvival
