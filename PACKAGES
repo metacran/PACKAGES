@@ -472,8 +472,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: AGD
-Version: 0.30
-Depends: R (>= 2.10.0), gamlss
+Version: 0.31
+Depends: R (>= 2.10.0)
+Imports: gamlss, gamlss.dist
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -7230,8 +7231,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: depmix
-Version: 0.9.12
-Depends: R (>= 3.0.2), MASS
+Version: 0.9.13
+Depends: R (>= 3.1.2), MASS
 Suggests: Rdonlp2
 License: GPL-3
 NeedsCompilation: yes
@@ -13674,7 +13675,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: graphicsQC
-Version: 1.0-5
+Version: 1.0-6
 Imports: XML
 Suggests: Sxslt
 License: GPL-2
@@ -18756,7 +18757,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAd
-Version: 0.8-1
+Version: 0.8-2
 Depends: R (>= 2.10.1)
 Suggests: metafor, R2wd, ggplot2
 Enhances: compute.es, irr
@@ -37476,8 +37477,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: sysfonts
-Version: 0.2
-Suggests: RCurl, jsonlite
+Version: 0.3
+Suggests: jsonlite
 License: GPL-2
 NeedsCompilation: yes
 
