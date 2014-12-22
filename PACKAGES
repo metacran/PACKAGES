@@ -17993,12 +17993,6 @@ Imports: data.table, combinat, VGAM, plyr
 License: GPL-2
 NeedsCompilation: no
 
-Package: lmbc
-Version: 0.9.1
-Depends: mseq, lars
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: lm.beta
 Version: 1.5
 License: GPL (>= 2)
@@ -21542,12 +21536,6 @@ Version: 5.3.3
 Depends: R (>= 2.12.0), MSeasy(>= 5.3), tcltk
 Suggests: xcms
 License: GPL-2
-NeedsCompilation: no
-
-Package: mseq
-Version: 1.2
-Depends: R(>= 2.5),gbm
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MSG
@@ -25546,13 +25534,6 @@ Version: 0.1-15
 Depends: R (>= 2.14.0), ape
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: phyext
-Version: 0.0.1
-Depends: methods, phylobase (>= 0.6.2), ape (>= 2.5)
-Enhances: phylobase
-License: GPL-3
-NeedsCompilation: no
 
 Package: phylin
 Version: 1.0
@@ -30292,12 +30273,6 @@ Imports: methods, sp (>= 1.0-12)
 LinkingTo: sp
 Suggests: maptools (>= 0.8-5), testthat, XML
 License: GPL (>= 2)
-NeedsCompilation: yes
-
-Package: rgexf
-Version: 0.14.3.11
-Depends: XML, Rook, igraph
-License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rggobi
