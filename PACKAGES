@@ -1507,7 +1507,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: AutoSEARCH
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.4.1), zoo, gets, lgarch
 License: GPL-2
 NeedsCompilation: no
@@ -12802,8 +12802,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gets
-Version: 0.1
-Depends: R (>= 2.4.1), zoo, lgarch
+Version: 0.2
+Depends: R (>= 2.4.1), zoo
+Suggests: lgarch
 License: GPL-2
 NeedsCompilation: no
 
