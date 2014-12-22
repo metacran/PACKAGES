@@ -14516,8 +14516,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: helsinki
-Version: 0.9.22
-Depends: R (>= 3.0.1), maptools, RCurl
+Version: 0.9.24
+Depends: R (>= 3.1.0), maptools, RCurl
 Imports: rjson, sp
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -20164,7 +20164,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mhsmm
-Version: 0.4.12
+Version: 0.4.14
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -32573,7 +32573,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: Rvcg
-Version: 0.10
+Version: 0.10.1
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
