@@ -1756,6 +1756,12 @@ Depends: R (>= 2.14), utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: BayClone2
+Version: 1.0
+Depends: R (>= 2.0.1), combinat
+License: GPL-3 | file LICENSE
+NeedsCompilation: yes
+
 Package: BayesBridge
 Version: 0.5
 Depends: R (>= 2.10)
@@ -9749,7 +9755,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: etasFLP
-Version: 1.1.1
+Version: 1.2.0
 Depends: R (>= 2.14.0),mapdata,rgl
 Imports: fields,maps
 Suggests: MASS
@@ -13104,7 +13110,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GLDEX
-Version: 2.0.0.1
+Version: 2.0.0.2
 Depends: cluster
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -17122,9 +17128,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: KrigInv
-Version: 1.3
-Depends: DiceKriging, rgenoud, MASS, lhs, pbivnorm, randtoolbox,
-        DiceView
+Version: 1.3.1
+Depends: DiceKriging, pbivnorm, rgenoud, randtoolbox
 License: GPL-3
 NeedsCompilation: no
 
@@ -29614,6 +29619,13 @@ Depends: R (>= 3.0.2)
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: regexr
+Version: 0.0.2
+Depends: R (>= 3.1.0)
+Suggests: testthat, qdapRegex (>= 0.2.0)
+License: GPL-2
+NeedsCompilation: no
+
 Package: registry
 Version: 0.2
 Depends: R (>= 2.6.0)
@@ -35331,6 +35343,14 @@ Suggests: knitr, parallel
 License: GPL-3
 NeedsCompilation: no
 
+Package: SoundexBR
+Version: 1.0
+Depends: R (>= 3.0),stats,utils,graphics,grDevices
+Suggests: SciencesPo
+Enhances: RecordLinkage
+License: AGPL-3
+NeedsCompilation: yes
+
 Package: source.gist
 Version: 1.0.0
 Depends: RCurl, rjson
@@ -37695,7 +37715,7 @@ License: Apache License 2.0
 NeedsCompilation: yes
 
 Package: TDA
-Version: 1.2
+Version: 1.3
 Depends: R (>= 3.1.0), FNN, igraph, parallel, scales
 License: GPL-3
 NeedsCompilation: yes
@@ -39347,7 +39367,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: urltools
-Version: 0.5
+Version: 0.6
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr
