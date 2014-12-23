@@ -7379,12 +7379,6 @@ Depends: R (>= 2.15), ash
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: devEMF
-Version: 1.2
-Depends: R (>= 2.10.1), grDevices
-License: GPL-3
-NeedsCompilation: yes
-
 Package: Devore7
 Version: 0.7.6
 Depends: R(>= 2.4.0), MASS, lattice
