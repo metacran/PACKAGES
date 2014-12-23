@@ -21043,7 +21043,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MODISTools
-Version: 0.94.4
+Version: 0.94.5
 Imports: RCurl, XML
 License: GPL-3
 NeedsCompilation: no
@@ -21498,7 +21498,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msBP
-Version: 1.0-1
+Version: 1.0-2
 Depends: DPpackage
 License: GPL-2
 NeedsCompilation: yes
@@ -23952,7 +23952,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ordinal
-Version: 2014.11-14
+Version: 2014.12-22
 Depends: R (>= 2.13.0), methods
 Imports: ucminf, MASS, Matrix
 Suggests: lme4, nnet, xtable
@@ -27272,7 +27272,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pvar
-Version: 2.0
+Version: 2.1
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
 Suggests: e1071, testthat, knitr, formatR
@@ -36716,8 +36716,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: StratSel
-Version: 1.0
-Depends: R (>= 3.0.0), mnormt, memisc, Formula
+Version: 1.1
+Depends: R (>= 3.0.0), MASS, memisc, Formula, mnormt
 License: GPL (>= 2)
 NeedsCompilation: no
 
