@@ -29102,7 +29102,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RcppEigen
-Version: 0.3.2.2.0
+Version: 0.3.2.3.0
 Depends: R (>= 2.15.1)
 Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
