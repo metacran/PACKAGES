@@ -17428,10 +17428,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: latentnet
-Version: 2.5.1
-Depends: statnet.common, network, ergm (>= 3.1.2)
+Version: 2.6.0
+Depends: statnet.common, network, ergm (>= 3.2.0)
 Imports: sna, mvtnorm, abind, coda, tools
-Suggests: KernSmooth, snowFT, rgl, heplots
+Suggests: KernSmooth, snowFT, rgl, heplots, rlecuyer
 License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
@@ -28431,7 +28431,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: raters
-Version: 1.1
+Version: 2.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -29374,11 +29374,6 @@ Depends: methods, ggplot2, gridExtra, rgexf
 Imports: igraph, scales, locfit, Hmisc, reshape2
 Suggests: testthat, isotone, survey, network
 License: LGPL-2.1
-NeedsCompilation: yes
-
-Package: Rdsdp
-Version: 1.0.0
-License: GPL-3
 NeedsCompilation: yes
 
 Package: Rdsm
