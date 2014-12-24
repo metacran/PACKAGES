@@ -16370,7 +16370,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ismev
-Version: 1.39
+Version: 1.40
 Depends: R (>= 2.10.0), mgcv
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -39790,7 +39790,7 @@ License: MPL-1.1
 NeedsCompilation: no
 
 Package: verification
-Version: 1.40
+Version: 1.41
 Depends: R (>= 2.10), methods, fields, boot, CircStats, MASS, dtw
 License: GPL (>= 2)
 NeedsCompilation: no
