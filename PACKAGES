@@ -293,7 +293,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: additivityTests
-Version: 1.1-2
+Version: 1.1-4
 Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
@@ -6310,7 +6310,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: csn
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 2.2.0)
 Imports: mnormt
 License: GPL-2
@@ -8409,7 +8409,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DSsim
-Version: 1.0.1
+Version: 1.0.2
 Depends: shapefiles, splancs, mrds, mgcv, methods
 Suggests: testthat, parallel
 License: GPL (>= 2)
@@ -12431,7 +12431,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gender
-Version: 0.4.2
+Version: 0.4.3
 Depends: R (>= 3.0.0), utils, stats
 Imports: devtools(>= 1.5), dplyr (>= 0.2), httr (>= 0.4), jsonlite (>=
         0.9.10)
@@ -18793,7 +18793,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: mads
-Version: 0.1.0
+Version: 0.1.1
 Depends: mrds
 Suggests: testthat
 License: GPL (>= 2)
@@ -18906,6 +18906,12 @@ Package: managelocalrepo
 Version: 0.1.4
 Depends: R (>= 3.0)
 Imports: stringr (>= 0.6.2), assertthat (>= 0.1), tools (>= 3.0)
+License: GPL-2
+NeedsCompilation: no
+
+Package: manipulate
+Version: 1.0.1
+Depends: R (>= 2.11.1)
 License: GPL-2
 NeedsCompilation: no
 
@@ -24152,15 +24158,21 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: OutlierDM
-Version: 1.0-0
-Depends: R (>= 3.0.0), quantreg, MatrixModels, outliers, pcaPP
-Imports: methods, graphics
+Version: 1.1.1
+Depends: R (>= 3.1.0)
+Imports: quantreg, MatrixModels, outliers, pcaPP, methods, graphics
 License: GPL-3
 NeedsCompilation: no
 
 Package: outliers
 Version: 0.14
 Depends: R (>= 2.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: OutrankingTools
+Version: 1.0
+Depends: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26974,8 +26986,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: protr
-Version: 0.4-1
-Suggests: Biostrings, GOSemSim, foreach, doParallel
+Version: 0.5-1
+Suggests: Biostrings, GOSemSim, foreach, doParallel, org.Hs.eg.db
 License: BSD 3-clause License + file LICENSE
 NeedsCompilation: no
 
@@ -33853,7 +33865,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensR
-Version: 1.4-0
+Version: 1.4-4
 Imports: multcomp, MASS, numDeriv
 Suggests: ordinal, parallel, testthat (>= 0.8)
 License: GPL-2 | GPL-3
@@ -34137,9 +34149,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SharpeR
-Version: 0.1401
-Depends: R (>= 3.0.0), matrixcalc, xtable
-Suggests: quantmod, MASS, TTR, testthat, sandwich, knitr
+Version: 0.1501
+Depends: R (>= 3.0.0)
+Imports: matrixcalc
+Suggests: xtable, xts, quantmod, MASS, TTR, testthat, sandwich, knitr
 License: LGPL-3
 NeedsCompilation: no
 
@@ -35725,7 +35738,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SpatialVx
-Version: 0.2-1
+Version: 0.2-2
 Depends: R (>= 2.10.0), spatstat (>= 1.37-0), fields (>= 6.8),
         smoothie, smatr, turboEM
 Imports: distillery, maps, boot, CircStats, fastcluster, waveslim
