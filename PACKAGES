@@ -8249,7 +8249,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: no
 
 Package: dpcR
-Version: 0.1.3.1
+Version: 0.1.3.2
 Depends: R (>= 3.0.0), methods
 Imports: binom, chipPCR, e1071, dgof, multcomp, qpcR, pracma,
         rateratio.test, signal, shiny, spatstat
