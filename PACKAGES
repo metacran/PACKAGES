@@ -12950,11 +12950,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggRandomForests
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.1.0)
-Imports: ggplot2, randomForestSRC (>= 1.5.5), survival, tidyr, dplyr,
-        parallel
-Suggests: testthat, RColorBrewer, knitr, xtable
+Imports: randomForestSRC (>= 1.5.5), ggplot2, survival, parallel,
+        dplyr, reshape2
+Suggests: testthat, knitr, RColorBrewer, xtable, MASS, plot3D
 License: GPL (>= 3)
 NeedsCompilation: no
 
