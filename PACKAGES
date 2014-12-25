@@ -30182,7 +30182,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rfoaas
-Version: 0.0.4.20141212
+Version: 0.0.4.20141224
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39343,6 +39343,11 @@ Version: 1.0
 Depends: survival
 License: GPL-2
 NeedsCompilation: yes
+
+Package: uniftest
+Version: 1.0
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: uniReg
 Version: 1.0
