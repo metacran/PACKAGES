@@ -27273,9 +27273,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pubmed.mineR
-Version: 1.0.2.1
+Version: 1.0.3
 Depends: R (>= 2.10), methods
-Imports: RCurl, XML, SSOAP, NCBI2R, boot, R2HTML
+Imports: RCurl, XML, NCBI2R, boot, R2HTML
 Suggests: apcluster
 License: GPL-3
 NeedsCompilation: no
