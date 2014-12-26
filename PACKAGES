@@ -4731,7 +4731,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: cjoint
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.0.0), sandwich, lmtest, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -20113,7 +20113,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MfUSampler
-Version: 0.9
+Version: 0.9.1
 Depends: ars
 Suggests: sns
 License: GPL (>= 2)
@@ -23637,6 +23637,14 @@ Package: onion
 Version: 1.2-4
 Depends: R (>= 2.10)
 License: GPL
+NeedsCompilation: yes
+
+Package: onlinePCA
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: rARPACK, Rcpp (>= 0.11.2), splines
+LinkingTo: Rcpp, RcppArmadillo (>= 0.4.320.0)
+License: GPL-3
 NeedsCompilation: yes
 
 Package: OOmisc
@@ -31154,14 +31162,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RNeXML
-Version: 2.0.0
+Version: 2.0.1
 Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), taxize (>= 0.2.2), reshape2 (>=
         1.2.2), httr (>= 0.3), uuid (>= 0.1-1)
 Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
         (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1),
         testthat (>= 0.8.1), phylobase (>= 0.6.8), rmarkdown (>=
-        0.3.3), Sxslt
+        0.3.3), Sxslt (>= 0.91)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
