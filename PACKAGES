@@ -29042,6 +29042,11 @@ Depends: R (>= 2.0.0)
 License: Apache License 2.0
 NeedsCompilation: no
 
+Package: RConics
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: Rcplex
 Version: 0.3-2
 Depends: R (>= 2.6.0), slam
@@ -36576,6 +36581,12 @@ Version: 3.2.2
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
+Package: Statomica
+Version: 1.0
+Depends: R (>= 2.14.0), Biobase, multtest, distr, fBasics, methods
+License: CC BY-NC 4.0
+NeedsCompilation: no
+
 Package: StatRank
 Version: 0.0.4
 Imports: truncdist, plyr
@@ -40475,7 +40486,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: wskm
-Version: 1.4.11
+Version: 1.4.19
 Depends: R (>= 2.10), lattice, latticeExtra, clv
 License: GPL (>= 3)
 NeedsCompilation: yes
