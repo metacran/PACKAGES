@@ -20657,13 +20657,6 @@ Imports: RGCCA, igraph, rgl, pheatmap
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: mixor
-Version: 1.0.1
-Depends: R (>= 2.10)
-Suggests: survival
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: mixPHM
 Version: 0.7-1
 Depends: R (>= 3.0.0)
