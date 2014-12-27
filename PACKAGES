@@ -10154,7 +10154,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: extraTrees
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 Suggests: testthat, Matrix
 License: Apache License 2.0
@@ -22245,10 +22245,11 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: myTAI
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.1.1)
 Imports: Rcpp (>= 0.11.3), nortest (>= 1.0-2), fitdistrplus (>= 1.0-2),
-        parallel (>= 3.1.1), foreach (>= 1.4.2), iterators (>= 1.0.7)
+        parallel (>= 3.1.1), foreach (>= 1.4.2), doParallel (>= 1.0.8),
+        dplyr (>= 0.3.0)
 LinkingTo: Rcpp
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1)
 License: GPL-3
@@ -36671,7 +36672,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 0.9-0
+Version: 0.9-1
 Depends: R (>= 3.0.0), coda
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
