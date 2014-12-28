@@ -30983,7 +30983,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rmngb
-Version: 0.5-1
+Version: 0.6-1
+Imports: Hmisc
 License: GPL (>= 3)
 NeedsCompilation: no
 
