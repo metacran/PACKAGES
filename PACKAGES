@@ -1284,7 +1284,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: aRxiv
-Version: 0.5.5
+Version: 0.5.8
 Depends: R (>= 3.0.0)
 Imports: httr, utils, XML
 Suggests: devtools, knitr, roxygen2, testthat
@@ -20700,7 +20700,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mixture
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29079,7 +29079,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.4.550.1.0
+Version: 0.4.600.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
