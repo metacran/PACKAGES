@@ -18020,7 +18020,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lm.beta
-Version: 1.5
+Version: 1.5-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -25834,8 +25834,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: plfm
-Version: 1.1.1
-Depends: sfsmisc,abind
+Version: 1.1.2
+Depends: sfsmisc, abind
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27399,9 +27399,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: QCA
-Version: 1.1-3
+Version: 1.1-4
 Depends: R (>= 3.0.0)
-Imports: lpSolve
+Imports: lpSolve, utils
 Suggests: VennDiagram
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -31134,8 +31134,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rneos
-Version: 0.2-7
-Depends: R (>= 2.10.0), methods, XMLRPC, RCurl, XML, stats
+Version: 0.2-8
+Depends: R (>= 2.10.0), methods, RCurl, XML, stats
+Suggests: XMLRPC
 License: GPL (>= 2)
 NeedsCompilation: no
 
