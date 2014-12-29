@@ -5944,7 +5944,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: countrycode
-Version: 0.17
+Version: 0.18
+Suggests: testthat (>= 0.5)
 License: GPL-3
 NeedsCompilation: no
 
@@ -28012,7 +28013,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: R4CDISC
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.2), XML
 License: LGPL-3
 NeedsCompilation: no
