@@ -7571,9 +7571,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: diffEq
-Version: 1.0
-Depends: R (>= 2.01), deSolve, rootSolve, bvpSolve, ReacTran, diagram,
-        deTestSet, scatterplot3d
+Version: 1.0-1
+Depends: R (>= 2.01), deSolve, rootSolve, bvpSolve, ReacTran, deTestSet
+Imports: shape
+Suggests: scatterplot3d
 License: GPL
 NeedsCompilation: no
 
@@ -23491,9 +23492,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: OceanView
-Version: 1.0.1
+Version: 1.0.2
 Depends: plot3D, plot3Drgl, R (>= 2.10)
-Imports: shape
+Imports: rgl, shape
 License: GPL (>= 3.0)
 NeedsCompilation: yes
 
@@ -26675,10 +26676,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PReMiuM
-Version: 3.0.30
+Version: 3.0.32
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11), ggplot2 (>= 0.9.2.1), cluster, plotrix (>=
-        3.5)
+        3.5), gamlss.dist (>= 4.3-1)
 LinkingTo: Rcpp, RcppEigen (>= 0.3), BH (>= 1.54)
 License: GPL-2
 NeedsCompilation: yes
@@ -31297,11 +31298,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: RObsDat
-Version: 14.04
-Depends: R (>= 2.11.0), methods
-Imports: xts, zoo, DBI, vwr, e1071
-Suggests: RMySQL (>= 0.9-3), RSQLite, SSOAP, XMLSchema, testthat, XML,
-        maptools, sp, RColorBrewer, RPostgreSQL (>= 0.4), geonames
+Version: 14.12
+Depends: R (>= 2.11.0), methods, zoo
+Imports: spacetime, xts, DBI, vwr, e1071, sp
+Suggests: RSQLite, testthat, RColorBrewer, maptools, SSOAP, XML,
+        geonames
 License: GPL
 NeedsCompilation: no
 
@@ -33657,8 +33658,8 @@ License: GPL
 NeedsCompilation: yes
 
 Package: selectiongain
-Version: 2.0.29
-Depends: R (>= 3.0.0), mvtnorm
+Version: 2.0.40
+Depends: R (>= 3.1.0), mvtnorm
 License: GPL-2
 NeedsCompilation: no
 
@@ -39489,9 +39490,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: usl
-Version: 1.4.0
-Depends: R (>= 2.15.0)
-Imports: methods, graphics, stats, nlmrt
+Version: 1.4.1
+Depends: R (>= 2.15.0), methods
+Imports: graphics, stats, nlmrt
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
