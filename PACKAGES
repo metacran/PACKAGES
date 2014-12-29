@@ -1648,6 +1648,13 @@ Imports: boot, gam (>= 1.09)
 License: GPL-3
 NeedsCompilation: no
 
+Package: BANFF
+Version: 0.1
+Depends: foreach, doParallel
+Imports: DPpackage, igraph, mclust, pscl, tmvtnorm, network
+License: GPL-2
+NeedsCompilation: no
+
 Package: BANOVA
 Version: 0.2
 Depends: R (>= 3.0.1), rjags(>= 3-13), runjags (>= 1.2.1-0), coda (>=
@@ -8513,7 +8520,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dupiR
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15.1), methods, plotrix
 License: GPL-2
 NeedsCompilation: no
@@ -8813,8 +8820,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ecolMod
-Version: 1.2.5
-Depends: R (>= 2.01), rootSolve, diagram, deSolve
+Version: 1.2.6
+Depends: R (>= 2.01), rootSolve, shape, diagram, deSolve
 Suggests: maps, seacarb, scatterplot3d, deldir
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -37700,6 +37707,12 @@ Package: tbdiag
 Version: 0.1
 Suggests: testthat
 License: MIT
+NeedsCompilation: no
+
+Package: TBEST
+Version: 5.0
+Depends: parallel, signal, fdrtool
+License: GPL-2
 NeedsCompilation: no
 
 Package: TBSSurvival
