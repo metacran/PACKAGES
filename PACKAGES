@@ -28428,8 +28428,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: raters
-Version: 2.0
-License: GPL-2
+Version: 2.0.1
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rationalfun
