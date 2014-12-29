@@ -8666,12 +8666,6 @@ Suggests: gam, mgcv, mda, MASS
 License: GPL-3
 NeedsCompilation: yes
 
-Package: easingr
-Version: 1.0.1
-Imports: utils, xts, lattice, latticeExtra
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: EasyABC
 Version: 1.4
 Depends: R (>= 2.14.0), abc
@@ -37550,9 +37544,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tableone
-Version: 0.6.2
+Version: 0.6.3
 Imports: e1071, gmodels
-Suggests: survival, testthat
+Suggests: survival, testthat, knitr
 License: GPL-2
 NeedsCompilation: no
 
