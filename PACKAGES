@@ -12948,9 +12948,9 @@ License: MIT
 NeedsCompilation: no
 
 Package: ggmcmc
-Version: 0.5.1
-Depends: plyr, reshape2, ggplot2
-Suggests: foreach, rjags, coda, rstan
+Version: 0.6
+Depends: dplyr, tidyr, ggplot2
+Suggests: coda
 License: GPL-2
 NeedsCompilation: no
 
