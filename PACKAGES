@@ -2139,7 +2139,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BCDating
-Version: 0.9.3
+Version: 0.9.7
 Depends: methods
 License: GPL-2
 NeedsCompilation: no
@@ -28477,16 +28477,16 @@ License: GPL
 NeedsCompilation: no
 
 Package: rattle
-Version: 3.3.0
+Version: 3.4.1
 Depends: R (>= 2.13.0)
 Suggests: RGtk2, pmml (>= 1.2.13), bitops, colorspace, ada, amap,
         arules, arulesViz, biclust, cairoDevice, cba, corrplot, descr,
         doBy, dplyr, e1071, ellipse, fBasics, foreign, fpc, gdata,
         ggdendro, ggplot2, gplots, graph, grid, gtools, gWidgetsRGtk2,
-        hmeasure, Hmisc, kernlab, latticist, Matrix, methods, mice,
-        nnet, odfWeave, party, playwith, plyr, psych, randomForest,
-        RBGL, RColorBrewer, reshape, rggobi, RGtk2Extras, ROCR, RODBC,
-        rpart, rpart.plot, SnowballC, stringr, survival, timeDate, tm,
+        hmeasure, Hmisc, kernlab, Matrix, methods, mice, nnet,
+        odfWeave, party, playwith, plyr, psych, randomForest, RBGL,
+        RColorBrewer, reshape, rggobi, RGtk2Extras, ROCR, RODBC, rpart,
+        rpart.plot, SnowballC, stringr, survival, timeDate, tm,
         verification, weightedKmeans, XML, xlsx, pkgDepTools, Rgraphviz
 License: GPL (>= 2)
 NeedsCompilation: no
