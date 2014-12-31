@@ -2570,8 +2570,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: bibtex
-Version: 0.3-6
-Depends: R (>= 2.13.0)
+Version: 0.4.0
+Depends: R (>= 3.0.2)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
