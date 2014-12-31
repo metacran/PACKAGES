@@ -7629,7 +7629,7 @@ License_restricts_use: yes
 NeedsCompilation: no
 
 Package: digest
-Version: 0.6.7
+Version: 0.6.8
 Depends: R (>= 2.4.1)
 License: GPL-2
 NeedsCompilation: yes
