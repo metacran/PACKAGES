@@ -10718,6 +10718,12 @@ Depends: R (>= 2.6.0), base, grDevices, graphics
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FeaLect
+Version: 1.7
+Depends: lars, rms
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: feature
 Version: 1.2.11
 Depends: R (>= 1.4.0)
