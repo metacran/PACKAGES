@@ -21571,7 +21571,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msBP
-Version: 1.0-2
+Version: 1.0-2.1
 Depends: DPpackage
 License: GPL-2
 NeedsCompilation: yes
@@ -36776,8 +36776,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Storm
-Version: 1.1
-Depends: R (>= 2.1.0), methods, rjson
+Version: 1.2
+Depends: R (>= 2.1.0), methods, permute, rjson
 License: GPL (>= 2)
 NeedsCompilation: no
 
