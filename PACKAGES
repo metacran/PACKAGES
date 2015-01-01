@@ -31282,10 +31282,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.0.4
-Depends: R (>= 3.1.1)
-Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6), XML
-        (>= 3.98.1.1), GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
+Version: 2.1.0
+Depends: R (>= 3.1.1), XML (>= 3.98.1.1), rvest (>= 0.1.0)
+Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6),
+        GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -36350,6 +36350,12 @@ Package: squash
 Version: 1.0.6
 Depends: grDevices
 License: Artistic-2.0
+NeedsCompilation: no
+
+Package: SRCS
+Version: 1.0
+Imports: parallel
+License: LGPL (>= 3)
 NeedsCompilation: no
 
 Package: srd
