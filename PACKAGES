@@ -29438,6 +29438,11 @@ Imports: XML, RCurl, OAIHarvester, ape, gdata, plyr, stringr, RJSONIO
 License: CC0
 NeedsCompilation: no
 
+Package: Rdsdp
+Version: 1.0.1
+License: GPL-3
+NeedsCompilation: yes
+
 Package: Rdsm
 Version: 2.1.1
 Imports: bigmemory (>= 4.0.0), parallel
