@@ -11400,7 +11400,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ForImp
-Version: 1.0.2
+Version: 1.0.3
 Depends: homals, sampling, mvtnorm
 License: GPL
 NeedsCompilation: no
@@ -17576,9 +17576,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lazyeval
-Version: 0.1.9
+Version: 0.1.10
 Depends: R (>= 3.1.0)
-Suggests: knitr, rmarkdown (>= 0.2.65), microbenchmark
+Suggests: knitr, rmarkdown (>= 0.2.65), microbenchmark, testthat
 License: GPL-3
 NeedsCompilation: yes
 
@@ -38812,7 +38812,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TreePar
-Version: 3.2
+Version: 3.3
 Depends: ape, Matrix, subplex, TreeSim (>= 2.1), deSolve
 License: GPL-2
 NeedsCompilation: no
