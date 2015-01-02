@@ -39781,11 +39781,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: vcdExtra
-Version: 0.6-3
+Version: 0.6-5
 Depends: R (>= 2.10), vcd, gnm (>= 1.0.3), grid
 Imports: MASS
 Suggests: ca, gmodels, Fahrmeir, effects, VGAM, plyr, lmtest, nnet,
-        ggplot2, Sleuth2, car, lattice, stats4, rgl
+        ggplot2, Sleuth2, car, lattice, stats4, rgl, AER
 License: GPL (>= 2)
 NeedsCompilation: no
 
