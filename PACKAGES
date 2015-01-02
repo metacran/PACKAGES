@@ -3265,7 +3265,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BNSP
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.1.0)
 Suggests: mvtnorm
 License: GPL (>= 2)
@@ -8387,6 +8387,13 @@ Version: 1.3
 Depends: R (>= 2.11)
 License: GPL-3
 NeedsCompilation: yes
+
+Package: dropR
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: plyr,shiny
+License: GPL-2
+NeedsCompilation: no
 
 Package: drsmooth
 Version: 1.0
@@ -17963,6 +17970,13 @@ NeedsCompilation: yes
 Package: linkim
 Version: 0.1
 Depends: R(>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: linkR
+Version: 1.0.0
+Depends: R (>= 2.11.0)
+Imports: svgViewR
 License: GPL (>= 2)
 NeedsCompilation: no
 
