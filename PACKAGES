@@ -17879,10 +17879,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lifecontingencies
-Version: 1.1
+Version: 1.1.5
 Depends: R (>= 2.14), methods
-Imports: parallel, utils
-Suggests: demography, forecast, markovchain
+Imports: parallel, utils, markovchain
+Suggests: demography, forecast, testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -22346,6 +22346,14 @@ Version: 2.13.2
 Depends: Matrix
 Suggests: parallel, asreml
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: NAM
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: Rcpp, Matrix, missForest
+LinkingTo: Rcpp
+License: GPL-3
 NeedsCompilation: yes
 
 Package: namespace
@@ -30473,7 +30481,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rgr
-Version: 1.1.9
+Version: 1.1.10
 Depends: MASS, fastICA
 Suggests: akima
 License: GPL-2
