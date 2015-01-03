@@ -8541,7 +8541,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dunn.test
-Version: 1.2.1
+Version: 1.2.2
 License: GPL-2
 NeedsCompilation: no
 
@@ -17682,6 +17682,12 @@ Package: LDOD
 Version: 1.0
 Depends: R (>= 2.10.0), Rsolnp, Rmpfr
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: LDPD
+Version: 1.0.2
+Imports: MASS, nleqslv
+License: GPL-2
 NeedsCompilation: no
 
 Package: ldr
@@ -41000,7 +41006,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ztable
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.1.2)
 Suggests: MASS, survival, testthat, knitr
 License: GPL-2
