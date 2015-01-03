@@ -25779,13 +25779,6 @@ Suggests: DBI, dplyr, RSQLite (>= 1.0.0), parallel, knitr, animation,
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: PivotalR
-Version: 0.1.17.8
-Depends: R (>= 2.14.0), methods, Matrix
-Enhances: DBI, RPostgreSQL, shiny, testthat, tools, rpart
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: pixmap
 Version: 0.4-11
 Depends: methods
