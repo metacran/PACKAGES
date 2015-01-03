@@ -3965,14 +3965,14 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: caret
-Version: 6.0-37
+Version: 6.0-41
 Depends: R (>= 2.10), stats, lattice (>= 0.20), ggplot2
 Imports: car, reshape2, foreach, methods, plyr, nlme, BradleyTerry2
 Suggests: e1071, earth (>= 2.2-3), fastICA, gam, ipred, kernlab, klaR,
         MASS, ellipse, mda, mgcv, mlbench, nnet, party (>= 0.9-99992),
         pls, pROC, proxy, randomForest, RANN, spls, subselect, pamr,
-        superpc, Cubist, testthat
-License: GPL-2
+        superpc, Cubist, testthat (>= 0.9.1)
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: caribou
@@ -5741,7 +5741,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: copBasic
-Version: 1.6.0
+Version: 1.7.0
 Depends: R (>= 2.10)
 Imports: lmomco
 License: GPL-2
@@ -13158,7 +13158,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: glcm
-Version: 1.0
+Version: 1.2
 Depends: R (>= 2.10.0)
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, RcppArmadillo
@@ -24663,6 +24663,13 @@ Imports: gmp, polynom
 License: GPL
 NeedsCompilation: yes
 
+Package: partools
+Version: 1.0.1
+Depends: parallel
+License: GPL (>= 2)
+OS_type: Linux/Mac/Unix needed for the dbs() debugging tool
+NeedsCompilation: no
+
 Package: partsm
 Version: 1.1-2
 Depends: R (>= 2.0.0)
@@ -25778,6 +25785,13 @@ Suggests: DBI, dplyr, RSQLite (>= 1.0.0), parallel, knitr, animation,
         shiny, testthat, ggsubplot, rgl
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: PivotalR
+Version: 0.1.17.45
+Depends: R (>= 2.14.0), methods, Matrix
+Enhances: DBI, RPostgreSQL, shiny, testthat, tools, rpart
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: pixmap
 Version: 0.4-11
@@ -31289,10 +31303,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.1.0
-Depends: R (>= 3.1.1), XML (>= 3.98.1.1), rvest (>= 0.1.0)
+Version: 2.1.1
+Depends: R (>= 3.1.1), rvest (>= 0.1.0)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6),
-        GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1)
+        GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1), XML (>= 3.98.1.1)
 License: GPL (>= 3)
 NeedsCompilation: no
 
