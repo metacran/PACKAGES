@@ -5142,7 +5142,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cna
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 2.13.0), utils
 License: GPL (>= 2)
 NeedsCompilation: no
