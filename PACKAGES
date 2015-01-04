@@ -13412,6 +13412,14 @@ Depends: MASS, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: Gmisc
+Version: 1.0
+Depends: htmlTable
+Imports: grid, lattice, sp, Hmisc, forestplot
+Suggests: testthat, knitr
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: gmm
 Version: 1.5-0
 Depends: R (>= 2.10.0), sandwich
