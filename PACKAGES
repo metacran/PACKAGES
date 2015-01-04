@@ -10462,7 +10462,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fastcluster
-Version: 1.1.13
+Version: 1.1.14
 Enhances: stats, flashClust
 License: FreeBSD | GPL-2 | file LICENSE
 NeedsCompilation: yes
