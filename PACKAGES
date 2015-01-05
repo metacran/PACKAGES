@@ -5850,9 +5850,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: CorrBin
-Version: 1.4
-Depends: R (>= 2.10), boot, combinat
-Suggests: geepack, lattice
+Version: 1.5
+Depends: R (>= 2.10)
+Imports: boot, combinat, geepack, dirmult, mvtnorm
+Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -8309,7 +8310,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: dplR
-Version: 1.6.1
+Version: 1.6.2
 Depends: R (>= 2.15.0)
 Imports: gmp (>= 0.5-2), graphics, grDevices, grid, stats, utils,
         digest (>= 0.2.3), lattice (>= 0.13-6), png (>= 0.1-1), stringi
@@ -21560,9 +21561,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: mritc
-Version: 0.4-0
-Depends: R (>= 2.14.0), lattice (>= 0.18-8), misc3d (>= 0.8-1), fmri
-        (>= 1.4-6), AnalyzeFMRI (>= 1.1-14)
+Version: 0.5-0
+Depends: R (>= 2.14.0), lattice (>= 0.18-8), misc3d (>= 0.8-1),
+        oro.nifti(>= 0.4.0)
 Suggests: tkrplot (>= 0.0-23)
 License: GPL
 NeedsCompilation: yes
@@ -33641,6 +33642,12 @@ Package: sdtoolkit
 Version: 2.33-1
 License: GPL-3
 NeedsCompilation: no
+
+Package: sdwd
+Version: 1.0.1
+Depends: Matrix
+License: GPL-2
+NeedsCompilation: yes
 
 Package: seacarb
 Version: 3.0.3
