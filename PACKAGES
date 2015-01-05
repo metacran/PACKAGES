@@ -21211,7 +21211,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: moments
-Version: 0.13
+Version: 0.14
 License: GPL (>= 2)
 NeedsCompilation: no
 
