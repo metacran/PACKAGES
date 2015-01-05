@@ -2541,7 +2541,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BH
-Version: 1.55.0-2
+Version: 1.55.0-3
 License: BSL-1.0
 NeedsCompilation: no
 
@@ -10477,7 +10477,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fastcluster
-Version: 1.1.14
+Version: 1.1.15
 Enhances: stats, flashClust
 License: FreeBSD | GPL-2 | file LICENSE
 NeedsCompilation: yes
@@ -12830,7 +12830,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 1.1.5
+Version: 1.1.8
 Depends: Matrix, raster, sp, R (>= 3.0.0)
 Imports: abind, numDeriv, pracma, methods
 Suggests: geoR, RandomFields, rgdal, parallel, mapmisc, ellipse
@@ -19068,7 +19068,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapmisc
-Version: 1.0.0
+Version: 1.1.1
 Depends: sp, raster, R (>= 3.0.0)
 Suggests: RColorBrewer, geonames, classInt, rgdal, knitr
 License: GPL
@@ -19910,7 +19910,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MenuCollection
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0), RGtk2, RGtk2Extras
 Imports: gplots, grDevices, graphics
 License: GPL-2
