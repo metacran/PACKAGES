@@ -4822,7 +4822,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: classInt
-Version: 0.1-21
+Version: 0.1-22
 Depends: R (>= 2.2)
 Imports: grDevices, stats, e1071, class
 License: GPL (>= 2)
@@ -34748,15 +34748,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 1.2
-Depends: R (>= 2.15.0)
-Imports: TAM (>= 1.2), CDM (>= 4.0), mirt (>= 1.6), combinat, ic.infer,
-        sfsmisc, sm, psych, pbivnorm, gtools, Rcpp (>= 0.11.0), qgraph,
-        lavaan (>= 0.5-17), semPlot, igraph, coda, mvtnorm, MASS,
-        Matrix
+Version: 1.3
+Depends: R (>= 2.15.0), TAM (>= 1.2), CDM (>= 4.1)
+Imports: Rcpp (>= 0.11.0), mirt (>= 1.7), lavaan (>= 0.5-17), qgraph,
+        semPlot, combinat, ic.infer, sfsmisc, sm, psych, pbivnorm,
+        gtools, igraph, coda, mvtnorm, MASS, Matrix
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: eRm, ltm, MultiLCIRT, mRm, MCMCglmm, lme4, GPArotation,
-        semTools, IsingFit, MplusAutomation (>= 0.6)
+Suggests: eRm, ltm, MultiLCIRT, psychomix, psychotools, mRm, MCMCglmm,
+        lme4, GPArotation, semTools, IsingFit, MplusAutomation (>= 0.6)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
