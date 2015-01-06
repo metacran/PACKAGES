@@ -18715,9 +18715,9 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.13
+Version: 2.14
 Depends: methods, R (>= 3.0)
-Imports: multcomp, plyr, Matrix
+Imports: multcomp, plyr, Matrix, mvtnorm
 Suggests: pbkrtest (>= 0.4-1), lattice, multcompView, car, mediation,
         ordinal
 Enhances: afex, coxme, gee, geepack, glmmADMB, lme4, MASS, nlme,
@@ -32424,7 +32424,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rSPACE
-Version: 1.0
+Version: 1.0.4
 Imports: raster, RMark, ggplot2, tcltk2, sp, grid, plyr, tcltk
 License: GPL (>= 2)
 NeedsCompilation: yes
