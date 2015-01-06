@@ -19820,6 +19820,14 @@ Suggests: mgcv, quantreg, VGAM, SuppDists, lme4 (>= 1.0), survival,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: medicalrisk
+Version: 1.1
+Depends: R (>= 2.11.0)
+Imports: plyr (>= 1.5), reshape2, hash
+Suggests: testthat, knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: MedOr
 Version: 0.1
 Depends: R (>= 2.15.0)
@@ -28391,7 +28399,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: randomUniformForest
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.0.0)
 Imports: methods, Rcpp (>= 0.11.1), parallel, doParallel, iterators,
         foreach (>= 1.4.2), ggplot2, pROC, gtools, cluster, MASS
@@ -29268,7 +29276,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppCNPy
-Version: 0.2.3
+Version: 0.2.4
 Depends: R (>= 3.1.0)
 Imports: methods, Rcpp
 LinkingTo: Rcpp
@@ -29525,7 +29533,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: Rdsdp
-Version: 1.0.1
+Version: 1.0.2
 License: GPL-3
 NeedsCompilation: yes
 
@@ -37338,12 +37346,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: survMisc
-Version: 0.4.2
-Depends: R (>= 2.10), survival, stats, ggplot2, data.table, rpart
-Imports: graphics, gridExtra, utils, combinat, Hmisc, zoo, km.ci,
-        KMsurv, gam
+Version: 0.4.4
+Depends: survival, ggplot2
+Imports: KMsurv, combinat, Hmisc, zoo, data.table, km.ci, grid,
+        gridExtra, rpart, gam
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: survPresmooth
 Version: 1.1-8
