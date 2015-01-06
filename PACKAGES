@@ -4303,6 +4303,14 @@ Depends: R (>= 2.13.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: CEGO
+Version: 1.0.1108
+Depends: R (>= 3.0.0)
+Imports: MASS, stats, DEoptim
+Suggests: nloptr
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: celestial
 Version: 1.1
 License: GPL-2
@@ -6685,9 +6693,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: DAMisc
-Version: 1.2
-Depends: car, effects, lattice, sm, MASS, nnet, splines, pscl, gdata,
-        xtable
+Version: 1.3
+Depends: car, effects,
+Imports: lattice, sm, MASS, nnet, splines, pscl, gdata, xtable
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11384,7 +11392,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: forecast
-Version: 5.7
+Version: 5.8
 Depends: R (>= 3.0.2), stats, graphics, zoo, timeDate
 Imports: tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,
         parallel
@@ -14925,7 +14933,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: hitandrun
-Version: 0.4-2
+Version: 0.5
 Imports: rcdd (>= 1.1)
 License: GPL-3
 NeedsCompilation: yes
@@ -16238,7 +16246,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: investr
-Version: 1.2.0
+Version: 1.2.1
 Depends: graphics, stats
 Imports: nlme
 Suggests: testthat
@@ -37810,12 +37818,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.2
-Depends: R (>= 2.15.1), CDM (>= 4.0), MASS
-Imports: Rcpp, mirt (>= 1.6), lavaan (>= 0.5-17), tensor, sfsmisc,
-        GPArotation, psych, lattice, mvtnorm
+Version: 1.3
+Depends: R (>= 2.15.1), CDM (>= 4.1), MASS
+Imports: Rcpp, mirt (>= 1.7), lavaan (>= 0.5-17), tensor, sfsmisc,
+        GPArotation, psych, lattice, mvtnorm, msm
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: sirt (>= 1.0)
+Suggests: sirt (>= 1.0), PP (>= 0.5-3), WrightMap (>= 1.1), semTools
+        (>= 0.4-6)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
