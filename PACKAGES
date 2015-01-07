@@ -12401,9 +12401,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: gdimap
-Version: 0.1-8
-Depends: R (>= 3.0.0), rgl, Rniftilib
-Imports: grid, gridExtra, colorspace, geometry, gsl, abind, movMF
+Version: 0.1-9
+Depends: R (>= 3.0.0), rgl
+Imports: oro.nifti, movMF, grid, gridExtra, colorspace, geometry, gsl,
+        abind
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39124,7 +39125,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tsc
-Version: 1.0-2
+Version: 1.0-3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
