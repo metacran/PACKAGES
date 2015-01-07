@@ -2388,6 +2388,14 @@ Version: 0.2.3
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: BEQI2
+Version: 2.0-0
+Depends: R (>= 3.0.2), methods
+Imports: knitr, markdown, jsonlite, xtable, plyr, reshape2
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: ber
 Version: 4.0
 Depends: MASS
@@ -10543,7 +10551,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FastPCS
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.1.1), matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
@@ -12400,9 +12408,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gdistance
-Version: 1.1-5
-Depends: R (>= 2.8.0), raster (>= 1.9-19), igraph (>= 0.7.0), Matrix,
-        methods, sp
+Version: 1.1-6
+Depends: R (>= 2.8.0), raster (>= 1.9-19), methods, igraph (>= 0.7.0),
+        Matrix
+Imports: sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38390,9 +38399,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tikzDevice
-Version: 0.7.0
-Depends: R (>= 2.14.0), filehash
-Suggests: testthat (>= 0.6), evaluate, stringr, ggplot2, maps
+Version: 0.8
+Depends: R (>= 2.14.0)
+Imports: filehash
+Suggests: testthat (>= 0.8.1), evaluate, stringr, ggplot2, maps, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
