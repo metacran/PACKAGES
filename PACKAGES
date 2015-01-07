@@ -5240,10 +5240,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cocor
-Version: 1.0-0
+Version: 1.1-0
 Depends: methods
 Suggests: testthat
-Enhances: rkward
+Enhances: RKWard
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -19969,7 +19969,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 4.0-2
+Version: 4.0-3
 Depends: R (>= 2.9.1)
 Imports: grid
 Suggests: metafor
@@ -31384,12 +31384,6 @@ Package: rngwell19937
 Version: 0.6-0
 License: file LICENSE
 License_restricts_use: yes
-NeedsCompilation: yes
-
-Package: Rniftilib
-Version: 0.0-32
-Depends: R (>= 1.8.0)
-License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RNiftyReg
