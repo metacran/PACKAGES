@@ -22336,12 +22336,12 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: mwaved
-Version: 1.1.0
-Imports: Rcpp (>= 0.11.1), shiny
+Version: 1.1.1
+Imports: Rcpp (>= 0.11.1), shiny, grid
 LinkingTo: Rcpp
-Suggests: fracdiff, ggplot2, gridExtra, testthat, knitr
+Suggests: fracdiff, ggplot2, testthat, knitr
 License: GPL
-NeedsCompilation: Yes
+NeedsCompilation: yes
 
 Package: mxkssd
 Version: 1.1
@@ -23890,7 +23890,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: openssl
-Version: 0.2
+Version: 0.3
+Suggests: testthat, digest, knitr
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
