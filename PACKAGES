@@ -13677,12 +13677,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gplots
-Version: 2.15.0
+Version: 2.16.0
 Depends: R (>= 3.0)
 Imports: gtools, gdata, stats, caTools, KernSmooth
 Suggests: grid, MASS
 License: GPL-2
-NeedsCompilation: No
+NeedsCompilation: no
 
 Package: GPLTR
 Version: 1.1
@@ -21825,7 +21825,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MTurkR
-Version: 0.5.51
+Version: 0.6
 Imports: RCurl, digest, XML, tcltk
 License: GPL-2
 NeedsCompilation: no
@@ -27590,6 +27590,13 @@ Suggests: XML, RODBC, car
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: QCAtools
+Version: 0.1
+Depends: R (>= 3.1.0), stringr (>= 0.6.2), QCA (>= 1.1), ggplot2 (>=
+        0.9.3.1), directlabels (>= 2013.6.15)
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: qcc
 Version: 2.6
 Depends: R (>= 2.11)
@@ -30489,6 +30496,13 @@ NeedsCompilation: yes
 Package: RGENERATE
 Version: 1.3
 Depends: R (>= 2.10),RMAWGEN
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: RGENERATEPREC
+Version: 1.0
+Depends: R (>= 3.0), copula, RGENERATE, blockmatrix, Matrix, stringr
+Imports: RMAWGEN
 License: GPL (>= 2)
 NeedsCompilation: no
 
