@@ -16828,7 +16828,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: jomo
-Version: 0.1-1
+Version: 0.1-2
 Suggests: BaBooN
 License: GPL-2
 NeedsCompilation: yes
@@ -24778,12 +24778,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: partykit
-Version: 0.8-3
+Version: 0.8-4
 Depends: R (>= 3.1.0), graphics, grid
 Imports: stats, survival
 Suggests: XML, pmml, rJava, rpart, mvtnorm, Formula, sandwich,
         strucchange, vcd, AER, mlbench, TH.data (>= 1.0-3), coin, RWeka
-        (>= 0.4-19), datasets, psychotools, psychotree
+        (>= 0.4-19), datasets, parallel, psychotools, psychotree
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
@@ -36042,7 +36042,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: spdep
-Version: 0.5-81
+Version: 0.5-82
 Depends: R (>= 3.0.0), methods, sp (>= 1.0), Matrix (>= 1.0.12)
 Imports: LearnBayes, deldir, boot (>= 1.3-1), splines, coda, nlme, MASS
 Suggests: parallel, spam(>= 0.13-1), RANN, RColorBrewer, lattice,
