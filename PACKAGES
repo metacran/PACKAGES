@@ -6444,8 +6444,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: cudaBayesreg
-Version: 0.3-15
-Depends: R (>= 2.9.2), cudaBayesregData, oro.nifti
+Version: 0.3-16
+Depends: R (>= 3.0.0), cudaBayesregData, oro.nifti
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -8710,7 +8710,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: eaf
-Version: 1.06
+Version: 1.07
 Depends: R (>= 2.10.0)
 Imports: modeltools
 License: GPL (>= 2)
@@ -26102,7 +26102,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plotmo
-Version: 2.2.0
+Version: 2.2.1
 Suggests: earth, rpart
 License: GPL-3
 NeedsCompilation: no
@@ -29379,8 +29379,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RcppProgress
-Version: 0.1
-Depends: R (>= 2.13.0), Rcpp (>= 0.9.4)
+Version: 0.2
+Imports: Rcpp (>= 0.9.4)
 LinkingTo: Rcpp
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -38394,7 +38394,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tikzDevice
-Version: 0.8
+Version: 0.8.1
 Depends: R (>= 2.14.0)
 Imports: filehash
 Suggests: testthat (>= 0.8.1), evaluate, stringr, ggplot2, maps, knitr
