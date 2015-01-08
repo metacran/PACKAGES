@@ -538,10 +538,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: AICcmodavg
-Version: 2.0-1
+Version: 2.0-2
 Depends: R (>= 3.0.0)
 Imports: methods, stats, graphics, lattice, MASS, Matrix, nlme, stats4,
-        unmarked, VGAM
+        unmarked, VGAM, xtable
 Suggests: betareg, coxme, lme4, maxlike, nnet, ordinal, pscl, R2jags,
         R2OpenBUGS, R2WinBUGS, survival
 License: GPL (>= 2)
@@ -4724,7 +4724,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 2.10.0)
 Imports: GlobalOptions (>= 0.0.4)
 Suggests: knitr
@@ -19298,8 +19298,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MATA
-Version: 0.1
-Depends: R (>= 3.1.1)
+Version: 0.2
+Depends: R (>= 3.1.2)
 License: GPL-2
 NeedsCompilation: no
 
@@ -19568,7 +19568,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MCDA
-Version: 0.0.7
+Version: 0.0.8
 Imports: Rglpk, Kendall, glpkAPI
 License: CeCILL-2
 NeedsCompilation: no
@@ -28400,8 +28400,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: random
-Version: 0.2.2
+Version: 0.2.3
 Depends: R (>= 2.8.0)
+Imports: curl
 License: GPL (>= 2)
 NeedsCompilation: no
 
