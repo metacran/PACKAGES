@@ -3573,7 +3573,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: brnn
-Version: 0.4
+Version: 0.5
 Depends: R (>= 3.1.2), Formula
 License: GPL-2
 NeedsCompilation: yes
@@ -36757,10 +36757,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: statar
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.1.0)
 Imports: data.table, dplyr (>= 0.3), ggplot2, grid, Hmisc, lazyeval,
-        lfe, lubridate, matrixStats, stringr, tidyr
+        lfe, lubridate, matrixStats, stargazer, stringr, tidyr
 Suggests: knitr, testthat
 License: GPL-2
 NeedsCompilation: no
@@ -40268,9 +40268,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: vows
-Version: 0.3
+Version: 0.3.1
 Depends: R (>= 2.9.0), fda, gamm4, rpanel (>= 1.1-1)
-Imports: mgcv, RLRsim, Rniftilib, shape, stringr
+Imports: mgcv, RLRsim,shape, stringr
+Suggests: Rniftilib
 License: GPL (>= 2)
 NeedsCompilation: no
 
