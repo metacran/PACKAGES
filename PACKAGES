@@ -8344,12 +8344,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dplyr
-Version: 0.3.0.2
-Depends: R (>= 3.1)
-Imports: assertthat, utils, R6, Rcpp, magrittr, lazyeval (>= 0.1.8),
+Version: 0.4.0
+Depends: R (>= 3.0.2)
+Imports: assertthat, utils, R6, Rcpp, magrittr, lazyeval (>= 0.1.10),
         DBI (>= 0.3)
 LinkingTo: Rcpp (>= 0.11.3), BH (>= 1.51.0-2)
-Suggests: RSQLite, RSQLite.extfuns, RMySQL, RPostgreSQL, data.table,
+Suggests: RSQLite (>= 1.0.0), RMySQL, RPostgreSQL, data.table,
         testthat, knitr, microbenchmark, ggplot2, mgcv, Lahman (>=
         3.0-1), nycflights13, methods
 License: MIT + file LICENSE
@@ -35611,7 +35611,7 @@ License: MIT
 NeedsCompilation: no
 
 Package: sp
-Version: 1.0-16
+Version: 1.0-17
 Depends: R (>= 2.14.0)
 Imports: methods, graphics, utils, lattice, grid
 Suggests: RColorBrewer, rgdal (>= 0.8-7), rgeos (>= 0.2-20), gstat
