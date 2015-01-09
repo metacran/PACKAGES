@@ -18718,8 +18718,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LSD
-Version: 2.5
-Depends: MASS,gtools,RColorBrewer,colorRamps,schoolmath,ellipse
+Version: 3.0
 License: Unlimited
 NeedsCompilation: no
 
@@ -27500,7 +27499,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pvar
-Version: 2.1
+Version: 2.2
 Imports: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
 Suggests: e1071, testthat, knitr, formatR
@@ -28442,7 +28441,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: randomizationInference
-Version: 1.0.2
+Version: 1.0.3
 Imports: permute (>= 0.7-8), matrixStats
 License: GPL-2
 NeedsCompilation: no
