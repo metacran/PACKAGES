@@ -1853,7 +1853,7 @@ License: MPL (== 2.0)
 NeedsCompilation: no
 
 Package: BayesGESM
-Version: 1.1
+Version: 1.2
 Depends: splines, truncdist, GIGrvg, normalp, Formula
 Suggests: ssym
 License: GPL-2 | GPL-3
@@ -3154,6 +3154,13 @@ Imports: crossdes
 Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: blockTools
+Version: 0.6-2
+Imports: MASS
+Suggests: nbpMatching, RItools, xtable
+License: GPL (>= 2) | file LICENSE
+NeedsCompilation: yes
 
 Package: blowtorch
 Version: 1.0.2
@@ -7289,8 +7296,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DEoptim
-Version: 2.2-2
-Suggests: foreach
+Version: 2.2-3
+Suggests: foreach, iterators, parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -10568,7 +10575,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FastRCS
-Version: 0.0.5
+Version: 0.0.6
 Depends: R (>= 3.1.1), matrixStats
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
@@ -14737,10 +14744,10 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: HH
-Version: 3.1-8
+Version: 3.1-14
 Depends: R (>= 3.0.2), lattice, stats, grid, latticeExtra, multcomp,
         gridExtra
-Imports: reshape2, leaps, vcd, colorspace, RColorBrewer, Rcmdr
+Imports: reshape2, leaps, vcd, colorspace, RColorBrewer, Rcmdr, shiny
 Suggests: methods, abind, mvtnorm, car, RcmdrPlugin.HH
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -29049,11 +29056,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.HH
-Version: 1.1-40
-Depends: R (>= 3.0.2), HH (>= 2.3-42), lattice, grid, grDevices,
-        latticeExtra, rgl
-Imports: Rcmdr (>= 2.0-0), multcomp (>= 0.991-7),leaps
-Suggests: mgcv, abind, vcd, car
+Version: 1.1-42
+Depends: R (>= 3.0.2), HH (>= 3.1-13), lattice, grDevices,
+        latticeExtra, rgl, mgcv
+Imports: Rcmdr (>= 2.0-0)
+Suggests: abind, vcd, car
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29416,7 +29423,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RcppProgress
-Version: 0.2
+Version: 0.2.1
 Imports: Rcpp (>= 0.9.4)
 LinkingTo: Rcpp
 License: GPL (>= 3)
@@ -29846,7 +29853,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RefManageR
-Version: 0.8.40
+Version: 0.8.45
 Depends: R (>= 3.0)
 Imports: XML, RCurl, RJSONIO, utils, plyr, tools, bibtex, lubridate,
         stringr, methods
