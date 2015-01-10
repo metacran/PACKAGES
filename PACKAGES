@@ -4327,7 +4327,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: celestial
-Version: 1.1
+Version: 1.2
 License: GPL-2
 NeedsCompilation: no
 
