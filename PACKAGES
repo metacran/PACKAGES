@@ -1575,6 +1575,14 @@ Depends: R (>= 3.1.0)
 License: CC0
 NeedsCompilation: no
 
+Package: BACA
+Version: 0.99.0
+Depends: R (>= 3.0.0)
+Imports: RDAVIDWebService, ggplot2, rJava
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: BACCO
 Version: 2.0-9
 Depends: emulator (>= 1.2-13), calibrator (>= 1.2-5), approximator (>=
@@ -9776,10 +9784,9 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: eRm
-Version: 0.15-4
+Version: 0.15-5
 Depends: R (>= 3.0.0)
-Imports: graphics, stats, methods, MASS, splines, Matrix
-Suggests: lattice
+Imports: graphics, stats, methods, MASS, splines, Matrix, lattice
 License: GPL-2
 NeedsCompilation: yes
 
@@ -15243,7 +15250,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: hsphase
-Version: 2.0.0
+Version: 2.0.1
 Depends: snowfall, R (>= 3.1.0)
 Imports: Rcpp
 LinkingTo: RcppArmadillo (>= 0.4.300.8.0), Rcpp (>= 0.11.2)
@@ -29364,11 +29371,11 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RcppClassic
-Version: 0.9.5
+Version: 0.9.6
 Depends: R (>= 2.12.0)
 Imports: Rcpp (>= 0.10.2), methods
 LinkingTo: Rcpp
-Suggests: RUnit, inline
+Suggests: RUnit, inline, highlight
 License: GPL (>= 2)
 NeedsCompilation: yes
 
