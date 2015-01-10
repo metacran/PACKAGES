@@ -15834,6 +15834,13 @@ Depends: R (>= 2.10), ROCR, parallel, doParallel, foreach
 License: GPL-2
 NeedsCompilation: yes
 
+Package: IFP
+Version: 0.1.1
+Depends: R (>= 2.11.1)
+Imports: haplo.stats,coda
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: ifs
 Version: 0.1.4
 License: GPL (>= 2)
@@ -17019,7 +17026,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kernlab
-Version: 0.9-19
+Version: 0.9-20
 Depends: R (>= 2.10), methods
 License: GPL-2
 NeedsCompilation: yes
@@ -22852,6 +22859,12 @@ Depends: R (>= 3.0.0), stringr, hash, iterators, abind, methods
 Imports: Matrix, yaImpute,
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: neuRosim
+Version: 0.2-12
+Depends: R (>= 3.1.1), deSolve
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: Newdistns
 Version: 1.0
@@ -32623,7 +32636,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rsymphony
-Version: 0.1-17
+Version: 0.1-18
 Depends: R (>= 2.6.0)
 Enhances: slam
 License: EPL
