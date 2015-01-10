@@ -21134,9 +21134,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MNM
-Version: 1.0-0
-Depends: R (>= 2.9.2), ellipse, ICS, ICSNP, SpatialNP, mvtnorm, survey
-Suggests: Flury, gamlss
+Version: 1.0-1
+Depends: R (>= 2.9.2), ICSNP, SpatialNP
+Imports: ellipse, ICS
+Suggests: Flury, gamlss, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27991,7 +27992,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: quantreg
-Version: 5.05
+Version: 5.08
 Depends: R (>= 2.6), stats, SparseM
 Suggests: tripack, akima, MASS, survival, rgl, logspline, nor1mix,
         MatrixModels, Matrix, Formula, zoo, dynlm
@@ -30350,8 +30351,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rfacebook
-Version: 0.4
-Depends: R (>= 2.12.0), httr, rjson
+Version: 0.5
+Depends: R (>= 2.12.0), httr, rjson, httpuv
 License: GPL-2
 NeedsCompilation: no
 
@@ -30423,6 +30424,13 @@ Version: 1.6
 Depends: R(>= 3.0.0), stats, utils, graphics, grDevices, RColorBrewer
 Suggests: lattice, MKmisc(>= 0.8)
 License: LGPL-3
+NeedsCompilation: no
+
+Package: RFmarkerDetector
+Version: 1.0
+Depends: AUCRF
+Imports: randomForest, ggplot2, UsingR, WilcoxCV, ROCR
+License: GPL-3
 NeedsCompilation: no
 
 Package: RfmriVC
@@ -37106,7 +37114,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.8.2
+Version: 0.9.0
 Depends: R (>= 2.15.3)
 Imports: parallel
 Suggests: testthat
@@ -40447,10 +40455,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: waveslim
-Version: 1.7.3
-Depends: R (>= 2.10.0), graphics, grDevices, stats, utils
+Version: 1.7.5
+Depends: R (>= 2.11.0), graphics, grDevices, stats, utils
 Suggests: fftw
-License: GPL (>= 2)
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: wavethresh
