@@ -937,9 +937,10 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: aoristic
-Version: 0.5
+Version: 0.6
 Depends: ggplot2, spatstat, GISTools
-Imports: lubridate, classInt, reshape2, rgdal, plotKML
+Imports: lubridate, classInt, reshape2, rgdal, plotKML, MASS, sp,
+        maptools, RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6423,7 +6424,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ctv
-Version: 0.8-0
+Version: 0.8-1
 Depends: R (>= 2.13.0), utils
 Suggests: XML
 License: GPL-2 | GPL-3
@@ -19490,8 +19491,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mbbefd
-Version: 0.1
+Version: 0.5
 Depends: R (>= 2.14)
+Suggests: testthat, copula, fitdistrplus
 License: GPL-2
 NeedsCompilation: no
 
