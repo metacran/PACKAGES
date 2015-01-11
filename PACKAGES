@@ -472,7 +472,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: AGD
-Version: 0.31
+Version: 0.32
 Depends: R (>= 2.10.0)
 Imports: gamlss, gamlss.dist
 License: GPL-2 | GPL-3
@@ -19019,8 +19019,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mailR
-Version: 0.3
-Imports: rJava, stringr
+Version: 0.4
+Imports: rJava, stringr, R.utils
 License: GPL-3
 NeedsCompilation: no
 
@@ -22693,7 +22693,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: neldermead
-Version: 1.0-9
+Version: 1.0-10
 Depends: optimbase (>= 1.0-9), optimsimplex (>= 1.0-5), methods
 License: CeCILL-2
 NeedsCompilation: no
