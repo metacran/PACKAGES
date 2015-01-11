@@ -11763,8 +11763,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fscaret
-Version: 0.8.6.3
-Depends: R (>= 3.0.0), caret, gsubfn, utils, parallel
+Version: 0.9
+Depends: R (>= 3.0.0), caret, gsubfn, hmeasure, utils, parallel
 Suggests: ada, arm, Boruta, bst, C50, car, caTools, class, Cubist,
         e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree,
         extraTrees, fastICA, foba, gam, gbm (>= 2.1), glmnet (>= 1.8),
