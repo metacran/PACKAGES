@@ -14676,7 +14676,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hergm
-Version: 2.1-0
+Version: 2.1-1
 Depends: ergm, latentnet, network, parallel, sna
 License: GPL-3
 NeedsCompilation: yes
@@ -20128,9 +20128,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: metaplus
-Version: 0.6-1
+Version: 0.7-0
 Depends: R(>= 3.1.0), bbmle, metafor
-Imports: boot, methods, numDeriv
+Imports: boot, methods, numDeriv, lme4, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28014,7 +28014,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: quantreg
-Version: 5.08
+Version: 5.11
 Depends: R (>= 2.6), stats, SparseM
 Suggests: tripack, akima, MASS, survival, rgl, logspline, nor1mix,
         MatrixModels, Matrix, Formula, zoo, dynlm
@@ -29925,7 +29925,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: regexr
-Version: 0.0.2
+Version: 1.0.2
 Depends: R (>= 3.1.0)
 Suggests: testthat, qdapRegex (>= 0.2.0)
 License: GPL-2
@@ -35508,7 +35508,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: soilphysics
-Version: 1.2
+Version: 2.0
 Depends: R (>= 2.15), utils, rpanel, MASS
 Suggests: soilwater, soiltexture, biotools
 License: GPL (>= 2)
