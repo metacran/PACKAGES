@@ -17869,7 +17869,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: leiv
-Version: 2.0-6
+Version: 2.0-7
 Depends: R (>= 2.9.0)
 Imports: methods, stats, graphics
 Suggests: grDevices
@@ -24892,6 +24892,13 @@ Package: patchPlot
 Version: 0.1.5
 Depends: R (>= 2.10.0), grid, datautils
 License: LGPL-3
+NeedsCompilation: no
+
+Package: patchSynctex
+Version: 0.1-0
+Depends: tools, stringr
+Enhances: knitr, utils
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pathClass
@@ -33859,7 +33866,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: secr
-Version: 2.9.2
+Version: 2.9.3
 Depends: R (>= 3.0.0), methods
 Imports: abind, MASS, utils, parallel, nlme, sp, mgcv, raster
 Suggests: maptools, spsurvey, rgdal, rgeos
@@ -33867,7 +33874,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: secrdesign
-Version: 2.2.1
+Version: 2.2.2
 Depends: R (>= 3.0.0), secr(>= 2.9.1)
 Imports: parallel, abind
 Suggests: knitr
@@ -38603,10 +38610,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: timma
-Version: 1.1.0
+Version: 1.2.0
 Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.11.2), QCA (>= 1.1-3)
 LinkingTo: Rcpp, RcppArmadillo
+Suggests: R.rsp
 License: Artistic License 2.0
 NeedsCompilation: yes
 
