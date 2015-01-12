@@ -25413,9 +25413,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: penMSM
-Version: 0.97
+Version: 0.99
+Imports: Rcpp (>= 0.11.3)
+LinkingTo: Rcpp
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: pensim
 Version: 1.2.9
@@ -34734,7 +34736,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: simMSM
-Version: 1.0.1
+Version: 1.1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39042,7 +39044,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: treeclim
-Version: 1.0.7
+Version: 1.0.9
 Depends: R (>= 3.0.2), base, stats, utils, Rcpp (>= 0.10.6)
 Imports: abind, plyr, ggplot2, lmtest, lmodel2, np, boot
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.000.2)
@@ -40121,7 +40123,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: vegan
-Version: 2.2-0
+Version: 2.2-1
 Depends: permute (>= 0.7-8), lattice, R (>= 2.15.0)
 Imports: MASS, cluster, mgcv
 Suggests: parallel, tcltk
