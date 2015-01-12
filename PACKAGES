@@ -29446,7 +29446,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppGSL
-Version: 0.2.2
+Version: 0.2.3
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, inline, highlight
