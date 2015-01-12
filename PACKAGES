@@ -4861,10 +4861,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: classyfire
-Version: 0.1-1
+Version: 0.1-2
 Depends: R (>= 3.0.0), snowfall (>= 1.84-6), e1071 (>= 1.6-3), boot (>=
         1.3-11), neldermead (>= 1.0-9)
 Imports: ggplot2 (>= 1.0-0), optimbase (>= 1.0-9)
+Suggests: RUnit, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -30469,7 +30470,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rfoaas
-Version: 0.0.5
+Version: 0.1.1
+Imports: httr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33882,7 +33884,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: secrlinear
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 3.0.0), secr(>= 2.9.1), sp, igraph
 Imports: parallel, maptools, MASS
 Suggests: knitr, rgeos, secrdesign
