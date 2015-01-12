@@ -7512,7 +7512,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dfmta
-Version: 1.0-3
+Version: 1.1-0
 Depends: R (>= 3.1.0)
 LinkingTo: RcppArmadillo (>= 0.3.910), BH (>= 1.54), RcppProgress (>=
         0.1), Rcpp
@@ -15121,6 +15121,13 @@ NeedsCompilation: no
 Package: homeR
 Version: 0.1
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: HomoPolymer
+Version: 1.0
+Depends: R (>= 3.0.0), RGtk2, MenuCollection
+Imports: deSolve
+License: GPL-2
 NeedsCompilation: no
 
 Package: homtest
@@ -29705,6 +29712,11 @@ Imports: grDevices, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: readGenalex
+Version: 0.4.1
+License: LGPL-3 | file LICENSE
+NeedsCompilation: no
+
 Package: readMLData
 Version: 0.9-6
 Depends: XML
@@ -35677,10 +35689,10 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: soundecology
-Version: 1.1.1
+Version: 1.2
 Depends: R(>= 2.14.0)
-Imports: pracma, oce, ineq, vegan, tuneR, seewave
-Suggests: knitr, parallel
+Imports: parallel, pracma, oce, ineq, vegan, tuneR, seewave
+Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
@@ -39888,9 +39900,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: V8
-Version: 0.3
-Imports: Rcpp (>= 0.11.0), jsonlite
+Version: 0.4
+Imports: Rcpp (>= 0.11.0), jsonlite (>= 0.9.14), curl (>= 0.4)
 LinkingTo: Rcpp
+Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
