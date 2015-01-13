@@ -4680,6 +4680,14 @@ Suggests: ggplot2
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
+Package: chromer
+Version: 0.1
+Depends: R (>= 2.15)
+Imports: dplyr, httr, data.table
+Suggests: testthat, roxygen2
+License: CC0
+NeedsCompilation: no
+
 Package: chromoR
 Version: 1.0
 Depends: R (>= 2.15.2), haarfisz, gdata
@@ -5891,14 +5899,15 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CorReg
-Version: 0.15.8
-Depends: R(>= 3.0.2)
-Imports: Rcpp(>= 0.11.0), lars(>= 1.2), elasticnet(>= 1.1), corrplot(>=
-        0.73), Matrix(>= 1.1), ridge(>= 2.1), rpart(>= 4.1-5), MASS(>=
-        7.3-30), mvtnorm(>= 0.9)
+Version: 1.0
+Depends: R(>= 3.0)
+Imports: Rcpp(>= 0.11.0), lars(>= 1.2), Rmixmod(>= 2.0.1),
+        elasticnet(>= 1.1), corrplot(>= 0.73), Matrix(>= 1.1), ridge(>=
+        2.1), rpart(>= 4.1-5), MASS(>= 7.3-30), mvtnorm(>= 0.9),
+        mclust(>= 4.2)
 LinkingTo: Rcpp, RcppEigen
-Suggests: clere(>= 1.1), spikeslab(>= 1.1.5), parcor(>= 0.2),
-        Rmixmod(>= 2.0.1), rtkpp (>= 0.8.3), mclust(>= 4.2)
+Suggests: clere(>= 1.1), spikeslab(>= 1.1.5), parcor(>= 0.2), rtkpp (>=
+        0.8.3)
 License: CeCILL
 NeedsCompilation: yes
 
@@ -8523,6 +8532,11 @@ Suggests: testthat, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: dst
+Version: 0.3
+License: GPL-2
+NeedsCompilation: no
+
 Package: DStree
 Version: 1.0
 Depends: rpart,pec,Ecdat
@@ -10343,6 +10357,12 @@ Version: 0.1-4
 Depends: R (>= 2.1), lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: FACTscorer
+Version: 0.1.0
+Depends: R (>= 3.1.1)
+License: GPL-3
+NeedsCompilation: no
 
 Package: factualR
 Version: 0.5
@@ -18373,7 +18393,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: loa
-Version: 0.2.15
+Version: 0.2.21
 Depends: R (>= 2.13.0), lattice
 Imports: MASS, grid, png, RgoogleMaps, RColorBrewer
 License: GPL (>= 2)
@@ -20151,7 +20171,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: metaplus
-Version: 0.7-0
+Version: 0.7-1
 Depends: R(>= 3.1.0), bbmle, metafor
 Imports: boot, methods, numDeriv, lme4, MASS
 License: GPL (>= 2)
@@ -26866,7 +26886,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: prabclus
-Version: 2.2-4
+Version: 2.2-5
 Depends: R (>= 2.10), MASS, mclust
 Suggests: spdep, maptools, foreign, mvtnorm
 License: GPL
@@ -32764,7 +32784,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rtfbs
-Version: 0.3.2
+Version: 0.3.3
 Depends: stats
 Imports: rphast
 License: BSD_3_clause + file LICENSE
@@ -33168,8 +33188,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: s20x
-Version: 3.1-10
-License: GPL (>= 2)
+Version: 3.1-11
+License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
 Package: s2dverification
@@ -37336,7 +37356,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Sunder
-Version: 0.0.3
+Version: 0.0.4
 Depends: mnormt
 License: GPL
 NeedsCompilation: yes
@@ -38975,7 +38995,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: traj
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.3)
 Imports: cluster, psych, pastecs, NbClust, graphics, grDevices, stats,
         utils, GPArotation
