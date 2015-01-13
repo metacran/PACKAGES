@@ -1742,8 +1742,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: BAT
-Version: 1.0.1
-Depends: R (>= 3.0.0), vegan
+Version: 1.1
+Depends: R (>= 3.0.0), vegan, spatstat, nls2
 License: GPL-3
 NeedsCompilation: no
 
@@ -20880,6 +20880,13 @@ Imports: RGCCA, igraph, rgl, pheatmap
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: mixor
+Version: 1.0.2
+Depends: R (>= 2.10)
+Suggests: survival
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: mixPHM
 Version: 0.7-1
 Depends: R (>= 3.0.0)
@@ -29763,9 +29770,9 @@ License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: readMLData
-Version: 0.9-6
-Depends: XML
-License: GPL
+Version: 0.9-7
+Imports: XML
+License: GPL-3
 NeedsCompilation: no
 
 Package: readMzXmlData
@@ -30518,12 +30525,6 @@ Version: 1.0
 Depends: AUCRF
 Imports: randomForest, ggplot2, UsingR, WilcoxCV, ROCR
 License: GPL-3
-NeedsCompilation: no
-
-Package: RfmriVC
-Version: 1.0.4
-Depends: methods, splines, mvtnorm, mgcv, Rniftilib
-License: GPL-2
 NeedsCompilation: no
 
 Package: rfoaas
@@ -32840,7 +32841,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: Rttf2pt1
-Version: 1.3.2
+Version: 1.3.3
 Depends: R (>= 2.15)
 License: file LICENSE
 License_is_FOSS: yes
