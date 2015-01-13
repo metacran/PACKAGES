@@ -2174,8 +2174,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BCEA
-Version: 2.0-2
-Suggests: MASS, ggplot2, grid, R2jags, mgcv
+Version: 2.1-0
+Depends: R (>= 2.10)
+Suggests: MASS, ggplot2, grid, R2jags, R2OpenBUGS, mgcv
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -3165,7 +3166,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: blocksdesign
-Version: 1.3
+Version: 1.4
 Depends: R (>= 3.1.0)
 Imports: crossdes
 Suggests: knitr
@@ -3301,6 +3302,12 @@ Package: bnpmr
 Version: 1.1
 License: GPL
 NeedsCompilation: yes
+
+Package: BNPTSclust
+Version: 1.0
+Depends: R(>= 3.1.2), mvtnorm, MASS
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: BNSP
 Version: 1.0.2
