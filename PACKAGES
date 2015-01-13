@@ -418,7 +418,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ads
-Version: 1.5-2.1
+Version: 1.5-2.2
 Imports: ade4, spatstat
 License: GPL-2
 NeedsCompilation: yes
@@ -14873,9 +14873,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: HierO
-Version: 0.1
+Version: 0.2
 Depends: methods, rneos
-Imports: XMLRPC, RCurl, bitops, XML, tcltk, tcltk2
+Imports: RCurl, bitops, XML, tcltk, tcltk2
+Suggests: XMLRPC
 License: GPL-2
 NeedsCompilation: no
 
@@ -19577,7 +19578,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MBmca
-Version: 0.0.3-4
+Version: 0.0.3-5
 Depends: R (>= 3.0.0), robustbase (>= 0.9), chipPCR (>= 0.0.7)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -25243,7 +25244,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PCPS
-Version: 1.0.1
+Version: 1.0.2
 Depends: SYNCSA, vegan
 Imports: ape, picante, phylobase, plotrix
 License: GPL-2
@@ -28929,9 +28930,9 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: RCALI
-Version: 0.2-6
-Depends: splancs
-License: GPL (>= 3)
+Version: 0.2-15
+Imports: splancs
+License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: Rcapture
