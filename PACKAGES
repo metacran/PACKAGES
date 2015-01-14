@@ -32123,7 +32123,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rphast
-Version: 1.5
+Version: 1.6
 Depends: stats
 Suggests: ape, seqLogo
 License: BSD_3_clause + file LICENSE
