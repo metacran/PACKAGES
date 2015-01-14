@@ -14884,7 +14884,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: HiDimMaxStable
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 2.2.0), methods, copula
 Imports: mnormt, partitions, maxLik, mnormpow, VGAM
 Suggests: rgl, snowfall, MASS, SpatialExtremes
