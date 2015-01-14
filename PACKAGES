@@ -10122,10 +10122,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: exams
-Version: 2.0-1
+Version: 2.0-2
 Depends: R (>= 2.15.0)
 Imports: stats, graphics, tools, utils
-Suggests: base64enc, tth, XML
+Suggests: base64enc, tth
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
