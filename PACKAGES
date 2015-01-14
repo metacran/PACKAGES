@@ -1827,6 +1827,12 @@ Suggests: MCMCpack
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: bayesDccGarch
+Version: 1.0
+Depends: R (>= 2.14), coda
+License: GPL (>= 2.14)
+NeedsCompilation: yes
+
 Package: bayesDem
 Version: 2.4-1
 Depends: R (>= 2.14.2), gWidgets, gWidgetsRGtk2, bayesTFR (>= 4.0-0),
@@ -3278,7 +3284,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bnlearn
-Version: 3.6
+Version: 3.7
 Depends: R (>= 2.14.0)
 Imports: methods
 Suggests: parallel, graph, Rgraphviz, lattice, gRain
@@ -10136,9 +10142,11 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: ExomeDepth
-Version: 1.0.7
-Depends: R (>= 2.15.0), methods, aod, VGAM (>= 0.8.4), GenomicRanges
-        (>= 1.8.10), Rsamtools
+Version: 1.1.1
+Depends: R (>= 3.1.0)
+Imports: Biostrings, IRanges, Rsamtools, GenomicRanges (>= 1.16.0),
+        aod, VGAM (>= 0.8.4), methods
+Suggests: knitr
 License: GPL-3
 NeedsCompilation: yes
 
@@ -11925,7 +11933,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FuncMap
-Version: 1.0-2
+Version: 1.0-3
 Imports: grid, mvbutils
 Suggests: lattice
 License: GPL-3
@@ -15324,6 +15332,14 @@ Package: HSSVD
 Version: 1.2
 Depends: R (>= 2.10), bcv
 License: GPL-2
+NeedsCompilation: no
+
+Package: htmltab
+Version: 0.5.0
+Depends: R (>= 3.1.0)
+Imports: XML (>= 3.98.1.1)
+Suggests: testthat, knitr, magrittr (>= 1.5), tidyr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: htmlTable
@@ -19083,7 +19099,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mailR
-Version: 0.4
+Version: 0.4.1
 Imports: rJava, stringr, R.utils
 License: GPL-3
 NeedsCompilation: no
@@ -21711,7 +21727,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: MRH
-Version: 1.1
+Version: 2.0
 Depends: survival, KMsurv
 Imports: coda
 Suggests: R.rsp
@@ -31712,7 +31728,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustDA
-Version: 1.0
+Version: 1.1
 Depends: MASS, mclust, Rsolnp
 License: GPL-2
 NeedsCompilation: no
@@ -37161,7 +37177,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: stratigraph
-Version: 0.64
+Version: 0.66
 Depends: R (>= 2.13.1), grid
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -40584,6 +40600,14 @@ Version: 1.2
 Depends: graphics
 License: GPL-2
 NeedsCompilation: yes
+
+Package: WCE
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: plyr, survival, splines
+Suggests: R.rsp
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: WCQ
 Version: 0.2
