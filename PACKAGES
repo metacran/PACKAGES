@@ -2487,6 +2487,13 @@ Suggests: car, lattice, party, strucchange
 License: GPL-2
 NeedsCompilation: no
 
+Package: betas
+Version: 0.1.0
+Depends: R (>= 3.1.1)
+Imports: robust
+License: GPL-3
+NeedsCompilation: no
+
 Package: betategarch
 Version: 3.2
 Depends: R (>= 2.15.0), zoo
@@ -31730,12 +31737,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustbase
-Version: 0.92-2
+Version: 0.92-3
 Depends: R (>= 2.15.1)
 Imports: stats, graphics, utils, methods, DEoptimR
 Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust,
-        fit.models, MPV, xtable, ggplot2, RColorBrewer, reshape2,
-        sfsmisc, catdata
+        fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+        reshape2, sfsmisc, catdata
 License: GPL (>= 2)
 NeedsCompilation: yes
 
