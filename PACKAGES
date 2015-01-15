@@ -9417,8 +9417,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: EMP
-Version: 2.0.0
-Depends: R (>= 3.0.0), ROCR
+Version: 2.0.1
+Depends: R (>= 3.0.0)
+Imports: ROCR
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -20881,7 +20882,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixer
-Version: 1.7
+Version: 1.8
 Depends: R (>= 2.5.0), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -40696,13 +40697,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WGCNA
-Version: 1.42
+Version: 1.43
 Depends: R (>= 2.14), dynamicTreeCut (>= 1.62), fastcluster
 Imports: stats, grDevices, utils, matrixStats (>= 0.8.1), Hmisc,
         impute, splines, foreach, doParallel, reshape, preprocessCore,
-        survival, parallel
-Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db, AnnotationDbi, infotheo,
-        entropy, minet
+        survival, parallel, GO.db, AnnotationDbi
+Suggests: org.Hs.eg.db, org.Mm.eg.db, infotheo, entropy, minet
 License: GPL (>= 2)
 NeedsCompilation: yes
 
