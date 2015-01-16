@@ -11699,9 +11699,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: frbs
-Version: 2.2-0
-Suggests: class, e1071
-License: GPL (>= 2)
+Version: 3.0-0
+Suggests: class, e1071, XML
+License: GPL (>= 2) | file LICENSE
 NeedsCompilation: no
 
 Package: FRCC
@@ -15592,9 +15592,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.1.1
+Version: 1.1.2
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
-Imports: MASS, geometry, igraph
+Imports: MASS, geometry, pdist
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -16826,6 +16826,13 @@ Imports: clue
 Suggests: ICS, ICSNP
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: jagsUI
+Version: 1.3.1
+Depends: R (>= 2.14.0), lattice
+Imports: rjags (>= 3-3), coda (>= 0.13), parallel, methods
+License: GPL-2
+NeedsCompilation: no
 
 Package: JAGUAR
 Version: 1.1
@@ -18667,7 +18674,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: longpower
-Version: 1.0-10
+Version: 1.0-11
 Depends: R (>= 3.0.0), Matrix, lme4 (>= 1.0), nlme, methods
 Suggests: knitr, gee
 License: GPL (>= 2)
@@ -19588,7 +19595,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mbbefd
-Version: 0.5
+Version: 0.5.0.1
 Depends: R (>= 2.14)
 Suggests: testthat, copula, fitdistrplus
 License: GPL-2
@@ -36387,7 +36394,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sphet
-Version: 1.5
+Version: 1.6
 Depends: R (>= 3.0.1)
 Imports: nlme, spdep (>= 0.5-67), Matrix, sp
 License: GPL-2
@@ -37201,7 +37208,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stream
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 2.13.0), methods, hash, proxy (>= 0.4-7)
 Imports: animation, clue, cluster, clusterGeneration, fpc, MASS,
         mlbench
@@ -38047,13 +38054,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.3
+Version: 1.4-1
 Depends: R (>= 2.15.1), CDM (>= 4.1), MASS
-Imports: Rcpp, mirt (>= 1.7), lavaan (>= 0.5-17), tensor, sfsmisc,
-        GPArotation, psych, lattice, mvtnorm, msm
+Imports: Rcpp, mirt (>= 1.7), lavaan (>= 0.5-17), WrightMap (>= 1.1),
+        tensor, sfsmisc, GPArotation, psych, lattice, mvtnorm, msm
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: sirt (>= 1.0), PP (>= 0.5-3), WrightMap (>= 1.1), semTools
-        (>= 0.4-6)
+Suggests: sirt (>= 1.0), PP (>= 0.5-3), semTools (>= 0.4-6)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
