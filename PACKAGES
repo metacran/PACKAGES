@@ -538,7 +538,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: AICcmodavg
-Version: 2.0-2
+Version: 2.0-3
 Depends: R (>= 3.0.0)
 Imports: methods, stats, graphics, lattice, MASS, Matrix, nlme, stats4,
         unmarked, VGAM, xtable
