@@ -7528,12 +7528,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: devtools
-Version: 1.6.1
+Version: 1.7.0
 Depends: R (>= 3.0.2)
 Imports: httr (>= 0.4), RCurl, utils, tools, methods, memoise, whisker,
-        evaluate, digest, rstudioapi, jsonlite
-Suggests: testthat (>= 0.7), roxygen2 (>= 4.0.2), BiocInstaller, Rcpp
-        (>= 0.10.0), MASS, rmarkdown, knitr
+        evaluate, digest, rstudioapi (>= 0.2.0), jsonlite, roxygen2 (>=
+        4.1.0)
+Suggests: testthat (>= 0.7), BiocInstaller, Rcpp (>= 0.10.0), MASS,
+        rmarkdown, knitr, lintr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
