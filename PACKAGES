@@ -15384,7 +15384,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HTMLUtils
-Version: 0.1.6
+Version: 0.1.7
 Depends: R2HTML
 License: GPL
 NeedsCompilation: no
@@ -23384,9 +23384,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: nontarget
-Version: 1.6
+Version: 1.7
 Depends: enviPat(>= 1.7), nontargetData(>= 1.1), mgcv(>= 1.7-22)
-License: GPL-2
+License: GPL-3
 NeedsCompilation: yes
 
 Package: nontargetData
