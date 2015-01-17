@@ -28859,7 +28859,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rAverage
-Version: 0.4-10
+Version: 0.4-13
 Depends: R (>= 2.8), methods, tcltk
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -32480,7 +32480,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rsdmx
-Version: 0.4-3
+Version: 0.4-4
 Depends: R (>= 2.15)
 Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
 Suggests: testthat
