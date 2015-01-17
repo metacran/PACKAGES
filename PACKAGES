@@ -5353,7 +5353,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: codetools
-Version: 0.2-9
+Version: 0.2-10
 Priority: recommended
 Depends: R (>= 2.1)
 License: GPL
@@ -24003,6 +24003,12 @@ Imports: rARPACK, Rcpp (>= 0.11.2), splines
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.320.0)
 License: GPL-3
 NeedsCompilation: yes
+
+Package: onls
+Version: 0.1-0
+Depends: R (>= 2.13.0), minpack.lm
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: OOmisc
 Version: 1.2
