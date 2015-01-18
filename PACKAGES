@@ -24463,7 +24463,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: oro.nifti
-Version: 0.4.0
+Version: 0.4.3
 Depends: R (>= 2.14.0)
 Imports: bitops, splines, graphics, grDevices, methods, utils
 Suggests: XML
