@@ -39185,7 +39185,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: treeclim
-Version: 1.0.9
+Version: 1.0.10
 Depends: R (>= 3.0.2), base, stats, utils, Rcpp (>= 0.10.6)
 Imports: abind, plyr, ggplot2, lmtest, lmodel2, np, boot
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.000.2)
