@@ -14252,6 +14252,13 @@ Suggests: boot, chron, doBy, grid, lattice, quantreg, reshape, svUnit,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: gsw
+Version: 1.0-3
+Depends: R (>= 2.15)
+Imports: utils
+License: GPL (>= 2) | file LICENSE
+NeedsCompilation: yes
+
 Package: gtable
 Version: 0.1.2
 Depends: R (>= 2.14), grid
@@ -16192,8 +16199,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: INLABMA
-Version: 0.1-5
-Depends: R(>= 2.15.0), parallel
+Version: 0.1-6
+Depends: R(>= 2.15.0), parallel, sp
 Imports: Matrix, spdep
 Suggests: INLA
 License: GPL (>= 2)
@@ -19613,7 +19620,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: maxstat
-Version: 0.7-20
+Version: 0.7-21
 Depends: R (>= 1.7.0)
 Imports: exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10)
 Suggests: TH.data, survival
@@ -23270,6 +23277,13 @@ Package: nlts
 Version: 0.2-0
 Depends: R (>= 2.2.0), locfit (>= 1.5.3), acepack
 License: GPL
+NeedsCompilation: no
+
+Package: nLTT
+Version: 1.0
+Imports: ape,coda,deSolve
+Suggests: TESS
+License: GPL-2
 NeedsCompilation: no
 
 Package: nlWaldTest
