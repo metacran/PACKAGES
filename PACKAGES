@@ -16059,7 +16059,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: imputeLCMD
-Version: 1.0
+Version: 2.0
 Depends: R (>= 2.10), tmvtnorm, norm, pcaMethods, impute
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -36665,7 +36665,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: spTimer
-Version: 1.0-3
+Version: 2.0-0
 Depends: R (>= 2.15.0), coda, sp
 License: GPL (>= 2)
 NeedsCompilation: yes
