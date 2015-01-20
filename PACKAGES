@@ -35575,7 +35575,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: snpRF
-Version: 0.3
+Version: 0.4
 Depends: R (>= 2.5.0), stats
 Suggests: RColorBrewer, MASS
 License: GPL (>= 2)
