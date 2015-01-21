@@ -6260,7 +6260,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crank
-Version: 1.0-6
+Version: 1.0-7
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10018,7 +10018,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: eventInterval
-Version: 1.0-1
+Version: 1.2
 Imports: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12680,7 +12680,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GeneNet
-Version: 1.2.11
+Version: 1.2.12
 Depends: R (>= 2.15.1), corpcor (>= 1.6.7), longitudinal (>= 1.1.10),
         fdrtool (>= 1.2.13), igraph (>= 0.6)
 License: GPL (>= 3)
@@ -22716,9 +22716,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nbpMatching
-Version: 1.4.0
+Version: 1.4.4
 Depends: methods, Hmisc
 Imports: MASS
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26349,7 +26350,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotrix
-Version: 3.5-10
+Version: 3.5-11
 License: GPL (>= 2)
 NeedsCompilation: no
 
