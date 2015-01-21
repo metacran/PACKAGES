@@ -5608,6 +5608,12 @@ Imports: Hmisc, MASS, GPArotation, lpSolve, nonparaeff
 License: GPL-3
 NeedsCompilation: no
 
+Package: compLasso
+Version: 0.0-1
+Imports: quadprog, Matrix
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: complmrob
 Version: 0.5.8
 Imports: robustbase, ggplot2, boot, parallel, scales
@@ -8514,7 +8520,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: drmdel
-Version: 1.3
+Version: 1.3.1
 Depends: R (>= 2.11)
 License: GPL-3
 NeedsCompilation: yes
@@ -24405,10 +24411,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ordinal
-Version: 2014.12-22
+Version: 2015.1-21
 Depends: R (>= 2.13.0), methods
 Imports: ucminf, MASS, Matrix
-Suggests: lme4, nnet, xtable
+Suggests: lme4, nnet, xtable, testthat (>= 0.8)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -27046,7 +27052,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: PracTools
-Version: 0.0-2
+Version: 0.1
 Depends: R (>= 2.10)
 Suggests: doBy, foreign, pps, reshape, sampling, samplingbook, survey
 License: GPL (>= 2)
@@ -35886,7 +35892,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SoundexBR
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0),stats,utils,graphics,grDevices
 Suggests: SciencesPo
 Enhances: RecordLinkage
