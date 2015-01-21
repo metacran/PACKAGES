@@ -1150,6 +1150,13 @@ Imports: ltsa, parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ArfimaMLM
+Version: 1.3
+Depends: R (>= 3.0.0), lme4, fractal
+Imports: fracdiff
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: argosfilter
 Version: 0.63
 License: GPL (>= 2)
@@ -2676,7 +2683,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bigGP
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 3.0.0), Rmpi (>= 0.6-2), methods
 Suggests: rlecuyer, rsprng, fields
 License: GPL (>= 2)
@@ -5724,6 +5731,14 @@ Depends: R (>= 3.0.0), tcltk
 Imports: knitr, markdown, plyr, xtable, ggplot2
 Suggests: testthat
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: conformal
+Version: 0.1
+Depends: R (>= 2.12.0), caret, ggplot2, grid, randomForest, e1071,
+        methods
+Suggests: kernlab
+License: GPL
 NeedsCompilation: no
 
 Package: confreq
@@ -12329,6 +12344,12 @@ Version: 1.0
 Depends: R (>= 2.12.1)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: gammSlice
+Version: 1.3
+Depends: R(>= 2.13), KernSmooth, lattice, mgcv
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: GANPA
 Version: 1.0
@@ -19568,10 +19589,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.12.2
+Version: 0.13.0
 Depends: R (>= 2.9.0)
-Imports: methods, R.methodsS3 (>= 1.6.1)
-Suggests: R.rsp
+Imports: methods, R.methodsS3
+Suggests: R.rsp, knitr
 License: Artistic-2.0
 NeedsCompilation: yes
 
@@ -24014,7 +24035,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: onlinePCA
-Version: 1.0
+Version: 1.0-1
 Depends: R (>= 3.0.2)
 Imports: rARPACK, Rcpp (>= 0.11.2), splines
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.320.0)
@@ -27565,10 +27586,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: psych
-Version: 1.4.8.11
+Version: 1.5.1
 Depends: R (>= 2.10)
-Suggests: MASS, parallel, GPArotation, mvtnorm, sem, lavaan, Rcsdp,
-        graph, Rgraphviz
+Imports: mnormt,parallel
+Suggests: GPArotation, sem, lavaan, Rcsdp, graph, Rgraphviz
 License: GPL (>= 2)
 NeedsCompilation: no
 
