@@ -22534,7 +22534,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvSLOUCH
-Version: 1.1.4
+Version: 1.1.5
 Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
