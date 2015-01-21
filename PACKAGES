@@ -4639,11 +4639,12 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ChemoSpec
-Version: 2.0-2
+Version: 3.0-1
 Depends: R (>= 3.0)
 Imports: pls, amap, chemometrics, robustbase, RColorBrewer, plyr,
         pcaPP, mvtnorm, mvoutlier, grid, rgl, R.utils, mclust, MASS,
-        baseline, IDPmisc, gsubfn, lattice, seriation
+        baseline, IDPmisc, gsubfn, lattice, seriation, clusterCrit,
+        speaq
 Suggests: mvbutils, sna, knitr
 License: GPL-3
 NeedsCompilation: no
@@ -6135,8 +6136,9 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: coxphf
-Version: 1.10
-Depends: R (>= 3.0.0), survival
+Version: 1.11
+Depends: R (>= 3.0.2)
+Imports: survival
 License: GPL
 NeedsCompilation: yes
 
@@ -14892,7 +14894,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: hht
-Version: 2.1.1
+Version: 2.1.2
 Depends: R (>= 3.1.1)
 Imports: EMD (>= 1.5.5), fields (>= 6.7.6), spatstat (>= 1.38.1)
 License: GPL (>= 3)
@@ -15098,11 +15100,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: HiveR
-Version: 0.2-27
+Version: 0.2-28
 Depends: R (>= 3.0)
-Imports: grid, RColorBrewer, plyr, tkrgl, tcltk, jpeg, png
-Suggests: mvbutils, FuncMap, lattice, reshape, ggplot2, knitr, rgl,
-        bipartite, xtable, sna
+Imports: grid, RColorBrewer, plyr, tcltk, jpeg, png, rgl, xtable, tkrgl
+Suggests: mvbutils, FuncMap, lattice, reshape, ggplot2, knitr,
+        bipartite, sna
 License: GPL-3
 NeedsCompilation: no
 
@@ -21426,7 +21428,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MODISTools
-Version: 0.94.5
+Version: 0.94.6
 Imports: RCurl, XML
 License: GPL-3
 NeedsCompilation: no
@@ -23601,6 +23603,11 @@ Package: NPHMC
 Version: 2.2
 Depends: survival, smcure
 License: GPL-2
+NeedsCompilation: no
+
+Package: npIntFactRep
+Version: 1.0
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nplplot
@@ -30836,10 +30843,10 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: RgoogleMaps
-Version: 1.2.0.6
+Version: 1.2.0.7
 Depends: R (>= 2.10)
 Imports: graphics, stats, utils, png, RJSONIO
-Suggests: PBSmapping, maptools, RColorBrewer, sp, rgdal, loa
+Suggests: PBSmapping, maptools, sp, rgdal, loa, RColorBrewer
 License: GPL
 NeedsCompilation: no
 
@@ -32486,10 +32493,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RSA
-Version: 0.9.3
-Depends: R (>= 2.15.0), lavaan (>= 0.5.11), ggplot2, lattice, gridExtra
-Imports: plyr, RColorBrewer
-Suggests: fields, SDMTools, tkrplot, rgl, qgraph, aplpack, AICcmodavg
+Version: 0.9.6
+Depends: R (>= 2.15.0), lavaan (>= 0.5.11), ggplot2, lattice, tkrplot,
+        tcltk
+Imports: plyr, RColorBrewer, aplpack
+Suggests: fields, SDMTools, rgl, qgraph, AICcmodavg
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34262,9 +34270,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiParSampleSel
-Version: 1.1-1
-Depends: R (>= 2.15.1), copula, mgcv, mvtnorm
-Imports: magic, trust, Matrix
+Version: 1.2
+Depends: R (>= 3.1.1), copula, mgcv, mvtnorm, gamlss.dist
+Imports: magic, trust, VGAM, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34362,7 +34370,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensR
-Version: 1.4-4
+Version: 1.4-5
 Imports: multcomp, MASS, numDeriv
 Suggests: ordinal, parallel, testthat (>= 0.8)
 License: GPL-2 | GPL-3
@@ -40035,8 +40043,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: UsingR
-Version: 2.0-2
-Depends: R (>= 2.15.0), MASS, HistData, Hmisc, quantreg
+Version: 2.0-3
+Depends: R (>= 2.15.0), MASS, HistData, Hmisc
 Suggests: zoo, coin, ggplot2, vcd, lubridate, aplpack
 License: GPL (>= 2)
 NeedsCompilation: no
