@@ -19610,7 +19610,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.13.0
+Version: 0.13.1
 Depends: R (>= 2.9.0)
 Imports: methods, R.methodsS3
 Suggests: R.rsp, knitr
@@ -20820,7 +20820,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mirt
-Version: 1.7
+Version: 1.8
 Depends: R (>= 2.15), stats4, lattice, methods
 Imports: GPArotation, Rcpp, sfsmisc, numDeriv
 LinkingTo: Rcpp
@@ -20830,12 +20830,13 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mirtCAT
-Version: 0.3
-Depends: R (>= 2.15), mirt (>= 1.7), shiny (>= 0.10.0), lattice
-Imports: methods
-Suggests: knitr, testthat
+Version: 0.4
+Depends: mirt (>= 1.8), shiny (>= 0.11.0), lattice
+Imports: Rcpp, methods
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: parallel, knitr, testthat
 License: GPL (>= 3)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: miRtest
 Version: 1.8
