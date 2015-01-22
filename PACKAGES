@@ -2182,7 +2182,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BcDiag
-Version: 1.0.7
+Version: 1.0.8
 Depends: R (>= 2.10)
 Imports: fabia
 Suggests: biclust, isa2
@@ -29359,6 +29359,15 @@ Package: RcmdrPlugin.MPAStats
 Version: 1.1.5
 Depends: Rcmdr (>= 1.4-0), ordinal
 License: GPL (> 2)
+NeedsCompilation: no
+
+Package: RcmdrPlugin.NMBU
+Version: 1.8.0
+Depends: R (>= 3.0.0), mixlm (>= 1.0.8), MASS, pls, xtable
+Imports: Rcmdr (>= 2.0-0), tcltk
+Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, pbkrtest, vcd,
+        multcomp, e1071, nnet
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.orloca
