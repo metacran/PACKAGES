@@ -35969,7 +35969,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spacetime
-Version: 1.1-2
+Version: 1.1-3
 Depends: R (>= 3.0.0)
 Imports: methods, sp (>= 1.0-14), zoo (>= 1.7-9), xts (>= 0.8-8),
         intervals, lattice
@@ -36630,13 +36630,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.2.2
+Version: 0.2.4
 Depends: ggplot2
-Imports: rgbif, rinat (>= 0.1.4), rbison (>= 0.3.2), ecoengine (>=
-        1.4), rebird (>= 0.1.1), AntWeb (>= 0.6.1), plyr, ggmap,
-        maptools, rworldmap, sp, rgeos, lubridate, RColorBrewer, httr,
-        XML, rgdal, RJSONIO, leafletR (>= 0.2-0), data.table,
-        assertthat, whisker
+Imports: rgbif (>= 0.7.7), rinat (>= 0.1.4), rbison (>= 0.3.2),
+        ecoengine (>= 1.4), rebird (>= 0.1.1), AntWeb (>= 0.6.1),
+        ggmap, maptools, rworldmap, sp, rgeos, lubridate, RColorBrewer,
+        httr, rgdal, leafletR (>= 0.2-0), whisker, gistr
 Suggests: roxygen2, testthat, knitr, taxize
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -38771,7 +38770,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: timeordered
-Version: 0.9.7
+Version: 0.9.8
 Depends: igraph, plyr
 License: GPL-3
 NeedsCompilation: no
@@ -40803,7 +40802,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: wesanderson
-Version: 0.3
+Version: 0.3.2
 Depends: R (>= 3.0)
 Suggests: ggplot2
 License: MIT + file LICENSE
