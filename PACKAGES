@@ -4376,7 +4376,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: cec2013
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 2.13.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -10357,7 +10357,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: extRemes
-Version: 2.0-4
+Version: 2.0-5
 Depends: R (>= 2.10.0), Lmoments, distillery, car
 Suggests: fields
 License: GPL (>= 2)
@@ -13708,7 +13708,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: googleVis
-Version: 0.5.7
+Version: 0.5.8
 Depends: R (>= 3.0.2)
 Imports: methods, RJSONIO, utils
 Suggests: shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)
@@ -20636,9 +20636,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: micromapST
-Version: 1.0.3
-Depends: R (>= 2.15.0)
+Version: 1.0.5
+Depends: R (>= 3.0.0)
 Imports: graphics, RColorBrewer, grDevices, stats
+Suggests: R.rsp
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29969,6 +29970,13 @@ Suggests: flexmix, mclust, mixtools
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: rebus
+Version: 0.0-4
+Depends: R (>= 3.1.0)
+Suggests: testthat
+License: Unlimited
+NeedsCompilation: no
+
 Package: RECA
 Version: 1.1
 Suggests: MASS
@@ -33103,10 +33111,10 @@ License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
 Package: rvertnet
-Version: 0.0-5
-Imports: RCurl (>= 1.6), plyr, RJSONIO, httr (>= 0.2), ggplot2, maps
-Suggests: roxygen2
-License: CC0
+Version: 0.2.2
+Imports: plyr, jsonlite, httr, data.table, ggplot2, maps
+Suggests: roxygen2, testthat, knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rvest
@@ -34804,7 +34812,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sig
-Version: 0.0-4
+Version: 0.0-5
 Depends: R (>= 2.15.0)
 License: Unlimited
 NeedsCompilation: no
@@ -39213,6 +39221,12 @@ Depends: R (>= 2.12.0)
 Suggests: ggplot2, plyr
 License: GPL-3
 NeedsCompilation: yes
+
+Package: TRD
+Version: 1.0
+Depends: Rlab (>= 2.14.0)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: TreatmentSelection
 Version: 1.1.2
