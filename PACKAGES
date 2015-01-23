@@ -10072,8 +10072,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evmix
-Version: 2.3
-Depends: stats, graphics, MASS, gsl
+Version: 2.4
+Depends: stats, graphics, MASS, splines, gsl, SparseM
 License: GPL-3
 NeedsCompilation: no
 
@@ -18661,7 +18661,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LogicReg
-Version: 1.5.5
+Version: 1.5.6
 Depends: R (>= 2.10), survival
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -30349,6 +30349,11 @@ Suggests: graph, Rgraphviz, testthat
 License: GPL-2
 NeedsCompilation: yes
 
+Package: remMap
+Version: 0.2-0
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: remote
 Version: 0.3.0
 Depends: R (>= 2.10), Rcpp (>= 0.10.3), raster, foreach, methods
@@ -36303,6 +36308,15 @@ Suggests: maps, plotrix, fields
 License: GPL-2
 NeedsCompilation: yes
 
+Package: SpatPCA
+Version: 1.0
+Depends: fields
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: foreach
+License: GPL-2
+NeedsCompilation: yes
+
 Package: spatstat
 Version: 1.40-0
 Depends: R (>= 3.1.1), stats, graphics, grDevices, utils
@@ -38766,7 +38780,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: timeDate
-Version: 3011.99
+Version: 3012.100
 Depends: R (>= 2.15.1), graphics, utils, stats, methods
 Suggests: date, RUnit
 License: GPL (>= 2)
