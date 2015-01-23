@@ -2286,7 +2286,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.14
+Version: 2.15
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -32285,13 +32285,13 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: rplos
-Version: 0.4.1
+Version: 0.4.6
 Depends: ggplot2
-Imports: RCurl, RJSONIO, XML, plyr, stringr, googleVis, httr,
-        lubridate, reshape2, data.table, whisker, solr, assertthat
-Suggests: testthat, roxygen2, jsonlite, knitr
+Imports: httr, jsonlite, XML, dplyr, plyr, lubridate, reshape2,
+        whisker, solr
+Suggests: testthat, roxygen2, knitr
 Enhances: tm
-License: CC0
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rplotengine
