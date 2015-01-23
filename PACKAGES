@@ -3164,7 +3164,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: blockcluster
-Version: 3.0.1
+Version: 3.0.2
 Depends: R (>= 2.14), methods
 Imports: Rcpp (>= 0.9.9)
 LinkingTo: Rcpp, RcppEigen
@@ -3307,7 +3307,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bnlearn
-Version: 3.7
+Version: 3.7.1
 Depends: R (>= 2.14.0)
 Imports: methods
 Suggests: parallel, graph, Rgraphviz, lattice, gRain
@@ -5551,10 +5551,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: compareGroups
-Version: 2.0.5
-Depends: R (>= 2.13.1), Hmisc, xtable, gdata, SNPassoc
+Version: 3.0
+Depends: R (>= 2.13.1), Hmisc, gdata, xtable, SNPassoc
 Imports: survival, epitools, tools, HardyWeinberg
-Suggests: tcltk2, car
+Suggests: tcltk2, car, XLConnect, shiny
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29490,7 +29490,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.temis
-Version: 0.7.2
+Version: 0.7.3
 Depends: methods, tm (>= 0.6), NLP, slam, zoo, lattice
 Imports: Rcmdr (>= 2.1-1), tcltk, tcltk2, utils, ca, R2HTML (>= 2.3.0),
         RColorBrewer, latticeExtra, stringi
@@ -38840,7 +38840,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: timeSeries
-Version: 3011.98
+Version: 3012.99
 Depends: R (>= 2.10), graphics, grDevices, stats, methods, utils,
         timeDate (>= 2150.95)
 Suggests: RUnit, robustbase, xts, PerformanceAnalytics, fTrading
