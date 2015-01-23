@@ -12989,7 +12989,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 1.1.8
+Version: 1.1.9
 Depends: Matrix, raster, sp, R (>= 3.0.0)
 Imports: abind, numDeriv, pracma, methods
 Suggests: geoR, RandomFields, rgdal, parallel, mapmisc, ellipse
@@ -14121,7 +14121,7 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: grplasso
-Version: 0.4-4
+Version: 0.4-5
 Depends: methods
 License: GPL
 NeedsCompilation: no
@@ -25266,7 +25266,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pbivnorm
-Version: 0.5-1
+Version: 0.6.0
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26950,7 +26950,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Power2Stage
-Version: 0.2-2
+Version: 0.3-1
 Depends: PowerTOST
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27002,7 +27002,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.2-05
+Version: 1.2-06
 Depends: mvtnorm
 Suggests: crossdes
 License: GPL (>= 2)
@@ -29169,7 +29169,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rcicr
-Version: 0.2.6
+Version: 0.3.0
 Imports: matlab, aspace, tcltk, jpeg
 License: GPL-2
 NeedsCompilation: no
@@ -30421,9 +30421,9 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: repmis
-Version: 0.3.3
+Version: 0.4
 Depends: R (>= 3.0.0)
-Imports: digest, httr, plyr, R.cache, xlsx
+Imports: data.table, digest, httr, plyr, R.cache, xlsx
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -39986,7 +39986,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: unmarked
-Version: 0.10-4
+Version: 0.10-5
 Depends: R (>= 2.12.0), methods, reshape, lattice, Rcpp (>= 0.8.0)
 Imports: graphics, stats, utils, plyr
 LinkingTo: Rcpp, RcppArmadillo
