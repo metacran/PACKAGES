@@ -10207,10 +10207,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: ExomeDepth
-Version: 1.1.1
+Version: 1.1.4
 Depends: R (>= 3.1.0)
 Imports: Biostrings, IRanges, Rsamtools, GenomicRanges (>= 1.16.0),
-        aod, VGAM (>= 0.8.4), methods
+        aod, VGAM (>= 0.8.4), methods, GenomicAlignments
 Suggests: knitr
 License: GPL-3
 NeedsCompilation: yes
@@ -17926,6 +17926,15 @@ Suggests: Matrix, reshape2, ggplot2 (>= 0.9.1), penalized
 License: LGPL
 NeedsCompilation: yes
 
+Package: LDAvis
+Version: 0.2
+Depends: R (>= 2.10)
+Imports: proxy, RJSONIO, parallel
+Suggests: mallet, lda, topicmodels, gistr (>= 0.0.8.99), servr, shiny,
+        knitr, rmarkdown
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: ldbounds
 Version: 1.1-1
 Imports: lattice
@@ -24046,7 +24055,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ONETr
-Version: 1.0.1
+Version: 1.0.2
 Depends: XML, RCurl
 License: GPL-3
 NeedsCompilation: no
@@ -25321,10 +25330,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PBSmodelling
-Version: 2.66.264
+Version: 2.67.266
 Depends: R (>= 2.15.0)
-Imports: tcltk, methods
-Suggests: PBSmapping, deSolve, KernSmooth, XML
+Imports: methods, tcltk, XML
+Suggests: PBSmapping, deSolve, KernSmooth
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26142,7 +26151,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: pipeR
-Version: 0.5
+Version: 0.6
 Depends: R (>= 2.15)
 Suggests: testthat
 License: MIT + file LICENSE
