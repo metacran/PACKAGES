@@ -7571,9 +7571,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: dfcomb
-Version: 1.0-1
+Version: 2.0-2
 Depends: R (>= 3.1.0)
-LinkingTo: BH (>= 1.54), RcppProgress (>= 0.1), Rcpp
+LinkingTo: RcppArmadillo (>= 0.4.500), BH (>= 1.54), RcppProgress (>=
+        0.2), Rcpp
 License: GPL-3
 NeedsCompilation: yes
 
@@ -29562,7 +29563,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp
-Version: 0.11.3
+Version: 0.11.4
 Depends: R (>= 3.0.0)
 Imports: methods
 Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
@@ -31357,10 +31358,10 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: rlist
-Version: 0.3-2
+Version: 0.4
 Depends: R (>= 2.15)
-Imports: stringdist, data.table, yaml, jsonlite
-Suggests: testthat, knitr, pipeR
+Imports: yaml, jsonlite
+Suggests: testthat, data.table, stringdist, pipeR
 License: MIT + file LICENSE
 NeedsCompilation: no
 
