@@ -7596,10 +7596,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dfmta
-Version: 1.1-0
+Version: 1.1-2
 Depends: R (>= 3.1.0)
 LinkingTo: RcppArmadillo (>= 0.3.910), BH (>= 1.54), RcppProgress (>=
-        0.1), Rcpp
+        0.2), Rcpp
 License: GPL-3
 NeedsCompilation: yes
 
