@@ -17382,6 +17382,11 @@ Suggests: testthat, roxygen2, corrplot, ggplot2, igraph, maps, mapproj,
 License: GPL-2
 NeedsCompilation: no
 
+Package: knncat
+Version: 1.2.1
+License: GPL-2
+NeedsCompilation: yes
+
 Package: knnGarden
 Version: 1.0.1
 Depends: cluster
@@ -22684,7 +22689,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.0.2
+Version: 1.0.2.1
 Depends: R (>= 3.1.0)
 Imports: Rcpp, Matrix, missForest
 LinkingTo: Rcpp
@@ -27519,9 +27524,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pscl
-Version: 1.4.6
-Depends: R (>= 2.10.0), MASS, lattice
-Suggests: MCMCpack, car, lmtest, sandwich, zoo, coda, gam, vcd, mvtnorm
+Version: 1.4.8
+Depends: MASS, lattice
+Suggests: MCMCpack, car, lmtest, sandwich, zoo, coda, vcd, mvtnorm,
+        mgcv
 Enhances: stats
 License: GPL-2
 NeedsCompilation: yes
@@ -35049,11 +35055,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: simsalapar
-Version: 1.0-4
-Depends: R (>= 3.0.0), stats, graphics
-Imports: parallel, utils, methods, grid, sfsmisc, gridBase (>= 0.4-6),
-        colorspace
-Suggests: Rmpi, Hmisc, copula, foreach, doParallel, fGarch, robustbase
+Version: 1.0-5
+Depends: R (>= 3.0.0), graphics
+Imports: stats, parallel, utils, grDevices, methods, grid, sfsmisc,
+        gridBase (>= 0.4-6), colorspace
+Suggests: lattice, Rmpi, Hmisc, copula, foreach, doParallel, fGarch,
+        robustbase
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
