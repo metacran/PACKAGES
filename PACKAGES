@@ -16697,7 +16697,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: ISOcodes
-Version: 2014.03.24
+Version: 2015.01.24
 Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: no
@@ -23258,7 +23258,7 @@ License: LGPL-3
 NeedsCompilation: yes
 
 Package: NLP
-Version: 0.1-5
+Version: 0.1-6
 Depends: R (>= 2.10)
 Imports: utils
 License: GPL-2
@@ -29667,7 +29667,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppGSL
-Version: 0.2.3
+Version: 0.2.4
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, inline, highlight
