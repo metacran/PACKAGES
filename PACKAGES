@@ -40807,7 +40807,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: webutils
-Version: 0.2
+Version: 0.3
 Imports: tools, utils, jsonlite
 Suggests: httpuv
 License: MIT + file LICENSE
