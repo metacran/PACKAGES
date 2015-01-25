@@ -30214,8 +30214,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: RegressionFactory
-Version: 0.7
-Suggests: sns
+Version: 0.7.1
+Suggests: sns, MfUSampler, dglm
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -35583,8 +35583,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: snht
-Version: 1.0
-Imports: MASS, zoo, plyr, reshape
+Version: 1.0.1
+Imports: mgcv, zoo, plyr, reshape
 License: GPL-3
 NeedsCompilation: no
 
