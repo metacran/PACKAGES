@@ -29586,7 +29586,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.4.600.0
+Version: 0.4.600.4.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
@@ -41231,7 +41231,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: XLConnect
-Version: 0.2-9
+Version: 0.2-10
 Depends: R (>= 2.10.0), XLConnectJars (== 0.2-9)
 Imports: methods, rJava
 Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), fImport, forecast, zoo,
