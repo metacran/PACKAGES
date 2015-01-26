@@ -2036,8 +2036,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesVarSel
-Version: 1.5.1
-Depends: R (>= 2.15.0), parallel, MASS
+Version: 1.6.1
+Depends: R (>= 3.0), parallel, MASS
 License: GPL-2
 NeedsCompilation: yes
 
@@ -20291,8 +20291,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: metaMA
-Version: 2.1
-Depends: R (>= 2.6), limma, SMVar
+Version: 3.1.1
+Depends: R (>= 2.6),
+Imports: limma, SMVar
+Suggests: GEOquery, org.Hs.eg.db, VennDiagram, annaffy, hgu133plus2.db,
+        hgu133a.db, hgu95av2.db
 License: GPL
 NeedsCompilation: no
 
@@ -20339,9 +20342,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: metaRNASeq
-Version: 0.4
+Version: 1.0.2
 Depends: R (>= 2.15.0)
-Suggests: HTSFilter (>= 0.1.1), DESeq (>= 1.8.3), DESeq2 (>= 1.0.17)
+Suggests: HTSFilter (>= 0.1.1), DESeq (>= 1.8.3), DESeq2 (>= 1.0.17),
+        VennDiagram (<= 1.6.7)
 License: GPL
 NeedsCompilation: no
 
@@ -21635,6 +21639,13 @@ NeedsCompilation: no
 Package: moult
 Version: 1.4
 Imports: Formula, Matrix
+License: GPL-2
+NeedsCompilation: no
+
+Package: mountainplot
+Version: 1.0
+Imports: lattice
+Suggests: knitr,latticeExtra
 License: GPL-2
 NeedsCompilation: no
 
@@ -31431,11 +31442,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rmarkdown
-Version: 0.4.2
+Version: 0.5.1
 Depends: R (>= 3.0)
 Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
         0.2.4), caTools
-Suggests: shiny, testthat, digest
+Suggests: shiny (>= 0.11), testthat, digest
 License: GPL-3
 NeedsCompilation: no
 
@@ -35047,7 +35058,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: simPop
-Version: 0.2.6
+Version: 0.2.9
 Depends: R(>= 3.0.0), lattice, vcd, data.table
 Imports: laeken, MASS, Rcpp (>= 0.11.0), e1071, parallel, nnet,
         doParallel, foreach, colorspace, methods
