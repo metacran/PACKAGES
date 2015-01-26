@@ -8707,7 +8707,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dygraphs
-Version: 0.3.3
+Version: 0.4.1
 Depends: R (>= 3.0)
 Imports: magrittr, htmlwidgets (>= 0.3.2), zoo (>= 1.7-10), xts (>=
         0.9-7)
@@ -20662,8 +20662,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: micromap
-Version: 1.9
-Depends: R (>= 2.10), ggplot2, maptools, RColorBrewer, rgdal, grid
+Version: 1.9.1
+Depends: R (>= 2.10), sp
+Imports: ggplot2, grid, maptools, RColorBrewer, rgdal
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37512,9 +37513,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stsm
-Version: 1.4
-Depends: R (>= 3.0.0)
-Imports: KFKSDS, parallel, stats, stsm.class
+Version: 1.7
+Depends: R (>= 3.0.0), methods
+Imports: KFKSDS, parallel, stats
 Suggests: mvtnorm, numDeriv
 License: GPL-2
 NeedsCompilation: yes
