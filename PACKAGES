@@ -7847,7 +7847,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Disake
-Version: 1.0
+Version: 1.5
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28371,10 +28371,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: R2BayesX
-Version: 0.3-1
+Version: 1.0-0
 Depends: R (>= 2.13.0), BayesXsrc, colorspace, mgcv
-Suggests: akima, coda, maptools, MBA, parallel, shapefiles, sp, spdep,
-        splines
+Suggests: akima, coda, maps, maptools, MBA, parallel, shapefiles, sp,
+        spdep, splines
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
@@ -33432,6 +33432,13 @@ Depends: nlme, MASS
 License: GPL-2
 NeedsCompilation: no
 
+Package: sae2
+Version: 0.1-1
+Depends: R (>= 2.14.0), MASS
+Suggests: sae
+License: GPL-2
+NeedsCompilation: no
+
 Package: saemix
 Version: 1.2
 Imports: graphics, stats, methods
@@ -35742,6 +35749,11 @@ Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: GPL
 NeedsCompilation: yes
+
+Package: SocialPosition
+Version: 1.0
+License: GPL-2 | GPL-3
+NeedsCompilation: no
 
 Package: SOD
 Version: 1.0
