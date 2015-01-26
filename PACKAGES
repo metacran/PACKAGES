@@ -19038,7 +19038,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ltsk
-Version: 1.0.2
+Version: 1.0.3
 Depends: parallel,R (>= 2.10)
 Imports: fields
 License: GPL-2
@@ -29863,6 +29863,12 @@ Suggests: network, sna
 License: GPL-3
 NeedsCompilation: no
 
+Package: RDota
+Version: 1.1
+Depends: R(>= 3.1.2)
+License: GPL-3
+NeedsCompilation: no
+
 Package: Rdpack
 Version: 0.4-14
 Depends: R (>= 2.15.0), tools, gbRd
@@ -31180,7 +31186,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: RISmed
-Version: 2.1.2
+Version: 2.1.4
 Depends: R (>= 2.8.0), methods
 License: GPL (>= 2)
 NeedsCompilation: no
