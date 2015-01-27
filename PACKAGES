@@ -5867,6 +5867,13 @@ Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: cope
+Version: 0.1
+Depends: maps (>= 2.3-7)
+Imports: fields (>= 7.1), MASS (>= 7.3-34), mvtnorm (>= 1.0-0)
+License: GPL-2
+NeedsCompilation: no
+
 Package: copula
 Version: 0.999-12
 Depends: R (>= 2.15.2)
@@ -12868,10 +12875,11 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: geoCount
-Version: 1.131209
-Depends: R (>= 2.12.0), Rcpp (>= 0.9.4), RcppArmadillo (>= 0.2.19)
+Version: 1.150120
+Depends: R (>= 2.12.0)
+Imports: Rcpp (>= 0.9.4)
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: coda, distrEx, reldist, snow, snowfall
+Suggests: coda, distr, distrEx, reldist, rlecuyer, snowfall
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -14031,7 +14039,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gridSVG
-Version: 1.4-2
+Version: 1.4-3
 Depends: R (>= 3.1)
 Imports: methods, grid, RJSONIO, XML
 Suggests: lattice
@@ -15867,13 +15875,14 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: icd9
-Version: 0.5
-Depends: R (>= 3.0.3)
-Imports: memoise
-Suggests: testthat, roxygen2, devtools, knitr, microbenchmark, XML,
-        magrittr
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.11.4), checkmate (>= 1.5.1)
+LinkingTo: Rcpp
+Suggests: testthat, knitr, microbenchmark, XML, magrittr, memoise,
+        profr, ggplot2
 License: GPL-3
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: ICE
 Version: 0.69
@@ -19678,6 +19687,12 @@ Depends: R (>= 2.10.0), raster
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: MaxPro
+Version: 3.1-1
+Depends: nloptr
+License: LGPL-2.1
+NeedsCompilation: yes
+
 Package: maxstat
 Version: 0.7-21
 Depends: R (>= 1.7.0)
@@ -22366,8 +22381,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: munfold
-Version: 0.3-1
-Depends: memisc, MASS
+Version: 0.3-3
+Imports: memisc, MASS, stats
 License: GPL-2
 NeedsCompilation: no
 
@@ -22529,6 +22544,11 @@ Package: mvnormtest
 Version: 0.1-9
 Depends: stats
 License: GPL
+NeedsCompilation: no
+
+Package: mvnpermute
+Version: 1.0.0
+License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: mvoutlier
@@ -28243,6 +28263,12 @@ Depends: R (>= 2.0), MASS, outliers
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: quantification
+Version: 0.1.0
+Depends: car
+License: GPL-3
+NeedsCompilation: no
+
 Package: QuantifQuantile
 Version: 1.0
 Depends: rgl
@@ -30308,8 +30334,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: reldist
-Version: 1.6-3
-Depends: mgcv
+Version: 1.6-4
+Imports: mgcv
 Suggests: locfit
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
@@ -36390,7 +36416,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: spBayes
-Version: 0.3-8
+Version: 0.3-9
 Depends: R (>= 1.8.0), coda, magic, abind, Formula
 Suggests: MBA, geoR
 License: GPL (>= 2)
