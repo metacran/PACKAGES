@@ -10962,7 +10962,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: FeedbackTS
-Version: 1.3
+Version: 1.3.1
 Depends: R (>= 3.0.0), methods, maps, mapdata, proj4, geoR, sp
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -17206,6 +17206,12 @@ Package: kernelFactory
 Version: 0.2.0
 Imports: randomForest, AUC, genalg, kernlab
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: Kernelheaping
+Version: 0.2
+Depends: R (>= 2.15.0), plyr, evmix, MASS
+License: GPL-2
 NeedsCompilation: no
 
 Package: kernlab
@@ -25959,8 +25965,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PHENIX
-Version: 1.0
-Imports: ppcor
+Version: 1.1
+Imports: ppcor, SuppDists
 License: GPL (>= 2)
 NeedsCompilation: no
 
