@@ -7180,7 +7180,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: decompr
-Version: 1.3.2
+Version: 2.0
 Depends: R (>= 2.10)
 License: GPL-3
 NeedsCompilation: no
@@ -12050,6 +12050,12 @@ Imports: MASS, mgcv, mvtnorm, splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: funtimes
+Version: 1.0
+Depends: Jmisc, R (>= 3.0.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FusedPCA
 Version: 0.2
 Depends: R (>= 2.15.1), genlasso
@@ -15222,7 +15228,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: HMR
-Version: 0.3.2
+Version: 0.4.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21939,8 +21945,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: msarc
-Version: 1.4.3
-Depends: R (>= 2.14.0)
+Version: 1.4.5
+Depends: R (>= 3.1.0)
 Imports: AnnotationDbi, gplots, XLConnect, wordcloud, RColorBrewer
 Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db
 License: Artistic-2.0
@@ -33905,7 +33911,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SCMA
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 2.11.1)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33985,7 +33991,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: SCRT
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 2.14.1)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34005,7 +34011,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SCVA
-Version: 1.1
+Version: 1.1.1
 Depends: R (>= 2.15.2)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34588,7 +34594,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sequenza
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 3.0.0), copynumber, parallel, squash
 License: GPL-3
 NeedsCompilation: no
@@ -39312,10 +39318,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TraMineRextras
-Version: 0.2.2
-Depends: R (>= 2.8.1), TraMineR (>= 1.8-4), RColorBrewer, combinat,
-        survival
-Suggests: cluster
+Version: 0.2.3
+Depends: R (>= 2.8.1), TraMineR (>= 1.8-9), RColorBrewer, combinat,
+        survival, cluster
 License: GPL (>= 2)
 NeedsCompilation: yes
 
