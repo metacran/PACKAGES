@@ -37400,7 +37400,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 0.9-1
+Version: 1.0.0
 Depends: R (>= 3.0.0), coda
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
