@@ -17268,9 +17268,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: KFKSDS
-Version: 1.5
+Version: 1.6
 Depends: R (>= 3.0.0), stats
-Suggests: dlm, dse, FKF, numDeriv, stsm.class
+Suggests: dlm, dse, FKF, KFAS, numDeriv, stsm
 License: GPL-2
 NeedsCompilation: yes
 
@@ -26440,14 +26440,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotKML
-Version: 0.4-8
+Version: 0.5-0
 Depends: R (>= 2.13.0)
 Imports: methods, XML, sp, raster, rgdal, spacetime, colorspace,
         plotrix, dismo, aqp, pixmap, plyr, stringr, colorRamps, scales,
         gstat, zoo, RColorBrewer, RSAGA, classInt
 Suggests: utils, adehabitat, maptools, fossil, spcosa, rjson,
         animation, spatstat, RCurl, rgbif, Hmisc, GSIF, uuid,
-        intervals, reshape, gdalUtils
+        intervals, reshape, gdalUtils, snowfall, parallel
 License: GPL
 NeedsCompilation: no
 
@@ -40667,7 +40667,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: visualFields
-Version: 0.4
+Version: 0.4.2
 Depends: R (>= 2.14.0), stats, utils, gridBase, flip (>= 2.1),
         matrixStats, Hmisc
 License: GPL (>= 2.0)
