@@ -585,6 +585,11 @@ Depends: R (>= 2.10.1), numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ald
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ALDqr
 Version: 0.5
 Depends: R (>= 2.15.0)
@@ -3618,6 +3623,13 @@ NeedsCompilation: no
 Package: brew
 Version: 1.0-6
 License: GPL-2
+NeedsCompilation: no
+
+Package: brewdata
+Version: 0.3
+Depends: RCurl, XML, stringdist, tools
+Suggests: rgl, scatterplot3d
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: brglm
@@ -7179,6 +7191,12 @@ Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: decode
+Version: 1.0
+Depends: R (>= 3.1.2)
+License: GPL-3
+NeedsCompilation: no
+
 Package: decompr
 Version: 2.0
 Depends: R (>= 2.10)
@@ -10565,8 +10583,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: fanplot
-Version: 3.3
-Depends: R(>= 2.15.0)
+Version: 3.4.0
+Depends: R (>= 2.10)
+Suggests: shiny, tsbugs
 License: GPL-2
 NeedsCompilation: no
 
@@ -23123,8 +23142,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NeuralNetTools
-Version: 1.0.0
-Depends: R (>= 3.1.1)
+Version: 1.0.1
+Depends: R (>= 3.1.2)
 Imports: ggplot2, neuralnet, nnet, reshape2, RSNNS, scales
 License: CC0
 NeedsCompilation: no
@@ -23842,7 +23861,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: numbers
-Version: 0.4-5
+Version: 0.5-2
 Depends: R (>= 3.0.0)
 Imports: gmp (>= 0.5-1)
 License: GPL (>= 3)
@@ -27497,6 +27516,11 @@ Suggests: testthat, roxygen2
 License: GPL-3
 NeedsCompilation: no
 
+Package: protoclust
+Version: 1.4
+License: GPL-2
+NeedsCompilation: yes
+
 Package: PROTOLIDAR
 Version: 0.1
 License: GPL
@@ -28737,7 +28761,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.59
+Version: 3.0.60
 Depends: R (>= 3.0.2), sp
 Imports: graphics, methods
 Suggests: colorspace, RColorBrewer, raster, tcltk2, tcltk, tkrplot,
@@ -31454,6 +31478,12 @@ Enhances: SemiPar
 License: GPL
 NeedsCompilation: yes
 
+Package: rLTP
+Version: 0.1
+Depends: R (>= 3.0.2),RCurl
+License: LGPL
+NeedsCompilation: yes
+
 Package: RM2
 Version: 0.0
 Depends: R (>= 2.7.1), msm
@@ -33204,7 +33234,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rvalues
-Version: 0.2
+Version: 0.3
 License: GPL-2
 NeedsCompilation: yes
 
@@ -35386,7 +35416,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: SLHD
-Version: 1.2-1
+Version: 2.1-1
 License: LGPL-2.1
 NeedsCompilation: yes
 
