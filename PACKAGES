@@ -27039,7 +27039,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: portfolio
-Version: 0.4-6
+Version: 0.4-7
 Depends: R (>= 2.10), methods, graphics, grid, lattice, nlme
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -37466,6 +37466,14 @@ Version: 1.23
 Depends: truncnorm, coda, Matrix, fields
 License: Unlimited
 NeedsCompilation: no
+
+Package: StochKit2R
+Version: 0.2
+Imports: Rcpp (>= 0.11.2), reshape, ggplot2, XML
+LinkingTo: Rcpp, BH
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: yes
 
 Package: stochprofML
 Version: 1.2
