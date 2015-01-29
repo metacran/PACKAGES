@@ -5067,9 +5067,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cluster
-Version: 1.15.3
+Version: 2.0.0
 Priority: recommended
-Depends: R (>= 2.12.0), stats, utils
+Depends: R (>= 2.15.0), stats, utils
 Imports: graphics, grDevices
 Suggests: MASS
 License: GPL (>= 2)
@@ -13088,9 +13088,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GetoptLong
-Version: 0.0.8
+Version: 0.0.9
 Depends: R (>= 2.10.0)
-Imports: rjson, GlobalOptions (>= 0.0.3)
+Imports: rjson, GlobalOptions (>= 0.0.6)
 Suggests: testthat (>= 0.3), knitr
 License: GPL (>= 2)
 NeedsCompilation: no
