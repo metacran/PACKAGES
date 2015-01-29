@@ -3008,7 +3008,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: biotools
-Version: 1.2
+Version: 2.0
 Depends: R (>= 2.15), utils, rpanel, tkrplot, MASS, boot
 Suggests: soilphysics
 License: GPL (>= 2)
@@ -4289,6 +4289,12 @@ Version: 0.2.3
 Depends: R (>= 2.15.2)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: cchs
+Version: 0.1.0
+Depends: R (>= 2.15.0), survival (>= 2.36-12)
+License: GPL-3
+NeedsCompilation: no
 
 Package: cclust
 Version: 0.6-19
@@ -8736,6 +8742,14 @@ Depends: wmtsa
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: DVHmetrics
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: ggplot2, reshape2, grid, shiny
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: dvn
 Version: 0.3.3
 Imports: RCurl, XML
@@ -9296,6 +9310,13 @@ Package: EL
 Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: elastic
+Version: 0.3.0
+Imports: httr, jsonlite
+Suggests: testthat, roxygen2, knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: elasticnet
 Version: 1.1
@@ -37302,9 +37323,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: StatMatch
-Version: 1.2.2
-Depends: R (>= 2.7.0), proxy, clue, survey, RANN
-Suggests: lpSolve, MASS, Hmisc
+Version: 1.2.3
+Depends: R (>= 2.7.0), proxy, clue, survey, RANN, lpSolve
+Suggests: MASS, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
