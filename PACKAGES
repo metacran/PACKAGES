@@ -8170,6 +8170,12 @@ Depends: R(>= 2.12.0),tcltk,glmnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: divo
+Version: 0.1
+Depends: R (>= 3.1.0), RcppCNPy, cluster
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: dixon
 Version: 0.0-5
 Depends: splancs, spatstat
@@ -38577,7 +38583,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: teigen
-Version: 2.0.7
+Version: 2.0.8
 Imports: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
