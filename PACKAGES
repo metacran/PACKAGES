@@ -519,8 +519,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: AGSDest
-Version: 2.1
-Depends: ldbounds
+Version: 2.2
+Imports: ldbounds
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -7580,6 +7580,12 @@ Package: DetSel
 Version: 1.0.2
 Depends: R (>= 2.15), ash
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: devEMF
+Version: 2.0
+Depends: R (>= 2.10.1)
+License: GPL-3
 NeedsCompilation: yes
 
 Package: Devore7
