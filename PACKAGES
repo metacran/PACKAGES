@@ -13801,6 +13801,13 @@ Depends: R (>= 2.12), rjson
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: GOplot
+Version: 1.0
+Depends: ggplot2, ggdendro, grid, gridExtra, RColorBrewer, R (>= 3.0.3)
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: goric
 Version: 0.0-8
 Depends: nlme
@@ -22623,7 +22630,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: mvoutlier
-Version: 2.0.5
+Version: 2.0.6
 Depends: sgeostat, R (>= 2.14)
 Imports: robCompositions, robustbase
 License: GPL (>= 3)
@@ -27160,6 +27167,13 @@ Package: ppls
 Version: 1.6-1
 Depends: splines, MASS
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ppmlasso
+Version: 1.1
+Depends: R (>= 3.0.0), spatstat (>= 1.40-0)
+Imports: methods
+License: GPL-3
 NeedsCompilation: no
 
 Package: pps
@@ -34943,8 +34957,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: shinyFiles
-Version: 0.4.0
-Imports: tools, shiny (>= 0.10.1), htmltools
+Version: 0.5.0
+Imports: tools, shiny (>= 0.11), htmltools
 License: GPL (>= 2)
 NeedsCompilation: no
 
