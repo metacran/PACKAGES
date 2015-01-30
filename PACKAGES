@@ -11328,6 +11328,13 @@ Depends: R (>= 2.1.0), FitAR
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: fitbitScraper
+Version: 0.1.1
+Depends: R (>= 3.0.0)
+Imports: httr, stringr, RJSONIO
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: fitdistrplus
 Version: 1.0-3
 Depends: R (>= 2.10.0)
@@ -17352,6 +17359,12 @@ Version: 0.1.1
 Depends: methods, RCurl, rjson
 License: BSD 2-clause License + file LICENSE
 NeedsCompilation: no
+
+Package: kissmig
+Version: 1.0-3
+Depends: raster, R (>= 2.15.0)
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: kitagawa
 Version: 2.1-0
@@ -37711,7 +37724,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stylo
-Version: 0.5.8-2
+Version: 0.5.9
 Imports: tcltk, tcltk2, ape, pamr, e1071, class, lattice, tsne
 License: GPL (>= 3)
 NeedsCompilation: no
