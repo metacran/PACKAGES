@@ -5870,7 +5870,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: copBasic
-Version: 1.7.0
+Version: 1.7.1
 Depends: R (>= 2.10)
 Imports: lmomco
 License: GPL-2
@@ -9031,6 +9031,15 @@ Imports: httr (>= 0.3), plyr, assertthat, whisker, dplyr (>= 0.2),
         jsonlite, lubridate, leafletR (>= 0.1-1)
 Suggests: testthat, knitr, ggplot2
 License: CC0
+NeedsCompilation: no
+
+Package: EcoGenetics
+Version: 1.0
+Depends: R (>= 3.0), methods
+Imports: adegenet, ggplot2, gstat, gstudio, hierfstat, party, raster,
+        rgdal, rkt, sp, spdep, tcltk, vegan
+Suggests: animation, ape, Geneland, seqinr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EcoHydRology
@@ -14297,15 +14306,15 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GSIF
-Version: 0.4-3
+Version: 0.4-4
 Depends: R (>= 2.15.0)
 Imports: methods, sp (>= 1.0-8), RSAGA, dismo, rgdal, raster, aqp,
-        plotKML, gstat, stats, boot, rpart, quantregForest,
-        randomForest, nlme
-Suggests: rjson, RCurl, soiltexture, spatstat, stringr, plyr, XML,
-        splines, mda, psych, nortest, reshape, fossil, AICcmodavg,
-        maptools, nnet, SDMTools, rJava (>= 0.5-0), spacetime,
-        gdalUtils, tools
+        plotKML, gstat, stats, plyr
+Suggests: rjson, RCurl, soiltexture, spatstat, stringr, XML, boot,
+        splines, mda, psych, nortest, rpart, quantregForest,
+        randomForest, nlme, reshape, fossil, AICcmodavg, maptools,
+        nnet, SDMTools, rJava (>= 0.5-0), spacetime, gdalUtils, tools,
+        maxlike
 License: GPL
 NeedsCompilation: no
 
