@@ -7359,13 +7359,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dendextend
-Version: 0.17.5
+Version: 0.18.3
 Depends: R (>= 3.0.0)
 Imports: utils, stats, magrittr (>= 1.0.1), whisker
-Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, colorspace, plyr,
-        profdpm, microbenchmark, gplots, DendSer, dynamicTreeCut,
-        pvclust
-Enhances: ggdendro, labeltodendro,dendroextras, data.table, ape
+Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, colorspace,
+        ggplot2, plyr, ape, profdpm, microbenchmark, gplots, DendSer,
+        dynamicTreeCut, pvclust
+Enhances: ggdendro, labeltodendro,dendroextras, data.table
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -11410,7 +11410,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: flexCWM
-Version: 1.3
+Version: 1.4
 Depends: R (>= 3.0.0)
 Imports:
         parallel,numDeriv,mnormt,mclust,ellipse,mixture,Flury,adehabitat,MASS,statmod
@@ -35244,11 +35244,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: simPH
-Version: 1.2.4
+Version: 1.2.6.1
 Depends: R (>= 3.0.2)
-Imports: car, DataCombine, data.table (>= 1.9.2), dplyr (>= 0.3),
-        ggplot2, gridExtra, lazyeval, MASS, mgcv, reshape2, stringr (<=
-        0.7), survival, quadprog
+Imports: car, data.table (>= 1.9.2), dplyr (>= 0.3), ggplot2,
+        gridExtra, lazyeval, MASS, mgcv, reshape2, stringr, survival,
+        quadprog
 Suggests: knitr, stats
 License: GPL-3
 NeedsCompilation: no
