@@ -21122,7 +21122,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixlm
-Version: 1.0.8
+Version: 1.0.8.1
 Depends: multcomp, pls, pracma
 Imports: leaps, lme4, car
 License: GPL (>= 2)
