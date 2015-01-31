@@ -23069,6 +23069,12 @@ Depends: R (>= 2.15.2), survival, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: netassoc
+Version: 0.4.1
+Depends: igraph
+License: GPL-3
+NeedsCompilation: no
+
 Package: netClass
 Version: 1.2.1
 Depends: R (>= 2.14), kernlab
@@ -41101,7 +41107,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wgaim
-Version: 1.4-3
+Version: 1.4-5
 Depends: R (>= 2.0.0), qtl, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
