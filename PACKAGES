@@ -5680,8 +5680,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CompRandFld
-Version: 1.0.3-3
-Depends: R (>= 2.12.0)
+Version: 1.0.3-4
+Depends: R (>= 2.13)
 Suggests: RandomFields, spam, scatterplot3d, fields, mapproj
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -14745,6 +14745,13 @@ Package: hbim
 Version: 1.0.3
 Depends: R (>= 2.5.0), stats, mvtnorm
 License: GPL-2
+NeedsCompilation: no
+
+Package: hbm
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: Matrix, foreach, doParallel
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hbmem
