@@ -10880,7 +10880,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fclust
-Version: 1.0.1
+Version: 1.1
 Depends: R(>= 2.8.1), base, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18475,10 +18475,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: llama
-Version: 0.7.2
+Version: 0.8
 Depends: R (>= 2.10), mlr (>= 2.1)
-Imports: plyr, rJava, parallelMap
-Suggests: FSelector, testthat, ParamHelpers
+Imports: rJava, parallelMap, ggplot2, checkmate
+Suggests: testthat, ParamHelpers
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
