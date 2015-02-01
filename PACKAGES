@@ -39901,14 +39901,6 @@ Depends: MAPA, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: TSjson
-Version: 2014.4-1
-Depends: R (>= 2.14.0), TSdbi (>= 2012.8-1), findpython
-Imports: methods, DBI, tframe (>= 2011.11-1), tframePlus, rjson
-Suggests: tfplot, zoo
-License: GPL-2
-NeedsCompilation: no
-
 Package: tslars
 Version: 1.0
 License: GPL
