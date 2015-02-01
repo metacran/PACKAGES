@@ -1865,7 +1865,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesFactor
-Version: 0.9.9
+Version: 0.9.10
 Depends: R (>= 3.0.0), coda, methods
 Imports: pbapply, mvtnorm, stringr, utils, graphics, Rcpp (>= 0.11.2),
         gtools
@@ -2838,7 +2838,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BinNonNor
-Version: 1.0
+Version: 1.1
 Depends: BB, corpcor, mvtnorm, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -3055,8 +3055,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: birk
-Version: 1.2
-License: GPL-2
+Version: 1.3.0
+License: GPL-3
 NeedsCompilation: no
 
 Package: bisectr
@@ -3114,7 +3114,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bizdays
-Version: 0.1.5
+Version: 0.2.1
 Depends: R (>= 2.15)
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -6596,7 +6596,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: curl
-Version: 0.4
+Version: 0.5
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -7628,7 +7628,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: DFIT
-Version: 1.0-1
+Version: 1.0-2
 Imports: simex, mvtnorm, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14562,8 +14562,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GWmodel
-Version: 1.2-3
-Depends: R (>= 3.0.0),maptools (>= 0.5-2), robustbase
+Version: 1.2-5
+Depends: R (>= 3.0.0),maptools (>= 0.5-2), robustbase,sp
 Suggests: mvoutlier, RColorBrewer, gstat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -40594,10 +40594,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VdgRsm
-Version: 1.3
-Depends: R (>= 3.1.1)
+Version: 1.4
+Depends: R (>= 3.1.2)
 Imports: permute, AlgDesign
-License: GPL-2
+Suggests: akima
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vdmR
