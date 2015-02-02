@@ -32441,7 +32441,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: royston
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15.0)
 Imports: nortest, moments
 License: GPL (>= 2)
