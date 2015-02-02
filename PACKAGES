@@ -43,9 +43,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: abd
-Version: 0.2-6
+Version: 0.2-7
 Depends: R (>= 3.0), nlme, lattice, grid, mosaic
-Suggests: boot, car, ggplot2, plyr, HH, ICC, vcd, Hmisc, manipulate
+Suggests: boot, car, ggplot2, plyr, HH, ICC, vcd, Hmisc
 License: GPL-2
 NeedsCompilation: no
 
@@ -1358,7 +1358,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ASMap
-Version: 0.3-2
+Version: 0.3-3
 Depends: R (>= 2.0.0), qtl, gtools, fields, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -39692,7 +39692,7 @@ License_restricts_use: yes
 NeedsCompilation: yes
 
 Package: tripEstimation
-Version: 0.0-41
+Version: 0.0-42
 Imports: lattice, mgcv, rgdal, sp, zoo
 License: GPL-3
 NeedsCompilation: no
