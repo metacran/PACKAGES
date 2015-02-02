@@ -3998,12 +3998,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: car
-Version: 2.0-22
+Version: 2.0-24
 Depends: R (>= 2.14.0), stats, graphics
-Imports: MASS, nnet
-Suggests: alr4, boot, leaps, lme4, lmtest, Matrix, MatrixModels, mgcv,
-        nlme, pbkrtest (>= 0.3-2), quantreg, rgl (>= 0.93.960),
-        sandwich, SparseM, survival, survey
+Imports: MASS, mgcv, nnet, pbkrtest (>= 0.3-2), quantreg
+Suggests: alr4, boot, leaps, lme4, lmtest, Matrix, MatrixModels, nlme,
+        rgl (>= 0.93.960), sandwich, SparseM, survival, survey
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15936,6 +15935,12 @@ Version: 1.0-0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ICAFF
+Version: 1.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: icamix
 Version: 1.0.1
 Imports: Rcpp (>= 0.11.2)
@@ -18626,7 +18631,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lmom
-Version: 2.4
+Version: 2.5
 Imports: stats, graphics
 License: Common Public License Version 1.0
 NeedsCompilation: yes
@@ -18644,7 +18649,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lmomRFA
-Version: 3.0
+Version: 3.0-1
 Depends: lmom (>= 2.0)
 Imports: stats, graphics
 License: Common Public License Version 1.0
@@ -22316,7 +22321,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: multicon
-Version: 1.5
+Version: 1.6
 Depends: R (>= 3.0.0), psych, abind, foreach
 Imports: mvtnorm, sciplot,
 License: GPL-2
@@ -41755,7 +41760,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: zoib
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2), rjags, coda, matrixcalc, Formula
 License: GPL (>= 2)
 NeedsCompilation: no
