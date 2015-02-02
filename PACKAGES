@@ -31001,9 +31001,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RGA
-Version: 0.1.4
-Depends: R (>= 2.15.1)
-Imports: httr (>= 0.3), httpuv, RCurl, jsonlite, shiny (>= 0.10.0)
+Version: 0.2
+Depends: R (>= 3.0.0)
+Imports: httr (>= 0.6), httpuv, RCurl, jsonlite, shiny (>= 0.11)
+Suggests: knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
