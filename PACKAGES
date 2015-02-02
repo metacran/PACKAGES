@@ -5056,7 +5056,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: clue
-Version: 0.3-48
+Version: 0.3-49
 Depends: R (>= 2.10)
 Imports: stats, cluster, graphics, methods
 Suggests: e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations
@@ -30488,7 +30488,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: relations
-Version: 0.6-3
+Version: 0.6-4
 Depends: R (>= 2.14.0)
 Imports: cluster, stats, slam, sets (>= 1.0-4), graphics, grDevices
 Suggests: Rgraphviz, clue (>= 0.3-47), Rglpk (>= 0.3-1), lpSolve (>=
