@@ -6448,7 +6448,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: CRTSize
-Version: 0.3
+Version: 0.4
 Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -36521,6 +36521,14 @@ NeedsCompilation: yes
 Package: spatialCovariance
 Version: 0.6-8
 License: GPL
+NeedsCompilation: no
+
+Package: spatialEco
+Version: 0.1-0
+Depends: R (>= 3.1.0)
+Imports: RANN, rms, sp (>= 1.0-15), raster (>= 2.3-10), spatstat (>=
+        1.35-0), cluster, spdep, SDMTools, RCurl, rgeos
+License: GPL-3
 NeedsCompilation: no
 
 Package: SpatialEpi
