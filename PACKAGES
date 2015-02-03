@@ -2876,6 +2876,13 @@ Version: 1.0-1
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: BinOrdNonNor
+Version: 1.0
+Depends: GenOrd, OrdNor
+Imports: BB, corpcor, Matrix, mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: binr
 Version: 1.0
 Depends: R (>= 3.0.3),
@@ -7204,7 +7211,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: decompr
-Version: 2.0
+Version: 2.1.0
 Depends: R (>= 2.10)
 License: GPL-3
 NeedsCompilation: no
@@ -8050,7 +8057,7 @@ License: LGPL-3
 NeedsCompilation: yes
 
 Package: distrDoc
-Version: 2.5
+Version: 2.5.1
 Depends: R(>= 2.14.0)
 Imports: distr(>= 2.2.0), distrEx(>= 2.2.0), distrSim(>= 2.2.0),
         distrTEst(>= 2.2.0), distrTeach(>= 2.2.0), RandVar(>= 0.7),
@@ -8178,7 +8185,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: divo
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.1.0), RcppCNPy, cluster
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12405,7 +12412,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.dist
-Version: 4.3-1
+Version: 4.3-4
 Depends: R (>= 2.15.0), MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
@@ -21269,7 +21276,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: MKmisc
-Version: 0.96
+Version: 0.97
 Depends: R(>= 2.14.0), stats, graphics
 Imports: RColorBrewer, robustbase
 Suggests: gplots
@@ -22859,7 +22866,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.0.2.1
+Version: 1.0.2.2
 Depends: R (>= 3.1.0)
 Imports: Rcpp, Matrix, missForest
 LinkingTo: Rcpp
@@ -23548,7 +23555,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: NMOF
-Version: 0.34-0
+Version: 0.34-1
 Depends: R (>= 2.14)
 Imports: parallel
 Suggests: MASS, RUnit, quadprog
@@ -25100,8 +25107,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ParamHelpers
-Version: 1.4
-Imports: BBmisc (>= 1.7), checkmate (>= 1.4)
+Version: 1.5
+Imports: BBmisc (>= 1.9), checkmate (>= 1.5.1)
 Suggests: emoa, lhs, irace, testthat, soobench
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -29461,7 +29468,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.1-5
+Version: 2.1-6
 Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-2),
         car (>= 2.0-21)
 Imports: tcltk, tcltk2 (>= 1.2-6), abind
@@ -30566,10 +30573,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: relimp
-Version: 1.0-3
+Version: 1.0-4
 Depends: R (>= 2.0.0)
-Imports: tcltk
-Suggests: nnet, MASS
+Suggests: tcltk, nnet, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32616,6 +32622,11 @@ Depends: R (>= 2.9.0), methods, DBI (>= 0.1-4)
 License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
+Package: RPPairwiseDesign
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: rPref
 Version: 0.4
 Depends: R (>= 3.0.0), methods
@@ -33707,6 +33718,12 @@ Package: saemix
 Version: 1.2
 Imports: graphics, stats, methods
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: SAENET
+Version: 1.0
+Imports: autoencoder, neuralnet
+License: GPL-3
 NeedsCompilation: no
 
 Package: saery
@@ -37341,6 +37358,13 @@ Package: stacomirtools
 Version: 0.3
 Depends: RODBC,xtable,methods
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: stagePop
+Version: 1.0-1
+Imports: deSolve,PBSddesolve
+Suggests: R.rsp
+License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: stam
