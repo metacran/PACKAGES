@@ -2129,9 +2129,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BBmisc
-Version: 1.8
+Version: 1.9
 Imports: stats, checkmate
-Suggests: testthat, microbenchmark
+Suggests: testthat, microbenchmark, codetools
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -12370,7 +12370,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: gamlss
-Version: 4.3-1
+Version: 4.3-4
 Depends: R (>= 2.15.0), graphics, stats, splines, utils, gamlss.data,
         gamlss.dist (>= 4.3.1), nlme
 Imports: MASS, survival
@@ -12378,8 +12378,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.add
-Version: 4.3-0
-Depends: R (>= 2.15.0), gamlss (>= 2.4.0), mgcv, nnet, rpart
+Version: 4.3-3
+Depends: R (>= 2.15.0), gamlss.dist, gamlss (>= 2.4.0), mgcv, nnet,
+        rpart
 Suggests: lattice
 License: GPL-2 | GPL-3
 NeedsCompilation: no
