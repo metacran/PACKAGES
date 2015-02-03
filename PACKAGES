@@ -19500,7 +19500,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: maptools
-Version: 0.8-30
+Version: 0.8-34
 Depends: R (>= 2.10), sp (>= 1.0-11)
 Imports: foreign (>= 0.8), methods, grid, lattice, stats
 Suggests: rgeos (>= 0.1-8), spatstat (>= 1.18), PBSmapping,
