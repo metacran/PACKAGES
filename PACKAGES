@@ -2922,7 +2922,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: biogram
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0), slam
 Imports: bit
 Suggests: testthat
@@ -7558,10 +7558,10 @@ License: GPL
 NeedsCompilation: yes
 
 Package: DetMCD
-Version: 0.0.1
-Depends: matrixStats, pcaPP (>= 1.8-1), robustbase, MASS
+Version: 0.0.2
+Depends: robustbase
 LinkingTo: Rcpp, RcppEigen
-Suggests: mvtnorm
+Suggests: mvtnorm, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -12385,8 +12385,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.cens
-Version: 4.2.7
-Depends: R (>= 2.2.1), gamlss, gamlss.dist, survival
+Version: 4.3.1
+Depends: R (>= 2.2.1), gamlss.dist, gamlss, survival
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -20413,7 +20413,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MetaLandSim
-Version: 0.1
+Version: 0.2
 Depends: R (>= 2.10), tcltk, spatstat, stats, sp
 Imports: Biobase, e1071, fgui, grDevices, graphics, googleVis,
         maptools, rgeos, spgrass6, raster
@@ -21934,7 +21934,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mpt
-Version: 0.5-0
+Version: 0.5-1
 Depends: R (>= 3.0.0), stats
 License: GPL (>= 2)
 NeedsCompilation: no
