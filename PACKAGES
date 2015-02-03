@@ -12430,15 +12430,15 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.tr
-Version: 4.2-7
-Depends: R (>= 2.2.1), gamlss (>= 4.2-7)
+Version: 4.3-1
+Depends: R (>= 2.2.1), gamlss.dist, gamlss (>= 4.2-7)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.util
-Version: 4.2-7
-Depends: R (>= 2.15.0), gamlss (>= 2.4.0), colorspace, Matrix, MASS,
-        rgenoud, zoo, gamlss.add (>= 2.15.0), spam
+Version: 4.3-2
+Depends: R (>= 2.15.0), gamlss.dist, gamlss (>= 4.3.3), zoo
+Suggests: colorspace
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
