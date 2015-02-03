@@ -34333,7 +34333,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: seacarb
-Version: 3.0.5
+Version: 3.0.6
 Depends: oce
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -40464,8 +40464,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: V8
-Version: 0.4
-Imports: Rcpp (>= 0.11.0), jsonlite (>= 0.9.14), curl (>= 0.4)
+Version: 0.5
+Imports: Rcpp (>= 0.11.0), jsonlite (>= 0.9.14), curl (>= 0.5)
 LinkingTo: Rcpp
 Suggests: knitr
 License: MIT + file LICENSE
