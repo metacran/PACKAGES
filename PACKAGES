@@ -4179,7 +4179,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: catnet
-Version: 1.14.5
+Version: 1.14.8
 Depends: R (>= 3.0.2)
 Imports: methods, stats
 License: GPL (>= 2)
@@ -17571,7 +17571,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kofnGA
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -18311,7 +18311,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: LiblineaR
-Version: 1.80-10
+Version: 1.94-2
 Suggests: SparseM
 License: GPL-2
 NeedsCompilation: yes
@@ -21402,18 +21402,21 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mlr
-Version: 2.2
-Depends: R (>= 3.0.0), ParamHelpers (>= 1.4), BBmisc (>= 1.7), stats
-Imports: checkmate (>= 1.4), codetools, ggplot2, parallelMap (>= 1.1),
-        plyr, survival
-Suggests: testthat, ada, adabag, bartMachine, care, caret, class, clue,
-        cluster, clusterSim, clValid, cmaes, CoxBoost, crs,
-        DiceKriging, DiceOptim, DiscriMiner, e1071, earth, emoa, FNN,
-        FSelector, gbm, GenSA, glmnet, Hmisc, irace, kernlab, kknn,
-        klaR, lqa, LiblineaR, MASS, mboost, mco, mda, mlbench,
-        modeltools, mRMRe, nnet, party, penalized, pls, pROC,
-        randomForest, randomForestSRC, reshape2, rrlda, robustbase,
-        rpart, rsm, RWeka, ROCR, sda, stepPlr, TH.data
+Version: 2.3
+Depends: R (>= 3.0.0), ParamHelpers (>= 1.5), BBmisc (>= 1.9), ggplot2,
+        stats
+Imports: checkmate (>= 1.5.1), parallelMap (>= 1.2), plyr, reshape2,
+        survival
+Suggests: ada, adabag, bartMachine, brnn, care, caret, class, clue,
+        cluster, clusterSim, clValid, cmaes, CoxBoost, crs, Cubist,
+        DiceKriging, DiceOptim, DiscriMiner, e1071, earth, elmNN, emoa,
+        extraTrees, FNN, FSelector, gbm, GenSA, glmnet, Hmisc, irace,
+        kernlab, kknn, klaR, kohonen, laGP, LiblineaR, lqa, MASS,
+        mboost, mco, mda, mlbench, modeltools, mRMRe, nnet,
+        nodeHarvest, party, penalized, pls, pROC, randomForest,
+        randomForestSRC, randomUniformForest, RCurl, rjson, robustbase,
+        ROCR, rpart, rrlda, rsm, RWeka, sda, stepPlr, testthat, tgp,
+        TH.data, xgboost
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
