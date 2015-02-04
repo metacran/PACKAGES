@@ -1391,8 +1391,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: assertive
-Version: 0.1-8
+Version: 0.2-1
 Depends: R (>= 2.15.0)
+Imports: methods
+Suggests: testthat
 License: Unlimited
 NeedsCompilation: no
 
@@ -12875,9 +12877,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GeneticTools
-Version: 0.3
+Version: 0.3.1
 Depends: R (>= 3.0.2), gMWT (>= 0.3), snpStats, Rcpp (>= 0.9.13),
-        RcppArmadillo (>= 0.3.4.4), plotrix
+        plotrix
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -30282,7 +30284,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rebus
-Version: 0.0-4
+Version: 0.0-5
 Depends: R (>= 3.1.0)
 Suggests: testthat
 License: Unlimited
@@ -39103,7 +39105,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Tides
-Version: 1.0
+Version: 1.1
+Depends: R (>= 2.10)
 License: GPL
 NeedsCompilation: no
 
