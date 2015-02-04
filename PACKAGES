@@ -830,6 +830,12 @@ Version: 2.2
 License: GPL-2
 NeedsCompilation: no
 
+Package: AncestryMapper
+Version: 1.2
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: anchors
 Version: 3.0-8
 Depends: R (>= 2.4.0), rgenoud, MASS
@@ -10503,7 +10509,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: FactoClass
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.7.0), ade4, xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -12706,6 +12712,12 @@ Imports: MASS, mvtnorm, subplex, deSolve (>= 1.7), digest, Rcpp (>=
 LinkingTo: Rcpp
 Suggests: parallel, ncbit, pls, msm, colorspace
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: gelnet
+Version: 1.0
+Depends: R (>= 3.1.0)
+License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: gems
@@ -23145,6 +23157,14 @@ Version: 0.3
 License: GPL-2
 NeedsCompilation: no
 
+Package: netgen
+Version: 1.0
+Depends: BBmisc (>= 1.6), mvtnorm (>= 1.0-2), lhs (>= 0.10)
+Imports: ggplot2, lpSolve, checkmate (>= 1.5.1)
+Suggests: testthat
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
 Package: netgsa
 Version: 1.0
 Depends: cvTools, corpcor, glasso, glmnet, igraph
@@ -26840,6 +26860,12 @@ Depends: R (>= 3.1.1)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: PoisBinOrd
+Version: 1.0
+Depends: corpcor, GenOrd, Matrix, mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: poisDoubleSamp
 Version: 1.1
 Imports: Rcpp
@@ -28567,9 +28593,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: qvcalc
-Version: 0.8-8
+Version: 0.8-9
 Suggests: relimp, MASS
-License: GPL (>= 2)
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: QZ
@@ -40013,8 +40039,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSP
-Version: 1.0-9
+Version: 1.0-10
 Depends: R (>= 2.14.0)
+Imports: graphics
 Suggests: maps, sp, maptools
 License: GPL-3
 NeedsCompilation: yes
