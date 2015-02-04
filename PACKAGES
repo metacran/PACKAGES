@@ -3151,6 +3151,15 @@ Depends: R (>= 3.0.0), network (>= 1.7.1)
 License: GPL-3
 NeedsCompilation: no
 
+Package: BLCOP
+Version: 0.3.1
+Depends: methods, MASS, quadprog
+Imports: RUnit (>= 0.4.22), timeSeries, fBasics, fMultivar, fPortfolio
+        (>= 3011.81)
+Suggests: sn, corpcor, mnormt
+License: GPL-3
+NeedsCompilation: no
+
 Package: blender
 Version: 0.1.2
 Depends: R (>= 2.10), vegan
@@ -20365,7 +20374,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 4.0-3
+Version: 4.1-0
 Depends: R (>= 2.9.1)
 Imports: grid
 Suggests: metafor
@@ -27727,7 +27736,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: proxy
-Version: 0.4-13
+Version: 0.4-14
 Depends: R (>= 2.4.0)
 Suggests: cba
 License: GPL-2
@@ -32606,7 +32615,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 0.12
+Version: 0.12.1
 Depends: R (>= 3.1.0), dplyr (>= 0.3), RSQLite (>= 1.0)
 Imports: Rcpp, DBI, data.table, lubridate, reshape2, stringi,
         assertthat
@@ -39859,11 +39868,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: trustOptim
-Version: 0.8.4.1
-Depends: R (>= 3.1.1)
-Imports: Matrix (>= 1.1.4), Rcpp (>= 0.11.1)
-LinkingTo: Rcpp (>= 0.11.1), RcppEigen (>= 0.3.2.1.2)
-Suggests: sparseHessianFD
+Version: 0.8.5
+Depends: R (>= 3.1.2), Rcpp (>= 0.11.3), Matrix (>= 1.1.4)
+LinkingTo: Rcpp, RcppEigen (>= 0.3.2.3)
+Suggests: testthat, knitr
 License: MPL (>= 2.0)
 NeedsCompilation: yes
 
