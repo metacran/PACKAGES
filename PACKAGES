@@ -25131,7 +25131,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: PANICr
-Version: 0.0.0.2
+Version: 0.0.0.5
 Depends: R(>= 2.10.0)
 Imports: MCMCpack
 Suggests: knitr
@@ -30813,7 +30813,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: REPPlab
-Version: 0.9
+Version: 0.9.1
 Depends: R (>= 2.15.1), rJava, lattice
 Suggests: tourr, amap
 License: GPL (>= 2)
@@ -38569,7 +38569,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TableMonster
-Version: 1.1
+Version: 1.2
 Depends: xtable
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -39415,11 +39415,11 @@ License: BSD_3_clause + file LICENSE | GPL-2
 NeedsCompilation: no
 
 Package: tmle.npvi
-Version: 0.8.1
-Depends: R (>= 2.9.0), R.utils (>= 1.4.1), MASS (>= 7.3-5), sgeostat
-        (>= 1.0-25)
+Version: 0.9.3
+Depends: R (>= 2.10), R.utils (>= 1.4.1)
+Imports: R.methodsS3, R.oo, MASS, Matrix, sgeostat, geometry
 Suggests: SuperLearner (>= 2.0), e1071 (>= 1.5.24), randomForest (>=
-        4.5-35), polspline (>= 1.1.4), gam (>= 1.03)
+        4.5-35), polspline (>= 1.1.4), gam (>= 1.03), knitr
 License: GPL
 NeedsCompilation: no
 
