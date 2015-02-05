@@ -1952,7 +1952,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BayesMed
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 2.12.1), R2jags, QRM, polspline, MCMCpack
 License: GPL-2
 NeedsCompilation: no
@@ -7513,7 +7513,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Deriv
-Version: 1.0
+Version: 2.0
+Suggests: testthat
 License: GPL (>= 3)
 NeedsCompilation: no
 
