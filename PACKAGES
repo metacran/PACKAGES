@@ -1976,7 +1976,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bayesPop
-Version: 5.2-1
+Version: 5.2-2
 Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
 Imports: parallel, abind, plyr, wpp2012
 Suggests: rworldmap, fields, wpp2008, wpp2010
@@ -8568,6 +8568,11 @@ Depends: MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: drat
+Version: 0.0.1
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: drawExpression
 Version: 1.0
 Depends: R (>= 2.9.0), grid
@@ -12468,8 +12473,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.spatial
-Version: 0.1
-Depends: R (>= 2.15.0), gamlss (>= 4.2-7), spam, mgcv
+Version: 0.2
+Depends: R (>= 2.15.0), gamlss.dist, gamlss (>= 4.2-7), spam, mgcv
 Suggests: spdep, maptools
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -17581,7 +17586,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knockoff
-Version: 0.1.1
+Version: 0.2
 Imports: glmnet, RJSONIO
 Suggests: lars, knitr, testthat
 License: GPL-3
@@ -26353,11 +26358,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phytools
-Version: 0.4-31
+Version: 0.4-45
 Depends: R (>= 2.10), ape (>= 3.0-10), maps
 Imports: animation, clusterGeneration, mnormt, msm, numDeriv, phangorn
         (>= 1.6-3), plotrix, scatterplot3d
-Suggests: rgl
+Suggests: geiger, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
 
