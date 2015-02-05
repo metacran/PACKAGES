@@ -3193,6 +3193,13 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: blmeco
+Version: 1.0
+Depends: R (>= 3.0.0), stats, MASS
+Imports: MuMIn, arm, lme4
+License: GPL-2
+NeedsCompilation: no
+
 Package: blockcluster
 Version: 3.0.2
 Depends: R (>= 2.14), methods
@@ -5088,6 +5095,13 @@ Enhances: RWeka, ape, cba, cclust, flexclust, flexmix, kernlab, mclust,
         movMF, modeltools
 License: GPL-2
 NeedsCompilation: yes
+
+Package: ClueR
+Version: 1.0
+Depends: R (>= 2.10.0), e1071
+Suggests: Hmisc
+License: GPL-3
+NeedsCompilation: no
 
 Package: clues
 Version: 0.5-4
@@ -8034,7 +8048,7 @@ License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
 Package: Distance
-Version: 0.9.2
+Version: 0.9.3
 Depends: R (>= 3.0), mrds (>= 2.1.8)
 Suggests: testthat
 License: GPL (>= 2)
@@ -9579,6 +9593,12 @@ Depends: R (>= 2.15), quantreg
 Suggests: KMsurv, boot
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: emplik2
+Version: 1.20
+Depends: R (>= 2.15.0)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: EMT
 Version: 1.1
@@ -22023,7 +22043,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mrds
-Version: 2.1.10
+Version: 2.1.12
 Depends: R (>= 3.0)
 Imports: optimx (>= 2013.8.6), mgcv, Rsolnp
 Suggests: testthat
@@ -30726,7 +30746,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: replicationInterval
-Version: 0.2
+Version: 0.3
 Imports: MBESS
 License: Unlimited
 NeedsCompilation: no
