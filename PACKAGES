@@ -2118,7 +2118,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BBEST
-Version: 0.1-1
+Version: 0.1-2
 Imports: DEoptim, aws, grid, ggplot2, reshape2, shiny, methods
 License: GPL-3
 NeedsCompilation: no
@@ -20845,9 +20845,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: micromap
-Version: 1.9.1
-Depends: R (>= 2.10), sp
-Imports: ggplot2, grid, maptools, RColorBrewer, rgdal
+Version: 1.9.2
+Depends: R (>= 2.10), maptools, RColorBrewer, rgdal, sp
+Imports: ggplot2, grid
 License: GPL (>= 2)
 NeedsCompilation: no
 
