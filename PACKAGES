@@ -23018,12 +23018,6 @@ Suggests: knitr, RUnit, rjags, gWidgetstcltk, nlme, coda
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: NCBI2R
-Version: 1.4.6
-Depends: R (>= 2.10)
-License: GPL (> 2)
-NeedsCompilation: no
-
 Package: ncbit
 Version: 2013.03.29
 Depends: R (>= 2.10)
@@ -27981,9 +27975,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pubmed.mineR
-Version: 1.0.3
+Version: 1.0.3.1
 Depends: R (>= 2.10), methods
-Imports: RCurl, XML, NCBI2R, boot, R2HTML
+Imports: RCurl, XML, boot, R2HTML
 Suggests: apcluster
 License: GPL-3
 NeedsCompilation: no
@@ -36679,7 +36673,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: SpatPCA
-Version: 1.0
+Version: 1.0.0.1
 Depends: fields
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, RcppArmadillo
