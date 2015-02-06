@@ -9251,9 +9251,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: egcm
-Version: 1.0.2
-Depends: grid, ggplot2, tseries, zoo, MASS
-Suggests: urca, TTR, parallel, fArma
+Version: 1.0.6
+Depends: zoo, xts, TTR
+Imports: grid, ggplot2, tseries, MASS, urca, parallel, fArma
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -24806,10 +24806,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: OutbreakTools
-Version: 0.1-11
+Version: 0.1-12
 Depends: R (>= 3.0.0), methods, ggplot2, network, knitr
 Imports: utils, RColorBrewer, ape, reshape2, sna, plyr, ggmap, scales,
-        rjson, networkDynamic
+        rjson, networkDynamic, RCurl
 Suggests: EpiEstim
 License: GPL (>= 2)
 NeedsCompilation: no
