@@ -38958,11 +38958,11 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: textreg
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 2.10),
 Imports: tm (>= 0.6), NLP (>= 0.1-3), Rcpp (>= 0.10.6)
 LinkingTo: Rcpp
-Suggests: corrplot
+Suggests: corrplot, knitr, SnowballC (>= 0.5.1), xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -41500,7 +41500,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wux
-Version: 1.2-2
+Version: 1.2-3
 Depends: sp, ncdf, reshape, abind, fields
 Imports: rgdal, rgeos, class, stringr, Hmisc, gdata, corpcor
 Suggests: lattice
