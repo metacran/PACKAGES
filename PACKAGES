@@ -10532,10 +10532,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FactoMineR
-Version: 1.28
+Version: 1.29
 Depends: R (>= 2.12.0)
-Imports: car,MASS,ellipse,lattice,cluster,scatterplot3d,leaps
-Suggests: missMDA,flashClust
+Imports:
+        car,MASS,ellipse,lattice,cluster,scatterplot3d,leaps,flashClust
+Suggests: missMDA
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21152,7 +21153,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: mixAK
-Version: 3.8
+Version: 3.10
 Depends: R (>= 3.0.0), colorspace, lme4 (>= 1.0)
 Imports: splines, fastGHQuad, mnormt, parallel, coda
 License: GPL (>= 3)
@@ -32213,8 +32214,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: robustloggamma
-Version: 0.4-28
-Depends: R (>= 2.15.1), robustbase
+Version: 0.4-31
+Depends: R (>= 2.15.1)
+Imports: robustbase
 License: GPL (>= 2)
 NeedsCompilation: yes
 
