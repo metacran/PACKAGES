@@ -11277,9 +11277,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FindIt
-Version: 0.3
-Depends: R (>= 2.15.0), glmnet, lars
-Imports: glmnet, lars
+Version: 0.4
+Depends: R (>= 2.15.0), glmnet, lars, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -14636,9 +14635,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: h2o
-Version: 2.8.1.1
-Depends: R (>= 2.13.0), RCurl, rjson, statmod, survival, stats, tools,
-        utils, methods
+Version: 2.8.4.4
+Depends: R (>= 2.13.0), statmod, survival, stats, graphics, utils,
+        methods
+Imports: RCurl, rjson, tools
 Suggests: plyr
 License: Apache License (== 2.0)
 NeedsCompilation: no
@@ -36046,8 +36046,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sns
-Version: 0.9.1
-Imports: mvtnorm
+Version: 1.0.0
+Imports: mvtnorm, coda
+Suggests: RegressionFactory
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38991,7 +38992,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TFDEA
-Version: 0.9.5
+Version: 0.9.8
 Depends: R (>= 3.0.0), lpSolveAPI
 License: GPL-2
 NeedsCompilation: no
