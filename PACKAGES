@@ -33721,6 +33721,11 @@ Suggests: isa2
 License: GPL-2
 NeedsCompilation: no
 
+Package: Sabermetrics
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: sac
 Version: 1.0.1
 Depends: R (>= 1.4)
