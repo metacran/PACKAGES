@@ -41431,7 +41431,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wppExplorer
-Version: 1.4-0
+Version: 1.5-0
 Depends: R (>= 3.0.0)
 Imports: shiny (>= 0.10.0), plyr, reshape2, googleVis, wpp2012, Hmisc,
         ggplot2
