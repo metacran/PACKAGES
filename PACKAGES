@@ -19133,8 +19133,8 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.14
-Depends: methods, R (>= 3.0)
+Version: 2.15
+Depends: estimability, methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix, mvtnorm
 Suggests: pbkrtest (>= 0.4-1), lattice, multcompView, car, mediation,
         ordinal
@@ -20244,12 +20244,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: medflex
-Version: 0.4.0
+Version: 0.5-0
 Depends: R (>= 3.1.2), multcomp (>= 1.3-6)
-Imports: boot (>= 1.3-8)
+Imports: boot (>= 1.3-8), Matrix (>= 1.1-4), sandwich (>= 2.3-2)
 Suggests: arm (>= 1.7-05), car (>= 2.0-21), gam (>= 1.09.1), glmnet (>=
-        1.9-8), Matrix (>= 1.1-4), rpart (>= 4.1-8), SuperLearner (>=
-        2.0-15), VGAM (>= 0.9-5)
+        1.9-8), rpart (>= 4.1-8), SuperLearner (>= 2.0-15), VGAM (>=
+        0.9-5)
 License: GPL-2
 NeedsCompilation: no
 
@@ -29001,7 +29001,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomNames
-Version: 0.0-6
+Version: 0.0-8
 Depends: R (>= 2.10.0)
 Imports: data.table (>= 1.8.0)
 License: GPL-3
@@ -38267,6 +38267,13 @@ Depends: R (>= 2.9.0), kernlab
 Imports: graphics, stats, MASS, methods
 License: GPL-2
 NeedsCompilation: no
+
+Package: SVMMatch
+Version: 1.0
+Depends: Rcpp (>= 0.10.3)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: svmpath
 Version: 0.953
