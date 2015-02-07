@@ -15576,9 +15576,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: htmlTable
-Version: 1.0
-Imports: stringr, magrittr, Hmisc, methods
-Suggests: testthat, XML, knitr, xtable, reshape
+Version: 1.1
+Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), Hmisc, methods
+Suggests: testthat, XML, xtable, reshape
 License: GPL (>= 3)
 NeedsCompilation: no
 
