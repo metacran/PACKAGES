@@ -807,6 +807,13 @@ Suggests: testthat
 License: GPL-2
 NeedsCompilation: yes
 
+Package: analyz
+Version: 1.3.21
+Depends: R (>= 2.15.1)
+Imports: methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: AnalyzeFMRI
 Version: 1.1-16
 Depends: tcltk, R.matlab, fastICA
@@ -7792,7 +7799,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: diffeR
-Version: 0.0-1
+Version: 0.0-2
 Depends: R (>= 2.14.0), rgdal, raster, methods, ggplot2
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30372,8 +30379,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: recosystem
-Version: 0.2.4
-Depends: R (>= 3.1.0), methods
+Version: 0.2.5
+Depends: methods
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: knitr
@@ -31008,7 +31015,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: rfoaas
-Version: 0.1.1
+Version: 0.1.3
 Imports: httr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32767,6 +32774,13 @@ Depends: R (>= 2.10.0)
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: rgl, zoo, RUnit
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: rr
+Version: 1.0
+Depends: R (>= 3.0.0), utils
+Imports: MASS (>= 7.3), arm (>= 1.7-07), coda (>= 0.16-1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -34636,7 +34650,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SemiCompRisks
-Version: 1.0
+Version: 2.0
 Depends: R (>= 3.0.2)
 License: GPL (>= 2)
 NeedsCompilation: yes
