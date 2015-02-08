@@ -4407,7 +4407,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: cec2005benchmark
-Version: 1.0.3
+Version: 1.0.4
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -27328,7 +27328,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: pracma
-Version: 1.7.9
+Version: 1.8.3
 Depends: R (>= 2.11.1)
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -29957,7 +29957,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppMLPACK
-Version: 1.0.10
+Version: 1.0.10-2
+Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, RcppArmadillo, BH
 License: LGPL (>= 2)
@@ -38285,8 +38286,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SVMMatch
-Version: 1.0
-Depends: Rcpp (>= 0.10.3)
+Version: 1.1
+Depends: R (>= 3.0.2)
+Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
