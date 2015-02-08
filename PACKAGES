@@ -20604,6 +20604,11 @@ Imports: ggplot2, grid, reshape
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MetNorm
+Version: 0.1
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: Metrics
 Version: 0.1.1
 License: BSD
@@ -23158,6 +23163,12 @@ Package: NestedCohort
 Version: 1.1-3
 Depends: R (>= 2.15.2), survival, MASS
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: nestedRanksTest
+Version: 0.1
+Suggests: knitr (>= 0.5), testthat
+License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: netassoc
@@ -32918,6 +32929,14 @@ Version: 0.9
 Depends: R (>= 2.12.0), utils, yaml, reshape
 License: GPL-3
 NeedsCompilation: yes
+
+Package: rsatscan
+Version: 0.3.9122
+Depends: R (>= 3.0.2)
+Imports: utils, foreign
+Suggests: knitr, rgdal (>= 0.9.1), sp (>= 1.0-9)
+License: GPL-3
+NeedsCompilation: no
 
 Package: rSCA
 Version: 2.1
