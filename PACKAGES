@@ -4903,8 +4903,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Ckmeans.1d.dp
-Version: 3.02
+Version: 3.3.0
 Depends: R (>= 2.10.0)
+Suggests: testthat
 License: LGPL (>= 3)
 NeedsCompilation: yes
 
@@ -34714,9 +34715,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiParBIVProbit
-Version: 3.2-13.2
+Version: 3.3
 Depends: R (>= 3.1.1), mgcv, mvtnorm
-Imports: magic, CDVine, VineCopula, VGAM, survey, trust, Matrix, sn
+Imports: magic, VineCopula, VGAM, survey, trust, Matrix, sn
 License: GPL (>= 2)
 NeedsCompilation: no
 
