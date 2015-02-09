@@ -5283,7 +5283,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: cmvnorm
-Version: 1.0
+Version: 1.0-1
 Depends: emulator (>= 1.2-15)
 Imports: elliptic
 License: GPL-2
@@ -14177,7 +14177,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gridGraphics
-Version: 0.1-2
+Version: 0.1-3
 Depends: grid, graphics
 Suggests: KernSmooth
 License: GPL (>= 2)
@@ -15570,8 +15570,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: HSROC
-Version: 2.1.7
-Depends: R (>= 3.0.1), lattice, coda, MASS, MCMCpack
+Version: 2.1.8
+Depends: R (>= 3.1.2), lattice, coda, MASS, MCMCpack
 License: GPL-2
 NeedsCompilation: yes
 
@@ -17694,7 +17694,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: kSamples
-Version: 1.0
+Version: 1.0.1
 Depends: SuppDists
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -18279,9 +18279,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: letsR
-Version: 1.0
-Depends: R (>= 2.10)
-Imports: maps, raster, XML, geosphere, maptools, sp
+Version: 2.0
+Depends: R (>= 2.10), raster, maps
+Imports: XML, geosphere, fields, maptools, sp, rgdal
 License: GPL-2
 NeedsCompilation: no
 
@@ -22977,11 +22977,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nat
-Version: 1.5.12
+Version: 1.6.4
 Depends: R (>= 2.15.1), rgl
-Imports: RANN, igraph, methods, filehash, digest, nat.utils (>= 0.4.2),
-        plyr
-Suggests: Rvcg, testthat, httr
+Imports: nabor, igraph, methods, filehash, digest, nat.utils (>=
+        0.4.2), plyr, yaml
+Suggests: Rvcg, testthat, httr, XML
 License: GPL-3
 NeedsCompilation: no
 
@@ -27802,8 +27802,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: psbcGroup
-Version: 1.0
-Depends: bayesm, LearnBayes, SuppDists, mvtnorm, R (>= 2.12.2)
+Version: 1.1
+Depends: LearnBayes, SuppDists, mvtnorm, R (>= 2.12.2)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34579,6 +34579,12 @@ Imports: splancs
 Suggests: spdep, spgrass6, rgdal
 License: GPL (>= 3)
 NeedsCompilation: yes
+
+Package: SegCorr
+Version: 1.0
+Depends: cghseg
+License: GPL-2
+NeedsCompilation: no
 
 Package: segmag
 Version: 1.2.2
