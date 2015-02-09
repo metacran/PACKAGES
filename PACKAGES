@@ -10312,9 +10312,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: excursions
-Version: 2.0.6
-Depends: Matrix, sp
-Suggests: INLA, spam, testthat
+Version: 2.0.16
+Depends: Matrix, sp, spam
+Suggests: INLA, testthat
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -40631,11 +40631,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vardpoor
-Version: 0.2.4
+Version: 0.2.6
 Depends: R (>= 3.0.0), data.table (>= 1.9.4), laeken, stringr
 Imports: reshape2, foreach, plyr, gdata, MASS
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: VarEff
 Version: 1.0
