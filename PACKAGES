@@ -3582,7 +3582,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BradleyTerry2
-Version: 1.0-5
+Version: 1.0-6
 Depends: R (>= 2.10), lme4 (>= 1.0)
 Imports: brglm, gtools, stats
 Suggests: prefmod
@@ -12819,6 +12819,13 @@ Suggests: ggplot2, knitr, magrittr, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: genderizeR
+Version: 1.0.0
+Depends: R (>= 3.1.1)
+Imports: jsonlite, stringr, tm, data.table, magrittr, RCurl, parallel
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: GENEAread
 Version: 1.1.1
 Depends: bitops
@@ -13127,10 +13134,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: geospt
-Version: 1.0-0
-Depends: R (>= 2.15.0), gstat, genalg, MASS, sp
-Imports: nloptr, fields, gsl, plyr, TeachingDemos, sgeostat
-Suggests: geoR
+Version: 1.0-1
+Depends: R (>= 2.15.0), gstat, genalg, MASS, sp, minqa
+Imports: limSolve, fields, gsl, plyr, TeachingDemos, sgeostat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16163,7 +16169,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: IFP
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 2.11.1)
 Imports: haplo.stats,coda
 License: GPL (>= 2)
@@ -17032,6 +17038,12 @@ Package: ivpack
 Version: 1.2
 Depends: AER, sandwich, lmtest
 License: GPL-2
+NeedsCompilation: no
+
+Package: ivpanel
+Version: 1.0
+Imports: Formula
+License: GPL-3
 NeedsCompilation: no
 
 Package: ivprobit
@@ -30701,9 +30713,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rentrez
-Version: 0.3.1
+Version: 0.4
 Depends: R (>= 2.6.0), XML
-Imports: httr
+Imports: httr, jsonlite
 Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
