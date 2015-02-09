@@ -17907,7 +17907,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: LARF
-Version: 1.2
+Version: 1.3
 License: GPL-3
 NeedsCompilation: no
 
@@ -33347,7 +33347,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rtfbs
-Version: 0.3.3
+Version: 0.3.4
 Depends: stats
 Imports: rphast
 License: BSD_3_clause + file LICENSE
