@@ -14137,6 +14137,12 @@ Imports: ggplot2, FactoMineR, scatterplot3d, scales,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: graphscan
+Version: 1.0
+Depends: R (>= 3.0.2), ape, sp, methods, snowfall, rgl
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
+
 Package: GrassmannOptim
 Version: 2.0
 Depends: Matrix
@@ -15002,8 +15008,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: heritability
-Version: 1.0
-Depends: R (>= 2.10)
+Version: 1.1
+Depends: R (>= 2.10), MASS (>= 3.1.20)
 Suggests: synbreed
 License: GPL-3
 NeedsCompilation: no
@@ -22173,7 +22179,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MSBVAR
-Version: 0.9-1
+Version: 0.9-2
 Imports: KernSmooth, xtable, coda, bit, mvtnorm, lattice
 License: MIT + file LICENSE
 License_is_FOSS: yes
@@ -40067,7 +40073,7 @@ License: BSD
 NeedsCompilation: no
 
 Package: tseries
-Version: 0.10-32
+Version: 0.10-33
 Depends: R (>= 2.10.0)
 Imports: graphics, stats, utils, quadprog, zoo
 Suggests: its
