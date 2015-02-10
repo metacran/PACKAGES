@@ -4290,6 +4290,15 @@ Depends: R(>= 2.14.1), cluster (>= 1.13.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: cccp
+Version: 0.2-4
+Depends: R (>= 3.0.1), methods
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: RUnit, numDeriv
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: cccrm
 Version: 1.1
 Depends: R (>= 2.08.0), nlme, gdata
@@ -12540,6 +12549,15 @@ Depends: ggplot2, grid, reshape2
 Suggests: knitr, dendsort, RColorBrewer
 License: GPL-2 | GPL-3
 NeedsCompilation: no
+
+Package: gaselect
+Version: 1.0.4
+Depends: R (>= 3.0.2), methods (>= 2.10.0)
+Imports: Rcpp (>= 0.10.5)
+LinkingTo: Rcpp (>= 0.10.5), RcppArmadillo (>= 0.4.000)
+Suggests: chemometrics
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: gaussDiff
 Version: 1.1
@@ -23557,8 +23575,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: nlsem
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.1.0), gaussquad, mvtnorm, nlme
+Suggests: lavaan
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37497,6 +37516,12 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
+Package: StanHeaders
+Version: 2.6.0-10
+Suggests: RcppEigen, BH
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+
 Package: STAR
 Version: 0.3-7
 Depends: R (>= 2.10), survival, mgcv, R2HTML, gss, codetools
@@ -39772,7 +39797,7 @@ License: CC0
 NeedsCompilation: no
 
 Package: treeclim
-Version: 1.0.10
+Version: 1.0.11
 Depends: R (>= 3.0.2), base, stats, utils, Rcpp (>= 0.10.6)
 Imports: abind, plyr, ggplot2, lmtest, lmodel2, np, boot
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4.000.2)
