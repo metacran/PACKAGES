@@ -4912,7 +4912,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Ckmeans.1d.dp
-Version: 3.3.0
+Version: 3.3.1
 Depends: R (>= 2.10.0)
 Suggests: testthat
 License: LGPL (>= 3)
@@ -25122,9 +25122,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pan
-Version: 0.9
+Version: 1.3
 Suggests: mitools, lme4
-License: MIT + file LICENSE
+License: Unlimited
 License_restricts_use: no
 NeedsCompilation: yes
 
@@ -26237,7 +26237,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phenology
-Version: 4.0
+Version: 4.0.4
 Depends: fields, zoo, coda, shiny, R (>= 2.14.0)
 Suggests: RNetCDF, XML, maps
 License: GPL-2
@@ -39822,6 +39822,11 @@ Version: 1.2.1
 Imports: plyr
 Suggests: ggplot2, reshape2
 License: GPL-2
+NeedsCompilation: no
+
+Package: treelet
+Version: 1.1
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: treemap
