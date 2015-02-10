@@ -1332,11 +1332,11 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: asbio
-Version: 1.1-1
+Version: 1.1-5
 Depends: R (>= 2.15.1), tcltk
 Imports: scatterplot3d, pixmap, tkrplot, plotrix, mvtnorm, deSolve,
         lattice, multcompView
-Suggests: akima, MASS, boot
+Suggests: akima, boot
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23048,6 +23048,12 @@ Version: 14.11-8
 Depends: R (>= 3.0.0), drc, gdata, gWidgets, kyotil
 Suggests: knitr, RUnit, rjags, gWidgetstcltk, nlme, coda
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: NCBI2R
+Version: 1.4.7
+Depends: R (>= 2.10)
+License: GPL (> 2)
 NeedsCompilation: no
 
 Package: ncbit
