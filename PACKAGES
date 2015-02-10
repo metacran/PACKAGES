@@ -41031,7 +41031,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: VNM
-Version: 2.0
+Version: 4.0
+Depends: methods
+Imports: graphics
 License: GPL-2
 NeedsCompilation: no
 
