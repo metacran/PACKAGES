@@ -40860,7 +40860,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vcrpart
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 3.1.0), parallel, partykit
 Imports: stats, grid, graphics, methods, nlme, rpart, numDeriv, ucminf,
         zoo, sandwich, strucchange
