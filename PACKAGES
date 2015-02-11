@@ -1252,8 +1252,8 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: ARPobservation
-Version: 1.0
-Suggests: plyr, ggplot2, knitr
+Version: 1.1
+Suggests: plyr, reshape2, ggplot2, knitr, testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -13586,6 +13586,12 @@ Suggests: mvtnorm
 License: GPL-2
 NeedsCompilation: yes
 
+Package: glmm
+Version: 1.0
+Depends: R (>= 3.1.1), trust, mvtnorm, Matrix
+License: GPL-2
+NeedsCompilation: yes
+
 Package: glmmBUGS
 Version: 2.3
 Depends: R (>= 3.0.0)
@@ -14078,7 +14084,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gramEvol
-Version: 1.2-1
+Version: 2.0-2
+Suggests: rex
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19922,6 +19929,14 @@ Imports: exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10)
 Suggests: TH.data, survival
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: MazamaSpatialUtils
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: dplyr, rgdal, rvest, sp, stringr
+Suggests: ISOcodes, knitr, lubridate, maps, testthat
+License: GPL-3
+NeedsCompilation: no
 
 Package: MBA
 Version: 0.0-8
@@ -30336,6 +30351,13 @@ Suggests: testthat, devtools, roxygen2
 License: GPL-3
 NeedsCompilation: no
 
+Package: readstata13
+Version: 0.5-3
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL-2 | file LICENSE
+NeedsCompilation: yes
+
 Package: RealVAMS
 Version: 0.3-1
 Depends: R (>= 3.0.0), Matrix
@@ -32136,6 +32158,13 @@ Imports: reportr, oro.nifti
 Suggests: splines
 License: GPL-2
 NeedsCompilation: yes
+
+Package: rNMF
+Version: 0.5.0
+Depends: R (>= 2.14.0)
+Imports: nnls, knitr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: rnoaa
 Version: 0.3.3
@@ -39701,13 +39730,6 @@ NeedsCompilation: no
 
 Package: track
 Version: 1.0-15
-Depends: R (>= 2.1.0), methods
-Suggests: scriptests
-License: GPL
-NeedsCompilation: no
-
-Package: trackObjs
-Version: 1.0-18
 Depends: R (>= 2.1.0), methods
 Suggests: scriptests
 License: GPL
