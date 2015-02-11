@@ -39571,6 +39571,13 @@ Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
+Package: tmg
+Version: 0.3
+Imports: Rcpp
+LinkingTo: Rcpp, RcppEigen
+License: GPL-2
+NeedsCompilation: yes
+
 Package: tmle
 Version: 1.2.0-4
 Depends: SuperLearner
