@@ -2756,7 +2756,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bigsplines
-Version: 1.0-4
+Version: 1.0-5
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -5581,6 +5581,14 @@ Imports: methods,MASS,urca
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: COMMUNAL
+Version: 1.0
+Depends: R (>= 2.10), cluster
+Imports: clValid, fpc, methods, rgl
+Suggests: RUnit, NMF, ConsensusClusterPlus
+License: GPL-2
+NeedsCompilation: no
+
 Package: CommunityCorrelogram
 Version: 1.0
 Depends: vegan, methods
@@ -5763,6 +5771,13 @@ Version: 1.0
 Depends: evd
 License: GPL-2
 NeedsCompilation: yes
+
+Package: condMVNorm
+Version: 2015.2-1
+Depends: R(>= 1.9.0), mvtnorm
+Imports: stats
+License: GPL-2
+NeedsCompilation: no
 
 Package: CondReg
 Version: 0.20
@@ -26111,12 +26126,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pez
-Version: 0.9-0
+Version: 1.0-0
 Depends: ape (>= 3.1-4)
 Imports: caper (>= 0.5-2), picante (>= 1.6-2), quantreg (>= 5.05),
-        mvtnorm (>= 1.0-0), vegan (>= 2.0-10), PVR (>= 0.2.1), ade4 (>=
-        1.6-2), apTreeshape (>= 1.4-5), FD (>= 1.0-12)
-Suggests: knitr (>= 1.6), plotrix (>= 3.5-7), methods (>= 3.1.1)
+        mvtnorm (>= 1.0-0), vegan (>= 2.0-10), ade4 (>= 1.6-2),
+        apTreeshape (>= 1.4-5), FD (>= 1.0-12), plotrix (>= 3.5-7),
+        Matrix (>= 1.1-4)
+Suggests: knitr (>= 1.6), methods (>= 3.1.1), lme4 (>= 1.1-7)
 License: GPL-3
 NeedsCompilation: no
 
@@ -31777,6 +31793,11 @@ Suggests: testthat, data.table, stringdist, pipeR
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: rlm
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: rlme
 Version: 0.4
 Imports: MASS, quantreg, nlme, mgcv, stringr, magic, robustbase, Rcpp
@@ -35240,7 +35261,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: shinybootstrap2
-Version: 0.2
+Version: 0.2.1
 Depends: R (>= 3.0.0)
 Imports: htmltools (>= 0.2.6), jsonlite (>= 0.9.12), shiny
 License: GPL-3 | file LICENSE
