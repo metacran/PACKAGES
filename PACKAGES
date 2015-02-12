@@ -12566,7 +12566,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gaselect
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 3.0.2), methods (>= 2.10.0)
 Imports: Rcpp (>= 0.10.5)
 LinkingTo: Rcpp (>= 0.10.5), RcppArmadillo (>= 0.4.000)
@@ -22358,7 +22358,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MTS
-Version: 0.32
+Version: 0.33
 Imports: Rcpp, fGarch, mvtnorm
 LinkingTo: Rcpp
 License: Artistic License 2.0
@@ -22921,8 +22921,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.2.1
-Suggests: gRbase, hash, Biobase, VGAM, MASS, pcalg, survival, methods
+Version: 0.3
+Imports: gRbase, Biobase, VGAM, MASS, pcalg, survival
+Suggests: hash, methods, stats
 License: GPL-2
 NeedsCompilation: yes
 
