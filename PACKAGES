@@ -10814,6 +10814,12 @@ Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FastKNN
+Version: 0.0.1
+Imports: pdist, assertthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: fastM
 Version: 0.0-2
 Imports: Rcpp (>= 0.11.0)
@@ -25807,6 +25813,14 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: PDQutils
+Version: 0.1.0
+Depends: R (>= 3.0.2)
+Imports: orthopolynom, moments
+Suggests: testthat, knitr
+License: LGPL-3
+NeedsCompilation: no
+
 Package: pdR
 Version: 1.2
 License: GPL (>= 2)
@@ -37081,7 +37095,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SphericalK
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
