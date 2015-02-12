@@ -1765,7 +1765,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: BAT
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), vegan, spatstat, nls2
 License: GPL-3
 NeedsCompilation: no
