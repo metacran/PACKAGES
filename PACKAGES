@@ -11,6 +11,13 @@ Depends: R (>= 2.10), nnet, quantreg, MASS, locfit
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: ABCanalysis
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: Hmisc, plotrix
+License: GPL-3
+NeedsCompilation: no
+
 Package: abcdeFBA
 Version: 0.4
 Depends: Rglpk,rgl,corrplot,lattice,R (>= 2.10)
@@ -26693,7 +26700,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: plotGoogleMaps
-Version: 2.1
+Version: 2.2
 Depends: R (>= 2.15.0), sp, spacetime
 Imports: rgdal, maptools,lattice, raster
 License: GPL-2
@@ -33862,7 +33869,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: s20x
-Version: 3.1-11
+Version: 3.1-12
 License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
@@ -35300,6 +35307,14 @@ Version: 1.0
 Depends: R (>= 3.0.0)
 Imports: shiny (>= 0.11)
 License: GPL-3 | file LICENSE
+NeedsCompilation: no
+
+Package: shinyTree
+Version: 0.2.2
+Depends: R (>= 2.15.1), methods
+Imports: shiny (>= 0.9.0)
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: SHIP
@@ -40582,7 +40597,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: unittest
-Version: 1.1-1
+Version: 1.2-0
 Depends: R (>= 3.0.0)
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -40909,9 +40924,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: vdg
-Version: 1.0
-Depends: R (>= 3.1.0), parallel, splines, ggplot2, quantreg
-Imports: proxy
+Version: 1.0.1
+Depends: R (>= 3.1.2), parallel, ggplot2, quantreg
+Imports: proxy, splines
 Suggests: rsm, Vdgraph
 License: GPL (>= 2)
 NeedsCompilation: yes
