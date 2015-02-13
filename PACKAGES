@@ -3717,6 +3717,12 @@ Depends: e1071, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: BSGS
+Version: 1.0
+Depends: R (>= 3.1.1), MASS, compiler, pscl, plyr
+License: GPL-2
+NeedsCompilation: no
+
 Package: BSGW
 Version: 0.9
 Depends: survival
@@ -6063,7 +6069,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: corrgram
-Version: 1.6
+Version: 1.7
 Imports: graphics, seriation, stats
 Suggests: knitr, Matrix
 License: GPL-2
@@ -14797,12 +14803,6 @@ Depends: R (>= 2.15.2), hash, ape
 License: GPL-2
 NeedsCompilation: no
 
-Package: hapsim
-Version: 0.3
-Depends: MASS
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: HardyWeinberg
 Version: 1.5.4
 Depends: R (>= 1.8.0), mice
@@ -17310,12 +17310,6 @@ NeedsCompilation: yes
 Package: jtrans
 Version: 0.1
 License: MIT
-NeedsCompilation: no
-
-Package: JudgeIt
-Version: 1.5.1
-Depends: R (>= 2.10), utils
-License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: Julia
@@ -19967,11 +19961,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mbbefd
-Version: 0.5.0.1
+Version: 0.6
 Depends: R (>= 2.14)
+Imports: Rcpp
+LinkingTo: Rcpp
 Suggests: testthat, copula, fitdistrplus
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: MBCluster.Seq
 Version: 1.0
@@ -21986,11 +21982,6 @@ Imports: MASS,glmnet,pscl,numDeriv
 Suggests: zic
 License: GPL-2
 NeedsCompilation: yes
-
-Package: MPCI
-Version: 1.0.6
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: mpcv
 Version: 1.1
