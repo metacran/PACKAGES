@@ -9303,9 +9303,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: eggCounts
-Version: 0.3
-Depends: coda
-Imports: actuar, boot
+Version: 0.4-1
+Imports: actuar,boot,coda
+Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21445,6 +21445,13 @@ Depends: R (>= 2.15.1), snowfall (>= 1.84-4), igraph (>= 0.6.6), rsgcc
 Imports: pROC (>= 1.5.4), ROCR(>= 1.0-5)
 Suggests: bigmemory, GeneSelector, gplots, nnet, cairoDevice, fBasics
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: mldr
+Version: 0.1.70
+Depends: R (>= 3.0.0)
+Imports: shiny (>= 0.11), XML, circlize
+License: LGPL (>= 3) | file LICENSE
 NeedsCompilation: no
 
 Package: MLDS
