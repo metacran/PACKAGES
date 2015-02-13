@@ -32443,7 +32443,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rockchalk
-Version: 1.8.91
+Version: 1.8.92
 Depends: R (>= 2.10)
 Imports: grDevices, lme4, car, MASS, tables
 License: GPL (>= 3.0)
