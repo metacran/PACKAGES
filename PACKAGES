@@ -4182,10 +4182,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cati
-Version: 0.8
-Depends: R (>= 3.0.2), nlme, ade4, ape
-Imports: e1071, mice, rasterVis, hypervolume
-Suggests: lattice, vegan, FD, spacodiR, entropart, fBasics, picante
+Version: 0.96
+Depends: R (>= 3.0.2), nlme, ade4, ape,
+Imports: e1071, mice, rasterVis, hypervolume, FD, geometry, vegan
+Suggests: lattice, spacodiR, entropart, fBasics, picante, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7392,9 +7392,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: demi
-Version: 1.1.1
-Depends: R (>= 2.15), methods, affy, affxparser, plyr, R.utils, utils,
-        oligo
+Version: 1.1.2
+Depends: R (>= 3.0.0), utils
+Imports: R.utils, affxparser, affy, oligo, plyr, methods, devtools
 Suggests: ggplot2, reshape
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -11110,6 +11110,12 @@ Depends: R (>= 2.15.1), base, graphics, stats
 Imports: base, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: FedData
+Version: 1.0
+Depends: sp, raster, rgdal, igraph, Hmisc
+License: GPL-3
+NeedsCompilation: no
 
 Package: federalregister
 Version: 0.1.2
@@ -25167,6 +25173,12 @@ Suggests: rgl
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: pampe
+Version: 1.0
+Depends: leaps
+License: GPL-2
+NeedsCompilation: no
+
 Package: pamr
 Version: 1.55
 Depends: R (>= 2.10), cluster, survival
@@ -32231,7 +32243,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ROAuth
-Version: 0.9.5
+Version: 0.9.6
 Depends: R (>= 2.12.0)
 Imports: RCurl, digest, methods
 License: Artistic-2.0
@@ -38902,10 +38914,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tbart
-Version: 0.9.1
+Version: 1.0
 Depends: Rcpp (>= 0.10.3), sp
 LinkingTo: Rcpp
-Suggests: GISTools, RColorBrewer
+Suggests: GISTools, RColorBrewer, rgeos
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -41774,7 +41786,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: XBRL
-Version: 0.99.14
+Version: 0.99.15
 Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp
 License: GPL (>= 2)
