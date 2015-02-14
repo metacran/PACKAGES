@@ -21863,8 +21863,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: moonBook
-Version: 0.1.1
-Depends: R (>= 3.1.1)
+Version: 0.1.3
+Depends: R (>= 3.1.2)
 Imports: nortest, survival
 Suggests: testthat, knitr, ggplot2
 License: GPL-2
@@ -29478,6 +29478,14 @@ Depends: MASS
 Suggests: bnlearn, igraph
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: Rborist
+Version: 0.1-0
+Depends: Rcpp (>= 0.10.1), R(>= 3.1)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MPL (>= 2) | GPL (>= 2) | file LICENSE
+NeedsCompilation: yes
 
 Package: rbounds
 Version: 2.1
