@@ -1821,7 +1821,7 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: BayesBridge
-Version: 0.5
+Version: 0.6
 Depends: R (>= 2.10)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -13693,7 +13693,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: glmvsd
-Version: 1.1
+Version: 1.2
 Depends: stats, glmnet, ncvreg, MASS
 License: GPL-2
 NeedsCompilation: no
@@ -19891,10 +19891,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.13.1
+Version: 0.14.0
 Depends: R (>= 2.9.0)
-Imports: methods, R.methodsS3
-Suggests: R.rsp, knitr
+Imports: methods
+Suggests: R.rsp, microbenchmark, R.devices, base64enc, ggplot2, knitr
 License: Artistic-2.0
 NeedsCompilation: yes
 
@@ -26232,10 +26232,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: phangorn
-Version: 1.99-11
-Depends: R (>= 3.0.0), ape (>= 3.1-4)
-Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch, parallel, rgl
-Suggests: seqLogo, seqinr, xtable, flashClust
+Version: 1.99-12
+Depends: R (>= 3.0.0), ape (>= 3.2)
+Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch, parallel, nnls
+Suggests: seqLogo, seqinr, xtable, flashClust, rgl, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26470,6 +26470,12 @@ Imports: animation, clusterGeneration, mnormt, msm, numDeriv, phangorn
         (>= 1.6-3), plotrix, scatterplot3d
 Suggests: geiger, rgl
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: phytotools
+Version: 1.0
+Depends: insol, FME
+License: GPL-2
 NeedsCompilation: no
 
 Package: pi0
