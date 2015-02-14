@@ -21071,6 +21071,12 @@ Version: 1.0
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: minimist
+Version: 0.1
+Imports: V8
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: minpack.lm
 Version: 1.1-8
 License: GPL-3 + file LICENSE
@@ -22507,7 +22513,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MultiLCIRT
-Version: 2.7
+Version: 2.9
 Depends: R (>= 2.0.0), MASS, limSolve
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -33132,7 +33138,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rsdmx
-Version: 0.4-4
+Version: 0.4-5
 Depends: R (>= 2.15)
 Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
 Suggests: testthat
@@ -34351,10 +34357,11 @@ License: AGPL-3
 NeedsCompilation: yes
 
 Package: SciencesPo
-Version: 0.11.21
-Depends: R (>= 3.0),stats,utils,graphics,grDevices,ggplot2
-Imports: foreign,data.table,dplyr,gridExtra,grid,xtable
-Suggests: Zelig,MCMCpack
+Version: 1.02.12
+Depends: R (>= 3.0), stats, utils, graphics, grDevices, ggplot2,
+        foreign
+Imports: MASS, data.table, grid, lubridate, xtable,
+Suggests: Zelig, MCMCpack
 License: LGPL (>= 2.0, < 3)
 NeedsCompilation: no
 
