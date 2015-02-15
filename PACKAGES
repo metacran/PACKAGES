@@ -3390,7 +3390,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: BOIN
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -17307,6 +17307,13 @@ Version: 1.0.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: js
+Version: 0.1
+Imports: V8 (>= 0.5)
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: jSonarR
 Version: 1.1.1
 Depends: R (>= 2.12.1), RCurl, jsonlite, methods
@@ -23471,6 +23478,11 @@ Suggests: xtable
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: nFCA
+Version: 0.3
+License: GPL-2
+NeedsCompilation: no
+
 Package: ngram
 Version: 1.1
 Depends: R (>= 2.14.0), methods
@@ -25061,6 +25073,14 @@ Package: packS4
 Version: 0.9.1
 Depends: methods, graphics
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: pacman
+Version: 0.2.0
+Depends: R (>= 2.13.0)
+Imports: devtools
+Suggests: knitr, lattice, testthat, XML
+License: GPL-2
 NeedsCompilation: no
 
 Package: paf
@@ -34126,8 +34146,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sapa
-Version: 2.0-0
-Depends: R (>= 3.0.2), ifultools (>= 2.0-0), splus2R (>= 1.2-0)
+Version: 2.0-1
+Depends: R (>= 3.0.2)
+Imports: ifultools (>= 2.0-0), splus2R (>= 1.2-0)
 License: GPL-2
 NeedsCompilation: yes
 
@@ -36708,8 +36729,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sparseBC
-Version: 1.0
+Version: 1.1
 Depends: glasso
+Imports: fields
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -42164,7 +42186,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ztable
-Version: 0.1.4
+Version: 0.1.5
 Depends: R (>= 3.1.2)
 Suggests: MASS, survival, testthat, knitr, moonBook
 License: GPL-2
