@@ -35804,7 +35804,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.6.8
+Version: 1.6.9
 Imports: ggplot2, MASS, car, foreign, plyr, psych, reshape2, scales
 Suggests: arm, cluster, coin, lme4, lsmeans, lmtest, Matrix, stringdist
 License: GPL-3
@@ -35982,6 +35982,13 @@ Package: smatr
 Version: 3.4-3
 Depends: plyr
 License: GPL-2
+NeedsCompilation: no
+
+Package: smbinning
+Version: 0.1
+Depends: R (>= 3.1.2),sqldf,partykit,Formula
+Imports: gsubfn
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SMC
