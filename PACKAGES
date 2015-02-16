@@ -4417,6 +4417,13 @@ Suggests: tframe (>= 2006.1-1), tfplot
 License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
+Package: cds
+Version: 1.0
+Depends: R(>= 3.1.2), parallel
+Imports: MASS, limSolve, clue, colorspace, copula
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: CDVine
 Version: 1.2
 Depends: R (>= 2.11.0), MASS, mvtnorm, igraph
@@ -8359,6 +8366,11 @@ Imports: graph, Rgraphviz, Matrix, Biobase
 Suggests: limma, survival, foreach, doMC
 License: GPL-2
 OS_type: unix
+NeedsCompilation: no
+
+Package: DNMF
+Version: 1.0
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DOBAD
@@ -28530,6 +28542,12 @@ LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: qrNLMM
+Version: 1.0
+Imports: matrixcalc, mvtnorm, ghyp, quantreg, psych, tcltk, ald
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: qrnn
 Version: 1.1.2
 License: GPL-2
@@ -28965,7 +28983,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: R4CouchDB
-Version: 0.6
+Version: 0.7.1
 Depends: R (>= 2.7.0), bitops, RCurl (>= 1.95), RJSONIO (>= 1.3)
 Suggests: roxygen2 (>= 4.0), testthat (>= 0.8)
 License: MIT + file LICENSE
@@ -37887,6 +37905,12 @@ Depends: R (>= 2.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: stepR
+Version: 1.0
+Depends: R (>= 2.15.3), stats
+License: GPL-3
+NeedsCompilation: yes
+
 Package: stepwise
 Version: 0.3
 Depends: R (>= 2.5.0)
@@ -41472,7 +41496,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wbs
-Version: 1.2
+Version: 1.3
 Depends: graphics
 License: GPL-2
 NeedsCompilation: yes
