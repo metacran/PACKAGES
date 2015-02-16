@@ -2287,9 +2287,9 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: bde
-Version: 1.0
-Depends: R (>= 2.0)
-Imports: methods,shiny,ggplot2
+Version: 1.0.1
+Depends: R (>= 2.0),shiny,ggplot2
+Imports: methods
 License: GPL-2
 NeedsCompilation: no
 
@@ -11049,6 +11049,13 @@ Version: 2.0
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: fdrDiscreteNull
+Version: 1.0
+Depends: R(>= 3.1.0)
+Imports: MCMCpack, edgeR
+License: LGPL
+NeedsCompilation: no
+
 Package: FDRreg
 Version: 0.1
 Depends: fda (>= 2.4.0), splines (>= 3.0.2)
@@ -14967,10 +14974,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HDPenReg
-Version: 0.90
-Depends: methods
-Imports: Rcpp
-LinkingTo: Rcpp
+Version: 0.91
+Depends: R (>= 3.0.2), rtkpp
+Imports: methods
+LinkingTo: rtkpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19193,12 +19200,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lsbclust
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 3.1.2), stats, parallel, ggplot2
 Imports: plyr, clue, grid, gridExtra, reshape2, Rcpp
 LinkingTo: Rcpp
 Suggests: testthat
-License: GPL-2
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: LSC
@@ -31072,7 +31079,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: retistruct
-Version: 0.5.9
+Version: 0.5.10
 Depends: R (>= 3.1.0)
 Imports: foreign, RImageJROI, png, ttutils, sp, geometry (>= 0.2-1),
         RTriangle (>= 1.6-0.4), rgl, R.matlab
@@ -31847,7 +31854,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rlibeemd
-Version: 1.3.1
+Version: 1.3.2
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: GPL-3
@@ -34004,9 +34011,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: saeSim
-Version: 0.6.0
+Version: 0.7.0
 Depends: R(>= 3.1), methods
-Imports: dplyr(>= 0.2), ggplot2, MASS, spdep, parallel
+Imports: dplyr(>= 0.2), functional, ggplot2, MASS, spdep, parallelMap
 Suggests: testthat, knitr
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
