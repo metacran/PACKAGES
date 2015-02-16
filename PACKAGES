@@ -14921,7 +14921,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HDclassif
-Version: 1.2.2
+Version: 1.2.3
 Depends: graphics, stats, MASS
 License: GPL-2
 NeedsCompilation: no
@@ -15126,7 +15126,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: HH
-Version: 3.1-14
+Version: 3.1-15
 Depends: R (>= 3.0.2), lattice, stats, grid, latticeExtra, multcomp,
         gridExtra
 Imports: reshape2, leaps, vcd, colorspace, RColorBrewer, Rcmdr, shiny
@@ -15397,9 +15397,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Hmisc
-Version: 3.14-6
-Depends: methods, grid, lattice, survival (>= 2.37-6), Formula
-Imports: latticeExtra, cluster, rpart, nnet, acepack, foreign
+Version: 3.15-0
+Depends: methods, grid, lattice, survival (>= 2.37-6), Formula, ggplot2
+Imports: proto, scales, latticeExtra, cluster, rpart, nnet, acepack,
+        foreign
 Suggests: chron, rms, mice, tables
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -19124,8 +19125,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: LPS
-Version: 1.0.4
-Depends: stats, methods, R (>= 2.10)
+Version: 1.0.10
+Depends: stats, R (>= 2.10)
 Suggests: limma
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -20720,8 +20721,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mets
-Version: 1.0
-Depends: R (>= 2.15), timereg (>= 1.8.6), lava (>= 1.2.7)
+Version: 1.1.0
+Depends: R (>= 2.15), timereg (>= 1.8.6), lava (>= 1.3)
 Imports: numDeriv, compiler, Rcpp, splines, survival
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: lava.tobit (>= 0.4-7), prodlim, testthat, ucminf
@@ -26349,8 +26350,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: phia
-Version: 0.1-5
+Version: 0.2-0
 Depends: car, graphics, stats
+Imports: Matrix
 Suggests: nlme, lme4
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -29103,7 +29105,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ramps
-Version: 0.6-12
+Version: 0.6-13
 Depends: coda, maps, Matrix, nlme
 Imports: fields, methods
 License: GPL-2
@@ -32102,8 +32104,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rms
-Version: 4.2-1
-Depends: Hmisc (>= 3.12-2), survival (>= 2.37-6), lattice, SparseM
+Version: 4.3-0
+Depends: Hmisc (>= 3.15-0), survival (>= 2.37-6), lattice, ggplot2,
+        gridExtra, SparseM
 Imports: quantreg, nlme, rpart, polspline, multcomp
 Suggests: boot, tcltk
 License: GPL (>= 2)
@@ -38680,7 +38683,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sybilEFBA
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10.0), sybil, Matrix
 Suggests: cplexAPI (>= 1.2.6), glpkAPI (>= 1.2.1)
 License: GPL-3
