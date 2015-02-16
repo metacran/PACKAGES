@@ -1706,9 +1706,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BANFF
-Version: 0.2
-Depends: foreach, doParallel
-Imports: DPpackage, igraph, mclust, pscl, tmvtnorm, network
+Version: 0.3
+Depends: R (>= 3.0.3), foreach, doParallel
+Imports: DPpackage, igraph, mclust, pscl, tmvtnorm, network, coda
 License: GPL-2
 NeedsCompilation: no
 
@@ -11029,9 +11029,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: FDboost
-Version: 0.0-5
-Depends: R (>= 3.0.0), mboost
-Imports: Matrix, mgcv, zoo, nnls
+Version: 0.0-8
+Depends: R (>= 3.0.0), mboost (>= 2.4-2)
+Imports: Matrix, mgcv, zoo, MASS
 Suggests: fda, fields, maps, mapdata
 License: GPL-2
 NeedsCompilation: no
@@ -12168,9 +12168,13 @@ License: GPL
 NeedsCompilation: no
 
 Package: FunChisq
-Version: 1.0
+Version: 2.0.0
+Depends: R (>= 3.0.0)
+Imports: Rcpp
+LinkingTo: BH, Rcpp, RcppClassic
+Suggests: Ckmeans.1d.dp, testthat
 License: LGPL (>= 3)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: FunCluster
 Version: 1.09
@@ -13560,6 +13564,12 @@ Package: glassomix
 Version: 1.2
 Depends: R (>= 3.0.0), mvtnorm, glasso, huge
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: glba
+Version: 0.2
+Depends: R (>= 3.1.2)
+License: GPL
 NeedsCompilation: no
 
 Package: glcm
@@ -25789,7 +25799,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: PCIT
-Version: 1.04-5
+Version: 1.5-3
 Depends: R (>= 2.10)
 Suggests: Rmpi
 License: GPL-3
@@ -26597,9 +26607,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PKfit
-Version: 1.2.4
-Depends: R (>= 2.12.0)
-Imports: optimx, stats4, deSolve, minpack.lm
+Version: 1.2.5
+Depends: R (>= 2.12.0), deSolve
+Imports: optimx, stats4, minpack.lm
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34341,9 +34351,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SCGLR
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 3.0.0)
-Imports: Matrix,Formula,expm,graphics,ggplot2,grid,ROCR
+Imports: Matrix,Formula,expm,graphics,ggplot2,grid,pROC
 Suggests: parallel,gridExtra,knitr
 License: CeCILL-2 | GPL-2
 NeedsCompilation: no
@@ -35286,6 +35296,12 @@ Suggests: polycor
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: sgt
+Version: 1.0
+Depends: R (>= 2.4.0), maxLik (>= 1.2-4)
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: shape
 Version: 1.4.2
 Depends: R (>= 2.01), stats
@@ -35588,8 +35604,10 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: SIMMS
-Version: 0.0.1
-Depends: R (>= 2.14.0), survival (>= 2.36-2), MASS (>= 7.3-12)
+Version: 1.0.0
+Depends: R (>= 2.15.0), survival (>= 2.36-2), MASS (>= 7.3-12), glmnet
+        (>= 1.9-8)
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
 
