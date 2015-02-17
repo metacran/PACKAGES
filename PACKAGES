@@ -15993,8 +15993,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: IBDhaploRtools
-Version: 1.7
+Version: 1.8
 Depends: R (>= 2.10)
+License: GPL-3
+NeedsCompilation: no
+
+Package: IBDLabels
+Version: 1.1
 License: GPL-3
 NeedsCompilation: no
 
