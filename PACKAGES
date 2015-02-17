@@ -815,7 +815,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: analyz
-Version: 1.3.21
+Version: 1.4
 Depends: R (>= 2.15.1)
 Imports: methods
 License: GPL (>= 2)
@@ -9240,7 +9240,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: eegkit
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 3.1.1), bigsplines, eegkitdata, ica, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -9328,11 +9328,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EGRET
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 3.0)
 Imports: dataRetrieval (>= 2.0.1), survival, fields, stats, lubridate,
         methods
-Suggests: xtable, knitr, extrafont
+Suggests: xtable, knitr, extrafont, testthat
 License: CC0
 NeedsCompilation: no
 
@@ -12404,6 +12404,11 @@ Depends: R (>= 2.7.0), stats, matrixStats, R.methodsS3
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
+Package: GaDiFPT
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: gains
 Version: 1.1
 Depends: R (>= 3.0.0)
@@ -14690,7 +14695,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: gWidgets2RGtk2
-Version: 1.0-2
+Version: 1.0-3
 Depends: methods, memoise, RGtk2, gWidgets2
 Suggests: testthat, cairoDevice
 License: GPL-3
@@ -15572,8 +15577,8 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: hpcwld
-Version: 0.4
-Depends: R (>= 1.8.0)
+Version: 0.5
+Depends: R (>= 2.10), multicool, partitions
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18538,6 +18543,13 @@ Depends: R (>= 2.10)
 Imports: quadprog, lpSolve, MASS
 License: GPL
 NeedsCompilation: yes
+
+Package: linbin
+Version: 0.1.0
+Depends: R (>= 3.0.1)
+Suggests: knitr
+License: AGPL-3
+NeedsCompilation: no
 
 Package: LinCal
 Version: 1.0
@@ -22645,7 +22657,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: multisensi
-Version: 1.0-7
+Version: 1.0-8
 Depends: R (>= 2.8.0)
 Suggests: MASS
 License: CeCILL-2
@@ -25175,8 +25187,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: palaeoSig
-Version: 1.1-2
-Depends: rioja, vegan, TeachingDemos, gstat, fields, mapproj
+Version: 1.1-3
+Depends: vegan
+Imports: TeachingDemos, rioja, mgcv, MASS
+Suggests: fields
 License: GPL-3
 NeedsCompilation: no
 
@@ -35948,8 +35962,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Sleuth3
-Version: 0.1-6
-Depends: R (>= 2.15.0)
+Version: 0.1-8
+Depends: R (>= 3.0.0)
 Suggests: MASS, lattice, multcomp, car, leaps, CCA, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -37970,7 +37984,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: StochKit2R
-Version: 0.2
+Version: 0.3
 Imports: Rcpp (>= 0.11.2), reshape, ggplot2, XML
 LinkingTo: Rcpp, BH
 Suggests: knitr
