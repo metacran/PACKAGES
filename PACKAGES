@@ -21843,6 +21843,12 @@ Imports: RCurl, XML
 License: GPL-3
 NeedsCompilation: no
 
+Package: modMax
+Version: 1.0
+Depends: gtools, igraph
+License: GPL-2
+NeedsCompilation: no
+
 Package: modTempEff
 Version: 1.5.2
 Depends: mgcv, splines
@@ -32320,7 +32326,7 @@ License_restricts_use: yes
 NeedsCompilation: yes
 
 Package: RNiftyReg
-Version: 1.1.2
+Version: 1.1.3
 Depends: R (>= 2.9.0)
 Imports: reportr, oro.nifti
 Suggests: splines
@@ -34841,7 +34847,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: segmented
-Version: 0.5-1.0
+Version: 0.5-1.1
 License: GPL
 NeedsCompilation: no
 
