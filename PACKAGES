@@ -11252,6 +11252,13 @@ Depends: mvtnorm, numDeriv
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: fgpt
+Version: 2.2
+Depends: R (>= 2.10)
+Suggests: knitr
+License: GPL
+NeedsCompilation: no
+
 Package: FGSG
 Version: 1.0
 License: GPL-2
@@ -13561,6 +13568,12 @@ Imports: jsonlite, httr, magrittr, knitr
 Suggests: roxygen2, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: git2r
+Version: 0.6
+Depends: R (>= 3.0.2), methods
+License: GPL-2
+NeedsCompilation: yes
 
 Package: gitter
 Version: 1.0.4
@@ -18191,6 +18204,12 @@ Version: 1.2.1
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: lbfgsb3
+Version: 2015-2.13
+Depends: R (>= 2.15.0), numDeriv
+License: GPL-2
 NeedsCompilation: yes
 
 Package: lbiassurv
@@ -31813,6 +31832,13 @@ Version: 2.0.3
 Depends: R (>= 2.13)
 License: GPL-3
 NeedsCompilation: yes
+
+Package: rjade
+Version: 0.1
+Imports: V8 (>= 0.5)
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: rjags
 Version: 3-14
