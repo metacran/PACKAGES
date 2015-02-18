@@ -1483,6 +1483,11 @@ License: ACM | file LICENSE
 License_restricts_use: yes
 NeedsCompilation: no
 
+Package: ATE
+Version: 0.2.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: AtelieR
 Version: 0.24
 Depends: R (>= 2.10), proto, cairoDevice, gWidgetsRGtk2, partitions
@@ -10794,7 +10799,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fastcluster
-Version: 1.1.15
+Version: 1.1.16
+Depends: R (>= 3.0.0)
 Enhances: stats, flashClust
 License: FreeBSD | GPL-2 | file LICENSE
 NeedsCompilation: yes
@@ -18099,11 +18105,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lava
-Version: 1.3
+Version: 1.4.0
 Depends: R (>= 2.15)
 Imports: numDeriv
-Suggests: mets (>= 0.2.7), graph, Rgraphviz, igraph (>= 0.6), Matrix,
-        KernSmooth, lme4, geepack, gof (>= 0.9), foreach, rgl,
+Suggests: mets (>= 1.1), graph, Rgraphviz, igraph (>= 0.6), Matrix,
+        KernSmooth, lme4, geepack, gof (>= 0.9), foreach, rgl, fields,
         survival, testthat, ascii
 License: GPL-3
 NeedsCompilation: no
@@ -31884,7 +31890,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rlabkey
-Version: 2.1.126
+Version: 2.1.127
 Depends: RCurl, rjson (>= 0.1.3)
 License: Apache License 2.0
 NeedsCompilation: yes
@@ -36589,10 +36595,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: sorvi
-Version: 0.6.23
-Depends: R (>= 3.0.2), reshape, pxR
+Version: 0.7.20
+Depends: R (>= 3.0.2), reshape
 Imports: ggplot2, plyr, RColorBrewer, XML
-Suggests: gdata, knitr, RCurl, rjson
+Suggests: gdata, knitr, rmarkdown, RCurl, rjson, testthat
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
