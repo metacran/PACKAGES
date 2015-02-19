@@ -21103,9 +21103,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MIICD
-Version: 1.1
-Depends: mstate , prodlim, cmprsk, riskRegression
-Imports: MASS , survival
+Version: 2.0
+Depends: R (>= 3.0.0)
+Imports: survival, riskRegression, MASS
 License: GPL-3
 NeedsCompilation: no
 
@@ -24097,6 +24097,13 @@ Package: NPHMC
 Version: 2.2
 Depends: survival, smcure
 License: GPL-2
+NeedsCompilation: no
+
+Package: npIntFactRep
+Version: 1.2
+Depends: R (>= 3.1.2)
+Imports: ez, plyr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nplplot
@@ -27618,6 +27625,12 @@ Depends: R (>= 3.0.0), kyotil, nlme
 Suggests: RUnit, Rmosek, Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: precintcon
+Version: 2.1
+Depends: R (>= 2.14), ggplot2, scales
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: predfinitepop
 Version: 1.0
@@ -35700,7 +35713,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Simile
-Version: 1.3.2
+Version: 1.3.3
 Depends: tcltk
 License: Unlimited
 NeedsCompilation: no
