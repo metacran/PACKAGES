@@ -9121,10 +9121,10 @@ License: CC0
 NeedsCompilation: no
 
 Package: EcoGenetics
-Version: 1.0
+Version: 1.1.0
 Depends: R (>= 3.0), methods
-Imports: adegenet, ggplot2, gstat, gstudio, hierfstat, party, raster,
-        rgdal, rkt, sp, spdep, tcltk, vegan
+Imports: adegenet, ggplot2, gstudio, hierfstat, party, raster, rgdal,
+        rkt, sp, vegan
 Suggests: animation, ape, Geneland, seqinr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12033,12 +12033,13 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: FRESA.CAD
-Version: 1.0
-Depends: R (>= 3.0.0),Hmisc,pROC,stringr,miscTools,survival
-Suggests: class, cvTools, glmnet, speedglm, gplots, RColorBrewer, nlme,
-        rpart
+Version: 2.0
+Depends: Rcpp (>= 0.10.0),stringr,miscTools,Hmisc,pROC
+LinkingTo: Rcpp, RcppArmadillo
+Suggests:
+        nlme,rpart,gplots,RColorBrewer,class,cvTools,glmnet,speedglm,survival
 License: LGPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: FrF2
 Version: 1.7-1
@@ -19704,10 +19705,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: mapStats
-Version: 1.17
+Version: 2.3
 Depends: R (>= 3.0.2), survey, lattice, maptools
-Imports: RColorBrewer, Hmisc, quantreg, classInt, sp, colorspace,
-        reshape2
+Imports: RColorBrewer, Hmisc, classInt, sp, colorspace, reshape2
 License: GPL (>= 2)
 NeedsCompilation: no
 
