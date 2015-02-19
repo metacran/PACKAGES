@@ -16625,11 +16625,6 @@ Depends: R (>= 2.14.0), survival
 License: GPL-2
 NeedsCompilation: yes
 
-Package: integrOmics
-Version: 2.55
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: Interact
 Version: 1.1
 License: GPL-3
