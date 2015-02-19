@@ -3510,7 +3510,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bootstrap
-Version: 2014.4
+Version: 2015.2
 Depends: stats, R (>= 2.10.0)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -11253,7 +11253,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: fgpt
-Version: 2.2
+Version: 2.3
 Depends: R (>= 2.10)
 Suggests: knitr
 License: GPL
@@ -33093,7 +33093,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rr
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0), utils
 Imports: MASS (>= 7.3), arm (>= 1.7-07), coda (>= 0.16-1)
 License: GPL (>= 2)
@@ -33181,12 +33181,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: R.rsp
-Version: 0.19.0
+Version: 0.20.0
 Depends: R (>= 2.5.0)
 Imports: stats, utils, tools, R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0),
-        R.utils (>= 1.32.4), R.cache (>= 0.9.0)
-Suggests: tcltk, digest (>= 0.6.4), ascii (>= 2.1), markdown (>= 0.7),
-        knitr (>= 1.6), R.devices (>= 2.9.2), base64enc (>= 0.1-1)
+        R.utils (>= 1.34.0), R.cache (>= 0.10.0)
+Suggests: tcltk, digest (>= 0.6.8), ascii (>= 2.1), markdown (>=
+        0.7.4), knitr (>= 1.8), R.devices (>= 2.12.0), base64enc (>=
+        0.1-2)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
