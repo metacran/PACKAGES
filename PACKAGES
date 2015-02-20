@@ -26970,7 +26970,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plspm
-Version: 0.4.1
+Version: 0.4.2
 Depends: R (>= 3.0.1), amap, diagram, tester, turner
 Suggests: plsdepot, FactoMineR, ggplot2, reshape, testthat, knitr
 License: GPL-3
