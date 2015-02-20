@@ -1098,12 +1098,12 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: aqp
-Version: 1.7-7
+Version: 1.8
 Depends: R (>= 2.15.0), methods
 Imports: plyr, reshape, grid, lattice, cluster, sp, Hmisc, stringr,
         scales, plotrix, RColorBrewer, MASS
 Suggests: colorspace, maptools, foreign, ape, soilDB, latticeExtra,
-        digest, maps
+        digest, maps, compositions
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -3910,8 +3910,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CaDENCE
-Version: 1.2.1
-Suggests: boot, pso
+Version: 1.2.2
+Depends: pso
+Suggests: boot
 License: GPL-2
 NeedsCompilation: no
 
@@ -10342,8 +10343,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: exactRankTests
-Version: 0.8-27
-Depends: R (>= 2.10), stats, utils
+Version: 0.8-28
+Depends: R (>= 2.4.0), stats, utils
 Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -10893,6 +10894,13 @@ LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: fastpseudo
+Version: 0.1
+Depends: R (>= 3.1.1)
+Suggests: geepack
+License: GPL-2
+NeedsCompilation: no
 
 Package: fastR
 Version: 0.8-1
@@ -14301,7 +14309,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Grid2Polygons
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 2.15.0), sp, rgeos
 Suggests: rgdal
 License: GPL (>= 2)
@@ -20074,7 +20082,7 @@ License: LGPL-2.1
 NeedsCompilation: yes
 
 Package: maxstat
-Version: 0.7-21
+Version: 0.7-22
 Depends: R (>= 1.7.0)
 Imports: exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10)
 Suggests: TH.data, survival
@@ -25083,10 +25091,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: outbreaker
-Version: 1.1-4
+Version: 1.1-5
 Depends: R (>= 3.0.0), parallel
 Imports: utils, ape, igraph, adegenet
-Suggests: EpiEstim
+Suggests: EpiEstim, OutbreakTools
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -27527,10 +27535,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: poweRlaw
-Version: 0.20.5
+Version: 0.30.0
 Depends: R (>= 3.0.0), methods
 Imports: VGAM, parallel
-Suggests: knitr, R.matlab, testthat
+Suggests: knitr, R.matlab
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -28323,6 +28331,12 @@ Version: 0.3.2
 Imports: XML, stringr, RCurl, wordcloud, tm, RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: pullword
+Version: 0.1
+Depends: R (>= 3.0.2),RCurl
+License: LGPL
+NeedsCompilation: yes
 
 Package: pumilioR
 Version: 1.3
