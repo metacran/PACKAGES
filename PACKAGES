@@ -11766,10 +11766,10 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: ForeCA
-Version: 0.1
-Depends: R (>= 2.15.0), ifultools (>= 2.0-0), splus2R (>= 1.2-0), nlme
-        (>= 3.1-64)
-Imports: R.utils, sapa, mgcv, astsa
+Version: 0.2.0
+Depends: R (>= 3.0.0), ifultools (>= 2.0.0)
+Imports: MASS, sapa
+Suggests: astsa, mgcv, nlme (>= 3.1-64), testthat (>= 0.9.0), rSFA,
 License: GPL-2
 NeedsCompilation: no
 
@@ -18968,6 +18968,13 @@ Version: 0.6-0
 Depends: R (>= 2.5.0)
 License: GPL-2
 NeedsCompilation: yes
+
+Package: lodGWAS
+Version: 1.0-3
+Depends: R (>= 3.0.0)
+Imports: survival, rms
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: loe
 Version: 1.0
