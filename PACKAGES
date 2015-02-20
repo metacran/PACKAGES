@@ -10626,6 +10626,12 @@ Depends: R (>= 2.1), lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: Factoshiny
+Version: 1.0
+Depends: FactoMineR,shiny(>= 0.11)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FACTscorer
 Version: 0.1.0
 Depends: R (>= 3.1.1)
@@ -19870,9 +19876,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MASS
-Version: 7.3-37
+Version: 7.3-39
 Priority: recommended
-Depends: R (>= 3.0.0), grDevices, graphics, stats, utils
+Depends: R (>= 3.1.0), grDevices, graphics, stats, utils
 Suggests: lattice, nlme, nnet, survival
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
@@ -22373,7 +22379,7 @@ License_restricts_use: no
 NeedsCompilation: yes
 
 Package: msda
-Version: 1.0.1
+Version: 1.0.2
 Depends: Matrix, MASS
 License: GPL-2
 NeedsCompilation: yes
@@ -31948,7 +31954,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RKEA
-Version: 0.0-4
+Version: 0.0-5
 Imports: rJava (>= 0.6-3), tm
 License: GPL-2
 NeedsCompilation: no
@@ -32123,7 +32129,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: R.methodsS3
-Version: 1.6.1
+Version: 1.7.0
 Depends: R (>= 2.2.0)
 Imports: utils
 License: LGPL (>= 2.1)
@@ -40780,6 +40786,11 @@ Version: 1.0-3
 License: LGPL
 NeedsCompilation: no
 
+Package: UBCRM
+Version: 1.0.1
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ucbthesis
 Version: 1.0
 Depends: R (>= 3.1.0)
@@ -41750,7 +41761,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: WhopGenome
-Version: 0.9.1
+Version: 0.9.2
 Depends: R (>= 1.8.0)
 Suggests: RMySQL, DBI, AnnotationDbi
 License: GPL (>= 2)
