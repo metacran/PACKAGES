@@ -8060,6 +8060,12 @@ Suggests: mvtnorm
 License: GPL-2
 NeedsCompilation: no
 
+Package: disparityfilter
+Version: 2.1
+Depends: R (>= 3.1.1), igraph
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: displayHTS
 Version: 1.0
 License: GPL (>= 2)
@@ -9305,7 +9311,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ega
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.14.0)
 Imports: ggplot2
 Suggests: knitr
@@ -9553,7 +9559,7 @@ License: MIT
 NeedsCompilation: yes
 
 Package: EMDomics
-Version: 0.99.0
+Version: 0.99.1
 Depends: R (>= 3.1.0)
 Imports: emdist, BiocParallel, matrixStats, ggplot2
 Suggests: knitr
@@ -25083,7 +25089,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: OUwie
-Version: 1.43
+Version: 1.44
 Depends: ape, nloptr
 Imports: numDeriv, corpcor, lattice, grDevices, phytools, phangorn
 License: GPL (>= 2)
@@ -33837,6 +33843,13 @@ Suggests: testthat, knitr, png, stringi (>= 0.3.1)
 License: GPL-3
 NeedsCompilation: no
 
+Package: RVFam
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: coxme, survival, lme4, kinship2, MASS, Matrix
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: rvgtest
 Version: 0.7.4
 Depends: R (>= 3.0.0)
@@ -35439,11 +35452,12 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sharpshootR
-Version: 0.6-3
-Depends: R (>= 2.15.0), aqp, ape
-Imports: igraph, cluster, lattice, latticeExtra, vegan, sp, reshape2,
-        Hmisc, scales, circular, RColorBrewer, plyr
-Suggests: soilDB, MASS
+Version: 0.7-2
+Depends: R (>= 2.15.0)
+Imports: aqp, ape, soilDB, igraph, cluster, lattice, latticeExtra,
+        vegan, sp, reshape2, Hmisc, scales, circular, RColorBrewer,
+        plyr
+Suggests: MASS, rgdal, spdep
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -41723,6 +41737,13 @@ Depends: R (>= 2.10)
 Imports: oro.nifti, mgcv, fslr
 License: GPL-2
 NeedsCompilation: no
+
+Package: WhopGenome
+Version: 0.9.1
+Depends: R (>= 1.8.0)
+Suggests: RMySQL, DBI, AnnotationDbi
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: widals
 Version: 0.5.4
