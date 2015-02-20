@@ -3522,6 +3522,12 @@ Imports: parallel
 License: GPL-2
 NeedsCompilation: no
 
+Package: boottol
+Version: 1.0
+Depends: R (>= 3.0.0), boot,plyr,sqldf,tcltk
+License: GPL-2
+NeedsCompilation: no
+
 Package: boral
 Version: 0.6
 Depends: coda
@@ -10667,6 +10673,11 @@ Suggests: corpcor, mvnmle, polycor, nFactors, Rgraphviz, mvnormtest,
 License: AGPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
+Package: faisalconjoint
+Version: 1.15
+License: GPL-3
+NeedsCompilation: no
+
 Package: falcon
 Version: 0.1
 Depends: R (>= 3.0.1)
@@ -11767,7 +11778,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: foreign
-Version: 0.8-62
+Version: 0.8-63
 Priority: recommended
 Depends: R (>= 3.0.0), stats
 Imports: methods, utils
@@ -15368,6 +15379,13 @@ Suggests: multtest, qvalue, pi0
 Enhances: stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: hisse
+Version: 1.0
+Depends: ape, deSolve, GenSA, subplex
+Imports: parallel
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: HistData
 Version: 0.7-5
@@ -23687,7 +23705,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: nlme
-Version: 3.1-119
+Version: 3.1-120
 Priority: recommended
 Depends: graphics, stats, R (>= 3.0.0)
 Imports: lattice
@@ -31992,11 +32010,6 @@ Suggests: testthat, data.table, stringdist, pipeR
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: rlm
-Version: 1.0
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: rlme
 Version: 0.4
 Imports: MASS, quantreg, nlme, mgcv, stringr, magic, robustbase, Rcpp
@@ -38070,14 +38083,6 @@ Depends: truncnorm, coda, Matrix, fields
 License: Unlimited
 NeedsCompilation: no
 
-Package: StochKit2R
-Version: 0.3
-Imports: Rcpp (>= 0.11.2), reshape, ggplot2, XML
-LinkingTo: Rcpp, BH
-Suggests: knitr
-License: GPL-3
-NeedsCompilation: yes
-
 Package: stochprofML
 Version: 1.2
 Depends: R (>= 2.0)
@@ -40144,6 +40149,12 @@ LinkingTo: Rcpp, RcppArmadillo (>= 0.4.000.2)
 Suggests: dplR, testthat (>= 0.7.1.99)
 License: GPL-3
 NeedsCompilation: yes
+
+Package: treeClust
+Version: 0.2-2
+Depends: rpart, cluster
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: treecm
 Version: 1.2.1
