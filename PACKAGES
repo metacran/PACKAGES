@@ -12056,15 +12056,6 @@ Suggests: MASS, hflights, cluster, ggplot2, testthat, RSQLite
 License: GPL-3
 NeedsCompilation: no
 
-Package: FRESA.CAD
-Version: 2.0
-Depends: Rcpp (>= 0.10.0),stringr,miscTools,Hmisc,pROC
-LinkingTo: Rcpp, RcppArmadillo
-Suggests:
-        nlme,rpart,gplots,RColorBrewer,class,cvTools,glmnet,speedglm,survival
-License: LGPL (>= 2)
-NeedsCompilation: yes
-
 Package: FrF2
 Version: 1.7-1
 Depends: R(>= 2.13.0), DoE.base(>= 0.25)
@@ -32034,6 +32025,11 @@ Imports: yaml, jsonlite
 Suggests: testthat, data.table, stringdist, pipeR
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: rlm
+Version: 1.1
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: rlme
 Version: 0.4
