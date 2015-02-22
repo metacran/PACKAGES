@@ -2664,11 +2664,11 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BIFIEsurvey
-Version: 1.1
+Version: 1.2-6
 Depends: R (>= 2.15.0)
-Imports: Rcpp (>= 0.11.0), miceadds (>= 0.14)
+Imports: Rcpp (>= 0.11.0), miceadds, mitools, TAM
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: survey, intsvy, svyPVpack, lavaan.survey, Hmisc, car
+Suggests: survey, intsvy, svyPVpack, lavaan.survey, Hmisc, car, lme4
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -4882,7 +4882,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.2.2
+Version: 0.2.3
 Depends: R (>= 2.10.0)
 Imports: GlobalOptions (>= 0.0.6)
 Suggests: knitr
@@ -28394,6 +28394,12 @@ Suggests: picante, geiger
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: pvrank
+Version: 1.0
+Depends: R(>= 3.0.1), Rmpfr, utils
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: pvsR
 Version: 0.3
 Depends: R (>= 3.0)
@@ -30500,8 +30506,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RDota
-Version: 1.1
-Depends: R(>= 3.1.2)
+Version: 1.2
+Depends: R(>= 3.1.2), XML
 License: GPL-3
 NeedsCompilation: no
 
@@ -39130,6 +39136,13 @@ Version: 0.3.2
 Depends: nlme, splines, pracma
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: TAQMNGR
+Version: 2015.2-1
+Depends: R (>= 3.0-2)
+LinkingTo: Rcpp (>= 0.11.0)
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: taRifx
 Version: 1.0.6
