@@ -1476,6 +1476,12 @@ Depends: R (>= 1.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: AsynchLong
+Version: 1.0
+Depends: compiler, parallel
+License: GPL-2
+NeedsCompilation: no
+
 Package: asypow
 Version: 2013.9-1
 Depends: R (>= 2.2.0), stats
@@ -18128,7 +18134,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: lattice
-Version: 0.20-29
+Version: 0.20-30
 Priority: recommended
 Depends: R (>= 2.15.1)
 Imports: grid, grDevices, graphics, stats, utils
@@ -29866,7 +29872,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rcmdr
-Version: 2.1-6
+Version: 2.1-7
 Depends: R (>= 3.0.0), grDevices, utils, splines, RcmdrMisc (>= 1.0-2),
         car (>= 2.0-21)
 Imports: tcltk, tcltk2 (>= 1.2-6), abind
@@ -31693,9 +31699,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: R.huge
-Version: 0.8.0
+Version: 0.9.0
 Depends: R (>= 2.10.0)
-Imports: R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>= 1.29.8)
+Imports: R.methodsS3 (>= 1.7.0), R.oo (>= 1.18.0), R.utils (>= 1.34.0)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
