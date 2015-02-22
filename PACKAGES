@@ -12056,6 +12056,15 @@ Suggests: MASS, hflights, cluster, ggplot2, testthat, RSQLite
 License: GPL-3
 NeedsCompilation: no
 
+Package: FRESA.CAD
+Version: 2.0.2
+Depends: Rcpp (>= 0.10.0),stringr,miscTools,Hmisc,pROC
+LinkingTo: Rcpp, RcppArmadillo
+Suggests:
+        nlme,rpart,gplots,RColorBrewer,class,cvTools,glmnet,speedglm,survival
+License: LGPL (>= 2)
+NeedsCompilation: yes
+
 Package: FrF2
 Version: 1.7-1
 Depends: R(>= 2.13.0), DoE.base(>= 0.25)
@@ -31876,6 +31885,16 @@ Suggests: graphics
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: rivr
+Version: 0.9.1
+Depends: R (>= 3.1.2)
+Imports: Rcpp (>= 0.11.3), reshape2 (>= 1.4)
+LinkingTo: Rcpp
+Suggests: dplyr (>= 0.3), ggplot2 (>= 1.0), roxygen2 (>= 4.1), knitr
+        (>= 1.8)
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: RJaCGH
 Version: 2.0.3
 Depends: R (>= 2.13)
@@ -32951,7 +32970,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rpg
-Version: 1.2
+Version: 1.4
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.1), uuid (>= 0.1-1), RApiSerialize (>= 0.1.0),
         tcltk (>= 3.0.0)
@@ -37743,6 +37762,11 @@ Version: 1.0
 Depends: R (>= 3.0.3), stringr
 License: Apache License (== 2.0)
 OS_type: unix
+NeedsCompilation: no
+
+Package: ssize.fdr
+Version: 1.2
+License: GPL-3
 NeedsCompilation: no
 
 Package: ssmrob
