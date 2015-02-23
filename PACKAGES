@@ -21461,7 +21461,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixlm
-Version: 1.0.8.1
+Version: 1.0.8.3
 Depends: multcomp, pls, pracma
 Imports: leaps, lme4, car
 License: GPL (>= 2)
@@ -31351,11 +31351,11 @@ License: CC0
 NeedsCompilation: no
 
 Package: R.filesets
-Version: 2.6.0
-Depends: R (>= 2.15.0), R.oo (>= 1.18.0)
-Imports: stats, R.methodsS3 (>= 1.6.1), R.utils (>= 1.32.4), R.cache
-        (>= 0.10.0), digest (>= 0.6.4)
-Suggests: gtools (>= 3.4.1), BatchJobs (>= 1.2), BiocParallel (>=
+Version: 2.7.0
+Depends: R (>= 3.0.3), R.oo (>= 1.18.0)
+Imports: stats, R.methodsS3 (>= 1.7.0), R.utils (>= 1.34.0), R.cache
+        (>= 0.10.0), digest (>= 0.6.8)
+Suggests: gtools (>= 3.4.1), BatchJobs (>= 1.5), BiocParallel (>=
         0.4.1)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
@@ -31435,9 +31435,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: rfPermute
-Version: 1.6.1
-Depends: R (>= 2.15.1)
-Imports: randomForest, parallel, ggplot2, gridExtra
+Version: 1.6.2
+Depends: R (>= 2.15.1), ggplot2
+Imports: randomForest, parallel, grid, gridExtra
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -38193,6 +38193,14 @@ Depends: stats, graphics, grDevices, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: stocks
+Version: 1.1.1
+Depends: R (>= 3.0.0), rbenchmark
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
 Package: stoichcalc
 Version: 1.1-3
 License: GPL (>= 2)
@@ -40166,6 +40174,14 @@ Imports: methods, lattice, sp (>= 1.0-14), spacetime (>= 1.0-0), rgdal,
         rgeos
 Suggests: rgl, OpenStreetMap, RCurl, rjson, adehabitatLT
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: tRakt
+Version: 0.7.4
+Depends: R (>= 3.0.2)
+Imports: httr, jsonlite, lubridate, plyr, stringr
+Suggests: knitr, dplyr, ggplot2
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: TraMineR
