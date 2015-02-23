@@ -13929,6 +13929,14 @@ Imports: minqa, magic
 License: GPL-2
 NeedsCompilation: no
 
+Package: gmnl
+Version: 1.0
+Depends: R (>= 3.1.1), maxLik, Formula
+Imports: plotrix, msm, mlogit, truncnorm, stats
+Suggests: AER, lmtest, car, memisc
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: gmodels
 Version: 2.15.4.1
 Depends: R (>= 1.9.0)
@@ -38235,7 +38243,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: strataG
-Version: 0.9.2
+Version: 0.9.4
 Imports: parallel, swfscMisc, pegas, ape, MASS, reshape2
 LinkingTo: Rcpp
 License: GNU General Public License
