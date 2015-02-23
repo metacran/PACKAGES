@@ -6861,6 +6861,14 @@ Imports: lattice, FrF2, BsMD
 License: GPL-2
 NeedsCompilation: no
 
+Package: daff
+Version: 0.1.1
+Depends: R (>= 3.1.2)
+Imports: V8, jsonlite
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: dafs
 Version: 1.0-37
 Depends: s20x
@@ -13609,7 +13617,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.6
+Version: 0.7
 Depends: R (>= 3.0.2), methods
 License: GPL-2
 NeedsCompilation: yes
