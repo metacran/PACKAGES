@@ -2986,6 +2986,13 @@ Suggests: ade4, foreign, Hmisc, mgcv, gam
 License: GPL-2
 NeedsCompilation: no
 
+Package: biomonCore
+Version: 1.3.50
+Depends: R (>= 2.15.1)
+Imports: methods, analyz
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: BIOM.utils
 Version: 0.9
 Depends: R (>= 3.0), utils
@@ -3431,7 +3438,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BoolNet
-Version: 2.0.2
+Version: 2.1.0
 Imports: igraph (>= 0.6), XML
 License: Artistic-2.0
 NeedsCompilation: yes
@@ -27580,8 +27587,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: powerMediation
-Version: 0.1.7
-Depends: R (>= 2.9.0), stats
+Version: 0.2.3
+Depends: R (>= 3.1.0), stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33298,7 +33305,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: RRreg
-Version: 0.2.0
+Version: 0.3.0
 Depends: R (>= 3.0.0)
 Imports: parallel, doParallel, foreach
 Suggests: knitr
