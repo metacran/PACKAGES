@@ -5529,6 +5529,13 @@ Suggests: ggplot2, snpStats
 License: GPL
 NeedsCompilation: no
 
+Package: coloredICA
+Version: 1.0.0
+Depends: MASS
+Suggests: fastICA
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: colorfulVennPlot
 Version: 2.4
 Depends: grid
@@ -8591,7 +8598,7 @@ License: LGPL (>= 2.0)
 NeedsCompilation: no
 
 Package: dpcR
-Version: 0.1.3.2
+Version: 0.1.3.3
 Depends: R (>= 3.0.0), methods
 Imports: binom, chipPCR, e1071, dgof, multcomp, qpcR, pracma,
         rateratio.test, signal, shiny, spatstat
@@ -23118,7 +23125,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mwa
-Version: 0.4
+Version: 0.4.1
 Depends: R (>= 2.6), cem (>= 0.3), rJava (>= 0.9), MASS (>= 7.0)
 License: LGPL-3
 NeedsCompilation: no
@@ -38673,9 +38680,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: survival
-Version: 2.37-7
+Version: 2.38-1
 Priority: recommended
-Depends: stats, utils, graphics, splines, R (>= 2.13.0)
+Depends: R (>= 2.13.0), graphics, stats
+Imports: splines
+Suggests: cmprsk
 License: LGPL (>= 2)
 NeedsCompilation: yes
 
@@ -39183,12 +39192,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.4-1
-Depends: R (>= 2.15.1), CDM (>= 4.1), MASS
-Imports: Rcpp, mirt (>= 1.7), lavaan (>= 0.5-17), WrightMap (>= 1.1),
-        tensor, sfsmisc, GPArotation, psych, lattice, mvtnorm, msm
+Version: 1.5-2
+Depends: R (>= 2.15.1), CDM (>= 4.2), MASS
+Imports: Rcpp, mirt, lavaan, WrightMap, tensor, sfsmisc, GPArotation,
+        psych, mvtnorm, msm, lattice
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: sirt (>= 1.0), PP (>= 0.5-3), semTools (>= 0.4-6)
+Suggests: sirt, PP, semTools
 License: GPL (>= 2)
 NeedsCompilation: yes
 
