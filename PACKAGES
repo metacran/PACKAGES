@@ -138,10 +138,12 @@ License: GPL
 NeedsCompilation: no
 
 Package: ACNE
-Version: 0.7.0
-Depends: R (>= 2.15.0), aroma.affymetrix (>= 2.11.0)
-Imports: MASS, R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>=
-        1.27.1), matrixStats (>= 0.8.12), R.filesets (>= 2.3.0)
+Version: 0.8.0
+Depends: R (>= 3.0.0), aroma.affymetrix (>= 2.13.0)
+Imports: MASS, R.methodsS3 (>= 1.7.0), R.oo (>= 1.18.0), R.utils (>=
+        1.34.0), matrixStats (>= 0.14.0), R.filesets (>= 2.7.0),
+        aroma.core (>= 2.13.0)
+Suggests: DNAcopy
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
@@ -3986,10 +3988,11 @@ License_restricts_use: yes
 NeedsCompilation: yes
 
 Package: calmate
-Version: 0.11.0
-Depends: R (>= 2.15.0), R.utils (>= 1.27.1), aroma.core (>= 2.11.0)
-Imports: utils, MASS, R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8),
-        matrixStats (>= 0.8.12), R.filesets (>= 2.3.0)
+Version: 0.12.0
+Depends: R (>= 3.0.3), R.utils (>= 1.34.0), aroma.core (>= 2.13.0)
+Imports: utils, MASS, R.methodsS3 (>= 1.7.0), R.oo (>= 1.18.0),
+        matrixStats (>= 0.14.0), R.filesets (>= 2.7.0)
+Suggests: DNAcopy
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
@@ -6528,7 +6531,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: crrstep
-Version: 2014-07.16
+Version: 2015-2.1
 Depends: cmprsk
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21062,13 +21065,13 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: miceadds
-Version: 1.0
-Depends: R (>= 2.15.0), MASS, mice (>= 2.21), mvtnorm, pan (>= 0.9)
-Imports: sirt (>= 0.42), lme4, MBESS, pls, mitools, bayesm, Rcpp (>=
-        0.11-0), inline, car, foreign
+Version: 1.1-1
+Depends: R (>= 2.15.0), MASS, mice, mvtnorm, pan
+Imports: Rcpp, sirt, TAM, lme4, MBESS, pls, mitools, bayesm, inline,
+        car, foreign
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: Amelia, Zelig, rbenchmark, reshape
-License: GPL (>= 2.0)
+Suggests: Amelia, Zelig, jomo
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: micEcon
