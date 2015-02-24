@@ -31499,8 +31499,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rfUtilities
-Version: 1.0
-Depends: R (>= 3.1.2), randomForest (>= 4.6-10), e1071 (>= 1.6-4)
+Version: 1.0-1
+Depends: R (>= 3.1.2), randomForest (>= 4.6-10)
 License: GPL-3
 NeedsCompilation: no
 
@@ -37360,8 +37360,8 @@ License: GPL
 NeedsCompilation: yes
 
 Package: speaq
-Version: 1.2.0
-Depends: R (>= 3.0.0), MassSpecWavelet
+Version: 1.2.1
+Depends: R (>= 3.1.0), MassSpecWavelet
 Imports: graphics,stats
 License: Apache License 2.0
 NeedsCompilation: no
