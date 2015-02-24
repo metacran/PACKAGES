@@ -4445,7 +4445,7 @@ License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
 Package: cds
-Version: 1.0
+Version: 1.0.1
 Depends: R(>= 3.1.2), parallel
 Imports: MASS, limSolve, clue, colorspace, copula
 License: GPL (>= 2)
@@ -6883,9 +6883,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: daff
-Version: 0.1.1
-Depends: R (>= 3.1.2)
-Imports: V8, jsonlite
+Version: 0.1.2
+Imports: V8 (>= 0.5), jsonlite
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
