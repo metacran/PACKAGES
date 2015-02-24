@@ -1236,12 +1236,12 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: aroma.cn
-Version: 1.5.0
-Depends: R (>= 2.15.0), R.utils (>= 1.27.1), aroma.core (>= 2.11.0)
-Imports: R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.filesets (>=
-        2.3.0), R.cache (>= 0.8.1), matrixStats (>= 0.8.12), PSCBS (>=
-        0.38.4)
-Suggests: aroma.light (>= 1.28.0), DNAcopy (>= 1.30.0), GLAD (>=
+Version: 1.6.0
+Depends: R (>= 3.0.3), R.utils (>= 1.34.0), aroma.core (>= 2.13.0)
+Imports: R.methodsS3 (>= 1.7.0), R.oo (>= 1.18.0), R.filesets (>=
+        2.7.0), R.cache (>= 0.10.0), matrixStats (>= 0.14.0), PSCBS (>=
+        0.44.0)
+Suggests: aroma.light (>= 1.32.0), DNAcopy (>= 1.36.0), GLAD (>=
         1.12.0)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
@@ -3954,7 +3954,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: cairoDevice
-Version: 2.21
+Version: 2.22
 Depends: R (>= 2.12.0)
 Imports: grDevices
 License: GPL
@@ -6284,6 +6284,11 @@ NeedsCompilation: no
 Package: coxrobust
 Version: 1.0
 Depends: R (>= 2.0.0), survival
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: coxsei
+Version: 0.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -16087,7 +16092,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: iBATCGH
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.11.2), msm
 LinkingTo: Rcpp, RcppArmadillo
@@ -17446,7 +17451,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: js
-Version: 0.1
+Version: 0.2
 Imports: V8 (>= 0.5)
 Suggests: knitr
 License: MIT + file LICENSE
@@ -32369,7 +32374,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: RMySQL
-Version: 0.10.1
+Version: 0.10.2
 Depends: R (>= 2.8.0), DBI (>= 0.3.1)
 Imports: methods
 Suggests: testthat
@@ -37121,7 +37126,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: spatialEco
-Version: 0.1-0
+Version: 0.1-1
 Depends: R (>= 3.1.0)
 Imports: RANN, rms, sp (>= 1.0-15), raster (>= 2.3-10), spatstat (>=
         1.35-0), cluster, spdep, SDMTools, RCurl, rgeos
