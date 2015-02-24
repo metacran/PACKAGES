@@ -12257,7 +12257,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: FunChisq
-Version: 2.0.0
+Version: 2.0.1
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: BH, Rcpp, RcppClassic
