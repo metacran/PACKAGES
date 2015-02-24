@@ -1568,9 +1568,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: autopls
-Version: 1.2-7
+Version: 1.3
 Depends: pls
-Suggests: raster, rgdal
+Suggests: rgdal, raster
 License: GPL-2
 NeedsCompilation: no
 
@@ -5583,7 +5583,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: CombinS
-Version: 1.0
+Version: 1.1
 License: GPL-3
 NeedsCompilation: no
 
@@ -15454,8 +15454,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: HistDAWass
-Version: 0.1
-Depends: R (>= 2.10), graphics
+Version: 0.1.1
+Depends: R (>= 3.1.0), graphics
 Imports: methods, FactoMineR, class
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18804,6 +18804,14 @@ Package: lllcrc
 Version: 1.2
 Imports: data.table, combinat, VGAM, plyr
 License: GPL-2
+NeedsCompilation: no
+
+Package: LLSR
+Version: 0.0.1.9000
+Depends: R (>= 2.10)
+Imports: rootSolve
+Suggests: testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: lm.beta
@@ -38887,8 +38895,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SvyNom
-Version: 1.0
-Suggests: survival,rms,survey
+Version: 1.1
+Imports: survival,rms,Hmisc,survey
 License: GPL-2
 NeedsCompilation: no
 
