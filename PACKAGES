@@ -1697,13 +1697,6 @@ Depends: R (>= 1.4.1), bayesm, coda, MASS, stats, mice, survival,
 License: GPL
 NeedsCompilation: no
 
-Package: bamboo
-Version: 0.9.5
-Depends: R (>= 2.10)
-Imports: rJava, jvmr
-License: GPL-3
-NeedsCompilation: no
-
 Package: bamdit
 Version: 1.1-1
 Depends: R (>= 2.9.0), coda (>= 0.13), rjags (>= 2.2.0-4)
@@ -3459,7 +3452,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BoolNet
-Version: 2.1.0
+Version: 2.1.1
 Imports: igraph (>= 0.6), XML
 License: Artistic-2.0
 NeedsCompilation: yes
@@ -11342,7 +11335,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: FGSG
-Version: 1.0
+Version: 1.0.2
 License: GPL-2
 NeedsCompilation: yes
 
@@ -17516,12 +17509,6 @@ Version: 1.1
 License: GPL-3
 NeedsCompilation: no
 
-Package: jvmr
-Version: 2.11.2.1
-Imports: rJava
-License: GPL (>= 2) | BSD_3_clause + file LICENSE
-NeedsCompilation: no
-
 Package: jwutil
 Version: 1.0.2
 Depends: R (>= 3.1.1)
@@ -18575,8 +18562,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: lgcp
-Version: 1.3-8
-Imports: spatstat (>= 1.37-0), sp, raster, tcltk, RandomFields,
+Version: 1.3-9
+Imports: spatstat (>= 1.40-0), sp, raster, tcltk, RandomFields,
         iterators, ncdf, methods, rpanel (>= 1.1-3), fields, maptools,
         Matrix, rgeos
 Suggests: sparr, rgdal, gpclib
@@ -22041,6 +22028,12 @@ Imports: survival
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: momentchi2
+Version: 0.1.0
+Depends: R (>= 3.1.2)
+License: GPL-2 | GPL-3
+NeedsCompilation: no
 
 Package: moments
 Version: 0.14
@@ -34866,7 +34859,7 @@ License: CC BY-NC 4.0
 NeedsCompilation: no
 
 Package: SDD
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15.0)
 Imports: Hmisc,sm,tseries,stats,rpanel,rgl
 License: GPL-2
