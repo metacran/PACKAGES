@@ -1228,10 +1228,10 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: aroma.apd
-Version: 0.5.0
-Depends: R (>= 2.15.0)
-Imports: R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>= 1.29.8),
-        R.huge (>= 0.8.0)
+Version: 0.6.0
+Depends: R (>= 3.0.0)
+Imports: R.methodsS3 (>= 1.7.0), R.oo (>= 1.18.0), R.utils (>= 1.34.0),
+        R.huge (>= 0.9.0)
 Suggests: affxparser
 License: LGPL (>= 2.1)
 NeedsCompilation: no
@@ -1614,6 +1614,12 @@ NeedsCompilation: no
 
 Package: b6e6rl
 Version: 1.1
+License: GPL-2
+NeedsCompilation: no
+
+Package: babar
+Version: 1.0
+Suggests: knitr, R.rsp
 License: GPL-2
 NeedsCompilation: no
 
@@ -37654,6 +37660,11 @@ Depends: survival, nlme
 License: GPL-2
 NeedsCompilation: no
 
+Package: sprex
+Version: 1.0
+License: GNU General Public License
+NeedsCompilation: no
+
 Package: sprint
 Version: 1.0.7
 Depends: R (>= 2.9.2), rlecuyer, ff (>= 2.1-1), randomForest
@@ -40230,10 +40241,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tRakt
-Version: 0.7.4
+Version: 0.9.0
 Depends: R (>= 3.0.2)
-Imports: httr, jsonlite, lubridate, plyr, stringr
-Suggests: knitr, dplyr, ggplot2
+Imports: httr (>= 0.6.1), jsonlite (>= 0.9.14), lubridate, plyr (>=
+        1.8.1), stringr
+Suggests: knitr, dplyr (>= 0.4.1), ggplot2
 License: MIT + file LICENSE
 NeedsCompilation: no
 
