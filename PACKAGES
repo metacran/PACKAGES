@@ -22902,7 +22902,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MuMIn
-Version: 1.12.1
+Version: 1.13.4
 Depends: R (>= 3.0.0)
 Imports: stats
 Suggests: stats4, nlme, mgcv (>= 1.7.5), lme4 (>= 1.1.0), gamm4, MASS,
