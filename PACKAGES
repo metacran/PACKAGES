@@ -22731,8 +22731,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multicool
-Version: 0.1-2
-License: GPL (>= 2)
+Version: 0.1-5
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL-2
 NeedsCompilation: yes
 
 Package: multiDimBio
@@ -27376,7 +27378,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: polyCub
-Version: 0.5-1
+Version: 0.5-2
 Depends: R (>= 2.15.0), methods, sp
 Imports: grDevices, graphics, stats, spatstat
 Suggests: lattice, testthat, mvtnorm, statmod, rgeos, gpclib
@@ -29184,8 +29186,8 @@ License: CC BY-NC-SA 3.0
 NeedsCompilation: no
 
 Package: R2SWF
-Version: 0.8-2
-Depends: sysfonts
+Version: 0.9
+Imports: sysfonts
 Suggests: XML, Cairo
 License: GPL-2
 NeedsCompilation: yes
