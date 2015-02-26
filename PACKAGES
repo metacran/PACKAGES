@@ -752,8 +752,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: amen
-Version: 0.999
-Depends: R (>= 2.10)
+Version: 1.0
+Depends: R (>= 3.1.2)
 Suggests: coda
 License: GPL-3
 NeedsCompilation: no
@@ -14704,7 +14704,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gte
-Version: 1.2-1
+Version: 1.2-2
 Depends: survival
 Suggests: interval
 License: GPL-2
@@ -21801,6 +21801,12 @@ Version: 1.6-2
 Depends: R (>= 2.10.0), methods, magic, partitions, emulator, Oarray
         (>= 1.4-5)
 License: GPL-2
+NeedsCompilation: no
+
+Package: mma
+Version: 1.0-0
+Depends: R (>= 2.14.1), gbm
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mmand
