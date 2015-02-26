@@ -8083,7 +8083,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: diseasemapping
-Version: 1.1.5
+Version: 1.1.7
 Depends: sp, R (>= 3.0)
 Imports: methods
 Suggests: mgcv, spdep, geostatsp, mapmisc (>= 1.0)
@@ -8632,6 +8632,12 @@ Suggests: Biobase, dichromat (>= 1.2-3), foreach, forecast, iterators,
         knitr, RColorBrewer, RUnit (>= 0.4.25), tikzDevice, waveslim
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: dplRCon
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL
+NeedsCompilation: no
 
 Package: dplyr
 Version: 0.4.1
@@ -12014,7 +12020,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: frailtypack
-Version: 2.7.2
+Version: 2.7.4
 Depends: R (>= 2.10), survival, boot, MASS, survC1
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -15193,7 +15199,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hergm
-Version: 2.1-1
+Version: 2.2-0
 Depends: ergm, latentnet, network, parallel, sna
 License: GPL-3
 NeedsCompilation: yes
@@ -28157,7 +28163,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: PRROC
-Version: 1.0
+Version: 1.1
+Suggests: testthat, ggplot2
 License: GPL-3
 NeedsCompilation: no
 
@@ -38666,6 +38673,13 @@ Version: 1.0-2
 Depends: survival
 License: GPL-2
 NeedsCompilation: yes
+
+Package: SurvCorr
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: survival, fields
+License: GPL
+NeedsCompilation: no
 
 Package: surveillance
 Version: 1.8-3
