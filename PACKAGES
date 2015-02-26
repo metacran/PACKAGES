@@ -4544,6 +4544,12 @@ Depends: R (>= 2.1.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: CEoptim
+Version: 1.0
+Depends: MASS, msm, stats
+License: GPL (>= 2.0)
+NeedsCompilation: no
+
 Package: CePa
 Version: 0.5
 Depends: R (>= 2.10.0), igraph (>= 0.6), stats, snow
@@ -5376,9 +5382,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CNVassoc
-Version: 2.0.1
+Version: 2.1
 Depends: R (>= 2.15.0), CNVassocData, mixdist, mclust, survival
-Suggests: CGHcall, CGHregions, CNVtools, xtable, MASS
+Suggests: CGHcall, CGHregions, CNVtools, xtable, MASS, Biobase, CGHbase
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -10358,7 +10364,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: exact2x2
-Version: 1.4.0
+Version: 1.4.1
 Depends: stats, exactci, ssanv
 License: GPL-3
 NeedsCompilation: no
@@ -11832,7 +11838,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: forecast
-Version: 5.8
+Version: 5.9
 Depends: R (>= 3.0.2), stats, graphics, zoo, timeDate
 Imports: tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,
         parallel
@@ -12408,7 +12414,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FuzzyNumbers
-Version: 0.3-5
+Version: 0.4-1
 Depends: R (>= 3.0.0), methods, grDevices, graphics, stats
 Suggests: knitr
 License: LGPL (>= 3)
@@ -14973,7 +14979,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: HardyWeinberg
-Version: 1.5.4
+Version: 1.5.5
 Depends: R (>= 1.8.0), mice
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23908,7 +23914,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: nlstools
-Version: 1.0-0
+Version: 1.0-1
 Depends: stats
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -25064,7 +25070,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ore
-Version: 1.0.6
+Version: 1.1.0
 Suggests: crayon, rex, testthat
 License: BSD_3_clause + file LICENCE
 NeedsCompilation: yes
@@ -26106,10 +26112,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PDQutils
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0.2)
 Imports: orthopolynom, moments
-Suggests: testthat, knitr
+Suggests: ggplot2, reshape2, testthat, knitr
 License: LGPL-3
 NeedsCompilation: no
 
@@ -30160,8 +30166,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.ROC
-Version: 1.0-17
-Depends: R (>= 2.10), Rcmdr (>= 1.7.0), pROC, ROCR, ResourceSelection
+Version: 1.0-18
+Depends: R (>= 2.10), Rcmdr (>= 1.7.0), ROCR, pROC, ResourceSelection
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -30324,7 +30330,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.4.600.4.0
+Version: 0.4.650.1.1
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
