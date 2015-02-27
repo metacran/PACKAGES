@@ -2923,7 +2923,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: bio3d
-Version: 2.1-3
+Version: 2.2-1
 Depends: R (>= 3.1.0)
 Imports: parallel, grid
 Suggests: XML, RCurl, lattice, ncdf, igraph, bigmemory, knitr, testthat
@@ -8794,7 +8794,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DSsim
-Version: 1.0.2
+Version: 1.0.3
 Depends: shapefiles, splancs, mrds, mgcv, methods
 Suggests: testthat, parallel
 License: GPL (>= 2)
@@ -13341,7 +13341,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geostatsp
-Version: 1.1.9
+Version: 1.2.1
 Depends: Matrix, raster, sp, R (>= 3.0.0)
 Imports: abind, numDeriv, pracma, methods
 Suggests: geoR, RandomFields, rgdal, parallel, mapmisc, ellipse
@@ -17249,6 +17249,13 @@ Depends: R (>= 2.0.0), methods, stats, Hmisc
 License: GPL-2
 NeedsCompilation: no
 
+Package: itsadug
+Version: 0.8
+Depends: R (>= 2.10), mgcv (>= 1.8)
+Suggests: knitr, xtable, sp
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: itsmr
 Version: 1.5
 License: Unlimited
@@ -19644,7 +19651,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: mads
-Version: 0.1.1
+Version: 0.1.2
 Depends: mrds
 Suggests: testthat
 License: GPL (>= 2)
@@ -29896,15 +29903,6 @@ Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: Rcell
-Version: 1.2-6
-Depends: R (>= 2.15.0), proto, plyr (>= 1.8), reshape, ggplot2 (>=
-        0.9.3), EBImage (>= 4.0.0)
-Imports: stats, digest, grid
-Suggests: Hmisc, hopach, chron, R.matlab, splancs
-License: GPL-2
-NeedsCompilation: no
-
 Package: Rcgmin
 Version: 2013-2.21
 Imports: numDeriv
@@ -37298,12 +37296,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: spatstat
-Version: 1.40-0
+Version: 1.41-1
 Depends: R (>= 3.1.1), stats, graphics, grDevices, utils
-Imports: mgcv, deldir (>= 0.0-21), abind, tensor, polyclip (>= 1.3-0),
-        goftest
+Imports: mgcv, Matrix, deldir (>= 0.0-21), abind, tensor, polyclip (>=
+        1.3-0), goftest
 Suggests: sm, maptools, gsl, locfit, spatial, rpanel, tkrplot,
-        scatterplot3d, RandomFields (>= 3.0.0), Matrix
+        RandomFields (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
