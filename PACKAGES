@@ -21207,8 +21207,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: MicSim
-Version: 1.0.6
-Depends: R (>= 3.0.1), chron, snowfall, rlecuyer
+Version: 1.0.7
+Depends: R (>= 3.0.1), chron, snowfall
 License: GPL-2
 NeedsCompilation: no
 
@@ -24785,7 +24785,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: openNLP
-Version: 0.2-3
+Version: 0.2-4
 Imports: NLP (>= 0.1-2), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
 Suggests: openNLPmodels.en
 License: GPL-3
