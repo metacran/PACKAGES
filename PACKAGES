@@ -24154,7 +24154,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: nortest
-Version: 1.0-2
+Version: 1.0-3
 License: GPL (>= 2)
 NeedsCompilation: no
 
