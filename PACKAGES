@@ -18369,7 +18369,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lcmm
-Version: 1.7.1
+Version: 1.7.2
 Depends: R (>= 2.14.0), survival (>= 2.37-2)
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -32672,7 +32672,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: RObsDat
-Version: 14.12
+Version: 15.02
 Depends: R (>= 2.11.0), methods, zoo
 Imports: spacetime, xts, DBI, vwr, e1071, sp
 Suggests: RSQLite, testthat, RColorBrewer, maptools, SSOAP, XML,
