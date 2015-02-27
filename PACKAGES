@@ -13118,6 +13118,12 @@ LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: GenForImp
+Version: 1.0
+Depends: mvtnorm, sn
+License: GPL-3
+NeedsCompilation: no
+
 Package: GenKern
 Version: 1.2-60
 Depends: KernSmooth, utils
