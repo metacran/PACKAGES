@@ -30398,11 +30398,11 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RcppEigen
-Version: 0.3.2.3.0
+Version: 0.3.2.4.0
 Depends: R (>= 2.15.1)
 Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
-Suggests: inline, RUnit
+Suggests: inline, RUnit, pkgKitten
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
@@ -41181,10 +41181,10 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: userfriendlyscience
-Version: 0.1-2
+Version: 0.2-0
 Depends: ggplot2
-Imports: plyr, psych, pwr, fBasics, e1071, ltm, MBESS, foreign, knitr,
-        xtable, GGally, grid, lavaan
+Imports: plyr, psych, pwr, fBasics, ltm, MBESS, SuppDists, GPArotation,
+        MASS, mosaic, foreign, car, knitr, xtable, GGally, grid, lavaan
 Suggests: XLConnect
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -42264,13 +42264,6 @@ Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: x.ent
-Version: 1.0.6
-Depends: R (>= 3.0.0),opencpu,rJava
-Imports: stringr,xtable,jsonlite,venneuler,ggplot2
-License: GPL-3
-NeedsCompilation: no
 
 Package: xergm
 Version: 1.4.1
