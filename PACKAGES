@@ -17462,6 +17462,11 @@ Depends: R (>= 2.13.0), nlme, MASS, boot, survival, lattice, statmod,
 License: Unlimited
 NeedsCompilation: no
 
+Package: joint.Cox
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: jointDiag
 Version: 0.2
 License: GPL (>= 2)
@@ -39937,9 +39942,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: timma
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 2.10)
-Imports: Rcpp (>= 0.11.2), QCA (>= 1.1-3)
+Imports: Rcpp (>= 0.11.2), QCA (>= 1.1-3), reshape2
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: R.rsp
 License: Artistic License 2.0
