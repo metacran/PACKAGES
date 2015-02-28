@@ -2319,7 +2319,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.15
+Version: 2.16
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -19760,7 +19760,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAMS
-Version: 0.3
+Version: 0.4
 Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
@@ -28535,9 +28535,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pwr
-Version: 1.1.1
-Depends: R (>= 1.8.0)
-License: GPL (>= 2)
+Version: 1.1-2
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: PwrGSD
@@ -32899,8 +32898,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: R.oo
-Version: 1.18.0
-Depends: R (>= 2.4.0), R.methodsS3 (>= 1.6.1)
+Version: 1.19.0
+Depends: R (>= 2.4.0), R.methodsS3 (>= 1.7.0)
 Imports: methods, utils
 Suggests: tools
 License: LGPL (>= 2.1)
@@ -35784,8 +35783,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sidier
-Version: 3.0
-Depends: R (>= 2.10.1)
+Version: 3.0.1
+Depends: R (>= 3.1.2)
 Imports: ape, network, igraph, gridBase, grid, ggmap, ggplot2
 License: GPL-2
 NeedsCompilation: no
