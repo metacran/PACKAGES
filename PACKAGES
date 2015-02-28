@@ -10594,7 +10594,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: ExtremeBounds
-Version: 0.1.4.2
+Version: 0.1.5
 Imports: Formula
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -11378,7 +11378,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fields
-Version: 7.1
+Version: 8.2-1
 Depends: R (>= 3.0), methods, spam, maps
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -16087,7 +16087,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.1.2
+Version: 1.2
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
 Imports: MASS, geometry, pdist
 LinkingTo: Rcpp
@@ -33650,7 +33650,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rSPACE
-Version: 1.0.4
+Version: 1.1.0
 Imports: raster, RMark, ggplot2, tcltk2, sp, grid, plyr, tcltk
 License: GPL (>= 2)
 NeedsCompilation: yes
