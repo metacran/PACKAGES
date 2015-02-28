@@ -18117,6 +18117,13 @@ Imports: rgdal, raster, rgeos, sp, geosphere
 License: CC0
 NeedsCompilation: no
 
+Package: laketemps
+Version: 0.5.1
+Depends: R (>= 3.0),
+Imports: dplyr, reshape2
+License: CC0
+NeedsCompilation: no
+
 Package: Lambda4
 Version: 3.0
 Suggests: mice, GPArotation, testthat
@@ -42069,6 +42076,12 @@ NeedsCompilation: no
 Package: witness
 Version: 1.2
 License: GPL-2
+NeedsCompilation: no
+
+Package: wkb
+Version: 0.1-0
+Imports: sp
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: wle
