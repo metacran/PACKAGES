@@ -3000,13 +3000,6 @@ Suggests: ade4, foreign, Hmisc, mgcv, gam
 License: GPL-2
 NeedsCompilation: no
 
-Package: biomonCore
-Version: 1.3.50
-Depends: R (>= 2.15.1)
-Imports: methods, analyz
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: BIOM.utils
 Version: 0.9
 Depends: R (>= 3.0), utils
