@@ -2865,7 +2865,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BinNonNor
-Version: 1.1
+Version: 1.2
 Depends: BB, corpcor, mvtnorm, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -42367,11 +42367,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: XLConnect
-Version: 0.2-10
+Version: 0.2-11
 Depends: R (>= 2.10.0), XLConnectJars (== 0.2-9)
 Imports: methods, rJava
-Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), fImport, forecast, zoo,
-        scales
+Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), zoo
 License: GPL-3
 NeedsCompilation: no
 
