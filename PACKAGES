@@ -5799,6 +5799,11 @@ Depends: R (>= 2.10.1)
 License: GPL-2
 NeedsCompilation: no
 
+Package: Conake
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ConConPiWiFun
 Version: 0.4.4
 Depends: methods, graphics, Rcpp (>= 0.10.3)
@@ -6395,9 +6400,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cqrReg
-Version: 1.0
-Depends: Matrix,Rmosek
-Imports: Rcpp (>= 0.10.0)
+Version: 1.1
+Depends: Rcpp (>= 0.10.0),quantreg,R (>= 2.6)
 LinkingTo: Rcpp,RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -8681,7 +8685,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: drat
-Version: 0.0.1
+Version: 0.0.2
+Suggests: git2r
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9635,6 +9640,13 @@ Suggests: caret, cmprsk, glmnet, Hmisc, MASS, party, pamr,
         randomForest, RColorBrewer, survival, testthat (>= 0.8.1)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: emIRT
+Version: 0.0.5
+Depends: R (>= 2.10), pscl (>= 1.0.0), Rcpp (>= 0.10.6)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: EMJumpDiffusion
 Version: 1.4.1
@@ -11446,6 +11458,13 @@ Imports: ggplot2, reshape2, scales, RCurl
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FinCovRegularization
+Version: 1.0.0
+Depends: R (>= 2.10)
+Imports: quadprog
+License: GPL-2
+NeedsCompilation: no
+
 Package: FindAllRoots
 Version: 1.0
 License: GPL (>= 2)
@@ -13004,8 +13023,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gendata
-Version: 1.0
-Suggests: psych
+Version: 1.1
 License: GPL-3
 NeedsCompilation: no
 
@@ -15014,6 +15032,15 @@ Version: 0.1.1
 Depends: Rgraphviz (>= 2.6.0), grid (>= 3.0.2)
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: haven
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.4)
+LinkingTo: Rcpp, BH
+Suggests: dplyr, testthat, knitr
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: hawkes
 Version: 0.0-4
@@ -27327,8 +27354,14 @@ Depends: R (>= 3.1.1)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: PoisBinOrd
+Package: PoisBinNonNor
 Version: 1.0
+Depends: BB, corpcor, Matrix, mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: PoisBinOrd
+Version: 1.1
 Depends: corpcor, GenOrd, Matrix, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33992,10 +34025,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R.utils
-Version: 1.34.0
+Version: 2.0.0
 Depends: R (>= 2.5.0), R.oo (>= 1.18.0)
-Imports: utils, methods, R.methodsS3 (>= 1.6.1)
-Suggests: digest (>= 0.6.4)
+Imports: utils, methods, R.methodsS3 (>= 1.7.0)
+Suggests: digest (>= 0.6.8)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
