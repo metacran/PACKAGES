@@ -3501,6 +3501,14 @@ Suggests: testthat
 License: LGPL-2.1
 NeedsCompilation: no
 
+Package: bootnet
+Version: 0.1
+Depends: ggplot2
+Imports: IsingFit, qgraph, dplyr, gtools, corpcor
+Suggests: psych
+License: GPL-2
+NeedsCompilation: no
+
 Package: BootPR
 Version: 0.60
 License: GPL-2
@@ -13486,6 +13494,15 @@ Version: 1.0-8
 Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot
         (>= 0.0-23)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ggenealogy
+Version: 0.1.0
+Depends: R (>= 3.0.2)
+Imports: ggplot2 (>= 1.0.0), igraph (>= 0.7.1), plyr (>= 1.8.1),
+        reshape2 (>= 1.4)
+Suggests: stringr (>= 0.6.2), knitr, roxygen2 (>= 3.0.0)
+License: GPL
 NeedsCompilation: no
 
 Package: ggHorizon
@@ -38512,7 +38529,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: strum
-Version: 0.5.1
+Version: 0.6
 Depends: R (>= 3.0.0), methods, pedigree, Rgraphviz(>= 2.6.0)
 Imports: Matrix, MASS, Rcpp, graph
 LinkingTo: Rcpp, RcppArmadillo
