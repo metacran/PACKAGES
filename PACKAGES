@@ -32704,7 +32704,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: RobPer
-Version: 1.2
+Version: 1.2.1
 Depends: robustbase, quantreg, splines, BB, rgenoud
 License: GPL-2 | GPL-3
 NeedsCompilation: no
