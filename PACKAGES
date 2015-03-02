@@ -1858,8 +1858,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayescount
-Version: 0.9.9-2
-Depends: R (>= 2.6), runjags (>= 0.9.5), coda, lattice, stats, utils
+Version: 0.9.99-4
+Depends: R (>= 3.0)
+Imports: runjags, rjags, coda, stats, utils
 License: GPL
 NeedsCompilation: yes
 
@@ -17111,9 +17112,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: IsingSampler
-Version: 0.1.1
-Depends: Rcpp (>= 0.10.4)
-Imports: plyr
+Version: 0.2
+Depends: Rcpp (>= 0.10.4), R (>= 3.0.0)
+Imports: plyr, magrittr, nnet
 LinkingTo: Rcpp
 License: GPL-2
 NeedsCompilation: yes
@@ -17561,13 +17562,6 @@ NeedsCompilation: no
 
 Package: Julia
 Version: 1.1
-License: GPL-3
-NeedsCompilation: no
-
-Package: jwutil
-Version: 1.0.2
-Depends: R (>= 3.1.1)
-Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -22645,9 +22639,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: msSurv
-Version: 1.1-2
-Depends: R (>= 2.0), methods, class, graph, lattice
-Suggests: KMsurv
+Version: 1.2-1
+Depends: R (>= 2.0), graph
+Imports: methods, class, lattice
+Suggests: KMsurv, Rgraphviz
 License: GPL-2
 NeedsCompilation: no
 
