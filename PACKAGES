@@ -27326,6 +27326,12 @@ Depends: dfcrm, nnet
 License: GPL-2
 NeedsCompilation: no
 
+Package: PogromcyDanych
+Version: 1.5
+Depends: R (>= 3.0), dplyr, SmarterPoland
+License: GPL-3
+NeedsCompilation: no
+
 Package: poibin
 Version: 1.2
 License: GPL-2
