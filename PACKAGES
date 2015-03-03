@@ -27930,6 +27930,13 @@ Version: 0.8-8
 License: AGPL-3
 NeedsCompilation: no
 
+Package: PRISMA
+Version: 0.2-3
+Depends: R (>= 2.10), Matrix, gplots, ggplot2
+Suggests: tm (>= 0.6)
+License: GPL (>= 2.0)
+NeedsCompilation: no
+
 Package: PrivateLR
 Version: 1.2-21
 License: GPL (>= 2)
@@ -30006,9 +30013,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.EACSPIR
-Version: 0.2-1
+Version: 0.2-2
 Depends: R2HTML, abind, ez, nortest, reshape
-Imports: Rcmdr (>= 2.0-0)
+Imports: Rcmdr (>= 2.1-6), RcmdrMisc
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33566,6 +33573,13 @@ LinkingTo: Rcpp
 Suggests: scatterplot3d
 License: LGPL (>= 2) | file LICENSE
 NeedsCompilation: yes
+
+Package: rsnps
+Version: 0.1.6
+Imports: plyr, stringr, httr, RCurl, XML, jsonlite
+Suggests: roxygen2, testthat, rjson, knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: RSNPset
 Version: 0.4
@@ -42209,6 +42223,13 @@ Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: x.ent
+Version: 1.1.2
+Depends: R (>= 3.0.0),opencpu,rJava
+Imports: stringr,xtable,jsonlite,venneuler,ggplot2,statmod
+License: GPL-3
+NeedsCompilation: no
 
 Package: xergm
 Version: 1.4.1
