@@ -2037,8 +2037,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: BayesSummaryStatLM
-Version: 1.0
-Depends: mvnfast, ff
+Version: 1.0-1
+Depends: R (>= 3.1.1), mvnfast, ff
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -4052,8 +4052,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: capm
-Version: 0.5
-Depends: R (>= 3.0.2)
+Version: 0.6.0
+Depends: R (>= 3.1.2)
 Imports: deSolve, FME, survey, ggplot2, reshape2, shiny, grid, rgdal,
         maptools, sp
 License: GPL (>= 2)
@@ -15724,6 +15724,11 @@ Depends: stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: hornpa
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: hot.deck
 Version: 1.0
 Depends: R (>= 3.0), mice
@@ -17400,7 +17405,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: JAGUAR
-Version: 1.1
+Version: 2.0
 Depends: R (>= 3.0.0), Rcpp, plyr, lme4, doParallel
 LinkingTo: Rcpp
 License: GPL-2
@@ -18597,7 +18602,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lfe
-Version: 2.0-1570
+Version: 2.1-1620
 Depends: R (>= 2.15.2), Matrix (>= 1.1-2)
 Imports: Formula, xtable, compiler
 Suggests: knitr, stargazer, Rcgmin, igraph
@@ -20633,7 +20638,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mediation
-Version: 4.4.3
+Version: 4.4.4
 Depends: R (>= 2.15.1), MASS, Matrix, mvtnorm, sandwich
 Imports: lpSolve, Hmisc
 Suggests: mgcv, quantreg, VGAM, SuppDists, lme4 (>= 1.0), survival,
@@ -23419,7 +23424,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NbClust
-Version: 2.0.3
+Version: 2.0.4
 Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
@@ -35762,7 +35767,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: shinythemes
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 3.0.0)
 Imports: shiny (>= 0.11)
 License: GPL-3 | file LICENSE
