@@ -2924,7 +2924,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: bio3d
-Version: 2.2-1
+Version: 2.2-2
 Depends: R (>= 3.1.0)
 Imports: parallel, grid
 Suggests: XML, RCurl, lattice, ncdf, igraph, bigmemory, knitr, testthat
@@ -15045,7 +15045,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: haven
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.4)
 LinkingTo: Rcpp, BH
@@ -27972,6 +27972,13 @@ Depends: R (>= 2.10), methods, sp, gstat, GenKern, rgdal (>= 0.7-4),
         fields
 Suggests: foreign, tcltk, geoR, maptools
 License: CeCILL
+NeedsCompilation: no
+
+Package: pRF
+Version: 1.0
+Imports: dplyr, multtest, ggplot2, permute, randomForest, reshape2,
+        magrittr
+License: GPL-3
 NeedsCompilation: no
 
 Package: prim
