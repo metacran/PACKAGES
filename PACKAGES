@@ -15856,9 +15856,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: htmlTable
-Version: 1.1
-Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), Hmisc, methods
-Suggests: testthat, XML, xtable, reshape
+Version: 1.2
+Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), methods
+Suggests: testthat, XML, xtable, ztable, Hmisc, reshape
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -27866,9 +27866,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: PResiduals
-Version: 0.2-0
-Imports: Formula, rms, sandwich, actuar
-Suggests: MASS, survival
+Version: 0.2-1
+Imports: MASS, Formula, rms, sandwich, actuar
+Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
