@@ -3102,9 +3102,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BiSEp
-Version: 2.0
-Depends: R (>= 3.0.1), mclust (>= 4.2.0), GOSemSim (>= 1.20.0), GO.db
-        (>= 2.10.1), org.Hs.eg.db (>= 2.10.1)
+Version: 2.0.1
+Depends: R (>= 3.0.1), mclust (>= 4.2.0), GOSemSim (>= 1.20.0)
+Imports: AnnotationDbi
+Suggests: GO.db(>= 2.10.1), org.Hs.eg.db (>= 2.10.1)
 License: Artistic-2.0
 NeedsCompilation: no
 
@@ -3406,6 +3407,12 @@ Package: boa
 Version: 1.1.7-2
 Depends: R (>= 1.7)
 License: GPL-2
+NeedsCompilation: no
+
+Package: BOG
+Version: 2.0
+Depends: R(>= 3.1.2), hash, DIME
+License: GPL-3
 NeedsCompilation: no
 
 Package: boilerpipeR
@@ -5569,9 +5576,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: colorspace
-Version: 1.2-4
+Version: 1.2-5
 Depends: R (>= 2.13.0), methods
-Suggests: KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, dichromat
+Imports: graphics, tcltk
+Suggests: KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -35874,7 +35882,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: simMSM
-Version: 1.1.4
+Version: 1.1.41
 Depends: survival, mvna
 License: GPL (>= 2)
 NeedsCompilation: no
