@@ -18004,9 +18004,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: kyotil
-Version: 2014.10-5
+Version: 2015.2-27
 Depends: R (>= 3.0.0)
-Suggests: RUnit, knitr, lme4, nlme, xtable, MASS, MethComp
+Suggests: RUnit, knitr, lme4, nlme, xtable, MASS, splines, survival
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -23394,9 +23394,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: nCal
-Version: 14.11-8
+Version: 2015.3-3
 Depends: R (>= 3.0.0), drc, gdata, gWidgets, kyotil
-Suggests: knitr, RUnit, rjags, gWidgetstcltk, nlme, coda
+Suggests: knitr, RUnit, rjags, gWidgetstcltk, nlme
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26932,7 +26932,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: planor
-Version: 0.2-0
+Version: 0.2-3
 Depends: methods, conf.design
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -30292,7 +30292,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Rcolombos
-Version: 1.5.0
+Version: 1.5.2
 Depends: httr
 License: GPL-3
 NeedsCompilation: no
