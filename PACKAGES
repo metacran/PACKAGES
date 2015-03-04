@@ -5085,6 +5085,14 @@ Imports: igraph, plyr, reshape2, Rsolnp
 License: GPL-2
 NeedsCompilation: no
 
+Package: clifro
+Version: 2.4-0
+Imports: methods, lubridate, XML, selectr, RCurl, utils, ggplot2,
+        scales, RColorBrewer, reshape2
+Suggests: knitr, ggmap
+License: GPL-2
+NeedsCompilation: no
+
 Package: ClimClass
 Version: 1.0
 Depends: R(>= 2.10.0),geosphere,ggplot2,reshape2
