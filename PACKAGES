@@ -13975,10 +13975,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Gmisc
-Version: 1.0
-Depends: htmlTable
-Imports: grid, lattice, sp, Hmisc, forestplot
-Suggests: testthat, knitr
+Version: 1.1
+Depends: Rcpp(>= 0.11.4), htmlTable (>= 1.1)
+Imports: grid, lattice, Hmisc, forestplot, abind, methods, knitr,
+        magrittr
+LinkingTo: Rcpp
+Suggests: testthat
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -24566,7 +24568,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: OceanView
-Version: 1.0.2
+Version: 1.0.3
 Depends: plot3D, plot3Drgl, R (>= 2.10)
 Imports: rgl, shape
 License: GPL (>= 3.0)
@@ -38219,7 +38221,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: stepR
-Version: 1.0
+Version: 1.0-1
 Depends: R (>= 2.15.3), stats
 License: GPL-3
 NeedsCompilation: yes
