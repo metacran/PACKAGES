@@ -4060,7 +4060,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: capm
-Version: 0.6.0
+Version: 0.7.0
 Depends: R (>= 3.1.2)
 Imports: deSolve, FME, survey, ggplot2, reshape2, shiny, grid, rgdal,
         maptools, sp
@@ -17965,7 +17965,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: krm
-Version: 2014.12-1
+Version: 2015.3-4
 Depends: R (>= 3.0.0), kyotil
 Suggests: RUnit, MASS
 License: GPL-2
@@ -21563,7 +21563,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MixGHD
-Version: 1.3
+Version: 1.4
 Depends: MASS, mclust, R (>= 3.1.1)
 Imports: Bessel, stats, mvtnorm, ghyp, numDeriv
 License: GPL (>= 2)
@@ -22140,7 +22140,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: monreg
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 2.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23863,7 +23863,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
-Version: 2.5
+Version: 2.6
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29477,9 +29477,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomForestSRC
-Version: 1.6.0
+Version: 1.6.1
 Depends: R (>= 3.1.0), parallel
-Suggests: glmnet, XML, survival, pec, Hmisc, mlbench
+Suggests: glmnet, XML, survival, pec, prodlim, Hmisc, mlbench
 License: GPL (>= 3)
 NeedsCompilation: yes
 
