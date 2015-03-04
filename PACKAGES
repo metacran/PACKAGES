@@ -4651,10 +4651,10 @@ License: LGPL-2.1
 NeedsCompilation: no
 
 Package: ChainLadder
-Version: 0.1.9
-Depends: systemfit
-Imports: Matrix, actuar, Hmisc, methods, stats, statmod, reshape2,
-        MASS, lattice, grid, tweedie, utils
+Version: 0.2.0
+Depends: systemfit, statmod
+Imports: Matrix, actuar, Hmisc, methods, stats, reshape2, MASS,
+        lattice, grid, tweedie, utils
 Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27973,6 +27973,12 @@ Package: prob
 Version: 0.9-5
 Depends: combinat, fAsianOptions, hypergeo, VGAM
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: probemod
+Version: 0.1
+Depends: R (>= 3.1.2)
+License: GPL-3
 NeedsCompilation: no
 
 Package: probFDA
