@@ -3511,8 +3511,8 @@ NeedsCompilation: no
 
 Package: bootnet
 Version: 0.1
-Depends: ggplot2
-Imports: IsingFit, qgraph, dplyr, gtools, corpcor
+Depends: ggplot2, R (>= 3.0.0)
+Imports: IsingFit, qgraph, dplyr (>= 0.3.0.2), gtools, corpcor
 Suggests: psych
 License: GPL-2
 NeedsCompilation: no
@@ -8936,7 +8936,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dygraphs
-Version: 0.4.1
+Version: 0.4.2
 Depends: R (>= 3.0)
 Imports: magrittr, htmlwidgets (>= 0.3.2), zoo (>= 1.7-10), xts (>=
         0.9-7)
@@ -23721,8 +23721,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Newdistns
-Version: 1.0
-Depends: R (>= 2.15.0)
+Version: 2.0
+Depends: AdequacyModel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29187,12 +29187,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R2MLwiN
-Version: 0.2-1
-Depends: R (>= 2.14.0), methods, lattice, coda (>= 0.16-1), foreign (>=
-        0.8-46), rbugs (>= 0.5-7)
-Suggests: lme4 (>= 0.999999-0)
+Version: 0.8-0
+Depends: R (>= 2.15.0), stats, stats4, methods, lattice, coda (>=
+        0.16-1)
+Imports: Matrix, foreign (>= 0.8-46), rbugs (>= 0.5-7), digest (>=
+        0.6.5)
+Suggests: doBy, car, lmtest
+Enhances: reshape
 License: GPL (>= 2)
-OS_type: windows
 NeedsCompilation: no
 
 Package: R2OpenBUGS
@@ -35878,7 +35880,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: simctest
-Version: 2.4
+Version: 2.4.1
 Depends: R (>= 2.2.0), methods, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
