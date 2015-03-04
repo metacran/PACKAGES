@@ -12207,8 +12207,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fscaret
-Version: 0.9
-Depends: R (>= 3.0.0), caret, gsubfn, hmeasure, utils, parallel
+Version: 0.9.3
+Depends: R (>= 3.1.0), caret, gsubfn, hmeasure, utils, parallel
 Suggests: ada, arm, Boruta, bst, C50, car, caTools, class, Cubist,
         e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree,
         extraTrees, fastICA, foba, gam, gbm (>= 2.1), glmnet (>= 1.8),
@@ -12308,7 +12308,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: FunChisq
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: BH, Rcpp, RcppClassic
@@ -13237,6 +13237,13 @@ Imports: stats, coda, sp
 Suggests: geoR, geoRglm
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: geocodeHERE
+Version: 0.1.2
+Depends: R (>= 3.0.0)
+Imports: httr
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: geoCount
 Version: 1.150120
@@ -14785,6 +14792,12 @@ LinkingTo: Rcpp, BH
 Suggests: adaptMCMC (>= 1.1)
 License: GPL-3
 NeedsCompilation: yes
+
+Package: gvcm.cat
+Version: 1.8
+Depends: R (>= 2.10.0), Matrix, MASS, splines
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: gvlma
 Version: 1.0.0.2
@@ -23400,6 +23413,15 @@ Version: 2015.3-3
 Depends: R (>= 3.0.0), drc, gdata, gWidgets, kyotil
 Suggests: knitr, RUnit, rjags, gWidgetstcltk, nlme
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ncappc
+Version: 0.1
+Depends: R (>= 3.0.2)
+Imports: ggplot2, grid, gridExtra, scales, gtable,
+        PerformanceAnalytics, lattice, knitr, xtable, reshape2
+Suggests: testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: NCBI2R
@@ -32602,7 +32624,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rNOMADS
-Version: 2.1.2
+Version: 2.1.3
 Depends: R (>= 3.1.1), rvest (>= 0.1.0)
 Imports: scrapeR (>= 0.1.6), stringr (>= 0.6.2), fields (>= 6.7.6),
         GEOmap (>= 2.1), MBA, RCurl (>= 1.95-4.1), XML (>= 3.98.1.1)
