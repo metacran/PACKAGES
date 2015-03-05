@@ -2821,7 +2821,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: binda
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.15.1), entropy (>= 1.2.0)
 Suggests: crossval
 License: GPL (>= 3)
@@ -6987,8 +6987,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DAMOCLES
-Version: 1.0
-Depends: R (>= 2.14.2), geiger, caper, ape, deSolve, matrixStats
+Version: 1.1
+Depends: R (>= 3.0), geiger, caper, ape, deSolve, matrixStats
+Imports: expm, picante
 License: GPL-2
 NeedsCompilation: no
 
@@ -29227,7 +29228,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R2jags
-Version: 0.05-01
+Version: 0.05-03
 Depends: R (>= 2.14.0), rjags (>= 3-3)
 Imports: abind, coda (>= 0.13), methods, R2WinBUGS, parallel
 License: GPL (>= 2)
