@@ -1792,7 +1792,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: BAT
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.0), vegan, spatstat, nls2
 License: GPL-3
 NeedsCompilation: no
@@ -18614,7 +18614,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lfe
-Version: 2.1-1620
+Version: 2.1-1629
 Depends: R (>= 2.15.2), Matrix (>= 1.1-2)
 Imports: Formula, xtable, compiler
 Suggests: knitr, stargazer, Rcgmin, igraph
@@ -24075,7 +24075,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.0)
 Imports: picante, raster, ape, sp, vegan
 Suggests: RColorBrewer, parallel, testthat
@@ -26695,8 +26695,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: phonR
-Version: 0.4-2
+Version: 1.0-1
 Depends: R (>= 2.10)
+Imports: splancs, deldir, plotrix
 License: GPL-3
 NeedsCompilation: no
 
@@ -35891,9 +35892,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: signal.hsmm
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0)
-Imports: seqinr, shiny
+Imports: biogram, seqinr, shiny
 Suggests: knitr, markdown, shinyAce
 License: GPL-3
 NeedsCompilation: no
