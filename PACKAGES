@@ -5249,7 +5249,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clusterSEs
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.1.2), sandwich, lmtest, mlogit
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -13534,12 +13534,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ggmap
-Version: 2.3
+Version: 2.4
 Depends: R (>= 2.14.0), ggplot2 (>= 0.9.2)
 Imports: proto, scales, RgoogleMaps, png, plyr, reshape2, grid, rjson,
-        mapproj
+        mapproj, jpeg, geosphere, digest
 Suggests: MASS, stringr
-License: MIT
+License: GPL-2
 NeedsCompilation: no
 
 Package: ggmcmc
@@ -13767,6 +13767,13 @@ Depends: R (>= 2.14.0)
 Suggests: RUnit
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
+
+Package: GLDreg
+Version: 1.0.2
+Depends: GLDEX (>= 2.0.0.1)
+Suggests: MASS, quantreg
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: glinternet
 Version: 0.9.0
@@ -14740,6 +14747,12 @@ Package: gtools
 Version: 3.4.1
 License: LGPL-2.1
 NeedsCompilation: yes
+
+Package: gtop
+Version: 0.2.0
+Depends: hts, quadprog, lassoshooting
+License: GPL-2 | GPL-3
+NeedsCompilation: no
 
 Package: gtx
 Version: 0.0.8
@@ -16113,10 +16126,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hyperSpec
-Version: 0.98-20140523
-Depends: R (>= 2.15), methods, utils, lattice, grid, mvtnorm
-Suggests: R.matlab, latticeExtra, tripack, deldir, rgl, plotrix,
-        testthat, ggplot2 (>= 0.9.2), playwith, latticist, svUnit, sp,
+Version: 0.98-20150304
+Depends: R (>= 2.15), methods, utils, lattice, grid, ggplot2 (>=
+        0.9.2), mvtnorm
+Imports: latticeExtra, svUnit
+Suggests: R.matlab, tripack, deldir, rgl, plotrix, testthat, sp,
         baseline, compiler, inline, Rcpp, MASS, fastcluster, pls
 License: GPL (>= 3)
 NeedsCompilation: no
