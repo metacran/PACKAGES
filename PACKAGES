@@ -17930,6 +17930,12 @@ Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
+Package: KOGMWU
+Version: 1.0
+Depends: R (>= 2.10), pheatmap
+License: GPL-3
+NeedsCompilation: no
+
 Package: kohonen
 Version: 2.0.15
 Depends: R (>= 2.6.0), class, MASS
@@ -39949,10 +39955,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: timereg
-Version: 1.8.6
+Version: 1.8.7
 Depends: R (>= 2.15), survival,
-Imports: lava
-Suggests: numDeriv
+Imports: lava, numDeriv
 License: GPL (>= 2)
 NeedsCompilation: yes
 
