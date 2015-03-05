@@ -2820,6 +2820,12 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: Binarize
+Version: 1.0
+Depends: methods, diptest
+License: Artistic-2.0
+NeedsCompilation: yes
+
 Package: binda
 Version: 1.0.2
 Depends: R (>= 2.15.1), entropy (>= 1.2.0)
@@ -4016,6 +4022,12 @@ Imports: utils, MASS, R.methodsS3 (>= 1.7.0), R.oo (>= 1.18.0),
         matrixStats (>= 0.14.0), R.filesets (>= 2.7.0)
 Suggests: DNAcopy
 License: LGPL (>= 2.1)
+NeedsCompilation: no
+
+Package: CAM
+Version: 1.0
+Depends: glmnet, mboost, Matrix, parallel, mgcv
+License: FreeBSD
 NeedsCompilation: no
 
 Package: CAMAN
@@ -6038,11 +6050,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: copula
-Version: 0.999-12
+Version: 0.999-13
 Depends: R (>= 2.15.2)
 Imports: stats, graphics, methods, stats4, Matrix, lattice, gsl,
         ADGofTest, stabledist (>= 0.6-4), mvtnorm, pspline
-Suggests: MASS, KernSmooth, sfsmisc, bbmle, scatterplot3d, Rmpfr,
+Suggests: MASS, KernSmooth, sfsmisc, scatterplot3d, Rmpfr, bbmle,
         partitions, polynom, rugarch, colorspace, mvnormtest, tseries,
         zoo
 Enhances: nor1mix
@@ -21267,8 +21279,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: MicSim
-Version: 1.0.7
-Depends: R (>= 3.0.1), chron, snowfall
+Version: 1.0.8
+Depends: R (>= 3.0.1), chron, snowfall, rlecuyer
 License: GPL-2
 NeedsCompilation: no
 
@@ -22724,10 +22736,10 @@ License: GPL
 NeedsCompilation: yes
 
 Package: multcomp
-Version: 1.3-9
+Version: 1.4-0
 Depends: stats, graphics, mvtnorm (>= 0.8-0), survival (>= 2.35-7),
         TH.data (>= 1.0-2)
-Imports: sandwich (>= 2.3-0)
+Imports: sandwich (>= 2.3-0), codetools
 Suggests: lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, car,
         foreign, xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR
 License: GPL-2
@@ -26289,11 +26301,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pegas
-Version: 0.6
+Version: 0.7
 Depends: R (>= 2.6.0), ape (>= 2.4), adegenet
 Imports: graphics, utils
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: PEIP
 Version: 1.7
@@ -34354,6 +34366,14 @@ Package: saccades
 Version: 0.1
 Depends: R (>= 2.10), zoom
 License: GPL-2
+NeedsCompilation: no
+
+Package: sadists
+Version: 0.1.0
+Depends: R (>= 3.0.2)
+Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
+Suggests: testthat, ggplot2, knitr
+License: LGPL-3
 NeedsCompilation: no
 
 Package: sads
