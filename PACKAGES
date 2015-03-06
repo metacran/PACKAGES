@@ -7663,7 +7663,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Deriv
-Version: 2.0
+Version: 3.0
 Suggests: testthat
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -30912,7 +30912,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: recluster
-Version: 2.7
+Version: 2.8
 Depends: vegan, ape
 Imports: picante, phangorn, phytools, cluster
 License: GPL (>= 2.0)
