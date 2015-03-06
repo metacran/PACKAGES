@@ -7619,7 +7619,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: depend.truncation
-Version: 2.1
+Version: 2.2
 Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
@@ -27387,6 +27387,14 @@ Depends: R (>= 3.1.1)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: pointRes
+Version: 1.0.1
+Depends: R (>= 3.1.0), stats, ggplot2
+Imports: gridExtra, plyr, TripleR
+Suggests: dplR
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PoisBinNonNor
 Version: 1.0
 Depends: BB, corpcor, Matrix, mvtnorm
@@ -30398,7 +30406,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rcpp
-Version: 0.11.4
+Version: 0.11.5
 Depends: R (>= 3.0.0)
 Imports: methods
 Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
@@ -31314,7 +31322,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ReporteRs
-Version: 0.7.7
+Version: 0.7.8
 Depends: R (>= 3.0),ReporteRsjars (>= 0.0.2)
 Imports: rJava
 Suggests: ggplot2
@@ -41617,7 +41625,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: VGAM
-Version: 0.9-6
+Version: 0.9-7
 Depends: R (>= 3.0.0), methods, stats, stats4, splines
 Suggests: VGAMdata, MASS
 License: GPL-2
