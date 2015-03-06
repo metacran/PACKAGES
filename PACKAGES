@@ -9286,7 +9286,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ecospat
-Version: 1.0
+Version: 1.1
 Depends: ade4, ape, gam, gbm, sp
 Imports: adehabitatHR, adehabitatMA, biomod2, dismo, ecodist, maptools,
         randomForest, spatstat, raster, rms
@@ -12082,7 +12082,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: frailtypack
-Version: 2.7.4
+Version: 2.7.5
 Depends: R (>= 2.10), survival, boot, MASS, survC1
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -15956,6 +15956,13 @@ Imports: edgeR, poisson.glm.mix, plotrix
 Suggests: HTSFilter, Biobase
 License: GPL (>= 3)
 NeedsCompilation: no
+
+Package: httk
+Version: 1.1
+Imports: deSolve, msm
+Suggests: ggplot2
+License: GPL-3
+NeedsCompilation: yes
 
 Package: httpRequest
 Version: 0.0.10
@@ -35005,6 +35012,12 @@ Imports: Hmisc,sm,tseries,stats,rpanel,rgl
 License: GPL-2
 NeedsCompilation: no
 
+Package: SDDE
+Version: 1.0.0
+Depends: R (>= 3.0), igraph, doParallel, foreach, iterators, parallel
+License: GPL-3
+NeedsCompilation: yes
+
 Package: sddpack
 Version: 0.9
 License: GPL-2
@@ -35403,10 +35416,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensitivity
-Version: 1.10.1
+Version: 1.11
 Depends: R (>= 3.0.0)
 Imports: boot
-Suggests: rgl, evd, numbers, DiceKriging, ks, igraph, fanovaGraph
+Suggests: DiceDesign, randtoolbox, DiceKriging, fanovaGraph, rgl, evd,
+        numbers, ks, igraph, ggplot2, reshape2
 License: GPL-2
 NeedsCompilation: yes
 
@@ -41383,7 +41397,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vardpoor
-Version: 0.2.6
+Version: 0.2.8
 Depends: R (>= 3.0.0), data.table (>= 1.9.4), laeken, stringr
 Imports: reshape2, foreach, plyr, gdata, MASS
 License: GPL (>= 2)
@@ -41985,6 +41999,12 @@ Depends: R (>= 2.10)
 Imports: plyr
 Suggests: testthat
 License: GPL
+NeedsCompilation: no
+
+Package: webchem
+Version: 0.0.1
+Imports: XML, RCurl, RJSONIO
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: webutils
