@@ -585,7 +585,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: alabama
-Version: 2014.12-1
+Version: 2015.3-1
 Depends: R (>= 2.10.1), numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -2953,6 +2953,11 @@ Suggests: permute, lattice, MASS, mgcv, cluster, car, RODBC, rpart,
         akima, nnet, dismo, raster (>= 2.0-31), rgdal, gbm,
         randomForest, gam, earth, mda, kernlab, e1071, tools, methods,
         bootstrap
+License: GPL-2
+NeedsCompilation: no
+
+Package: biogas
+Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -28908,7 +28913,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: qtl
-Version: 1.35-3
+Version: 1.36-6
 Depends: R (>= 2.14.0), graphics, stats, utils
 Imports: parallel
 Suggests: testthat
@@ -31307,7 +31312,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ReporteRs
-Version: 0.7.2
+Version: 0.7.7
 Depends: R (>= 3.0),ReporteRsjars (>= 0.0.2)
 Imports: rJava
 Suggests: ggplot2
