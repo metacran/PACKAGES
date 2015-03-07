@@ -40234,7 +40234,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tm.plugin.lexisnexis
-Version: 1.1
+Version: 1.2
 Imports: utils, NLP, tm (>= 0.6), XML, ISOcodes
 License: GPL (>= 2)
 NeedsCompilation: no
