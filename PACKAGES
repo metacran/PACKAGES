@@ -24913,10 +24913,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: openxlsx
-Version: 2.2.1
+Version: 2.4.0
 Imports: methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
-Suggests: knitr
+Suggests: knitr, testthat
 License: GPL-3
 NeedsCompilation: yes
 
@@ -35900,6 +35900,12 @@ Version: 4.2
 Depends: hdrcde, coda, MASS, bayesm, mnormt, spatstat
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: SID
+Version: 1.0
+Imports: pcalg, igraph, RBGL, Matrix
+License: FreeBSD
+NeedsCompilation: no
 
 Package: sideChannelAttack
 Version: 1.0-6
