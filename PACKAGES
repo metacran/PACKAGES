@@ -18027,9 +18027,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: ks
-Version: 1.9.3
+Version: 1.9.4
 Depends: R (>= 1.4.0), KernSmooth (>= 2.22), misc3d (>= 0.4-0), mvtnorm
-        (>= 0.9-99991), rgl (>= 0.66)
+        (>= 1.0-0), rgl (>= 0.66)
 Imports: multicool
 Suggests: MASS
 License: GPL-2 | GPL-3
@@ -42589,7 +42589,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.13.2
+Version: 0.13.4
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr, jsonlite, stringr
 License: FreeBSD
