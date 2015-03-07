@@ -30551,7 +30551,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppParallel
-Version: 4.3.3
+Version: 4.3.4
 Suggests: Rcpp, testthat
 License: GPL-2
 NeedsCompilation: yes
