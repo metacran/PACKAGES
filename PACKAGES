@@ -40063,7 +40063,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: TimeWarp
-Version: 1.0-7
+Version: 1.0.11
 Depends: R (>= 2.6)
 Suggests: scriptests, Holidays
 License: GPL
