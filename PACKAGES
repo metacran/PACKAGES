@@ -3265,7 +3265,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: blocksdesign
-Version: 1.4
+Version: 1.5
 Depends: R (>= 3.1.0)
 Imports: crossdes
 Suggests: knitr
@@ -6695,7 +6695,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: csvread
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15), methods
 Enhances: bit64
 License: Apache License (== 2.0)
