@@ -20769,11 +20769,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: memisc
-Version: 0.96-10
+Version: 0.97
 Depends: R (>= 2.9.0), lattice, stats, methods, utils, MASS
 Imports: grid
-Suggests: car, splines
-Enhances: lme4
+Suggests: splines
+Enhances: AER, car, eha, lme4, ordinal, simex
 License: GPL-2
 NeedsCompilation: yes
 
@@ -29088,11 +29088,11 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: quantmod
-Version: 0.4-3
+Version: 0.4-4
 Depends: xts(>= 0.9-0), zoo, TTR(>= 0.2), methods
-Suggests: DBI,RMySQL,RSQLite,timeSeries,its
+Suggests: DBI,RMySQL,RSQLite,timeSeries,its,XML
 License: GPL-3
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: QuantPsyc
 Version: 1.5
