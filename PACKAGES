@@ -12652,6 +12652,13 @@ Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: GameTheory
+Version: 1.0
+Depends: lpSolveAPI, combinat, gtools, ineq, kappalab
+Suggests: R.rsp
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: gamlr
 Version: 1.12-1
 Depends: R (>= 2.15), Matrix
@@ -15279,7 +15286,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hergm
-Version: 2.2-0
+Version: 2.2-1
 Depends: ergm, latentnet, network, parallel, sna
 License: GPL-3
 NeedsCompilation: yes
@@ -16272,7 +16279,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ibmdbR
-Version: 1.34.3
+Version: 1.36.7
 Depends: R (>= 2.15.1), methods, RODBC, MASS
 License: GPL-3
 NeedsCompilation: no
@@ -18557,7 +18564,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: LeafArea
-Version: 0.0.5
+Version: 0.0.6
 License: GPL-2
 NeedsCompilation: no
 
@@ -23660,7 +23667,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: netgsa
-Version: 1.0
+Version: 2.0
 Depends: cvTools, corpcor, glasso, glmnet, igraph
 Suggests: MASS
 License: GPL (>= 2)
@@ -33560,7 +33567,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rscala
-Version: 1.0.1
+Version: 1.0.2
+Imports: utils
 License: GPL (>= 2) | BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -35958,7 +35966,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: signal.hsmm
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.0)
 Imports: biogram, seqinr, shiny
 Suggests: knitr, markdown, shinyAce
