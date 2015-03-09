@@ -20312,7 +20312,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mbbefd
-Version: 0.6
+Version: 0.6.1
 Depends: R (>= 2.14)
 Imports: Rcpp
 LinkingTo: Rcpp
