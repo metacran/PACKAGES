@@ -13459,9 +13459,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GetoptLong
-Version: 0.0.9
+Version: 0.1.0
 Depends: R (>= 2.10.0)
-Imports: rjson, GlobalOptions (>= 0.0.6)
+Imports: rjson, methods, GlobalOptions (>= 0.0.6)
 Suggests: testthat (>= 0.3), knitr
 License: GPL (>= 2)
 NeedsCompilation: no
