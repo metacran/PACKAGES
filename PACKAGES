@@ -5516,6 +5516,13 @@ Depends: R (>= 3.0.0), coda
 License: GPL-3
 NeedsCompilation: yes
 
+Package: cOde
+Version: 0.1
+Depends: R (>= 3.0)
+Suggests: deSolve, bvpSolve
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: codep
 Version: 0.4-1
 Depends: R (>= 3.0.0), stats
@@ -35675,7 +35682,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SGCS
-Version: 2.0
+Version: 2.3
 Depends: spatstat
 License: GPL (>= 2)
 NeedsCompilation: yes
