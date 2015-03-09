@@ -4138,7 +4138,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: care
-Version: 1.1.7
+Version: 1.1.8
 Depends: R (>= 2.15.1), corpcor (>= 1.6.7)
 Suggests: crossval
 License: GPL (>= 3)
@@ -9064,7 +9064,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: DynNom
-Version: 1.0
+Version: 1.0.1
 Depends: ggplot2, stargazer, shiny, compare
 License: GPL-2
 NeedsCompilation: no
@@ -10825,8 +10825,8 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: Familias
-Version: 2.1
-Depends: R (>= 1.8.0), paramlink
+Version: 2.2
+Depends: R (>= 1.8.0), kinship2, paramlink
 License: GPL-2
 NeedsCompilation: yes
 
@@ -15578,11 +15578,6 @@ Imports: methods, FactoMineR, class
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: histmdl
-Version: 0.3-1
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: histogram
 Version: 0.0-23
 License: GPL (>= 2)
@@ -16757,9 +16752,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: informR
-Version: 1.0.04
+Version: 1.0-5
 Depends: R (>= 2.12), abind, relevent
-License: GPL (>= 2.0)
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: infotheo
@@ -31719,10 +31714,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.7.7
+Version: 0.8.0
 Imports: XML, plyr, ggplot2, maps, httr, rgeos, sp, data.table,
-        stringr, assertthat, whisker, magrittr, jsonlite (>= 0.9.12)
-Suggests: roxygen2, testthat, knitr
+        stringr, whisker, magrittr, jsonlite (>= 0.9.12)
+Suggests: roxygen2, testthat, knitr, reshape2
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -35499,6 +35494,13 @@ Version: 2012-04-0
 Depends: R (>= 2.5.0), stats
 Suggests: leaps, car
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: SensusR
+Version: 1.0
+Imports: jsonlite (>= 0.9.14), lubridate (>= 1.3.3), rworldmap (>=
+        1.3-1), plyr (>= 1.8.1), sp (>= 1.0-16)
+License: GPL-3
 NeedsCompilation: no
 
 Package: separationplot
