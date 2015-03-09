@@ -3934,8 +3934,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: C50
-Version: 0.1.0-21
+Version: 0.1.0-24
 Depends: R (>= 2.10.0)
+Imports: partykit
 License: GPL-3
 NeedsCompilation: yes
 
@@ -7708,7 +7709,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: desirability
-Version: 1.6
+Version: 1.9
 Suggests: lattice
 License: GPL-2
 NeedsCompilation: no
@@ -16710,6 +16711,14 @@ Depends: survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: inferference
+Version: 0.4.61
+Depends: R (>= 3.1)
+Imports: numDeriv (>= 2012.9-1), lme4 (>= 1.1-6), Formula (>= 1.1-2)
+Suggests: testthat, knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: inflection
 Version: 1.1
 License: GPL-2
@@ -25338,7 +25347,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: OUwie
-Version: 1.44
+Version: 1.45
 Depends: ape, nloptr
 Imports: numDeriv, corpcor, lattice, grDevices, phytools, phangorn
 License: GPL (>= 2)
@@ -27471,7 +27480,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: pollstR
-Version: 1.1.1
+Version: 1.2.0
 Depends: R (>= 3.0.3)
 Imports: httr, plyr, jsonlite
 Suggests: knitr, dplyr, ggplot2, testthat
