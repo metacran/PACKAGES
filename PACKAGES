@@ -7491,7 +7491,7 @@ License: GPL (>= 2) | LGPL (>= 3)
 NeedsCompilation: yes
 
 Package: deldir
-Version: 0.1-7
+Version: 0.1-9
 Depends: R (>= 0.99)
 Suggests: polyclip
 License: GPL (>= 2)
