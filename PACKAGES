@@ -11235,7 +11235,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: fdrtool
-Version: 1.2.13
+Version: 1.2.14
 Depends: R (>= 2.15.1)
 License: GPL (>= 3)
 NeedsCompilation: yes
