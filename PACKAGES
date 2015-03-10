@@ -1747,7 +1747,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bartMachine
-Version: 1.1.1
+Version: 1.2.0
 Depends: R (>= 2.14.0), rJava (>= 0.8-4), car, randomForest, missForest
 License: GPL-3
 NeedsCompilation: no
@@ -3176,6 +3176,12 @@ Package: BlandAltmanLeh
 Version: 0.1.0
 Suggests: ggplot2, knitr
 License: GPL
+NeedsCompilation: no
+
+Package: blatr
+Version: 1.0
+License: MIT + file LICENSE
+OS_type: windows
 NeedsCompilation: no
 
 Package: Blaunet
@@ -15578,6 +15584,11 @@ Depends: R (>= 3.1.0), graphics
 Imports: methods, FactoMineR, class
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: histmdl
+Version: 0.3-2
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: histogram
 Version: 0.0-23
