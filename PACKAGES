@@ -7930,8 +7930,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: DiceOptim
-Version: 1.4
-Depends: DiceKriging (>= 1.2), rgenoud, MASS, lhs
+Version: 1.5
+Depends: DiceKriging (>= 1.2), rgenoud, MASS, lhs, mnormt
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -16634,6 +16634,11 @@ Depends: nnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: import
+Version: 1.0.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: imprProbEst
 Version: 1.0.1
 Depends: R(>= 2.7.0), inline, lpSolve
@@ -19065,6 +19070,12 @@ NeedsCompilation: yes
 
 Package: lmf
 Version: 1.2
+License: GPL-2
+NeedsCompilation: no
+
+Package: lmfor
+Version: 1.1
+Depends: stats4, nlme, MASS
 License: GPL-2
 NeedsCompilation: no
 
