@@ -22527,6 +22527,16 @@ Suggests: R.rsp
 License: GPL-2
 NeedsCompilation: yes
 
+Package: MRIaggr
+Version: 1.0
+Depends: R (>= 2.10), Rcpp
+Imports: methods, stats4, RANN, spam, Matrix, ROCR, fields, mritc,
+        oro.dicom, oro.nifti
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: rgl
+License: GPL-3
+NeedsCompilation: yes
+
 Package: mritc
 Version: 0.5-0
 Depends: R (>= 2.14.0), lattice (>= 0.18-8), misc3d (>= 0.8-1),
@@ -30575,7 +30585,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppParallel
-Version: 4.3.4
+Version: 4.3.6
 Suggests: Rcpp, testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -41818,6 +41828,16 @@ Depends: R (>= 2.15.1)
 Imports: stats, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: vmsbase
+Version: 2.0
+Depends: sqldf, ggmap, mapdata, maps
+Imports: marmap, intervals, methods, plotrix, sp, foreign, cluster,
+        cairoDevice, ggplot2, DBI, RSQLite, fields, gsubfn, AMORE,
+        ecodist, gWidgets, gWidgetsRGtk2, chron, maptools, outliers,
+        PBSmapping, R6, grid, VennDiagram, gmt
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: VNM
 Version: 4.0
