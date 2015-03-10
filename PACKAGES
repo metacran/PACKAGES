@@ -9984,9 +9984,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EnvStats
-Version: 1.0.3
+Version: 2.0.0
 Depends: R (>= 3.0.1)
-Suggests: lattice, qcc, sp, MASS, boot
+Imports: MASS
+Suggests: lattice, qcc, sp, boot
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -19350,7 +19351,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: longitudinal
-Version: 1.1.10
+Version: 1.1.11
 Depends: R (>= 2.15.1), corpcor (>= 1.6.7)
 License: GPL (>= 3)
 NeedsCompilation: no
