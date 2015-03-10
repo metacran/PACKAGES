@@ -10357,8 +10357,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: eVenn
-Version: 2.1.6
-Depends: tcltk
+Version: 2.2
+Depends: R (>= 2.10)
+Imports: tcltk
 License: GPL
 NeedsCompilation: no
 
@@ -11939,7 +11940,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: forestplot
-Version: 1.0
+Version: 1.1
 Depends: grid
 Suggests: testthat, knitr
 License: GPL-2
