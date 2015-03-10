@@ -2321,7 +2321,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.16
+Version: 2.17
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -9489,7 +9489,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EIAdata
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 2.11.0), XML, plyr, xts, zoo
 License: GPL-2
 NeedsCompilation: no
@@ -31201,9 +31201,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: relevent
-Version: 1.0-3
-Depends: trust, sna (>= 2.0)
-Suggests: coda
+Version: 1.0-4
+Depends: trust, sna (>= 2.0), coda
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -35903,6 +35902,12 @@ Version: 0.2
 Depends: sysfonts (>= 0.1)
 License: Apache License (>= 2.0)
 NeedsCompilation: yes
+
+Package: showtextdb
+Version: 1.0
+Depends: sysfonts
+License: Apache License (>= 2.0)
+NeedsCompilation: no
 
 Package: shp2graph
 Version: 0-2
