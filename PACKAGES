@@ -12845,7 +12845,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gbm
-Version: 2.1
+Version: 2.1.1
 Depends: R (>= 2.9.0), survival, lattice, splines, parallel
 Suggests: RUnit
 License: GPL (>= 2) | file LICENSE
@@ -17048,8 +17048,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ipdw
-Version: 0.2-1
-Depends: R (>= 3.0.2),gdistance
+Version: 0.2-2
+Depends: R (>= 3.0.2),gdistance,sp
 Imports: raster
 Suggests: geoR,gstat,gdata,spatstat
 License: GPL (>= 2)
@@ -22901,7 +22901,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: no
 
 Package: multigroup
-Version: 0.4.3
+Version: 0.4.4
 Depends: R (>= 2.15.0)
 Imports: MASS
 License: GPL-3
@@ -23420,7 +23420,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.0.2.2
+Version: 1.1
 Depends: R (>= 3.1.0)
 Imports: Rcpp, Matrix, missForest
 LinkingTo: Rcpp
@@ -35937,8 +35937,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: showtext
-Version: 0.2
-Depends: sysfonts (>= 0.1)
+Version: 0.3
+Depends: sysfonts
+Imports: showtextdb
 License: Apache License (>= 2.0)
 NeedsCompilation: yes
 
@@ -38786,8 +38787,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: summarytools
-Version: 0.2
-Imports: pander, rapportools
+Version: 0.3
+Depends: htmltools
+Imports: pander, xtable, rapportools, rstudioapi, utils
 License: GPL-2
 NeedsCompilation: no
 
