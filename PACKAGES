@@ -1765,7 +1765,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: baseline
-Version: 1.1-4
+Version: 1.2-0
 Depends: R (>= 2.15), methods
 Imports: graphics, SparseM
 Suggests: gWidgets, IDPmisc, lattice, pls, MASS
@@ -3179,7 +3179,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: blatr
-Version: 1.0
+Version: 1.0.1
 License: MIT + file LICENSE
 OS_type: windows
 NeedsCompilation: no
@@ -12974,7 +12974,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gdistance
-Version: 1.1-6
+Version: 1.1-7
 Depends: R (>= 2.8.0), raster (>= 1.9-19), methods, igraph (>= 0.7.0),
         Matrix
 Imports: sp
@@ -21693,7 +21693,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixlm
-Version: 1.0.8.3
+Version: 1.0.8.5
 Depends: multcomp, pls, pracma
 Imports: leaps, lme4, car
 License: GPL (>= 2)
@@ -22852,7 +22852,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: multgee
-Version: 1.5.0
+Version: 1.5.1
 Depends: R (>= 2.15.0), gnm, VGAM
 License: GPL-2 | GPL-3
 NeedsCompilation: no
