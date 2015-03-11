@@ -34053,9 +34053,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: rtkpp
-Version: 0.8.4
+Version: 0.8.6
 Depends: R (>= 3.0.2), Rcpp
-Imports: methods
 LinkingTo: Rcpp
 License: GPL (>= 2) | LGPL (>= 2) | file LICENSE
 NeedsCompilation: yes
@@ -36378,9 +36377,11 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.6.9
-Imports: ggplot2, MASS, car, foreign, plyr, psych, reshape2, scales
-Suggests: arm, cluster, coin, lme4, lsmeans, lmtest, Matrix, stringdist
+Version: 1.7
+Imports: ggplot2, MASS, car, foreign, psych, scales, dplyr (>= 0.4.1),
+        tidyr (>= 0.2.0)
+Suggests: arm, cluster, coin, lme4, lsmeans, lmtest, Matrix,
+        stringdist, haven
 License: GPL-3
 NeedsCompilation: no
 
