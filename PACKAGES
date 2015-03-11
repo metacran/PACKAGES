@@ -5630,10 +5630,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: colorspace
-Version: 1.2-5
+Version: 1.2-6
 Depends: R (>= 2.13.0), methods
-Imports: graphics, tcltk
-Suggests: KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat
+Imports: graphics
+Suggests: KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat, tcltk
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -14689,6 +14689,13 @@ Package: gsg
 Version: 2.0
 Imports: mgcv, mvtnorm, boot, numDeriv
 License: GPL-2
+NeedsCompilation: no
+
+Package: gsheet
+Version: 0.1.0
+Imports: dplyr, rvest, stringr
+Suggests: testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: GSIF
