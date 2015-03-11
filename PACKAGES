@@ -35317,6 +35317,14 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: seismicRoll
+Version: 1.0.1
+Depends: R (>= 2.14.1), Rcpp (>= 0.10.4)
+LinkingTo: Rcpp
+Suggests: microbenchmark
+License: GPL-2
+NeedsCompilation: yes
+
 Package: Sejong
 Version: 0.01
 Depends: R (>= 2.14.0)
@@ -36970,8 +36978,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: soilphysics
-Version: 2.0
-Depends: R (>= 2.15), utils, rpanel, MASS
+Version: 2.1
+Depends: R (>= 2.15), utils, rpanel, MASS, tcltk
 Suggests: soilwater, soiltexture, biotools
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -39832,6 +39840,11 @@ Version: 2.1
 Depends: mvtnorm
 Suggests: MASS, lattice, knitr
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: texmexseq
+Version: 0.1
+License: GPL-3
 NeedsCompilation: yes
 
 Package: TExPosition
