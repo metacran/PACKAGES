@@ -4137,9 +4137,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cardidates
-Version: 0.4.5
-Depends: R (>= 3.0.0), boot, pastecs
-Suggests: lattice
+Version: 0.4.6
+Depends: R (>= 3.0.0), boot, pastecs, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -4609,6 +4608,13 @@ Package: cfa
 Version: 0.9-3
 Depends: R (>= 2.14)
 Suggests: parallel
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: CFC
+Version: 0.7.0
+Imports: abind
+Suggests: survival, BSGW, BayesMixSurv
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10780,7 +10786,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FAdist
-Version: 2.0
+Version: 2.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -13660,13 +13666,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggvis
-Version: 0.4
+Version: 0.4.1
 Depends: R (>= 3.0)
-Imports: assertthat, jsonlite (>= 0.9.11), shiny (>= 0.10), magrittr,
+Imports: assertthat, jsonlite (>= 0.9.11), shiny (>= 0.11.1), magrittr,
         dplyr (>= 0.3), lazyeval, htmltools (>= 0.2.4)
 Suggests: MASS, mgcv, lubridate, testthat (>= 0.8.1), knitr (>= 1.6),
         rmarkdown
-License: GPL-2
+License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
 Package: GhcnDaily
@@ -16411,12 +16417,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: icd9
-Version: 1.1
+Version: 1.0
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.4), checkmate (>= 1.5.1)
 LinkingTo: Rcpp
-Suggests: testthat, knitr, microbenchmark, magrittr, XML, memoise,
-        profr, ggplot2, digest
+Suggests: testthat, knitr, microbenchmark, XML, magrittr, memoise,
+        profr, ggplot2
 License: GPL-3
 NeedsCompilation: yes
 
@@ -29128,7 +29134,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qualV
-Version: 0.3
+Version: 0.3-1
 Depends: R (>= 2.0.0), KernSmooth
 License: GPL (>= 2)
 NeedsCompilation: yes
