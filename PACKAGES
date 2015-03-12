@@ -12329,9 +12329,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ftsa
-Version: 4.1
+Version: 4.2
 Depends: R (>= 3.0.2), forecast, rainbow
-Imports: colorspace, MASS, pcaPP
+Imports: colorspace, MASS, pcaPP, R2jags
 Suggests: fds
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30320,9 +30320,9 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.NMBU
-Version: 1.8.0.1
-Depends: R (>= 3.0.0), mixlm (>= 1.0.8.3), MASS, pls, xtable
-Imports: Rcmdr (>= 2.0-0), tcltk
+Version: 1.8.0.4
+Depends: R (>= 3.0.0), mixlm (>= 1.0.8.5), MASS, pls, xtable
+Imports: Rcmdr (>= 2.1-7), tcltk
 Suggests: lme4, leaps, mvtnorm, gmodels, abind, lattice, pbkrtest, vcd,
         multcomp, e1071, nnet
 License: GPL (>= 2)
@@ -34401,6 +34401,13 @@ Version: 1.5.3
 Depends: XML
 Imports: kappalab
 License: CeCILL-2
+NeedsCompilation: no
+
+Package: RxnSim
+Version: 1.0
+Depends: R (>= 2.5.0)
+Imports: rJava, fingerprint, rcdk (>= 3.3.2)
+License: GPL
 NeedsCompilation: no
 
 Package: RXshrink
@@ -40532,11 +40539,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tRakt
-Version: 0.9.0
+Version: 0.13.0
 Depends: R (>= 3.0.2)
 Imports: httr (>= 0.6.1), jsonlite (>= 0.9.14), lubridate, plyr (>=
         1.8.1), stringr
-Suggests: knitr, dplyr (>= 0.4.1), ggplot2
+Suggests: knitr, dplyr (>= 0.4.1), ggplot2, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
