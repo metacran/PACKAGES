@@ -4812,7 +4812,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: chipPCR
-Version: 0.0.8-6
+Version: 0.0.8-8
 Depends: R (>= 3.0.0), methods
 Imports: lmtest, MASS, outliers, ptw, quantreg, Rfit, robustbase,
         shiny, signal
@@ -11174,7 +11174,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fdakma
-Version: 1.1.1
+Version: 1.2
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -24364,7 +24364,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: nparcomp
-Version: 2.5
+Version: 2.6
 Depends: multcomp, mvtnorm
 License: GPL
 NeedsCompilation: no
@@ -40392,6 +40392,12 @@ Package: tolerance
 Version: 1.0.0
 Depends: rgl, stats4
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: toOrdinal
+Version: 0.0-1
+Depends: R (>= 2.10.0)
+License: GPL-3
 NeedsCompilation: no
 
 Package: topicmodels
