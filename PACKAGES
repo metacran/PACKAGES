@@ -12549,9 +12549,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: G2Sd
-Version: 2.1.2
+Version: 2.1.3
 Depends: R (>= 3.0.2), stats
-Imports: shiny, xlsx, rJava, xlsxjars,
+Imports: shiny, xlsx, rJava, xlsxjars, reshape2, ggplot2
 License: GPL-3
 NeedsCompilation: no
 
