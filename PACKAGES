@@ -31926,13 +31926,6 @@ Suggests: rgdal (>= 0.8-8)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: rgrs
-Version: 0.3
-Depends: questionr (>= 0.2)
-Suggests: tcltk, odfWeave, R2HTML, RColorBrewer, sp
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: RGtk2
 Version: 2.20.31
 Depends: R (>= 2.5.0)
