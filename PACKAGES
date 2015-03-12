@@ -28937,12 +28937,6 @@ Depends: R (>= 2.10.0), survival, zoo
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
-Package: qp
-Version: 0.3-2
-Depends: R (>= 2.10)
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: qpcR
 Version: 1.4-0
 Depends: R (>= 2.13.0), MASS, minpack.lm, rgl, robustbase, Matrix
