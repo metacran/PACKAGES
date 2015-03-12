@@ -14413,7 +14413,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: graphicalVAR
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.3), Matrix, glasso, glmnet, mvtnorm, qgraph (>=
         1.3.1)
@@ -16205,7 +16205,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: hypervolume
-Version: 1.2
+Version: 1.2.2
 Depends: Rcpp, rgl, methods, R (>= 3.0.0)
 Imports: MASS, geometry, pdist
 LinkingTo: Rcpp
@@ -18814,7 +18814,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: likeLTD
-Version: 5.4.0
+Version: 5.5.0
 Depends: R (>= 2.10), DEoptim, ggplot2, gtools, rtf
 Imports: gdata, tools, tcltk
 Suggests: svUnit, scales
