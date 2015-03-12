@@ -18996,7 +18996,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LLSR
-Version: 0.0.1.9000
+Version: 0.0.1.9015
 Depends: R (>= 2.10)
 Imports: rootSolve
 Suggests: testthat
