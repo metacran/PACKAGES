@@ -19571,7 +19571,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lsbclust
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.1.2), stats, parallel, ggplot2
 Imports: plyr, clue, grid, gridExtra, reshape2, Rcpp
 LinkingTo: Rcpp
