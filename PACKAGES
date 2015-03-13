@@ -674,11 +674,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: alm
-Version: 0.3.1
+Version: 0.4.0
 Imports: ggplot2, plyr, stringr, reshape, reshape2, httr, grid,
         jsonlite, lubridate
 Suggests: testthat, roxygen2, rplos, knitr
-Enhances: rCharts
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -23675,7 +23674,7 @@ License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: netassoc
-Version: 0.4.1
+Version: 0.4.3
 Depends: igraph
 License: GPL-3
 NeedsCompilation: no
