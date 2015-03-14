@@ -19596,7 +19596,7 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.15
+Version: 2.16
 Depends: estimability, methods, R (>= 3.0)
 Imports: multcomp, plyr, Matrix, mvtnorm
 Suggests: pbkrtest (>= 0.4-1), lattice, multcompView, car, mediation,
@@ -34954,7 +34954,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: scriptests
-Version: 1.0-9
+Version: 1.0-15
 License: GPL
 NeedsCompilation: no
 
@@ -40436,7 +40436,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: track
-Version: 1.0-15
+Version: 1.1.7
 Depends: R (>= 2.1.0), methods
 Suggests: scriptests
 License: GPL
