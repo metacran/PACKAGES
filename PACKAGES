@@ -14756,7 +14756,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gstat
-Version: 1.0-21
+Version: 1.0-22
 Depends: R (>= 2.10)
 Imports: methods, lattice, sp (>= 0.9-72), zoo, spacetime (>= 1.0-0),
         FNN
