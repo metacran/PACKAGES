@@ -8437,6 +8437,12 @@ Imports: MASS, mnormt
 License: GPL-2
 NeedsCompilation: no
 
+Package: dmm
+Version: 1.5-1
+Depends: MASS, Matrix, nadiv, robustbase, pls
+License: GPL-2 | GPL (>= 2) | GPL-3
+NeedsCompilation: no
+
 Package: DMR
 Version: 2.0
 Depends: R (>= 1.8.0), magic
