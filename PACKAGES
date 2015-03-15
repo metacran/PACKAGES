@@ -23938,7 +23938,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: NHPoisson
-Version: 3.0
+Version: 3.1
 Depends: methods, stats4
 Imports: car, parallel
 License: GPL (>= 2)
