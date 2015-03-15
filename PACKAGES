@@ -32391,9 +32391,9 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: RMark
-Version: 2.1.9
-Depends: R (>= 2.13.0)
-Imports: parallel, snowfall, matrixcalc, msm, coda
+Version: 2.1.12
+Depends: R (>= 2.13.0), snowfall
+Imports: parallel, matrixcalc, msm, coda
 Suggests: lattice, splines, nlme, plotrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33428,7 +33428,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: rqPen
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0),quantreg
 License: MIT + file LICENSE
 NeedsCompilation: no
