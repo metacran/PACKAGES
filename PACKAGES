@@ -20987,7 +20987,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: metaMix
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.1)
 Imports: data.table (>= 1.9.2), Matrix, gtools, Rmpi, ggplot2
 Suggests: knitr
