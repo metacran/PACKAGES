@@ -14886,8 +14886,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: gvcm.cat
-Version: 1.8
-Depends: R (>= 2.10.0), Matrix, MASS, splines
+Version: 1.9
+Depends: R (>= 2.10.0), Matrix, MASS, splines, mgcv
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32989,6 +32989,12 @@ Depends: R (>= 2.10), gplots, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ROCS
+Version: 1.2
+Depends: rgl
+License: GPL-2
+NeedsCompilation: no
+
 Package: ROCt
 Version: 0.8
 Depends: R (>= 2.10), splines, date, survival, relsurv
@@ -36303,8 +36309,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SIS
-Version: 0.7-4
-Depends: glmnet, ncvreg, survival, R (>= 2.15)
+Version: 0.7-5
+Depends: R (>= 3.1.1), glmnet, ncvreg, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -42823,7 +42829,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: zoo
-Version: 1.7-11
+Version: 1.7-12
 Depends: R (>= 2.10.0), stats
 Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
 Suggests: coda, chron, DAAG, fts, its, ggplot2, mondate, scales,
