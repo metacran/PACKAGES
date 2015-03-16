@@ -4862,10 +4862,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: choroplethr
-Version: 2.1.1
+Version: 3.0.0
 Depends: R (>= 3.0.0)
 Imports: scales, Hmisc, stringr, ggplot2, dplyr, R6, acs, WDI
-Suggests: testthat, zipcode, knitr, choroplethrMaps, choroplethrAdmin1
+Suggests: testthat, knitr, choroplethrMaps, choroplethrAdmin1
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
