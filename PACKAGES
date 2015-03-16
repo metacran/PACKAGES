@@ -28099,7 +28099,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: PRISMA
-Version: 0.2-3
+Version: 0.2-5
 Depends: R (>= 2.10), Matrix, gplots, ggplot2
 Suggests: tm (>= 0.6)
 License: GPL (>= 2.0)
@@ -37593,7 +37593,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: spdep
-Version: 0.5-86
+Version: 0.5-87
 Depends: R (>= 3.0.0), methods, sp (>= 1.0), Matrix (>= 1.0.12)
 Imports: LearnBayes, deldir, boot (>= 1.3-1), splines, coda, nlme, MASS
 Suggests: parallel, spam(>= 0.13-1), RANN, RColorBrewer, lattice,
@@ -41580,6 +41580,13 @@ Package: vbsr
 Version: 0.0.5
 Depends: R (>= 3.0.0)
 License: GPL-2
+NeedsCompilation: yes
+
+Package: VCA
+Version: 1.1
+Depends: R (>= 3.0.0), stats
+Imports: Matrix, numDeriv
+License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: vcd
