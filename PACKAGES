@@ -13065,7 +13065,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: genalg
-Version: 0.1.1.1
+Version: 0.2.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -24161,6 +24161,12 @@ Depends: R (>= 2.14.0), stats, utils
 Suggests: MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
+
+Package: nnlasso
+Version: 0.1
+Depends: R (>= 3.1.3)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: nnls
 Version: 1.4
