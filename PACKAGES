@@ -40822,6 +40822,12 @@ Depends: R (>= 2.5.1),leaps, locfit, mgcv, tseries
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: tsallisqexp
+Version: 0.9-1
+Depends: R (>= 3.0.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: tsbridge
 Version: 1.1
 Depends: R(>= 2.15.0)
@@ -41782,7 +41788,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VGAMdata
-Version: 0.9-5
+Version: 0.9-7
 Depends: R (>= 3.0.0)
 Suggests: VGAM
 License: GPL-2
