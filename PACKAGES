@@ -2605,9 +2605,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BGPhazard
-Version: 1.1
-Depends: R(>= 3.1.1), survival
-Suggests: MASS, KMsurv
+Version: 1.2.2
+Depends: R(>= 3.1.2), survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6355,6 +6354,14 @@ Imports: nlme, Matrix (>= 1.0)
 LinkingTo: bdsmatrix
 Suggests: mvtnorm, kinship2
 License: LGPL-2
+NeedsCompilation: yes
+
+Package: Coxnet
+Version: 0.1
+Depends: Matrix (>= 1.1-5)
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp, RcppEigen
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: coxphf
