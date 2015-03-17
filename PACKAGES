@@ -4740,10 +4740,10 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: checkpoint
-Version: 0.3.3
+Version: 0.3.9
 Depends: R(>= 3.1.1)
-Imports: knitr
-Suggests: testthat(>= 0.9)
+Imports: utils
+Suggests: knitr, testthat(>= 0.9), MASS
 License: GPL-2
 NeedsCompilation: no
 
@@ -6004,7 +6004,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: conting
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.15.0)
 Imports: mvtnorm, BMS, gtools, tseries, coda
 License: GPL-2
@@ -9979,6 +9979,12 @@ Version: 1.2
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: EntropyExplorer
+Version: 1.0
+Depends: R (>= 3.0)
+License: GPL-3
+NeedsCompilation: no
+
 Package: enviPat
 Version: 1.9
 License: GPL-2
@@ -12824,6 +12830,13 @@ Suggests: knitr, dendsort, RColorBrewer
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: gapminder
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Suggests: dplyr, gdata, ggplot2, tidyr, testthat
+License: CC0
+NeedsCompilation: no
+
 Package: gaselect
 Version: 1.0.5
 Depends: R (>= 3.0.2), methods (>= 2.10.0)
@@ -14077,7 +14090,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: gmm
-Version: 1.5-1
+Version: 1.5-2
 Depends: R (>= 2.10.0), sandwich
 Imports: stats
 Suggests: mvtnorm, car, stabledist, MASS, timeDate, timeSeries
@@ -15617,9 +15630,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: HistDAWass
-Version: 0.1.1
-Depends: R (>= 3.1.0), graphics
-Imports: methods, FactoMineR, class
+Version: 0.1.2
+Depends: R(>= 3.1), methods
+Imports: graphics, FactoMineR, class, ggplot2, grid, histogram
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23234,8 +23247,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvMORPH
-Version: 1.0.2
-Depends: R(>= 2.9.1), phytools, ape, corpcor, subplex
+Version: 1.0.3
+Depends: R(>= 2.9.1), phytools, ape, corpcor, subplex, spam
 License: GPL (>= 2.0)
 NeedsCompilation: yes
 
@@ -24559,7 +24572,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: NSM3
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10), combinat, MASS, partitions, stats, survival
 Imports: agricolae, ash, binom, BSDA, coin, epitools, fANCOVA, gtools,
         Hmisc, km.ci, metafor, nortest, np, quantreg, Rfit, SemiPar,
@@ -31861,7 +31874,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: rglobi
-Version: 0.2.5
+Version: 0.2.6
 Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat, knitr
@@ -38411,6 +38424,14 @@ Version: 1.0
 Depends: R (>= 2.14.0), Biobase, multtest, distr, fBasics, methods
 License: CC BY-NC 4.0
 NeedsCompilation: no
+
+Package: staTools
+Version: 0.1.0
+Depends: R (>= 3.1.1)
+Imports: Rcpp, VGAM, magicaxis
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: StatRank
 Version: 0.0.4
