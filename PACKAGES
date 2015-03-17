@@ -1894,11 +1894,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BayesFactor
-Version: 0.9.10-2
-Depends: R (>= 3.0.0), coda, methods
-Imports: pbapply, mvtnorm, stringr, utils, graphics, Rcpp (>= 0.11.2),
-        gtools
-LinkingTo: Rcpp
+Version: 0.9.11
+Depends: R (>= 3.0.2), coda, methods, Matrix
+Imports: pbapply, mvtnorm, stringr, utils, graphics, gtools,
+        MatrixModels, Rcpp (>= 0.11.2)
+LinkingTo: Rcpp (>= 0.11.2), RcppEigen
 Suggests: doMC, foreach, testthat, knitr, markdown, arm, lme4, xtable,
         languageR
 License: GPL-2
@@ -15609,7 +15609,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: histmdl
-Version: 0.3-2
+Version: 0.4-1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -17805,6 +17805,14 @@ Imports: stats
 Suggests: MASS, testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: kfigr
+Version: 1.1.0
+Depends: R (>= 3.1.0)
+Imports: knitr (>= 1.6)
+Suggests: ggplot2
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: KFKSDS
 Version: 1.6
@@ -20090,12 +20098,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: marked
-Version: 1.1.6
-Depends: R (>= 2.15.0), lme4, methods
-Imports: R2admb, truncnorm, coda, optimx (>= 2013.8.6), ggplot2,
-        Matrix, numDeriv, Rcpp (>= 0.9.13), plyr
+Version: 1.1.8
+Depends: R (>= 2.15.0), lme4, methods, parallel
+Imports: R2admb, truncnorm, coda, ggplot2, Matrix, numDeriv, Rcpp (>=
+        0.9.13), plyr, optimx (>= 2013.8.6), expm
 LinkingTo: Rcpp
-Suggests: RMark, expm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -21681,7 +21688,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mixexp
-Version: 1.1.9
+Version: 1.2.1
 Depends: gdata, lattice, grid, daewr
 License: GPL-2
 NeedsCompilation: yes
@@ -29452,6 +29459,19 @@ Package: radar
 Version: 1.0.0
 Depends: R (>= 2.7.0)
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: radiant
+Version: 0.1.71
+Depends: R (>= 3.1.0), lubridate (>= 1.3.3), ggplot2 (>= 1.0.0), dplyr
+        (>= 0.4.1), magrittr (>= 1.5)
+Imports: car (>= 2.0.22), MASS (>= 7.3), gridExtra (>= 0.9.1),
+        AlgDesign (>= 1.1.7.3), GPArotation (>= 2014.11.1), psych (>=
+        1.4.8.11), wordcloud (>= 2.5), markdown (>= 0.7.4), knitr (>=
+        1.8), ggdendro (>= 0.1.15), broom (>= 0.3.6), tidyr (>= 0.2.0),
+        pryr (>= 0.1), shiny (>= 0.11.1), shinyAce (>= 0.1.0)
+Suggests: rmarkdown (>= 0.4.2), ggvis (>= 0.4), testthat (>= 0.9.1)
+License: AGPL-3 | CC BY-NC-SA 4.0
 NeedsCompilation: no
 
 Package: RadioSonde
@@ -39023,7 +39043,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: survRM2
-Version: 1.0
+Version: 1.0-1
 Depends: survival
 License: GPL-2
 NeedsCompilation: no
