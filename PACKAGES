@@ -1454,8 +1454,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: astrochron
-Version: 0.3.1
-Imports: baseline, multitaper, fields
+Version: 0.4.1
+Imports: multitaper, IDPmisc, fields
 License: GPL-3
 NeedsCompilation: yes
 
@@ -7316,7 +7316,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: DCluster
-Version: 0.2-6
+Version: 0.2-7
 Depends: R (>= 1.6.2), boot, spdep, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -13627,7 +13627,7 @@ License: MIT
 NeedsCompilation: no
 
 Package: ggplot2
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.14), stats, methods
 Imports: plyr (>= 1.7.1), digest, grid, gtable (>= 0.1.1), reshape2,
         scales (>= 0.2.3), proto, MASS
@@ -29822,7 +29822,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rarity
-Version: 1.2-1
+Version: 1.3-1
 Depends: methods,graphics,stats
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -33634,7 +33634,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rsatscan
-Version: 0.3.9122
+Version: 0.3.9200
 Depends: R (>= 3.0.2)
 Imports: utils, foreign
 Suggests: knitr, rgdal (>= 0.9.1), sp (>= 1.0-9)
@@ -37635,7 +37635,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: spdep
-Version: 0.5-87
+Version: 0.5-88
 Depends: R (>= 3.0.0), methods, sp (>= 1.0), Matrix (>= 1.0.12)
 Imports: LearnBayes, deldir, boot (>= 1.3-1), splines, coda, nlme, MASS
 Suggests: parallel, spam(>= 0.13-1), RANN, RColorBrewer, lattice,
