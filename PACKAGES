@@ -2791,7 +2791,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bigsplines
-Version: 1.0-5
+Version: 1.0-6
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -41648,7 +41648,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vcrpart
-Version: 0.3-2
+Version: 0.3-3
 Depends: R (>= 3.1.0), parallel, partykit
 Imports: stats, grid, graphics, methods, nlme, rpart, numDeriv, ucminf,
         zoo, sandwich, strucchange
