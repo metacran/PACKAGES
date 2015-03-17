@@ -1526,6 +1526,14 @@ Suggests: RSEIS
 License: GPL
 NeedsCompilation: yes
 
+Package: atsd
+Version: 1.0.8441
+Depends: R (>= 3.1.2)
+Imports: RCurl (>= 1.95.4.5), httr (>= 0.6.1)
+Suggests: zoo, knitr, pander
+License: Apache License 2.0
+NeedsCompilation: no
+
 Package: attribrisk
 Version: 0.1
 Depends: survival,boot
@@ -5326,10 +5334,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ClustVarLV
-Version: 1.3.1
-Depends: Rcpp (>= 0.9.13)
+Version: 1.3.2
+Depends: R (>= 3.1.1), Rcpp (>= 0.9.13)
 LinkingTo: Rcpp
-License: GPL (>= 2.0)
+License: GPL-2
 NeedsCompilation: yes
 
 Package: clustvarsel
@@ -31736,7 +31744,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RGA
-Version: 0.2
+Version: 0.2.1
 Depends: R (>= 3.0.0)
 Imports: httr (>= 0.6), httpuv, RCurl, jsonlite, shiny (>= 0.11)
 Suggests: knitr, testthat
@@ -41620,13 +41628,6 @@ Package: vbsr
 Version: 0.0.5
 Depends: R (>= 3.0.0)
 License: GPL-2
-NeedsCompilation: yes
-
-Package: VCA
-Version: 1.1
-Depends: R (>= 3.0.0), stats
-Imports: Matrix, numDeriv
-License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: vcd
