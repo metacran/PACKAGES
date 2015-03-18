@@ -10879,9 +10879,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fanc
-Version: 1.13
+Version: 1.22
 Depends: Matrix
-Suggests: RGtk2
+Suggests: RGtk2, tcltk, matlab
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -21530,12 +21530,6 @@ NeedsCompilation: no
 Package: minxent
 Version: 0.01
 Depends: R (>= 1.6.0)
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: miP
-Version: 1.1
-Depends: R(>= 2.10.0), VIM, mi, mice, Amelia, lattice, vcd
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37844,7 +37838,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: splancs
-Version: 2.01-36
+Version: 2.01-37
 Depends: R (>= 2.10.0), sp (>= 0.9)
 License: GPL (>= 2)
 NeedsCompilation: yes
