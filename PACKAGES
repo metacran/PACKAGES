@@ -32897,7 +32897,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: robumeta
-Version: 1.5
+Version: 1.6
 Depends: grid
 License: GPL-2
 NeedsCompilation: no
@@ -33354,10 +33354,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 0.12.1
-Depends: R (>= 3.1.0), dplyr (>= 0.3), RSQLite (>= 1.0)
-Imports: Rcpp, DBI, data.table, lubridate, reshape2, stringi,
-        assertthat
+Version: 0.13
+Depends: R (>= 3.1.0)
+Imports: Rcpp, dplyr (>= 0.3), RSQLite (>= 1.0), DBI, data.table,
+        lubridate, reshape2, stringi, assertthat, parallel, doParallel,
+        foreach
 LinkingTo: Rcpp (>= 0.11.3)
 Suggests: knitr
 License: MIT + file LICENSE
