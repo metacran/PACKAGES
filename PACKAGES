@@ -1712,8 +1712,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: BAMMtools
-Version: 2.0.2
+Version: 2.0.4
 Depends: ape
+Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -1827,10 +1828,10 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: BatchJobs
-Version: 1.5
-Depends: R (>= 2.15.0), BBmisc (>= 1.8), methods
-Imports: brew, checkmate (>= 1.5), DBI, digest, fail (>= 1.2), RSQLite
-        (>= 1.0.0), sendmailR, stats, stringr, utils
+Version: 1.6
+Depends: R (>= 2.15.0), BBmisc (>= 1.9), methods
+Imports: brew, checkmate (>= 1.5.1), DBI, digest, fail (>= 1.2),
+        parallel, RSQLite (>= 1.0.0), sendmailR, stats, stringr, utils
 Suggests: MASS, testthat
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -4185,6 +4186,11 @@ NeedsCompilation: no
 Package: CarletonStats
 Version: 1.1
 Suggests: MASS
+License: GPL-2
+NeedsCompilation: no
+
+Package: CARLIT
+Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -23251,7 +23257,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: MVN
-Version: 3.8
+Version: 3.9
 Depends: R (>= 2.15.0)
 Imports: methods, nortest, moments, MASS, robustbase, mvoutlier, plyr,
         psych
@@ -23649,7 +23655,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ncvreg
-Version: 3.2-0
+Version: 3.3-0
+Suggests: parallel
 License: GPL-2
 NeedsCompilation: yes
 
