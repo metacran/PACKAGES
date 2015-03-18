@@ -7408,8 +7408,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: decode
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.1.2)
+Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
@@ -11394,7 +11395,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fftwtools
-Version: 0.9-6
+Version: 0.9-7
 Depends: R (>= 2.15.2)
 Suggests: fftw
 License: GPL (>= 2)
@@ -12519,8 +12520,9 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: FuzzyStatProb
-Version: 1.0
-Depends: R (>= 2.15.0), MultinomialCI, parallel, FuzzyNumbers, DEoptim
+Version: 2.0
+Imports: MultinomialCI, parallel, FuzzyNumbers, DEoptim
+Suggests: markovchain, R.rsp
 License: LGPL (>= 3)
 NeedsCompilation: no
 
@@ -28450,13 +28452,13 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: psd
-Version: 0.4-1
-Depends: R (>= 2.14.1), stats, utils, graphics, grDevices, fftw (>=
-        1.0-3)
-Imports: RColorBrewer, signal, zoo
-Suggests: bspec, ggplot2 (>= 0.9), knitr, multitaper, plyr, RSEIS,
-        rbenchmark, reshape2
-License: GPL
+Version: 1.0-0
+Depends: R (>= 2.14.1), utils, stats, graphics, grDevices
+Imports: Rcpp (>= 0.11.5), RColorBrewer, signal, zoo
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: bspec, fftw (>= 1.0.3), ggplot2 (>= 0.9), knitr, multitaper,
+        plyr, RSEIS, rbenchmark, reshape2, testthat
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: psData
@@ -34503,7 +34505,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: saccades
-Version: 0.1
+Version: 0.1-1
 Depends: R (>= 2.10), zoom
 License: GPL-2
 NeedsCompilation: no
