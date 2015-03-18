@@ -1819,8 +1819,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: BatchExperiments
-Version: 1.4
-Depends: R (>= 2.15.0), BatchJobs (>= 1.5)
+Version: 1.4.1
+Depends: R (>= 2.15.0), BatchJobs (>= 1.6)
 Imports: checkmate (>= 1.5), BBmisc (>= 1.8), DBI, RSQLite (>= 1.0.0),
         plyr
 Suggests: randomForest, rpart, testthat
