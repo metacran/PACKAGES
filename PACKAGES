@@ -9265,6 +9265,12 @@ Imports: CHNOSZ
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: eco
+Version: 3.1-7
+Depends: R (>= 2.0), MASS, utils
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: ecodist
 Version: 1.2.9
 Depends: R (>= 3.0.0)
@@ -16939,6 +16945,14 @@ Version: 0.1
 Depends: R (>= 3.0.1)
 Imports: shiny, knitcitations, RCurl, mvtnorm, knitr
 License: GPL-2
+NeedsCompilation: no
+
+Package: Interatrix
+Version: 1.0
+Depends: R (>= 2.14)
+Imports: MASS, tcltk, tkrplot, tools
+Suggests: doParallel, foreach
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: interferenceCI
@@ -26178,12 +26192,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pcalg
-Version: 2.0-3
+Version: 2.0-10
 Depends: R (>= 3.0.2)
 Imports: graphics, utils, methods, abind, graph, RBGL, igraph, ggm,
-        corpcor, robustbase, vcd, Rcpp
+        corpcor, robustbase, vcd, Rcpp, bdsmatrix, sfsmisc
 LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo, BH
-Suggests: MASS, Matrix, Rgraphviz, mvtnorm, sfsmisc
+Suggests: MASS, Matrix, Rgraphviz, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -32344,7 +32358,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rkt
-Version: 1.3
+Version: 1.4
 License: GPL-2
 NeedsCompilation: no
 
