@@ -1454,7 +1454,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: astrochron
-Version: 0.4.1
+Version: 0.4.2
 Imports: multitaper, IDPmisc, fields
 License: GPL-3
 NeedsCompilation: yes
@@ -4739,7 +4739,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.5.1
+Version: 1.5.2
 Depends: R (>= 2.15.0)
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
@@ -8082,8 +8082,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: directPA
-Version: 1.0
-Suggests: rgl
+Version: 1.1
+Depends: R (>= 2.10.0), rgl, calibrate
 License: GPL-3
 NeedsCompilation: no
 
@@ -12851,6 +12851,12 @@ Suggests: dplyr, gdata, ggplot2, tidyr, testthat
 License: CC0
 NeedsCompilation: no
 
+Package: GAR
+Version: 1.0
+Depends: httr, jsonlite
+License: GPL-2
+NeedsCompilation: no
+
 Package: gaselect
 Version: 1.0.5
 Depends: R (>= 3.0.2), methods (>= 2.10.0)
@@ -13909,8 +13915,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: glmm
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.1.1), trust, mvtnorm, Matrix
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: yes
 
@@ -17545,6 +17552,14 @@ LinkingTo: Rcpp
 License: GPL-2
 NeedsCompilation: yes
 
+Package: james.analysis
+Version: 1.0.0
+Depends: R (>= 2.10), graphics (>= 2.15.3)
+Imports: rjson (>= 0.2.14), naturalsort (>= 0.1.2)
+Suggests: testthat (>= 0.9.1)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: JASPAR
 Version: 0.0.1
 Depends: R (>= 2.9.0), gtools
@@ -18737,7 +18752,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lessR
-Version: 3.2
+Version: 3.3
 Depends: R (>= 2.15.0)
 Imports: car, leaps, MBESS, foreign, gdata, triangle
 License: GPL (>= 2)
@@ -20029,6 +20044,12 @@ Depends: R (>= 3.00)
 Imports: ggplot2, stringi
 License: LGPL-3
 NeedsCompilation: no
+
+Package: mapfit
+Version: 0.9.6
+Depends: methods, Matrix
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: MapGAM
 Version: 0.7-4
@@ -26898,6 +26919,12 @@ Depends: ape, raster
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: phylocurve
+Version: 1.0.0
+Imports: ape, geiger, phytools, abind, phylolm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PHYLOGR
 Version: 1.0.8
 Depends: R(>= 1.8.1)
@@ -27988,6 +28015,12 @@ Package: pragma
 Version: 0.1.3
 Depends: R (>= 2.13.0), utils, methods
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: prais
+Version: 0.1.1
+Depends: base, stats
+License: GPL-2
 NeedsCompilation: no
 
 Package: praktikum
@@ -30870,7 +30903,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rdrobust
-Version: 0.70
+Version: 0.80
 Depends: R (>= 3.0.2)
 License: GPL-2
 NeedsCompilation: no
@@ -36168,7 +36201,7 @@ License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
 
 Package: simecol
-Version: 0.8-4
+Version: 0.8-6
 Depends: R (>= 2.14), deSolve, methods
 Suggests: tcltk, FME, lattice
 License: GPL (>= 2)
@@ -39478,6 +39511,14 @@ Suggests: plm (>= 1.0-1), MASS, sem (>= 2.0-0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: systemicrisk
+Version: 0.2
+Imports: Rcpp (>= 0.11.2), lpSolve
+LinkingTo: Rcpp
+Suggests: testthat, knitr
+License: GPL-3
+NeedsCompilation: yes
+
 Package: syuzhet
 Version: 0.2.0
 Imports: openNLP, NLP
@@ -41630,6 +41671,13 @@ Version: 0.2-1
 Depends: MASS, mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: VarSelLCM
+Version: 1.0
+Imports: methods, Rcpp (>= 0.11.1), parallel, mclust
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: varSelRF
 Version: 0.7-5
