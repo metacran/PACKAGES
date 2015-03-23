@@ -20083,7 +20083,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapmisc
-Version: 1.1.3
+Version: 1.2.0
 Depends: sp, raster, R (>= 3.0.0)
 Suggests: RColorBrewer, geonames, classInt, rgdal, knitr
 License: GPL
@@ -24475,6 +24475,13 @@ Depends: R (>= 2.6.0), MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: NPBayesImpute
+Version: 0.5
+Depends: methods, Rcpp (>= 0.10.2)
+LinkingTo: Rcpp
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: npbr
 Version: 1.0
 Depends: R (>= 2.9.1), splines, graphics, Rglpk, Benchmarking
@@ -25462,7 +25469,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: OutbreakTools
-Version: 0.1-12
+Version: 0.1-13
 Depends: R (>= 3.0.0), methods, ggplot2, network, knitr
 Imports: utils, RColorBrewer, ape, reshape2, sna, plyr, ggmap, scales,
         rjson, networkDynamic, RCurl
