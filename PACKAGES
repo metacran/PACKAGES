@@ -11653,8 +11653,8 @@ License: GPL
 NeedsCompilation: yes
 
 Package: fishmove
-Version: 0.2-1
-Depends: ggplot2, plyr
+Version: 0.3-1
+Depends: ggplot2, plyr, MASS, boot
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20062,7 +20062,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: mapfit
-Version: 0.9.6
+Version: 0.9.7
 Depends: methods, Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -31019,7 +31019,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: readstata13
-Version: 0.6
+Version: 0.6.1
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-2 | file LICENSE
@@ -31924,6 +31924,12 @@ Imports: methods, sp (>= 1.0-12)
 LinkingTo: sp
 Suggests: maptools (>= 0.8-5), testthat, XML
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: rgexf
+Version: 0.15.3
+Depends: XML, Rook, igraph
+License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: rggobi
@@ -33740,7 +33746,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rscala
-Version: 1.0.2
+Version: 1.0.4
 Imports: utils
 License: GPL (>= 2) | BSD_3_clause + file LICENSE
 NeedsCompilation: no
@@ -40815,6 +40821,13 @@ Package: treethresh
 Version: 0.1-8
 Depends: R (>= 2.10), EbayesThresh, wavethresh
 License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: trend
+Version: 0.0.1
+Depends: R (>= 2.12.0)
+Suggests: Kendall, zyp
+License: GPL-3
 NeedsCompilation: yes
 
 Package: TrialSize
