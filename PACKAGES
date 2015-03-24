@@ -1410,7 +1410,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: assertr
-Version: 0.4
+Version: 0.4.1
 Imports: dplyr,
 Suggests: knitr, testthat, magrittr
 License: MIT + file LICENSE
@@ -11128,9 +11128,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: FAwR
-Version: 1.0.1
-Depends: R (>= 2.10), MASS, lattice
-Suggests: glpk
+Version: 1.1.0
+Depends: R (>= 2.10), MASS, lattice, glpkAPI
 License: GPL-3
 NeedsCompilation: no
 
@@ -14226,7 +14225,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: goft
-Version: 1.0
+Version: 1.1
 Depends: stats, gPdtest, mvShapiroTest
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -17698,7 +17697,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: jomo
-Version: 0.1-2
+Version: 0.2-0
 Suggests: BaBooN
 License: GPL-2
 NeedsCompilation: yes
@@ -30173,7 +30172,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rcbalance
-Version: 1.3
+Version: 1.4
 Depends: R (>= 3.0.0), MASS, plyr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -30947,9 +30946,9 @@ License: CC0
 NeedsCompilation: no
 
 Package: RDS
-Version: 0.7
+Version: 0.7-1
 Depends: methods
-Imports: gridExtra, ggplot2, Hmisc, igraph, locfit, reshape2, scales
+Imports: gridExtra, ggplot2, Hmisc, igraph, reshape2, scales
 Suggests: isotone, network, survey, testthat
 License: LGPL-2.1
 NeedsCompilation: yes
@@ -33309,7 +33308,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RoughSets
-Version: 1.2-0
+Version: 1.2-1
 Depends: Rcpp
 LinkingTo: Rcpp
 Suggests: class
@@ -34087,6 +34086,14 @@ Package: rSymPy
 Version: 0.2-1.1
 Depends: rJython
 License: GPL
+NeedsCompilation: no
+
+Package: rtable
+Version: 0.1.0
+Depends: xtable, ReporteRs (>= 0.7.8)
+Imports: knitr, tidyr, shiny
+Suggests: dplyr
+License: GPL-3
 NeedsCompilation: no
 
 Package: rTableICC
@@ -38299,6 +38306,14 @@ Package: sspline
 Version: 0.1-6
 Depends: R (>= 2.10)
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: sspse
+Version: 0.5
+Depends: parallel
+Imports: coda
+Suggests: network, testthat
+License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: SSrat
