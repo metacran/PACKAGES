@@ -1402,9 +1402,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: assertive
-Version: 0.2-1
-Depends: R (>= 2.15.0)
-Imports: methods
+Version: 0.2-4
+Depends: R (>= 3.0.0)
+Imports: methods, knitr
 Suggests: testthat
 License: Unlimited
 NeedsCompilation: no
