@@ -36916,7 +36916,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.1-2
+Version: 1.2-0
 Depends: R (>= 2.15.3), methods, stats4
 Imports: mnormt, numDeriv
 License: GPL-2 | GPL-3
