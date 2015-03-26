@@ -24299,11 +24299,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.0)
-Imports: picante, raster, ape, sp, vegan
-Suggests: RColorBrewer, parallel, testthat
-License: GPL-2
+Imports: picante, raster, ape, sp, vegan, utils
+Suggests: RColorBrewer, parallel, testthat, fields, colorspace
+License: GPL-3
 NeedsCompilation: no
 
 Package: noia
@@ -39241,7 +39241,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: survsim
-Version: 1.1.2
+Version: 1.1.3
 Depends: R (>= 2.13.1), eha, statmod
 License: GPL (>= 2)
 NeedsCompilation: no
