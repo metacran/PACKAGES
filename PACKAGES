@@ -17779,8 +17779,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: KappaGUI
-Version: 1.1
-Depends: R (>= 2.4.1), tcltk, irr
+Version: 1.2
+Depends: R (>= 3.1.2), tcltk, irr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18039,6 +18039,12 @@ Package: kmlcov
 Version: 1.0.1
 Depends: methods
 License: GPL-2
+NeedsCompilation: no
+
+Package: kmodR
+Version: 0.1.0
+Suggests: testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: KMsurv
@@ -31519,9 +31525,10 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: repmis
-Version: 0.4
+Version: 0.4.2
 Depends: R (>= 3.0.0)
-Imports: data.table, digest, httr, plyr, R.cache, xlsx
+Imports: data.table, digest, httr, plyr, R.cache
+Suggests: xlsx
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -36074,8 +36081,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: shinyFiles
-Version: 0.5.0
-Imports: tools, shiny (>= 0.11), htmltools
+Version: 0.6.0
+Imports: tools, shiny (>= 0.11), htmltools, RJSONIO
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -40354,10 +40361,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: timeseriesdb
-Version: 0.1
-Depends: R (>= 3.0.0)
-Imports: DBI
-Suggests: RPostgreSQL
+Version: 0.2
+Depends: R (>= 3.0.0), RPostgreSQL, methods
+Imports: RJSONIO, xts, zoo, reshape2, shiny, DBI
 License: GPL-2
 NeedsCompilation: no
 
