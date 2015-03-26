@@ -6619,7 +6619,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Crossover
-Version: 0.1-13
+Version: 0.1-14
 Depends: R (>= 3.0.2), rJava (>= 0.8-3), CommonJavaJars (>= 1.0.5),
         JavaGD, ggplot2
 Imports: MASS, crossdes (>= 1.1-1), xtable, methods, Matrix, multcomp,
@@ -17017,7 +17017,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: interpretR
-Version: 0.2.0
+Version: 0.2.1
 Depends: randomForest
 Imports: AUC
 License: GPL (>= 2)
@@ -21555,10 +21555,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: miniCRAN
-Version: 0.1-1
-Imports: tools, XML, httr, igraph
-Suggests: testthat(>= 0.9), knitr
-License: Apache License (== 2.0)
+Version: 0.2.2
+Imports: tools, XML, httr, methods, utils
+Suggests: testthat(>= 0.9), knitr, igraph
+License: GPL-2
 NeedsCompilation: no
 
 Package: miniGUI
@@ -29305,7 +29305,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: quantspec
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 3.0.0), stats4
 Imports: methods, graphics, quantreg, abind, zoo, snowfall, Rcpp (>=
         0.11.0)
@@ -33147,8 +33147,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ROCR
-Version: 1.0-6
-Depends: R (>= 2.10), gplots, methods
+Version: 1.0-7
+Depends: gplots, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39090,8 +39090,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Surrogate
-Version: 0.1-4
+Version: 0.1-5
 Depends: MASS, nlme, msm, lme4
+Imports: rgl, lattice, latticeExtra
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -43065,7 +43066,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: zoib
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.2), rjags, coda, matrixcalc, Formula
 License: GPL (>= 2)
 NeedsCompilation: no
