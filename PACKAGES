@@ -4881,6 +4881,14 @@ Suggests: coin, survival
 License: GPL-3
 NeedsCompilation: no
 
+Package: chopthin
+Version: 0.1
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: yes
+
 Package: chords
 Version: 0.90
 Imports: MASS
@@ -7715,8 +7723,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: descomponer
-Version: 1.1
-Depends: taRifx
+Version: 1.2
+Depends: taRifx,R(>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20468,7 +20476,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MazamaSpatialUtils
-Version: 0.2.2
+Version: 0.2.3
 Depends: R (>= 3.1.0)
 Imports: dplyr, rgdal, rgeos, rvest, sp, stringr
 Suggests: ISOcodes, knitr, lubridate, maps, testthat
@@ -33629,7 +33637,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rr
-Version: 1.2
+Version: 1.3
 Depends: R (>= 3.0.0), utils
 Imports: MASS (>= 7.3), arm (>= 1.7-07), coda (>= 0.16-1)
 Suggests: testthat
