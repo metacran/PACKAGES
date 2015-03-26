@@ -11678,7 +11678,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fitbitScraper
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.0.0)
 Imports: httr, stringr, RJSONIO
 License: MIT + file LICENSE
@@ -17754,9 +17754,9 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.14
+Version: 0.9.15
 Depends: methods
-Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr, curl
+Suggests: curl (>= 0.5), plyr, testthat, knitr, rmarkdown, R.rsp
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
