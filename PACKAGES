@@ -13064,6 +13064,14 @@ Imports: sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: gdm
+Version: 1.0
+Depends: R (>= 2.15.2), Rcpp (>= 0.10.4), raster, reshape2, vegan
+Imports: plyr
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
 Package: gee
 Version: 4.13-18
 Depends: stats
@@ -15526,7 +15534,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: HiClimR
-Version: 1.1.6
+Version: 1.2.0
 Depends: R (>= 2.10)
 Enhances: stats
 License: GPL (>= 2)
@@ -40535,7 +40543,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: tmap
-Version: 0.6
+Version: 0.7
 Depends: R (>= 3.0)
 Imports: rgeos, grid, gridBase, sp, rgdal, classInt, RColorBrewer,
         igraph, fields, vegan
