@@ -19648,7 +19648,7 @@ License: LGPL-2
 NeedsCompilation: yes
 
 Package: LPStimeSeries
-Version: 1.0-4
+Version: 1.0-5
 Depends: R (>= 2.5.0)
 Imports: RColorBrewer
 License: GPL (>= 2)
