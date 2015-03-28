@@ -42508,8 +42508,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WGCNA
-Version: 1.43
-Depends: R (>= 2.14), dynamicTreeCut (>= 1.62), fastcluster
+Version: 1.46
+Depends: R (>= 3.0), dynamicTreeCut (>= 1.62), fastcluster
 Imports: stats, grDevices, utils, matrixStats (>= 0.8.1), Hmisc,
         impute, splines, foreach, doParallel, reshape, preprocessCore,
         survival, parallel, GO.db, AnnotationDbi
