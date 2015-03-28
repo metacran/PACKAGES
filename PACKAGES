@@ -10506,7 +10506,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: Exact
-Version: 1.4
+Version: 1.5
 License: GPL-2
 NeedsCompilation: no
 
@@ -37959,6 +37959,13 @@ Depends: R (>= 2.12), sp (>= 0.9), XML
 Suggests: rgdal (>= 0.8-8)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: spgs
+Version: 1.0
+Depends: R (>= 3.0)
+Enhances: seqinr
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: spgwr
 Version: 0.6-26
