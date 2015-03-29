@@ -22388,7 +22388,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MonetDB.R
-Version: 0.9.6
+Version: 0.9.7
 Depends: DBI (>= 0.3.1), digest (>= 0.6.4), methods, R (>= 3.1.1)
 Enhances: dplyr (>= 0.3.0)
 License: MPL (== 1.1)
