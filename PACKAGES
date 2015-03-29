@@ -8594,7 +8594,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: DoE.base
-Version: 0.26-3
+Version: 0.27
 Depends: R(>= 2.10.0), grid, conf.design
 Imports: stats, utils, graphics, vcd, combinat, MASS
 License: GPL (>= 2)
@@ -11828,6 +11828,13 @@ Package: flowfield
 Version: 1.0
 Suggests: SemiPar
 License: GPL-3
+NeedsCompilation: no
+
+Package: flowr
+Version: 0.9.6.5
+Depends: methods, stats, diagram
+Imports: knitr, ggplot2, RSQLite, reshape2
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: FLR
@@ -37275,7 +37282,7 @@ NeedsCompilation: no
 
 Package: SOMbrero
 Version: 1.0
-Depends: R (>= 3.0), knitr, igraph (>= 0.6)
+Depends: R (>= 3.1.0), knitr, igraph (>= 0.6)
 Imports: wordcloud, scatterplot3d, RColorBrewer, shiny
 License: GPL (>= 2)
 NeedsCompilation: no
