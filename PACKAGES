@@ -9830,7 +9830,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: empiricalFDR.DESeq2
-Version: 1.0
+Version: 1.0.1
 Depends: DESeq2,GenomicRanges
 License: GPL-3
 NeedsCompilation: no
@@ -12038,8 +12038,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: formatR
-Version: 1.0
-Suggests: codetools, shiny, testit, knitr
+Version: 1.1
+Suggests: codetools, shiny, testit, knitr (>= 1.9)
 License: GPL
 NeedsCompilation: no
 
@@ -13728,11 +13728,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggRandomForests
-Version: 1.1.3
+Version: 1.1.4
 Depends: R (>= 3.1.0)
 Imports: randomForestSRC (>= 1.5.5), ggplot2, survival, parallel,
-        dplyr, reshape2
-Suggests: testthat, knitr, RColorBrewer, xtable, MASS, plot3D
+        reshape2
+Suggests: testthat, knitr, RColorBrewer, MASS, dplyr, plot3D
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -15646,7 +15646,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: highr
-Version: 0.4
+Version: 0.4.1
 Suggests: knitr, testit
 License: GPL
 NeedsCompilation: no
@@ -21564,9 +21564,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mime
-Version: 0.2
+Version: 0.3
 Imports: tools
-License: GPL
+License: GPL-2
 NeedsCompilation: yes
 
 Package: MImix
@@ -21668,12 +21668,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mirt
-Version: 1.8
+Version: 1.9
 Depends: R (>= 2.15), stats4, lattice, methods
 Imports: GPArotation, Rcpp, sfsmisc, numDeriv
 LinkingTo: Rcpp
-Suggests: testthat, boot, latticeExtra, shiny, knitr, parallel, Rsolnp,
-        alabama, sirt, mirtCAT
+Suggests: testthat, boot, latticeExtra, directlabels, shiny, knitr,
+        parallel, Rsolnp, alabama, sirt, mirtCAT
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -30901,9 +30901,9 @@ License: BSD
 NeedsCompilation: yes
 
 Package: Rd2roxygen
-Version: 1.5
-Imports: roxygen2 (>= 3.1.0), formatR (>= 1.0)
-Suggests: knitr (> 1.5)
+Version: 1.6
+Imports: roxygen2 (>= 4.0.0), formatR (>= 1.0)
+Suggests: knitr (>= 1.9), rmarkdown
 License: GPL
 NeedsCompilation: no
 
