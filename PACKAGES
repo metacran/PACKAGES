@@ -28590,7 +28590,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pscl
-Version: 1.4.8
+Version: 1.4.9
 Depends: MASS, lattice
 Suggests: MCMCpack, car, lmtest, sandwich, zoo, coda, vcd, mvtnorm,
         mgcv
@@ -37005,8 +37005,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: snht
-Version: 1.0.1
+Version: 1.0.2
+Depends: ggplot2, gridExtra
 Imports: mgcv, zoo, plyr, reshape
+Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
