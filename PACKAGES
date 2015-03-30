@@ -12410,10 +12410,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ftsa
-Version: 4.2
+Version: 4.3
 Depends: R (>= 3.0.2), forecast, rainbow
-Imports: colorspace, MASS, pcaPP, R2jags
-Suggests: fds
+Imports: colorspace, MASS, pcaPP
+Suggests: fds, R2jags
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18522,7 +18522,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: lattice
-Version: 0.20-30
+Version: 0.20-31
 Priority: recommended
 Depends: R (>= 2.15.1)
 Imports: grid, grDevices, graphics, stats, utils
