@@ -6021,6 +6021,12 @@ Suggests: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ConSpline
+Version: 1.0
+Depends: graphics, grDevices, stats, utils, coneproj
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: constrainedKriging
 Version: 0.2.3
 Depends: R (>= 2.9.0), sp(>= 0.9-60), spatialCovariance(>= 0.6-4),
@@ -34698,10 +34704,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sadists
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
-Suggests: testthat, ggplot2, knitr
+Suggests: testthat, ggplot2, xtable, knitr
 License: LGPL-3
 NeedsCompilation: no
 
