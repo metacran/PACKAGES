@@ -9310,7 +9310,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ecoengine
-Version: 1.9
+Version: 1.9.1
 Depends: R (>= 3.1.1)
 Imports: httr (>= 0.3), plyr, assertthat, whisker, dplyr (>= 0.2),
         jsonlite, lubridate, leafletR (>= 0.1-1)
@@ -13934,7 +13934,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: glinternet
-Version: 0.9.0
+Version: 1.0.0
 Suggests: ggplot2
 License: GPL-2
 NeedsCompilation: yes
@@ -32246,9 +32246,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RIGHT
-Version: 0.1.2
-Imports: shiny
-Suggests: testthat, ggplot2
+Version: 0.2.0
+Depends: ggplot2
+Imports: plyr, rjson, shiny
+Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -35895,8 +35896,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: servr
-Version: 0.1
-Imports: httpuv
+Version: 0.2
+Depends: R (>= 3.0.0)
+Imports: mime (>= 0.2), httpuv (>= 1.3.2), jsonlite
+Suggests: tools, knitr (>= 1.9), rmarkdown
 License: GPL
 NeedsCompilation: no
 
@@ -38637,7 +38640,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: statmod
-Version: 1.4.20
+Version: 1.4.21
 Depends: R (>= 1.6.1)
 Suggests: MASS, tweedie
 License: GPL-2 | GPL-3
@@ -41321,6 +41324,12 @@ Suggests: zoo, tseries, tfplot
 License: GPL-2
 NeedsCompilation: no
 
+Package: TSPred
+Version: 1.0
+Depends: forecast, stats
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: TSsql
 Version: 2014.4-1
 Depends: R (>= 2.8.0)
@@ -41960,7 +41969,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VdgRsm
-Version: 1.4
+Version: 1.5
 Depends: R (>= 3.1.2)
 Imports: permute, AlgDesign
 Suggests: akima
