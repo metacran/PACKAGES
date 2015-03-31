@@ -1933,10 +1933,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayesGDS
-Version: 0.6.0
-Depends: R (>= 3.0.2), Matrix (>= 1.1.0), compiler
-Suggests: sparseHessianFD(>= 0.1.1), sparseMVN(>= 0.1.0), mvtnorm,
-        trustOptim (>= 0.8.3), plyr (>= 1.8)
+Version: 0.6.1
+Depends: R (>= 3.1.2), Matrix (>= 1.1.5)
+Suggests: sparseHessianFD(>= 0.2.0), sparseMVN(>= 0.2.0), mvtnorm,
+        trustOptim (>= 0.8.5), plyr (>= 1.8), dplyr, testthat, knitr,
+        R.rsp, MCMCpack
 License: MPL (== 2.0)
 NeedsCompilation: no
 
@@ -7117,7 +7118,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: DatABEL
-Version: 0.9-5
+Version: 0.9-6
 Depends: R (>= 2.4.0), methods, utils
 Suggests: GenABEL, RUnit
 License: GPL (>= 2)
@@ -15001,6 +15002,14 @@ LinkingTo: Rcpp, BH
 Suggests: adaptMCMC (>= 1.1)
 License: GPL-3
 NeedsCompilation: yes
+
+Package: gvc
+Version: 0.2.0
+Depends: R (>= 2.10)
+Imports: decompr
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: no
 
 Package: gvcm.cat
 Version: 1.9
@@ -25502,6 +25511,12 @@ Imports: BB, BHH2
 Suggests: setRNG
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: orthogonalsplinebasis
+Version: 0.1.6
+Depends: methods, stats, graphics
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: orthopolynom
 Version: 1.0-5
@@ -36144,9 +36159,8 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: shinyBS
-Version: 0.20
-Depends: methods
-Imports: shiny (>= 0.8.0)
+Version: 0.61
+Imports: shiny (>= 0.11), htmltools
 License: GPL-3
 NeedsCompilation: no
 
