@@ -21580,9 +21580,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MIICD
-Version: 2.0
-Depends: R (>= 3.0.0)
-Imports: survival, riskRegression, MASS
+Version: 2.1
+Depends: R (>= 2.13.0)
+Imports: survival, MASS, mstate
 License: GPL-3
 NeedsCompilation: no
 
@@ -29404,9 +29404,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: questionr
-Version: 0.4.2
+Version: 0.4.3
 Depends: R (>= 2.10)
-Imports: shiny (>= 0.10), highr, classInt, htmltools
+Imports: shiny (>= 0.11), highr, classInt, htmltools
 Suggests: memisc, testthat, roxygen2, R2HTML
 License: GPL (>= 2)
 NeedsCompilation: no
