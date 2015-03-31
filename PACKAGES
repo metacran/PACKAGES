@@ -21265,7 +21265,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MethComp
-Version: 1.22.1
+Version: 1.22.2
 Depends: R (>= 3.0.0), nlme
 Suggests: R2WinBUGS, BRugs, rjags, coda, lattice, lme4
 License: GPL (>= 2)
