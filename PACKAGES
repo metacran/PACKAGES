@@ -13370,7 +13370,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GenSA
-Version: 1.1.4
+Version: 1.1.5
 Depends: R (>= 2.12.0)
 License: GPL-2
 NeedsCompilation: yes
@@ -41197,9 +41197,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSdist
-Version: 1.2
+Version: 2.1
 Depends: R (>= 3.0.3), stats, proxy
-Imports: zoo, xts
+Imports: zoo, xts, dtw, TSclust, KernSmooth, locpol, pdc,
+        longitudinalData, cluster
 License: GPL (>= 2)
 NeedsCompilation: yes
 
