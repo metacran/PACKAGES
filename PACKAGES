@@ -32791,6 +32791,12 @@ Suggests: RUnit, knitr
 License: Apache License 2.0
 NeedsCompilation: yes
 
+Package: Rmonkey
+Version: 0.2.11
+Imports: RCurl, httr, jsonlite, plyr
+License: GPL-2
+NeedsCompilation: no
+
 Package: Rmosek
 Version: 1.2.5.1
 Depends: R(>= 2.10.0), Matrix(>= 0.9996875-3)
