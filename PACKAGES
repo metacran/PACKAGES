@@ -13373,7 +13373,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GenOrd
-Version: 1.2.0
+Version: 1.3.0
 Depends: mvtnorm, Matrix, MASS
 License: GPL
 NeedsCompilation: no
