@@ -4135,9 +4135,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CARBayes
-Version: 4.0
-Depends: R (>= 2.10.0), MASS, Rcpp (>= 0.10.6)
-Imports: truncdist, spam, coda, sp
+Version: 4.1
+Depends: MASS, R (>= 2.10.0), Rcpp (>= 0.10.6)
+Imports: CARBayesdata, coda, sp, spam, truncdist
 LinkingTo: Rcpp
 Suggests: boot, deldir, foreign, grid, maptools, Matrix, nlme,
         shapefiles, spdep, splines
@@ -11812,6 +11812,12 @@ Suggests: codetools, diptest, ellipse, gclus, glmnet, lme4 (>= 1.0),
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: FlexParamCurve
+Version: 1.5-2
+Depends: nlme
+License: GPL-2
+NeedsCompilation: no
+
 Package: flexsurv
 Version: 0.5
 Depends: survival
@@ -18083,6 +18089,12 @@ Depends: R (>= 2.14.0), graphics, survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: KMDA
+Version: 1.0
+Depends: R (>= 2.10)
+License: GNU General Public License
+NeedsCompilation: no
+
 Package: kmi
 Version: 0.5.1
 Depends: survival
@@ -18547,8 +18559,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: Laterality
-Version: 0.9.2
-Depends: ade4
+Version: 0.9.3
+Imports: ade4
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -27971,6 +27983,13 @@ Package: popsom
 Version: 2.3
 Imports: som, fields
 License: GPL
+NeedsCompilation: no
+
+Package: PopVar
+Version: 1.0
+Depends: R (>= 3.0.1), utils
+Imports: BGLR, qtl, rrBLUP
+License: GPL-3
 NeedsCompilation: no
 
 Package: portes
@@ -40519,7 +40538,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: TimeWarp
-Version: 1.0.11
+Version: 1.0.12
 Depends: R (>= 2.6)
 Suggests: scriptests, Holidays
 License: GPL
@@ -40828,7 +40847,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: track
-Version: 1.1.7
+Version: 1.1.8
 Depends: R (>= 2.1.0), methods
 Suggests: scriptests
 License: GPL
