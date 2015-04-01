@@ -3348,7 +3348,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Bmix
-Version: 0.4
+Version: 0.5
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -8023,6 +8023,12 @@ Suggests: ggplot2
 License: GPL-3
 NeedsCompilation: no
 
+Package: DiffCorr
+Version: 0.4.1
+Depends: pcaMethods, igraph, fdrtool, multtest
+License: GPL (> 3)
+NeedsCompilation: no
+
 Package: diffdepprop
 Version: 0.1-9
 Depends: gee, rootSolve, PropCIs
@@ -8362,7 +8368,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: distrom
-Version: 0.3-1
+Version: 0.3-2
 Depends: R (>= 2.15), Matrix, gamlr, parallel, methods
 Suggests: MASS, textir
 License: GPL-3
@@ -12786,7 +12792,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gamlr
-Version: 1.12-1
+Version: 1.13
 Depends: R (>= 2.15), Matrix
 Suggests: parallel
 License: GPL-3
@@ -20253,7 +20259,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: maptpx
-Version: 1.9-1
+Version: 1.9-2
 Depends: R (>= 2.10), slam
 Suggests: MASS
 License: GPL-3
@@ -20769,6 +20775,12 @@ Depends: R (>= 2.10.0)
 Suggests: xtable, Iso
 License: MIT + file LICENSE
 NeedsCompilation: yes
+
+Package: MCMC4Extremes
+Version: 1.0
+Depends: R (>= 3.0), evir
+License: GPL-2
+NeedsCompilation: no
 
 Package: MCMCglmm
 Version: 2.21
@@ -26777,7 +26789,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: PermAlgo
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -28276,7 +28288,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: preseqR
-Version: 1.1
+Version: 1.1.1
 License: GPL-3
 NeedsCompilation: yes
 
@@ -31052,7 +31064,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rdistance
-Version: 1.1
+Version: 1.2.1
 License: GNU General Public License
 NeedsCompilation: no
 
@@ -39634,6 +39646,14 @@ Imports: expm, HiddenMarkov
 License: GPL-3
 NeedsCompilation: no
 
+Package: SWMPr
+Version: 2.0.0
+Depends: R (>= 3.1.1), ggplot2, zoo
+Imports: data.table, httr, ggmap, gridExtra, maptools, oce, dplyr,
+        reshape2, tictoc, tidyr, wq, XML
+License: CC0
+NeedsCompilation: no
+
 Package: sybil
 Version: 1.2.6
 Depends: R (>= 2.14.2), Matrix, lattice
@@ -40247,7 +40267,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: textir
-Version: 2.0-2
+Version: 2.0-3
 Depends: R (>= 2.15), distrom, gamlr, Matrix
 Suggests: MASS
 License: GPL-3
