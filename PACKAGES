@@ -15692,6 +15692,14 @@ Depends: fastclime
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: HighDimOut
+Version: 1.0.0
+Depends: R (>= 3.0.1)
+Imports: foreach, DMwR, plyr, proxy, FNN, ggplot2
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: highfrequency
 Version: 0.4
 Depends: R (>= 2.12.0), xts, zoo
@@ -40358,6 +40366,12 @@ Version: 1.0-6
 Depends: R (>= 2.10.0)
 Suggests: dplyr, gdata, plyr
 License: GPL-3
+NeedsCompilation: no
+
+Package: Thermimage
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL-2
 NeedsCompilation: no
 
 Package: thermocouple
