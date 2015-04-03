@@ -32606,8 +32606,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RKEA
-Version: 0.0-5
-Imports: rJava (>= 0.6-3), tm
+Version: 0.0-6
+Imports: RKEAjars (>= 5.0-1), rJava (>= 0.6-3), tm
+License: GPL-2
+NeedsCompilation: no
+
+Package: RKEAjars
+Version: 5.0-1
+Imports: rJava (>= 0.6-3)
 License: GPL-2
 NeedsCompilation: no
 
