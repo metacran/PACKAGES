@@ -1205,7 +1205,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: arm
-Version: 1.7-07
+Version: 1.8-03
 Depends: R (>= 3.0.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
 Imports: abind, methods, coda, nlme
 License: GPL (>= 2)
@@ -40440,6 +40440,12 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: thsls
+Version: 0.1
+Imports: Formula
+License: GPL-3
+NeedsCompilation: no
+
 Package: tibbrConnector
 Version: 1.5.0-71
 Depends: RCurl, rjson
@@ -42885,9 +42891,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wq
-Version: 0.4-1
-Depends: methods, R (>= 3.0.0), zoo
-Suggests: ggplot2 (>= 0.9), grid, reshape2
+Version: 0.4.3
+Depends: R (>= 3.0.0), methods
+Imports: graphics, zoo, ggplot2 (>= 0.9), reshape2
 License: GPL-2
 NeedsCompilation: no
 
