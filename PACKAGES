@@ -12139,6 +12139,13 @@ Depends: sm,splines
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: fpCompare
+Version: 0.1.0
+Depends: R (>= 3.1.2)
+Suggests: knitr, testthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: FPDclustering
 Version: 1.0
 Depends: ThreeWay
@@ -15030,7 +15037,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUTS
-Version: 0.4.12
+Version: 0.4.14
 Depends: methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp, BH
 Suggests: adaptMCMC (>= 1.1)
@@ -36208,6 +36215,13 @@ Package: shapefiles
 Version: 0.7
 Depends: R (>= 1.6.0), foreign
 License: GPL
+NeedsCompilation: no
+
+Package: shapeR
+Version: 0.1-3
+Depends: R (>= 3.0.2)
+Imports: gplots, jpeg, pixmap, wavethresh, methods, vegan, MASS
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shapes
