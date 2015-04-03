@@ -9772,14 +9772,6 @@ Version: 0.3-1
 License: MIT
 NeedsCompilation: yes
 
-Package: EMDomics
-Version: 0.99.1
-Depends: R (>= 3.1.0)
-Imports: emdist, BiocParallel, matrixStats, ggplot2
-Suggests: knitr
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: emil
 Version: 1.1-6
 Suggests: caret, cmprsk, glmnet, Hmisc, MASS, party, pamr,
@@ -15567,6 +15559,12 @@ Version: 1.0-0
 Depends: R (>= 2.10), utils, Matrix, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: hgm
+Version: 1.11
+Depends: R (>= 2.6.0), deSolve
+License: GPL-2
+NeedsCompilation: yes
 
 Package: HGNChelper
 Version: 0.3.1
@@ -30243,12 +30241,6 @@ Version: 1.5
 Depends: R (>= 3.0.3), fmcsR, ChemmineR
 Imports: plyr, RCurl, gdata, KEGGREST, data.table, stringr
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: rbiouml
-Version: 1.5
-Depends: RCurl, RJSONIO
-License: GPL-2
 NeedsCompilation: no
 
 Package: rbison
