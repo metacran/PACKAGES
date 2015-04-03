@@ -22326,7 +22326,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mnormt
-Version: 1.5-1
+Version: 1.5-2
 Depends: R (>= 2.2.0)
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
@@ -31574,8 +31574,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: relSim
-Version: 0.1-47
-Depends: DNAtools
+Version: 0.2-0
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -41928,8 +41929,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: V8
-Version: 0.5
-Imports: Rcpp (>= 0.11.0), jsonlite (>= 0.9.14), curl (>= 0.5)
+Version: 0.6
+Imports: Rcpp (>= 0.11.5), jsonlite (>= 0.9.14), curl (>= 0.5), utils
 LinkingTo: Rcpp
 Suggests: knitr
 License: MIT + file LICENSE
