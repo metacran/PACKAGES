@@ -20505,7 +20505,7 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: Matrix
-Version: 1.1-5
+Version: 1.2-0
 Priority: recommended
 Depends: R (>= 2.15.2), methods
 Imports: graphics, grid, stats, utils, lattice
@@ -37546,6 +37546,13 @@ Suggests: SciencesPo
 Enhances: RecordLinkage
 License: AGPL-3
 NeedsCompilation: yes
+
+Package: SOUP
+Version: 1.1
+Depends: R (>= 3.0.0), methods, tensor
+Suggests: flip
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: source.gist
 Version: 1.0.0
