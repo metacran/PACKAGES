@@ -9500,7 +9500,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: EFDR
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0)
 Imports: Matrix, foreach (>= 1.4.2), doParallel (>= 1.0.8), waveslim
         (>= 1.7.5), parallel, gstat (>= 1.0-19), tidyr (>= 0.1.0.9000),
@@ -17479,7 +17479,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: ISOcodes
-Version: 2015.01.24
+Version: 2015.04.04
 Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: no
@@ -18653,7 +18653,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: lavaan
-Version: 0.5-17
+Version: 0.5-18
 Depends: R(>= 2.14.0), methods
 Imports: stats4, stats, graphics, MASS, mnormt, pbivnorm, quadprog
 Suggests: lavaan.survey, semPlot, semTools, simsem
