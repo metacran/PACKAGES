@@ -6708,6 +6708,14 @@ Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: crunch
+Version: 1.0.2
+Depends: R (>= 3.0.0)
+Imports: httr, RJSONIO, methods, RCurl
+Suggests: knitr, testthat
+License: LGPL (>= 3)
+NeedsCompilation: no
+
 Package: CrypticIBDcheck
 Version: 0.3-1
 Depends: R (>= 2.14.0), rJPSGCS (>= 0.2-5), car (>= 2.0-9), ellipse (>=
@@ -40618,7 +40626,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: timeseriesdb
-Version: 0.2
+Version: 0.2.1
 Depends: R (>= 3.0.0), RPostgreSQL, methods
 Imports: RJSONIO, xts, zoo, reshape2, shiny, DBI
 License: GPL-2
