@@ -18479,7 +18479,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: LakeMetabolizer
-Version: 1.1
+Version: 1.3.1
 Depends: R (>= 2.15.0), rLakeAnalyzer (>= 1.4)
 Imports: plyr
 Suggests: R2jags
@@ -18769,8 +18769,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: lctools
-Version: 0.1-3
+Version: 0.2
 Depends: R (>= 3.1.1), reshape (>= 0.8.5), weights (>= 0.80)
+Suggests: knitr, rgdal, sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32666,7 +32667,7 @@ License: Apache License 2.0
 NeedsCompilation: yes
 
 Package: rLakeAnalyzer
-Version: 1.4
+Version: 1.7.3
 Imports: plyr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -43358,6 +43359,13 @@ Suggests: coda, chron, DAAG, fts, its, ggplot2, mondate, scales,
         strucchange, timeDate, timeSeries, tis, tseries, xts
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
+
+Package: zooaRch
+Version: 1.0
+Depends: ggplot2
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: zooimage
 Version: 3.0-5
