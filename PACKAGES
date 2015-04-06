@@ -19756,7 +19756,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: lpSolve
-Version: 5.6.10
+Version: 5.6.11
 License: LGPL-2
 NeedsCompilation: yes
 
@@ -28818,6 +28818,13 @@ Depends: R (>= 2.0.0), stats, graphics
 License: Unlimited
 NeedsCompilation: yes
 
+Package: pssm
+Version: 1.0
+Depends: methods
+Imports: MASS, abind, numDeriv, MHadaptive
+License: GPL-2
+NeedsCompilation: no
+
 Package: PST
 Version: 0.86
 Depends: R (>= 2.10), TraMineR, RColorBrewer
@@ -34260,7 +34267,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rstudioapi
-Version: 0.2
+Version: 0.3.1
 License: MIT + file LICENSE
 NeedsCompilation: no
 
