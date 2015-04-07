@@ -1205,9 +1205,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: arm
-Version: 1.8-03
-Depends: R (>= 3.0.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
-Imports: abind, methods, coda, nlme
+Version: 1.8-4
+Depends: R (>= 3.1.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
+Imports: abind, coda, methods, nlme
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9066,7 +9066,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dygraphs
-Version: 0.4.2
+Version: 0.4.3
 Depends: R (>= 3.0)
 Imports: magrittr, htmlwidgets (>= 0.3.2), zoo (>= 1.7-10), xts (>=
         0.9-7)
@@ -15489,6 +15489,13 @@ Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 License: GPL-3
 NeedsCompilation: no
 
+Package: HelpersMG
+Version: 1.0
+Depends: coda, R (>= 2.14.0)
+Suggests: RNetCDF, ncdf4, ncdf, maps, XML
+License: GPL-2
+NeedsCompilation: no
+
 Package: helsinki
 Version: 0.9.24
 Depends: R (>= 3.1.0), maptools, RCurl
@@ -21527,10 +21534,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mi
-Version: 0.10-1
-Depends: arm (>= 1.8-03)
+Version: 0.10-2
+Depends: arm (>= 1.8-4)
 Imports: abind, car, foreign, lme4 (>= 0.999999-2), MASS, Matrix (>=
-        1.0), methods, nnet, stats, R2WinBUGS
+        1.0), methods, nnet, stats, R2WinBUGS, nlme
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29455,6 +29462,17 @@ Depends: R (>= 2.0), MASS, outliers
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: quanteda
+Version: 0.7.2
+Depends: R (>= 3.0)
+Imports: methods, Matrix (>= 1.1), data.table (>= 1.9.3), SnowballC,
+        wordcloud, proxy, Rcpp, ca
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: knitr, lda, topicmodels, jsonlite (>= 0.9.10), streamR, tm,
+        slam, ggplot2
+License: GPL-3
+NeedsCompilation: yes
+
 Package: quantification
 Version: 0.1.0
 Depends: car
@@ -29827,7 +29845,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RAdwords
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.1.3)
 Imports: RCurl, rjson
 License: MIT + file LICENSE
@@ -31527,7 +31545,7 @@ License_restricts_use: yes
 NeedsCompilation: no
 
 Package: rehh
-Version: 1.11
+Version: 1.12
 Depends: R (>= 2.10), gplots, methods
 License: GPL (>= 2)
 NeedsCompilation: yes
