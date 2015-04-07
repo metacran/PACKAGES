@@ -14486,7 +14486,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: gProfileR
-Version: 0.5
+Version: 0.5.3
 Depends: R (>= 2.10)
 Imports: RCurl, plyr
 License: GPL (>= 2)
@@ -18654,7 +18654,7 @@ NeedsCompilation: no
 
 Package: lavaan
 Version: 0.5-18
-Depends: R(>= 2.14.0), methods
+Depends: R(>= 3.1.0), methods
 Imports: stats4, stats, graphics, MASS, mnormt, pbivnorm, quadprog
 Suggests: lavaan.survey, semPlot, semTools, simsem
 License: GPL (>= 2)
