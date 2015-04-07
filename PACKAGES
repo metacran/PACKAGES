@@ -27173,7 +27173,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PhyloMeasures
-Version: 1.0
+Version: 1.1
 Imports: ape
 License: GPL-3
 NeedsCompilation: yes
@@ -35570,10 +35570,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: searchable
-Version: 0.1.2
-Depends: R (>= 3.0.2)
-Imports: methods, stringr (>= 0.6.2)
-Suggests: testthat, magrittr
+Version: 0.3.3.1
+Depends: R (>= 3.1.0)
+Imports: methods, magrittr(>= 1.5), stringi(>= 0.4.1)
+Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -37388,8 +37388,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: softImpute
-Version: 1.0
+Version: 1.4
 Depends: Matrix, methods
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: yes
 
@@ -41201,10 +41202,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TriMatch
-Version: 0.9.1
+Version: 0.9.4
 Depends: ggplot2, scales, reshape2, ez, R (>= 3.0)
-Imports: psych, stats, PSAgraphics, compiler
-Suggests: MASS, gridExtra, xtable
+Imports: psych, stats, PSAgraphics, compiler, grid, gridExtra
+Suggests: MASS, xtable
 License: GPL (>= 2)
 NeedsCompilation: no
 
