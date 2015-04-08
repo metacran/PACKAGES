@@ -14081,9 +14081,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: glmnet
-Version: 1.9-8
-Depends: Matrix (>= 1.0-6), utils
-Suggests: survival, foreach
+Version: 2.0-1
+Depends: Matrix (>= 1.0-6), utils, foreach
+Suggests: survival, knitr, doMC, lars
 License: GPL-2
 NeedsCompilation: yes
 
@@ -25857,6 +25857,14 @@ Depends: R (>= 2.10.0), grid
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: pairsD3
+Version: 0.0.6
+Depends: R (>= 3.1.2)
+Imports: htmlwidgets (>= 0.3.2), shiny
+Suggests: knitr
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: PairViz
 Version: 1.2.1
 Depends: TSP, gtools,graph,methods
@@ -26171,12 +26179,13 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: partykit
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 3.1.0), graphics, grid
 Imports: stats, survival
-Suggests: XML, pmml, rJava, rpart, mvtnorm, Formula, sandwich,
-        strucchange, vcd, AER, mlbench, TH.data (>= 1.0-3), coin, RWeka
-        (>= 0.4-19), datasets, parallel, psychotools, psychotree
+Suggests: XML, pmml, rJava, rpart, mvtnorm, Formula (>= 1.2-1),
+        sandwich, strucchange, vcd, AER, mlbench, TH.data (>= 1.0-3),
+        coin, RWeka (>= 0.4-19), datasets, parallel, psychotools,
+        psychotree
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
@@ -26744,7 +26753,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pendensity
-Version: 0.2.7
+Version: 0.2.8
 Depends: R (>= 2.15.1), lattice, fda
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -31157,8 +31166,8 @@ License: GNU General Public License
 NeedsCompilation: no
 
 Package: RDML
-Version: 0.8-2
-Imports: R6, assertthat, XML, uuid, plyr, dplyr
+Version: 0.8-3
+Imports: R6, assertthat, XML, plyr, dplyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31924,6 +31933,13 @@ Imports: foreign, RImageJROI, png, ttutils, sp, geometry (>= 0.2-1),
 Suggests: testthat, gWidgetsRGtk2, gWidgets, cairoDevice
 License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
+
+Package: retrosheet
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: RCurl (>= 1.95-4.5), XML (>= 3.98-1.1), data.table(>= 1.9.4)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: reutils
 Version: 0.1.2
@@ -34799,9 +34815,9 @@ License: CeCILL-2
 NeedsCompilation: no
 
 Package: RxnSim
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 2.5.0)
-Imports: rJava, fingerprint, rcdk (>= 3.3.2)
+Imports: rJava, fingerprint, data.table, rcdk (>= 3.3.2)
 License: GPL
 NeedsCompilation: no
 
@@ -43065,9 +43081,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wux
-Version: 1.2-3
+Version: 2.0-0
 Depends: sp, ncdf, reshape, abind, fields
-Imports: rgdal, rgeos, class, stringr, Hmisc, gdata, corpcor
+Imports: rgdal, rgeos, class, stringr, Hmisc, gdata, corpcor, rworldmap
 Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: no
