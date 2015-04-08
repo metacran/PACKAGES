@@ -15476,7 +15476,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: heatmap3
-Version: 1.0.7
+Version: 1.1.1
 Imports: fastcluster
 Suggests: knitr
 License: GPL (>= 2)
