@@ -10318,6 +10318,14 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: esaBcv
+Version: 1.0.1
+Depends: R (>= 3.1.3)
+Imports: corpcor, svd
+Suggests: MASS
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ESEA
 Version: 1.0
 Depends: R (>= 2.10),igraph,XML,parmigene
@@ -23714,9 +23722,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.1.2
+Version: 1.2
 Depends: R (>= 3.1.0)
-Imports: Rcpp, Matrix, missForest
+Imports: Rcpp, missForest
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -23727,7 +23735,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: nanop
-Version: 2.0-4
+Version: 2.0-5
 Imports: distrEx, rgl
 Suggests: DEoptim, mco
 License: GPL (>= 2)
@@ -23886,10 +23894,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NCmisc
-Version: 1.1.3
+Version: 1.1.4
 Depends: R (>= 2.10), grDevices, graphics, stats, utils
-Imports: tools, proftools, BiocInstaller
-Suggests: KernSmooth
+Imports: tools, proftools, dplyr
+Suggests: KernSmooth, BiocInstaller, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26979,9 +26987,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: phangorn
-Version: 1.99-12
+Version: 1.99-13
 Depends: R (>= 3.0.0), ape (>= 3.2)
-Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch, parallel, nnls
+Imports: quadprog, igraph (>= 0.6), Matrix, parallel, nnls
 Suggests: seqLogo, seqinr, xtable, flashClust, rgl, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -41550,8 +41558,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSPred
-Version: 1.0
-Depends: forecast, stats
+Version: 2.0
+Depends: R (>= 2.10), forecast, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
