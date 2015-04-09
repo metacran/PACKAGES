@@ -14756,6 +14756,11 @@ Depends: R(>= 2.0.0), MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: groupRemMap
+Version: 0.1-0
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: GroupSeq
 Version: 1.3.2
 Suggests: tcltk
@@ -17423,10 +17428,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: isa2
-Version: 0.3.3
+Version: 0.3.4
 Depends: methods
-Suggests: igraph (>= 0.5.5), biclust, lattice
-License: CC BY-NC-SA 3.0
+Imports: lattice
+Suggests: igraph (>= 0.5.5), biclust
+License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: ISBF
@@ -27080,6 +27086,12 @@ Suggests: RankProd
 License: GPL-3
 NeedsCompilation: no
 
+Package: phenology
+Version: 4.1
+Depends: fields, zoo, coda, HelpersMG, shiny, R (>= 2.14.0)
+License: GPL-2
+NeedsCompilation: no
+
 Package: PHeval
 Version: 0.5.2
 Depends: R (>= 1.8.0), survival, graphics, splines
@@ -31295,6 +31307,15 @@ Depends: XML
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
 NeedsCompilation: no
+
+Package: readr
+Version: 0.1.0
+Depends: R (>= 3.0.2)
+Imports: Rcpp (>= 0.11.5), curl
+LinkingTo: Rcpp, BH
+Suggests: testthat, knitr, DiagrammeR
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: readstata13
 Version: 0.6.1
