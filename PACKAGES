@@ -10729,8 +10729,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: expsmooth
-Version: 2.02
-Depends: R (>= 2.0.0), graphics, stats, tseries, forecast
+Version: 2.3
+Depends: R (>= 2.0.0), forecast
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16820,10 +16820,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: igraphdata
-Version: 0.2
+Version: 0.2.2
 Depends: R (>= 2.10)
 Suggests: igraph
-License: CC BY-SA 2.0 + file LICENSE
+License: CC BY-SA 4.0 + file LICENSE
 NeedsCompilation: no
 
 Package: igraphtosonia
