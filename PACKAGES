@@ -20834,9 +20834,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mclust
-Version: 4.4
-Depends: R (>= 2.15), stats, utils
-Suggests: mix
+Version: 5.0.0
+Depends: R (>= 3.0), stats, utils
+Suggests: knitr (>= 1.8), markdown (>= 0.7), mix
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -31291,7 +31291,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: reader
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 2.10), utils, NCmisc (>= 1.1)
 Imports: grDevices, graphics, stats
 License: GPL (>= 2)
