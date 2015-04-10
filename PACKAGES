@@ -1961,6 +1961,13 @@ Depends: R (>= 2.12.1), mvtnorm, betareg
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: BayesLCA
+Version: 1.7
+Depends: e1071, coda
+Imports: fields, nlme, MCMCpack
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: bayesLife
 Version: 2.2-0
 Depends: bayesTFR (>= 4.1-2)
@@ -5544,7 +5551,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cocor
-Version: 1.1-0
+Version: 1.1-1
 Depends: methods
 Suggests: testthat
 Enhances: RKWard
@@ -7222,6 +7229,14 @@ Suggests: ggplot2 (>= 0.9.0), plyr, reshape, testthat (>= 0.4), hexbin,
         fastmatch, nlme, xts, bit64
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: data.tree
+Version: 0.1.6
+Depends: R (>= 3.0)
+Imports: R6
+Suggests: testthat, magrittr, knitr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: datautils
 Version: 0.1.4
@@ -15022,7 +15037,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: gtools
-Version: 3.4.1
+Version: 3.4.2
 License: LGPL-2.1
 NeedsCompilation: yes
 
@@ -35573,7 +35588,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sdcTable
-Version: 0.17.1
+Version: 0.18.0
 Depends: stringr, methods, Rcpp (>= 0.11.0), Rglpk, lpSolveAPI,
         data.table
 LinkingTo: Rcpp
