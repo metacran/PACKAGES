@@ -2021,7 +2021,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bayesPop
-Version: 5.2-2
+Version: 5.3-4
 Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
 Imports: parallel, abind, plyr, wpp2012
 Suggests: rworldmap, fields, wpp2008, wpp2010
@@ -8239,7 +8239,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: discreteRV
-Version: 1.1.4
+Version: 1.2
+Depends: R (>= 3.0.2)
 Imports: plyr, MASS
 Suggests: testthat, roxygen2
 License: GPL-3
@@ -17946,7 +17947,7 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: jsonlite
-Version: 0.9.15
+Version: 0.9.16
 Depends: methods
 Suggests: curl (>= 0.5), plyr, testthat, knitr, rmarkdown, R.rsp
 License: MIT + file LICENSE
@@ -20049,8 +20050,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: lvm4net
-Version: 0.1
-Depends: R (>= 3.0.2), ergm, ellipse
+Version: 0.2
+Depends: R (>= 3.1.1), MASS, ergm, network, ellipse
 Imports: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21731,6 +21732,12 @@ Imports: survival, MASS, mstate
 License: GPL-3
 NeedsCompilation: no
 
+Package: MIIVsem
+Version: 0.1
+Depends: R (>= 3.1.2), lavaan
+License: GPL-2
+NeedsCompilation: no
+
 Package: MILC
 Version: 1.0
 License: GPL (>= 2)
@@ -22300,7 +22307,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mma
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 2.14.1), gbm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23088,7 +23095,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: msSurv
-Version: 1.2-1
+Version: 1.2-2
 Depends: R (>= 2.0), graph
 Imports: methods, class, lattice
 Suggests: KMsurv, Rgraphviz
@@ -23535,6 +23542,12 @@ Package: mvinfluence
 Version: 0.6
 Depends: car, heplots
 License: GPL-2
+NeedsCompilation: no
+
+Package: mvmesh
+Version: 1.0
+Depends: R (>= 3.0), rcdd, rgl
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvmeta
