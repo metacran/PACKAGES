@@ -6778,6 +6778,13 @@ Imports: mnormt
 License: GPL-2
 NeedsCompilation: no
 
+Package: csrplus
+Version: 1.03-0
+Depends: R (>= 3.0.2)
+Imports: sp
+License: GPL-2
+NeedsCompilation: no
+
 Package: CSS
 Version: 1.0.2
 Depends: XML, stringr
@@ -22861,7 +22868,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MPV
-Version: 1.35
+Version: 1.38
 Depends: R (>= 2.0.1)
 License: Unlimited
 NeedsCompilation: no
@@ -29643,7 +29650,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: queueing
-Version: 0.2.3
+Version: 0.2.4
 Depends: R (>= 2.11.1)
 License: GPL-2
 NeedsCompilation: no
@@ -31951,11 +31958,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: resample
-Version: 0.2
-Depends: R (>= 2.15.0)
+Version: 0.4
+Depends: R (>= 3.1.0), graphics, stats
 Suggests: splus2R
 License: BSD_3_clause + file LICENSE
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: resemble
 Version: 1.1.1
