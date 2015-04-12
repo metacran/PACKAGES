@@ -15101,11 +15101,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUTS
-Version: 0.4.14
-Depends: methods, Rcpp (>= 0.11.1)
+Version: 0.5.2
+Depends: R (>= 3.1.0), methods, Rcpp (>= 0.11.5)
 LinkingTo: Rcpp, BH
 Suggests: adaptMCMC (>= 1.1)
-License: GPL-3
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gvc
@@ -34673,10 +34673,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: runjags
-Version: 1.2.1-0
-Depends: R (>= 2.14)
-Imports: parallel, lattice (>= 0.20-10), coda (>= 0.16-1), stats, utils
-Suggests: rjags
+Version: 2.0.1-2
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
+Suggests: rjags, modeest, knitr
 License: GPL-2
 NeedsCompilation: yes
 
