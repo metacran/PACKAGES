@@ -14117,9 +14117,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: glmnet
-Version: 2.0-1
+Version: 2.0-2
 Depends: Matrix (>= 1.0-6), utils, foreach
-Suggests: survival, knitr, doMC, lars
+Suggests: survival, knitr, lars
 License: GPL-2
 NeedsCompilation: yes
 
@@ -35252,6 +35252,12 @@ Version: 1.5.0
 Depends: R (>= 2.4.0), chron, Hmisc
 License: GPL-2
 NeedsCompilation: yes
+
+Package: saturnin
+Version: 1.0
+Suggests: parallel
+License: GPL-2
+NeedsCompilation: no
 
 Package: SAVE
 Version: 1.0
