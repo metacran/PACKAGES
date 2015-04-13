@@ -15711,7 +15711,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: HiddenMarkov
-Version: 1.8-1
+Version: 1.8-3
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -29028,7 +29028,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: PtProcess
-Version: 3.3-7
+Version: 3.3-9
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
