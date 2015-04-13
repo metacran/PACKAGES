@@ -8889,10 +8889,9 @@ License: BSD
 NeedsCompilation: no
 
 Package: drc
-Version: 2.3-96
-Depends: R (>= 2.0.0), car, gtools, MASS, magic, methods, plotrix,
-        stats
-Imports: lattice, nlme, stats4
+Version: 2.5-11
+Depends: R (>= 2.0.0), MASS, stats
+Imports: car, gtools, multcomp, plotrix, scales
 License: GPL-2 | file LICENCE
 NeedsCompilation: no
 
@@ -21248,7 +21247,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: metacom
-Version: 1.4.2
+Version: 1.4.3
 Imports: devtools, vegan, lattice
 License: GPL-2
 NeedsCompilation: no
@@ -30026,7 +30025,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ramify
-Version: 0.1.0
+Version: 0.2.0
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32798,6 +32797,12 @@ Package: rJython
 Version: 0.0-4
 Depends: rJava (>= 0.8-1), rjson (>= 0.1.9)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: rkafka
+Version: 1.0
+Depends: rJava,RUnit,rkafkajars
+License: Apache License 2.0 | file LICENSE
 NeedsCompilation: no
 
 Package: rkafkajars
