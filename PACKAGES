@@ -17087,9 +17087,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: inline
-Version: 0.3.13
+Version: 0.3.14
 Depends: R (>= 2.4.0), methods
-Suggests: Rcpp (>= 0.8.0)
+Suggests: Rcpp (>= 0.11.0)
 License: LGPL
 NeedsCompilation: no
 
@@ -29724,9 +29724,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: R2admb
-Version: 0.7.10
+Version: 0.7.13
 Depends: R (>= 3.0.1)
-Suggests: bbmle, lattice, coda, lme4, ggplot2, testthat, knitr
+Imports: coda, lattice
+Suggests: bbmle, lme4, ggplot2, testthat, knitr
 License: GPL
 NeedsCompilation: no
 
