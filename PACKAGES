@@ -4092,10 +4092,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: cancerTiming
-Version: 2.0.0
+Version: 3.0.0
 Depends: R (>= 2.11.0)
-Imports: LearnBayes
-Suggests: GenomicRanges
+Imports: LearnBayes, gplots
+Suggests: GenomicRanges, IRanges
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -10492,7 +10492,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: evaluate
-Version: 0.5.5
+Version: 0.6
 Depends: R (>= 2.14.0)
 Imports: stringr (>= 0.6.2)
 Suggests: testthat, lattice, ggplot2
@@ -14245,10 +14245,11 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: GMCM
-Version: 1.1.1
+Version: 1.2
 Imports: Rcpp (>= 0.10.6)
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat (>= 0.3)
+Suggests: idr, Hmisc, RColorBrewer, foreach, jpeg, testthat (>= 0.3),
+        knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -15826,7 +15827,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: HiLMM
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -17290,8 +17291,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: InvariantCausalPrediction
-Version: 0.1-4
-Depends: glmnet, mboost
+Version: 0.3
+Depends: glmnet, mboost, jointDiag
 License: GPL
 NeedsCompilation: no
 
@@ -18470,6 +18471,11 @@ Version: 1.4
 Depends: R (>= 2.8.0), graphics, lattice, stats
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: L1pack
+Version: 0.3
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: l2boost
 Version: 1.0
@@ -23878,7 +23884,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NbClust
-Version: 2.0.4
+Version: 3.0
 Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
