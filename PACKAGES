@@ -13206,7 +13206,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: geeM
-Version: 0.7.2
+Version: 0.7.3
 Depends: Matrix
 Suggests: geepack
 License: GPL (>= 2)
@@ -19014,7 +19014,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lfe
-Version: 2.1-1640
+Version: 2.2-1699
 Depends: R (>= 2.15.2), Matrix (>= 1.1-2)
 Imports: Formula, xtable, compiler
 Suggests: knitr, igraph
@@ -37196,6 +37196,12 @@ Depends: proxy,tm
 License: BSD
 NeedsCompilation: no
 
+Package: smds
+Version: 1.0
+Depends: R (>= 1.8.0), MASS
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: sme
 Version: 0.8
 Depends: R (>= 2.15.2), splines, lattice, stats
@@ -39409,7 +39415,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: subselect
-Version: 0.12-4
+Version: 0.12-5
 Suggests: MASS, ISwR, corpcor
 License: GPL (>= 2)
 NeedsCompilation: yes
