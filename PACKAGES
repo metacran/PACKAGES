@@ -16501,12 +16501,6 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: hypred
-Version: 0.5
-Depends: R (>= 2.11.1), methods
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: hysteresis
 Version: 2.5
 Depends: car, msm, MASS
@@ -27064,6 +27058,13 @@ Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: PGRdup
+Version: 0.2
+Depends: R (>= 3.0.2)
+Imports: data.table (>= 1.9.3), igraph, stringdist (>= 0.5), stringi
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
+
 Package: pgs
 Version: 0.4-0
 Depends: methods, gsl, R2Cuba
@@ -31101,7 +31102,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppParallel
-Version: 4.3.6
+Version: 4.3.8
 Suggests: Rcpp, testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -41576,7 +41577,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSdist
-Version: 2.1
+Version: 2.2
 Depends: R (>= 3.0.3), stats, proxy
 Imports: zoo, xts, dtw, TSclust, KernSmooth, locpol, pdc,
         longitudinalData, cluster
