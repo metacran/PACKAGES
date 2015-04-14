@@ -6734,7 +6734,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: CRTSize
-Version: 0.4
+Version: 1.0
 Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8900,7 +8900,7 @@ License: BSD
 NeedsCompilation: no
 
 Package: drc
-Version: 2.5-11
+Version: 2.5-12
 Depends: R (>= 2.0.0), MASS, stats
 Imports: car, gtools, multcomp, plotrix, scales
 License: GPL-2 | file LICENCE
@@ -11901,10 +11901,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: flexsurv
-Version: 0.5
-Depends: survival
+Version: 0.6
+Depends: survival, R (>= 2.15.0)
 Imports: muhaz,mvtnorm,deSolve
-Suggests: eha,mstate,numDeriv,testthat,msm,ActuDistns
+Suggests:
+        eha,mstate,numDeriv,testthat,msm,ActuDistns,knitr,TH.data,colorspace
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17295,7 +17296,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: InvariantCausalPrediction
-Version: 0.3
+Version: 0.3-1
 Depends: glmnet, mboost, jointDiag
 License: GPL
 NeedsCompilation: no
@@ -25285,7 +25286,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: openair
-Version: 1.1-5
+Version: 1.5
 Depends: R (>= 2.15.1), lazyeval, dplyr, maps,
 Imports: utils, grid, plyr, reshape2, mgcv, lattice, latticeExtra,
         cluster, RColorBrewer, mapproj, hexbin, mapdata, RgoogleMaps,
@@ -31417,6 +31418,14 @@ LinkingTo: Rcpp
 License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
+Package: readxl
+Version: 0.1.0
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-3 + file LICENSE
+NeedsCompilation: yes
+
 Package: RealVAMS
 Version: 0.3-1
 Depends: R (>= 3.0.0), Matrix
@@ -36957,6 +36966,12 @@ NeedsCompilation: no
 Package: sitools
 Version: 1.4
 License: GPL-3
+NeedsCompilation: no
+
+Package: sivipm
+Version: 1.0-0
+Depends: methods, seqinr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SixSigma
