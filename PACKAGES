@@ -314,10 +314,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ade4
-Version: 1.6-2
+Version: 1.7-2
 Depends: R (>= 2.10)
+Imports: methods
 Suggests: waveslim, splancs, MASS, maptools, spdep, pixmap, ape,
-        deldir, ade4TkGUI
+        deldir, ade4TkGUI, adegraphics, sp, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -336,6 +337,15 @@ Suggests: genetics, spdep, tripack, pegas, seqinr, adehabitat,
         parallel, akima, maps, splancs, hierfstat
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: adegraphics
+Version: 1.0-1
+Depends: R (>= 3.0.2)
+Imports: ade4, grid, KernSmooth, lattice, methods, RColorBrewer, sp (>=
+        1.0-16)
+Suggests: Guerry, maptools, pixmap, spdep, splancs
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: adehabitat
 Version: 1.8.17
@@ -34748,7 +34758,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: Rvcg
-Version: 0.10.1
+Version: 0.11
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
