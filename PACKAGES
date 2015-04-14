@@ -7803,7 +7803,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: descr
-Version: 1.0.4
+Version: 1.1
 Imports: xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -8705,7 +8705,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: domino
-Version: 0.2-1
+Version: 0.2-5
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -9068,7 +9068,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dummy
-Version: 0.1.0
+Version: 0.1.2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9612,7 +9612,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EGRET
-Version: 2.1.1
+Version: 2.2.0
 Depends: R (>= 3.0)
 Imports: dataRetrieval (>= 2.0.1), survival, fields, stats, lubridate,
         methods
@@ -12864,7 +12864,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gamlr
-Version: 1.13
+Version: 1.13-1
 Depends: R (>= 2.15), Matrix
 Suggests: parallel
 License: GPL-3
@@ -20041,9 +20041,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lucid
-Version: 1.1
+Version: 1.2
 Imports: nlme
-Suggests: knitr, lattice, lme4
+Suggests: knitr, lattice, lme4, rjags
 License: GPL-2
 NeedsCompilation: no
 
@@ -21943,8 +21943,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MissMech
-Version: 1.0.1
-Suggests: imputation
+Version: 1.0.2
+Imports: graphics
 License: GPL (>= 2)
 NeedsCompilation: no
 
