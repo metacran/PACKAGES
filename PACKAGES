@@ -1018,6 +1018,14 @@ Suggests: gee, expm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: apex
+Version: 1.0.0
+Depends: R (>= 3.1.3), methods, ape, phangorn
+Imports: adegenet
+Suggests: testthat, knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: aplore3
 Version: 0.7
 Depends: R (>= 3.1.1)
@@ -3305,6 +3313,13 @@ Suggests: sna, Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: blockmodels
+Version: 1.0.4
+Depends: Rcpp (>= 0.10.6), parallel, methods, digest
+LinkingTo: Rcpp, RcppArmadillo
+License: LGPL-2.1
+NeedsCompilation: yes
+
 Package: blockrand
 Version: 1.3
 License: GPL-2
@@ -3666,6 +3681,13 @@ Version: 1.2.2
 License: MIT + file LICENSE
 License_is_FOSS: yes
 License_restricts_use: no
+NeedsCompilation: no
+
+Package: boxr
+Version: 0.2.5
+Imports: httr, httpuv, assertthat, stringr, dplyr, digest, jsonlite
+Suggests: testthat, knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: bpca
@@ -5561,7 +5583,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CoClust
-Version: 0.3-0
+Version: 0.3-1
 Depends: R (>= 2.15.1), methods, copula
 Imports: gtools
 License: GPL (>= 2)
@@ -5670,7 +5692,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cold
-Version: 1.0-3
+Version: 1.0-4
 Depends: R (>= 2.10.0), methods, stats, graphics, utils
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -8721,7 +8743,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: domino
-Version: 0.2-5
+Version: 0.2-6
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -9801,6 +9823,13 @@ Imports: siggenes, affy, multtest, survival, xtable, gcrma,
         AnnotationDbi
 Suggests: hgu133plus2.db, lumi, vsn, GOstats, GO.db
 License: GPL-3
+NeedsCompilation: no
+
+Package: embryogrowth
+Version: 6.0
+Depends: deSolve, parallel, HelpersMG, coda, polynom, R (>= 2.14.2)
+Suggests: entropy, numDeriv, shiny
+License: GPL-2
 NeedsCompilation: no
 
 Package: EMC
@@ -12116,6 +12145,12 @@ Suggests: testthat, fpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: forecTheta
+Version: 1.0
+Depends: R (>= 3.0.2), forecast, parallel
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: foreign
 Version: 0.8-63
 Priority: recommended
@@ -13890,6 +13925,13 @@ Package: ggswissmaps
 Version: 0.0.2
 Depends: R (>= 2.10), ggplot2
 Suggests: plyr, reshape2, testthat
+License: GPL-2
+NeedsCompilation: no
+
+Package: ggtern
+Version: 1.0.5.0
+Depends: ggplot2(>= 1.0.0.0)
+Imports: plyr, gtable, scales, reshape2, proto, MASS, sp, grid
 License: GPL-2
 NeedsCompilation: no
 
@@ -18315,7 +18357,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knockoff
-Version: 0.2
+Version: 0.2.1
 Imports: glmnet, RJSONIO
 Suggests: lars, knitr, testthat
 License: GPL-3
@@ -18857,7 +18899,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: lctools
-Version: 0.2
+Version: 0.2-2
 Depends: R (>= 3.1.1), reshape (>= 0.8.5), weights (>= 0.80)
 Suggests: knitr, rgdal, sp
 License: GPL (>= 2)
@@ -23425,6 +23467,12 @@ Depends: R(>= 2.10.0)
 Imports: utils, emulator (>= 1.2-13), mvtnorm, methods
 Suggests: abind
 License: GPL-2
+NeedsCompilation: no
+
+Package: multiway
+Version: 1.0-0
+Depends: parallel
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: multiwayvcov
@@ -29997,9 +30045,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rainbow
-Version: 3.2
+Version: 3.3
 Depends: R (>= 2.10.0), MASS, pcaPP
 Imports: hdrcde, cluster, colorspace, ks
+Suggests: forecast
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31316,6 +31365,14 @@ Depends: R (>= 3.0.2)
 License: GPL-2
 NeedsCompilation: no
 
+Package: rdrop2
+Version: 0.6
+Depends: R (>= 3.1.1)
+Imports: assertthat, data.table, dplyr, httr, jsonlite, magrittr
+Suggests: testthat, uuid
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: rdryad
 Version: 0.1.1
 Imports: XML, RCurl, OAIHarvester, ape, gdata, plyr, stringr, RJSONIO
@@ -32044,6 +32101,13 @@ Version: 1.0
 License: LGPL-3
 NeedsCompilation: no
 
+Package: REST
+Version: 1.0.1
+Imports: Rcmdr, tcltk
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: restlos
 Version: 0.1-3
 Depends: som, rgl, geometry, igraph
@@ -32758,7 +32822,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rjags
-Version: 3-14
+Version: 3-15
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
@@ -32959,7 +33023,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rmaf
-Version: 3.0
+Version: 3.0.1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33772,7 +33836,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: roxygen2
-Version: 4.1.0
+Version: 4.1.1
 Depends: R (>= 3.0.2)
 Imports: stringr (>= 0.5), brew, digest, methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
