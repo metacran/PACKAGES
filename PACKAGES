@@ -34713,7 +34713,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: runjags
-Version: 2.0.1-2
+Version: 2.0.1-4
 Depends: R (>= 2.14.0)
 Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
 Suggests: rjags, modeest, knitr
@@ -38610,6 +38610,11 @@ NeedsCompilation: no
 Package: sprsmdl
 Version: 0.1-0
 License: GPL-2
+NeedsCompilation: no
+
+Package: SPRT
+Version: 1.0
+License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: SPSL
