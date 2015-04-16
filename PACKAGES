@@ -6769,9 +6769,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crunch
-Version: 1.0.2
+Version: 1.1.0
 Depends: R (>= 3.0.0)
-Imports: httr, RJSONIO, methods, RCurl
+Imports: httr, jsonlite, methods, RCurl
 Suggests: knitr, testthat
 License: LGPL (>= 3)
 NeedsCompilation: no
@@ -19247,7 +19247,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LindenmayeR
-Version: 0.1-0
+Version: 0.1.4
 Depends: stringr, grid
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -23365,6 +23365,14 @@ Imports: PSAgraphics, plyr, psych, reshape, proto, grid, party
 Suggests: testthat, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: multimark
+Version: 1.1.3
+Depends: R (>= 3.0.0)
+Imports: parallel, statmod, Matrix, RMark, coda, methods, Brobdingnag,
+        mvtnorm
+License: GPL-2
+NeedsCompilation: yes
 
 Package: MultiMeta
 Version: 0.1
