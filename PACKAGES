@@ -5879,9 +5879,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: compendiumdb
-Version: 0.1.0
-Depends: Biobase, RMySQL
-Suggests: inSilicoDb, limma, hgu133a.db, GSVA, GSVAdata
+Version: 1.0.0
+Depends: Biobase, GEOquery, RMySQL
+Suggests: inSilicoDb, genefilter, gplots, GSVA, limma,
+        mogene10sttranscriptcluster.db, RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7998,6 +7999,12 @@ NeedsCompilation: yes
 Package: dfoptim
 Version: 2011.8-1
 Depends: R (>= 2.10.1)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: dga
+Version: 1.2
+Imports: chron
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19992,13 +19999,13 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.16
+Version: 2.17
 Depends: estimability, methods, R (>= 3.0)
-Imports: multcomp, plyr, Matrix, mvtnorm
-Suggests: pbkrtest (>= 0.4-1), lattice, multcompView, car, mediation,
-        ordinal
-Enhances: afex, coxme, gee, geepack, glmmADMB, lme4, MASS, nlme,
-        survival
+Imports: coda (>= 0.17), multcomp, plyr, mvtnorm
+Suggests: car, lattice, MCMCpack, mediation, multcompView, ordinal,
+        pbkrtest (>= 0.4-1)
+Enhances: afex, coxme, gee, geepack, glmmADMB, lme4, MASS, MCMCglmm,
+        nlme, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -21658,10 +21665,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mi
-Version: 0.10-2
-Depends: arm (>= 1.8-4)
-Imports: abind, car, foreign, lme4 (>= 0.999999-2), MASS, Matrix (>=
-        1.0), methods, nnet, stats, R2WinBUGS, nlme
+Version: 1.0
+Depends: R (>= 3.0.0), methods, Matrix, stats4
+Imports: arm (>= 1.4-11)
+Suggests: betareg, lattice, knitr, MASS, nnet, parallel, sn, survival,
+        truncnorm, foreign
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28314,7 +28322,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: poweRlaw
-Version: 0.30.1
+Version: 0.30.2
 Depends: R (>= 3.0.0), methods
 Imports: VGAM, parallel
 Suggests: knitr, R.matlab
@@ -29299,6 +29307,12 @@ Package: QCGWAS
 Version: 1.0-8
 Depends: R (>= 3.0.0)
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: qclust
+Version: 1.0
+Depends: mclust, mvtnorm
+License: GPL-2
 NeedsCompilation: no
 
 Package: qcr
