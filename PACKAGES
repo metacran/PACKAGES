@@ -1833,7 +1833,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: BAT
-Version: 1.2.1
+Version: 1.3.0
 Depends: R (>= 3.0.0), vegan, spatstat, nls2
 License: GPL-3
 NeedsCompilation: no
@@ -10484,7 +10484,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: etasFLP
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 2.14.0),mapdata,rgl
 Imports: fields,maps
 Suggests: MASS
@@ -17696,7 +17696,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: iterpc
-Version: 0.2.6
+Version: 0.2.7
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.0), polynom
 LinkingTo: Rcpp
@@ -19066,9 +19066,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: letsR
-Version: 2.0
+Version: 2.1
 Depends: R (>= 2.10), raster, maps
 Imports: XML, geosphere, fields, maptools, sp, rgdal
+Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -30029,7 +30030,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RAdwords
-Version: 0.1.3
+Version: 0.1.4
 Depends: R (>= 3.1.3)
 Imports: RCurl, rjson
 License: MIT + file LICENSE
@@ -37644,9 +37645,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: softclassval
-Version: 1.0-20130317
-Depends: methods, arrayhelpers (>= 0.76)
-Suggests: svUnit
+Version: 1.0-20150416
+Depends: arrayhelpers (>= 0.76)
+Imports: svUnit
 License: GPL
 NeedsCompilation: no
 
