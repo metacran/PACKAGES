@@ -6682,6 +6682,14 @@ Depends: R (>= 2.10.0), splines
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: crimelinkage
+Version: 0.0.3
+Depends: R (>= 3.1.0)
+Imports: igraph, geosphere
+Suggests: fields, knitr, gbm
+License: GPL-3
+NeedsCompilation: no
+
 Package: CRM
 Version: 1.1.1
 Depends: R (>= 2.10.0)
@@ -9677,9 +9685,9 @@ License: GPL (>= 2)
 NeedsCompilation: Yes
 
 Package: eHOF
-Version: 1.5.7
+Version: 1.5.8
 Depends: R (>= 2.5.0), mgcv, lattice
-Suggests: vegdata, vegan, knitr
+Suggests: vegdata, vegan, knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15645,7 +15653,7 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: heplots
-Version: 1.0-12
+Version: 1.0-15
 Depends: R (>= 2.10), graphics, stats, car
 Imports: MASS
 Suggests: rgl, candisc, effects, reshape, gplots, nlme, lattice,
@@ -40484,6 +40492,13 @@ Depends: R (>= 2.12.0), lattice
 License: GPL-3
 NeedsCompilation: yes
 
+Package: TDCor
+Version: 0.1-1
+Depends: R (>= 3.1.2), deSolve
+Imports: parallel
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: TDD
 Version: 0.4
 Depends: R (>= 2.10), signal, RSEIS, pracma
@@ -42586,11 +42601,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vegdata
-Version: 0.6-7
-Depends: R (>= 3.0.0), foreign
+Version: 0.6.9
+Depends: R (>= 2.0.0), foreign
 Imports: XML
 Suggests: vegan, labdsv, akima, gWidgets, googleVis, indicspecies,
-        knitr
+        knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
