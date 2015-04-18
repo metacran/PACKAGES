@@ -3191,6 +3191,12 @@ Version: 1.0-6
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: BivarP
+Version: 1.0
+Depends: dfoptim, survival, copula
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: bivarRIpower
 Version: 1.2
 License: GPL (>= 2)
@@ -3501,9 +3507,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bold
-Version: 0.2.0
+Version: 0.2.6
 Imports: XML, httr, stringr, assertthat, jsonlite, reshape, plyr
-Suggests: knitr, testthat
+Suggests: sangerseqR, knitr, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -4833,7 +4839,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cheddar
-Version: 0.1-626
+Version: 0.1-629
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -5514,7 +5520,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cna
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.13.0), utils
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7105,8 +7111,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: daff
-Version: 0.1.2
-Imports: V8 (>= 0.5), jsonlite
+Version: 0.1.4
+Imports: V8 (>= 0.6), jsonlite
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -7208,11 +7214,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: datacheck
-Version: 1.0.4
-Depends: R (>= 2.15.1), grDevices
-Imports: Hmisc, shiny, stringr
-Suggests: knitr, xtable
-License: GPL (>= 3)
+Version: 1.2.2
+Depends: R (>= 3.1.0), grDevices
+Imports: stringr, Hmisc, shiny
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: DataCombine
@@ -13118,6 +13123,12 @@ Suggests: RUnit
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
+Package: gbm2sas
+Version: 1.0
+Depends: gbm
+License: GPL-3
+NeedsCompilation: no
+
 Package: gbRd
 Version: 0.4-11
 Depends: tools
@@ -18156,10 +18167,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: KFAS
-Version: 1.0.4-1
+Version: 1.1.0
 Depends: R (>= 3.1.0)
 Imports: stats
-Suggests: MASS, testthat
+Suggests: MASS, testthat, knitr, lme4
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20109,10 +20120,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Luminescence
-Version: 0.4.2
+Version: 0.4.3
 Depends: R (>= 3.1.2), utils
 Imports: methods, XML, shape, rgl, matrixStats, raster, sp, zoo, bbmle,
-        data.table, Rcpp (>= 0.11.4), parallel
+        data.table, Rcpp (>= 0.11.4), parallel, minpack.lm
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -20581,8 +20592,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MATA
-Version: 0.2
-Depends: R (>= 3.1.2)
+Version: 0.3
+Depends: R (>= 3.1.3)
 License: GPL-2
 NeedsCompilation: no
 
@@ -23547,11 +23558,6 @@ Suggests: ggplot2 (>= 0.9.2)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: muscle
-Version: 3.8.31-4
-License: Unlimited
-NeedsCompilation: yes
-
 Package: musicNMR
 Version: 0.0.2
 Depends: R (>= 2.10.0), seewave
@@ -24845,6 +24851,14 @@ Depends: R (>= 2.9.1), splines, quadprog, graphics, Rglpk, Benchmarking
 Imports: np
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: NPC
+Version: 1.0.0
+Depends: R (>= 3.1.1)
+Imports: permute, dplyr, coin, matlab
+Suggests: car, mvtnorm, plyr, xtable
+License: GPL-3
+NeedsCompilation: no
 
 Package: NPCD
 Version: 1.0-7
@@ -35359,14 +35373,6 @@ Depends: R (>= 2.14.0), graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: saps
-Version: 1.0.0
-Depends: R (>= 2.14.0), survival
-Imports: piano, survcomp, reshape2
-Suggests: snowfall, knitr
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: sas7bdat
 Version: 0.5
 Depends: R (>= 2.10)
@@ -37091,9 +37097,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjmisc
-Version: 1.0.0
+Version: 1.0.1
 Imports: MASS
-Suggests: coin, foreign, haven, lme4, stringdist
+Suggests: coin, foreign, haven, lme4, stringdist, testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -38676,7 +38682,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sprex
-Version: 1.0
+Version: 1.1
 License: GNU General Public License
 NeedsCompilation: no
 
@@ -38871,7 +38877,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.8
+Version: 1.4.9
 Depends: R (>= 2.10.0) ,psych,TTR,MASS,tcltk,TSA
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -38908,7 +38914,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSN
-Version: 1.1.4
+Version: 1.1.5
 Depends: R (>= 3.0.2), RSQLite, sp
 Imports: MASS, igraph (>= 0.6), maptools, lattice, methods
 LinkingTo: BH
