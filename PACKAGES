@@ -27604,6 +27604,12 @@ Depends: methods, conf.design
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: plaqr
+Version: 1.0
+Depends: R (>= 3.0), quantreg, splines
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: PlayerRatings
 Version: 1.0-0
 License: GPL-3
