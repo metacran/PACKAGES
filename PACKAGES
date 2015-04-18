@@ -41066,9 +41066,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TKF
-Version: 0.0.3
+Version: 0.0.8
 Depends: R (>= 3.0.2)
-Imports: methods, expm, numDeriv
+Imports: methods, expm, numDeriv, ape (>= 3.2), phytools (>= 0.4-45),
+        phangorn (>= 1.99-12)
 Suggests: RUnit, seqinr
 License: GPL-2
 NeedsCompilation: yes
