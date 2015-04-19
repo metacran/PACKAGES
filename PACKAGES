@@ -15992,7 +15992,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: hitandrun
-Version: 0.5
+Version: 0.5-1
 Imports: rcdd (>= 1.1)
 License: GPL-3
 NeedsCompilation: yes
