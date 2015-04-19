@@ -3470,7 +3470,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: BNPTSclust
-Version: 1.0
+Version: 1.1
 Depends: R(>= 3.1.2), mvtnorm, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -29858,7 +29858,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R1magic
-Version: 0.2
+Version: 0.3.2
 Depends: stats, utils
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -40534,6 +40534,14 @@ Suggests: cmaes, parallel, e1071, powell, ROCR, randomForest, rCMA,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: tdr
+Version: 0.11
+Depends: lattice, ggplot2
+Imports: RColorBrewer
+Suggests: latticeExtra
+License: GPL-2
+NeedsCompilation: no
+
 Package: tdthap
 Version: 1.1-7
 Depends: R (>= 1.5.0)
@@ -43190,6 +43198,12 @@ Package: wikibooks
 Version: 0.2
 Depends: R (>= 2.1.0)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: WikipediaR
+Version: 1.0
+Depends: R (>= 2.10.0), XML (>= 2.6.3)
+License: GPL (> 2)
 NeedsCompilation: no
 
 Package: wikipediatrend
