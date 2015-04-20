@@ -12,7 +12,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ABCanalysis
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 2.10)
 Imports: Hmisc, plotrix
 License: GPL-3
@@ -12377,7 +12377,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Frames2
-Version: 0.1.0
+Version: 0.1.1
 Imports: sampling
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -12523,7 +12523,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fscaret
-Version: 0.9.3
+Version: 0.9.4
 Depends: R (>= 3.1.0), caret, gsubfn, hmeasure, utils, parallel
 Suggests: ada, arm, Boruta, bst, C50, car, caTools, class, Cubist,
         e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree,
@@ -16751,8 +16751,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icamix
-Version: 1.0.1
-Imports: Rcpp (>= 0.11.2)
+Version: 1.0.2
+Imports: Rcpp (>= 0.11.5)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: mixtools
 License: GPL-2 | GPL-3
@@ -20825,7 +20825,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mbest
-Version: 0.1
+Version: 0.3
 Imports: lme4
 Suggests: testthat
 License: Apache License (== 2.0) | file LICENSE
@@ -30355,7 +30355,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RANN
-Version: 2.4.1
+Version: 2.5
 Suggests: testthat
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -33046,6 +33046,13 @@ Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
+
+Package: rLiDAR
+Version: 0.1
+Depends: R (>= 3.1.2)
+Imports: spatstat,sp,deldir,plyr,raster,geometry,rgl,bitops
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: rLindo
 Version: 8.0.1
@@ -38079,7 +38086,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: sparkTable
-Version: 0.12.0
+Version: 1.0.0
 Depends: utils, methods, Cairo, gridExtra, ggplot2,shiny, Rglpk
 Imports: xtable,StatMatch,boot,pixmap,RGraphics,grid
 License: GPL
@@ -40679,8 +40686,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: TestScorer
-Version: 1.6
-Depends: tcltk
+Version: 1.7
+Imports: tcltk
 License: GPL-2
 NeedsCompilation: no
 
