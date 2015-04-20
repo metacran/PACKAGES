@@ -1900,10 +1900,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bayescount
-Version: 0.9.99-4
-Depends: R (>= 3.0)
-Imports: runjags, rjags, coda, stats, utils
-License: GPL
+Version: 0.9.99-5
+Depends: R (>= 2.14.0)
+Imports: runjags (>= 2.0.1), rjags, coda, stats, utils
+License: GPL-2
 NeedsCompilation: yes
 
 Package: BayesCR
@@ -12703,7 +12703,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: futile.logger
-Version: 1.4
+Version: 1.4.1
 Depends: R (>= 3.0.0)
 Imports: lambda.r (>= 1.1.0), futile.options
 Suggests: testthat, jsonlite
@@ -19017,7 +19017,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: LeafArea
-Version: 0.0.6
+Version: 0.1.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -25776,10 +25776,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: oro.dicom
-Version: 0.4.3
+Version: 0.5.0
 Depends: R (>= 2.14.0)
-Imports: oro.nifti (>= 0.4.0), utils
-Suggests: hwriter
+Imports: utils, oro.nifti (>= 0.4.0)
+Suggests: testthat, hwriter
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -29838,8 +29838,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: qwraps2
-Version: 0.1
-Depends: R (>= 3.1.3)
+Version: 0.1.1
+Depends: R (>= 3.0.2)
 Imports: dplyr, ggplot2
 License: GPL-2
 NeedsCompilation: no
@@ -30213,8 +30213,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: RandomFieldsUtils
-Version: 0.0.1
-Depends: R (>= 3.1)
+Version: 0.0.2
+Depends: R (>= 3.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -40215,6 +40215,13 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: knitr, stabledist
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: synRNASeqNet
+Version: 1.0
+Depends: R (>= 3.1.1), parallel, parmigene, GenKern, igraph
+Imports: KernSmooth
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: Synth
 Version: 1.1-5
