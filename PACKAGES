@@ -6790,7 +6790,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crunch
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.0.0)
 Imports: httr, jsonlite, methods, RCurl
 Suggests: knitr, testthat
@@ -43584,6 +43584,15 @@ Depends: R (>= 1.2.0), methods, utils
 Imports: methods
 Suggests: bitops, RCurl
 License: BSD
+NeedsCompilation: yes
+
+Package: xml2
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: XML2R
