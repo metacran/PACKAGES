@@ -431,6 +431,13 @@ Suggests: coda
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ADPclust
+Version: 0.6.3
+Depends: R (>= 2.14.0),
+Imports: dplyr, cluster, fields, knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ads
 Version: 1.5-2.2
 Imports: ade4, spatstat
@@ -8661,11 +8668,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: DNAprofiles
-Version: 0.2
+Version: 0.3
 Depends: RcppProgress
-Imports: Rcpp (>= 0.10.3), bit
+Imports: Rcpp (>= 0.10.3), bit, parallel
 LinkingTo: Rcpp, RcppProgress
-Suggests: DNAtools
+Suggests: DNAtools, testthat, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -15287,6 +15294,13 @@ Depends: R (>= 2.14.0), methods, gWidgets(>= 0.0.51), tcltk(>= 2.7.0),
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: GWLelast
+Version: 1.0
+Imports: doParallel,geosphere,sp,spgwr,glmnet,doMC,foreach
+Suggests: testthat
+License: GPL-2
+NeedsCompilation: no
+
 Package: GWmodel
 Version: 1.2-5
 Depends: R (>= 3.0.0),maptools (>= 0.5-2), robustbase,sp
@@ -19464,9 +19478,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lmerTest
-Version: 2.0-20
+Version: 2.0-25
 Depends: R (>= 3.0.0), Matrix, stats, methods, lme4 (>= 1.0)
-Imports: plyr, numDeriv, MASS, Hmisc, gplots
+Imports: plyr, MASS, Hmisc, ggplot2
 Suggests: pbkrtest
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -42340,7 +42354,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: userfriendlyscience
-Version: 0.2-2
+Version: 0.3-0
 Depends: ggplot2
 Imports: plyr, psych, pwr, fBasics, ltm, MBESS, SuppDists, GPArotation,
         MASS, mosaic, foreign, car, knitr, xtable, GGally, grid, lavaan
