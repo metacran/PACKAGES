@@ -4391,8 +4391,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: causaleffect
-Version: 1.0
-Imports: igraph, XML
+Version: 1.1
+Imports: igraph, ggm, XML
 License: GPL-2
 NeedsCompilation: no
 
@@ -9644,7 +9644,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: effsize
-Version: 0.5.2
+Version: 0.5.4
 License: GPL-2
 NeedsCompilation: no
 
@@ -10151,7 +10151,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ensurer
-Version: 1.0
+Version: 1.1
 Suggests: magrittr, testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
