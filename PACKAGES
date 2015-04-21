@@ -13518,7 +13518,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: GENLIB
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.1.0), Rcpp (>= 0.9.10)
 Imports: kinship2, methods, bootstrap, Matrix, lattice, quadprog,
         foreach, parallel, doParallel
@@ -16784,12 +16784,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: icd9
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.4), checkmate (>= 1.5.1)
 LinkingTo: Rcpp
-Suggests: testthat, knitr, microbenchmark, magrittr, XML, memoise,
-        profr, ggplot2, digest
+Suggests: testthat, devtools, knitr, microbenchmark, magrittr, XML,
+        memoise, profr, ggplot2, digest, xtable, rmarkdown
 License: GPL-3
 NeedsCompilation: yes
 
@@ -19559,7 +19559,7 @@ License: Common Public License Version 1.0
 NeedsCompilation: yes
 
 Package: lmomco
-Version: 2.1.3
+Version: 2.1.4
 Depends: R (>= 2.10.0), utils
 Suggests: copBasic, Lmoments
 License: GPL
@@ -28706,7 +28706,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: probemod
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.1.2)
 License: GPL-3
 NeedsCompilation: no
@@ -33338,7 +33338,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: RMySQL
-Version: 0.10.2
+Version: 0.10.3
 Depends: R (>= 2.8.0), DBI (>= 0.3.1)
 Imports: methods
 Suggests: testthat
