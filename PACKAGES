@@ -20357,7 +20357,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: managelocalrepo
-Version: 0.1.4
+Version: 0.1.5
 Depends: R (>= 3.0)
 Imports: stringr (>= 0.6.2), assertthat (>= 0.1), tools (>= 3.0)
 License: GPL-2
@@ -37933,8 +37933,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sotkanet
-Version: 0.9.03
-Depends: R (>= 3.0.2), ggplot2, rjson
+Version: 0.9.10
+Depends: R (>= 3.0.2), ggplot2, RCurl, rjson
 Suggests: knitr
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
