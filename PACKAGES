@@ -3327,7 +3327,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: blockmodels
-Version: 1.0.4
+Version: 1.1.1
 Depends: Rcpp (>= 0.10.6), parallel, methods, digest
 LinkingTo: Rcpp, RcppArmadillo
 License: LGPL-2.1
@@ -8668,7 +8668,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: DNAprofiles
-Version: 0.3
+Version: 0.3.1
 Depends: RcppProgress
 Imports: Rcpp (>= 0.10.3), bit, parallel
 LinkingTo: Rcpp, RcppProgress
@@ -10564,8 +10564,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: evaluate
-Version: 0.6
-Depends: R (>= 2.14.0)
+Version: 0.7
+Depends: R (>= 3.0.2)
 Imports: stringr (>= 0.6.2)
 Suggests: testthat, lattice, ggplot2
 License: GPL
@@ -12223,8 +12223,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: formatR
-Version: 1.1
-Suggests: codetools, shiny, testit, knitr (>= 1.9)
+Version: 1.2
+Depends: R (>= 3.0.2)
+Suggests: codetools, shiny, testit, knitr
 License: GPL
 NeedsCompilation: no
 
@@ -15309,9 +15310,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GWRM
-Version: 1.1
-Depends: R (>= 2.6.0)
-License: GPL (>= 2)
+Version: 2.0
+Depends: R (>= 3.0.0)
+Imports: SuppDists
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gwrr
@@ -15908,7 +15910,8 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: highr
-Version: 0.4.1
+Version: 0.5
+Depends: R (>= 3.0.2)
 Suggests: knitr, testit
 License: GPL
 NeedsCompilation: no
@@ -17087,9 +17090,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: indicspecies
-Version: 1.7.4
+Version: 1.7.5
 Depends: permute
-Imports: sp, rgeos
+Suggests: sp, rgeos
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29935,7 +29938,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R2jags
-Version: 0.05-03
+Version: 0.5-6
 Depends: R (>= 2.14.0), rjags (>= 3-3)
 Imports: abind, coda (>= 0.13), methods, R2WinBUGS, parallel
 License: GPL (>= 2)
@@ -31524,7 +31527,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: readGenalex
-Version: 0.4.1
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: pegas (>= 0.7)
+Suggests: XLConnect, testthat, genetics, combinat, gdata, gtools, MASS,
+        mvtnorm, ape (>= 2.4), adegenet
 License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
@@ -41499,7 +41506,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: treatSens
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.1.0)
 Suggests: doParallel, foreach
 License: GPL-2
