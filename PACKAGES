@@ -989,8 +989,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aoos
-Version: 0.1.0
-Depends: methods, R(>= 3.0)
+Version: 0.2.0
+Depends: methods, R(>= 3.2.0)
 Suggests: testthat, knitr
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
@@ -15177,7 +15177,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUILDS
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.0), pracma, subplex
 LinkingTo: Rcpp
@@ -24599,7 +24599,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: nLTT
-Version: 1.0
+Version: 1.1
 Imports: ape,coda,deSolve
 Suggests: TESS
 License: GPL-2
@@ -31148,7 +31148,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.4.650.1.1
+Version: 0.5.000.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
