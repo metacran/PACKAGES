@@ -3644,9 +3644,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: bootSVD
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.2)
-Imports: parallel
+Imports: ff, parallel
 License: GPL-2
 NeedsCompilation: no
 
@@ -34953,6 +34953,12 @@ Suggests: Morpho, rgl
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
+Package: rversions
+Version: 1.0.0
+Imports: RCurl, XML
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: rvertnet
 Version: 0.2.2
 Imports: plyr, jsonlite, httr, data.table, ggplot2, maps
@@ -36003,7 +36009,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: seedy
-Version: 1.0
+Version: 1.2
 License: GPL-3
 NeedsCompilation: no
 
@@ -36692,6 +36698,14 @@ Package: shinyFiles
 Version: 0.6.0
 Imports: tools, shiny (>= 0.11), htmltools, RJSONIO
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: shinyjs
+Version: 0.0.3.3
+Depends: R (>= 3.1.2)
+Imports: shiny (>= 0.11.1)
+Suggests: knitr (>= 1.7), testthat (>= 0.9.1)
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: shinyRGL
@@ -38996,7 +39010,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sspse
-Version: 0.5
+Version: 0.5-1
 Depends: parallel
 Imports: coda
 Suggests: network, testthat
@@ -42815,9 +42829,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: visreg
-Version: 2.1-1
+Version: 2.2-0
 Imports: lattice
-Suggests: rgl, survival, MASS, nlme, splines, lme4
+Suggests: rgl, survival, MASS, nlme, splines, lme4, randomForest
 License: GPL-2
 NeedsCompilation: no
 
