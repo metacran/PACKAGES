@@ -9911,6 +9911,12 @@ Version: 0.3-1
 License: MIT
 NeedsCompilation: yes
 
+Package: emg
+Version: 1.0.6
+Depends: R (>= 1.8.0), stats, stats4
+License: GPL-2
+NeedsCompilation: no
+
 Package: emil
 Version: 1.1-6
 Suggests: caret, cmprsk, glmnet, Hmisc, MASS, party, pamr,
@@ -13186,9 +13192,8 @@ OS_type: unix
 NeedsCompilation: no
 
 Package: GCD
-Version: 3.0.4
+Version: 3.0.5
 Depends: R(>= 2.10.0)
-Imports: sp, raster, ggplot2
 Suggests: paleofire
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23925,7 +23930,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.2
+Version: 1.3
 Depends: R (>= 3.1.0)
 Imports: Rcpp, missForest
 LinkingTo: Rcpp
@@ -31424,7 +31429,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rdistance
-Version: 1.2.1
+Version: 1.2.2
+Suggests: knitr, utils
 License: GNU General Public License
 NeedsCompilation: no
 
@@ -36702,6 +36708,13 @@ Imports: shiny (>= 0.11), htmltools
 License: GPL-3
 NeedsCompilation: no
 
+Package: shinydashboard
+Version: 0.4.0
+Depends: R (>= 3.0)
+Imports: shiny (>= 0.11.1), htmltools (>= 0.2.6)
+License: GPL-2 | file LICENSE
+NeedsCompilation: no
+
 Package: shinyFiles
 Version: 0.6.0
 Imports: tools, shiny (>= 0.11), htmltools, RJSONIO
@@ -41597,6 +41610,12 @@ Version: 3.3
 Depends: ape, Matrix, subplex, TreeSim (>= 2.1), deSolve
 License: GPL-2
 NeedsCompilation: no
+
+Package: treeperm
+Version: 1.6
+Depends: R (>= 2.14.1)
+License: GPL-2
+NeedsCompilation: yes
 
 Package: TreeSim
 Version: 2.1
