@@ -23033,12 +23033,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MRIaggr
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10), Rcpp
-Imports: methods, stats4, RANN, spam, Matrix, ROCR, fields, mritc,
-        oro.dicom, oro.nifti
+Imports: methods, stats4, spam, Matrix
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: rgl
+Suggests: oro.dicom, oro.nifti, mritc, ROCR, RANN, rgl, fields
 License: GPL-3
 NeedsCompilation: yes
 
@@ -30096,9 +30095,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RadOnc
-Version: 1.0.9
+Version: 1.1.0
 Depends: R (>= 3.0.0), graphics, grDevices, methods, rgl, geometry,
-        oro.dicom (>= 0.4.1), ptinpoly
+        oro.dicom (>= 0.5.0), ptinpoly
 Imports: stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -37179,11 +37178,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.7
-Imports: ggplot2, MASS, car, foreign, psych, scales, dplyr (>= 0.4.1),
-        tidyr (>= 0.2.0)
-Suggests: arm, cluster, coin, lme4, lsmeans, lmtest, Matrix,
-        stringdist, haven
+Version: 1.8
+Depends: R (>= 3.1), stats
+Imports: car, dplyr (>= 0.4.1), ggplot2, grid, MASS, psych, scales,
+        sjmisc, tidyr (>= 0.2.0)
+Suggests: arm, cluster, effects, lme4, lmerTest, lmtest, lsmeans,
+        testthat
 License: GPL-3
 NeedsCompilation: no
 
