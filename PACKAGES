@@ -13401,9 +13401,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: genderizeR
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 3.1.1)
-Imports: jsonlite, stringr, tm, data.table, magrittr, RCurl, parallel
+Imports: stringr, httr, tm, data.table, magrittr, parallel
+Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -15041,7 +15042,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GSIF
-Version: 0.4-4
+Version: 0.4-5
 Depends: R (>= 2.15.0)
 Imports: methods, sp (>= 1.0-8), RSAGA, dismo, rgdal, raster, aqp,
         plotKML, gstat, stats, plyr
@@ -15049,7 +15050,7 @@ Suggests: rjson, RCurl, soiltexture, spatstat, stringr, XML, boot,
         splines, mda, psych, nortest, rpart, quantregForest,
         randomForest, nlme, reshape, fossil, AICcmodavg, maptools,
         nnet, SDMTools, rJava (>= 0.5-0), spacetime, gdalUtils, tools,
-        maxlike
+        maxlike, Hmisc
 License: GPL
 NeedsCompilation: no
 
