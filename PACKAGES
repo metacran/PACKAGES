@@ -6832,13 +6832,6 @@ Depends: R (>= 2.10), mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: csn
-Version: 1.1.1
-Depends: R (>= 2.2.0)
-Imports: mnormt
-License: GPL-2
-NeedsCompilation: no
-
 Package: csrplus
 Version: 1.03-0
 Depends: R (>= 3.0.2)
@@ -14441,11 +14434,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gnm
-Version: 1.0-7
+Version: 1.0-8
 Depends: R (>= 2.3.0)
 Imports: MASS, stats, graphics, Matrix, nnet, qvcalc (>= 0.8-3), relimp
 Suggests: vcdExtra
-License: GPL (>= 2)
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: gnmf
@@ -19776,7 +19769,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: logmult
-Version: 0.6.1
+Version: 0.6.2
 Depends: gnm (>= 1.0-5)
 Imports: stats, graphics, qvcalc
 Suggests: survey, boot, ellipse, parallel
@@ -20974,7 +20967,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mclust
-Version: 5.0.0
+Version: 5.0.1
 Depends: R (>= 3.0), stats, utils
 Suggests: knitr (>= 1.8), markdown (>= 0.7), mix
 License: GPL (>= 2)
@@ -29745,8 +29738,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: QuantifQuantile
-Version: 1.0
-Depends: rgl
+Version: 2.0
+Depends: rgl, parallel
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
