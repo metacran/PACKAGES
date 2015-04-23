@@ -18379,10 +18379,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: knitr
-Version: 1.9
-Depends: R (>= 2.14.1)
-Imports: evaluate (>= 0.5.5), digest, formatR (>= 1.0), highr (>= 0.4),
-        markdown (>= 0.7.4), stringr (>= 0.6), tools
+Version: 1.10
+Depends: R (>= 3.0.2)
+Imports: evaluate (>= 0.6), digest, formatR, highr, markdown, stringr
+        (>= 0.6), yaml (>= 2.1.5), tools
 Suggests: testit, rgl (>= 0.95.1201), codetools, rmarkdown, XML, RCurl
 License: GPL
 NeedsCompilation: no
