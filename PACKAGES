@@ -8976,9 +8976,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: drgee
-Version: 1.0.1
-Depends: R (>= 3.0.0)
-Imports: stats, nleqslv
+Version: 1.1.0
+Depends: stats, nleqslv, survival, R (>= 3.0.0)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -13691,10 +13690,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geoR
-Version: 1.7-4.1
-Depends: R (>= 2.10), stats, sp, methods, MASS
-Imports: splancs, RandomFields
-Suggests: scatterplot3d, geoRglm, lattice, graphics, tcltk
+Version: 1.7-5.1
+Depends: R (>= 2.10), stats, methods
+Imports: MASS, sp, splancs, RandomFields, graphics
+Suggests: scatterplot3d, lattice, tcltk, geoRglm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -22714,7 +22713,7 @@ License: Apache License 2.0
 NeedsCompilation: yes
 
 Package: monitoR
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.10), tuneR, methods
 Suggests: fftw, parallel, RODBC, knitr
 License: GPL-2
