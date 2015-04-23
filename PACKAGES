@@ -1133,12 +1133,12 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: aqp
-Version: 1.8
+Version: 1.8-6
 Depends: R (>= 2.15.0), methods
 Imports: plyr, reshape, grid, lattice, cluster, sp, Hmisc, stringr,
-        scales, plotrix, RColorBrewer, MASS
+        scales, plotrix, RColorBrewer, MASS, digest
 Suggests: colorspace, maptools, foreign, ape, soilDB, latticeExtra,
-        digest, maps, compositions
+        maps, compositions
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37801,7 +37801,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: soilDB
-Version: 1.5-2
+Version: 1.5-4
 Depends: R (>= 2.15.0), aqp
 Imports: plyr, Hmisc, RCurl, XML, sp
 Suggests: lattice, XMLSchema, SSOAP, dismo, raster, rgdal, jsonlite,
