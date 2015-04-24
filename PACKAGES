@@ -26654,7 +26654,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PBSmapping
-Version: 2.68.68
+Version: 2.69.76
 Depends: R (>= 2.15.0)
 Suggests: foreign, maptools, deldir
 License: GPL (>= 2)
@@ -41866,7 +41866,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: tsDyn
-Version: 0.9-41
+Version: 0.9-43
 Imports: mnormt, mgcv, nnet, tseriesChaos, tseries, utils, vars, urca,
         forecast, MASS, Matrix, foreach
 Suggests: sm, scatterplot3d, rgl, FinTS
