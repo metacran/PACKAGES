@@ -32394,7 +32394,7 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: rfordummies
-Version: 0.0-2
+Version: 0.1.1
 Suggests: fortunes, stringr, sos, XLConnect, reshape2, ggplot2,
         foreign, lattice
 License: GPL-2 | GPL-3
