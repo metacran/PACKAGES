@@ -22438,7 +22438,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mma
-Version: 1.0-1
+Version: 2.0-0
 Depends: R (>= 2.14.1), gbm
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32927,6 +32927,13 @@ Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: RJafroc
+Version: 0.0.1
+Depends: tools, xlsx, ggplot2, stringr, utils
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: rjags
 Version: 3-15
 Depends: R (>= 2.14.0), coda (>= 0.13)
@@ -34320,6 +34327,12 @@ Suggests: tcltk, digest (>= 0.6.8), ascii (>= 2.1), markdown (>=
         0.7.4), knitr (>= 1.8), R.devices (>= 2.12.0), base64enc (>=
         0.1-2)
 License: LGPL (>= 2.1)
+NeedsCompilation: no
+
+Package: RRTCS
+Version: 0.0.1
+Imports: sampling, samplingVarEst
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rrules
