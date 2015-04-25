@@ -19223,12 +19223,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lifecontingencies
-Version: 1.1.5
-Depends: R (>= 2.14), methods
-Imports: parallel, utils, markovchain
-Suggests: demography, forecast, testthat
+Version: 1.1.6
+Depends: R (>= 3.0.0), methods
+Imports: parallel, utils, markovchain, Rcpp
+LinkingTo: Rcpp
+Suggests: demography, forecast, testthat, knitr
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: LifeTables
 Version: 0.2
@@ -26675,7 +26676,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pcaL1
-Version: 1.2.1
+Version: 1.3
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -41495,7 +41496,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: trajectories
-Version: 0.1-1
+Version: 0.1-2
 Depends: R (>= 2.14.0)
 Imports: methods, lattice, sp (>= 1.0-14), spacetime (>= 1.0-0), rgdal,
         rgeos
