@@ -11146,10 +11146,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: faoutlier
-Version: 0.4
-Depends: R (>= 2.14), parallel, sem
-Imports: lattice, lavaan, MASS
-Suggests: testthat
+Version: 0.5
+Depends: R (>= 3.0.2), sem, mvtnorm, parallel
+Imports: lattice, lavaan, mirt, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21868,8 +21867,10 @@ License: AGPL-3
 NeedsCompilation: no
 
 Package: migui
-Version: 0.00-09
-Depends: tcltk, tkrplot, mi (>= 0.9-06), foreign
+Version: 1.1
+Depends: gWidgets2
+Imports: mi (>= 1.0), arm
+Suggests: foreign, gWidgets2RGtk2
 License: GPL (>= 2)
 NeedsCompilation: no
 
