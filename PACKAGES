@@ -13697,8 +13697,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: geoRglm
-Version: 0.9-4
-Depends: R (>= 2.2.0), geoR (>= 1.6-25), stats
+Version: 0.9-8
+Depends: R (>= 2.2.0), geoR (>= 1.7-5), stats
+Imports: sp
 Suggests: coda
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -42633,6 +42634,13 @@ Package: vbsr
 Version: 0.0.5
 Depends: R (>= 3.0.0)
 License: GPL-2
+NeedsCompilation: yes
+
+Package: VCA
+Version: 1.1.1
+Depends: R (>= 3.0.0), stats
+Imports: Matrix, numDeriv
+License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: vcd
