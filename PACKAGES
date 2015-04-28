@@ -5139,6 +5139,12 @@ Suggests: testthat
 License: LGPL (>= 3)
 NeedsCompilation: yes
 
+Package: Claddis
+Version: 0.1
+Depends: gdata,ape,phytools,strap
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: cladoRcpp
 Version: 0.14.4
 Imports: Rcpp
@@ -10006,8 +10012,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: emplik
-Version: 0.9-9-6
-Depends: R (>= 2.15), quantreg
+Version: 1.0-1
+Depends: R (>= 3.0), quantreg
 Suggests: KMsurv, boot
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -16851,6 +16857,12 @@ Depends: R (>= 2.5.0), lattice
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: icenReg
+Version: 1.0
+Depends: survival, foreach
+License: GPL-2
+NeedsCompilation: yes
+
 Package: icensmis
 Version: 1.2.1
 Imports: Rcpp (>= 0.11.0)
@@ -19134,11 +19146,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lessR
-Version: 3.3
+Version: 3.3.1
 Depends: R (>= 2.15.0)
 Imports: car, leaps, MBESS, foreign, gdata, triangle
 License: GPL (>= 2)
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: lestat
 Version: 1.8
@@ -26097,7 +26109,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pairsD3
-Version: 0.0.6
+Version: 0.1.0
 Depends: R (>= 3.1.2)
 Imports: htmlwidgets (>= 0.3.2), shiny
 Suggests: knitr
@@ -27225,7 +27237,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pgmm
-Version: 1.1
+Version: 1.2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -32365,12 +32377,12 @@ License: CC0
 NeedsCompilation: no
 
 Package: R.filesets
-Version: 2.7.0
-Depends: R (>= 3.0.3), R.oo (>= 1.18.0)
-Imports: stats, R.methodsS3 (>= 1.7.0), R.utils (>= 1.34.0), R.cache
-        (>= 0.10.0), digest (>= 0.6.8)
-Suggests: gtools (>= 3.4.1), BatchJobs (>= 1.5), BiocParallel (>=
-        0.4.1)
+Version: 2.7.1
+Depends: R (>= 3.0.3), R.oo (>= 1.19.0)
+Imports: stats, R.methodsS3 (>= 1.7.0), R.utils (>= 2.0.1), R.cache (>=
+        0.10.0), digest (>= 0.6.8)
+Suggests: gtools (>= 3.4.2), BatchJobs (>= 1.6), BiocParallel (>=
+        0.6.1)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
@@ -40848,14 +40860,15 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: texreg
-Version: 1.34
+Version: 1.35
 Depends: R (>= 2.15.0)
 Imports: methods
 Suggests: nlme, survival, network, ergm, lme4 (>= 1.0), gamlss
-Enhances: AER, betareg, brglm, dynlm, eha, erer, fGarch, gee, gmm,
-        latentnet, lmtest, MASS, mgcv, mnlogit, nnet, ordinal, plm,
-        pscl, quantreg, relevent, rms, robustbase, RSiena, simex, sna,
-        spdep, stats, survey, systemfit, tergm, xergm, Zelig
+Enhances: AER, betareg, brglm, censReg, dynlm, eha, erer, fGarch, gee,
+        gmm, latentnet, lmtest, MASS, mgcv, mlogit, mnlogit, MuMIn,
+        nnet, ordinal, plm, pscl, quantreg, relevent, rms, robustbase,
+        RSiena, sampleSelection, simex, sna, spdep, stats, survey,
+        systemfit, tergm, xergm, Zelig
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -40910,7 +40923,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: tfplot
-Version: 2014.2-2
+Version: 2015.4-1
 Depends: R (>= 2.12.0), tframe
 Suggests: googleVis
 Enhances: tframePlus
@@ -41196,6 +41209,12 @@ Version: 1.6.5
 Depends: methods
 License: GPL
 NeedsCompilation: yes
+
+Package: timetree
+Version: 1.0
+Imports: XML, phangorn
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: TimeWarp
 Version: 1.0.12
