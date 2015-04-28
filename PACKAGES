@@ -23425,7 +23425,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multicool
-Version: 0.1-5
+Version: 0.1-6
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-2
@@ -30269,6 +30269,14 @@ Package: randaes
 Version: 0.3
 License: GPL-2
 NeedsCompilation: yes
+
+Package: randNames
+Version: 0.2
+Depends: R (>= 3.1.2)
+Imports: dplyr, httr, jsonlite
+Suggests: gender, testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: random
 Version: 0.2.3
