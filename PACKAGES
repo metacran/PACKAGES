@@ -7441,10 +7441,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dcemriS4
-Version: 0.51
-Depends: R (>= 2.14.0), oro.nifti (>= 0.3.9)
-Imports: grDevices, graphics, methods, parallel, utils
-Suggests: bitops, minpack.lm, splines, XML, oro.dicom (>= 0.3.7)
+Version: 0.55
+Depends: R (>= 2.14.0), oro.nifti (>= 0.4.3)
+Imports: utils, parallel, methods
+Suggests: bitops, minpack.lm, splines, XML, oro.dicom (>= 0.4.3),
+        testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -13664,9 +13665,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GEOmap
-Version: 2.2-2
-Depends: R (>= 2.12)
-Imports: RPMG, splancs, MBA
+Version: 2.3-5
+Depends: R (>= 3.0)
+Imports: RPMG, splancs, fields
 Suggests: geomapdata, maps, RFOC
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -27513,7 +27514,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phytools
-Version: 0.4-45
+Version: 0.4-56
 Depends: R (>= 2.10), ape (>= 3.0-10), maps
 Imports: animation, clusterGeneration, mnormt, msm, numDeriv, phangorn
         (>= 1.6-3), plotrix, scatterplot3d
@@ -28674,7 +28675,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: prettyR
-Version: 2.1
+Version: 2.1-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
