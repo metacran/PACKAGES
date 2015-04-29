@@ -1160,6 +1160,12 @@ Depends: Segmentor3IsBack
 License: GPL-2
 NeedsCompilation: no
 
+Package: ArArRedux
+Version: 0.1
+Depends: R (>= 3.0.2)
+License: GPL-2
+NeedsCompilation: no
+
 Package: archdata
 Version: 0.1
 Suggests: circular, plotrix
@@ -2341,6 +2347,11 @@ Package: bcpmeta
 Version: 1.0
 Depends: R (>= 2.14.0)
 Imports: mvtnorm
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: BCRA
+Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -35455,7 +35466,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: samplesize4surveys
-Version: 2.1.0
+Version: 2.2.0
 Depends: TeachingSampling
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -40764,7 +40775,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: TeachingSampling
-Version: 3.2.1
+Version: 3.2.2
 Depends: R (>= 2.6.0)
 License: GPL (>= 2)
 NeedsCompilation: no
