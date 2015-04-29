@@ -9164,7 +9164,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dunn.test
-Version: 1.2.3
+Version: 1.2.4
 License: GPL-2
 NeedsCompilation: no
 
@@ -11211,7 +11211,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fastclime
-Version: 1.2.4
+Version: 1.2.5
 Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
 License: GPL-2
 NeedsCompilation: yes
@@ -14218,7 +14218,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: glmm
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.1.1), trust, mvtnorm, Matrix
 Suggests: knitr
 License: GPL-2
@@ -16864,7 +16864,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icenReg
-Version: 1.0
+Version: 1.1
 Depends: survival, foreach
 License: GPL-2
 NeedsCompilation: yes
@@ -22231,7 +22231,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mixOmics
-Version: 5.0-3
+Version: 5.0-4
 Depends: R (>= 2.10), MASS, lattice
 Imports: RGCCA, igraph, rgl, pheatmap
 License: GPL (>= 2)
@@ -29775,10 +29775,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Quandl
-Version: 2.4.0
+Version: 2.6.0
 Depends: R (>= 2.15.0), xts
-Imports: RCurl, RJSONIO, zoo
-Suggests: testthat
+Imports: httr, zoo
+Suggests: testthat, roxygen2, timeSeries
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -34510,7 +34510,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RSEIS
-Version: 3.3-3
+Version: 3.4-5
 Depends: R (>= 2.12)
 Imports: RPMG, Rwave
 Suggests: stats
@@ -42404,6 +42404,12 @@ Version: 1.0
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: uniqtag
+Version: 1.0
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: uniReg
 Version: 1.0
 Imports: DoseFinding, MASS, mvtnorm, quadprog, SEL, splines
@@ -42460,8 +42466,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: urltools
-Version: 0.6
-Imports: Rcpp
+Version: 1.1.0
+Imports: Rcpp, methods
 LinkingTo: Rcpp
 Suggests: testthat, knitr
 License: MIT + file LICENSE
