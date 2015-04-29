@@ -6350,6 +6350,13 @@ Suggests: knitr, Matrix
 License: GPL-2
 NeedsCompilation: no
 
+Package: CorrMixed
+Version: 0.1-1
+Depends: nlme
+Imports: psych
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: corrplot
 Version: 0.73
 Suggests: seriation, knitr
@@ -10655,7 +10662,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evmix
-Version: 2.4
+Version: 2.5
 Depends: stats, graphics, MASS, splines, gsl, SparseM
 License: GPL-3
 NeedsCompilation: no
@@ -12181,7 +12188,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: ForeCA
-Version: 0.2.0
+Version: 0.2.2
 Depends: R (>= 3.0.0), ifultools (>= 2.0.0)
 Imports: MASS, sapa
 Suggests: astsa, mgcv, nlme (>= 3.1-64), testthat (>= 0.9.0), rSFA,
@@ -18256,7 +18263,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: KFAS
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.1.0)
 Imports: stats
 Suggests: MASS, testthat, knitr, lme4
@@ -25011,7 +25018,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: NPMLEcmprsk
-Version: 2.0
+Version: 2.1
 License: Artistic-2.0
 NeedsCompilation: no
 
@@ -27329,7 +27336,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PHENIX
-Version: 1.1
+Version: 1.2
 Imports: ppcor, SuppDists
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32137,6 +32144,12 @@ Imports: splines
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: replicatedpp2w
+Version: 0.1-1
+Imports: spatstat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: replicationInterval
 Version: 0.3
 Imports: MBESS
@@ -36005,7 +36018,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sdprisk
-Version: 1.0-3
+Version: 1.1-0
 Imports: numDeriv, PolynomF, rootSolve
 License: AGPL-3
 NeedsCompilation: yes
@@ -39447,7 +39460,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: stepR
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 2.15.3), stats
 License: GPL-3
 NeedsCompilation: yes
@@ -41968,9 +41981,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSdbi
-Version: 2013.9-1
+Version: 2015.1-1
 Depends: R (>= 2.8.0)
-Imports: methods, DBI, tframe (>= 2008.5-1)
+Imports: methods, DBI(>= 0.3.1), tframe (>= 2015.1-1)
 Suggests: zoo, tseries, tis, tfplot, tframePlus
 License: GPL-2
 NeedsCompilation: no
@@ -43670,7 +43683,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: XBRL
-Version: 0.99.15
+Version: 0.99.16
 Imports: Rcpp (>= 0.10.4)
 LinkingTo: Rcpp
 License: GPL (>= 2)
