@@ -7122,7 +7122,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: dae
-Version: 2.4-0
+Version: 2.7-0
 Depends: R (>= 2.10.0), ggplot2, methods
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -8200,7 +8200,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: difR
-Version: 4.5
+Version: 4.6
 Depends: R (>= 3.0.0), lme4, ltm
 License: file LICENSE
 License_restricts_use: yes
@@ -14311,6 +14311,13 @@ Depends: snowfall
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: GlobalFit
+Version: 1.0
+Depends: R (>= 2.12.0), sybil (>= 1.1.7), methods
+Suggests: cplexAPI (>= 1.2.1)
+License: GPL-3
+NeedsCompilation: no
+
 Package: globalGSA
 Version: 1.0
 License: GPL (>= 2)
@@ -15329,8 +15336,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GWLelast
-Version: 1.0
-Imports: doParallel,geosphere,sp,spgwr,glmnet,doMC,foreach
+Version: 1.1
+Imports: doParallel,geosphere,sp,spgwr,glmnet,foreach
 Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
@@ -17979,7 +17986,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: jiebaR
-Version: 0.4
+Version: 0.5
 Depends: R (>= 3.1), jiebaRD
 Imports: Rcpp
 LinkingTo: Rcpp
@@ -29883,6 +29890,13 @@ Depends: R (>= 2.10)
 License: GPL-3
 NeedsCompilation: yes
 
+Package: quickpsy
+Version: 0.1.0
+Depends: R (>= 3.1.1), boot, DEoptim, dplyr, ggplot2, tidyr
+Imports: MPDiR
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: quint
 Version: 1.0
 Depends: R (>= 3.0.2), partykit, Formula, rpart
@@ -37675,7 +37689,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.2-0
+Version: 1.2-1
 Depends: R (>= 2.15.3), methods, stats4
 Imports: mnormt, numDeriv
 License: GPL-2 | GPL-3
@@ -40336,7 +40350,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: synbreedData
-Version: 1.4
+Version: 1.5
 Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: no
