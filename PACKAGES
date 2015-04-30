@@ -6128,7 +6128,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: constrainedKriging
-Version: 0.2.3
+Version: 0.2.4
 Depends: R (>= 2.9.0), sp(>= 0.9-60), spatialCovariance(>= 0.6-4),
         methods
 Imports: rgeos(>= 0.2-17), RandomFields(>= 1.3.41),
@@ -9345,8 +9345,8 @@ License: FreeBSD
 NeedsCompilation: no
 
 Package: earth
-Version: 4.2.0
-Depends: plotmo (>= 2.2.1), plotrix
+Version: 4.3.0
+Depends: plotmo (>= 3.0.0)
 Suggests: gam, mgcv, mda, MASS
 License: GPL-3
 NeedsCompilation: yes
@@ -19533,9 +19533,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LLSR
-Version: 0.0.1.9015
-Depends: R (>= 2.10)
-Imports: rootSolve
+Version: 0.0.1.9225
+Depends: R (>= 2.10), rootSolve, XLConnect, digest
 Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
@@ -22240,6 +22239,15 @@ Version: 0.5-4
 Depends: R (>= 1.4.0)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: mixedMem
+Version: 1.0.2
+Depends: R (>= 3.0.2)
+Imports: Rcpp (>= 0.11.3), gtools
+LinkingTo: Rcpp (>= 0.11.3), RcppArmadillo, BH
+Suggests: knitr, xtable,
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: MixedTS
 Version: 1.0.1
@@ -34088,8 +34096,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rowr
-Version: 1.1.1
-Depends: R (>= 3.0.2)
+Version: 1.1.2
+Depends: R (>= 3.0.1)
 License: GPL-3
 NeedsCompilation: no
 
