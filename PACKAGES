@@ -39741,9 +39741,10 @@ License_is_FOSS: yes
 NeedsCompilation: yes
 
 Package: stringr
-Version: 0.6.2
+Version: 1.0.0
 Depends: R (>= 2.14)
-Suggests: testthat (>= 0.3)
+Imports: stringi (>= 0.4.1), magrittr
+Suggests: testthat, knitr
 License: GPL-2
 NeedsCompilation: no
 
