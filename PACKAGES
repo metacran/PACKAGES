@@ -8011,7 +8011,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: dfcomb
-Version: 2.1-1
+Version: 2.1-3
 Depends: R (>= 3.1.3)
 LinkingTo: RcppArmadillo (>= 0.4.650), BH (>= 1.55), RcppProgress (>=
         0.2.1), Rcpp
@@ -8036,7 +8036,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dfmta
-Version: 1.3-1
+Version: 1.3-2
 Depends: R (>= 3.1.0)
 LinkingTo: RcppArmadillo (>= 0.4.650), BH (>= 1.55), RcppProgress (>=
         0.2.1), Rcpp
@@ -20628,12 +20628,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markovchain
-Version: 0.1.1
+Version: 0.2
 Depends: R (>= 3.0.0), methods
-Imports: igraph, Matrix, matlab, expm, stats4, parallel
+Imports: igraph, Matrix, matlab, expm, stats4, parallel, Rcpp (>=
+        0.11.5), RcppParallel
+LinkingTo: Rcpp, RcppParallel
 Suggests: testthat
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: MarkowitzR
 Version: 0.1502
@@ -27839,8 +27841,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plotmo
-Version: 2.2.1
-Suggests: earth, rpart
+Version: 3.0.0
+Depends: plotrix, TeachingDemos
+Suggests: earth (>= 4.2.0), MASS, neuralnet, rpart, rpart.plot
 License: GPL-3
 NeedsCompilation: no
 
@@ -30821,10 +30824,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rchoice
-Version: 0.2
-Depends: R (>= 3.1.2), Formula, maxLik,
-Imports: msm, plm, plotrix
-Suggests: car, lmtest, memisc, pglm, sandwich, knitr
+Version: 0.3
+Depends: R (>= 3.1.2), Formula, maxLik
+Imports: msm, plm, plotrix, stats
+Suggests: car, lmtest, memisc, pglm, sandwich
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -39143,6 +39146,13 @@ NeedsCompilation: no
 Package: ssize.fdr
 Version: 1.2
 License: GPL-3
+NeedsCompilation: no
+
+Package: ssizeRNA
+Version: 1.1.1
+Depends: R (>= 3.1.2)
+Imports: MASS, Biobase, edgeR, limma, qvalue, ssize.fdr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ssmrob
