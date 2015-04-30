@@ -14276,7 +14276,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: glmmLasso
-Version: 1.3.3
+Version: 1.3.4
 Imports: minqa
 License: GPL-2
 NeedsCompilation: no
@@ -30909,9 +30909,10 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: rCMA
-Version: 1.0.0
-Depends: R (>= 2.14.0), rJava
-License: GPL (>= 2)
+Version: 1.1
+Depends: R (>= 2.14.0),
+Suggests: rJava
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: Rcmdr
