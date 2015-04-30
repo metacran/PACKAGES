@@ -8091,9 +8091,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DiagrammeR
-Version: 0.5
-Imports: htmlwidgets (>= 0.3.2), rstudioapi (>= 0.2), V8 (>= 0.5)
-Suggests: knitr
+Version: 0.6
+Imports: htmlwidgets (>= 0.3.2), rstudioapi (>= 0.2)
+Suggests: knitr, V8 (>= 0.5)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -9654,6 +9654,14 @@ Imports: Matrix, foreach (>= 1.4.2), doParallel (>= 1.0.8), waveslim
         (>= 1.7.5), parallel, gstat (>= 1.0-19), tidyr (>= 0.1.0.9000),
         dplyr (>= 0.3.0.2), sp (>= 1.0-15)
 Suggests: knitr, ggplot2, RCurl, fields, gridExtra, animation
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: EffectLiteR
+Version: 0.3-3
+Depends: R (>= 3.1.0), lavaan (>= 0.5-18), methods
+Imports: shiny (>= 0.11), foreign, ggplot2, nnet, survey,
+        lavaan.survey, car
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20846,9 +20854,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAVIS
-Version: 1.0
-Imports: shiny, shinyAce, metafor, MAd, MAc, quantreg, ggplot2,
-        compute.es
+Version: 1.1
+Depends: R (>= 3.0.3)
+Imports: shiny, shinyAce, metafor, MAc, MAd, quantreg, ggplot2,
+        compute.es, SCMA, SCRT, shinyBS
 License: GPL-3
 NeedsCompilation: no
 
@@ -21128,7 +21137,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MCMC.qpcr
-Version: 1.1.5
+Version: 1.1.7
 Depends: MCMCglmm,ggplot2,coda
 License: GPL-3
 NeedsCompilation: no
@@ -27112,7 +27121,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Peptides
-Version: 1.0.3
+Version: 1.0.4
 Suggests: RUnit
 License: GPL-2
 NeedsCompilation: no
@@ -41878,7 +41887,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: TripleR
-Version: 1.4
+Version: 1.4.1
 Depends: ggplot2 (>= 0.9.3)
 Imports: reshape2, plyr
 Suggests: lme4
@@ -42077,9 +42086,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSfame
-Version: 2013.8-2
-Depends: R (>= 2.8.0), TSdbi (>= 2011.11-1)
-Imports: methods, DBI, tframe, tframePlus(>= 2011.8-1), fame (>= 2.12),
+Version: 2015.4-1
+Depends: R (>= 2.8.0), TSdbi (>= 2015.1-1)
+Imports: methods, DBI (>= 0.3.1), tframe, tframePlus, fame (>= 2.12),
         tis
 Suggests: tseries, tfplot, zoo
 License: GPL-2
@@ -42135,15 +42144,25 @@ Suggests: gam
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: TSMySQL
+Version: 2015.4-1
+Depends: R (>= 2.8.0), TSdbi (>= 2015.1-1)
+Imports: methods, DBI (>= 0.3.1), tframe, TSsql (>= 2015.1-1), RMySQL
+        (>= 0.10.3)
+Suggests: zoo, tseries, tfplot, tframePlus, timeSeries
+License: GPL-2
+NeedsCompilation: no
+
 Package: tsne
 Version: 0.1-2
 License: GPL
 NeedsCompilation: no
 
 Package: TSodbc
-Version: 2013.9-1
-Depends: R (>= 2.8.0), TSdbi (>= 2013.9-1), RODBC (>= 0.6-0)
-Imports: methods, DBI, tframe, tframePlus , TSsql (>= 2013.9-1)
+Version: 2015.4-1
+Depends: R (>= 2.8.0), TSdbi (>= 2015.1-1)
+Imports: methods, DBI (>= 0.3.1), tframe, tframePlus , TSsql (>=
+        2015.1-1), RODBC (>= 0.6-0)
 Suggests: zoo, tseries, tfplot
 License: GPL-2
 NeedsCompilation: no
@@ -42178,9 +42197,10 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: TSPostgreSQL
-Version: 2013.9-1
-Depends: R (>= 2.8.0), TSdbi (>= 2013.9-1), RPostgreSQL
-Imports: methods, DBI, tframe, tframePlus, TSsql (>= 2013.9-1)
+Version: 2015.4-1
+Depends: R (>= 2.8.0), TSdbi (>= 2015.1-1)
+Imports: methods, DBI (>= 0.3.1), tframe, tframePlus, TSsql (>=
+        2015.1-1), RPostgreSQL
 Suggests: zoo, tseries, tfplot
 License: GPL-2
 NeedsCompilation: no
@@ -42210,9 +42230,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSSQLite
-Version: 2013.9-1
-Depends: R (>= 2.8.0), TSdbi (>= 2013.9-1), RSQLite
-Imports: methods, DBI, tframe, tframePlus, TSsql (>= 2013.9-1)
+Version: 2015.4-1
+Depends: R (>= 2.8.0), TSdbi (>= 2015.1-1)
+Imports: methods, DBI (>= 0.3.1), tframe, tframePlus, TSsql (>=
+        2015.1-1), RSQLite
 Suggests: zoo, tseries, tfplot
 License: GPL-2
 NeedsCompilation: no
