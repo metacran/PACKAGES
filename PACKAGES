@@ -28369,7 +28369,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PopGenome
-Version: 2.1.0
+Version: 2.1.5
 Depends: R (>= 2.14.2),ff
 Imports: methods
 Suggests: parallel, bigmemory, BASIX, WhopGenome
