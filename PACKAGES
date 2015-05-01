@@ -4178,7 +4178,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: capm
-Version: 0.7.0
+Version: 0.8.0
 Depends: R (>= 3.1.2)
 Imports: deSolve, FME, survey, ggplot2, reshape2, shiny, grid, rgdal,
         maptools, sp
@@ -14125,8 +14125,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gistr
-Version: 0.1.0
-Imports: jsonlite, httr, magrittr, knitr
+Version: 0.2.0
+Imports: jsonlite, httr, magrittr, assertthat, knitr, rmarkdown, dplyr
 Suggests: roxygen2, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
