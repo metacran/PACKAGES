@@ -5865,7 +5865,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Comp2ROC
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.15.1), ROCR, boot
 License: GPL-2
 NeedsCompilation: no
@@ -22268,9 +22268,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MixGHD
-Version: 1.4
+Version: 1.5
 Depends: MASS, mclust, R (>= 3.1.1)
-Imports: Bessel, stats, mvtnorm, ghyp, numDeriv
+Imports: Bessel,stats, mvtnorm, ghyp, numDeriv, mixture
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23097,7 +23097,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MPTinR
-Version: 1.7.5
+Version: 1.8.0
 Depends: R (>= 2.15.1)
 Imports: numDeriv, Brobdingnag, Rcpp
 LinkingTo: Rcpp, RcppEigen
@@ -24238,11 +24238,11 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ndtv
-Version: 0.5.1
-Depends: R (>= 3.0), network (>= 1.9),networkDynamic (>=
-        0.6),animation,sna
-Imports: MASS, statnet.common
-Suggests: tergm (>= 3.1),testthat
+Version: 0.6.1
+Depends: R (>= 3.0), network (>= 1.12),networkDynamic (>=
+        0.6),animation (>= 2.3),sna
+Imports: MASS, statnet.common, jsonlite, base64
+Suggests: tergm (>= 3.1), testthat, knitr
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
@@ -33495,9 +33495,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rms
-Version: 4.3-0
-Depends: Hmisc (>= 3.15-0), survival (>= 2.37-6), lattice, ggplot2,
-        gridExtra, SparseM
+Version: 4.3-1
+Depends: Hmisc (>= 3.15-1), survival (>= 2.37-6), lattice, ggplot2,
+        SparseM
 Imports: quantreg, nlme, rpart, polspline, multcomp
 Suggests: boot, tcltk
 License: GPL (>= 2)
@@ -42013,11 +42013,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TScompare
-Version: 2013.9-1
-Depends: R (>= 2.10.0), TSdbi (>= 2013.9-1)
-Imports: tframe, tfplot
-Suggests: tframePlus, TSsql, TSMySQL, TSSQLite, TShistQuote
-Enhances: TSPostgreSQL, TSodbc, TSfame, TSgetSymbol
+Version: 2015.4-1
+Depends: R (>= 2.10.0), TSdbi (>= 2015.1-1)
+Imports: tframe, tfplot, DBI (>= 0.3.1),
+Suggests: tframePlus, TSsql, TSMySQL, TSSQLite, TSmisc, zoo
+Enhances: TSPostgreSQL, TSodbc, TSfame
 License: GPL-2
 NeedsCompilation: no
 
