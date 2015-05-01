@@ -4589,7 +4589,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CDNmoney
-Version: 2012.4-1
+Version: 2012.4-2
 Depends: R (>= 2.10)
 Suggests: tframe (>= 2006.1-1), tfplot
 License: GPL-2 | file LICENSE
@@ -39714,7 +39714,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: StreamMetabolism
-Version: 1.0
+Version: 1.1
 Depends: zoo, chron, maptools
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -42093,7 +42093,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: tsfa
-Version: 2014.2-2
+Version: 2014.10-1
 Depends: R (>= 2.1.0), GPArotation (>= 2006.9-1), dse (>= 2006.1-1),
         EvalEst (>= 2006.1-1)
 Imports: setRNG (>= 2004.4-1), tframe (>= 2011.3-1), tfplot (>=
@@ -43255,6 +43255,13 @@ Package: waterfall
 Version: 0.9.9.20121030
 Depends: R (>= 2.14.0), lattice
 License: BSD
+NeedsCompilation: no
+
+Package: WaterML
+Version: 0.9.6
+Depends: R (>= 3.0.1)
+Imports: XML, RJSONIO, httr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: Watersheds
