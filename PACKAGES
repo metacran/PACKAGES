@@ -19190,6 +19190,13 @@ Suggests: knitr
 License: Unlimited
 NeedsCompilation: no
 
+Package: learnstats
+Version: 0.1.0
+Depends: R (>= 3.1.0), RcmdrPlugin.epack, ggplot2
+Imports: shiny, rmarkdown, Rcmdr
+License: GPL
+NeedsCompilation: no
+
 Package: lefse
 Version: 0.1
 Depends: R (>= 2.10)
@@ -22486,6 +22493,13 @@ Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: no
 
+Package: MLmetrics
+Version: 1.0.0
+Depends: R (>= 2.10)
+Suggests: e1071
+License: GPL-2
+NeedsCompilation: no
+
 Package: mlmmm
 Version: 0.3-1.2
 License: GPL-2
@@ -25022,7 +25036,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: NPCD
-Version: 1.0-7
+Version: 1.0-8
 Depends: R (>= 2.14.2), BB, R.oo
 Imports: R.methodsS3
 License: LGPL (>= 2.1)
@@ -26245,10 +26259,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: paleotree
-Version: 2.3
-Depends: R (>= 3.0.0), ape
-Imports: phangorn
-License: GPL (>= 2)
+Version: 2.4
+Depends: R (>= 3.0.0), ape (>= 3.2)
+Imports: phangorn (>= 1.99.12)
+License: CC0
 NeedsCompilation: no
 
 Package: paleoTS
