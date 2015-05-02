@@ -10610,9 +10610,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: EvalEst
-Version: 2012.4-1
-Depends: R (>= 2.5.0), setRNG, tframe (>= 2007.5-3), tfplot, dse (>=
-        2007.10-1)
+Version: 2015.4-2
+Depends: R (>= 2.5.0), tfplot, dse (>= 2007.10-1)
+Imports: setRNG, tframe (>= 2007.5-3)
 License: GPL-2
 NeedsCompilation: no
 
@@ -28149,6 +28149,13 @@ Depends: dfcrm, nnet
 License: GPL-2
 NeedsCompilation: no
 
+Package: pogit
+Version: 1.0.0
+Depends: R(>= 2.10.0)
+Imports: BayesLogit, ggplot2, logistf, plyr
+License: GPL-2
+NeedsCompilation: no
+
 Package: PogromcyDanych
 Version: 1.5
 Depends: R (>= 3.0), dplyr, SmarterPoland
@@ -40129,6 +40136,18 @@ Depends: R (>= 1.6.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: survJamda
+Version: 1.1.3
+Depends: survival, survivalROC,ecodist,survcomp,survJamda.data
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: survJamda.data
+Version: 1.0.2
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: SurvLong
 Version: 1.0
 License: GPL-2
@@ -43232,7 +43251,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: W3CMarkupValidator
-Version: 0.1-1
+Version: 0.1-2
 Imports: XML, RCurl
 License: GPL-2
 NeedsCompilation: no
