@@ -17082,6 +17082,12 @@ Depends: igraph
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ig.vancouver.2014.topcolour
+Version: 0.1.2.0
+Depends: R (>= 2.10)
+License: CC0
+NeedsCompilation: no
+
 Package: ihs
 Version: 1.0
 Depends: R (>= 2.4.0), maxLik (>= 1.2-4)
