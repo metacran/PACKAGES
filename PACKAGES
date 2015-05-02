@@ -6499,7 +6499,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: coxinterval
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.15.2), survival, timereg
 Imports: Matrix
 License: GPL (>= 2)
@@ -13282,6 +13282,13 @@ LinkingTo: Rcpp, RcppProgress
 License: GPL-2
 NeedsCompilation: yes
 
+Package: GDAdata
+Version: 0.93
+Depends: R (>= 2.10)
+Suggests: ggplot2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: gdalUtils
 Version: 0.3.1
 Depends: R (>= 2.14.0)
@@ -14699,7 +14706,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gplots
-Version: 2.16.0
+Version: 2.17.0
 Depends: R (>= 3.0)
 Imports: gtools, gdata, stats, caTools, KernSmooth
 Suggests: grid, MASS
@@ -22356,6 +22363,11 @@ Package: mixsmsn
 Version: 1.0-9
 Depends: R (>= 1.9.0), mvtnorm (>= 0.9-9)
 License: GPL (>= 2.0)
+NeedsCompilation: no
+
+Package: mixtNB
+Version: 1.0
+License: GPL-3
 NeedsCompilation: no
 
 Package: mixtools
