@@ -8344,10 +8344,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: discreteRV
-Version: 1.2
+Version: 1.2.1
 Depends: R (>= 3.0.2)
 Imports: plyr, MASS
-Suggests: testthat, roxygen2
+Suggests: testthat, roxygen2, knitr
 License: GPL-3
 NeedsCompilation: no
 
@@ -17952,6 +17952,12 @@ Depends: stats, gmm, plyr, lmtest
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: ivmodel
+Version: 1.0
+Depends: Matrix
+License: GPL-2
+NeedsCompilation: no
+
 Package: ivpack
 Version: 1.2
 Depends: AER, sandwich, lmtest
@@ -20447,9 +20453,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MAINT.Data
-Version: 0.3
+Version: 0.4
 Depends: R (>= 2.8.0)
-Imports: MASS, methods, miscTools
+Imports: methods
+Suggests: MASS, miscTools
 License: GPL-2
 NeedsCompilation: no
 
@@ -23872,7 +23879,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvMORPH
-Version: 1.0.4
+Version: 1.0.5
 Depends: R(>= 2.9.1), phytools, ape, corpcor, subplex, spam
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -26438,7 +26445,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: parboost
-Version: 0.1.3
+Version: 0.1.4
 Depends: R (>= 3.0.1), parallel, mboost, party, iterators
 Imports: plyr, caret, glmnet, doParallel
 License: GPL-2
@@ -31354,10 +31361,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RcppAnnoy
-Version: 0.0.5
+Version: 0.0.6
 Depends: R (>= 3.1)
 Imports: methods, Rcpp (>= 0.11.3)
-LinkingTo: Rcpp, BH
+LinkingTo: Rcpp
 Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
