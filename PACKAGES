@@ -9930,11 +9930,11 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: emdatr
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.2)
 Imports: RCurl
-Suggests: ggplot2, plyr
-License: GPL (>= 2)
+Suggests: knitr, ggplot2, plyr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: emdbook
@@ -33322,6 +33322,12 @@ Version: 8.0.1
 Depends: R (>= 2.14.1), methods
 License: LGPL (>= 2.1)
 NeedsCompilation: yes
+
+Package: Rlinkedin
+Version: 0.1
+Depends: R (>= 2.12.0), httr, XML, httpuv
+License: GPL-2
+NeedsCompilation: no
 
 Package: rlist
 Version: 0.4
