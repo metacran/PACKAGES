@@ -1098,9 +1098,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: apsimr
-Version: 0.1
+Version: 1.0
 Depends: R (>= 3.0), ggplot2, XML
-Imports: lubridate, reshape2
+Imports: lubridate, reshape2, MASS, mgcv
+Suggests: knitr
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -5405,6 +5406,12 @@ Package: clusterGenomics
 Version: 1.0
 License: Artistic-2.0
 NeedsCompilation: no
+
+Package: clustering.sc.dp
+Version: 1.0
+Depends: R (>= 2.10.0)
+License: LGPL (>= 3)
+NeedsCompilation: yes
 
 Package: clusterPower
 Version: 0.5
@@ -18084,7 +18091,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: JMbayes
-Version: 0.7-0
+Version: 0.7-2
 Depends: R (>= 3.1.2), MASS, nlme, splines, survival
 Enhances: xtable, shiny
 License: GPL (>= 2)
