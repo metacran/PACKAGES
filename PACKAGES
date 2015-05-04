@@ -9207,7 +9207,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: DVHmetrics
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.0.0)
 Imports: ggplot2, reshape2, grid, shiny, KernSmooth, markdown
 Suggests: knitr
@@ -17529,7 +17529,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: InvariantCausalPrediction
-Version: 0.3-1
+Version: 0.3-2
 Depends: glmnet, mboost, jointDiag
 License: GPL
 NeedsCompilation: no
@@ -18728,9 +18728,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: labdsv
-Version: 1.6-1
+Version: 1.7-0
 Depends: R (>= 2.10), mgcv, MASS
-Suggests: rgl, optpart
+Imports: rgl, cluster
+Suggests: optpart, fso
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -24291,7 +24292,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ncvreg
-Version: 3.3-0
+Version: 3.4-0
 Suggests: parallel
 License: GPL-2
 NeedsCompilation: yes
@@ -25287,8 +25288,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: numDeriv
-Version: 2012.9-1
-Depends: R (>= 1.8.1)
+Version: 2014.2-1
+Depends: R (>= 2.11.1)
 License: GPL-2
 NeedsCompilation: no
 
@@ -28450,7 +28451,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: PopGenome
-Version: 2.1.5
+Version: 2.1.6
 Depends: R (>= 2.14.2),ff
 Imports: methods
 Suggests: parallel, bigmemory, BASIX, WhopGenome
@@ -32842,7 +32843,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rgr
-Version: 1.1.10
+Version: 1.1.11
 Depends: MASS, fastICA
 Suggests: akima
 License: GPL-2
@@ -35613,8 +35614,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: samplesize4surveys
-Version: 2.2.0
-Depends: TeachingSampling
+Version: 2.4.0.900
+Depends: R (>= 2.11), TeachingSampling
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36826,8 +36828,8 @@ License: GPL
 NeedsCompilation: yes
 
 Package: sglasso
-Version: 1.1-1
-Depends: Matrix
+Version: 1.2
+Depends: Matrix, igraph
 License: GPL (>= 2)
 NeedsCompilation: yes
 
