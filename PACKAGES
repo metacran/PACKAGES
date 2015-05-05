@@ -16009,6 +16009,12 @@ Depends: gtools
 License: GPL
 NeedsCompilation: yes
 
+Package: hiertest
+Version: 1.1
+Depends: R (>= 3.0.2)
+License: GPL-3
+NeedsCompilation: no
+
 Package: HIest
 Version: 2.0
 Depends: nnet, stats
@@ -23630,8 +23636,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: multimark
-Version: 1.1.3
-Depends: R (>= 3.0.0)
+Version: 1.1.4
+Depends: R (>= 3.0.2)
 Imports: parallel, statmod, Matrix, RMark, coda, methods, Brobdingnag,
         mvtnorm
 License: GPL-2
@@ -39916,7 +39922,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: structSSI
-Version: 1.1
+Version: 1.1.1
 Depends: methods
 Imports: multtest, igraph, rjson, ggplot2, reshape2
 Suggests: ape, phyloseq
