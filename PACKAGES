@@ -28981,11 +28981,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pROC
-Version: 1.7.3
-Depends: R (>= 2.13)
+Version: 1.8
+Depends: R (>= 2.14)
 Imports: plyr, utils, methods, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
-Suggests: microbenchmark, tcltk, MASS, logcondens, doMC, doSNOW
+Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel
 License: GPL (>= 3)
 NeedsCompilation: yes
 
