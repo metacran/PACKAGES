@@ -9442,6 +9442,11 @@ Depends: R (>= 2.10)
 License: GPL
 NeedsCompilation: yes
 
+Package: ebGenotyping
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: EBglmnet
 Version: 3.6
 Depends: R (>= 2.10)
@@ -11441,6 +11446,14 @@ Suggests: RJSONIO, RCurl, httr, XML, Rlab, xtable, tcltk, speedglm,
         glmnet
 License: GPL-2
 NeedsCompilation: no
+
+Package: fbroc
+Version: 0.1.0
+Depends: R (>= 3.1.0), ggplot2
+Imports: Rcpp
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
 
 Package: fcd
 Version: 0.1
@@ -24903,6 +24916,13 @@ Version: 1.4
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: NNTbiomarker
+Version: 0.28
+Imports: shiny, xtable, stringr
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: nodeHarvest
 Version: 0.6
 Imports: graphics, quadprog,randomForest
@@ -25331,7 +25351,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: numOSL
-Version: 1.7
+Version: 1.8
 Depends: R (>= 2.15.3)
 License: GPL-3
 NeedsCompilation: yes
@@ -26978,7 +26998,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PCovR
-Version: 2.5
+Version: 2.6
 Depends: GPArotation, ThreeWay, MASS, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -29818,7 +29838,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: qrng
-Version: 0.0-1
+Version: 0.0-2
 Depends: R (>= 3.0.0)
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
@@ -32089,6 +32109,12 @@ Package: RegClust
 Version: 1.0
 Depends: R (>= 3.0.2)
 License: Artistic-2.0
+NeedsCompilation: no
+
+Package: reGenotyper
+Version: 1.2.0
+Depends: R (>= 3.0.1), gplots, zoo, methods, MatrixEQTL
+License: GPL
 NeedsCompilation: no
 
 Package: regexr
@@ -43423,7 +43449,7 @@ License: BSD
 NeedsCompilation: no
 
 Package: WaterML
-Version: 0.9.6
+Version: 1.0.0
 Depends: R (>= 3.0.1)
 Imports: XML, RJSONIO, httr
 License: MIT + file LICENSE
