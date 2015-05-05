@@ -3103,6 +3103,13 @@ Version: 1.2.0
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: biorxivr
+Version: 0.1.0
+Depends: XML
+Suggests: knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: bios2mds
 Version: 1.2.2
 Depends: R (>= 2.12), amap, e1071, scales, cluster, rgl
@@ -4996,7 +5003,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: choroplethr
-Version: 3.0.0
+Version: 3.1.0
 Depends: R (>= 3.0.0)
 Imports: scales, Hmisc, stringr, ggplot2, dplyr, R6, acs, WDI
 Suggests: testthat, knitr, choroplethrMaps, choroplethrAdmin1
@@ -19781,6 +19788,14 @@ Suggests: knitr
 License: LGPL-2.1
 NeedsCompilation: no
 
+Package: LocFDRPois
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: dplyr, ggplot2
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: locfit
 Version: 1.5-9.1
 Depends: R (>= 2.0.1)
@@ -20524,6 +20539,15 @@ Imports: stringr (>= 0.6.2), assertthat (>= 0.1), tools (>= 3.0)
 License: GPL-2
 NeedsCompilation: no
 
+Package: manifestoR
+Version: 0.9-12
+Depends: R (>= 3.1.0), NLP (>= 0.1-3), tm (>= 0.6), dplyr (>= 0.4.1)
+Imports: utils, httr (>= 0.3), jsonlite (>= 0.9.12), functional (>=
+        0.6)
+Suggests: knitr, rmarkdown, testthat, R.rsp
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: manipulate
 Version: 1.0.1
 Depends: R (>= 2.11.1)
@@ -20971,11 +20995,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mbbefd
-Version: 0.6.1
-Depends: R (>= 2.14)
+Version: 0.7
+Depends: R (>= 2.14), actuar, gsl
 Imports: Rcpp
 LinkingTo: Rcpp
-Suggests: testthat, copula, fitdistrplus
+Suggests: testthat, copula, fitdistrplus, pander, knitcitations,
+        rmarkdown, knitr, lattice
 License: GPL-2
 NeedsCompilation: yes
 
@@ -25742,6 +25767,11 @@ Package: OptHedging
 Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: optifunset
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
 
 Package: OptimalCutpoints
 Version: 1.1-3
@@ -36311,11 +36341,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SEERaBomb
-Version: 2014.4.1
-Depends: RSQLite, LaF
-Suggests: bbmle
-License: GPL-2
-NeedsCompilation: no
+Version: 2015.1
+Depends: RSQLite, LaF, dplyr, rgl, XLConnect
+Imports: Rcpp (>= 0.11.3), reshape2, mgcv, DBI
+LinkingTo: Rcpp
+Suggests: bbmle, ggplot2
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: seewave
 Version: 1.7.6
