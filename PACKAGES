@@ -7897,7 +7897,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Deriv
-Version: 3.2
+Version: 3.4
 Suggests: testthat
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -34353,6 +34353,13 @@ Package: Rpdb
 Version: 2.2
 Depends: R (>= 3.0), rgl (>= 0.93)
 License: GPL
+NeedsCompilation: no
+
+Package: RPEnsemble
+Version: 0.1
+Depends: R (>= 3.0.0), MASS
+Imports: class, parallel, stats
+License: GPL-3
 NeedsCompilation: no
 
 Package: rpf
