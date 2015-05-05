@@ -3236,7 +3236,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: biwavelet
-Version: 0.17.5
+Version: 0.17.10
 Imports: fields
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -9758,10 +9758,10 @@ License: CC0
 NeedsCompilation: no
 
 Package: eha
-Version: 2.4-2
+Version: 2.4-3
 Depends: R (>= 3.0.0), survival (>= 2.37-6)
 License: GPL (>= 2)
-NeedsCompilation: Yes
+NeedsCompilation: yes
 
 Package: eHOF
 Version: 1.5.8
@@ -29771,7 +29771,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qmethod
-Version: 1.3.0
+Version: 1.3.1
 Imports: methods, psych, GPArotation, tools, digest, knitr, xtable
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -30643,6 +30643,15 @@ Version: 0.92.9
 Depends: methods
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: rankdist
+Version: 0.3.1
+Depends: R (>= 2.10)
+Imports: Rcpp (>= 0.11.4), hash, optimx, methods
+LinkingTo: Rcpp
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -37506,7 +37515,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sisVIVE
-Version: 1.0
+Version: 1.1
 Depends: lars
 Suggests: MASS
 License: GPL-2
