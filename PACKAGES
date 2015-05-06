@@ -4271,13 +4271,13 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: caret
-Version: 6.0-41
+Version: 6.0-47
 Depends: R (>= 2.10), stats, lattice (>= 0.20), ggplot2
 Imports: car, reshape2, foreach, methods, plyr, nlme, BradleyTerry2
 Suggests: e1071, earth (>= 2.2-3), fastICA, gam, ipred, kernlab, klaR,
         MASS, ellipse, mda, mgcv, mlbench, nnet, party (>= 0.9-99992),
-        pls, pROC, proxy, randomForest, RANN, spls, subselect, pamr,
-        superpc, Cubist, testthat (>= 0.9.1)
+        pls, pROC (>= 1.8), proxy, randomForest, RANN, spls, subselect,
+        pamr, superpc, Cubist, testthat (>= 0.9.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -9164,8 +9164,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: DTR
-Version: 1.5
-Depends: survival, ggplot2, gridExtra, aod, proto, R (>= 3.1.0)
+Version: 1.6
+Depends: R (>= 3.1.0)
+Imports: survival, ggplot2, grid, gridExtra, aod, proto
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9323,6 +9324,11 @@ NeedsCompilation: no
 Package: DynNom
 Version: 1.0.1
 Depends: ggplot2, stargazer, shiny, compare
+License: GPL-2
+NeedsCompilation: no
+
+Package: dynRB
+Version: 0.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -24775,15 +24781,15 @@ License: LGPL-3
 NeedsCompilation: yes
 
 Package: NLP
-Version: 0.1-6
+Version: 0.1-7
 Depends: R (>= 2.10)
 Imports: utils
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: NLPutils
-Version: 0.0-1
-Imports: NLP (>= 0.1-3), SnowballC, qdap
+Version: 0.0-2
+Imports: NLP (>= 0.1-6.3), SnowballC, qdap
 License: GPL-2
 NeedsCompilation: no
 
@@ -25701,8 +25707,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: openNLP
-Version: 0.2-4
-Imports: NLP (>= 0.1-2), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
+Version: 0.2-5
+Imports: NLP (>= 0.1-6.3), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
 Suggests: openNLPmodels.en
 License: GPL-3
 NeedsCompilation: no
@@ -27997,14 +28003,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotKML
-Version: 0.5-1
+Version: 0.5-2
 Depends: R (>= 2.13.0)
-Imports: methods, XML, sp, raster, rgdal, spacetime, colorspace,
-        plotrix, dismo, aqp, pixmap, plyr, stringr, colorRamps, scales,
-        gstat, zoo, RColorBrewer, RSAGA, classInt
-Suggests: utils, adehabitat, maptools, fossil, spcosa, rjson,
-        animation, spatstat, RCurl, rgbif, Hmisc, GSIF, uuid,
-        intervals, reshape, gdalUtils, snowfall, parallel
+Imports: methods, tools, utils, XML, sp, raster, rgdal, spacetime,
+        colorspace, plotrix, dismo, aqp, pixmap, plyr, stringr,
+        colorRamps, scales, gstat, zoo, RColorBrewer, RSAGA, classInt
+Suggests: adehabitat, maptools, fossil, spcosa, rjson, animation,
+        spatstat, RCurl, rgbif, Hmisc, GSIF, uuid, intervals, reshape,
+        gdalUtils, snowfall, parallel
 License: GPL
 NeedsCompilation: no
 
@@ -33886,8 +33892,9 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: robCompositions
-Version: 1.9.0
-Depends: R (>= 2.10), utils, robustbase, rrcov, GGally, MASS, pls
+Version: 1.9.1
+Depends: R (>= 2.10), utils, robustbase
+Imports: rrcov, GGally, MASS, pls, sROC
 License: GPL-2
 NeedsCompilation: yes
 
@@ -36203,8 +36210,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: sdcMicroGUI
-Version: 1.1.1
-Depends: sdcMicro (>= 4.1.0), gWidgetsRGtk2, tcltk, cairoDevice
+Version: 1.2.0
+Depends: sdcMicro (>= 4.5.0), gWidgetsRGtk2,gWidgets, tcltk,
+        cairoDevice
 Imports: vcd, foreign, Hmisc,tools
 License: GPL-2
 NeedsCompilation: no
