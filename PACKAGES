@@ -718,6 +718,12 @@ License: file LICENSE
 License_restricts_use: yes
 NeedsCompilation: yes
 
+Package: alphaOutlier
+Version: 1.0.0
+Depends: Rsolnp, nleqslv, quantreg
+License: GPL-3
+NeedsCompilation: no
+
 Package: alphashape3d
 Version: 1.1
 Depends: geometry, rgl
@@ -9194,7 +9200,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dummy
-Version: 0.1.2
+Version: 0.1.3
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11948,7 +11954,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: fishmove
-Version: 0.3-2
+Version: 0.3-3
 Depends: ggplot2, plyr, MASS, boot
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28113,8 +28119,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plsgenomics
-Version: 1.2-6
-Depends: R (>= 2.10), MASS
+Version: 1.3
+Depends: R (>= 3.0), MASS, boot, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33112,7 +33118,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RImageJROI
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.0.2)
 Imports: spatstat
 Suggests: png, testthat
@@ -33120,7 +33126,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RImpala
-Version: 0.1.5
+Version: 0.1.6
 Depends: R (>= 2.7.0), rJava (>= 0.5-0)
 License: GPL-3
 NeedsCompilation: no
