@@ -6699,6 +6699,12 @@ Version: 1.0-7
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: cranlogs
+Version: 2.0.0
+Imports: httr, jsonlite
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: crantastic
 Version: 0.1
 License: GPL-2
@@ -10846,9 +10852,10 @@ OS_type: windows
 NeedsCompilation: yes
 
 Package: exCon
-Version: 0.1-3
+Version: 0.1.5
 Depends: R (>= 3.0)
 Imports: jsonlite
+Suggests: js
 License: GPL-3
 NeedsCompilation: no
 
@@ -15031,7 +15038,7 @@ License: AGPL
 NeedsCompilation: no
 
 Package: groc
-Version: 1.0.4
+Version: 1.0.5
 Depends: rrcov
 Imports: pls, mgcv, robust, robustbase, MASS
 Suggests: ppls
@@ -20311,9 +20318,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ltmle
-Version: 0.9.3-1
+Version: 0.9-5
 Depends: R(>= 3.0.0)
-Suggests: SuperLearner, memoise, DEoptim, testthat, tmle
+Imports: Matrix
+Suggests: SuperLearner, memoise, testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -21624,12 +21632,12 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: metafor
-Version: 1.9-5
-Depends: R (>= 3.0.0)
-Imports: stats, utils, Matrix
-Suggests: R.rsp, testthat, Formula, lme4, numDeriv, polycor, BiasedUrn,
-        survival, Epi, minqa, multcomp, plyr, igraph, CompQuadForm,
-        nloptr
+Version: 1.9-6
+Depends: R (>= 3.1.0), Matrix
+Imports: stats, utils
+Suggests: lme4, numDeriv, minqa, nloptr, dfoptim, ucminf, CompQuadForm,
+        mvtnorm, Formula, R.rsp, testthat, BiasedUrn, survival, Epi,
+        igraph, multcomp, plyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33542,7 +33550,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rmarkdown
-Version: 0.5.1
+Version: 0.6.1
 Depends: R (>= 3.0)
 Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
         0.2.4), caTools
