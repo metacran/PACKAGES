@@ -28035,9 +28035,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plotmo
-Version: 3.0.0
+Version: 3.1.0
 Depends: plotrix, TeachingDemos
-Suggests: earth (>= 4.2.0), MASS, neuralnet, rpart, rpart.plot
+Suggests: earth (>= 4.3.0), MASS, neuralnet, rpart, rpart.plot
 License: GPL-3
 NeedsCompilation: no
 
