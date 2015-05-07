@@ -20065,6 +20065,15 @@ Depends: R (>= 1.8.0), nlme
 License: GPL-2
 NeedsCompilation: no
 
+Package: loopr
+Version: 1.0.0
+Depends: R (>= 3.1.3)
+Imports: plyr (>= 1.8.1), dplyr (>= 0.4.1), magrittr (>= 1.5), lazyeval
+        (>= 0.1.10), R6 (>= 2.0.1)
+Suggests: knitr (>= 1.9)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: lordif
 Version: 0.2-2
 Depends: R (>= 2.7.0), MASS, msm, mvtnorm, polycor, sfsmisc, ltm,
@@ -29722,6 +29731,12 @@ NeedsCompilation: no
 Package: qdm
 Version: 0.1-0
 Depends: R (>= 3.1.0), stats, graphics
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: QFRM
+Version: 1.0
+Depends: R (>= 2.14.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -41685,10 +41700,10 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: tm
-Version: 0.6
-Depends: R (>= 3.1.0), NLP (>= 0.1-2)
+Version: 0.6-1
+Depends: R (>= 3.1.0), NLP (>= 0.1-6.2)
 Imports: parallel, slam (>= 0.1-31), stats, tools, utils
-Suggests: filehash, Rcampdf, Rgraphviz, Rpoppler, SnowballC,
+Suggests: filehash, methods, Rcampdf, Rgraphviz, Rpoppler, SnowballC,
         tm.lexicon.GeneralInquirer, XML
 License: GPL-3
 NeedsCompilation: yes
