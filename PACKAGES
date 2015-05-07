@@ -33163,9 +33163,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rio
-Version: 0.1.2
+Version: 0.2
 Depends: R (>= 2.15.0)
-Imports: stringr, foreign, testthat
+Imports: tools, utils, foreign, haven, openxlsx, readODS, jsonlite,
+        XML, curl, data.table, readxl
+Suggests: testthat, knitr, magrittr
 License: GPL-2
 NeedsCompilation: no
 
