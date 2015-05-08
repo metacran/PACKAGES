@@ -1544,6 +1544,13 @@ Version: 1.3
 License: GPL-2
 NeedsCompilation: no
 
+Package: asVPC
+Version: 1.0.2
+Imports: ggplot2,plyr
+Suggests: Hmisc
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: asympTest
 Version: 0.1.3
 Depends: R (>= 1.8.0)
@@ -20241,7 +20248,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lsa
-Version: 0.73
+Version: 0.73.1
 Depends: SnowballC
 Suggests: tm
 License: GPL (>= 2)
