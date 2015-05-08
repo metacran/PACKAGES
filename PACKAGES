@@ -6404,7 +6404,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CorrMixed
-Version: 0.1-1
+Version: 0.1-11
 Depends: nlme
 Imports: psych
 License: GPL (>= 2)
@@ -21600,7 +21600,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 4.1-0
+Version: 4.2-0
 Depends: R (>= 2.9.1)
 Imports: grid
 Suggests: metafor
@@ -23687,6 +23687,12 @@ Version: 0.4.4
 Depends: R (>= 2.15.0)
 Imports: MASS
 License: GPL-3
+NeedsCompilation: no
+
+Package: MultiJoin
+Version: 0.1
+Depends: R (>= 2.10), graphics, stats
+License: GPL
 NeedsCompilation: no
 
 Package: MultiLCIRT
@@ -28804,6 +28810,15 @@ Package: PPtree
 Version: 2.3.0
 Imports: MASS (>= 3.1-20), penalizedLDA (>= 1.0)
 License: LGPL-2.1
+NeedsCompilation: yes
+
+Package: PPtreeViz
+Version: 1.0.1
+Depends: R (>= 2.10),gridExtra,ggplot2,grid
+Imports: Rcpp, reshape2
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: MASS (>= 3.1-20)
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pqantimalarials
@@ -34431,7 +34446,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: RPEnsemble
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0.0), MASS
 Imports: class, parallel, stats
 License: GPL-3
@@ -38958,6 +38973,13 @@ Package: speccalt
 Version: 0.1.1
 Depends: R (>= 2.10.0)
 License: LGPL-3
+NeedsCompilation: no
+
+Package: SpecHelpers
+Version: 0.1.6
+Depends: R (>= 3.0)
+Imports: gsubfn
+License: GPL-3
 NeedsCompilation: no
 
 Package: SPECIES
