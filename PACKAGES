@@ -1100,7 +1100,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: aprean3
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 3.1.1)
 License: GPL-3
 NeedsCompilation: no
@@ -3155,7 +3155,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: biotools
-Version: 2.0
+Version: 2.1
 Depends: R (>= 2.15), utils, rpanel, tkrplot, MASS, boot
 Suggests: soilphysics
 License: GPL (>= 2)
@@ -8734,7 +8734,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dmm
-Version: 1.5-1
+Version: 1.6-1
 Depends: MASS, Matrix, nadiv, robustbase, pls
 License: GPL-2 | GPL (>= 2) | GPL-3
 NeedsCompilation: no
@@ -9070,7 +9070,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: drgee
-Version: 1.1.0
+Version: 1.1.1
 Depends: stats, nleqslv, survival, R (>= 3.0.0)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -12312,7 +12312,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: forecast
-Version: 5.9
+Version: 6.0
 Depends: R (>= 3.0.2), stats, graphics, zoo, timeDate
 Imports: tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,
         parallel
@@ -22254,9 +22254,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mirtCAT
-Version: 0.4.2
+Version: 0.5
 Depends: mirt (>= 1.8), shiny (>= 0.11.0), lattice
-Imports: Rcpp, methods
+Imports: Rcpp, methods, markdown
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: parallel, knitr, testthat
 License: GPL (>= 3)
@@ -27617,7 +27617,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phenology
-Version: 4.1
+Version: 4.2
 Depends: fields, zoo, coda, HelpersMG, shiny, R (>= 2.14.0)
 License: GPL-2
 NeedsCompilation: no
@@ -38280,7 +38280,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: soilphysics
-Version: 2.2
+Version: 2.3
 Depends: R (>= 2.15), utils, rpanel, MASS, tcltk
 Suggests: soilwater, soiltexture, biotools
 License: GPL (>= 2)
@@ -39344,6 +39344,13 @@ Package: spt
 Version: 1.13-8-8
 License: Unlimited
 NeedsCompilation: yes
+
+Package: spTest
+Version: 0.1.0
+Depends: R (>= 3.0.0)
+Suggests: mvtnorm, geoR, fields
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: spThin
 Version: 0.1.0
