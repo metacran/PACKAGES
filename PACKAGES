@@ -8055,13 +8055,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: devtools
-Version: 1.7.0
+Version: 1.8.0
 Depends: R (>= 3.0.2)
 Imports: httr (>= 0.4), RCurl, utils, tools, methods, memoise, whisker,
         evaluate, digest, rstudioapi (>= 0.2.0), jsonlite, roxygen2 (>=
-        4.1.0)
+        4.1.0), rversions, stats, git2r
 Suggests: testthat (>= 0.7), BiocInstaller, Rcpp (>= 0.10.0), MASS,
-        rmarkdown, knitr, lintr
+        rmarkdown, knitr, lintr (>= 0.2.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20255,7 +20255,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LSAfun
-Version: 0.3.2
+Version: 0.4
 Depends: R (>= 3.1.0), lsa, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -38329,6 +38329,14 @@ Suggests: sp, raster, rasterVis, tdr
 License: GPL-3
 NeedsCompilation: no
 
+Package: solarius
+Version: 0.2.3
+Imports: methods, plyr (>= 1.8.1), ggplot2, data.table
+Suggests: kinship2, scales, Matrix, gdata, doParallel, iterators,
+        parallel, qqman
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: SOLOMON
 Version: 1.0-1
 Depends: tcltk
@@ -40018,7 +40026,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: StreamMetabolism
-Version: 1.1
+Version: 1.1.1
 Depends: zoo, chron, maptools
 License: GPL (>= 3)
 NeedsCompilation: no
