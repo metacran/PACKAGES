@@ -25797,7 +25797,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: openssl
-Version: 0.3
+Version: 0.4
 Suggests: testthat, digest, knitr
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -26483,8 +26483,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pampe
-Version: 1.0
+Version: 1.1.1
 Depends: leaps
+Enhances: xtable
 License: GPL-2
 NeedsCompilation: no
 
@@ -43326,7 +43327,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: VGAM
-Version: 0.9-7
+Version: 0.9-8
 Depends: R (>= 3.0.0), methods, stats, stats4, splines
 Suggests: VGAMdata, MASS
 License: GPL-2
