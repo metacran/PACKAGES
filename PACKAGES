@@ -39548,7 +39548,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ssizeRNA
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.1.2)
 Imports: MASS, Biobase, edgeR, limma, qvalue, ssize.fdr
 License: GPL (>= 2)
