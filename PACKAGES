@@ -20833,7 +20833,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markovchain
-Version: 0.2
+Version: 0.2.1
 Depends: R (>= 3.0.0), methods
 Imports: igraph, Matrix, matlab, expm, stats4, parallel, Rcpp (>=
         0.11.5), RcppParallel
