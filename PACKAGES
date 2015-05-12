@@ -308,7 +308,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: addreg
-Version: 1.2
+Version: 2.0
 Depends: R (>= 3.0.1)
 Imports: splines, combinat, glm2
 License: GPL (>= 2)
@@ -19932,7 +19932,7 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: logbin
-Version: 1.0
+Version: 1.2
 Depends: R (>= 3.0.1)
 Imports: splines, glm2
 License: GPL (>= 2)
