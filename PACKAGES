@@ -87,7 +87,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: accelerometry
-Version: 2.2.4
+Version: 2.2.5
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
@@ -10379,12 +10379,6 @@ Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: epicalc
-Version: 2.15.1.0
-Depends: R (>= 2.6.2), foreign, survival, MASS, nnet
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: EpiContactTrace
 Version: 0.8.8
 Depends: R(>= 3.0.0), methods, Rcpp (>= 0.9.13)
@@ -15562,9 +15556,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HAC
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.15.2), copula
-Imports: graphics
+Imports: graphics, numDeriv
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -25588,6 +25582,13 @@ Version: 1.1.1
 Depends: methods, DBI, RJDBC
 License: GPL (>= 3)
 NeedsCompilation: no
+
+Package: odeintr
+Version: 1.0
+Imports: Rcpp (>= 0.10.0)
+LinkingTo: Rcpp, BH
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: odfWeave
 Version: 0.8.4
@@ -39670,7 +39671,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stagePop
-Version: 1.0-1
+Version: 1.1-1
 Imports: deSolve,PBSddesolve
 Suggests: R.rsp
 License: GPL-3 | file LICENSE
