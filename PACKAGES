@@ -27483,6 +27483,13 @@ Depends: R (>= 2.10)
 License: GPL-2
 NeedsCompilation: no
 
+Package: perspectev
+Version: 1.0
+Depends: R (>= 2.10), ggplot2, foreach, ape, doParallel, parallel
+Imports: mapproj, boot, sp
+License: GPL-3
+NeedsCompilation: no
+
 Package: perturb
 Version: 2.05
 Suggests: car, rms
@@ -32312,7 +32319,7 @@ License_restricts_use: yes
 NeedsCompilation: no
 
 Package: rehh
-Version: 1.12
+Version: 1.13
 Depends: R (>= 2.10), gplots, methods
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -33009,7 +33016,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: rglobi
-Version: 0.2.6
+Version: 0.2.8
 Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat, knitr
@@ -39685,6 +39692,11 @@ Package: Stack
 Version: 2.0-1
 Imports: plyr, stringr, methods, ff, ffbase, bit
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: stackoverflow
+Version: 0.1.2
+License: CC BY-SA 4.0
 NeedsCompilation: no
 
 Package: stacomirtools
