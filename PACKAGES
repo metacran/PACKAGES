@@ -1256,7 +1256,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: arm
-Version: 1.8-4
+Version: 1.8-5
 Depends: R (>= 3.1.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
 Imports: abind, coda, methods, nlme
 License: GPL (>= 2)
@@ -13043,9 +13043,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: gam
-Version: 1.09.1
-Depends: stats, splines, R (>= 3.1)
-Suggests: akima, foreach
+Version: 1.12
+Depends: stats, splines, foreach
+Suggests: akima
 License: GPL-2
 NeedsCompilation: yes
 
@@ -20934,6 +20934,14 @@ LinkingTo: Rcpp, RcppArmadillo, RcppProgress (>= 0.2)
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
+Package: matchingR
+Version: 1.0.1
+Depends: Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: MatchIt
 Version: 2.4-21
 Depends: R (>= 2.6), MASS
@@ -22835,7 +22843,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mnlogit
-Version: 1.2.0
+Version: 1.2.1
 Imports: mlogit, lmtest, Formula
 Suggests: VGAM, nnet
 License: GPL (>= 2)
@@ -23012,7 +23020,7 @@ License: MPL (== 1.1)
 NeedsCompilation: yes
 
 Package: mongolite
-Version: 0.2
+Version: 0.3
 Imports: jsonlite (>= 0.9.16)
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
@@ -23715,12 +23723,6 @@ Version: 0.4.4
 Depends: R (>= 2.15.0)
 Imports: MASS
 License: GPL-3
-NeedsCompilation: no
-
-Package: MultiJoin
-Version: 0.1
-Depends: R (>= 2.10), graphics, stats
-License: GPL
 NeedsCompilation: no
 
 Package: MultiLCIRT
@@ -27087,7 +27089,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: pcnetmeta
-Version: 2.1
+Version: 2.2
 Depends: R (>= 2.14.0), rjags (>= 3-14)
 Imports: coda, grDevices
 License: GPL (>= 2)
@@ -36333,9 +36335,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sdcTable
-Version: 0.18.0
-Depends: stringr, methods, Rcpp (>= 0.11.0), Rglpk, lpSolveAPI,
-        data.table
+Version: 0.18.1
+Depends: stringr, methods, Rcpp (>= 0.11.0), Rglpk, lpSolveAPI
+Imports: data.table
 LinkingTo: Rcpp
 Suggests: testthat (>= 0.3)
 License: GPL (>= 2)
