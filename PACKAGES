@@ -5935,7 +5935,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: compareGroups
-Version: 3.0
+Version: 3.0.1
 Depends: R (>= 2.13.1), Hmisc, gdata, xtable, SNPassoc
 Imports: survival, epitools, tools, HardyWeinberg
 Suggests: tcltk2, car, XLConnect, shiny
@@ -11648,7 +11648,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FeaLect
-Version: 1.8
+Version: 1.10
 Depends: lars, rms
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -28655,7 +28655,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: poppr
-Version: 1.1.4
+Version: 1.1.5
 Depends: R (>= 2.15.1), adegenet (>= 1.4-2)
 Imports: vegan, ggplot2, phangorn, ape (>= 3.1-1), igraph, methods,
         ade4, pegas, reshape2
@@ -34999,7 +34999,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rsm
-Version: 2.07
+Version: 2.7-2
 Suggests: Vdgraph, conf.design, DoE.base, FrF2
 License: GPL-2
 NeedsCompilation: no
@@ -37914,6 +37914,14 @@ Version: 1.1
 Depends: R (>= 1.9.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: smcfcs
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: VGAM, MASS, survival
+Suggests: knitr, mitools
+License: GPL-3
+NeedsCompilation: no
 
 Package: smco
 Version: 0.1
