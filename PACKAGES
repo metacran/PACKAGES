@@ -2919,6 +2919,12 @@ Depends: methods, diptest
 License: Artistic-2.0
 NeedsCompilation: yes
 
+Package: BinaryEPPM
+Version: 1.0
+Imports: Formula, expm, numDeriv
+License: GPL-2
+NeedsCompilation: no
+
 Package: binda
 Version: 1.0.2
 Depends: R (>= 2.15.1), entropy (>= 1.2.0)
@@ -12036,7 +12042,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: fitbitScraper
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.0.0)
 Imports: httr, stringr, RJSONIO
 License: MIT + file LICENSE
@@ -13509,7 +13515,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gelnet
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.1.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -21420,6 +21426,12 @@ Version: 2.0
 Depends: lattice, locfit, maptools, quantreg, RANN, SparseM
 Suggests: car, classInt, mlogit, RColorBrewer, spatstat, spdep
 License: GPL
+NeedsCompilation: no
+
+Package: MCTM
+Version: 1.0
+Depends: R (>= 3.1.1)
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mda
