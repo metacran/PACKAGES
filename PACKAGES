@@ -44435,7 +44435,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yuima
-Version: 1.0.69
+Version: 1.0.71
 Depends: methods, zoo, stats4, utils, expm, cubature, mvtnorm
 License: GPL-2
 NeedsCompilation: yes
