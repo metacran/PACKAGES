@@ -965,7 +965,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Anthropometry
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0)
 Imports: shapes, rgl, archetypes, nnls, depth, FNN, ICGE, cluster,
         biclust
