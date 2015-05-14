@@ -86,6 +86,13 @@ Depends: R (>= 2.10), QUIC
 License: GPL-2
 NeedsCompilation: yes
 
+Package: acc
+Version: 1.0.2
+Depends: R (>= 2.10)
+Imports: zoo, PhysicalActivity, mhsmm, timeDate
+License: GNU General Public License (>= 3)
+NeedsCompilation: no
+
 Package: accelerometry
 Version: 2.2.5
 Depends: R (>= 3.0.0)
@@ -13889,7 +13896,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: geoscale
-Version: 1.1
+Version: 2.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -30212,11 +30219,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: QuasiSeq
-Version: 1.0-6
+Version: 1.0-7
 Depends: R (>= 3.1.2)
-Imports: edgeR, Matrix, mgcv
+Imports: edgeR, mgcv, pracma
+Suggests: BB, nleqslv
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: questionr
 Version: 0.4.3
