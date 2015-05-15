@@ -25052,7 +25052,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodeHarvest
-Version: 0.6
+Version: 0.7-1
 Imports: graphics, quadprog,randomForest
 License: GPL-3
 NeedsCompilation: no
