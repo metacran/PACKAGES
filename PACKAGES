@@ -9402,7 +9402,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dynRB
-Version: 0.1
+Version: 0.2
 License: GPL-2
 NeedsCompilation: no
 
@@ -15428,9 +15428,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUTS
-Version: 0.9.1
+Version: 0.9.3
 Depends: R (>= 3.1.0), methods, Rcpp (>= 0.11.5)
-LinkingTo: Rcpp, BH
+LinkingTo: Rcpp
 Suggests: adaptMCMC (>= 1.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -15631,9 +15631,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: Haplin
-Version: 5.3
-Depends: MASS, mgcv, parallel, GenABEL, DatABEL, tools, filehash
-Suggests: snowfall
+Version: 5.5
+Depends: GenABEL, DatABEL
+Imports: parallel, tools, mgcv, MASS, SuppDists, snow
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16922,7 +16922,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: ibelief
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -22603,10 +22603,10 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mkin
-Version: 0.9-34
+Version: 0.9-35
 Depends: minpack.lm, rootSolve
 Imports: FME, deSolve
-Suggests: knitr, RUnit
+Suggests: knitr, testthat
 License: GPL
 NeedsCompilation: no
 
@@ -24513,7 +24513,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: NEff
-Version: 1.0
+Version: 1.1
 Depends: msm, bit
 License: GPL-2
 NeedsCompilation: no
@@ -30254,7 +30254,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: queueing
-Version: 0.2.4
+Version: 0.2.5
 Depends: R (>= 2.11.1)
 License: GPL-2
 NeedsCompilation: no
@@ -32462,9 +32462,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rEMM
-Version: 1.0-8
-Depends: R (>= 2.10.0), methods, stats, proxy (>= 0.4-7), MASS,
-        clusterGeneration, igraph
+Version: 1.0-9
+Depends: R (>= 2.10.0), proxy (>= 0.4-7), igraph
+Imports: methods, stats, clusterGeneration, MASS
 Suggests: graph, Rgraphviz, testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -34910,7 +34910,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rscala
-Version: 1.0.4
+Version: 1.0.6
 Imports: utils
 License: GPL (>= 2) | BSD_3_clause + file LICENSE
 NeedsCompilation: no
@@ -40028,7 +40028,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 3.0.0), coda
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
@@ -42621,7 +42621,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSP
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 2.14.0)
 Imports: graphics, foreach
 Suggests: maps, sp, maptools, testthat
@@ -43502,7 +43502,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: virtualspecies
-Version: 1.0
+Version: 1.1
 Depends: raster
 Imports: ade4, dismo, rworldmap
 License: GPL (>= 2.0)
