@@ -4398,7 +4398,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: CatDyn
-Version: 1.0-6
+Version: 1.1-0
 Depends: R (>= 3.0.0)
 Imports: optimx (>= 2013.8.6), BB
 License: GPL (>= 2)
@@ -7990,10 +7990,10 @@ License: BSD
 NeedsCompilation: no
 
 Package: DescTools
-Version: 0.99.10
+Version: 0.99.11
 Depends: base, stats, manipulate, R (>= 3.1.0)
-Imports: boot, mvtnorm, tcltk
-Suggests: RDCOMClient
+Imports: boot, mvtnorm, foreign
+Suggests: RDCOMClient, tcltk
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -43621,8 +43621,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VSURF
-Version: 0.8.2
-Depends: randomForest, rpart, doParallel
+Version: 1.0.0
+Imports: doParallel, foreach, parallel, randomForest, rpart
 License: GPL (>= 2)
 NeedsCompilation: no
 
