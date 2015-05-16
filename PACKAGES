@@ -10420,12 +10420,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EpiModel
-Version: 1.1.4
+Version: 1.1.6
 Depends: R (>= 3.1), deSolve (>= 1.11), network (>= 1.11.3),
         networkDynamic (>= 0.7.1), tergm (>= 3.2.4)
 Imports: doParallel, ergm (>= 3.2.4), foreach, RColorBrewer,
         statnet.common
-Suggests: doMPI, knitr, ndtv, shiny, testthat
+Suggests: knitr, ndtv, shiny, testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -12462,7 +12462,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fpCompare
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.2)
 Suggests: knitr, testthat
 License: GPL-3
@@ -19117,6 +19117,14 @@ Package: lava.tobit
 Version: 0.4-7
 Depends: R (>= 2.14), lava (>= 1.1), mvtnorm, survival
 License: GPL-3
+NeedsCompilation: no
+
+Package: lawn
+Version: 0.1.0
+Imports: V8, jsonlite, magrittr
+Suggests: testthat, knitr, leaflet
+Enhances: maps, geojsonio
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: lawstat
@@ -27206,7 +27214,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: pdR
-Version: 1.2
+Version: 1.3
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28184,7 +28192,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotrix
-Version: 3.5-11
+Version: 3.5-12
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36938,7 +36946,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seqminer
-Version: 3.4
+Version: 3.7
 Depends: stringr
 Suggests: testthat, SKAT
 License: GPL | file LICENSE
@@ -37443,6 +37451,14 @@ Package: simboot
 Version: 0.2-5
 Depends: boot, mvtnorm
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: simcausal
+Version: 0.1
+Depends: R (>= 3.1.0)
+Imports: data.table, reshape2
+Suggests: ltmle, RUnit, knitr, igraph, ggplot2, Hmisc
+License: GPL-2
 NeedsCompilation: no
 
 Package: SimComp
@@ -42704,6 +42720,12 @@ Depends: R (>= 2.14.0)
 License: GPL-2
 NeedsCompilation: yes
 
+Package: TTmoment
+Version: 1.0
+Depends: mvtnorm
+License: GPL-2
+NeedsCompilation: no
+
 Package: TTR
 Version: 0.22-0
 Depends: xts (>= 0.9-3)
@@ -44363,7 +44385,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: yaImpute
-Version: 1.0-23
+Version: 1.0-24
 Depends: R (>= 2.11.0)
 Suggests: vegan, ccaPP, randomForest, gam, fastICA, parallel
 License: GPL (>= 2)
