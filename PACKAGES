@@ -3509,7 +3509,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bnlearn
-Version: 3.8
+Version: 3.8.1
 Depends: R (>= 2.14.0), methods
 Suggests: parallel, graph, Rgraphviz, lattice, gRain
 License: GPL (>= 2)
