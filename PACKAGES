@@ -5298,9 +5298,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: clickstream
-Version: 1.1.3
+Version: 1.1.4
 Depends: R (>= 3.0.1), methods
-Imports: igraph, plyr, reshape2, Rsolnp
+Imports: igraph, plyr, Rsolnp, data.table, arules
 License: GPL-2
 NeedsCompilation: no
 
@@ -6758,7 +6758,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: crayon
-Version: 1.2.0
+Version: 1.2.1
 Imports: memoise
 Suggests: testthat
 License: MIT + file LICENSE
@@ -7314,6 +7314,12 @@ Package: darch
 Version: 0.9.1
 Imports: futile.logger, ff, methods
 License: GPL-2
+NeedsCompilation: no
+
+Package: Dark
+Version: 0.9.4
+Suggests: knitr, rmarkdown,testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: darts
@@ -15898,7 +15904,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: HelpersMG
-Version: 1.0
+Version: 1.1
 Depends: coda, R (>= 2.14.0)
 Suggests: RNetCDF, ncdf4, ncdf, maps, XML
 License: GPL-2
@@ -22293,6 +22299,14 @@ Depends: klaR, stats,utils,Matrix
 License: GPL-2
 NeedsCompilation: no
 
+Package: MInt
+Version: 1.0.1
+Depends: R (>= 3.1.2), glasso (>= 1.8), trust (>= 0.1-6), MASS (>=
+        7.3-35), testthat (>= 0.9.1)
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: minxent
 Version: 0.01
 Depends: R (>= 1.6.0)
@@ -25626,7 +25640,7 @@ License: GPL (>= 3.0)
 NeedsCompilation: yes
 
 Package: ocedata
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 2.15), methods
 Enhances: oce
 License: GPL (>= 2)
@@ -30697,7 +30711,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: random
-Version: 0.2.3
+Version: 0.2.4
 Depends: R (>= 2.8.0)
 Imports: curl
 License: GPL (>= 2)
@@ -30829,9 +30843,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rankdist
-Version: 0.3.1
+Version: 0.4.1
 Depends: R (>= 2.10)
-Imports: Rcpp (>= 0.11.4), hash, optimx, methods
+Imports: methods, Rcpp (>= 0.11.4), hash, optimx,
 LinkingTo: Rcpp
 Suggests: testthat
 License: GPL (>= 2)
@@ -34452,6 +34466,12 @@ Suggests: MASS, nnet, rpart, tree
 License: GPL-2
 NeedsCompilation: no
 
+Package: rotationForest
+Version: 0.1
+Imports: rpart
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: rotations
 Version: 1.3
 Depends: R (>= 3.1), ggplot2, Rcpp, rgl
@@ -37790,9 +37810,9 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjmisc
-Version: 1.0.1
+Version: 1.0.2
 Imports: MASS
-Suggests: coin, foreign, haven, lme4, stringdist, testthat
+Suggests: coin, foreign, haven, lme4, nlme, stringdist
 License: GPL-3
 NeedsCompilation: no
 
@@ -39628,6 +39648,12 @@ Package: sse
 Version: 0.5-4
 Depends: R (>= 2.5.0), methods, grid, lattice, graphics, base, stats
 Suggests: parallel
+License: GPL-3
+NeedsCompilation: no
+
+Package: ssfa
+Version: 1.0
+Depends: Matrix, maxLik, spdep, sp
 License: GPL-3
 NeedsCompilation: no
 
@@ -44006,9 +44032,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WikipediR
-Version: 1.1.0
+Version: 1.2.0
 Depends: httr, jsonlite
-Suggests: XML, testthat
+Suggests: XML, testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
