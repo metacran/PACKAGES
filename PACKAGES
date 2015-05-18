@@ -26598,12 +26598,12 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: pander
-Version: 0.5.1
+Version: 0.5.2
 Depends: R (>= 2.15.0)
 Imports: methods, digest, tools, Rcpp
 LinkingTo: Rcpp
 Suggests: grid, lattice, ggplot2 (>= 0.9.2), koRpus, survival,
-        microbenchmark, zoo, nlme, descr, MASS, knitr
+        microbenchmark, zoo, nlme, descr, MASS, knitr, tables
 License: AGPL-3 | file LICENSE
 NeedsCompilation: yes
 
@@ -32255,6 +32255,14 @@ Imports: httr, plyr, stringr
 Suggests: devtools, knitr, methods, RODBC, testit, testthat (>= 0.9)
 License: GPL-3
 NeedsCompilation: no
+
+Package: redist
+Version: 1.0
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.0), spdep, sp, coda
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: REEMtree
 Version: 0.90.3
