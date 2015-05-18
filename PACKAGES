@@ -5343,7 +5343,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clinfun
-Version: 1.0.9
+Version: 1.0.10
 Depends: R (>= 2.0.0), graphics, stats
 Imports: mvtnorm
 Suggests: survival
@@ -16605,10 +16605,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: htmlwidgets
-Version: 0.3.2
-Imports: htmltools (>= 0.2.6), RJSONIO, yaml
+Version: 0.4
+Imports: htmltools (>= 0.2.6), jsonlite (>= 0.9.16), yaml
 Suggests: knitr (>= 1.8)
-Enhances: shiny (>= 0.10.2.1),
+Enhances: shiny (>= 0.12)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -25245,6 +25245,12 @@ Depends: R (>= 2.15.0), RCurl, rjson
 License: GPL-2
 NeedsCompilation: no
 
+Package: novelist
+Version: 1.0
+Depends: R (>= 3.0.2)
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: noweb
 Version: 1.0-4
 Priority: optional
@@ -32853,6 +32859,12 @@ Depends: stats, bdsmatrix, Matrix, R (>= 2.15.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: RFgroove
+Version: 1.0
+Depends: randomForest, wmtsa, fda
+License: GPL (>= 2.0)
+NeedsCompilation: yes
+
 Package: rfigshare
 Version: 0.3.6
 Depends: R (>= 3.0), methods
@@ -33442,7 +33454,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: rivervis
-Version: 0.45.0
+Version: 0.46.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37276,12 +37288,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: shiny
-Version: 0.11.1
+Version: 0.12.0
 Depends: R (>= 3.0.0)
-Imports: tools, utils, httpuv (>= 1.3.2), mime (>= 0.1.3), RJSONIO,
+Imports: utils, httpuv (>= 1.3.2), mime (>= 0.3), jsonlite (>= 0.9.16),
         xtable, digest, htmltools (>= 0.2.6), R6 (>= 2.0)
 Suggests: datasets, Cairo (>= 1.5-5), testthat, knitr (>= 1.6),
-        markdown
+        markdown, ggplot2
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
@@ -38133,6 +38145,14 @@ Depends: SSN, spam
 Imports: splines, dfoptim, RSQLite, igraph, DBI
 License: GPL-2
 NeedsCompilation: no
+
+Package: smoof
+Version: 1.0
+Depends: ParamHelpers (>= 1.3), BBmisc (>= 1.6), checkmate (>= 1.1)
+Imports: ggplot2, RColorBrewer, plot3D, emoa
+Suggests: testthat, rPython (>= 0.0-5)
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: yes
 
 Package: smoother
 Version: 1.1
@@ -39070,7 +39090,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spc
-Version: 0.5.0
+Version: 0.5.1
 Depends: R (>= 1.8.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -40412,6 +40432,12 @@ Depends: R (>= 2.5.0)
 Imports: rpart, class
 License: GPL-2
 NeedsCompilation: yes
+
+Package: supcluster
+Version: 1.0
+Imports: mvtnorm, gtools
+License: GPL-2
+NeedsCompilation: no
 
 Package: superbiclust
 Version: 1.1
