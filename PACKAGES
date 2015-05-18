@@ -10685,8 +10685,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: ETLUtils
-Version: 1.2
-Depends: ff
+Version: 1.3
+Depends: ff (>= 2.2-13)
+Imports: bit (>= 1.1-12)
 Suggests: RSQLite, zoo, DBI, RODBC, RJDBC
 License: GPL-2
 NeedsCompilation: no
@@ -20967,7 +20968,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matchingMarkets
-Version: 0.1-3
+Version: 0.1-4
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.2), lpSolve (>= 5.6.6), partitions
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress (>= 0.2)
@@ -24883,7 +24884,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
-Version: 2.7
+Version: 2.8
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -31374,7 +31375,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.EZR
-Version: 1.27
+Version: 1.28
 Depends: R (>= 3.0.0)
 Imports: Rcmdr (>= 2.0.0)
 Suggests: abind, aod, aplpack, car, clinfun, cmprsk, foreign, meta,
