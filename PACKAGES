@@ -7053,7 +7053,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: curl
-Version: 0.5
+Version: 0.6
+Depends: R (>= 2.10.0)
+Suggests: testthat, knitr, jsonlite, rmarkdown, magrittr
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -29824,7 +29826,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: QCAfalsePositive
-Version: 1.0
+Version: 1.1.1
 Depends: R (>= 3.2.0)
 License: GPL-3
 NeedsCompilation: no
@@ -30030,6 +30032,13 @@ Depends: R (>= 3.0.1), gsl, Matrix, mvtnorm, numDeriv, timeSeries
 Imports: Rcpp (>= 0.11.1), mgcv
 LinkingTo: Rcpp
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: qrmtools
+Version: 0.0-1
+Depends: R (>= 3.0.0)
+Imports: xts
+License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: qrng
@@ -41653,6 +41662,15 @@ Version: 1.1
 Imports: Matrix
 Suggests: mvtnorm
 License: GPL-3
+NeedsCompilation: no
+
+Package: threejs
+Version: 0.2.1
+Depends: R (>= 3.0.0)
+Imports: htmlwidgets (>= 0.3.2), base64enc
+Suggests: htmltools (>= 0.2.6), RCurl, maps, sp
+Enhances: knitr, shiny
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ThreeWay
