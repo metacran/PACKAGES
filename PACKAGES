@@ -7615,7 +7615,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ddalpha
-Version: 1.1.0
+Version: 1.1.1
 Depends: MASS, class, robustbase
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: BH, Rcpp
@@ -9104,7 +9104,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: drgee
-Version: 1.1.1
+Version: 1.1.2
 Depends: stats, nleqslv, survival, R (>= 3.0.0)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -15994,7 +15994,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hglm
-Version: 2.0-11
+Version: 2.1-0
 Depends: R (>= 2.10), utils, Matrix, MASS, hglm.data
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24619,9 +24619,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: netgen
-Version: 1.0
-Depends: BBmisc (>= 1.6), mvtnorm (>= 1.0-2), lhs (>= 0.10)
-Imports: ggplot2, lpSolve, checkmate (>= 1.5.1)
+Version: 1.1
+Depends: BBmisc (>= 1.6), mvtnorm (>= 1.0-2), lhs (>= 0.10), checkmate
+        (>= 1.5.1)
+Imports: ggplot2, lpSolve, igraph (>= 0.7.1), stringr (>= 0.6.2)
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
@@ -31106,7 +31107,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RbioRXN
-Version: 1.5
+Version: 1.5.1
 Depends: R (>= 3.0.3), fmcsR, ChemmineR
 Imports: plyr, RCurl, gdata, KEGGREST, data.table, stringr
 License: GPL (>= 2)
