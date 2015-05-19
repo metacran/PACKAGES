@@ -16886,6 +16886,15 @@ Imports: data.table, ggplot2
 License: Apache License 2.0
 NeedsCompilation: no
 
+Package: IATscores
+Version: 0.1-2
+Depends: R (>= 3.2.0)
+Imports: stringr (>= 0.6.2), dplyr (>= 0.2), reshape2 (>= 1.4), nem (>=
+        2.38.0), qgraph (>= 1.2.5)
+Suggests: nparcomp (>= 2.0)
+License: GPL-2
+NeedsCompilation: no
+
 Package: iBATCGH
 Version: 1.2
 Depends: R (>= 2.10)
@@ -20138,8 +20147,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: longitudinalData
-Version: 2.2
-Depends: methods,clv,class,rgl,misc3d,utils
+Version: 2.3
+Depends: methods,clv,class,rgl,utils,misc3d
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20472,10 +20481,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Luminescence
-Version: 0.4.3
+Version: 0.4.4
 Depends: R (>= 3.1.2), utils
-Imports: methods, XML, shape, rgl, matrixStats, raster, sp, zoo, bbmle,
-        data.table, Rcpp (>= 0.11.4), parallel, minpack.lm
+Imports: methods, XML, shape, rgl, matrixStats, raster, zoo, bbmle,
+        data.table (>= 1.9.4), Rcpp (>= 0.11.4), parallel, minpack.lm
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -23868,7 +23877,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multiplex
-Version: 1.5
+Version: 1.6
 Depends: R (>= 3.2.0)
 Suggests: Rgraphviz, knitr
 License: GPL-3
@@ -29123,10 +29132,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: prevR
-Version: 2.9
-Depends: R (>= 2.10), methods, sp, gstat, GenKern, rgdal (>= 0.7-4),
-        fields
-Suggests: foreign, tcltk, geoR, maptools
+Version: 3.1
+Depends: R (>= 2.10), methods, sp, rgdal (>= 0.7-4), ggplot2,
+        directlabels
+Imports: GenKern, fields, grid, gstat, foreign, maptools
+Suggests: tcltk, geoR
 License: CeCILL
 NeedsCompilation: no
 
@@ -34908,6 +34918,13 @@ Depends: R (>= 2.5.0), stats
 Suggests: RColorBrewer, MASS
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: rriskDistributions
+Version: 2.1
+Depends: R(>= 2.11.0)
+Imports: mc2d, eha, msm, tcltk, tkrplot
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: rrlda
 Version: 1.1
