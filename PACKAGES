@@ -11380,8 +11380,8 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: FastHCS
-Version: 0.0.4
-Depends: R (>= 3.1.1), matrixStats, rrcov
+Version: 0.0.5
+Depends: R (>= 3.1.1), matrixStats, robustbase
 LinkingTo: Rcpp, RcppEigen
 Suggests: mvtnorm
 License: GPL (>= 2)
@@ -15023,6 +15023,12 @@ Depends: Hmisc (>= 3.16-0), data.table
 Imports: rms (>= 4.3-1), lattice, latticeExtra, ggplot2, Formula,
         survival
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: greyzoneSurv
+Version: 1.0
+Depends: stats4, survival, Hmisc, survAUC
+License: GPL-3
 NeedsCompilation: no
 
 Package: Grid2Polygons
@@ -25865,6 +25871,15 @@ Version: 0.1-2
 License: GPL-2
 NeedsCompilation: yes
 
+Package: OpenMx
+Version: 2.2.2
+Depends: R (>= 3.0.2), digest, MASS, methods, parallel
+LinkingTo: RcppEigen, StanHeaders, BH
+Suggests: Matrix, mvtnorm, numDeriv, roxygen2 (>= 3.1), Rmpi, rpf (>=
+        0.36), snowfall
+License: Apache License (== 2.0) | file LICENSE
+NeedsCompilation: yes
+
 Package: openNLP
 Version: 0.2-5
 Imports: NLP (>= 0.1-6.3), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
@@ -32266,7 +32281,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: redist
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.0), spdep, sp, coda
 LinkingTo: Rcpp, RcppArmadillo
