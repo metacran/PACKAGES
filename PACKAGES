@@ -9733,8 +9733,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ecp
-Version: 1.6.2
-Depends: R (>= 2.10), Rcpp
+Version: 2.0.0
+Depends: R (>= 3.00), Rcpp
 LinkingTo: Rcpp
 Suggests: mvtnorm,MASS,combinat, R.rsp
 License: GPL (>= 2)
@@ -10851,6 +10851,16 @@ Version: 1.0
 Depends: seqinr, ape, stringr, geiger, taxize
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: evolqg
+Version: 0.1-3
+Depends: R (>= 3.1.0), plyr (>= 1.7.1)
+Imports: Rcpp, reshape2, ggplot2, magrittr, tidyr, vegan, ape,
+        phytools, mvtnorm
+LinkingTo: Rcpp
+Suggests: testthat (>= 0.2), foreach, grid, gridExtra, doParallel
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: evolvability
 Version: 1.0
@@ -18890,7 +18900,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: kyotil
-Version: 2015.2-27
+Version: 2015.5-20
 Depends: R (>= 3.0.0)
 Suggests: RUnit, knitr, lme4, nlme, xtable, MASS, splines, survival
 License: GPL (>= 2)
@@ -19051,7 +19061,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lamW
-Version: 0.0-1
+Version: 0.1-1
 Imports: Rcpp (>= 0.11.6)
 LinkingTo: Rcpp
 Suggests: testthat
@@ -22154,12 +22164,12 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: miceadds
-Version: 1.1-1
+Version: 1.2-0
 Depends: R (>= 2.15.0), MASS, mice, mvtnorm, pan
 Imports: Rcpp, sirt, TAM, lme4, MBESS, pls, mitools, bayesm, inline,
-        car, foreign
+        car, foreign, sjmisc, multiwayvcov
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: Amelia, Zelig, jomo
+Suggests: Amelia, Zelig, jomo, haven, BIFIEsurvey
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25698,9 +25708,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: oce
-Version: 0.9-14
-Depends: R (>= 2.15), utils, methods, mapproj
-Suggests: ocedata, foreign, ncdf4, tiff
+Version: 0.9-16
+Depends: R (>= 2.15), utils, methods, gsw
+Suggests: ocedata, foreign, mapproj, ncdf4, tiff, akima, proj4,
+        RSQLite, DBI
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29971,7 +29982,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapDictionaries
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 3.0.0)
 License: GPL-2
 NeedsCompilation: no
@@ -37856,11 +37867,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sirt
-Version: 1.5-0
+Version: 1.6-0
 Depends: R (>= 2.15.0), TAM, CDM
 Imports: Rcpp, mirt, lavaan, qgraph, semPlot, combinat, ic.infer,
         sfsmisc, sm, psych, pbivnorm, gtools, igraph, coda, mvtnorm,
-        MASS, Matrix
+        MASS, Matrix, lavaan.survey, survey
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: eRm, ltm, MultiLCIRT, psychomix, psychotools, mRm, MCMCglmm,
         lme4, GPArotation, semTools, IsingFit, MplusAutomation
@@ -44564,7 +44575,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: xtermStyle
-Version: 2.2-4
+Version: 3.0.5
 License: GPL (>= 2)
 NeedsCompilation: no
 
