@@ -7310,6 +7310,12 @@ Suggests: MASS, rpart, ipred, e1071, randomForest, mboost, TH.data
 License: GPL-2
 NeedsCompilation: yes
 
+Package: DAISIE
+Version: 1.0
+Depends: R (>= 3.0.0), deSolve
+License: GPL-2
+NeedsCompilation: no
+
 Package: DAKS
 Version: 2.1-2
 Depends: R (>= 2.15.1), relations, sets
@@ -19372,7 +19378,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LDPD
-Version: 1.0.2
+Version: 1.1.2
 Imports: MASS, nleqslv
 License: GPL-2
 NeedsCompilation: no
@@ -33374,9 +33380,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: riceware
-Version: 0.2
+Version: 0.4
 Depends: R (>= 3.1.3)
-Imports: random
+Imports: random (>= 0.2.4)
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -38300,7 +38306,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: smoothSurv
-Version: 1.5
+Version: 1.5-2
 Depends: R (>= 3.0.0), survival
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -42548,10 +42554,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: trip
-Version: 1.1-19
+Version: 1.1-21
 Depends: methods, sp
-Imports: maptools, MASS, spatstat
-Suggests: adehabitatLT, rgdal
+Imports: maptools, MASS, raster, spatstat
+Suggests: adehabitatLT, knitr, rgdal
 License: GPL-3
 NeedsCompilation: no
 
