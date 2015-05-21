@@ -10859,10 +10859,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evolqg
-Version: 0.1-3
+Version: 0.1-4
 Depends: R (>= 3.1.0), plyr (>= 1.7.1)
-Imports: Rcpp, reshape2, ggplot2, magrittr, tidyr, vegan, ape,
-        phytools, mvtnorm
+Imports: Rcpp (>= 0.11), reshape2, ggplot2, magrittr, tidyr, vegan,
+        ape, phytools, mvtnorm
 LinkingTo: Rcpp
 Suggests: testthat (>= 0.2), foreach, grid, gridExtra, doParallel
 License: MIT + file LICENSE
@@ -12810,10 +12810,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: fslr
-Version: 1.3
-Depends: stringr, oro.nifti, matrixStats
+Version: 1.4.4
+Depends: stringr, oro.nifti (>= 0.5.0)
+Imports: methods, matrixStats, R.utils, scales
 Suggests: knitr
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: fso
@@ -20841,7 +20842,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapmisc
-Version: 1.2.1
+Version: 1.2.4
 Depends: sp, raster, R (>= 3.0.0)
 Suggests: RColorBrewer, geonames, classInt, rgdal, knitr
 License: GPL
@@ -21950,9 +21951,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: meteoForecast
-Version: 0.43
+Version: 0.45
 Depends: raster, sp, zoo
-Imports: ncdf, rjson
+Imports: ncdf
 Suggests: ncdf4, rgdal, lattice, rasterVis
 License: GPL-3
 NeedsCompilation: no
@@ -27207,6 +27208,14 @@ Imports: rgl
 License: GPL-2
 NeedsCompilation: no
 
+Package: pcaBootPlot
+Version: 0.1.0
+Depends: R (>= 3.0.2)
+Imports: RColorBrewer
+Suggests: knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: pcaL1
 Version: 1.3
 License: GPL (>= 2)
@@ -30481,9 +30490,8 @@ License: Mozilla Public License 2.0
 NeedsCompilation: yes
 
 Package: R0
-Version: 1.2-5
+Version: 1.2-6
 Depends: R (>= 2.13.0), MASS
-Suggests: epicalc
 License: GPL (>= 2)
 NeedsCompilation: no
 
