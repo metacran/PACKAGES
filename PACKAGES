@@ -9115,6 +9115,13 @@ Depends: R (>= 2.10.0), oro.nifti, cluster
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: dpmr
+Version: 0.1.7-1
+Imports: digest, httr, jsonlite, magrittr, rio
+Suggests: devtools, testthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: DPpackage
 Version: 1.1-6
 Depends: R (>= 2.10), MASS, nlme, survival, splines
@@ -12648,7 +12655,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: frbs
-Version: 3.0-0
+Version: 3.1-0
 Suggests: class, e1071, XML
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: no
