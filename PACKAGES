@@ -2402,8 +2402,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bcv
-Version: 1.0
-License: BSD
+Version: 1.0.1
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: bda
@@ -10859,7 +10859,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evolqg
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 3.1.0), plyr (>= 1.7.1)
 Imports: Rcpp (>= 0.11), reshape2, ggplot2, magrittr, tidyr, vegan,
         ape, phytools, mvtnorm
@@ -13932,7 +13932,7 @@ License: GPL (>= 3) + file LICENSE
 NeedsCompilation: yes
 
 Package: geomorph
-Version: 2.1.4
+Version: 2.1.5
 Depends: rgl, R(>= 3.1.0)
 Imports: jpeg, ape, geiger, phytools
 License: GPL (>= 2)
@@ -19576,7 +19576,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: libamtrack
-Version: 0.6.0
+Version: 0.6.1
 Depends: R (>= 2.11.0)
 Suggests: lattice
 License: GPL (>= 3)
@@ -21825,7 +21825,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: metafor
-Version: 1.9-6
+Version: 1.9-7
 Depends: R (>= 3.1.0), Matrix
 Imports: stats, utils
 Suggests: lme4, numDeriv, minqa, nloptr, dfoptim, ucminf, CompQuadForm,
@@ -25725,7 +25725,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: oce
-Version: 0.9-16
+Version: 0.9-17
 Depends: R (>= 2.15), utils, methods, gsw
 Suggests: ocedata, foreign, mapproj, ncdf4, tiff, akima, proj4,
         RSQLite, DBI
@@ -40352,10 +40352,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stream
-Version: 1.1-1
+Version: 1.1-2
 Depends: R (>= 2.13.0), methods, hash, proxy (>= 0.4-7)
 Imports: animation, clue, cluster, clusterGeneration, fpc, MASS,
-        mlbench
+        mlbench, Rcpp (>= 0.11.4)
+LinkingTo: Rcpp
 Suggests: DBI, RSQLite, testthat
 License: GPL-3
 NeedsCompilation: yes
@@ -40367,8 +40368,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: streamMOA
-Version: 1.0-0
-Depends: stream (>= 1.1-0), methods, rJava (>= 0.6-3)
+Version: 1.1-0
+Depends: stream (>= 1.1-2), methods, rJava (>= 0.6-3)
 License: GPL-3
 NeedsCompilation: no
 
