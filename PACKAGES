@@ -42745,7 +42745,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: TSdata
-Version: 2015.4-1
+Version: 2015.4-2
 Depends: R (>= 2.8.0)
 Suggests: tframe, tframePlus, tfplot, TSdbi (>= 2015.1-1), TSsql (>=
         2015.1-1), TSPostgreSQL (>= 2015.1-1), TSMySQL (>= 2015.4-1),
