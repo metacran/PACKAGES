@@ -23779,7 +23779,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MTurkR
-Version: 0.6
+Version: 0.6.5.1
 Imports: RCurl, digest, XML, tcltk
 License: GPL-2
 NeedsCompilation: no
@@ -41927,10 +41927,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tigerstats
-Version: 0.2
-Depends: R(>= 2.10), mosaic, mosaicData, abd
-Imports: MASS, ggplot2, lattice
-Suggests: shiny, knitr
+Version: 0.2-6
+Depends: R(>= 2.10), abd, mosaic, mosaicData
+Imports: ggplot2, lattice, MASS
+Suggests: knitr, shiny, shinyjs
 License: GPL (>= 3)
 NeedsCompilation: no
 
