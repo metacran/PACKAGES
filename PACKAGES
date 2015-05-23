@@ -5533,7 +5533,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ClustMMDD
-Version: 1.0.0
+Version: 1.0.1
 Depends: Rcpp (>= 0.11.5)
 Imports: methods
 LinkingTo: Rcpp
@@ -16630,7 +16630,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hsdar
-Version: 0.1.4
+Version: 0.1.5
 Depends: R (>= 2.10.0), sp, raster, rgdal, rootSolve, signal, methods
 Suggests: rgl
 License: GPL
@@ -22560,6 +22560,13 @@ Version: 1.0
 Depends: mvtnorm
 Suggests: AdMit
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: mitml
+Version: 0.2-2
+Imports: pan, haven
+Suggests: lme4, nlme, mice
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mitools
@@ -40269,7 +40276,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.0.0), coda
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
@@ -44231,9 +44238,12 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: wikipediatrend
-Version: 0.2.0
+Version: 1.1.1
 Depends: R (>= 3.0.0)
-Imports: jsonlite (>= 0.9.13), stringr (>= 0.6.2), RCurl (>= 1.95-4.3)
+Imports: jsonlite (>= 0.9.13), stringr (>= 0.6.2), rvest (>= 0.2.0),
+        httr (>= 0.6.1), RCurl (>= 1.8)
+Suggests: testthat, knitr, ggplot2, devtools, dplyr, magrittr,
+        AnomalyDetection, BreakoutDetection,
 License: GPL (>= 2)
 NeedsCompilation: no
 
