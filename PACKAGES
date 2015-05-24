@@ -22702,8 +22702,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MixSim
-Version: 1.0-9
-Depends: R (>= 2.14.0), MASS
+Version: 1.1-1
+Depends: R (>= 3.0.0), MASS
+Enhances: mclust, cluster
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -37556,7 +37557,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: showtext
-Version: 0.4-1
+Version: 0.4-2
 Depends: sysfonts
 Imports: showtextdb
 License: Apache License (>= 2.0)
