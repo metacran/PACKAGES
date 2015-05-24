@@ -16129,7 +16129,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: HiClimR
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 2.10)
 Enhances: stats
 License: GPL (>= 2)
@@ -44449,7 +44449,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: wsrf
-Version: 1.4.0
+Version: 1.5.0
 Depends: R (>= 3.0.0), Rcpp (>= 0.10.2), parallel
 LinkingTo: Rcpp
 Suggests: rattle (>= 2.6.26), randomForest (>= 4.6.7), party (>=
