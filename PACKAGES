@@ -7429,12 +7429,6 @@ Imports: RJSONIO, XML, RCurl, base64, gsubfn, methods, markdown
 License: GPL (>= 3)
 NeedsCompilation: no
 
-Package: datamerge
-Version: 1.0-1
-Depends: xtermStyle
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: dataQualityR
 Version: 1.0
 License: MIT | file LICENSE
@@ -28428,8 +28422,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plspm
-Version: 0.4.2
-Depends: R (>= 3.0.1), amap, diagram, tester, turner
+Version: 0.4.7
+Depends: R (>= 3.0.1)
+Imports: tester, turner, diagram, shape, amap
 Suggests: plsdepot, FactoMineR, ggplot2, reshape, testthat, knitr
 License: GPL-3
 NeedsCompilation: no
