@@ -15199,6 +15199,13 @@ Version: 1.1.1-1
 License: GPL-2
 NeedsCompilation: no
 
+Package: gromovlab
+Version: 0.6-16
+Depends: R (>= 2.15.1)
+Imports: methods,igraph, phangorn, glpkAPI , quadprog, cluster
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: grouped
 Version: 0.6-0
 Depends: R(>= 2.0.0), MASS
@@ -24354,9 +24361,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.3
-Imports: gRbase, Biobase, VGAM, MASS, pcalg, survival
-Suggests: hash, methods, stats
+Version: 0.3.1
+Suggests: hash, methods, stats, Biobase, gRbase, VGAM, MASS, pcalg,
+        survival
 License: GPL-2
 NeedsCompilation: yes
 
@@ -29928,7 +29935,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pxweb
-Version: 0.5.5
+Version: 0.5.54
 Depends: methods
 Imports: data.table, plyr, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2, knitr
