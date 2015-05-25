@@ -39381,8 +39381,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: speedglm
-Version: 0.2-1.0
-Depends: Matrix
+Version: 0.3
+Depends: Matrix, MASS
 License: GPL
 NeedsCompilation: no
 
