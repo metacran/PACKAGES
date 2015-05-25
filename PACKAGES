@@ -33380,11 +33380,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rhpc
-Version: 0.14-261
+Version: 0.15-145
 Depends: R (>= 3.0.0)
 Imports: parallel
 License: AGPL-3
-OS_type: unix
 NeedsCompilation: yes
 
 Package: RhpcBLASctl
