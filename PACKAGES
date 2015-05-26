@@ -5617,6 +5617,12 @@ Depends: compoisson
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: CMplot
+Version: 1.0.1
+Depends: R(>= 2.10.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: cmprsk
 Version: 2.2-7
 Depends: R (>= 2.15.0), survival
@@ -9135,7 +9141,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: drat
-Version: 0.0.3
+Version: 0.0.4
 Suggests: git2r, knitr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14816,14 +14822,6 @@ Depends: nlme
 Imports: quadprog, mvtnorm, MASS, Matrix, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: Gotoh
-Version: 0.9
-Depends: R (>= 3.1.1)
-Imports: Rcpp (>= 0.11.6)
-LinkingTo: Rcpp
-License: GPL (>= 2)
-NeedsCompilation: yes
 
 Package: govStatJPN
 Version: 0.1
@@ -29557,6 +29555,13 @@ Suggests: lattice, RUnit, BiocGenerics
 License: GPL-3
 NeedsCompilation: yes
 
+Package: provenance
+Version: 0.1
+Depends: R (>= 3.0.2)
+Imports: MASS, smacof, vegan, shapes
+License: GPL-2
+NeedsCompilation: no
+
 Package: proxy
 Version: 0.4-14
 Depends: R (>= 2.4.0)
@@ -35614,9 +35619,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: Rtsne
-Version: 0.9
+Version: 0.10
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
+Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
