@@ -10913,7 +10913,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: Exact
-Version: 1.5
+Version: 1.6
 License: GPL-2
 NeedsCompilation: no
 
@@ -11828,9 +11828,9 @@ License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
 Package: ffbase
-Version: 0.11.3
-Depends: ff (>= 2.2-11), bit, R (>= 2.12.0)
-Imports: fastmatch
+Version: 0.12.0
+Depends: R (>= 2.12.0),ff(>= 2.2-11)
+Imports: fastmatch, bit
 Suggests: testthat, parallel, LaF, biglm
 License: GPL-3
 NeedsCompilation: yes
@@ -13560,7 +13560,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: geeM
-Version: 0.7.3
+Version: 0.7.4
 Depends: Matrix
 Suggests: geepack
 License: GPL (>= 2)
@@ -18737,7 +18737,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: knitcitations
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 3.0)
 Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3), methods
 Suggests: testthat, knitr (>= 1.6)
