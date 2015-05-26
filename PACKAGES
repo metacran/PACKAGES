@@ -34793,7 +34793,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: rpf
-Version: 0.44
+Version: 0.45
 Depends: methods, parallel, R (>= 2.14.0)
 Imports: mvtnorm
 LinkingTo: RcppEigen
