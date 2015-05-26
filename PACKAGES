@@ -12488,9 +12488,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: formula.tools
-Version: 1.3.4
-Depends: R (>= 2.9.0), operator.tools(>= 1.2.1), utils, methods
-Suggests: testthat
+Version: 1.5.2
+Depends: R (>= 3.0.0), operator.tools(>= 1.4.0), utils, methods
+Suggests: magrittr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -41151,10 +41151,11 @@ License: GPL
 NeedsCompilation: no
 
 Package: synbreed
-Version: 0.10-5
+Version: 0.11-2
 Depends: R (>= 2.14), doBy, BLR, regress (>= 1.3-8), abind
-Imports: lattice, igraph, MASS, LDheatmap, qtl, synbreedData (>= 1.3)
-License: GPL-2
+Imports: igraph, lattice, MASS, LDheatmap, qtl
+Suggests: synbreedData (>= 1.5)
+License: GPL-3
 NeedsCompilation: no
 
 Package: synbreedData
