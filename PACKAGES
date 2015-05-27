@@ -4530,7 +4530,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CCAGFA
-Version: 1.0.4
+Version: 1.0.5
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -5861,6 +5861,12 @@ Version: 2.4
 Depends: grid
 Suggests: MASS
 License: GPL-2
+NeedsCompilation: no
+
+Package: ColorPalette
+Version: 1.0-0
+Depends: R (>= 3.0.0)
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: colorRamps
@@ -10854,7 +10860,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evmix
-Version: 2.5
+Version: 2.6
 Depends: stats, graphics, MASS, splines, gsl, SparseM
 License: GPL-3
 NeedsCompilation: no
@@ -28356,7 +28362,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plotmo
-Version: 3.1.0
+Version: 3.1.1
 Depends: plotrix, TeachingDemos
 Suggests: earth (>= 4.3.0), MASS, neuralnet, rpart, rpart.plot
 License: GPL-3
