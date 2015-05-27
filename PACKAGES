@@ -11936,8 +11936,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: FHtest
-Version: 1.1
-Depends: Icens, interval, MLEcens, MASS, KMsurv
+Version: 1.2
+Depends: interval, KMsurv
+Imports: survival, perm, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
