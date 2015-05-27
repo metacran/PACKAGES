@@ -17269,6 +17269,13 @@ Depends: R (>= 2.12.1),Rlab,MASS,coda,ROCR
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: ifctools
+Version: 0.3.1
+Depends: R (>= 3.1.1)
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: yes
+
 Package: iFes
 Version: 1.0
 Depends: R (>= 2.10), ROCR, parallel, doParallel, foreach
@@ -43667,8 +43674,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: vegan3d
-Version: 0.65-0
-Depends: vegan (>= 2.0-10)
+Version: 0.65-1
+Depends: vegan (>= 2.3-0)
 Imports: rgl, scatterplot3d
 License: GPL-2
 NeedsCompilation: no
