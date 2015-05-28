@@ -507,7 +507,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: AGD
-Version: 0.32
+Version: 0.35
 Depends: R (>= 2.10.0)
 Imports: gamlss, gamlss.dist
 License: GPL-2 | GPL-3
@@ -3159,7 +3159,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: biorxivr
-Version: 0.1.0
+Version: 0.1.1
 Depends: XML
 Suggests: knitr
 License: MIT + file LICENSE
@@ -8001,7 +8001,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: depend.truncation
-Version: 2.3
+Version: 2.4
 Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
@@ -12473,6 +12473,13 @@ Package: forensim
 Version: 4.3
 Depends: methods, tcltk,tcltk2,tkrplot
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: forestFloor
+Version: 1.4
+Imports: Rcpp (>= 0.11.6), randomForest, rgl, kknn, trimTrees
+LinkingTo: Rcpp
+License: GPL-2
 NeedsCompilation: yes
 
 Package: forestplot
@@ -24457,7 +24464,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nabor
-Version: 0.4.4
+Version: 0.4.6
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.2), methods
 LinkingTo: Rcpp, RcppEigen (>= 0.3.2.2.0), BH (>= 1.54.0-4)
@@ -42062,7 +42069,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: timereg
-Version: 1.8.8
+Version: 1.8.9
 Depends: R (>= 2.15), survival,
 Imports: lava, numDeriv
 License: GPL (>= 2)
