@@ -8252,6 +8252,13 @@ Depends: R (>= 2.10.0), Matrix, numDeriv, boot
 License: Unlimited
 NeedsCompilation: no
 
+Package: diagonals
+Version: 0.2.0
+Depends: R (>= 2.10)
+Suggests: testthat, knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: diagram
 Version: 1.6.3
 Depends: R (>= 2.01) ,shape
@@ -10929,8 +10936,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: EWGoF
-Version: 2.0
-Imports: Rcpp (>= 0.10.3), maxLik, miscTools
+Version: 2.1
+Imports: Rcpp (>= 0.10.3)
 LinkingTo: Rcpp
 License: GPL (>= 2.0)
 NeedsCompilation: yes
@@ -11023,7 +11030,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: ExomeDepth
-Version: 1.1.4
+Version: 1.1.5
 Depends: R (>= 3.1.0)
 Imports: Biostrings, IRanges, Rsamtools, GenomicRanges (>= 1.16.0),
         aod, VGAM (>= 0.8.4), methods, GenomicAlignments
@@ -28703,6 +28710,12 @@ Suggests: moments
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: PoisBinOrdNor
+Version: 1.0
+Depends: Matrix,corpcor, mvtnorm, psych, GenOrd
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: poisDoubleSamp
 Version: 1.1
 Imports: Rcpp
@@ -33289,11 +33302,11 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rgeos
-Version: 0.3-8
+Version: 0.3-11
 Depends: R (>= 2.14.0)
-Imports: methods, sp (>= 1.0-12)
+Imports: methods, sp (>= 1.1-0)
 LinkingTo: sp
-Suggests: maptools (>= 0.8-5), testthat, XML
+Suggests: maptools (>= 0.8-5), testthat, XML, maps, rgdal
 License: GPL (>= 2)
 NeedsCompilation: yes
 
