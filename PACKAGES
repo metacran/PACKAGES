@@ -8115,6 +8115,13 @@ Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: DESP
+Version: 0.1
+Imports: MASS, Matrix, graph, RBGL, SparseM
+Suggests: Rmosek, gurobi
+License: GPL-3
+NeedsCompilation: yes
+
 Package: detect
 Version: 0.3-2
 Depends: R (>= 2.13.0), Formula, stats4
@@ -11682,7 +11689,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fdakma
-Version: 1.2
+Version: 1.2.1
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -13610,7 +13617,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: geesmv
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2)
 Imports: nlme, gee, matrixcalc, MASS
 License: GPL (>= 3)
@@ -26852,6 +26859,14 @@ Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: parallelSVM
+Version: 0.1-5
+Depends: R (>= 2.14.0)
+Imports: parallel (>= 3.1.1), foreach (>= 1.2.0), doParallel (>=
+        1.0.8), doMC (>= 1.3.3), e1071 (>= 1.6-3)
+License: GPL-2
+NeedsCompilation: no
+
 Package: ParamHelpers
 Version: 1.5
 Imports: BBmisc (>= 1.9), checkmate (>= 1.5.1)
@@ -30289,13 +30304,6 @@ Depends: R (>= 2.14.0), graphics, stats, utils
 Imports: parallel
 Suggests: testthat
 License: GPL-3
-NeedsCompilation: yes
-
-Package: qtlbim
-Version: 2.0.7
-Depends: R (>= 2.10), stats, qtl (>= 1.9.43), lattice, coda, tools,
-        MASS
-License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: qtlbook
@@ -44325,16 +44333,6 @@ Package: WikipediaR
 Version: 1.0
 Depends: R (>= 2.10.0), XML (>= 2.6.3)
 License: GPL (> 2)
-NeedsCompilation: no
-
-Package: wikipediatrend
-Version: 1.1.1
-Depends: R (>= 3.0.0)
-Imports: jsonlite (>= 0.9.13), stringr (>= 0.6.2), rvest (>= 0.2.0),
-        httr (>= 0.6.1), RCurl (>= 1.8)
-Suggests: testthat, knitr, ggplot2, devtools, dplyr, magrittr,
-        AnomalyDetection, BreakoutDetection,
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WikipediR
