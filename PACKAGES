@@ -4434,7 +4434,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cati
-Version: 0.96
+Version: 0.99
 Depends: R (>= 3.0.2), nlme, ade4, ape,
 Imports: e1071, mice, rasterVis, hypervolume, FD, geometry, vegan
 Suggests: lattice, spacodiR, entropart, fBasics, picante, knitr
@@ -10683,7 +10683,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: esaBcv
-Version: 1.1.1
+Version: 1.2.1
 Depends: R (>= 3.0.2)
 Imports: corpcor, svd
 Suggests: MASS
@@ -15488,8 +15488,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: gtools
-Version: 3.4.2
-License: LGPL-2.1
+Version: 3.5.0
+Depends: R (>= 2.10)
+License: GPL-2
 NeedsCompilation: yes
 
 Package: gtop
@@ -20556,7 +20557,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ltmle
-Version: 0.9-5
+Version: 0.9-6
 Depends: R(>= 3.0.0)
 Imports: Matrix
 Suggests: SuperLearner, memoise, testthat
@@ -24727,7 +24728,7 @@ License: CeCILL-2
 NeedsCompilation: no
 
 Package: neotoma
-Version: 1.2-0
+Version: 1.3.0
 Depends: R (>= 2.10)
 Imports: RJSONIO, RCurl (>= 1.6), plyr, reshape2
 Suggests: testthat, knitr
@@ -34946,6 +34947,14 @@ Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: rprime
+Version: 0.1.0
+Depends: R (>= 3.0.1)
+Imports: stringr (>= 1.0.0), stringi, plyr, tools, assertthat
+Suggests: knitr, rmarkdown, testthat
+License: GPL-2 | file LICENSE
+NeedsCompilation: no
+
 Package: rprintf
 Version: 0.1-2
 Depends: R (>= 2.15)
@@ -35422,6 +35431,12 @@ Version: 0.1-2
 Imports: plyr (>= 1.0)
 Suggests: testthat, reshape2
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: RSPS
+Version: 1.0
+Imports: lattice,plyr,gridExtra
+License: GPL-2
 NeedsCompilation: no
 
 Package: RSQLite
@@ -37569,7 +37584,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shinyjs
-Version: 0.0.6.0
+Version: 0.0.6.2
 Depends: R (>= 3.1.0)
 Imports: shiny (>= 0.11.1)
 Suggests: knitr (>= 1.7), testthat (>= 0.9.1), V8 (>= 0.6)
@@ -38068,12 +38083,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sjPlot
-Version: 1.8
+Version: 1.8.1
 Depends: R (>= 3.1), stats
 Imports: car, dplyr (>= 0.4.1), ggplot2, grid, MASS, psych, scales,
-        sjmisc, tidyr (>= 0.2.0)
-Suggests: arm, cluster, effects, lme4, lmerTest, lmtest, lsmeans,
-        testthat
+        sjmisc (>= 1.0.2), tidyr (>= 0.2.0)
+Suggests: arm, cluster, effects, lme4, lmerTest, lmtest, lsmeans
 License: GPL-3
 NeedsCompilation: no
 
@@ -44449,7 +44463,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wppExplorer
-Version: 1.6-1
+Version: 1.6-2
 Depends: R (>= 3.0.0)
 Imports: shiny (>= 0.10.0), plyr, reshape2, googleVis, wpp2012, Hmisc,
         ggplot2
