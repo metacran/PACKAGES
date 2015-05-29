@@ -24634,7 +24634,7 @@ License: LGPL-2.1
 NeedsCompilation: no
 
 Package: ncdf.tools
-Version: 0.7.1.291
+Version: 0.7.1.295
 Depends: R (>= 2.10.0)
 Imports: RNetCDF, chron, parallel, abind, plotrix, raster,
         RColorBrewer, JBTools
@@ -32304,7 +32304,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: readr
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.11.5), curl
 LinkingTo: Rcpp, BH
@@ -44661,15 +44661,6 @@ Depends: R (>= 1.2.0), methods, utils
 Imports: methods
 Suggests: bitops, RCurl
 License: BSD
-NeedsCompilation: yes
-
-Package: xml2
-Version: 0.1.0
-Depends: R (>= 3.1.0)
-Imports: Rcpp
-LinkingTo: Rcpp (>= 0.11.4.6), BH
-Suggests: testthat, curl
-License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: XML2R
