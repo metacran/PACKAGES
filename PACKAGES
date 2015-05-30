@@ -5955,7 +5955,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: commonmark
-Version: 0.2
+Version: 0.4
 Suggests: curl
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
@@ -16871,9 +16871,11 @@ License: GPL
 NeedsCompilation: yes
 
 Package: hybridEnsemble
-Version: 0.1.1
-Imports:
-        randomForest,kernelFactory,ada,rpart,ROCR,nnet,e1071,NMOF,GenSA,Rmalschains,pso,AUC,soma,genalg,reportr,nnls,quadprog,tabuSearch,glmnet
+Version: 1.0.0
+Imports: randomForest, kernelFactory, ada, rpart, ROCR, nnet, e1071,
+        NMOF, GenSA, Rmalschains, pso, AUC, soma, genalg, reportr,
+        nnls, quadprog, tabuSearch, rotationForest, FNN, glmnet
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19490,7 +19492,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: leafletR
-Version: 0.3-2
+Version: 0.3-3
 Depends: R (>= 3.0.0), brew, jsonlite
 Suggests: httr, rgdal, sp
 License: GPL (>= 2)
@@ -29520,6 +29522,13 @@ Depends: splines, survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: progress
+Version: 1.0.1
+Imports: prettyunits, R6
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: proj4
 Version: 1.0-8
 Depends: R (>= 2.0.0)
@@ -35573,7 +35582,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rsymphony
-Version: 0.1-19
+Version: 0.1-20
 Depends: R (>= 2.6.0)
 Enhances: slam
 License: EPL
@@ -37769,6 +37778,11 @@ Depends: R (>= 3.0.0)
 Imports: biogram, seqinr, shiny
 Suggests: knitr, markdown, shinyAce
 License: GPL-3
+NeedsCompilation: no
+
+Package: signmedian.test
+Version: 1.5.1
+License: GPL-2
 NeedsCompilation: no
 
 Package: SII
