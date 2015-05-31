@@ -29201,7 +29201,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: PracTools
-Version: 0.1
+Version: 0.2
 Depends: R (>= 2.10)
 Suggests: doBy, foreign, pps, reshape, sampling, samplingbook, survey
 License: GPL (>= 2)
