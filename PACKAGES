@@ -30743,7 +30743,7 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: R2WinBUGS
-Version: 2.1-19
+Version: 2.1-20
 Depends: R (>= 2.13.0), coda (>= 0.11-0), boot
 Suggests: BRugs (>= 0.3-2)
 License: GPL-2
