@@ -3938,7 +3938,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BRugs
-Version: 0.8-3
+Version: 0.8-4
 Depends: R (>= 2.11.0)
 Imports: utils, coda
 License: GPL-2
@@ -22983,10 +22983,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mlxR
-Version: 2.1.1
+Version: 2.2.0
 Depends: R (>= 3.0.1), ggplot2
-Imports: XML, Rcpp (>= 0.11.3), tools
-Suggests: reshape2, gridExtra
+Imports: XML, Rcpp (>= 0.11.3), tools, tcltk
+Suggests: reshape2, gridExtra, shiny
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
@@ -35984,7 +35984,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RWinEdt
-Version: 2.0-2
+Version: 2.0-3
 Depends: R (>= 2.11.0), utils
 License: GPL-2
 OS_type: windows
@@ -37771,7 +37771,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: signal
-Version: 0.7-4
+Version: 0.7-5
 Depends: R (>= 2.14.0), stats
 Imports: MASS, graphics, grDevices
 Suggests: pracma
