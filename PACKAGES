@@ -5788,7 +5788,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: coefficientalpha
-Version: 0.3.3
+Version: 0.5
 Depends: rsem, lavaan
 License: GPL
 NeedsCompilation: no
@@ -32456,7 +32456,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: reconstructr
-Version: 0.5
+Version: 1.1.0
 Depends: R (>= 2.10)
 Imports: Rcpp
 LinkingTo: Rcpp
