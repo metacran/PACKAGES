@@ -20535,13 +20535,12 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.17
+Version: 2.18
 Depends: estimability, methods, R (>= 3.0)
 Imports: coda (>= 0.17), multcomp, plyr, mvtnorm
 Suggests: car, lattice, MCMCpack, mediation, multcompView, ordinal,
-        pbkrtest (>= 0.4-1)
-Enhances: afex, coxme, gee, geepack, glmmADMB, lme4, MASS, MCMCglmm,
-        nlme, survival
+        pbkrtest (>= 0.4-1), afex, CARBayes, coxme, gee, geepack,
+        glmmADMB, lme4.0, lme4, MASS, MCMCglmm, nlme, survival
 License: GPL-2
 NeedsCompilation: no
 
