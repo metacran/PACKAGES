@@ -21205,10 +21205,10 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: Matrix
-Version: 1.2-0
+Version: 1.2-1
 Priority: recommended
-Depends: R (>= 2.15.2), methods
-Imports: graphics, grid, stats, utils, lattice
+Depends: R (>= 3.0.1)
+Imports: methods, graphics, grid, stats, utils, lattice
 Suggests: expm, MASS
 Enhances: MatrixModels, graph, SparseM, sfsmisc
 License: GPL (>= 2)
