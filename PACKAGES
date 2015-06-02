@@ -41887,7 +41887,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: textcat
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.13.0)
 Imports: tau (>= 0.0-11), slam
 License: GPL-2
