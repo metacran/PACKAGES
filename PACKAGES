@@ -34931,7 +34931,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rphylopars
-Version: 0.1.0
+Version: 0.1.1
 Depends: ape
 Imports: Rcpp, doBy, geiger, phylolm, phytools, mvnmle
 LinkingTo: Rcpp, RcppArmadillo
