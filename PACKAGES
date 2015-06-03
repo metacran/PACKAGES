@@ -17226,7 +17226,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icenReg
-Version: 1.2.0
+Version: 1.2.3
 Depends: survival, foreach
 License: GPL-2
 NeedsCompilation: yes
@@ -24303,7 +24303,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: MVN
-Version: 3.9
+Version: 4.0
 Depends: R (>= 2.15.0)
 Imports: methods, nortest, moments, MASS, robustbase, mvoutlier, plyr,
         psych
