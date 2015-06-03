@@ -1117,6 +1117,13 @@ Version: 0.2.4
 License: GPL-2
 NeedsCompilation: no
 
+Package: APSIM
+Version: 0.8.0
+Imports: data.table (>= 1.9.4), lubridate (>= 1.3.3), stringr (>=
+        0.6.2), plyr (>= 1.8.1), sirad, methods
+License: GPL-3
+NeedsCompilation: no
+
 Package: APSIMBatch
 Version: 0.1.0.2374
 License: GPL-3
@@ -2597,7 +2604,7 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: berryFunctions
-Version: 1.7.1
+Version: 1.8.1
 Suggests: RColorBrewer
 License: GPL-2
 NeedsCompilation: no
@@ -7346,7 +7353,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: DAISIE
-Version: 1.0
+Version: 1.0.1
 Depends: R (>= 3.0.0), deSolve
 License: GPL-2
 NeedsCompilation: no
@@ -7879,6 +7886,12 @@ Package: deldir
 Version: 0.1-9
 Depends: R (>= 0.99)
 Suggests: polyclip
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: delt
+Version: 0.8.2
+Imports: denpro (>= 0.9.2)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19604,7 +19617,7 @@ License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: lfl
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.1.1)
 Imports: Rcpp (>= 0.11.0), foreach, forecast (>= 5.5), plyr, tseries,
         e1071, zoo, utils
@@ -20776,13 +20789,6 @@ Version: 1.9.3
 Depends: R (>= 2.13), MASS, plotrix, sm
 License: GPL-2
 NeedsCompilation: no
-
-Package: magma
-Version: 1.3.0-2
-Depends: R (>= 2.11.0), methods
-License: GPL-3
-OS_type: unix
-NeedsCompilation: yes
 
 Package: magrittr
 Version: 1.5
@@ -21992,7 +21998,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: metaplus
-Version: 0.7-1
+Version: 0.7-2
 Depends: R(>= 3.1.0), bbmle, metafor
 Imports: boot, methods, numDeriv, lme4, MASS
 License: GPL (>= 2)
@@ -22865,6 +22871,12 @@ Depends: R (>= 2.10)
 Suggests: lattice
 License: GPL-2
 NeedsCompilation: yes
+
+Package: MLCIRTwithin
+Version: 1.0
+Depends: R (>= 2.0.0), MASS, limSolve, MultiLCIRT
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: MLCM
 Version: 0.4.1
@@ -25304,6 +25316,12 @@ Depends: stats
 License: GPL-2
 NeedsCompilation: no
 
+Package: nomclust
+Version: 0.91.1010
+Depends: cluster, dummies
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: NominalLogisticBiplot
 Version: 0.2
 Depends: R (>= 2.15.1),mirt,gmodels,MASS
@@ -25318,9 +25336,10 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: nonlinearTseries
-Version: 0.2.1
-Depends: Matrix, rgl, tseries, TSA
-Suggests: RUnit
+Version: 0.2.2
+Depends: Matrix, rgl, tseries, TSA, Rcpp (>= 0.10.5)
+LinkingTo: Rcpp
+Suggests: plot3D, knitr,
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -27684,7 +27703,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Peptides
-Version: 1.0.4
+Version: 1.1.0
 Suggests: RUnit
 License: GPL-2
 NeedsCompilation: no
@@ -30999,7 +31018,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: RandomFieldsUtils
-Version: 0.0.2
+Version: 0.0.7
 Depends: R (>= 3.0)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -35250,9 +35269,9 @@ License: GPL (>= 2) | FreeBSD
 NeedsCompilation: yes
 
 Package: RSAGA
-Version: 0.93-6
+Version: 0.94-1
 Depends: gstat, shapefiles, plyr
-License: GPL-2
+License: GPL-2 | file LICENSE
 NeedsCompilation: no
 
 Package: Rsampletrees
@@ -44719,6 +44738,11 @@ Package: xhmmScripts
 Version: 1.1
 Depends: R (>= 2.14.0)
 Imports: gplots, plotrix
+License: GPL-2
+NeedsCompilation: no
+
+Package: XHWE
+Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
