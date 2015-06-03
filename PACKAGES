@@ -24541,9 +24541,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nadiv
-Version: 2.13.2
+Version: 2.13.3
 Depends: Matrix
-Suggests: parallel, asreml
+Suggests: parallel
+Enhances: asreml
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -28746,7 +28747,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: pointdensityP
-Version: 0.1
+Version: 0.2.1
 Depends: R (>= 3.1.1)
 License: MIT + file LICENSE
 NeedsCompilation: no
