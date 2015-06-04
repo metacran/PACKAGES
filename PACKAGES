@@ -5550,7 +5550,7 @@ License: MIT
 NeedsCompilation: yes
 
 Package: clustMD
-Version: 1.0
+Version: 1.1
 Imports: tmvtnorm, mvtnorm, truncnorm, MASS, mclust, msm
 License: GPL-2
 NeedsCompilation: no
@@ -18719,6 +18719,13 @@ Depends: survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: kineticF
+Version: 1.0
+Depends: R(> 3.1.0)
+Imports: circular, lqmm, splancs, sp, plotrix, MASS
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: kinfit
 Version: 1.1.13
 License: GPL
@@ -18819,8 +18826,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: kml
-Version: 2.3
-Depends: methods,clv,longitudinalData (>= 2.2)
+Version: 2.3.1
+Depends: methods,clv,longitudinalData (>= 2.3)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25925,6 +25932,11 @@ Package: ODB
 Version: 1.1.1
 Depends: methods, DBI, RJDBC
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: odds.converter
+Version: 1.1
+License: GPL-2
 NeedsCompilation: no
 
 Package: odeintr
