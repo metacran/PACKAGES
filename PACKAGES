@@ -17262,7 +17262,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icenReg
-Version: 1.2.3
+Version: 1.2.4
 Depends: survival, foreach
 License: GPL-2
 NeedsCompilation: yes
@@ -33166,6 +33166,15 @@ Suggests: pso
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: RevEcoR
+Version: 0.99.1
+Depends: R (>= 2.14)
+Imports: Biobase, Matrix, igraph, XML, stringr, KEGGREST, magrittr,
+        mmnet, gtools, plyr
+Suggests: knitr, methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: reweight
 Version: 1.2.1
 License: GPL (>= 2)
@@ -36265,7 +36274,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SAENET
-Version: 1.0
+Version: 1.1
 Imports: autoencoder, neuralnet
 License: GPL-3
 NeedsCompilation: no
@@ -37569,7 +37578,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: sglasso
-Version: 1.2
+Version: 1.2.1
 Depends: Matrix, igraph
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -45060,6 +45069,13 @@ Package: zendeskR
 Version: 0.4
 Depends: RCurl, rjson
 License: GPL-2
+NeedsCompilation: no
+
+Package: zetadiv
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: car, mgcv, vegan
+License: GPL-3
 NeedsCompilation: no
 
 Package: zic
