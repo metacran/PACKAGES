@@ -13426,12 +13426,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: gap
-Version: 1.1-13
+Version: 1.1-14
 Depends: R (>= 2.10)
-Suggests: BradleyTerry2, MASS, Matrix, MCMCglmm, R2OpenBUGS, R2jags,
-        bdsmatrix, coda, coxme, foreign, grid, haplo.stats, kinship2,
-        lattice, magic, mets, nlme, pedigree, pedigreemm, regress, rms,
-        survival
+Suggests: BradleyTerry2, MASS, Matrix, MCMCglmm, R2jags, bdsmatrix,
+        coxme, foreign, grid, haplo.stats, kinship2, lattice, magic,
+        mets, nlme, pedigree, pedigreemm, regress, rms, survival
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29396,7 +29395,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: preseqR
-Version: 1.1.1
+Version: 1.2.1
 License: GPL-3
 NeedsCompilation: yes
 
@@ -40205,9 +40204,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ssym
-Version: 1.5.2
-Depends: GIGrvg, numDeriv, splines, normalp, Formula
-Suggests: NISTnls, gam, sn
+Version: 1.5.3
+Depends: GIGrvg, numDeriv, normalp, Formula, survival
+Suggests: NISTnls, gam, sn, MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
