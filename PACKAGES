@@ -1488,7 +1488,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: aSPU
-Version: 1.33
+Version: 1.35
 License: GPL-3
 NeedsCompilation: yes
 
@@ -6641,7 +6641,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cowplot
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 3.0.0), ggplot2 (>= 1.0.0)
 Imports: grid
 Suggests: knitr
