@@ -4753,9 +4753,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cem
-Version: 1.1.10
-Depends: nlme, lattice, randomForest, combinat
-Suggests: MatchIt, Amelia(>= 1.2-0), tcltk
+Version: 1.1.16
+Depends: tcltk, lattice
+Imports: MatchIt, combinat, randomForest, nlme
+Suggests: Amelia(>= 1.2-0)
 License: GPL-2
 NeedsCompilation: no
 
@@ -5467,7 +5468,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: clusterCrit
-Version: 1.2.4
+Version: 1.2.5
 Suggests: RUnit, rbenchmark
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -29201,8 +29202,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PowerTOST
-Version: 1.2-06
-Depends: mvtnorm
+Version: 1.2-07
+Imports: mvtnorm
 Suggests: crossdes
 License: GPL (>= 2)
 NeedsCompilation: no
