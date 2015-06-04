@@ -3800,7 +3800,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bpcp
-Version: 1.2.4
+Version: 1.2.5
 Depends: stats
 Suggests: survival
 License: GPL (>= 2)
@@ -24229,13 +24229,14 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MuMIn
-Version: 1.13.4
+Version: 1.14.0
 Depends: R (>= 3.0.0)
-Imports: stats
+Imports: stats, Matrix
 Suggests: stats4, nlme, mgcv (>= 1.7.5), lme4 (>= 1.1.0), gamm4, MASS,
         nnet, survival, geepack
 Enhances: aod, aods3, betareg, caper, coxme, cplm, gee, glmmML,
-        logistf, MCMCglmm, ordinal, pscl, spdep, splm, unmarked
+        logistf, MCMCglmm, ordinal, pscl, spdep, splm, unmarked, geeM
+        (>= 0.7.5)
 License: GPL-2
 NeedsCompilation: no
 
@@ -29621,7 +29622,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: progress
-Version: 1.0.1
+Version: 1.0.2
 Imports: prettyunits, R6
 Suggests: testthat
 License: MIT + file LICENSE
@@ -34099,7 +34100,7 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: RMark
-Version: 2.1.12
+Version: 2.1.13
 Depends: R (>= 2.13.0), snowfall
 Imports: parallel, matrixcalc, msm, coda
 Suggests: lattice, splines, nlme, plotrix
@@ -34584,6 +34585,13 @@ Version: 1.1
 Depends: MASS, mclust, Rsolnp
 License: GPL-2
 NeedsCompilation: no
+
+Package: RobustEM
+Version: 1.0
+Depends: R (>= 2.15.0)
+Imports: mvtnorm,e1071,ggplot2,ellipse, doParallel,grid, foreach
+License: GPL-3
+NeedsCompilation: yes
 
 Package: robustfa
 Version: 1.0-5
