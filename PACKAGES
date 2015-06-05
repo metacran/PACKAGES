@@ -32037,7 +32037,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.5.100.1.0
+Version: 0.5.200.1.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
@@ -37134,6 +37134,11 @@ Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: seismic
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: seismicRoll
 Version: 1.0.1
 Depends: R (>= 2.14.1), Rcpp (>= 0.10.4)
@@ -39038,6 +39043,12 @@ Version: 1.0-73
 Suggests: rgl
 License: BSD
 NeedsCompilation: yes
+
+Package: SOPIE
+Version: 1.4
+Depends: R (>= 3.2.0) , circular
+License: GPL-3
+NeedsCompilation: no
 
 Package: SOR
 Version: 0.22
@@ -41630,7 +41641,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.6-0
+Version: 1.7-1
 Depends: R (>= 2.15.1), CDM (>= 4.2), MASS
 Imports: Rcpp, mirt, lavaan, WrightMap, tensor, sfsmisc, GPArotation,
         psych, mvtnorm, msm, lattice, plyr
