@@ -6782,6 +6782,12 @@ LinkingTo: Matrix
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: cpm
+Version: 2.0
+Depends: R (>= 2.15.0), methods
+License: GPL-3
+NeedsCompilation: yes
+
 Package: CPMCGLM
 Version: 1.1
 Depends: R (>= 2.10.0), mvtnorm, plyr
@@ -38677,7 +38683,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.2-1
+Version: 1.2-2
 Depends: R (>= 2.15.3), methods, stats4
 Imports: mnormt, numDeriv
 License: GPL-2 | GPL-3
@@ -39113,7 +39119,7 @@ License: MIT
 NeedsCompilation: no
 
 Package: sp
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 3.0.0)
 Imports: methods, graphics, utils, lattice, grid
 Suggests: RColorBrewer, rgdal (>= 0.8-7), rgeos (>= 0.2-20), gstat
