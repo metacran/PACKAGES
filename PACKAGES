@@ -4676,9 +4676,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: CDM
-Version: 4.2-12
+Version: 4.3-0
 Depends: R (>= 2.15.0), mvtnorm
-Imports: Rcpp, psych, MASS, polycor, sfsmisc, plyr, WrightMap, lattice
+Imports: Rcpp, psych, MASS, polycor, sfsmisc, plyr, lattice
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: TAM, mirt, sirt, BIFIEsurvey, NPCD, ACTCD, pks
 License: GPL (>= 2)
@@ -11928,7 +11928,7 @@ License: GPL-2 | file LICENSE
 NeedsCompilation: yes
 
 Package: ffbase
-Version: 0.12.0
+Version: 0.12.1
 Depends: R (>= 2.12.0),ff(>= 2.2-11)
 Imports: fastmatch, bit
 Suggests: testthat, parallel, LaF, biglm
@@ -15507,7 +15507,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gstat
-Version: 1.0-22
+Version: 1.0-23
 Depends: R (>= 2.10)
 Imports: methods, lattice, sp (>= 0.9-72), zoo, spacetime (>= 1.0-0),
         FNN
@@ -27489,7 +27489,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: pcnetmeta
-Version: 2.2
+Version: 2.2.1
 Depends: R (>= 2.14.0), rjags (>= 3-14)
 Imports: coda, grDevices
 License: GPL (>= 2)
