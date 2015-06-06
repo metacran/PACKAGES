@@ -7163,7 +7163,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: curl
-Version: 0.7
+Version: 0.8
 Depends: R (>= 2.10.0)
 Suggests: testthat, knitr, jsonlite, rmarkdown, magrittr
 License: MIT + file LICENSE
@@ -13440,11 +13440,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: gap
-Version: 1.1-14
+Version: 1.1-16
 Depends: R (>= 2.10)
 Suggests: BradleyTerry2, MASS, Matrix, MCMCglmm, R2jags, bdsmatrix,
-        coxme, foreign, grid, haplo.stats, kinship2, lattice, magic,
-        mets, nlme, pedigree, pedigreemm, regress, rms, survival
+        coda, coxme, foreign, grid, haplo.stats, kinship2, lattice,
+        magic, mets, nlme, pedigree, pedigreemm, regress, rms, survival
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -27937,9 +27937,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pgirmess
-Version: 1.6.0
-Imports: boot (>= 1.3-4), nlme(>= 3.1-64), rgdal (>= 0.7-8), sp (>=
-        0.9-97), spdep (>= 0.5-43), splancs (>= 2.01-31)
+Version: 1.6.1
+Imports: boot (>= 1.3-4), maptools (>= 0.8-36), rgdal (>= 0.7-8), rgeos
+        (>= 0.3-8), sp (>= 0.9-97), spdep (>= 0.5-43), splancs (>=
+        2.01-31)
 Suggests: MASS (>= 7.3-1)
 License: GPL (>= 2)
 NeedsCompilation: no
