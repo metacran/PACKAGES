@@ -11695,7 +11695,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fbroc
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.0), ggplot2
 Imports: Rcpp
 LinkingTo: Rcpp
@@ -14367,10 +14367,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ggvis
-Version: 0.4.1
+Version: 0.4.2
 Depends: R (>= 3.0)
 Imports: assertthat, jsonlite (>= 0.9.11), shiny (>= 0.11.1), magrittr,
-        dplyr (>= 0.3), lazyeval, htmltools (>= 0.2.4)
+        dplyr (>= 0.4.0), lazyeval, htmltools (>= 0.2.4)
 Suggests: MASS, mgcv, lubridate, testthat (>= 0.8.1), knitr (>= 1.6),
         rmarkdown
 License: GPL-2 | file LICENSE
@@ -22452,8 +22452,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MIIVsem
-Version: 0.1
-Depends: R (>= 3.1.2), lavaan
+Version: 0.2
+Depends: R (>= 3.1.2), lavaan, Matrix
 License: GPL-2
 NeedsCompilation: no
 
@@ -35990,8 +35990,8 @@ License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
 Package: rversions
-Version: 1.0.0
-Imports: RCurl, XML
+Version: 1.0.1
+Imports: curl, xml2
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -41372,7 +41372,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: switchr
-Version: 0.9.3
+Version: 0.9.4
 Depends: methods
 Imports: tools
 Suggests: BiocInstaller, RJSONIO, RCurl
@@ -42596,6 +42596,12 @@ Package: tnet
 Version: 3.0.11
 Depends: R (>= 2.13.0), igraph, survival
 License: CC BY-NC 3.0 + file LICENSE
+NeedsCompilation: no
+
+Package: TOC
+Version: 0.0-2
+Depends: R (>= 2.14.0), raster, bit, rgdal, methods
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tolerance
