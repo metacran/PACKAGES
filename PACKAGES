@@ -473,7 +473,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: AER
-Version: 1.2-3
+Version: 1.2-4
 Depends: R (>= 2.13.0), car (>= 2.0-1), lmtest, sandwich, survival (>=
         2.37-5), zoo
 Imports: stats, Formula (>= 0.2-0)
@@ -20147,7 +20147,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lmtest
-Version: 0.9-33
+Version: 0.9-34
 Depends: R (>= 2.10.0), stats, zoo
 Imports: graphics
 Suggests: car, strucchange, sandwich, dynlm, stats4, survival, AER
@@ -24865,7 +24865,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nestedRanksTest
-Version: 0.1
+Version: 0.2
+Depends: R (>= 3.2.0)
 Suggests: knitr (>= 0.5), testthat
 License: LGPL-3 | file LICENSE
 NeedsCompilation: no
@@ -27130,7 +27131,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: party
-Version: 1.0-20
+Version: 1.0-21
 Depends: R (>= 2.14.0), methods, grid, stats, mvtnorm (>= 1.0-2),
         modeltools (>= 0.2-21), strucchange
 Imports: survival (>= 2.37-7), coin (>= 1.0-24), zoo, sandwich (>=
@@ -40780,11 +40781,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: strucchange
-Version: 1.5-0
+Version: 1.5-1
 Depends: R (>= 2.10.0), zoo, sandwich
 Imports: graphics, stats
 Suggests: stats4, car, dynlm, e1071, foreach, lmtest, mvtnorm, tseries
-License: GPL-2
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: structSSI
