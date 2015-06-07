@@ -31053,7 +31053,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ramify
-Version: 0.2.0
+Version: 0.3.0
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
