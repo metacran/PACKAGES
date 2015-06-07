@@ -6817,7 +6817,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cquad
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.0.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -11712,7 +11712,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: fbroc
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.1.0), ggplot2
 Imports: Rcpp
 LinkingTo: Rcpp
@@ -13077,7 +13077,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: funtimes
-Version: 1.0
+Version: 1.1
 Depends: Jmisc, R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -36838,7 +36838,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: scrm
-Version: 1.5.0-1
+Version: 1.6.0-2
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
@@ -40388,12 +40388,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: statar
-Version: 0.2
+Version: 0.3.0
 Depends: R (>= 3.1.0)
-Imports: data.table, dplyr (>= 0.4.1), ggplot2, grid, Hmisc, lazyeval,
-        lfe, lubridate, matrixStats, stargazer, stringdist, stringr,
-        tidyr
-Suggests: knitr, testthat
+Imports: data.table, dplyr (>= 0.4.1), ggplot2, lazyeval, matrixStats,
+        proto, stargazer, stringr, tidyr
+Suggests: knitr, lubridate, stringdist, testthat
 License: GPL-2
 NeedsCompilation: no
 
@@ -42128,6 +42127,12 @@ Depends: R(>= 2.15.0)
 Imports: XML
 License: GPL-3
 NeedsCompilation: no
+
+Package: tgcd
+Version: 1.4
+Depends: R (>= 3.0.1)
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
 
 Package: tgp
 Version: 2.4-11
