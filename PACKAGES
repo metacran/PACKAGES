@@ -1213,8 +1213,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: archiDART
-Version: 1.0
-Imports: stats, utils, graphics, grDevices
+Version: 1.1
+Imports: stats, utils, graphics, grDevices, XML
 License: GPL-2
 NeedsCompilation: no
 
