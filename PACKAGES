@@ -3581,7 +3581,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BNSP
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 3.1.0)
 Suggests: mvtnorm
 License: GPL (>= 2)
@@ -27078,6 +27078,13 @@ Imports: ADGofTest, lmom
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: parfm
+Version: 2.5.8
+Depends: R (>= 2.10), survival
+Imports: eha, msm, graphics
+License: GPL-2
+NeedsCompilation: no
+
 Package: parfossil
 Version: 0.2.0
 Depends: fossil, foreach
@@ -34024,6 +34031,13 @@ Imports: rJava (>= 0.6-3)
 License: GPL-2
 NeedsCompilation: no
 
+Package: rknn
+Version: 1.2-1
+Depends: R (>= 2.14), gmp (>= 0.5-5)
+Suggests: Hmisc, Biobase, genefilter, golubEsets, chemometrics
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: rkt
 Version: 1.4
 License: GPL-2
@@ -35527,7 +35541,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RSGHB
-Version: 1.0.2
+Version: 1.1.0
+Depends: methods
 License: GPL-3
 NeedsCompilation: yes
 
