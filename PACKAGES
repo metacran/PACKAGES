@@ -1269,6 +1269,13 @@ Depends: methods
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: ArgumentCheck
+Version: 0.9.0
+Depends: R (>= 3.0.0)
+Suggests: knitr, testthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: arm
 Version: 1.8-5
 Depends: R (>= 3.1.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)
@@ -9378,6 +9385,13 @@ Version: 1.0
 Depends: R (>= 2.10)
 Imports: igraph, ppcor
 License: GPL (> 2)
+NeedsCompilation: no
+
+Package: DT
+Version: 0.1
+Imports: htmltools, htmlwidgets (>= 0.4), magrittr
+Suggests: jsonlite (>= 0.9.16), knitr (>= 1.8), shiny (>= 0.12.0)
+License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: DTComPair
@@ -27156,7 +27170,7 @@ Package: partools
 Version: 1.0.1
 Depends: parallel
 License: GPL (>= 2)
-OS_type: Linux/Mac/Unix needed for the dbs() debugging tool
+OS_type: unix
 NeedsCompilation: no
 
 Package: partsm
@@ -27232,8 +27246,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: patchDVI
-Version: 1.9.1601
+Version: 1.9.1616
 Depends: R (>= 2.10.0)
+Imports: utils, tools
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: yes
 
@@ -32168,6 +32184,14 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: RcppFaddeeva
+Version: 0.1.0
+Imports: Rcpp (>= 0.11.0), knitr
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: RcppGSL
 Version: 0.2.4
 Imports: Rcpp (>= 0.11.0)
@@ -33168,7 +33192,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RESS
-Version: 1.0
+Version: 1.1
 License: LGPL-3
 NeedsCompilation: no
 
@@ -41394,8 +41418,9 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sweidnumbr
-Version: 0.2
-Imports: lubridate
+Version: 0.6.0
+Depends: R (>= 2.10)
+Imports: lubridate, stringr
 Suggests: testthat, knitr
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -41596,10 +41621,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: systemfit
-Version: 1.1-14
+Version: 1.1-16
 Depends: R (>= 1.8.0), Matrix, car (>= 2.0-0), lmtest
-Imports: stats (>= 2.14.0), sandwich (>= 2.2-9)
-Suggests: plm (>= 1.0-1), MASS, sem (>= 2.0-0)
+Imports: stats (>= 2.14.0), sandwich (>= 2.2-9), MASS
+Suggests: plm (>= 1.0-1), sem (>= 2.0-0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -44853,7 +44878,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: wsrf
-Version: 1.5.0
+Version: 1.5.14
 Depends: R (>= 3.0.0), Rcpp (>= 0.10.2), parallel
 LinkingTo: Rcpp
 Suggests: rattle (>= 2.6.26), randomForest (>= 4.6.7), party (>=
