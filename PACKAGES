@@ -44603,6 +44603,13 @@ Suggests: fslr
 License: GPL-3
 NeedsCompilation: no
 
+Package: whoami
+Version: 1.0.0
+Imports: httr, jsonlite
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: WhopGenome
 Version: 0.9.2
 Depends: R (>= 1.8.0)
