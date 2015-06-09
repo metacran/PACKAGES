@@ -6493,15 +6493,15 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CorReg
-Version: 1.0
+Version: 1.0.5
 Depends: R(>= 3.0)
 Imports: Rcpp(>= 0.11.0), lars(>= 1.2), Rmixmod(>= 2.0.1),
         elasticnet(>= 1.1), corrplot(>= 0.73), Matrix(>= 1.1), ridge(>=
         2.1), rpart(>= 4.1-5), MASS(>= 7.3-30), mvtnorm(>= 0.9),
         mclust(>= 4.2)
 LinkingTo: Rcpp, RcppEigen
-Suggests: clere(>= 1.1), spikeslab(>= 1.1.5), parcor(>= 0.2), rtkpp (>=
-        0.8.3)
+Suggests: clere(>= 1.1), spikeslab(>= 1.1.5), parcor(>= 0.2), missMDA
+        (>= 1.7.3)
 License: CeCILL
 NeedsCompilation: yes
 
@@ -7074,13 +7074,6 @@ Version: 1.03-0
 Depends: R (>= 3.0.2)
 Imports: sp
 License: GPL-2
-NeedsCompilation: no
-
-Package: CSS
-Version: 1.0.2
-Depends: XML, stringr
-Suggests: testthat
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: csSAM
@@ -15557,14 +15550,6 @@ Imports: methods, lattice, sp (>= 0.9-72), zoo, spacetime (>= 1.0-0),
 Suggests: rgdal (>= 0.5.2), rgeos, fields, mapdata, maptools, xts
 License: GPL (>= 2.0) | file LICENCE
 NeedsCompilation: yes
-
-Package: gstudio
-Version: 1.3
-Depends: R (>= 3.0), ggplot2, raster
-Imports: sp, grid, reshape2, ggmap, popgraph
-Suggests: testthat, knitr
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: gsubfn
 Version: 0.6-6
@@ -36590,12 +36575,6 @@ Version: 0.1-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: SASxport
-Version: 1.5.0
-Depends: R (>= 2.4.0), chron, Hmisc
-License: GPL-2
-NeedsCompilation: yes
-
 Package: saturnin
 Version: 1.0
 Suggests: parallel
@@ -44154,12 +44133,6 @@ Package: VIF
 Version: 1.0
 License: GPL (>= 2)
 NeedsCompilation: no
-
-Package: VIFCP
-Version: 1.0
-Depends: R (>= 3.1.3)
-License: LGPL-3
-NeedsCompilation: yes
 
 Package: VIGoR
 Version: 1.0
