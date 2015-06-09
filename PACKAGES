@@ -25153,6 +25153,13 @@ LinkingTo: Rcpp
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: NHMSAR
+Version: 1.1
+Depends: R (>= 2.10)
+Imports: ucminf, lars, SIS, caTools, glasso
+License: GPL
+NeedsCompilation: no
+
 Package: NHPoisson
 Version: 3.1
 Depends: methods, stats4
@@ -26992,6 +26999,14 @@ Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
+Package: papeR
+Version: 0.6-1
+Depends: utils, car
+Imports: gmodels
+Enhances: nlme, lme4, survival
+License: GPL-2
+NeedsCompilation: no
+
 Package: ParallelForest
 Version: 1.1.0
 Depends: R (>= 2.10), methods
@@ -27724,7 +27739,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PEIP
-Version: 1.7
+Version: 2.0
 Depends: R (>= 2.12)
 Imports: bvls, Matrix, RSEIS, pracma
 License: GPL (>= 2)
@@ -29489,7 +29504,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PrevMap
-Version: 1.1.4
+Version: 1.1.5
 Depends: geoR, maxLik, raster, pdist
 Imports: splancs
 License: GPL (>= 2)
@@ -32727,11 +32742,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: RefManageR
-Version: 0.8.45
+Version: 0.8.63
 Depends: R (>= 3.0)
 Imports: XML, RCurl, RJSONIO, utils, plyr, tools, bibtex, lubridate,
         stringr, methods
-Suggests: knitr
+Suggests: knitr, testthat
 License: GPL-2 | GPL-3 | BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
@@ -40850,7 +40865,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: strvalidator
-Version: 1.4.0
+Version: 1.5.0
 Depends: gridExtra
 Imports: ggplot2, gWidgets, grid, gtable, plyr, scales, gWidgetsRGtk2,
         RGtk2, data.table
