@@ -5821,7 +5821,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: cOde
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.0)
 Suggests: deSolve, bvpSolve
 License: GPL (>= 2)
@@ -17923,8 +17923,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: InvariantCausalPrediction
-Version: 0.3-2
-Depends: glmnet, mboost, jointDiag
+Version: 0.3-3
+Depends: glmnet, mboost
 License: GPL
 NeedsCompilation: no
 
@@ -23324,6 +23324,12 @@ Imports: fields,HandTill2001,PresenceAbsence
 License: Unlimited
 NeedsCompilation: no
 
+Package: modelObj
+Version: 1.0
+Depends: methods
+License: GPL-2
+NeedsCompilation: no
+
 Package: modeltools
 Version: 0.2-21
 Depends: stats, stats4
@@ -23594,10 +23600,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mpath
-Version: 0.1-17
+Version: 0.1-18
 Depends: methods
 Imports: MASS,glmnet,pscl,numDeriv
-Suggests: zic
+Suggests: zic, R.rsp
 License: GPL-2
 NeedsCompilation: yes
 
@@ -43960,8 +43966,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VarSelLCM
-Version: 1.1
-Imports: methods, Rcpp (>= 0.11.1), parallel, mclust
+Version: 1.2
+Imports: methods, Rcpp (>= 0.11.1), parallel
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
