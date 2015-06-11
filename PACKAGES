@@ -14744,6 +14744,13 @@ Version: 1.1
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: globals
+Version: 0.3.1
+Depends: R (>= 3.1.2)
+Imports: codetools
+License: LGPL (>= 2.1)
+NeedsCompilation: no
+
 Package: glogis
 Version: 1.0-0
 Depends: R (>= 2.10.0), zoo
@@ -23421,7 +23428,7 @@ License: MPL (== 1.1)
 NeedsCompilation: yes
 
 Package: mongolite
-Version: 0.3
+Version: 0.4
 Imports: jsonlite (>= 0.9.16)
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
@@ -23629,6 +23636,14 @@ NeedsCompilation: yes
 Package: MPINet
 Version: 1.0
 Depends: R (>= 2.15.2),BiasedUrn,mgcv
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: mplot
+Version: 0.6.2
+Imports: leaps, foreach, parallel, bestglm, doParallel, plyr,
+        shinydashboard, shiny, googleVis
+Suggests: knitr, mvoutlier, glmnet
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27355,9 +27370,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: pavo
-Version: 0.5-1
+Version: 0.5-2
 Depends: rgl
-Imports: rcdd, mapproj, geometry
+Imports: geometry, mapproj, rcdd
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27784,7 +27799,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PEIP
-Version: 2.0
+Version: 2.0-1
 Depends: R (>= 2.12)
 Imports: bvls, Matrix, RSEIS, pracma
 License: GPL (>= 2)
@@ -34712,8 +34727,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: robustbase
-Version: 0.92-3
-Depends: R (>= 2.15.1)
+Version: 0.92-4
+Depends: R (>= 3.0.2)
 Imports: stats, graphics, utils, methods, DEoptimR
 Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust,
         fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
