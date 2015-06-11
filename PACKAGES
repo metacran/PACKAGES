@@ -4573,7 +4573,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CCAGFA
-Version: 1.0.5
+Version: 1.0.6
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8944,6 +8944,13 @@ Depends: MASS, Matrix, nadiv, robustbase, pls
 License: GPL-2 | GPL (>= 2) | GPL-3
 NeedsCompilation: no
 
+Package: dMod
+Version: 0.1
+Depends: cOde, trust, ggplot2
+Suggests: MASS, inline, rPython, rootSolve
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: DMR
 Version: 2.0
 Depends: R (>= 1.8.0), magic
@@ -9506,7 +9513,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dygraphs
-Version: 0.4.3
+Version: 0.4.5
 Depends: R (>= 3.0)
 Imports: magrittr, htmlwidgets (>= 0.3.2), zoo (>= 1.7-10), xts (>=
         0.9-7)
@@ -9910,6 +9917,13 @@ Depends: corpcor, MASS
 Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
+
+Package: EditImputeCont
+Version: 1.0.0
+Depends: Rcpp (>= 0.11.5), methods, editrules
+LinkingTo: Rcpp
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: editrules
 Version: 2.9.0
@@ -10754,8 +10768,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: ergm.graphlets
-Version: 1.0.2
-Depends: statnet (>= 3.1-0)
+Version: 1.0.3
+Depends: network (>= 1.7-1), ergm (>= 3.1-0), statnet.common (>= 3.1-0)
 LinkingTo: ergm
 Suggests: parallel, rlecuyer
 License: GPL (>= 2)
@@ -17453,7 +17467,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: IFP
-Version: 0.1.2
+Version: 0.2.0
 Depends: R (>= 2.11.1)
 Imports: haplo.stats,coda
 License: GPL (>= 2)
@@ -20935,8 +20949,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MALDIquant
-Version: 1.11
+Version: 1.12
 Depends: R (>= 3.0.0), methods
+Imports: parallel
 Suggests: knitr, testthat (>= 0.8)
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -24771,6 +24786,11 @@ Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
 
+Package: nbconvertR
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+
 Package: NBDdirichlet
 Version: 1.01
 License: GPL (>= 2)
@@ -26989,6 +27009,13 @@ Package: palinsol
 Version: 0.92
 Depends: R (>= 2.10), stats, gsl
 License: file LICENSE
+NeedsCompilation: no
+
+Package: palr
+Version: 0.0-4
+Depends: R (>= 2.10)
+Suggests: knitr, raster
+License: GPL-3
 NeedsCompilation: no
 
 Package: pamctdp
@@ -36424,10 +36451,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sadists
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
-Suggests: testthat, ggplot2, xtable, knitr
+Suggests: shiny, testthat, ggplot2, xtable, knitr
 License: LGPL-3
 NeedsCompilation: no
 
@@ -41146,7 +41173,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Surrogate
-Version: 0.1-6
+Version: 0.1-61
 Depends: MASS, nlme, msm, lme4
 Imports: rgl, lattice, latticeExtra
 License: GPL (>= 2)
@@ -44710,7 +44737,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: whoami
-Version: 1.0.0
+Version: 1.1.0
 Imports: httr, jsonlite
 Suggests: testthat
 License: MIT + file LICENSE
