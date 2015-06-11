@@ -9618,6 +9618,13 @@ LinkingTo: BH (>= 1.54.0-2)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
+Package: DynTxRegime
+Version: 2.1
+Depends: methods, modelObj
+Suggests: MASS, rpart, nnet, rgenoud
+License: GPL-2
+NeedsCompilation: no
+
 Package: e1071
 Version: 1.6-4
 Imports: graphics, grDevices, class
@@ -9968,10 +9975,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: effects
-Version: 3.0-3
-Depends: R (>= 2.10)
-Imports: pbkrtest, lme4, nnet, lattice, grid, colorspace
-Suggests: nlme, MASS, poLCA, heplots, splines
+Version: 3.0-4
+Imports: lme4, nnet, lattice, grid, colorspace
+Suggests: pbkrtest, nlme, MASS, poLCA, heplots, splines, ordinal
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20713,7 +20719,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LTPDvar
-Version: 1.1
+Version: 1.2
 Depends: methods
 Imports: graphics
 License: GPL-2
@@ -35196,11 +35202,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rplexos
-Version: 1.0
+Version: 1.1.1
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.5), dplyr (>= 0.3), RSQLite (>= 1.0), DBI,
-        data.table, lubridate, reshape2, stringi, assertthat, parallel,
-        doParallel, foreach
+        data.table, tidyr, lubridate, stringi, parallel, doParallel,
+        foreach
 LinkingTo: Rcpp (>= 0.11.5)
 Suggests: knitr, testthat, ggplot2
 License: MIT + file LICENSE
