@@ -37536,7 +37536,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sensitivity
-Version: 1.11
+Version: 1.11.1
 Depends: R (>= 3.0.0)
 Imports: boot
 Suggests: DiceDesign, randtoolbox, DiceKriging, fanovaGraph, rgl, evd,
