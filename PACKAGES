@@ -5,6 +5,13 @@ Suggests: randomForest, e1071
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: abbyyR
+Version: 0.1
+Depends: R (>= 3.2.0)
+Imports: httr, XML
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: abc
 Version: 2.1
 Depends: R (>= 2.10), abc.data, nnet, quantreg, MASS, locfit
@@ -16277,11 +16284,12 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: HH
-Version: 3.1-15
+Version: 3.1-19
 Depends: R (>= 3.0.2), lattice, stats, grid, latticeExtra, multcomp,
         gridExtra
-Imports: reshape2, leaps, vcd, colorspace, RColorBrewer, Rcmdr, shiny
-Suggests: methods, abind, mvtnorm, car, RcmdrPlugin.HH
+Imports: reshape2, leaps, vcd, colorspace, RColorBrewer, shiny, Hmisc,
+        abind, Rmpfr
+Suggests: methods, mvtnorm, car, Rcmdr, RcmdrPlugin.HH, TeachingDemos
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31938,11 +31946,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.HH
-Version: 1.1-42
-Depends: R (>= 3.0.2), HH (>= 3.1-13), lattice, grDevices,
-        latticeExtra, rgl, mgcv
-Imports: Rcmdr (>= 2.0-0)
-Suggests: abind, vcd, car
+Version: 1.1-43
+Depends: R (>= 3.0.2)
+Imports: Rcmdr (>= 2.0-0), lattice, mgcv, HH
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -40986,7 +40992,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: strum
-Version: 0.6.1
+Version: 0.6.2
 Depends: R (>= 3.0.0), methods, pedigree, Rgraphviz(>= 2.6.0)
 Imports: Matrix, MASS, Rcpp, graph
 LinkingTo: Rcpp, RcppArmadillo
@@ -42947,6 +42953,14 @@ Version: 0.14
 Depends: digest, proto, gWidgets
 Suggests: testthat
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: traits
+Version: 0.1.0
+Depends: R (>= 2.10)
+Imports: XML, jsonlite, httr, dplyr, data.table, taxize
+Suggests: roxygen2, knitr, testthat, plyr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: traj
