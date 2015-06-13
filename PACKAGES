@@ -2556,8 +2556,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: beepr
-Version: 1.1
-Imports: stringr, audio
+Version: 1.2
+Imports: stringr (>= 1.0.0), audio
 License: GPL-3
 NeedsCompilation: no
 
@@ -23319,6 +23319,12 @@ Package: MMS
 Version: 3.00
 Depends: glmnet,Matrix, mht (>= 3.00)
 License: GPL-3
+NeedsCompilation: no
+
+Package: mmtfa
+Version: 0.1
+Imports: parallel, mvnfast, matrixStats
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mnlogit
