@@ -18759,8 +18759,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Kernelheaping
-Version: 0.5
-Depends: R (>= 2.15.0), plyr, evmix, MASS, corpcor
+Version: 0.9
+Depends: R (>= 2.15.0), plyr, evmix, MASS, ks, sparr
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
