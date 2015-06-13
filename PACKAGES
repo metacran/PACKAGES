@@ -2867,6 +2867,14 @@ Depends: glmnet, Matrix, lattice,
 License: GPL-2
 NeedsCompilation: no
 
+Package: BIGDAWG
+Version: 1.1
+Depends: R (>= 2.10)
+Imports: XML, haplo.stats, parallel
+Suggests: knitr
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: bigGP
 Version: 0.1-5
 Depends: R (>= 3.0.0), Rmpi (>= 0.6-2), methods
@@ -17804,9 +17812,8 @@ License: CC BY-SA 4.0
 NeedsCompilation: no
 
 Package: installr
-Version: 0.15.17
-Depends: R (>= 2.11.0)
-Imports: utils
+Version: 0.16.0
+Depends: R (>= 2.11.0), utils
 Suggests: XML, devtools, rjson, data.table, plyr, ggplot2, sp, tools
 License: GPL-2
 OS_type: windows
@@ -19876,6 +19883,14 @@ Package: likelihood
 Version: 1.7
 Depends: R (>= 2.1.1), nlme
 License: GPL-2
+NeedsCompilation: no
+
+Package: likelihoodAsy
+Version: 0.40
+Priority: optional
+Depends: nleqslv, Rsolnp, alabama, pracma, cond
+Suggests: MASS, lme4, knitr
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: likeLTD
@@ -23208,6 +23223,13 @@ Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
 
+Package: MM2Sdata
+Version: 1.0.0
+Depends: R (>= 2.10), Biobase
+Suggests: knitr
+License: Artistic-2.0
+NeedsCompilation: no
+
 Package: mma
 Version: 2.0-0
 Depends: R (>= 2.14.1), gbm
@@ -25515,10 +25537,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.0)
 Imports: picante, raster, ape, sp, vegan, utils
-Suggests: RColorBrewer, parallel, testthat, fields, colorspace
+Suggests: RColorBrewer, parallel, testthat, colorspace
 License: GPL-3
 NeedsCompilation: no
 
@@ -28346,7 +28368,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: phylocurve
-Version: 1.1.0
+Version: 1.2.0
 Depends: drc
 Imports: ape, geiger, phytools, abind, phylolm, GPfit, dtw
 License: GPL (>= 2)
@@ -28527,7 +28549,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pkgKitten
-Version: 0.1.2
+Version: 0.1.3
+Suggests: whoami (>= 1.1.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29139,9 +29162,9 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: polysat
-Version: 1.3-3
+Version: 1.4-0
 Imports: methods
-Suggests: combinat, ade4, adegenet
+Suggests: combinat, ade4, adegenet, ape
 License: GPL-2
 NeedsCompilation: no
 
@@ -34344,7 +34367,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rmarkdown
-Version: 0.6.1
+Version: 0.7
 Depends: R (>= 3.0)
 Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
         0.2.4), caTools
