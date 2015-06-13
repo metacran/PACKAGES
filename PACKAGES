@@ -42001,11 +42001,12 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.5.2
+Version: 0.6.0
 Depends: R(>= 2.10.0)
-Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), jsonlite,
-        foreach, ape, Taxonstand, reshape2, data.table, vegan, bold
-Suggests: testthat, roxygen2, knitr
+Imports: XML (>= 3.98.1.1), RCurl (>= 1.6), reshape2, stringr, plyr,
+        httr (>= 0.6.1), jsonlite, foreach, ape, Taxonstand,
+        data.table, bold
+Suggests: testthat, roxygen2, knitr, vegan
 License: MIT + file LICENSE
 NeedsCompilation: no
 
