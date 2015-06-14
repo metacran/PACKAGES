@@ -25137,7 +25137,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: networkD3
-Version: 0.1.2.1
+Version: 0.1.7
 Depends: R (>= 3.0.0)
 Imports: htmlwidgets (>= 0.3.2), plyr, rjson
 Suggests: htmltools (>= 0.2.6), RCurl
