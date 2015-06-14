@@ -45168,7 +45168,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: xergm
-Version: 1.4.1
+Version: 1.5
 Depends: R (>= 2.14.0)
 Imports: stats4, utils, methods, statnet, statnet.common, network, sna,
         ergm (>= 3.2.4), texreg (>= 1.34), Matrix, parallel, boot,
