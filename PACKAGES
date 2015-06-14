@@ -22275,6 +22275,15 @@ Version: 0.1.1
 License: BSD
 NeedsCompilation: no
 
+Package: metricsgraphics
+Version: 0.8.5
+Depends: R (>= 3.0.0)
+Imports: magrittr, htmlwidgets, htmltools
+Suggests: testthat, RColorBrewer, ggplot2, jsonlite (>= 0.9.16), knitr
+        (>= 1.8), shiny (>= 0.12.0), binom, dplyr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: metRology
 Version: 0.9-17
 Depends: R (>= 2.14.0), base, stats
@@ -25549,7 +25558,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nodiv
-Version: 1.0.4
+Version: 1.1.0
 Depends: R (>= 3.0)
 Imports: picante, raster, ape, sp, vegan, utils
 Suggests: RColorBrewer, parallel, testthat, colorspace
@@ -28605,7 +28614,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pks
-Version: 0.3-0
+Version: 0.3-1
 Depends: R (>= 2.14.0), stats, sets
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -38553,7 +38562,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SKAT
-Version: 1.0.7
+Version: 1.0.9
 Depends: R (>= 2.13.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
