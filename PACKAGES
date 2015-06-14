@@ -3416,9 +3416,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: blme
-Version: 1.0-3
-Depends: R (>= 3.0-0)
-Imports: methods, stats, utils, lme4 (>= 1.0-6)
+Version: 1.0-4
+Depends: R (>= 3.0-0), lme4 (>= 1.0-6)
+Imports: methods, stats, utils
 Suggests: testthat (>= 0.9-0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23798,11 +23798,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MPTinR
-Version: 1.8.0
+Version: 1.9.2
 Depends: R (>= 2.15.1)
 Imports: numDeriv, Brobdingnag, Rcpp
 LinkingTo: Rcpp, RcppEigen
-Suggests: snowfall (>= 1.84)
+Suggests: snowfall (>= 1.84), knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -27799,7 +27799,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: peacots
-Version: 1.1
+Version: 1.2
 Depends: stats,graphics
 License: GPL-3
 NeedsCompilation: no
@@ -38729,7 +38729,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: smbinning
-Version: 0.1
+Version: 0.2
 Depends: R (>= 3.1.2),sqldf,partykit,Formula
 Imports: gsubfn
 License: GPL (>= 2)
