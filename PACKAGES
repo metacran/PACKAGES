@@ -8216,6 +8216,13 @@ Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: DESP
+Version: 0.1-2
+Imports: MASS, Matrix, graph, RBGL, SparseM
+Suggests: Rmosek, gurobi
+License: GPL-3
+NeedsCompilation: yes
+
 Package: detect
 Version: 0.3-2
 Depends: R (>= 2.13.0), Formula, stats4
@@ -15849,11 +15856,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: h2o
-Version: 2.8.4.4
-Depends: R (>= 2.13.0), statmod, survival, stats, graphics, utils,
-        methods
-Imports: RCurl, rjson, tools
-Suggests: plyr
+Version: 3.0.0.22
+Depends: R (>= 2.13.0), methods, statmod, stats
+Imports: graphics, RCurl, rjson, tools, utils
+Suggests: devtools, roxygen2, testthat
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
@@ -33600,9 +33606,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RGA
-Version: 0.2.1
+Version: 0.2.2
 Depends: R (>= 3.0.0)
-Imports: httr (>= 0.6), httpuv, RCurl, jsonlite, shiny (>= 0.11)
+Imports: httr (>= 0.6), httpuv, curl, jsonlite, shiny (>= 0.11)
 Suggests: knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
