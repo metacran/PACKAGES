@@ -1767,10 +1767,13 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: BaBooN
-Version: 0.1-6
-Depends: R (>= 2.12.0), MASS, nnet
+Version: 0.2-0
+Depends: R (>= 3.1.0), Rcpp (>= 0.11.2)
+Imports: Hmisc, MASS, nnet, coda
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: mice, lattice, norm
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: babynames
 Version: 0.1
@@ -6716,7 +6719,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: coxme
-Version: 2.2-4
+Version: 2.2-5
 Priority: optional
 Depends: survival (>= 2.36.14), methods, bdsmatrix(>= 1.3)
 Imports: nlme, Matrix (>= 1.0)
@@ -19064,7 +19067,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: kolmim
-Version: 0.2
+Version: 1.0
 License: GPL-2
 NeedsCompilation: yes
 
@@ -33602,9 +33605,9 @@ License: GPL
 NeedsCompilation: yes
 
 Package: rfPermute
-Version: 1.6.2
-Depends: R (>= 2.15.1), ggplot2
-Imports: randomForest, parallel, grid, gridExtra
+Version: 1.7
+Depends: R (>= 3.2.0), randomForest, ggplot2
+Imports: grid, gridExtra
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37945,6 +37948,12 @@ Version: 1.3
 Depends: MASS
 Suggests: polycor
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: sgRSEA
+Version: 0.1
+Depends: R (>= 2.10)
+License: GPL-2
 NeedsCompilation: no
 
 Package: sgt
