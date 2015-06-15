@@ -22731,12 +22731,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mirt
-Version: 1.9
-Depends: R (>= 2.15), stats4, lattice, methods
-Imports: GPArotation, Rcpp, sfsmisc, numDeriv
+Version: 1.10
+Depends: R (>= 3.1.0), stats4, lattice, methods
+Imports: GPArotation, Rcpp, sfsmisc, mgcv, numDeriv
 LinkingTo: Rcpp
-Suggests: testthat, boot, latticeExtra, directlabels, shiny, knitr,
-        parallel, Rsolnp, alabama, sirt, mirtCAT
+Suggests: boot, latticeExtra, directlabels, shiny, knitr, Rsolnp,
+        alabama, sirt, mirtCAT
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -26946,10 +26946,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: packrat
-Version: 0.4.3
+Version: 0.4.4
 Depends: R (>= 3.0.0)
 Imports: tools, utils
-Suggests: testthat (>= 0.7), devtools, httr
+Suggests: testthat (>= 0.7), devtools, httr, pkgKitten
 Enhances: knitr, BiocInstaller
 License: GPL-2
 NeedsCompilation: no
@@ -36558,12 +36558,12 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sads
-Version: 0.1.10
-Depends: MASS, bbmle, poilog
-Imports: methods, graphics, VGAM, untb
+Version: 0.2.1
+Depends: stats, bbmle, poilog
+Imports: MASS, methods, graphics, VGAM, GUILDS
 Suggests: vegan
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: sae
 Version: 1.0-5
