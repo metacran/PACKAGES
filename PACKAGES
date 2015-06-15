@@ -19,7 +19,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ABCanalysis
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10)
 Imports: Hmisc, plotrix
 License: GPL-3
@@ -6105,7 +6105,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: compendiumdb
-Version: 1.0.0
+Version: 1.0.1
 Depends: Biobase, GEOquery, RMySQL
 Suggests: inSilicoDb, genefilter, gplots, GSVA, limma,
         mogene10sttranscriptcluster.db, RColorBrewer
@@ -8361,7 +8361,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: diagonals
-Version: 0.2.0
+Version: 0.3.0
 Depends: R (>= 2.10)
 Suggests: testthat, knitr
 License: GPL-3
@@ -13245,7 +13245,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: FuzzyStatProb
-Version: 2.0
+Version: 2.0.1
 Imports: MultinomialCI, parallel, FuzzyNumbers, DEoptim
 Suggests: markovchain, R.rsp
 License: LGPL (>= 3)
@@ -24031,8 +24031,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MSIseq
-Version: 0.99.1
-Depends: IRanges, RWeka, rJava, R.utils, R (>= 3.1.0)
+Version: 1.0.0
+Depends: IRanges, RWeka, rJava, R.utils, R (>= 3.2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28771,7 +28771,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: plotmo
-Version: 3.1.1
+Version: 3.1.2
 Depends: plotrix, TeachingDemos
 Suggests: earth (>= 4.3.0), MASS, neuralnet, rpart, rpart.plot
 License: GPL-3
