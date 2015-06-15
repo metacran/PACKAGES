@@ -1358,7 +1358,7 @@ License: LGPL-2.1
 NeedsCompilation: no
 
 Package: arqas
-Version: 1.0
+Version: 1.1
 Depends: R (>= 1.8.0), distr, ggplot2
 Imports: methods, reshape, iterators, doParallel, foreach,
         fitdistrplus, gridExtra
@@ -9545,6 +9545,12 @@ Imports: magrittr, htmlwidgets (>= 0.3.2), zoo (>= 1.7-10), xts (>=
 Suggests: testthat
 Enhances: rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: DYM
+Version: 0.1.1
+Suggests: testthat
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: dyn
@@ -33504,10 +33510,10 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: rfigshare
-Version: 0.3.6
+Version: 0.3.7
 Depends: R (>= 3.0), methods
 Imports: RJSONIO, httr (>= 0.3), httpuv, plyr, yaml, ggplot2, XML
-Suggests: knitr, testthat, gdata, uuid
+Suggests: testthat, gdata, uuid
 License: CC0
 NeedsCompilation: no
 
@@ -43135,10 +43141,10 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: treebase
-Version: 0.0-7.1
+Version: 0.1.0
 Depends: R (>= 2.15), ape
 Imports: XML, RCurl, methods, utils, reshape2, data.table
-Suggests: TreePar, testthat
+Suggests: testthat
 License: CC0
 NeedsCompilation: no
 
