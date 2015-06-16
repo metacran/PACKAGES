@@ -6049,6 +6049,15 @@ Imports: methods,MASS,urca
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: CommT
+Version: 0.1.1
+Depends: R (>= 3.0.0)
+Imports: ape (>= 3.1-4), ggplot2 (>= 1.0.0), gridExtra, phangorn,
+        reshape
+License: GPL (>= 2)
+OS_type: unix
+NeedsCompilation: no
+
 Package: COMMUNAL
 Version: 1.0
 Depends: R (>= 2.10), cluster
@@ -42286,9 +42295,9 @@ License: LGPL-2.1
 NeedsCompilation: no
 
 Package: tergm
-Version: 3.2.4
-Depends: statnet.common (>= 3.2), ergm (>= 3.2.3), network (>= 1.11),
-        networkDynamic (>= 0.7)
+Version: 3.3.0
+Depends: statnet.common (>= 3.2), ergm (>= 3.4), network (>= 1.12),
+        networkDynamic (>= 0.7.1)
 Imports: robustbase (>= 0.9-10), coda, nlme
 LinkingTo: ergm
 Suggests: lattice, parallel
