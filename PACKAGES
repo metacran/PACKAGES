@@ -16554,9 +16554,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hisse
-Version: 1.0
+Version: 1.1
 Depends: ape, deSolve, GenSA, subplex
-Imports: parallel
+Imports: parallel, phytools
+Suggests: testthat, diversitree
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -38097,7 +38098,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: shinydashboard
-Version: 0.4.0
+Version: 0.5.0
 Depends: R (>= 3.0)
 Imports: shiny (>= 0.11.1), htmltools (>= 0.2.6)
 License: GPL-2 | file LICENSE
@@ -41733,7 +41734,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: switchr
-Version: 0.9.4
+Version: 0.9.6
 Depends: methods
 Imports: tools
 Suggests: BiocInstaller, RJSONIO, RCurl
