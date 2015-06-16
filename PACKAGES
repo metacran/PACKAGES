@@ -2106,7 +2106,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: bayesm
-Version: 3.0-0
+Version: 3.0-1
 Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.11.3)
 LinkingTo: Rcpp, RcppArmadillo
@@ -15366,7 +15366,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gridGraphviz
-Version: 0.1
+Version: 0.3
 Depends: R (>= 2.15.0), grid, graph, Rgraphviz
 Suggests: gridSVG
 License: GPL (>= 2)
@@ -27804,7 +27804,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PDQutils
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.0.2)
 Imports: orthopolynom, moments
 Suggests: ggplot2, reshape2, testthat, knitr
@@ -33214,6 +33214,14 @@ Imports: splines
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: repijson
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: OutbreakTools, jsonlite, plyr, sp, ggplot2, geojsonio
+Suggests: HistData, knitr, testthat, rgdal, base64enc
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: replicatedpp2w
 Version: 0.1-1
 Imports: spatstat
@@ -37307,7 +37315,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: secr
-Version: 2.9.4
+Version: 2.9.5
 Depends: R (>= 3.0.0), methods
 Imports: abind, MASS, utils, parallel, nlme, sp, mgcv, raster
 Suggests: maptools, spsurvey, rgdal, rgeos, knitr, gdistance
@@ -44829,7 +44837,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WGCNA
-Version: 1.46
+Version: 1.47
 Depends: R (>= 3.0), dynamicTreeCut (>= 1.62), fastcluster
 Imports: stats, grDevices, utils, matrixStats (>= 0.8.1), Hmisc,
         impute, splines, foreach, doParallel, reshape, preprocessCore,
