@@ -1021,6 +1021,14 @@ Suggests: testthat, knitr
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
+Package: aop
+Version: 0.99.5
+Imports: graph (>= 1.38.3), rjson (>= 0.2.14), igraph (>= 0.7.1),
+        Rgraphviz (>= 2.10.0), methods
+Suggests: RUnit, BiocGenerics, knitr, rmarkdown
+License: CC0
+NeedsCompilation: no
+
 Package: aoristic
 Version: 0.6
 Depends: ggplot2, spatstat, GISTools
@@ -23280,7 +23288,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MM2Sdata
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.10), Biobase
 Suggests: knitr
 License: Artistic-2.0
@@ -28084,7 +28092,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: performanceEstimation
-Version: 1.0.0
+Version: 1.0.1
 Depends: R(>= 3.0), methods
 Imports: ggplot2 (>= 0.9.3), foreach (>= 1.2.0), doParallel (>= 1.0.8)
 License: GPL (>= 2)
@@ -40396,12 +40404,6 @@ Imports: stringr, functional, DBI, RSQLite
 License: MIT + file LICENSE
 NeedsCompilation: no
 
-Package: sqlshare
-Version: 1.0.3
-Depends: R (>= 1.8.0), RCurl
-License: MIT + file LICENSE
-NeedsCompilation: no
-
 Package: sqlutils
 Version: 1.2
 Depends: roxygen2, stringr, DBI
@@ -42562,7 +42564,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ThresholdROC
-Version: 1.0
+Version: 2.0
+Depends: R (>= 3.1.0), MASS, numDeriv, pROC
 License: GPL (>= 2)
 NeedsCompilation: no
 
