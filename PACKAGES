@@ -9729,7 +9729,7 @@ License: FreeBSD
 NeedsCompilation: no
 
 Package: earth
-Version: 4.4.0
+Version: 4.4.1
 Depends: plotmo (>= 3.0.0), TeachingDemos
 Suggests: gam, mgcv, mda, MASS
 License: GPL-3
@@ -23289,7 +23289,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MM2S
-Version: 1.0.0
+Version: 1.0.1
 Depends: GSVA (>= 1.13.1), kknn (>= 1.2-5), parallel, lattice,
         pheatmap, R (>= 2.10)
 Suggests: knitr
@@ -26095,6 +26095,14 @@ Imports: XML, RCurl, utils
 License: GPL-2
 NeedsCompilation: no
 
+Package: oapackage
+Version: 2.0.17
+LinkingTo: RcppEigen
+Suggests: ggplot2, reshape2
+License: BSD_2_clause + file LICENSE
+License_is_FOSS: yes
+NeedsCompilation: yes
+
 Package: Oarray
 Version: 1.4-5
 Depends: methods
@@ -28447,7 +28455,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: phylocurve
-Version: 1.2.0
+Version: 1.3.0
 Depends: drc
 Imports: ape, geiger, phytools, abind, phylolm, GPfit, dtw
 License: GPL (>= 2)
@@ -41782,12 +41790,12 @@ License: CC0
 NeedsCompilation: no
 
 Package: sybil
-Version: 1.2.6
+Version: 1.3.0
 Depends: R (>= 2.14.2), Matrix, lattice
 Imports: methods
 Suggests: glpkAPI (>= 1.2.8), cplexAPI (>= 1.2.4), clpAPI (>= 1.2.4),
         lpSolveAPI (>= 5.5.2.0), parallel, grid
-License: GPL-3
+License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: sybilccFBA
