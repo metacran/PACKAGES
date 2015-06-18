@@ -7086,7 +7086,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crunch
-Version: 1.2.1
+Version: 1.3.2
 Depends: R (>= 3.0.0)
 Imports: httr (>= 0.4), jsonlite (>= 0.9.15), methods, RCurl
 Suggests: knitr, testthat
@@ -9893,11 +9893,9 @@ License: CC0
 NeedsCompilation: no
 
 Package: EcoGenetics
-Version: 1.2.0
+Version: 1.2.0-1
 Depends: R (>= 3.0), methods
-Imports: adegenet, ggplot2, hierfstat, party, raster, rgdal, rkt, SoDA,
-        sp, vegan
-Suggests: ape, Geneland, gstudio, seqinr
+Imports: adegenet, ggplot2, party, raster, rgdal, rkt, SoDA, sp,
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18783,7 +18781,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kdecopula
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.0.0)
 Imports: lattice, cubature, locfit, Rcpp (>= 0.11.2), VineCopula (>=
         1.2)
@@ -21349,7 +21347,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MASS
-Version: 7.3-40
+Version: 7.3-41
 Priority: recommended
 Depends: R (>= 3.1.0), grDevices, graphics, stats, utils
 Suggests: lattice, nlme, nnet, survival
@@ -42360,10 +42358,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TESS
-Version: 1.2.1
+Version: 2.0.0
 Depends: ape, coda, deSolve
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
 License: GPL-3
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: tester
 Version: 0.1.7
