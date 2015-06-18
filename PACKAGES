@@ -2466,7 +2466,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bcrypt
-Version: 0.1
+Version: 0.2
 Imports: openssl
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
@@ -6485,6 +6485,12 @@ NeedsCompilation: no
 Package: CopyDetect
 Version: 1.1
 Depends: irtoys
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: CopyNumber450kCancer
+Version: 1.0.3
+Depends: R (>= 3.1.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11783,10 +11789,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: FatTailsR
-Version: 1.0-3
+Version: 1.2-0
 Depends: R (>= 3.1.0)
-Imports: minpack.lm
-Suggests: timeSeries, timeDate
+Imports: minpack.lm, timeSeries
+Suggests: xts
 License: GPL-2
 NeedsCompilation: no
 
@@ -16369,8 +16375,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HHG
-Version: 1.4
-Suggests: MASS
+Version: 1.5
+Suggests: MASS,knitr
 License: GPL-2
 NeedsCompilation: yes
 
@@ -19844,12 +19850,12 @@ License: Artistic-2.0
 NeedsCompilation: yes
 
 Package: lfl
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.1.1)
 Imports: Rcpp (>= 0.11.0), foreach, forecast (>= 5.5), plyr, tseries,
         e1071, zoo, utils
 LinkingTo: Rcpp
-Suggests: testthat
+Suggests: testthat, doMC
 License: GPL (>= 3.0)
 NeedsCompilation: yes
 
@@ -22630,7 +22636,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: migest
-Version: 1.6
+Version: 1.7
 License: GPL-2
 NeedsCompilation: no
 
@@ -40898,7 +40904,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: stepR
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.15.3), stats
 License: GPL-3
 NeedsCompilation: yes
