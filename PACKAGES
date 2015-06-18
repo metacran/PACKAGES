@@ -6371,6 +6371,13 @@ Suggests: lattice, nlme, Hmisc, geepack, MASS, sandwich
 License: GPL-2
 NeedsCompilation: no
 
+Package: controlTest
+Version: 1.0
+Depends: R (>= 3.1.0)
+Imports: survival (>= 2.38)
+License: GPL-2
+NeedsCompilation: no
+
 Package: ConvCalendar
 Version: 1.2
 License: GPL-2
@@ -29410,7 +29417,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: PopVar
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.1), utils
 Imports: BGLR, qtl, rrBLUP
 License: GPL-3
@@ -36471,7 +36478,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RWinEdt
-Version: 2.0-3
+Version: 2.0-4
 Depends: R (>= 2.11.0), utils
 License: GPL-2
 OS_type: windows
