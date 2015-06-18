@@ -8624,7 +8624,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: directPA
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.10.0), rgl, calibrate
 License: GPL-3
 NeedsCompilation: no
@@ -15196,7 +15196,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GPLTR
-Version: 1.1
+Version: 1.2
 Depends: rpart , parallel
 License: GPL (>= 2.0)
 NeedsCompilation: no
@@ -16903,7 +16903,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hsdar
-Version: 0.1.5
+Version: 0.2
 Depends: R (>= 2.10.0), sp, raster, rgdal, rootSolve, signal, methods
 Suggests: rgl
 License: GPL
@@ -18546,7 +18546,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: james.analysis
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.10), graphics (>= 2.15.3)
 Imports: rjson (>= 0.2.14), naturalsort (>= 0.1.2)
 Suggests: testthat (>= 0.9.1)
@@ -18653,7 +18653,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: joint.Cox
-Version: 1.1
+Version: 2.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -23529,6 +23529,13 @@ Depends: gtools, igraph
 License: GPL-2
 NeedsCompilation: no
 
+Package: modQR
+Version: 0.1.0
+Depends: R (>= 2.5.0), lpSolve (>= 5.6.1), geometry (>= 0.3-1)
+Suggests: rgl
+License: LGPL-2
+NeedsCompilation: no
+
 Package: modTempEff
 Version: 1.5.2
 Depends: mgcv, splines
@@ -26107,7 +26114,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: oapackage
-Version: 2.0.17
+Version: 2.0.20
 LinkingTo: RcppEigen
 Suggests: ggplot2, reshape2
 License: BSD_2_clause + file LICENSE
@@ -31713,7 +31720,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rAvis
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 2.10)
 Imports: stringr, XML, RCurl, scrapeR, gdata, scales, rgdal, maptools,
         raster, sp, tools
@@ -34186,7 +34193,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: riverplot
-Version: 0.3
+Version: 0.5
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -38079,10 +38086,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SharpeR
-Version: 0.1501
+Version: 1.0.0
 Depends: R (>= 3.0.0)
-Imports: matrixcalc
-Suggests: xtable, xts, quantmod, MASS, TTR, testthat, sandwich, knitr
+Imports: matrixcalc, sadists (>= 0.2.0)
+Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat,
+        sandwich, knitr
 License: LGPL-3
 NeedsCompilation: no
 
