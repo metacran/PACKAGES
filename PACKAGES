@@ -38,12 +38,6 @@ Suggests: LIM,sybil
 License: GPL-2
 NeedsCompilation: no
 
-Package: ABCExtremes
-Version: 1.0
-Depends: SpatialExtremes, combinat
-License: GPL-2
-NeedsCompilation: no
-
 Package: ABCoptim
 Version: 0.13.11
 License: GPL (>= 3)
@@ -680,12 +674,6 @@ Package: allan
 Version: 1.01
 Depends: biglm
 License: GPL
-NeedsCompilation: no
-
-Package: allanvar
-Version: 1.0
-Depends: R (>= 2.10.0), gplots
-License: GPL-2
 NeedsCompilation: no
 
 Package: alleHap
@@ -1464,12 +1452,6 @@ Suggests: survival, Hmisc, xtable, R2HTML, cacheSweave, weaver
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: ascrda
-Version: 1.15
-Depends: R (>= 2.10),class,nnet,rda,MASS,sfsmisc,e1071,pamr
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: asd
 Version: 2.0
 Depends: mvtnorm
@@ -2001,11 +1983,6 @@ Depends: R (>= 2.10)
 License: GPL (>= 3)
 NeedsCompilation: yes
 
-Package: bayesclust
-Version: 3.1
-License: GPL-2
-NeedsCompilation: yes
-
 Package: BayesComm
 Version: 0.1-0
 Depends: Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.2.4), coda
@@ -2493,12 +2470,6 @@ Package: BDgraph
 Version: 2.19
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
-NeedsCompilation: yes
-
-Package: bdoc
-Version: 1.2
-Depends: R (>= 2.10)
-License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: bdpv
@@ -3213,11 +3184,6 @@ Package: bionetdata
 Version: 1.0.1
 Depends: R (>= 2.10)
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: biopara
-Version: 1.5
-License: GPL
 NeedsCompilation: no
 
 Package: BioPhysConnectoR
@@ -5006,9 +4972,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.5.3
-Depends: R (>= 2.15.0)
-Suggests: testthat
+Version: 1.6.0
+Depends: R (>= 3.0.0)
+Suggests: testthat, knitr
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -10379,12 +10345,6 @@ LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: EMJumpDiffusion
-Version: 1.4.1
-Depends: R (>= 2.5.0)
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: emma
 Version: 0.1-0
 Depends: R (>= 2.9.2), earth, clusterSim
@@ -10845,8 +10805,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: yes
 
 Package: ergm.count
-Version: 3.1.1
-Depends: statnet.common (>= 3.1-0), ergm (>= 3.1-0), network
+Version: 3.2.0
+Depends: statnet.common (>= 3.1), ergm (>= 3.4), network
 LinkingTo: ergm
 License: GPL-3 + file LICENSE
 NeedsCompilation: yes
@@ -10924,11 +10884,6 @@ Imports: Rcpp(>= 0.11.0)
 LinkingTo: Rcpp
 Suggests: knitr, fOptions
 License: GPL-2 | GPL-3
-NeedsCompilation: yes
-
-Package: esotericR
-Version: 1.0
-License: GPL-2
 NeedsCompilation: yes
 
 Package: EstCRM
@@ -11110,12 +11065,6 @@ Package: evolvability
 Version: 1.1.0
 Imports: coda
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: evora
-Version: 1.0
-Depends: qvalue, Hmisc
-License: GPL-2
 NeedsCompilation: no
 
 Package: EvoRAG
@@ -15089,12 +15038,6 @@ Suggests: shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: gooJSON
-Version: 1.0.01
-Depends: R (>= 2.12), rjson
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: GOplot
 Version: 1.0
 Depends: ggplot2, ggdendro, grid, gridExtra, RColorBrewer, R (>= 3.0.3)
@@ -15337,7 +15280,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: graphicalVAR
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.3), Matrix, glasso, glmnet, mvtnorm, qgraph (>=
         1.3.1)
@@ -16684,12 +16627,6 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: mlmRev, WWGbook
 License: GPL-2
 NeedsCompilation: yes
-
-Package: hlr
-Version: 0.0-4
-Depends: MASS
-License: GPL-3
-NeedsCompilation: no
 
 Package: HLSM
 Version: 0.4
@@ -21847,13 +21784,6 @@ Imports: mvtnorm, multcomp
 License: GPL-2
 NeedsCompilation: no
 
-Package: McParre
-Version: 1.0.1
-Depends: MASS
-Suggests: Rmpi
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: MCPerm
 Version: 1.1.4
 Depends: metafor, graphics
@@ -23384,11 +23314,6 @@ Depends: R (>= 2.10.0)
 Imports: aod,HI
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: MMIX
-Version: 1.2
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: mmm
 Version: 1.4
@@ -25448,12 +25373,6 @@ Package: NISTunits
 Version: 1.0.0
 Depends: R (>= 2.7.0)
 License: GPL (>= 3)
-NeedsCompilation: no
-
-Package: nlADG
-Version: 0.1-0
-Depends: R (>= 2.10.0), ggm
-License: GPL-3
 NeedsCompilation: no
 
 Package: nleqslv
@@ -28111,12 +28030,6 @@ Suggests: RUnit
 License: GPL-2
 NeedsCompilation: no
 
-Package: pequod
-Version: 0.0-3
-Depends: ggplot2, car
-License: GPL-2
-NeedsCompilation: no
-
 Package: perARMA
 Version: 1.5
 Depends: R (>= 2.12.2)
@@ -28178,11 +28091,6 @@ Depends: R (>= 2.15.3), Biobase (>= 2.18.0), RUnit (>= 0.4.26), foreach
         (>= 1.4.2), survival(>= 2.37-7)
 License: GPL-3
 NeedsCompilation: yes
-
-Package: permtest
-Version: 1.2
-License: GPL
-NeedsCompilation: no
 
 Package: permute
 Version: 0.8-4
@@ -34101,11 +34009,6 @@ License: file LICENSE
 License_restricts_use: yes
 NeedsCompilation: yes
 
-Package: ringbuffer
-Version: 1.1
-License: GPL
-NeedsCompilation: no
-
 Package: ringscale
 Version: 0.1.2
 Depends: FITSio, tcltk
@@ -37509,11 +37412,6 @@ Depends: R (>= 2.0.0), methods
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: SE.IGE
-Version: 1.0
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: seismic
 Version: 1.0
 License: GPL-3
@@ -39181,12 +39079,6 @@ Package: SNPmaxsel
 Version: 1.0-3
 Depends: R (>= 2.2.1), mvtnorm, combinat
 Suggests: mvtnorm, combinat
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: SNPMClust
-Version: 1.0
-Imports: MASS, mclust
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -44788,12 +44680,6 @@ Suggests: xtable, maps, mapdata
 License: Unlimited | file LICENSE
 NeedsCompilation: no
 
-Package: waterfall
-Version: 0.9.9.20121030
-Depends: R (>= 2.14.0), lattice
-License: BSD
-NeedsCompilation: no
-
 Package: WaterML
 Version: 1.0.0
 Depends: R (>= 3.0.1)
@@ -44821,12 +44707,6 @@ Version: 4.6
 Depends: R (>= 2.0), wavethresh (>= 4.6)
 License: GPL-2
 NeedsCompilation: yes
-
-Package: WaveCD
-Version: 1.0
-Depends: R (>= 2.0.0), waveslim, lattice
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: waved
 Version: 1.1-2
