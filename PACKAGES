@@ -5185,7 +5185,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: chron
-Version: 2.3-45
+Version: 2.3-46
 Depends: R (>= 2.12.0)
 Imports: graphics, stats
 Suggests: scales, ggplot2
@@ -15699,7 +15699,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gstat
-Version: 1.0-23
+Version: 1.0-24
 Depends: R (>= 2.10)
 Imports: methods, lattice, sp (>= 0.9-72), zoo, spacetime (>= 1.0-0),
         FNN
@@ -28189,12 +28189,6 @@ Version: 0.8-4
 Depends: R (>= 2.14.0)
 Suggests: vegan (>= 2.0-0), testthat (>= 0.5), parallel
 License: GPL-2
-NeedsCompilation: no
-
-Package: PERregress
-Version: 1.0-8
-Depends: R (>= 2.10.1)
-License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: perry
@@ -42997,6 +42991,14 @@ Imports: R.methodsS3, R.oo, MASS, Matrix, geometry
 Suggests: SuperLearner (>= 2.0), e1071 (>= 1.5.24), randomForest (>=
         4.5-35), polspline (>= 1.1.4), gam (>= 1.03), knitr
 License: GPL
+NeedsCompilation: no
+
+Package: tmod
+Version: 0.19
+Depends: R (>= 2.10)
+Imports: beeswarm,pca3d,tagcloud,XML,methods
+Suggests: limma,org.Hs.eg.db, testthat,knitr
+License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: tm.plugin.alceste
