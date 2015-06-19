@@ -19434,7 +19434,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: latentnet
-Version: 2.7.0
+Version: 2.7.1
 Depends: R (>= 2.8.0), statnet.common, network, ergm (>= 3.2.0)
 Imports: sna, mvtnorm, abind, coda (>= 0.17.1), tools
 Suggests: KernSmooth, snowFT, rgl, heplots, rlecuyer, ergm.userterms
@@ -30023,7 +30023,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pryr
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: stringr, codetools, methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
@@ -32115,9 +32115,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: RcmdrPlugin.RMTCJags
-Version: 1.0
+Version: 1.0-1
 Depends: R (>= 3.0.0)
-Imports: Rcmdr, runjags, rmeta, igraph, coda, rjags
+Imports: Rcmdr (>= 2.0.0), runjags, rmeta, igraph, coda
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -37757,7 +37757,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: Sequential
-Version: 2.0
+Version: 2.0.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -43992,7 +43992,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: urltools
-Version: 1.1.0
+Version: 1.2.0
 Imports: Rcpp, methods
 LinkingTo: Rcpp
 Suggests: testthat, knitr
