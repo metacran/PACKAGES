@@ -5530,7 +5530,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cluster
-Version: 2.0.1
+Version: 2.0.2
 Priority: recommended
 Depends: R (>= 2.15.0), stats, utils
 Imports: graphics, grDevices
@@ -13271,6 +13271,13 @@ Depends: futile.options, RUnit
 License: LGPL-3
 NeedsCompilation: no
 
+Package: future
+Version: 0.6.0
+Imports: listenv, globals
+Suggests: parallel, R.rsp
+License: LGPL (>= 2.1)
+NeedsCompilation: no
+
 Package: fuzzyFDR
 Version: 1.0
 License: GPL
@@ -13574,6 +13581,12 @@ Package: gammSlice
 Version: 1.3
 Depends: R(>= 2.13), KernSmooth, lattice, mgcv
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: gamsel
+Version: 1.7-3
+Depends: mda, foreach
+License: GPL-2
 NeedsCompilation: yes
 
 Package: GANPA
@@ -15281,6 +15294,14 @@ Imports: gWidgets, RGtk2, gWidgetsRGtk2, MASS, cluster, rgl, GUniFrac,
         ape
 License: LGPL-3
 NeedsCompilation: yes
+
+Package: GRANBase
+Version: 1.0.8
+Depends: switchr (>= 0.9.6), methods
+Imports: tools, XML, hwriter
+Suggests: parallel, BiocStyle
+License: Artistic-2.0
+NeedsCompilation: no
 
 Package: granova
 Version: 2.1
@@ -20050,9 +20071,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: linkR
-Version: 1.0.0
-Depends: R (>= 2.11.0)
-Imports: svgViewR
+Version: 1.0.1
+Depends: R (>= 2.11.0), svgViewR
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -21300,7 +21320,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: markovchain
-Version: 0.3
+Version: 0.3.0.1
 Depends: R (>= 3.0.0), methods
 Imports: igraph, Matrix, matlab, expm, stats4, parallel, Rcpp (>=
         0.11.5), RcppParallel, utils
@@ -29064,6 +29084,11 @@ Depends: stats4
 License: GPL-2
 NeedsCompilation: no
 
+Package: pnf
+Version: 0.1.1
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: png
 Version: 0.1-7
 Depends: R (>= 2.9.0)
@@ -34825,10 +34850,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rnoaa
-Version: 0.3.3
-Imports: httr, lubridate, plyr, ggplot2, scales, sp, RCurl, rgdal,
-        rgeos, maptools, stringr, XML, data.table, jsonlite, digest
-Suggests: testthat, roxygen2, knitr, taxize, dplyr
+Version: 0.4.0
+Imports: httr, lubridate, plyr, dplyr, tidyr, ggplot2, scales, rgdal,
+        XML, data.table, jsonlite
+Suggests: testthat, roxygen2, knitr, taxize, ncdf
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -36967,8 +36992,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: scam
-Version: 1.1-8
-Depends: R (>= 2.15.0), mgcv (>= 1.7-27)
+Version: 1.1-9
+Depends: R (>= 2.15.0), mgcv (>= 1.8-2)
 Imports: methods, stats, graphics, Matrix, splines
 Suggests: nlme
 License: GPL (>= 2)
@@ -45485,7 +45510,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.13.4
+Version: 0.13.6
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr, jsonlite, stringr
 License: FreeBSD
