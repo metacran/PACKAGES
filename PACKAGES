@@ -2093,7 +2093,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: bayesm
-Version: 3.0-1
+Version: 3.0-2
 Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.11.3)
 LinkingTo: Rcpp, RcppArmadillo
