@@ -7032,6 +7032,12 @@ Depends: R (>= 3.0.0), Matrix, tseriesChaos, fields, pracma
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: crrp
+Version: 1.0
+Depends: survival, Matrix, cmprsk
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: crrSC
 Version: 1.1
 Depends: survival
@@ -26054,7 +26060,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: oapackage
-Version: 2.0.20
+Version: 2.0.22
 LinkingTo: RcppEigen
 Suggests: ggplot2, reshape2
 License: BSD_2_clause + file LICENSE
