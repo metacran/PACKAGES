@@ -3604,8 +3604,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: boa
-Version: 1.1.7-2
-Depends: R (>= 1.7)
+Version: 1.1.8-1
+Depends: R (>= 2.7)
 License: GPL-2
 NeedsCompilation: no
 
@@ -4759,9 +4759,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cellranger
-Version: 0.1.0
+Version: 1.0.0
 Depends: R (>= 3.0.0)
-Suggests: testthat
+Suggests: covr, testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -16811,6 +16811,11 @@ Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: hqreg
+Version: 0.9
+License: GPL-2
+NeedsCompilation: yes
+
 Package: hrr
 Version: 1.1.1
 Depends: R (>= 3.0.0)
@@ -21448,10 +21453,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.14.0
+Version: 0.14.1
 Depends: R (>= 2.9.0)
 Imports: methods
-Suggests: R.rsp, microbenchmark, R.devices, base64enc, ggplot2, knitr
+Suggests: base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp
 License: Artistic-2.0
 NeedsCompilation: yes
 
@@ -32540,7 +32545,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: rDEA
-Version: 1.1-1
+Version: 1.2-1
 Imports: slam (>= 0.1-9), truncreg(>= 0.2-1), truncnorm(>= 1.0-7),
         maxLik
 Suggests: testthat
@@ -38568,7 +38573,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: sjmisc
-Version: 1.0.2
+Version: 1.0.3
 Imports: MASS
 Suggests: coin, foreign, haven, lme4, nlme, stringdist
 License: GPL-3
