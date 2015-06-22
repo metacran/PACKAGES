@@ -3135,10 +3135,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: biogram
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), slam
-Imports: bit
-Suggests: testthat
+Imports: bit, entropy
+Suggests: ggplot2, testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -15138,15 +15138,6 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
-Package: GPlab
-Version: 0.1.0
-Depends: Rcpp (>= 0.10.5), methods, testthat
-Imports: MASS, numDeriv, stats4
-LinkingTo: Rcpp
-Suggests: DiceKriging, DiceDesign, lhs, inline
-License: GPL-3
-NeedsCompilation: yes
-
 Package: gplm
 Version: 0.7-2
 Depends: AER
@@ -18807,6 +18798,15 @@ Version: 1.2
 Depends: date, chron, evir
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: kergp
+Version: 0.1.0
+Depends: Rcpp (>= 0.10.5), methods, testthat
+Imports: MASS, numDeriv, stats4
+LinkingTo: Rcpp
+Suggests: DiceKriging, DiceDesign, lhs, inline
+License: GPL-3
+NeedsCompilation: yes
 
 Package: kernelFactory
 Version: 0.2.2
@@ -27333,6 +27333,11 @@ NeedsCompilation: no
 Package: parmigene
 Version: 1.0.2
 License: AGPL-3
+NeedsCompilation: yes
+
+Package: parsec
+Version: 1.1
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: parsedate
@@ -36039,7 +36044,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Rsymphony
-Version: 0.1-20
+Version: 0.1-21
 Depends: R (>= 2.6.0)
 Enhances: slam
 License: EPL
