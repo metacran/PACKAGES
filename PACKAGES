@@ -88,9 +88,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: acc
-Version: 1.0.2
-Depends: R (>= 2.10)
-Imports: zoo, PhysicalActivity, mhsmm, timeDate
+Version: 1.1.1
+Depends: R (>= 2.10), zoo, PhysicalActivity, mhsmm, timeDate
 License: GNU General Public License (>= 3)
 NeedsCompilation: no
 
@@ -3497,9 +3496,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BMA
-Version: 3.18.1
-Depends: survival, leaps, robustbase, inline
-Suggests: MASS, rrcov, forward
+Version: 3.18.4
+Depends: survival, leaps, robustbase, inline, rrcov
+Suggests: MASS, forward
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -5053,8 +5052,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cherry
-Version: 0.5-10
-Depends: methods, bitops, lpSolve, Matrix
+Version: 0.6-11
+Depends: methods, bitops, lpSolve, Matrix, slam
 Suggests: MASS, multtest, gurobi
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -6000,6 +5999,12 @@ Version: 0.9.4
 Depends: methods, R (>= 3.0.0)
 License: GPL-3
 NeedsCompilation: no
+
+Package: cometExactTest
+Version: 0.1
+Depends: R (>= 2.15.0)
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: commandr
 Version: 1.0.1
@@ -12934,7 +12939,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: freqweights
-Version: 1.0.1
+Version: 1.0.2
 Imports: plyr, dplyr (>= 0.3), data.table, biglm, fastcluster,
         FactoMineR, stats
 Suggests: MASS, hflights, cluster, ggplot2, testthat, RSQLite
@@ -28670,7 +28675,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: planor
-Version: 0.2-3
+Version: 0.2-4
 Depends: methods, conf.design
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -29758,6 +29763,14 @@ Depends: R (>= 3.0.0), directlabels, gridExtra
 Imports: ggplot2, grid, XML, ape, httr, lubridate, plyr, scales,
         stringr, foreach
 License: GPL-2
+NeedsCompilation: yes
+
+Package: primes
+Version: 0.1.0
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: princurve
@@ -33025,7 +33038,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: reglogit
-Version: 1.2-2
+Version: 1.2-4
 Depends: R (>= 2.14.0), methods, mvtnorm, boot, Matrix
 Suggests: plgp
 License: LGPL
