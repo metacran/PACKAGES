@@ -1349,7 +1349,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: aRpsDCA
-Version: 1.0.0
+Version: 1.0.1
 License: LGPL-2.1
 NeedsCompilation: no
 
@@ -4926,6 +4926,11 @@ NeedsCompilation: yes
 Package: CGP
 Version: 2.0-2
 License: LGPL-2.1
+NeedsCompilation: no
+
+Package: cgwtools
+Version: 3.0
+License: LGPL-3
 NeedsCompilation: no
 
 Package: ChainLadder
@@ -30633,6 +30638,12 @@ Imports: grDevices, MASS
 License: GPL-3
 NeedsCompilation: no
 
+Package: qrage
+Version: 1.0
+Imports: htmlwidgets,shiny
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: qrfactor
 Version: 1.4
 Depends: R (>= 2.10), mvoutlier,mgraph,pvclust,cluster,maptools
@@ -41091,7 +41102,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.9.0
+Version: 0.9.1
 Depends: R (>= 2.15.3)
 Imports: parallel
 Suggests: testthat
@@ -41107,8 +41118,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: stringi
-Version: 0.4-1
-Depends: R (>= 2.15.0)
+Version: 0.5-2
+Depends: R (>= 2.13.1)
 Imports: tools
 License: file LICENSE
 License_is_FOSS: yes
