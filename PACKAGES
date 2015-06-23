@@ -33255,9 +33255,9 @@ License: GPL (>= 3) | file LICENSE
 NeedsCompilation: yes
 
 Package: Renext
-Version: 2.1-10
+Version: 3.0-0
 Depends: R (>= 2.8.0), stats, graphics, evd
-Imports: numDeriv
+Imports: numDeriv, splines
 Suggests: MASS, ismev, XML
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -38692,6 +38692,12 @@ Version: 0.1
 Depends: parallel, R (>= 2.0)
 License: GPL-2
 NeedsCompilation: yes
+
+Package: skellam
+Version: 0.1
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: SkewHyperbolic
 Version: 0.3-2
