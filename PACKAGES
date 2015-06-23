@@ -14255,6 +14255,13 @@ Imports: limSolve, fields, gsl, plyr, TeachingDemos, sgeostat
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: geosptdb
+Version: 0.5-0
+Depends: R (>= 2.15.0), FD, StatMatch, fields, sp
+Imports: minqa, limSolve, gsl, geospt
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: geostatsp
 Version: 1.2.1
 Depends: Matrix, raster, sp, R (>= 3.0.0)
@@ -22265,6 +22272,13 @@ Depends: R (>= 2.15.0), lme4, mpt, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: meteo
+Version: 0.1-4
+Depends: R (>= 3.0.0)
+Imports: sp, spacetime, rgdal, gstat, raster, snowfall, plyr
+License: GPL (>= 2.0) | file LICENCE
+NeedsCompilation: no
+
 Package: meteoForecast
 Version: 0.45
 Depends: raster, sp, zoo
@@ -23644,13 +23658,13 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: Morpho
-Version: 2.2
+Version: 2.3.0
 Depends: R (>= 3.0.2)
-Imports: Rvcg (>= 0.7), rgl (>= 0.93.963), colorRamps, foreach (>=
-        1.4.0), Matrix (>= 1.0-1), parallel, yaImpute, doParallel (>=
-        1.0.6), Rcpp
+Imports: Rvcg (>= 0.7), rgl (>= 0.93.963), foreach (>= 1.4.0), Matrix
+        (>= 1.0-1), parallel, yaImpute, doParallel (>= 1.0.6),
+        colorRamps, Rcpp
 LinkingTo: Rcpp, RcppArmadillo (>= 0.4)
-Suggests: car, lattice, MASS, shapes
+Suggests: car, lattice, MASS, shapes, testthat
 License: GPL-2
 NeedsCompilation: yes
 
@@ -26093,6 +26107,14 @@ Package: Oarray
 Version: 1.4-5
 Depends: methods
 License: GPL
+NeedsCompilation: no
+
+Package: OasisR
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: rgdal (>= 0.9-1), rgeos (>= 0.3-8), spdep (>= 0.5-83)
+Suggests: testthat, knitr
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: oaxaca
@@ -30917,7 +30939,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: quantregGrowth
-Version: 0.3-0
+Version: 0.3-1
 Depends: quantreg, splines
 License: GPL
 NeedsCompilation: no
@@ -33751,7 +33773,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rgdal
-Version: 0.9-3
+Version: 1.0-4
 Depends: R (>= 2.14.0), methods, sp (>= 1.1-0)
 LinkingTo: sp
 License: GPL (>= 2)
