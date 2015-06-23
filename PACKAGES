@@ -5597,6 +5597,12 @@ LinkingTo: Rcpp
 License: MIT
 NeedsCompilation: yes
 
+Package: ClustGeo
+Version: 1.0
+Depends: R(>= 2.10.0), rCarto, FactoMineR, plyr,
+License: GPL (>= 2.0)
+NeedsCompilation: no
+
 Package: clustMD
 Version: 1.1
 Imports: tmvtnorm, mvtnorm, truncnorm, MASS, mclust, msm
@@ -11186,7 +11192,7 @@ OS_type: windows
 NeedsCompilation: yes
 
 Package: exCon
-Version: 0.1.5
+Version: 0.1.9
 Depends: R (>= 3.0)
 Imports: jsonlite
 Suggests: js
@@ -17951,7 +17957,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: interpretR
-Version: 0.2.2
+Version: 0.2.3
 Depends: randomForest
 Imports: AUC
 License: GPL (>= 2)
@@ -23097,7 +23103,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: mkin
-Version: 0.9-36
+Version: 0.9-38
 Depends: minpack.lm, rootSolve, inline
 Imports: FME, deSolve
 Suggests: knitr, testthat, microbenchmark
@@ -24552,7 +24558,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: MVar.pt
-Version: 1.1
+Version: 1.2
 License: GPL-2
 NeedsCompilation: no
 
@@ -36346,7 +36352,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: Rvcg
-Version: 0.11
+Version: 0.12.1
 Depends: R (>= 3.0.0)
 Imports: Rcpp
 LinkingTo: Rcpp, RcppEigen
@@ -40509,9 +40515,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ssanv
-Version: 1.0-2
+Version: 1.1
 Depends: R (>= 2.1.1), stats
-License: GPL-2
+License: GPL-3
 NeedsCompilation: no
 
 Package: sscor
@@ -40792,9 +40798,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: stationaRy
-Version: 0.2
-Imports: lubridate (>= 1.3.3), plyr (>= 1.8.2), downloader (>= 0.3), sp
-        (>= 1.1-0), proj4 (>= 1.0-8)
+Version: 0.3
+Imports: plyr (>= 1.8.2), dplyr (>= 0.4.2), readr (>= 0.1.1),
+        downloader (>= 0.3)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -43240,6 +43246,15 @@ NeedsCompilation: no
 Package: translateR
 Version: 1.0
 Imports: RJSONIO,RCurl,textcat,parallel,httr
+License: GPL-3
+NeedsCompilation: no
+
+Package: translateSPSS2R
+Version: 1.0.0
+Depends: R (>= 3.1.3)
+Imports: car (>= 2.0), data.table (>= 1.9.4), e1071 (>= 1.6-3), foreign
+        (>= 0.8), Hmisc (>= 3.14-5), plyr (>= 1.8.1), stringr (>=
+        0.6.2), tidyr (>= 0.1), zoo (>= 1.7-11)
 License: GPL-3
 NeedsCompilation: no
 
