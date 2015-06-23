@@ -44748,7 +44748,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: W3CMarkupValidator
-Version: 0.1-2
+Version: 0.1-3
+Depends: R (>= 3.2.0)
 Imports: XML, RCurl
 License: GPL-2
 NeedsCompilation: no
