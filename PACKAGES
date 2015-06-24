@@ -1496,7 +1496,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: asremlPlus
-Version: 1.10-16
+Version: 2.0-0
 Depends: R (>= 2.10.0)
 Imports: dae, ggplot2, stats
 Enhances: asreml
@@ -7431,7 +7431,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: dae
-Version: 2.7-0
+Version: 2.7-2
 Depends: R (>= 2.10.0), ggplot2, methods
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -10700,6 +10700,14 @@ Depends: R (>= 2.01)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: EpiBayes
+Version: 0.1.2
+Depends: R (>= 3.0.0)
+Imports: epiR, compiler, shape, scales, coda
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: EpiContactTrace
 Version: 0.8.8
 Depends: R(>= 3.0.0), methods, Rcpp (>= 0.9.13)
@@ -12742,7 +12750,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: formula.tools
-Version: 1.5.2
+Version: 1.5.4
 Depends: R (>= 3.0.0), operator.tools(>= 1.4.0), utils, methods
 Suggests: magrittr, testthat
 License: GPL (>= 2)
@@ -27792,7 +27800,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pcalg
-Version: 2.2-0
+Version: 2.2-2
 Depends: R (>= 3.0.2)
 Imports: graphics, utils, methods, abind, graph, RBGL, igraph, ggm,
         corpcor, robustbase, vcd, Rcpp, bdsmatrix, sfsmisc, fastICA,
@@ -29682,7 +29690,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: prc
-Version: 2014.11-4
+Version: 2015.6-24
 Depends: R (>= 3.0.0), kyotil, nlme
 Suggests: RUnit, Rmosek, Matrix
 License: GPL (>= 2)
@@ -30380,10 +30388,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pubmed.mineR
-Version: 1.0.3.1
+Version: 1.0.4
 Depends: R (>= 2.10), methods
 Imports: RCurl, XML, boot, R2HTML
-Suggests: apcluster
 License: GPL-3
 NeedsCompilation: no
 
@@ -30722,12 +30729,6 @@ Version: 1.0
 Depends: R (>= 2.10.0)
 Imports: grDevices, MASS
 License: GPL-3
-NeedsCompilation: no
-
-Package: qrage
-Version: 1.0
-Imports: htmlwidgets,shiny
-License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: qrfactor
@@ -41202,7 +41203,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.9.1
+Version: 0.9.2
 Depends: R (>= 2.15.3)
 Imports: parallel
 Suggests: testthat
