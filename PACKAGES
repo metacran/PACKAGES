@@ -352,10 +352,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: adegraphics
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 3.0.2)
 Imports: ade4, grid, KernSmooth, lattice, methods, RColorBrewer, sp (>=
-        1.1-0)
+        1.1-1)
 Suggests: Guerry, maptools, pixmap, spdep, splancs
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -2381,6 +2381,12 @@ Package: BCEA
 Version: 2.1-1
 Depends: R (>= 2.10)
 Suggests: MASS, ggplot2, grid, R2jags, R2OpenBUGS, INLA, mgcv
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: BCEE
+Version: 1.0
+Depends: BMA
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -4642,7 +4648,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cclust
-Version: 0.6-19
+Version: 0.6-20
 Imports: stats
 License: GPL-2
 NeedsCompilation: yes
@@ -5162,7 +5168,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: chron
-Version: 2.3-46
+Version: 2.3-47
 Depends: R (>= 2.12.0)
 Imports: graphics, stats
 Suggests: scales, ggplot2
@@ -5944,9 +5950,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ColorPalette
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 3.0.0)
-License: GPL (>= 3)
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: colorRamps
@@ -6008,7 +6014,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cometExactTest
-Version: 0.1
+Version: 0.1.2
 Depends: R (>= 2.15.0)
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -21127,7 +21133,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MAMS
-Version: 0.4
+Version: 0.5
 Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
@@ -21525,7 +21531,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matrixStats
-Version: 0.14.1
+Version: 0.14.2
 Depends: R (>= 2.9.0)
 Imports: methods
 Suggests: base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp
@@ -24974,11 +24980,6 @@ Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
 
-Package: nbconvertR
-Version: 1.0
-License: GPL-3
-NeedsCompilation: no
-
 Package: NBDdirichlet
 Version: 1.01
 License: GPL (>= 2)
@@ -25160,7 +25161,7 @@ License: LGPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: netassoc
-Version: 0.4.3
+Version: 0.4.7
 Depends: igraph
 License: GPL-3
 NeedsCompilation: no
@@ -25515,8 +25516,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: NLPutils
-Version: 0.0-2
-Imports: NLP (>= 0.1-6.3), SnowballC, qdap
+Version: 0.0-3
+Imports: NLP (>= 0.1-6.3), SnowballC, qdap, utils
 License: GPL-2
 NeedsCompilation: no
 
@@ -26500,7 +26501,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: openNLPdata
-Version: 1.5.3-1
+Version: 1.5.3-2
 Imports: rJava (>= 0.6-3)
 License: GPL-3
 NeedsCompilation: no
@@ -33983,6 +33984,14 @@ Depends: chron, methods, RJDBC, rJava
 License: Mozilla Public License 1.1
 NeedsCompilation: no
 
+Package: rhandsontable
+Version: 0.1
+Imports: jsonlite, htmlwidgets (>= 0.3.3), magrittr
+Suggests: knitr
+Enhances: shiny (>= 0.12)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: rHealthDataGov
 Version: 1.0.1
 Depends: R (>= 3.0.1), bit64, httr, jsonlite
@@ -38768,7 +38777,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: skmeans
-Version: 0.2-6
+Version: 0.2-7
 Imports: slam (>= 0.1-31), clue (>= 0.3-39), cluster, stats, utils
 Enhances: Matrix, kmndirs
 License: GPL-2
@@ -44800,9 +44809,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: W3CMarkupValidator
-Version: 0.1-3
+Version: 0.1-4
 Depends: R (>= 3.2.0)
-Imports: XML, RCurl
+Imports: XML, RCurl, utils
 License: GPL-2
 NeedsCompilation: no
 
@@ -45284,7 +45293,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WriteXLS
-Version: 3.5.1
+Version: 3.6.0
 License: GPL-2
 NeedsCompilation: no
 
