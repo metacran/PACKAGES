@@ -9761,7 +9761,7 @@ License: FreeBSD
 NeedsCompilation: no
 
 Package: earth
-Version: 4.4.1
+Version: 4.4.2
 Depends: plotmo (>= 3.0.0), TeachingDemos
 Suggests: gam, mgcv, mda, MASS
 License: GPL-3
@@ -34016,7 +34016,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Rhpc
-Version: 0.15-147
+Version: 0.15-176
 Depends: R (>= 3.0.0)
 Imports: parallel
 License: AGPL-3
