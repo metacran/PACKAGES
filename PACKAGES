@@ -12427,8 +12427,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: flam
-Version: 1.0
-Imports: MASS
+Version: 2.0
+Imports: Rcpp (>= 0.11.6), MASS
+LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -19819,9 +19820,9 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: learnstats
-Version: 0.1.0
-Depends: R (>= 3.1.0), RcmdrPlugin.epack, ggplot2
-Imports: shiny, rmarkdown, Rcmdr
+Version: 0.1.1
+Depends: R (>= 3.1.0), ggplot2
+Imports: shiny, Rcmdr
 License: GPL
 NeedsCompilation: no
 
@@ -39204,9 +39205,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: snowFT
-Version: 1.3-0
-Depends: R (>= 2.11), snow (>= 0.3-3)
-Suggests: Rmpi, rlecuyer, rsprng
+Version: 1.4-0
+Depends: R (>= 2.11), snow (>= 0.3-3), rlecuyer
+Suggests: Rmpi
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -45495,6 +45496,13 @@ Depends: R (>= 2.15.1), XML
 Imports: RCurl, plyr
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: XMRF
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: igraph, glmnet, MASS, snowfall, parallel, Matrix
+License: GPL-2
+NeedsCompilation: yes
 
 Package: XNomial
 Version: 1.0.1
