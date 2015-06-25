@@ -458,8 +458,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: adwave
-Version: 1.0
-Depends: R (>= 2.10), waveslim
+Version: 1.1
+Depends: waveslim
 License: GPL (>= 2)
 NeedsCompilation: no
 
