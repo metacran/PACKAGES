@@ -6709,10 +6709,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: covr
-Version: 1.0.0
+Version: 1.2.0
 Depends: R (>= 3.1.0), methods
 Imports: jsonlite, rex, devtools, httr, crayon, htmltools
-Suggests: R6, knitr, shiny (>= 0.11.1), testthat, rstudioapi (>= 0.2)
+Suggests: R6, knitr, shiny (>= 0.11.1), DT, testthat, rstudioapi (>=
+        0.2)
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
