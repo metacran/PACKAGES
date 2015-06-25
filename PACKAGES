@@ -1816,6 +1816,12 @@ Depends: mvtnorm
 License: GPL-2
 NeedsCompilation: no
 
+Package: Bagidis
+Version: 1.0
+Depends: abind
+License: GPL
+NeedsCompilation: no
+
 Package: bagRboostR
 Version: 0.0.2
 Imports: randomForest
@@ -37877,10 +37883,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seqMeta
-Version: 1.5
-Depends: R (>= 2.10), survival
+Version: 1.6.0
+Depends: R (>= 3.1.0), survival
 Imports: Matrix, coxme, CompQuadForm
-Suggests: SKAT, kinship2
+Suggests: SKAT, kinship2, testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -39530,9 +39536,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: sorvi
-Version: 0.7.20
-Depends: R (>= 3.0.2), reshape
-Imports: ggplot2, plyr, RColorBrewer, XML
+Version: 0.7.26
+Depends: R (>= 3.0.2)
+Imports: ggplot2, RColorBrewer, dplyr, reshape2
 Suggests: gdata, knitr, rmarkdown, RCurl, rjson, testthat
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -43747,6 +43753,14 @@ Version: 1.0
 License: GPL
 NeedsCompilation: no
 
+Package: TSMining
+Version: 1.0
+Depends: R (>= 3.0.1)
+Imports: foreach, ggplot2, plyr, reshape2
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: TSmisc
 Version: 2015.1-3
 Depends: R (>= 2.8.0), TSdbi (>= 2015.1-1)
@@ -45088,6 +45102,13 @@ Package: whoami
 Version: 1.1.0
 Imports: httr, jsonlite
 Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: whoapi
+Version: 0.1.0
+Depends: httr
+Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
