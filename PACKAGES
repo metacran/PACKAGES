@@ -17610,10 +17610,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: igraph
-Version: 0.7.1
+Version: 1.0.0
 Depends: methods
-Imports: Matrix
-Suggests: igraphdata, stats4, rgl, tcltk, graph, ape
+Imports: Matrix, magrittr, NMF, irlba
+Suggests: igraphdata, stats4, rgl, tcltk, graph, ape, scales
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -35535,6 +35535,14 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
+Package: RPPanalyzer
+Version: 1.4.1
+Depends: R (>= 2.14)
+Imports: quantreg, limma, lattice, stats4, gam, gplots, grid, ggplot2,
+        Hmisc, Biobase
+License: LGPL
+NeedsCompilation: no
+
 Package: rPref
 Version: 0.5
 Depends: R (>= 3.0.0), methods
@@ -38222,7 +38230,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shinyjs
-Version: 0.0.6.2
+Version: 0.0.7.0
 Depends: R (>= 3.1.0)
 Imports: shiny (>= 0.11.1)
 Suggests: knitr (>= 1.7), testthat (>= 0.9.1), V8 (>= 0.6)
