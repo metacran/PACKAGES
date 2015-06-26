@@ -1420,10 +1420,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: arulesViz
-Version: 1.0-0
+Version: 1.0-1
 Depends: R (>= 2.14.0), arules (>= 1.0-5), grid
-Imports: scatterplot3d, vcd, seriation, igraph
-Suggests: iplots, Rgraphviz, graph, colorspace
+Imports: scatterplot3d, vcd, seriation, igraph (>= 1.0.0)
+Suggests: graph, Rgraphviz, colorspace, iplots
 License: GPL-3
 NeedsCompilation: no
 
@@ -1463,7 +1463,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ASMap
-Version: 0.4-1
+Version: 0.4-4
 Depends: R (>= 2.10), qtl, gtools, fields, lattice
 Suggests: knitr
 License: GPL (>= 2)
@@ -1512,8 +1512,8 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: assertr
-Version: 0.4.1
-Imports: dplyr,
+Version: 1.0.0
+Imports: dplyr, MASS, lazyeval
 Suggests: knitr, testthat, magrittr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -1614,7 +1614,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: asypow
-Version: 2013.9-1
+Version: 2015.6.25
 Depends: R (>= 2.2.0), stats
 License: ACM | file LICENSE
 License_restricts_use: yes
@@ -2790,7 +2790,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BHH2
-Version: 2012.04-0
+Version: 2015.06.25
 Depends: R (>= 2.0.0)
 Suggests: FrF2
 License: GPL (>= 2)
@@ -9840,7 +9840,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: EBEN
-Version: 1.1.1
+Version: 4.1
 Depends: R (>= 2.10)
 License: GPL
 NeedsCompilation: yes
@@ -11518,7 +11518,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Fahrmeir
-Version: 2012.04-0
+Version: 2015.6.25
 Depends: stats, R (>= 2.1.0)
 Suggests: MASS
 License: GPL (>= 2)
@@ -17617,7 +17617,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: igraph
-Version: 1.0.0
+Version: 1.0.1
 Depends: methods
 Imports: Matrix, magrittr, NMF, irlba
 Suggests: igraphdata, stats4, rgl, tcltk, graph, ape, scales
@@ -19945,7 +19945,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: libamtrack
-Version: 0.6.1
+Version: 0.6.2
 Depends: R (>= 2.11.0)
 Suggests: lattice
 License: GPL (>= 3)
@@ -20632,6 +20632,14 @@ Depends: R (>= 3.1.0)
 Imports: httr, dplyr, pbapply
 Suggests: testthat
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: loo
+Version: 0.1.0
+Depends: R (>= 3.2.0)
+Imports: matrixStats (>= 0.14.1), parallel
+Suggests: knitr, testthat
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: loop
@@ -22707,7 +22715,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MIIVsem
-Version: 0.2
+Version: 0.3
 Depends: R (>= 3.1.2), lavaan, Matrix
 License: GPL-2
 NeedsCompilation: no
@@ -25456,8 +25464,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: Nippon
-Version: 0.5.3
-Depends: maptools
+Version: 0.6.1
+Depends: maptools, sp
 Suggests: RColorBrewer, foreign
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -29048,6 +29056,13 @@ Version: 1.0.9
 Depends: R (>= 2.10), plyr, impute
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: pmc
+Version: 1.0.0
+Imports: dplyr, geiger, ggplot2, parallel, ouch, tidyr
+Suggests: covr, gridExtra, knitr, testthat
+License: CC0
+NeedsCompilation: no
 
 Package: pmcgd
 Version: 1.1
@@ -36442,8 +36457,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rvertnet
-Version: 0.2.2
-Imports: plyr, jsonlite, httr, data.table, ggplot2, maps
+Version: 0.3.0
+Imports: plyr, jsonlite, httr, dplyr, ggplot2, maps
 Suggests: roxygen2, testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -37829,7 +37844,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: SenSrivastava
-Version: 2012-04-0
+Version: 2015.6.25
 Depends: R (>= 2.5.0), stats
 Suggests: leaps, car
 License: GPL (>= 2)
@@ -39383,9 +39398,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: soilphysics
-Version: 2.3
+Version: 2.4
 Depends: R (>= 2.15), utils, rpanel, MASS, tcltk
-Suggests: soilwater, soiltexture, biotools
+Suggests: soiltexture
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -43421,9 +43436,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: treemap
-Version: 2.2
+Version: 2.3
 Imports: colorspace, data.table (>= 1.8.8), ggplot2, grid, gridBase,
-        igraph, RColorBrewer, shiny (>= 0.8.0)
+        igraph, RColorBrewer, shiny (>= 0.12.0)
 License: GPL-3
 NeedsCompilation: no
 
@@ -43537,9 +43552,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TROM
-Version: 1.0
-Depends: R (>= 2.10), lattice, methods, topGO
-Imports: AnnotationDbi, openxlsx, GO.db, gtools, RColorBrewer, gplots
+Version: 1.1
+Depends: R (>= 2.10), lattice, methods
+Imports: AnnotationDbi, openxlsx, GO.db, gtools, RColorBrewer, gplots,
+        topGO
 License: GPL-2
 NeedsCompilation: no
 
@@ -45056,7 +45072,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: wgaim
-Version: 1.4-8
+Version: 1.4-10
 Depends: R (>= 2.0.0), qtl, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
