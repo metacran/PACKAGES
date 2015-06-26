@@ -15808,7 +15808,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GUTS
-Version: 0.9.3
+Version: 1.0.0
 Depends: R (>= 3.1.0), methods, Rcpp (>= 0.11.5)
 LinkingTo: Rcpp
 Suggests: adaptMCMC (>= 1.1)
@@ -23035,9 +23035,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: MixGHD
-Version: 1.6
-Depends: MASS, mclust, R (>= 3.1.1)
-Imports: Bessel,stats, mvtnorm, ghyp, numDeriv, mixture
+Version: 1.7
+Depends: MASS, R (>= 3.1.3)
+Imports: Bessel,stats, mvtnorm, ghyp, numDeriv, mixture, e1071
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29645,8 +29645,8 @@ License: LGPL-2.1
 NeedsCompilation: yes
 
 Package: PPtreeViz
-Version: 1.0.3
-Depends: R (>= 2.10),gridExtra,ggplot2,grid
+Version: 1.1.0
+Depends: R (>= 2.10),gridExtra,grid,ggplot2
 Imports: Rcpp, reshape2
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: MASS (>= 3.1-20)
