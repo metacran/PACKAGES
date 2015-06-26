@@ -1538,9 +1538,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: AssocTests
-Version: 0.0-1
+Version: 0.0-2
 Depends: cluster, mvtnorm, combinat, fExtremes, R(>= 2.10.0)
-License: GPL
+License: GPL-2
 NeedsCompilation: no
 
 Package: AssotesteR
@@ -1857,15 +1857,6 @@ Depends: ape
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
-
-Package: bams
-Version: 1.6
-Depends: R (>= 2.10)
-Suggests: GLAD, DNAcopy, cghFLasso, flsa, cghseg, grid, gada, plyr,
-        ggplot2 (>= 0.9.0), RColorBrewer, reshape2, lattice, proto,
-        changepoint
-License: GPL-3
-NeedsCompilation: no
 
 Package: bandit
 Version: 0.5.0
@@ -3876,9 +3867,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BrailleR
-Version: 0.20
+Version: 0.22.0
 Depends: R (>= 3.0.0), knitr
-Imports: gridGraphics, gridSVG, moments, nortest, rmarkdown, xtable
+Imports: devtools, extrafont, gridGraphics, gridSVG, moments, nortest,
+        rmarkdown, xtable
 License: GPL-2
 NeedsCompilation: no
 
@@ -5735,6 +5727,12 @@ Imports: grDevices
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: cmsaf
+Version: 1.4
+Depends: ncdf4, RNetCDF, sp, raster, stats, fields
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: cmvnorm
 Version: 1.0-1
 Depends: emulator (>= 1.2-15)
@@ -7289,6 +7287,12 @@ Version: 1.0-3
 Depends: feature, flowCore, geometry, hdrcde, ks, misc3d, ptinpoly, rgl
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: cusp
+Version: 2.3.1
+Suggests: plot3D
+License: GPL-2
+NeedsCompilation: yes
 
 Package: cutoffR
 Version: 1.0
@@ -17625,9 +17629,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: igraphdata
-Version: 0.2.2
+Version: 1.0.0
 Depends: R (>= 2.10)
-Suggests: igraph
+Suggests: igraph (>= 1.0.0)
 License: CC BY-SA 4.0 + file LICENSE
 NeedsCompilation: no
 
@@ -18904,7 +18908,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: KFAS
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.1.0)
 Imports: stats
 Suggests: MASS, testthat, knitr, lme4
@@ -27343,14 +27347,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: parallelML
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.14.0)
 Imports: parallel (>= 3.1.1), foreach (>= 1.2.0), doParallel (>= 1.0.8)
 License: GPL-2
 NeedsCompilation: no
 
 Package: parallelSVM
-Version: 0.1-8
+Version: 0.1-9
 Depends: R (>= 2.14.0), e1071 (>= 1.6-3)
 Imports: parallel (>= 3.1.1), foreach (>= 1.2.0), doParallel (>= 1.0.8)
 License: GPL-2
@@ -44117,8 +44121,10 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: unbalanced
-Version: 1.1
-Depends: FNN, RANN
+Version: 2.0
+Depends: mlr, foreach, doParallel
+Imports: FNN, RANN
+Suggests: randomForest, ROCR
 License: GPL (>= 3)
 NeedsCompilation: no
 
