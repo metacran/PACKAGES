@@ -789,9 +789,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: amen
-Version: 1.0
-Depends: R (>= 3.1.2)
-Suggests: coda
+Version: 1.1
+Depends: R (>= 3.2.0)
+Suggests: coda,network,knitr
 License: GPL-3
 NeedsCompilation: no
 
@@ -44173,6 +44173,14 @@ Version: 1.0
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
+
+Package: uniqueAtomMat
+Version: 0.1-0
+Depends: R (>= 3.1.2)
+Suggests: microbenchmark
+Enhances: base
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: uniReg
 Version: 1.0
