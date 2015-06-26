@@ -17464,7 +17464,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: icenReg
-Version: 1.2.4
+Version: 1.2.5
 Depends: survival, foreach
 License: GPL-2
 NeedsCompilation: yes
@@ -42186,12 +42186,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.7-1
+Version: 1.8-0
 Depends: R (>= 2.15.1), CDM (>= 4.2), MASS
 Imports: Rcpp, mirt, lavaan, WrightMap, tensor, sfsmisc, GPArotation,
         psych, mvtnorm, msm, lattice, plyr
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: sirt, PP, semTools
+Suggests: sirt, PP, semTools, miceadds
 License: GPL (>= 2)
 NeedsCompilation: yes
 
