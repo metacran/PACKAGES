@@ -6975,10 +6975,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crch
-Version: 0.1-0
+Version: 0.9-0
 Depends: R (>= 2.10.0)
 Imports: stats, Formula, ordinal
-Suggests: lmtest
+Suggests: glmx, lmtest
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -9049,7 +9049,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dmm
-Version: 1.6-1
+Version: 1.6-2
 Depends: MASS, Matrix, nadiv, robustbase, pls
 License: GPL-2 | GPL (>= 2) | GPL-3
 NeedsCompilation: no
@@ -10260,7 +10260,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ElemStatLearn
-Version: 2012.04-0
+Version: 2015.6.26
 Depends: R (>= 2.10.0), stats
 Suggests: gam, splines, MASS, class, leaps, mda, lasso2, lars, boot,
         prim, earth
@@ -20387,6 +20387,12 @@ Imports: graphics
 Suggests: car, strucchange, sandwich, dynlm, stats4, survival, AER
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
+
+Package: LncMod
+Version: 1.1
+Depends: R (>= 2.15.2),survival,pheatmap,parallel
+License: GPL-2
+NeedsCompilation: no
 
 Package: loa
 Version: 0.2.22
