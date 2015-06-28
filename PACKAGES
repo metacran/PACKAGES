@@ -8105,13 +8105,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dendextend
-Version: 0.18.3
+Version: 1.0.1
 Depends: R (>= 3.0.0)
 Imports: utils, stats, magrittr (>= 1.0.1), whisker
 Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, colorspace,
-        ggplot2, plyr, ape, profdpm, microbenchmark, gplots, DendSer,
-        dynamicTreeCut, pvclust
-Enhances: ggdendro, labeltodendro,dendroextras, data.table
+        ggplot2, plyr, ape, profdpm, microbenchmark, gplots, d3heatmap,
+        dynamicTreeCut, pvclust, corrplot, DendSer, MASS, cluster, covr
+Enhances: ggdendro, labeltodendro,dendroextras, data.table, rpart
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -26811,7 +26811,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ordinal
-Version: 2015.1-21
+Version: 2015.6-28
 Depends: R (>= 2.13.0), methods
 Imports: ucminf, MASS, Matrix
 Suggests: lme4, nnet, xtable, testthat (>= 0.8)
