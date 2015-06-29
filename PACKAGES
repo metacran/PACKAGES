@@ -41002,10 +41002,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stcm
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.1),
 Imports: QCA, plyr, ggplot2, XML, randomForest, caret, dendextend,
-        magrittr
+        magrittr, stats, utils, graphics, grDevices
 License: GPL (>= 3)
 NeedsCompilation: no
 
