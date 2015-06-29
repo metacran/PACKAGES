@@ -13858,7 +13858,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: gee
-Version: 4.13-18
+Version: 4.13-19
 Depends: stats
 Suggests: MASS
 License: GPL-2
@@ -23013,7 +23013,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mix
-Version: 1.0-8
+Version: 1.0-9
 Depends: stats
 License: Unlimited
 NeedsCompilation: yes
@@ -30322,7 +30322,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: pspline
-Version: 1.0-16
+Version: 1.0-17
 Depends: R (>= 2.0.0), stats, graphics
 License: Unlimited
 NeedsCompilation: yes
@@ -35210,7 +35210,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RODBC
-Version: 1.3-11
+Version: 1.3-12
 Depends: R (>= 3.0.0)
 Imports: stats
 License: GPL-2 | GPL-3
@@ -43423,7 +43423,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tree
-Version: 1.0-35
+Version: 1.0-36
 Depends: R (>= 2.15.0), grDevices, graphics, stats
 Suggests: MASS
 License: GPL-2 | GPL-3
