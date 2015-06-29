@@ -539,8 +539,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: agridat
-Version: 1.11
-Imports: grid, lattice, reshape2
+Version: 1.12
+Imports: graphics, grDevices, grid, lattice, reshape2, stats
 Suggests: AER, agricolae (>= 1.2), betareg, car, coin, corrgram,
         effects, equivalence, FrF2, gam, gstat, HH, knitr,
         latticeExtra, lme4 (>= 1.1-5), lucid, mapproj, maps, MASS,
@@ -13177,9 +13177,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: FunChisq
-Version: 2.0.2
+Version: 2.1.0
 Depends: R (>= 3.0.0)
-Imports: Rcpp
+Imports: Rcpp, stats
 LinkingTo: BH, Rcpp, RcppClassic
 Suggests: Ckmeans.1d.dp, testthat
 License: LGPL (>= 3)
@@ -16286,7 +16286,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: HelpersMG
-Version: 1.1
+Version: 1.2
 Depends: coda, R (>= 2.14.0)
 Suggests: RNetCDF, ncdf4, ncdf, maps, XML
 License: GPL-2
@@ -23209,10 +23209,10 @@ License: GPL
 NeedsCompilation: no
 
 Package: MKmisc
-Version: 0.98
-Depends: R(>= 2.14.0), stats, graphics
-Imports: RColorBrewer, robustbase
-Suggests: gplots
+Version: 0.99
+Depends: R(>= 2.14.0)
+Imports: stats, graphics, grDevices, RColorBrewer, robustbase
+Suggests: gplots, Amelia
 License: LGPL-3
 NeedsCompilation: no
 
@@ -41141,7 +41141,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stochvol
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.0.0), coda
 Imports: methods, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
