@@ -28187,6 +28187,13 @@ Suggests: RUnit
 License: GPL-2
 NeedsCompilation: no
 
+Package: pequod
+Version: 0.0-4
+Depends: ggplot2, car
+Imports: methods
+License: GPL-2
+NeedsCompilation: no
+
 Package: perARMA
 Version: 1.5
 Depends: R (>= 2.12.2)
