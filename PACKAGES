@@ -4526,7 +4526,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: causaleffect
-Version: 1.1.1
+Version: 1.1.3
 Imports: ggm, igraph, XML
 License: GPL-2
 NeedsCompilation: no
@@ -5407,7 +5407,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: climdex.pcic
-Version: 1.1-5.1
+Version: 1.1-6
 Depends: R (>= 2.12.0), PCICt (>= 0.5-4)
 Imports: caTools (>= 1.0), methods, Rcpp (>= 0.11.4)
 Suggests: compiler, RUnit
@@ -12730,9 +12730,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: forestFloor
-Version: 1.4
-Imports: Rcpp (>= 0.11.6), randomForest, rgl, kknn, trimTrees
+Version: 1.5
+Imports: Rcpp (>= 0.11.3), rgl, kknn, trimTrees
 LinkingTo: Rcpp
+Suggests: randomForest
 License: GPL-2
 NeedsCompilation: yes
 
@@ -14672,6 +14673,13 @@ Depends: R (>= 2.10.0), reshape, lattice
 Imports: lattice
 License: GPL-2
 NeedsCompilation: no
+
+Package: gkmSVM
+Version: 0.55
+Imports: Rcpp, kernlab, seqinr, utils
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: glarma
 Version: 1.3-0
@@ -21097,8 +21105,8 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: Maeswrap
-Version: 1.4.11
-Depends: rgl,lattice,geometry
+Version: 1.7
+Depends: rgl,lattice,geometry,stringr,tools
 License: GPL
 NeedsCompilation: no
 
@@ -28461,8 +28469,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phenology
-Version: 4.2
-Depends: fields, zoo, coda, HelpersMG, shiny, R (>= 2.14.0)
+Version: 4.2.4
+Depends: fields, zoo, coda, HelpersMG (>= 1.2), shiny, R (>= 2.14.0)
+Suggests: optimx
 License: GPL-2
 NeedsCompilation: no
 
@@ -31556,7 +31565,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: randomizeBE
-Version: 0.3-1
+Version: 0.3-2
+Imports: stats
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -32686,7 +32696,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RCurl
-Version: 1.95-4.6
+Version: 1.95-4.7
 Depends: R (>= 3.0.0), methods, bitops
 Suggests: Rcompression, XML
 License: BSD
@@ -42211,10 +42221,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TAM
-Version: 1.8-0
-Depends: R (>= 2.15.1), CDM (>= 4.2), MASS
-Imports: Rcpp, mirt, lavaan, WrightMap, tensor, sfsmisc, GPArotation,
-        psych, mvtnorm, msm, lattice, plyr
+Version: 1.9-0
+Depends: R (>= 2.15.1), CDM, MASS
+Imports: stats, graphics, utils, Rcpp, lavaan, WrightMap, tensor,
+        sfsmisc, GPArotation, psych, mvtnorm, msm, lattice, plyr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: sirt, PP, semTools, miceadds
 License: GPL (>= 2)
@@ -45566,7 +45576,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: XML
-Version: 3.98-1.2
+Version: 3.98-1.3
 Depends: R (>= 2.13.0), methods, utils
 Suggests: bitops, RCurl
 License: BSD_2_clause + file LICENSE
