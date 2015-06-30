@@ -4329,12 +4329,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CARBayes
-Version: 4.1
+Version: 4.2
 Depends: MASS, R (>= 2.10.0), Rcpp (>= 0.10.6)
-Imports: CARBayesdata, coda, sp, spam, truncdist
+Imports: CARBayesdata, coda, sp, spam, spdep, stats, truncdist, utils
 LinkingTo: Rcpp
 Suggests: boot, deldir, foreign, grid, maptools, Matrix, nlme,
-        shapefiles, spdep, splines
+        shapefiles, splines
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -16784,9 +16784,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hoardeR
-Version: 0.0-2
-Depends: R (>= 3.0.2), httr (>= 0.2), XML (>= 3.98-1.1), stringr (>=
-        0.6.2)
+Version: 0.1
+Depends: R (>= 3.2.0)
+Imports: httr (>= 0.2), XML (>= 3.98-1.1), stringr (>= 0.6.2), MASS (>=
+        7.3-31), R.utils (>= 1.32.4), stats (>= 3.2.0), utils (>=
+        3.2.0), graphics (>= 3.2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -17791,6 +17793,13 @@ Imports: stats, graphics, grDevices
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
+Package: iNEXT
+Version: 2.0.3
+Depends: R (>= 2.14)
+Imports: stats, graphics, ggplot2
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: InfDim
 Version: 1.0
 License: GPL (>= 2)
@@ -17987,8 +17996,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: intergraph
-Version: 2.0-1
-Imports: network (>= 1.4-1-1), igraph (>= 0.6-0)
+Version: 2.0-2
+Imports: network (>= 1.4-1-1), igraph (>= 0.6-0), utils
 Suggests: testthat, roxygen2, knitr
 License: GPL-3
 NeedsCompilation: no
@@ -19202,7 +19211,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: koRpus
-Version: 0.05-5
+Version: 0.05-6
 Depends: R (>= 2.10.0),methods
 Suggests: testthat,tm,SnowballC,shiny
 Enhances: rkward
@@ -31517,9 +31526,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: random
-Version: 0.2.4
+Version: 0.2.5
 Depends: R (>= 2.8.0)
-Imports: curl
+Imports: curl, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
