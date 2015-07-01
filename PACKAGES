@@ -36906,7 +36906,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sampling
-Version: 2.6
+Version: 2.7
 Imports: MASS, lpSolve
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -37151,6 +37151,14 @@ Package: scaRabee
 Version: 1.1-3
 Depends: neldermead (>= 1.0-8), lattice, grid, deSolve, utils
 License: GPL-3
+NeedsCompilation: no
+
+Package: scatterD3
+Version: 0.1.1
+Imports: htmlwidgets
+Suggests: knitr
+Enhances: shiny
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: scatterplot3d
@@ -38003,9 +38011,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: seriation
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 2.14.0)
-Imports: TSP, grid, cluster, gclus, colorspace, MASS, gplots, registry
+Imports: TSP, grid, cluster, gclus, colorspace, MASS, gplots, registry,
+        methods, stats, grDevices
 Suggests: biclust, testthat
 License: GPL-3
 NeedsCompilation: yes
@@ -43881,9 +43890,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSP
-Version: 1.1-1
+Version: 1.1-2
 Depends: R (>= 2.14.0)
-Imports: graphics, foreach
+Imports: graphics, foreach, utils, methods, stats, grDevices
 Suggests: maps, sp, maptools, testthat
 License: GPL-3
 NeedsCompilation: yes
