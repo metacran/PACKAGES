@@ -1712,6 +1712,15 @@ Depends: R (>= 2.4.1), zoo, lgarch
 License: GPL-2
 NeedsCompilation: no
 
+Package: autovarCore
+Version: 1.0-0
+Imports: Rcpp (>= 0.11.4), Amelia, jsonlite, parallel, stats, urca,
+        vars
+LinkingTo: Rcpp
+Suggests: testthat, roxygen2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: aws
 Version: 1.9-4
 Depends: R (>= 2.14.0), methods, awsMethods (>= 1.0-1), gsl
@@ -2105,9 +2114,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bayesmix
-Version: 0.7-3
+Version: 0.7-4
 Depends: R (>= 2.10),
-Imports: rjags (>= 2.1.0), coda (>= 0.13)
+Imports: graphics, stats, methods, rjags (>= 2.1.0), coda (>= 0.13)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6166,6 +6175,12 @@ Package: CompQuadForm
 Version: 1.4.1
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: CompR
+Version: 1.0
+Depends: R (>= 3.1), methods, utils, MASS, graphics, stats
+License: GPL-2
+NeedsCompilation: no
 
 Package: CompRandFld
 Version: 1.0.3-4
@@ -10662,6 +10677,12 @@ Suggests: animation, ggmap, testthat
 License: EUPL
 NeedsCompilation: yes
 
+Package: epiDisplay
+Version: 3.2.0.6
+Depends: R (>= 2.6.2), foreign, survival, MASS, nnet
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: EpiDynamics
 Version: 0.2
 Depends: R (>= 3.0.2)
@@ -13867,6 +13888,14 @@ Depends: stats
 License: GPL-3
 NeedsCompilation: no
 
+Package: GenCAT
+Version: 1.0.1
+Depends: R (>= 2.10), stats, dplyr, doParallel, ggplot2, foreach,
+        parallel, methods
+Suggests: snpStats, knitr
+License: GPL-2
+NeedsCompilation: no
+
 Package: gendata
 Version: 1.1
 License: GPL-3
@@ -16096,8 +16125,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HDclassif
-Version: 1.2.3
-Depends: graphics, stats, MASS
+Version: 1.3
+Depends: grDevices, utils, graphics, stats, MASS
 License: GPL-2
 NeedsCompilation: no
 
@@ -21521,9 +21550,9 @@ License: LGPL-2.1
 NeedsCompilation: yes
 
 Package: maxstat
-Version: 0.7-22
+Version: 0.7-23
 Depends: R (>= 1.7.0)
-Imports: exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10)
+Imports: exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10), stats, graphics
 Suggests: TH.data, survival
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -21925,9 +21954,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: medflex
-Version: 0.5-0
+Version: 0.5-1
 Depends: R (>= 3.1.2), multcomp (>= 1.3-6)
-Imports: boot (>= 1.3-8), Matrix (>= 1.1-4), sandwich (>= 2.3-2)
+Imports: boot (>= 1.3-8), Matrix (>= 1.1-4), graphics (>= 3.1.2),
+        sandwich (>= 2.3-2), stats (>= 3.1.2), utils (>= 3.1.2)
 Suggests: arm (>= 1.7-05), car (>= 2.0-21), gam (>= 1.09.1), glmnet (>=
         1.9-8), rpart (>= 4.1-8), SuperLearner (>= 2.0-15), VGAM (>=
         0.9-5)
@@ -22827,8 +22857,8 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: missMDA
-Version: 1.7.3
-Depends: R (>= 3.0.0), FactoMineR (>= 1.27)
+Version: 1.8.2
+Depends: R (>= 3.0.0), FactoMineR (>= 1.30)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -24720,9 +24750,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.3.1
-Suggests: hash, methods, stats, Biobase, gRbase, VGAM, MASS, pcalg,
-        survival
+Version: 0.4
+Imports: methods, stats, utils, survival, VGAM, MASS, TunePareto, ROCR,
+        Hmisc
+Suggests: gRbase, Biobase, pcalg, hash
 License: GPL-2
 NeedsCompilation: yes
 
@@ -24843,7 +24874,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: nat
-Version: 1.6.6
+Version: 1.7.0
 Depends: R (>= 2.15.1), rgl
 Imports: nabor, igraph, methods, filehash, digest, nat.utils (>=
         0.4.2), plyr, yaml
@@ -26287,6 +26318,13 @@ Depends: R (>= 2.10), boot
 Suggests: lattice
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: OneArmPhaseTwoStudy
+Version: 0.1.3
+Depends: methods, Rcpp (>= 0.9.11), R (>= 3.1.0)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: onemap
 Version: 2.0-4
@@ -40484,8 +40522,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.9
+Version: 1.4.10
 Depends: R (>= 2.10.0) ,psych,TTR,MASS,tcltk,TSA
+Imports: stats,graphics,grDevices,utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -43022,7 +43061,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: topicmodels
-Version: 0.2-1
+Version: 0.2-2
 Depends: R (>= 2.15.0)
 Imports: stats4, methods, modeltools, slam, tm (>= 0.6)
 Suggests: lasso2, lattice, lda, OAIHarvester, SnowballC, XML,
