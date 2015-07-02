@@ -1401,9 +1401,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: arulesNBMiner
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 2.10), arules (>= 0.6-6), rJava (>= 0.6-3)
-Imports: methods
+Imports: methods, stats, graphics
 License: GPL-2
 NeedsCompilation: no
 
@@ -6127,6 +6127,11 @@ Version: 1.0
 Depends: Benchmarking, psych, boot
 Imports: Hmisc, MASS, GPArotation, lpSolve, nonparaeff
 License: GPL-3
+NeedsCompilation: no
+
+Package: ComplexAnalysis
+Version: 1.0
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: complmrob
@@ -18427,7 +18432,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: itsadug
-Version: 0.8
+Version: 1.0.1
 Depends: R (>= 2.10), mgcv (>= 1.8)
 Suggests: knitr, xtable, sp
 License: GPL (>= 2)
@@ -24392,8 +24397,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: multipleNCC
-Version: 1.0
-Depends: survival, gam
+Version: 1.1
+Depends: survival, mgcv
 License: GPL-2
 NeedsCompilation: no
 
@@ -24961,6 +24966,12 @@ Depends: R (>= 3.00)
 Imports: splines, qvalue
 License: GPL-2
 NeedsCompilation: yes
+
+Package: NCA
+Version: 1.0
+Imports: yaml, gplots, quantreg, Benchmarking, sfa
+License: GPL (>= 3)
+NeedsCompilation: no
 
 Package: nCal
 Version: 2015.3-3
@@ -28336,9 +28347,9 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: pheatmap
-Version: 1.0.2
+Version: 1.0.7
 Depends: R (>= 2.0)
-Imports: grid, RColorBrewer, scales, gtable
+Imports: grid, RColorBrewer, scales, gtable, stats, grDevices, graphics
 License: GPL-2
 NeedsCompilation: no
 
@@ -35689,8 +35700,8 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: RRTCS
-Version: 0.0.1
-Imports: sampling, samplingVarEst
+Version: 0.0.2
+Imports: sampling, samplingVarEst, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -41134,10 +41145,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: stream
-Version: 1.1-4
+Version: 1.1-5
 Depends: R (>= 2.13.0), methods, proxy (>= 0.4-7)
 Imports: animation, clue, cluster, clusterGeneration, fpc, MASS,
-        mlbench, Rcpp (>= 0.11.4)
+        mlbench, Rcpp (>= 0.11.4), utils, stats, graphics, grDevices
 LinkingTo: Rcpp
 Suggests: DBI, RSQLite, testthat
 License: GPL-3
@@ -41150,8 +41161,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: streamMOA
-Version: 1.1-0
-Depends: stream (>= 1.1-2), methods, rJava (>= 0.6-3)
+Version: 1.1-1
+Depends: stream (>= 1.1-2), rJava (>= 0.6-3)
+Imports: graphics, stats, methods
 License: GPL-3
 NeedsCompilation: no
 
@@ -44748,6 +44760,14 @@ NeedsCompilation: no
 Package: VSURF
 Version: 1.0.0
 Imports: doParallel, foreach, parallel, randomForest, rpart
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: VTrack
+Version: 1.10
+Depends: R (>= 3.1.0), foreach(>= 1.2.0), parallel, doParallel
+Imports: plotKML, sp, spacetime
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
