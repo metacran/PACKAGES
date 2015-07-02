@@ -1687,7 +1687,7 @@ License: MIT
 NeedsCompilation: no
 
 Package: autoencoder
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
