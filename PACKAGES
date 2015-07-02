@@ -17687,12 +17687,6 @@ LinkingTo: Rcpp
 License: GPL-2
 NeedsCompilation: yes
 
-Package: incReg
-Version: 1.0
-Depends: R (>= 2.14.0), car, methods
-License: LGPL (>= 3)
-NeedsCompilation: no
-
 Package: IndependenceTests
 Version: 0.2
 Depends: R (>= 2.3.0), xtable
