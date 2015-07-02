@@ -3083,7 +3083,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: binseqtest
-Version: 1.0
+Version: 1.0.1
 Depends: methods, graphics, stats, clinfun
 License: GPL-3
 NeedsCompilation: no
@@ -12652,7 +12652,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: foreign
-Version: 0.8-64
+Version: 0.8-65
 Priority: recommended
 Depends: R (>= 3.0.0)
 Imports: methods, utils, stats
@@ -22119,7 +22119,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: meta
-Version: 4.2-0
+Version: 4.3-0
 Depends: R (>= 2.9.1)
 Imports: grid
 Suggests: metafor
@@ -25301,11 +25301,14 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: neuroim
-Version: 0.0.3
-Depends: R (>= 3.0.0), stringr, hash, iterators, abind, methods
-Imports: Matrix, yaImpute,
+Version: 0.0.4
+Depends: R (>= 3.0.0), grid, methods
+Imports: Matrix, yaImpute, Rcpp, stringr, hash, iterators, abind,
+        assertthat, stats, grDevices
+LinkingTo: Rcpp
+Suggests: foreach, testthat, knitr
 License: GPL (>= 2)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: neuRosim
 Version: 0.2-12
@@ -32896,9 +32899,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: recommenderlab
-Version: 0.1-5
+Version: 0.1-6
 Depends: R (>= 2.10.0), Matrix, registry, arules (>= 1.0-1), proxy
-Imports: methods
+Imports: methods, utils, stats
 Suggests: ROCR
 License: GPL-2
 NeedsCompilation: no
@@ -33234,9 +33237,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rEMM
-Version: 1.0-9
+Version: 1.0-10
 Depends: R (>= 2.10.0), proxy (>= 0.4-7), igraph
-Imports: methods, stats, clusterGeneration, MASS
+Imports: methods, stats, clusterGeneration, MASS, utils
 Suggests: graph, Rgraphviz, testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -33263,8 +33266,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RenextGUI
-Version: 1.0-2
-Depends: gWidgets, gWidgetstcltk(>= 0.0-44), Renext(>= 1.5-0)
+Version: 1.3-0
+Depends: graphics, stats, utils, gWidgets, gWidgetstcltk(>= 0.0-44),
+        Renext(>= 2.1-0)
+Imports: grDevices, methods
 Suggests: R2HTML
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -37237,8 +37242,9 @@ License: FreeBSD | file LICENSE
 NeedsCompilation: yes
 
 Package: scuba
-Version: 1.7-0
+Version: 1.8-0
 Depends: R (>= 3.0.0)
+Imports: utils, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
