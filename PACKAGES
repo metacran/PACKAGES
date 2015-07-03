@@ -7817,8 +7817,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ddalpha
-Version: 1.1.2.2
-Depends: MASS, class, robustbase
+Version: 1.1.2.3
+Depends: stats, utils, graphics, grDevices, MASS, class, robustbase
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: BH, Rcpp
 License: GPL-2
@@ -17929,9 +17929,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Interatrix
-Version: 1.0
+Version: 1.1.1
 Depends: R (>= 2.14)
-Imports: MASS, tcltk, tkrplot, tools
+Imports: graphics, grDevices, MASS, stats, tcltk, tkrplot, tools, utils
 Suggests: doParallel, foreach
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -29347,7 +29347,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pooh
-Version: 0.3
+Version: 0.3-1
 Depends: R (>= 2.10.0)
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -31247,7 +31247,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: R6
-Version: 2.0.1
+Version: 2.1.0
 Depends: R (>= 3.0)
 Suggests: knitr, microbenchmark, pryr, testthat, ggplot2, scales
 License: MIT + file LICENSE
