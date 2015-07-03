@@ -23480,7 +23480,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: modehunt
-Version: 1.0.6
+Version: 1.0.7
+Imports: stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33757,9 +33758,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.8.4
-Imports: XML, ggplot2, httr, data.table, whisker, magrittr, jsonlite
-        (>= 0.9.12), V8
+Version: 0.8.6
+Imports: methods, utils, stats, XML, ggplot2, httr (>= 1.0.0),
+        data.table, whisker, magrittr, jsonlite (>= 0.9.16), V8
 Suggests: roxygen2, testthat, knitr, reshape2, maps
 License: MIT + file LICENSE
 NeedsCompilation: no
