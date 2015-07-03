@@ -20445,9 +20445,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: logcondens
-Version: 2.1.3
+Version: 2.1.4
 Depends: R (>= 2.10)
-Imports: ks
+Imports: ks, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20490,8 +20490,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: LogicReg
-Version: 1.5.6
+Version: 1.5.8
 Depends: R (>= 2.10), survival
+Imports: stats, graphics, utils, grDevices
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -20545,7 +20546,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: logspline
-Version: 2.1.5
+Version: 2.1.8
+Imports: stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -21359,7 +21361,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: maSAE
-Version: 0.1-2
+Version: 0.1-3
 Depends: methods
 Suggests: nlme
 License: GPL (>= 2)
@@ -29211,7 +29213,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: polspline
-Version: 1.1.9
+Version: 1.1.11
+Imports: stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29508,8 +29511,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: powerGWASinteraction
-Version: 1.1.1
+Version: 1.1.3
 Depends: R (>= 2.10), mvtnorm, pwr
+Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -30333,7 +30337,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: PtProcess
-Version: 3.3-9
+Version: 3.3-10
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -34541,10 +34545,10 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rmgarch
-Version: 1.2-8
-Depends: R (>= 3.0.2), methods, rugarch
-Imports: Rsolnp, MASS, parallel, Matrix, zoo, xts, Bessel, ff, shape,
-        pcaPP, spd, Rcpp
+Version: 1.2-9
+Depends: R (>= 3.0.2), methods, rugarch, parallel
+Imports: Rsolnp, MASS, Matrix, zoo, xts, Bessel, ff, shape, pcaPP, spd,
+        Rcpp, utils, graphics, stats, grDevices
 LinkingTo: Rcpp (>= 0.10.6), RcppArmadillo (>= 0.2.34)
 License: GPL-3
 NeedsCompilation: yes
@@ -34834,10 +34838,10 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rnrfa
-Version: 0.1.5
+Version: 0.2.0
 Depends: R (>= 3.0.2), utils
 Imports: XML2R, RCurl, zoo, rjson, rgdal, sp, stringr
-License: GPL (>= 3)
+License: GPL-3
 NeedsCompilation: no
 
 Package: ROAuth
@@ -42411,8 +42415,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: TestScorer
-Version: 1.7
-Imports: tcltk
+Version: 1.7.1
+Imports: tcltk, utils
 License: GPL-2
 NeedsCompilation: no
 
@@ -45258,7 +45262,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: WriteXLS
-Version: 3.6.0
+Version: 3.6.1
+Imports: utils
 License: GPL-2
 NeedsCompilation: no
 
