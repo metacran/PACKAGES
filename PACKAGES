@@ -14113,6 +14113,13 @@ Imports: pspline
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: geo
+Version: 1.4-3
+Depends: maps, mapdata, R (>= 2.10.0)
+Imports: splines, methods, utils, grDevices, graphics, stats
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: geoBayes
 Version: 0.2.150402
 Depends: R (>= 2.0.0)
@@ -16612,9 +16619,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: hive
-Version: 0.1-16
+Version: 0.2-0
 Depends: R (>= 2.9.0)
-Imports: rJava (>= 0.9-3), tools, XML
+Imports: methods, rJava (>= 0.9-3), tools, XML
 Enhances: HadoopStreaming
 License: GPL-3
 NeedsCompilation: no
@@ -24863,10 +24870,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: nadiv
-Version: 2.13.3
+Version: 2.14.0
 Depends: Matrix
+Imports: graphics, methods, stats
 Suggests: parallel
-Enhances: asreml
+Enhances: MCMCglmm, asreml
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25497,7 +25505,7 @@ License: LGPL-3
 NeedsCompilation: yes
 
 Package: NLP
-Version: 0.1-7
+Version: 0.1-8
 Depends: R (>= 2.10)
 Imports: utils
 License: GPL-3
@@ -26533,8 +26541,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: openxlsx
-Version: 2.4.0
-Imports: methods, Rcpp (>= 0.11.1)
+Version: 3.0.0
+Imports: methods, Rcpp (>= 0.11.1), grDevices, stats, utils
 LinkingTo: Rcpp
 Suggests: knitr, testthat
 License: GPL-3
@@ -44059,6 +44067,13 @@ Imports: base64enc, digest, tools
 Suggests: knitr, testthat
 License: GPL-2
 NeedsCompilation: no
+
+Package: unfoldr
+Version: 0.2
+Depends: R (>= 3.1.0)
+Suggests: rgl
+License: GPL-2
+NeedsCompilation: yes
 
 Package: Unicode
 Version: 0.1-5
