@@ -12612,9 +12612,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: forams
-Version: 2.0-4
+Version: 2.0-5
 Depends: methods
-Imports: vegan
+Imports: vegan, stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -14674,8 +14674,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GLDEX
-Version: 2.0.0.2
-Depends: cluster
+Version: 2.0.0.3
+Depends: cluster, grDevices, graphics, stats
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -14687,8 +14687,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: GLDreg
-Version: 1.0.2
-Depends: GLDEX (>= 2.0.0.1)
+Version: 1.0.3
+Depends: GLDEX (>= 2.0.0.1), grDevices, graphics, stats
 Suggests: MASS, quantreg
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -15070,7 +15070,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: googleVis
-Version: 0.5.8
+Version: 0.5.9
 Depends: R (>= 3.0.2)
 Imports: methods, RJSONIO, utils
 Suggests: shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)
@@ -24959,8 +24959,8 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: nat.utils
-Version: 0.5
-Suggests: testthat (>= 0.9), roxygen2, digest
+Version: 0.5.1
+Suggests: testthat (>= 0.9), roxygen2
 License: GPL-3
 NeedsCompilation: no
 
@@ -26772,8 +26772,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: OrdFacReg
-Version: 1.0.5
+Version: 1.0.6
 Depends: survival, eha, MASS
+Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27579,7 +27580,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: patchSynctex
-Version: 0.1-2
+Version: 0.1-3
 Depends: tools, stringr
 Enhances: knitr, utils
 License: GPL (>= 2)
@@ -32542,7 +32543,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: RcppRedis
-Version: 0.1.3
+Version: 0.1.4
 Imports: methods, Rcpp (>= 0.11.0), RApiSerialize
 LinkingTo: Rcpp, RApiSerialize
 Suggests: rredis, RUnit
@@ -33413,8 +33414,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: reporttools
-Version: 1.1.1
+Version: 1.1.2
 Depends: xtable
+Imports: stats
 Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -39103,8 +39105,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: smoothtail
-Version: 2.0.3
+Version: 2.0.4
 Depends: logcondens (>= 2.0.0)
+Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -43568,8 +43571,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: trust
-Version: 0.1-6
-Depends: R (>= 2.6.0)
+Version: 0.1-7
+Depends: R (>= 2.10.0)
+Imports: stats
 License: MIT + file LICENSE
 NeedsCompilation: no
 
