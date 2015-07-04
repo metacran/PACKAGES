@@ -9851,7 +9851,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ecespa
-Version: 1.1-7
+Version: 1.1-8
 Depends: splancs, spatstat (>= 1.4.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -16734,6 +16734,14 @@ Suggests: lme4, gamlss, gamlss.dist, pscl, nnet, aods3, VGAM, glmmADMB,
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: hoa
+Version: 2.1.1
+Depends: R (>= 3.0.0)
+Imports: graphics, statmod, stats, survival, utils
+Suggests: boot, csampling
+License: GPL (>= 2) | file LICENCE
+NeedsCompilation: no
+
 Package: hoardeR
 Version: 0.1
 Depends: R (>= 3.2.0)
@@ -18932,7 +18940,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kinfit
-Version: 1.1.13
+Version: 1.1.14
+Imports: graphics, stats, utils
 License: GPL
 NeedsCompilation: no
 
