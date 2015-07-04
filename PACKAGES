@@ -7231,7 +7231,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: curl
-Version: 0.9
+Version: 0.9.1
 Depends: R (>= 2.10.0)
 Suggests: testthat, knitr, jsonlite, rmarkdown, magrittr
 License: MIT + file LICENSE
@@ -33008,9 +33008,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RedditExtractoR
-Version: 1.0.0
-Imports: RJSONIO
-Suggests: tcltk
+Version: 1.1.1
+Imports: RJSONIO, utils
 License: GPL-3
 NeedsCompilation: no
 
@@ -40344,12 +40343,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.2.4
-Depends: ggplot2
-Imports: rgbif (>= 0.7.7), rinat (>= 0.1.4), rbison (>= 0.3.2),
-        ecoengine (>= 1.4), rebird (>= 0.1.1), AntWeb (>= 0.6.1),
-        ggmap, maptools, rworldmap, sp, rgeos, lubridate, RColorBrewer,
-        httr, rgdal, leafletR (>= 0.2-0), whisker, gistr
+Version: 0.3.0
+Imports: utils, methods, stats, rgbif (>= 0.8.4), rbison (>= 0.4.8),
+        ecoengine (>= 1.9.1), rebird (>= 0.1.1), AntWeb (>= 0.7),
+        rvertnet (>= 0.3.0), lubridate, httr, whisker, V8, jsonlite
 Suggests: roxygen2, testthat, knitr, taxize
 License: MIT + file LICENSE
 NeedsCompilation: no
