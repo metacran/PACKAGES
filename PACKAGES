@@ -13931,9 +13931,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: genderizeR
-Version: 1.1.0
+Version: 1.2.0
 Depends: R (>= 3.1.1)
-Imports: stringr, httr, tm, data.table, magrittr, parallel
+Imports: stringr, httr, tm, data.table, magrittr, parallel, utils
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -15488,9 +15488,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: gromovlab
-Version: 0.6-16
+Version: 0.7-6
 Depends: R (>= 2.15.1)
-Imports: methods,igraph, phangorn, glpkAPI , quadprog, cluster
+Imports: methods,igraph, ape, glpkAPI , quadprog, cluster, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19704,9 +19704,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: yes
 
 Package: lctools
-Version: 0.2-2
-Depends: R (>= 3.1.1), reshape (>= 0.8.5), weights (>= 0.80)
-Suggests: knitr, rgdal, sp
+Version: 0.2-3
+Depends: R (>= 3.2.1), reshape (>= 0.8.5), weights (>= 0.80)
+Suggests: knitr, sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
