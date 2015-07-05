@@ -568,7 +568,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: AHR
-Version: 1.1
+Version: 1.2
 Depends: survival
 Imports: stats, MASS, etm, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
@@ -3210,7 +3210,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: biosignalEMG
-Version: 1.0.2
+Version: 1.0.3
+Imports: graphics, stats, utils
 Suggests: signal
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -3302,7 +3303,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: bit64
-Version: 0.9-4
+Version: 0.9-5
 Depends: R (>= 3.0.1), bit (>= 1.1-12), utils, methods, stats
 License: GPL-2
 NeedsCompilation: yes
@@ -8190,6 +8191,13 @@ Version: 0.4
 Depends: R (>= 2.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: dequer
+Version: 1.0
+Depends: R (>= 3.1.0)
+Imports: utils
+License: BSD 2-clause License + file LICENSE
+NeedsCompilation: yes
 
 Package: Deriv
 Version: 3.5.4
@@ -15069,6 +15077,15 @@ Depends: R (>= 2.10.0), methods, stats, graphics, fGarch, fastICA
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: googlesheets
+Version: 0.1.0
+Depends: R (>= 3.1.1)
+Imports: cellranger (>= 1.0.0), dplyr (>= 0.4.0), ggplot2, httr (>=
+        0.6.1), plyr, stats, stringr, tidyr, utils, XML, xml2
+Suggests: covr, knitr, testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: googleVis
 Version: 0.5.9
 Depends: R (>= 3.0.2)
@@ -19522,7 +19539,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: latex2exp
-Version: 0.3.0
+Version: 0.3.1
 Imports: stringr, magrittr
 Suggests: testthat, knitr, ggplot2, plyr
 License: MIT + file LICENSE
@@ -30592,13 +30609,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qdap
-Version: 2.2.1
+Version: 2.2.2
 Depends: R (>= 3.1.0), qdapDictionaries (>= 1.0.2), qdapRegex (>=
         0.1.2), qdapTools (>= 1.0.3), RColorBrewer
-Imports: chron, dplyr (>= 0.3), gdata, gender (>= 0.4.1), ggplot2 (>=
-        0.9.3.1), grid, gridExtra, igraph, NLP, openNLP (>= 0.2-1),
-        parallel, plotrix, RCurl, reports, reshape2, scales,
-        stringdist, tidyr, tm (>= 0.6), tools, venneuler, wordcloud,
+Imports: chron, dplyr (>= 0.3), gdata, gender (>= 0.4.3), ggplot2 (>=
+        0.9.3.1), grid, gridExtra, igraph, methods, NLP, openNLP (>=
+        0.2-1), parallel, plotrix, RCurl, reports, reshape2, scales,
+        stringdist, tidyr, tm (>= 0.6.2), tools, venneuler, wordcloud,
         xlsx, XML
 Suggests: koRpus, knitr, lda, proxy, stringi, SnowballC, testthat
 License: GPL-2
@@ -34474,7 +34491,7 @@ License: GPL
 NeedsCompilation: yes
 
 Package: rLTP
-Version: 0.1
+Version: 0.1.2
 Depends: R (>= 3.0.2),RCurl
 License: LGPL
 NeedsCompilation: yes
