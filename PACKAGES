@@ -16429,7 +16429,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: HiddenMarkov
-Version: 1.8-3
+Version: 1.8-4
 Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -28635,6 +28635,13 @@ Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
 License: GPL-2
 NeedsCompilation: yes
 
+Package: pid
+Version: 0.13
+Depends: R (>= 2.15.0), ggplot2, stats
+Suggests: MASS
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: no
+
 Package: PIGE
 Version: 0.9
 Depends: snowfall,ARTP,xtable,survival
@@ -40787,9 +40794,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: StAMPP
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.14.0), pegas
-Imports: parallel, doParallel, foreach, adegenet
+Imports: parallel, doParallel, foreach, adegenet, methods, utils
 License: GPL-3
 NeedsCompilation: no
 
@@ -45209,6 +45216,13 @@ NeedsCompilation: no
 Package: windex
 Version: 1.0
 Depends: geiger (>= 2.0), ape, scatterplot3d, utils, R (>= 3.0.0)
+License: GPL-2
+NeedsCompilation: no
+
+Package: WiSEBoot
+Version: 1.0.0
+Depends: wavethresh
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
 
