@@ -37382,7 +37382,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: sdef
-Version: 1.5
+Version: 1.6
+Imports: graphics,grDevices,stats,utils
 License: GPL-2
 NeedsCompilation: no
 
