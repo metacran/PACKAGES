@@ -26467,11 +26467,6 @@ Imports: mvtnorm, orthopolynom, nlme, crossdes, polynom
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: OPE
-Version: 0.7
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: opefimor
 Version: 1.1
 License: GPL (>= 2)
