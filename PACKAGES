@@ -4320,9 +4320,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CARBayesST
-Version: 1.1
-Depends: R (>= 3.0.0), Rcpp (>= 0.11.2)
-Imports: spam, truncdist, coda
+Version: 2.0
+Depends: MASS, R (>= 3.0.0), Rcpp (>= 0.11.5)
+Imports: spam, truncdist, coda, stats, utils
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -8271,8 +8271,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: deSolve
-Version: 1.11
+Version: 1.12
 Depends: R (>= 2.15.0)
+Imports: methods, graphics, grDevices, stats
 Suggests: scatterplot3d
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -11427,10 +11428,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FactoMineR
-Version: 1.30
+Version: 1.31.2
 Depends: R (>= 2.12.0)
 Imports:
-        car,MASS,ellipse,lattice,cluster,scatterplot3d,leaps,flashClust
+        car,cluster,ellipse,flashClust,graphics,grDevices,lattice,leaps,MASS,scatterplot3d,stats
 Suggests: missMDA
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -17280,6 +17281,14 @@ Suggests: nparcomp (>= 2.0)
 License: GPL-2
 NeedsCompilation: no
 
+Package: iBATCGH
+Version: 1.3
+Depends: R (>= 2.10)
+Imports: Rcpp (>= 0.11.2), msm
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-2
+NeedsCompilation: yes
+
 Package: ibd
 Version: 1.2
 Depends: R (>= 3.1.1), lpSolve, MASS, car, lsmeans, multcompView
@@ -19343,7 +19352,7 @@ License: MIT + file LICENSE | Unlimited
 NeedsCompilation: no
 
 Package: label.switching
-Version: 1.3
+Version: 1.4
 Imports: combinat, lpSolve
 License: GPL-2
 NeedsCompilation: no
@@ -24429,7 +24438,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MultiPhen
-Version: 2.0.0
+Version: 2.0.1
 Depends: MASS, abind, epitools, meta
 Imports: HardyWeinberg, RColorBrewer, gplots
 License: GPL-2
@@ -28608,12 +28617,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pi0
-Version: 1.3-250
-Depends: R (>= 2.12.0), LowRankQP
+Version: 1.4-0
+Depends: R (>= 2.12.0)
 Imports: Matrix (>= 1.0-0), numDeriv, limSolve (>= 1.5.2), rgl,
         scatterplot3d, qvalue, Iso(>= 0.0-5), quadprog (>= 1.5-3),
-        kernlab
-Enhances: stats, graphics, limma, OCplus
+        kernlab, LowRankQP, graphics, grDevices, methods, stats
+Suggests: limma, OCplus
 License: GPL (>= 2)
 NeedsCompilation: yes
 
