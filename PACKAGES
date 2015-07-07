@@ -337,11 +337,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: adegenet
-Version: 1.4-2
+Version: 2.0.0
 Depends: R (>= 2.14), methods, ade4
-Imports: utils, stats, MASS, igraph, ape, shiny, ggplot2
-Suggests: genetics, spdep, tripack, pegas, seqinr, adehabitat,
-        parallel, akima, maps, splancs, hierfstat
+Imports: utils, stats, grDevices, MASS, igraph, ape, shiny, ggplot2,
+        seqinr, parallel, spdep, boot, reshape2, dplyr (>= 0.4.1)
+Suggests: pegas, hierfstat, akima, maps, splancs, adehabitat, tripack,
+        testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
