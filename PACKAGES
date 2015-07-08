@@ -1951,8 +1951,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: BAT
-Version: 1.3.0
-Depends: R (>= 3.0.0), vegan, spatstat, nls2
+Version: 1.3.1
+Depends: R (>= 3.0.0), graphics, nls2, spatstat, stats, vegan
 License: GPL-3
 NeedsCompilation: no
 
@@ -4349,8 +4349,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: care
-Version: 1.1.8
-Depends: R (>= 2.15.1), corpcor (>= 1.6.7)
+Version: 1.1.9
+Depends: R (>= 3.0.2), corpcor (>= 1.6.8)
+Imports: stats
 Suggests: crossval
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -11771,7 +11772,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: FatTailsR
-Version: 1.2-0
+Version: 1.2-3
 Depends: R (>= 3.1.0)
 Imports: minpack.lm, timeSeries
 Suggests: xts
@@ -20667,8 +20668,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: longitudinal
-Version: 1.1.11
-Depends: R (>= 2.15.1), corpcor (>= 1.6.7)
+Version: 1.1.12
+Depends: R (>= 3.0.2), corpcor (>= 1.6.8)
+Imports: graphics, grDevices, stats
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -20892,6 +20894,12 @@ NeedsCompilation: no
 Package: LSD
 Version: 3.0
 License: Unlimited
+NeedsCompilation: no
+
+Package: LSDinterface
+Version: 0.2.1
+Depends: abind, utils, stats
+License: GPL-3
 NeedsCompilation: no
 
 Package: lsdv
@@ -26027,7 +26035,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: nplr
-Version: 0.1-1
+Version: 0.1-2
 Depends: methods
 Imports: stats,graphics
 Suggests: RUnit,knitr
@@ -29519,11 +29527,13 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: poppr
-Version: 1.1.5
-Depends: R (>= 2.15.1), adegenet (>= 1.4-2)
-Imports: vegan, ggplot2, phangorn, ape (>= 3.1-1), igraph, methods,
-        ade4, pegas, reshape2
-Suggests: testthat, knitr, polysat
+Version: 2.0.0
+Depends: R (>= 2.15.1), adegenet (>= 2.0.0)
+Imports: stats, graphics, grDevices, utils, vegan, ggplot2, phangorn,
+        ape (>= 3.1-1), igraph, methods, ade4, pegas, reshape2, dplyr
+        (>= 0.4), boot, shiny
+Suggests: testthat, knitr, rmarkdown, knitcitations, polysat, poweRlaw,
+        cowplot
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
@@ -29547,9 +29557,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: PopVar
-Version: 1.2
-Depends: R (>= 3.0.1), utils
-Imports: BGLR, qtl, rrBLUP
+Version: 1.2.1
+Depends: R (>= 3.1.1)
+Imports: BGLR, qtl, rrBLUP, stats, utils
 License: GPL-3
 NeedsCompilation: no
 
@@ -37382,10 +37392,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: sda
-Version: 1.3.6
-Depends: R (>= 2.15.1), entropy (>= 1.2.1), corpcor (>= 1.6.7), fdrtool
-        (>= 1.2.14)
-Suggests: crossval
+Version: 1.3.7
+Depends: R (>= 3.0.2), entropy (>= 1.2.1), corpcor (>= 1.6.8), fdrtool
+        (>= 1.2.15)
+Imports: graphics, stats, utils
+Suggests: crossval (>= 1.0.3)
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -40275,9 +40286,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sperich
-Version: 1.5-5
+Version: 1.5-7
 Depends: R (>= 2.13)
-Suggests: lattice, RColorBrewer, rgdal, SDMTools, foreach
+Imports: sp, rgdal, SDMTools, foreach, methods, grDevices, graphics,
+        stats, utils
+Suggests: lattice, RColorBrewer
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -42258,6 +42271,12 @@ LinkingTo: Rcpp
 Suggests: extrafont,knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: tailloss
+Version: 1.0
+Depends: R (>= 3.0.2), MASS, graphics, stats
+License: GPL-2 | GPL-3
+NeedsCompilation: no
 
 Package: TAM
 Version: 1.9-0
@@ -44468,8 +44487,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: vardiag
-Version: 0.2-0
+Version: 0.2-1
 Depends: R (>= 2.0)
+Imports: graphics, grDevices, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -45483,8 +45503,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: wskm
-Version: 1.4.19
-Depends: R (>= 2.10), lattice, latticeExtra, clv
+Version: 1.4.28
+Depends: R (>= 2.10), grDevices, stats, lattice, latticeExtra, clv
 License: GPL (>= 3)
 NeedsCompilation: yes
 
