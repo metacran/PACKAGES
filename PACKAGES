@@ -12010,9 +12010,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FedData
-Version: 1.1.0
-Depends: R (>= 3.1.0), sp, rgdal, raster, RCurl
-Imports: rgeos, igraph, data.table, devtools, soilDB
+Version: 2.0.0
+Depends: R (>= 3.2.0), sp, rgdal(>= 1.0), raster
+Imports: rgeos, data.table, devtools, soilDB, igraph, RCurl, methods
 Suggests: SSOAP, XMLSchema
 License: GPL-3
 NeedsCompilation: no
@@ -28727,7 +28727,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: pipeR
-Version: 0.6
+Version: 0.6.0.6
 Depends: R (>= 2.15)
 Suggests: testthat
 License: MIT + file LICENSE
