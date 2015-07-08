@@ -15613,8 +15613,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gsbDesign
-Version: 0.96-2
+Version: 0.96-3
 Depends: gsDesign, lattice, grid,
+Imports: stats, graphics, grDevices, utils
 License: GPL-3
 NeedsCompilation: no
 
@@ -25037,6 +25038,11 @@ Depends: R (>= 3.1.0)
 License: GPL-2
 NeedsCompilation: no
 
+Package: nbconvertR
+Version: 1.0.1
+License: GPL-3
+NeedsCompilation: no
+
 Package: NBDdirichlet
 Version: 1.01
 License: GPL (>= 2)
@@ -32201,7 +32207,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.EZR
-Version: 1.28
+Version: 1.29
 Depends: R (>= 3.0.0)
 Imports: Rcmdr (>= 2.0.0)
 Suggests: abind, aod, aplpack, car, clinfun, cmprsk, foreign, meta,
@@ -36780,8 +36786,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: sae
-Version: 1.0-5
-Depends: nlme, MASS
+Version: 1.1
+Depends: stats, nlme, MASS
 License: GPL-2
 NeedsCompilation: no
 
@@ -39946,7 +39952,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: spatialCovariance
-Version: 0.6-8
+Version: 0.6-9
 License: GPL
 NeedsCompilation: no
 
@@ -43904,9 +43910,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: tspmeta
-Version: 1.1
+Version: 1.2
 Depends: ggplot2, TSP, MASS
-Imports: BBmisc, fpc, vegan, stringr, splancs
+Imports: BBmisc, checkmate (>= 1.5), fpc, vegan, stringr, splancs
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -44888,6 +44894,11 @@ Depends: R (>= 2.10)
 Suggests: rgl, raster, sp
 License: GPL (>= 2.0)
 NeedsCompilation: no
+
+Package: VPdtw
+Version: 2.1-11
+License: GPL-2
+NeedsCompilation: yes
 
 Package: vrmlgen
 Version: 1.4.9
