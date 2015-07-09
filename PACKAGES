@@ -1659,6 +1659,11 @@ Suggests: RSEIS
 License: GPL
 NeedsCompilation: yes
 
+Package: aTSA
+Version: 3.1.2
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
 Package: atsd
 Version: 1.0.8441
 Depends: R (>= 3.1.2)
@@ -3607,7 +3612,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: BNSP
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 3.1.0)
 Suggests: mvtnorm
 License: GPL (>= 2)
@@ -10164,7 +10169,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: eHOF
-Version: 1.5.8
+Version: 1.5.9
 Depends: R (>= 2.5.0), mgcv, lattice
 Suggests: vegdata, vegan, knitr, testthat
 License: GPL (>= 2)
@@ -20597,9 +20602,11 @@ License: GPL
 NeedsCompilation: yes
 
 Package: LogisticDx
-Version: 0.1
-Depends: R (>= 2.13.0), multcomp, data.table, pROC, car
-Imports: gRbase, rms, stats, statmod, graphics, speedglm
+Version: 0.2
+Depends: R (>= 3.0.0)
+Imports: rms, stats, statmod, graphics, speedglm, RColorBrewer,
+        data.table, pROC, aod
+Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -20772,6 +20779,12 @@ NeedsCompilation: no
 Package: lpint
 Version: 2.0
 License: GPL (>= 2.0)
+NeedsCompilation: no
+
+Package: LPM
+Version: 2.5
+Imports: stats, graphics, grDevices, fracdiff, MASS
+License: GPL-2
 NeedsCompilation: no
 
 Package: lpme
@@ -21528,9 +21541,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: matchingMarkets
-Version: 0.1-4
+Version: 0.1-5
 Depends: R (>= 3.0.2)
-Imports: Rcpp (>= 0.11.2), lpSolve (>= 5.6.6), partitions
+Imports: Rcpp (>= 0.11.2), lpSolve (>= 5.6.6), partitions, stats
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress (>= 0.2)
 License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
@@ -40843,9 +40856,10 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: st
-Version: 1.2.4
-Depends: R (>= 2.15.1), sda (>= 1.3.6), fdrtool (>= 1.2.14), corpcor
-        (>= 1.6.7)
+Version: 1.2.5
+Depends: R (>= 3.0.2), sda (>= 1.3.7), fdrtool (>= 1.2.15), corpcor (>=
+        1.6.8)
+Imports: graphics, stats
 Suggests: limma, samr
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -44073,6 +44087,13 @@ Depends: R (>= 3.0.0), httr (>= 0.4), RCurl (>= 1.95-4.3), stringr (>=
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: tumgr
+Version: 0.0.2
+Depends: R (>= 3.2.1), minpack.lm
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: TunePareto
 Version: 2.4
 Suggests: snowfall, desire, igraph, gsl, class, tree, e1071,
@@ -44702,9 +44723,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vegdata
-Version: 0.6.9
+Version: 0.7
 Depends: R (>= 2.0.0), foreign
-Imports: XML
+Imports: XML, utils
 Suggests: vegan, labdsv, akima, gWidgets, googleVis, indicspecies,
         knitr, testthat
 License: GPL (>= 2)
@@ -44841,6 +44862,14 @@ Version: 1.1
 Depends: raster
 Imports: ade4, dismo, rworldmap
 License: GPL (>= 2.0)
+NeedsCompilation: no
+
+Package: visNetwork
+Version: 0.0.4
+Depends: R (>= 3.0)
+Imports: htmlwidgets, rjson, magrittr, utils
+Suggests: knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: visreg
