@@ -13560,8 +13560,9 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.spatial
-Version: 0.2
+Version: 1.3
 Depends: R (>= 2.15.0), gamlss.dist, gamlss (>= 4.2-7), spam, mgcv
+Imports: stats, grDevices, graphics, methods
 Suggests: spdep, maptools
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -19047,9 +19048,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: kknn
-Version: 1.2-5
+Version: 1.3.0
 Depends: R (>= 2.10)
-Imports: igraph (>= 0.6), Matrix, stats
+Imports: igraph (>= 0.6), Matrix, stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -23057,8 +23058,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mitml
-Version: 0.2-2
-Imports: pan, haven
+Version: 0.2-3
+Imports: pan, haven, grDevices, graphics, stats, utils
 Suggests: lme4, nlme, mice
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24912,9 +24913,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.4
+Version: 0.4.1
 Imports: methods, stats, utils, survival, VGAM, MASS, TunePareto, ROCR,
-        Hmisc
+        Hmisc, graphics
 Suggests: gRbase, Biobase, pcalg, hash
 License: GPL-2
 NeedsCompilation: yes
@@ -28206,9 +28207,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: penDvine
-Version: 0.2.2
-Depends: R (>= 2.15.1), lattice, quadprog, TSP, fda, Matrix
-Suggests: doParallel
+Version: 0.2.4
+Depends: R (>= 2.15.1), lattice, TSP, fda, Matrix, foreach
+Imports: quadprog, latticeExtra, doParallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28456,10 +28457,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: phangorn
-Version: 1.99-13
-Depends: R (>= 3.0.0), ape (>= 3.2)
-Imports: quadprog, igraph (>= 0.6), Matrix, parallel, nnls
-Suggests: seqLogo, seqinr, xtable, flashClust, rgl, knitr
+Version: 1.99.14
+Depends: R (>= 3.0.0), ape (>= 3.3)
+Imports: quadprog, igraph (>= 0.6), Matrix, parallel, nnls, methods,
+        utils, stats, graphics, grDevices
+Suggests: testthat, seqLogo, seqinr, xtable, flashClust, rgl, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -28967,7 +28969,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: plotKML
-Version: 0.5-2
+Version: 0.5-3
 Depends: R (>= 2.13.0)
 Imports: methods, tools, utils, XML, sp, raster, rgdal, spacetime,
         colorspace, plotrix, dismo, aqp, pixmap, plyr, stringr,
@@ -34914,7 +34916,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rncl
-Version: 0.2.2
+Version: 0.4.0
 Depends: R (>= 3.1.1)
 Imports: Rcpp (>= 0.11.0), ape
 LinkingTo: Rcpp
@@ -40234,6 +40236,16 @@ Suggests: parallel, spam(>= 0.13-1), RANN, RColorBrewer, lattice,
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: spduration
+Version: 0.13.1
+Depends: R (>= 3.1.2)
+Imports: corpcor, graphics, plyr, MASS, separationplot, stats, Rcpp (>=
+        0.11.0), xtable
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: yes
+
 Package: spdynmod
 Version: 1.0
 Imports: deSolve, raster, animation
@@ -43332,8 +43344,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: topologyGSA
-Version: 1.4.4
-Imports: graph, gRbase (>= 1.7), qpgraph, fields (>= 7.0)
+Version: 1.4.5
+Imports: graph, gRbase (>= 1.7), qpgraph, fields
 Suggests: Rgraphviz
 License: GPL-3
 NeedsCompilation: no
