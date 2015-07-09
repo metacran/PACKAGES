@@ -45187,12 +45187,6 @@ Suggests: RUnit, knitr, isotone, vegan, lattice
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: weightedKmeans
-Version: 1.2.0
-Depends: lattice, latticeExtra, clv
-License: GPL (>= 3)
-NeedsCompilation: yes
-
 Package: WeightedPortTest
 Version: 1.0
 License: GPL (>= 3)
