@@ -515,9 +515,9 @@ License: LGPL (>= 3)
 NeedsCompilation: yes
 
 Package: agRee
-Version: 0.3-1
+Version: 0.4-0
 Depends: R (>= 3.0.2), miscF (>= 0.1-2), lme4 (>= 1.0-4)
-Imports: R2jags (>= 0.03-11),
+Imports: R2jags (>= 0.03-11), coda (>= 0.16-1)
 License: GPL
 NeedsCompilation: no
 
@@ -663,6 +663,12 @@ Depends: mpoly
 Imports: stringr, reshape2, Rcpp
 LinkingTo: Rcpp
 License: GPL-2
+NeedsCompilation: yes
+
+Package: alineR
+Version: 1.0
+Depends: doMC,foreach
+License: GPL-3
 NeedsCompilation: yes
 
 Package: ALKr
@@ -31964,8 +31970,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rbhl
-Version: 0.1.0
-Imports: httr, XML, RJSONIO, plyr
+Version: 0.2.0
+Imports: methods, utils, stats, httr, XML, jsonlite, plyr
 Suggests: testthat, roxygen2, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -32762,8 +32768,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.3.0
-Imports: jsonlite, XML, httr (>= 0.6.0), plyr, bibtex, dplyr
+Version: 0.3.4
+Imports: utils, methods, stats, jsonlite, XML, httr (>= 1.0.0), plyr,
+        bibtex, dplyr
 Suggests: testthat, roxygen2 (>= 4.0.1), knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
