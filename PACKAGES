@@ -6178,7 +6178,8 @@ License: BSD
 NeedsCompilation: no
 
 Package: COMPoissonReg
-Version: 0.3.4
+Version: 0.3.5
+Depends: stats
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -21731,9 +21732,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MazamaSpatialUtils
-Version: 0.2.4
+Version: 0.3.1
 Depends: R (>= 3.1.0)
-Imports: dplyr, rgdal, rgeos, rvest, sp, stringr
+Imports: dplyr, rgdal, rgeos, rvest, sp, stringr, utils
 Suggests: knitr, maps, testthat
 License: GPL-3
 NeedsCompilation: no
@@ -28201,8 +28202,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: penalizedLDA
-Version: 1.0
-Depends: R (>= 1.9.0), flsa
+Version: 1.1
+Depends: R (>= 1.9.0)
+Imports: flsa, graphics, stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -41556,8 +41558,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: subplex
-Version: 1.1-4
-Depends: R (>= 2.5.1)
+Version: 1.1-6
+Depends: R(>= 2.5.1)
 License: GPL (>= 2)
 NeedsCompilation: yes
 
