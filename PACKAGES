@@ -21605,6 +21605,13 @@ Suggests: cem, optmatch, Matching, nnet, rpart, mgcv, WhatIf
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: MatchLinReg
+Version: 0.7.0
+Depends: R (>= 3.1.0)
+Imports: Hmisc, Matching, graphics, stats
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: mathgraph
 Version: 0.9-11
 Depends: R (>= 2.1.1)
@@ -33242,7 +33249,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: refGenome
-Version: 1.3.0
+Version: 1.5.3
 Depends: methods,doBy,RSQLite
 Imports: DBI
 License: GPL-2
@@ -35340,7 +35347,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: RODBCext
-Version: 0.2.3
+Version: 0.2.5
 Depends: R (>= 3.0.0), RODBC (>= 1.3.0)
 Suggests: knitr
 License: GPL-2 | GPL-3
@@ -45157,9 +45164,9 @@ License: Unlimited | file LICENSE
 NeedsCompilation: no
 
 Package: WaterML
-Version: 1.2.3
+Version: 1.3.2
 Depends: R (>= 3.0)
-Imports: stats, XML, RJSONIO, httr
+Imports: stats, XML, RJSONIO, httr, plyr
 Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
