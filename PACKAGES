@@ -36898,9 +36898,9 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sads
-Version: 0.2.1
-Depends: stats, bbmle, poilog
-Imports: MASS, methods, graphics, VGAM, GUILDS
+Version: 0.2.2
+Depends: stats, bbmle
+Imports: MASS, methods, graphics, grDevices, VGAM, poilog, GUILDS
 Suggests: vegan
 License: GPL-2
 NeedsCompilation: yes
