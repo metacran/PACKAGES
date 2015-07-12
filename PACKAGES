@@ -1118,6 +1118,11 @@ Suggests: caret (>= 6.0-22), lattice, ellipse
 License: GPL
 NeedsCompilation: no
 
+Package: appnn
+Version: 1.0-0
+License: GPL-3
+NeedsCompilation: no
+
 Package: approximator
 Version: 1.2-6
 Depends: R (>= 2.0.0), emulator (>= 1.2-11)
@@ -6115,7 +6120,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: CompareTests
-Version: 1.0
+Version: 1.1
 License: GPL-3
 NeedsCompilation: no
 
@@ -6884,7 +6889,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cpm
-Version: 2.0
+Version: 2.1
 Depends: R (>= 2.15.0), methods
 License: GPL-3
 NeedsCompilation: yes
@@ -45483,7 +45488,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: WMCapacity
-Version: 0.9.6.6
+Version: 0.9.6.7
 Depends: R (>= 2.10), gtools, gWidgets, gWidgetsRGtk2, coda,
         cairoDevice
 Imports: RGtk2, grDevices, XML
