@@ -11569,8 +11569,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: fame
-Version: 2.18
-Depends: R (>= 2.3), tis
+Version: 2.21
+Depends: R (>= 2.3)
+Imports: tis
 License: Unlimited
 NeedsCompilation: yes
 
