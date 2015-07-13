@@ -26051,9 +26051,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: npbr
-Version: 1.1
-Depends: R (>= 2.9.1), splines, quadprog, graphics, Rglpk, Benchmarking
-Imports: np
+Version: 1.2
+Depends: R (>= 2.9.1), graphics, stats, utils
+Imports: Benchmarking, np, quadprog, Rglpk, splines
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -31128,8 +31128,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: quanteda
-Version: 0.8.0-3
-Depends: R (>= 3.0)
+Version: 0.8.0-4
+Depends: R (>= 3.2.1)
 Imports: methods, utils, stats, Matrix (>= 1.1), data.table (>= 1.9.3),
         SnowballC, wordcloud, proxy, parallel, Rcpp, ca, stringi
 LinkingTo: Rcpp, RcppArmadillo
