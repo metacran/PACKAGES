@@ -3736,8 +3736,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bootLR
-Version: 0.9
-Imports: boot
+Version: 1.0
+Imports: boot, stats
 Suggests: testthat
 License: LGPL-2.1
 NeedsCompilation: no
@@ -6880,7 +6880,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: cplm
-Version: 0.7-2
+Version: 0.7-3
 Depends: R (>= 2.10), coda, Matrix, splines, methods
 Imports: biglm, ggplot2, minqa, nlme, reshape2, statmod, stats, stats4,
         tweedie
@@ -28786,7 +28786,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pid
-Version: 0.13
+Version: 0.15
 Depends: R (>= 2.15.0), ggplot2, stats
 Suggests: MASS
 License: BSD_2_clause + file LICENSE
@@ -32962,7 +32962,8 @@ License: LGPL-2.1
 NeedsCompilation: yes
 
 Package: Rdsdp
-Version: 1.0.2
+Version: 1.0.3
+Imports: utils, methods
 License: GPL-3
 NeedsCompilation: yes
 
@@ -42944,7 +42945,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ThresholdROC
-Version: 2.0
+Version: 2.1
 Depends: R (>= 3.1.0), MASS, numDeriv, pROC
 License: GPL (>= 2)
 NeedsCompilation: no
