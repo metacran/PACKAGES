@@ -11270,8 +11270,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: excel.link
-Version: 0.8.1
-Depends: methods
+Version: 0.9.1
+Depends: methods, grDevices, utils
 Suggests: knitr
 License: GPL (>= 2)
 OS_type: windows
