@@ -1539,6 +1539,14 @@ Suggests: testthat, devtools
 License: Unlimited
 NeedsCompilation: no
 
+Package: assertive.base
+Version: 0.0-1
+Depends: R (>= 3.0.0)
+Imports: methods, utils
+Suggests: testthat, devtools
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: assertr
 Version: 1.0.0
 Imports: dplyr, MASS, lazyeval
@@ -5774,6 +5782,16 @@ Depends: R (>= 2.15.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: coala
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: assertthat (>= 0.1), methods, R6 (>= 2.0.1), Rcpp (>= 0.11.0),
+        rehh (>= 1.11), scrm (>= 1.6.0-2), stats, utils
+LinkingTo: Rcpp, RcppArmadillo (>= 0.3.810.0)
+Suggests: abc (>= 2.0), knitr, rmarkdown, testthat (>= 0.10.0)
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: coalescentMCMC
 Version: 0.4-1
 Depends: ape, coda, lattice
@@ -7766,9 +7784,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dbmss
-Version: 2.2.0
+Version: 2.2.1
 Depends: spatstat, Rcpp (>= 0.10.6)
-Imports: cubature
+Imports: cubature, stats
 LinkingTo: Rcpp
 License: GNU General Public License
 NeedsCompilation: yes
@@ -7939,7 +7957,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: decode
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.1.2)
 Suggests: knitr
 License: GPL-3
@@ -9734,6 +9752,14 @@ Version: 1.0.1
 Depends: ggplot2, stargazer, shiny, compare
 License: GPL-2
 NeedsCompilation: no
+
+Package: dynpred
+Version: 0.1.2
+Depends: survival
+Imports: graphics, stats, utils
+Suggests: mstate
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: dynRB
 Version: 0.2
@@ -13309,7 +13335,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: future
-Version: 0.6.0
+Version: 0.7.0
 Imports: listenv, globals
 Suggests: parallel, R.rsp
 License: LGPL (>= 2.1)
@@ -15491,9 +15517,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gridExtra
-Version: 0.9.1
-Depends: R(>= 2.5.0), grid
-Suggests: RGraphics, pixmap, EBImage, ggplot2, lattice
+Version: 2.0.0
+Imports: gtable, grid, grDevices, graphics, utils
+Suggests: ggplot2, lattice, knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -16480,7 +16506,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: HHG
-Version: 1.5
+Version: 1.5.1
+Depends: R (>= 3.1.0)
 Suggests: MASS,knitr
 License: GPL-2
 NeedsCompilation: yes
@@ -20335,9 +20362,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lm.br
-Version: 2.6
+Version: 2.7
 Depends: R(>= 3.0.1), Rcpp (>= 0.11.0)
-Imports: methods
+Imports: stats, methods, graphics, datasets
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -25309,7 +25336,7 @@ License: CeCILL-2
 NeedsCompilation: no
 
 Package: neotoma
-Version: 1.3.0
+Version: 1.3.1
 Depends: R (>= 2.10)
 Imports: RJSONIO, RCurl (>= 1.6), plyr, reshape2
 Suggests: testthat, knitr
@@ -29440,7 +29467,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: polspline
-Version: 1.1.11
+Version: 1.1.12
 Imports: stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -29630,7 +29657,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: poppr
-Version: 2.0.0
+Version: 2.0.1
 Depends: R (>= 2.15.1), adegenet (>= 2.0.0)
 Imports: stats, graphics, grDevices, utils, vegan, ggplot2, phangorn,
         ape (>= 3.1-1), igraph, methods, ade4, pegas, reshape2, dplyr
@@ -29857,8 +29884,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: pracma
-Version: 1.8.3
+Version: 1.8.6
 Depends: R (>= 2.11.1)
+Imports: graphics, grDevices, stats, utils
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -30951,6 +30979,13 @@ Depends: R (>= 2.10), mvoutlier,mgraph,pvclust,cluster,maptools
 Suggests: MASS
 License: GPL-2
 NeedsCompilation: no
+
+Package: qrjoint
+Version: 0.1-1
+Depends: R (>= 2.6), stats, graphics, grDevices, quantreg
+Imports: splines, coda, Matrix, kernlab
+License: GPL-2
+NeedsCompilation: yes
 
 Package: qrLMM
 Version: 1.1
@@ -36060,9 +36095,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rsdmx
-Version: 0.4-6
+Version: 0.4-7
 Depends: R (>= 2.15)
-Imports: methods, XML (>= 3.96-1.1), RCurl, plyr
+Imports: methods, XML (>= 3.96-1.1), RCurl, plyr, utils
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -41075,11 +41110,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: stargazer
-Version: 5.1
-Enhances: AER, betareg, brglm, dynlm, eha, erer, ergm, gee, glmx, gmm,
-        lfe, lme4, lmtest, MASS, mclogit, mgcv, mlogit, nlme, nnet,
-        ordinal, plm, pscl, quantreg, rms, relevent, robustbase,
-        sampleSelection, spdep, stats, survey, survival, Zelig
+Version: 5.2
+Imports: stats, utils
+Enhances: AER, betareg, brglm, censReg, dynlm, eha, erer, ergm, fGarch,
+        gee, glmx, gmm, lfe, lme4, lmtest, MASS, mclogit, mgcv, mlogit,
+        mnlogit, nlme, nnet, ordinal, plm, pscl, quantreg, rms,
+        relevent, robustbase, sampleSelection, spdep, survey, survival,
+        Zelig
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -43644,11 +43681,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: treatSens
-Version: 1.1
-Depends: R (>= 3.1.0)
-Suggests: doParallel, foreach
-License: GPL-2
-NeedsCompilation: no
+Version: 2.0
+Depends: R (>= 3.1-0)
+Imports: methods, stats, graphics, grDevices, dbarts (>= 0.8-5)
+LinkingTo: dbarts (>= 0.8-5)
+Suggests: doParallel, foreach, testthat (>= 0.9-0)
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: tree
 Version: 1.0-36
@@ -44888,6 +44927,12 @@ Version: 1.41
 Depends: R (>= 2.10), methods, fields, boot, CircStats, MASS, dtw
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: vertexenum
+Version: 1.0
+Depends: R (>= 1.8.0), numbers
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: vetools
 Version: 1.3-28
