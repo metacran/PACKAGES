@@ -11901,6 +11901,12 @@ Imports: igraph
 License: GPL-2
 NeedsCompilation: no
 
+Package: FCNN4R
+Version: 0.3.0
+Depends: R (>= 3.0), stats, graphics, methods, Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: fCopulae
 Version: 3011.81
 Depends: R (>= 2.15.1), timeDate, timeSeries, fBasics, fMultivar
@@ -31958,17 +31964,17 @@ License: GPL
 NeedsCompilation: no
 
 Package: rattle
-Version: 3.4.1
-Depends: R (>= 2.13.0)
-Suggests: RGtk2, pmml (>= 1.2.13), bitops, colorspace, ada, amap,
-        arules, arulesViz, biclust, cairoDevice, cba, corrplot, descr,
-        doBy, dplyr, e1071, ellipse, fBasics, foreign, fpc, gdata,
-        ggdendro, ggplot2, gplots, graph, grid, gtools, gWidgetsRGtk2,
-        hmeasure, Hmisc, kernlab, Matrix, methods, mice, nnet,
-        odfWeave, party, playwith, plyr, psych, randomForest, RBGL,
-        RColorBrewer, reshape, rggobi, RGtk2Extras, ROCR, RODBC, rpart,
+Version: 3.5.0
+Depends: R (>= 2.13.0), RGtk2
+Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
+        arulesViz, biclust, cairoDevice, cba, corrplot, descr, doBy,
+        dplyr, e1071, ellipse, fBasics, foreign, fpc, gdata, ggdendro,
+        ggplot2, gplots, graph, grid, gtools, gWidgetsRGtk2, hmeasure,
+        Hmisc, kernlab, Matrix, methods, mice, nnet, odfWeave, party,
+        playwith, plyr, psych, randomForest, RBGL, RColorBrewer,
+        readxl, reshape, rggobi, RGtk2Extras, ROCR, RODBC, rpart,
         rpart.plot, SnowballC, stringr, survival, timeDate, tm,
-        verification, weightedKmeans, XML, xlsx, pkgDepTools, Rgraphviz
+        verification, wskm, XML, pkgDepTools, Rgraphviz
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32696,9 +32702,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: RcppEigen
-Version: 0.3.2.4.0
+Version: 0.3.2.5.0
 Depends: R (>= 2.15.1)
-Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0)
+Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 Suggests: inline, RUnit, pkgKitten
 License: GPL (>= 2) | file LICENSE
@@ -39813,11 +39819,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: SoundexBR
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0),stats,utils,graphics,grDevices
-Suggests: SciencesPo
+Suggests: SciencesPo, stringr
 Enhances: RecordLinkage
-License: AGPL-3
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: SOUP
@@ -43564,9 +43570,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: TraMineR
-Version: 1.8-9
+Version: 1.8-10
 Depends: R (>= 2.8.1),
-Imports: utils, RColorBrewer, boot
+Imports: utils, RColorBrewer, boot, graphics, grDevices, stats
 Suggests: cluster, xtable
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -43949,10 +43955,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: TSdist
-Version: 2.2
-Depends: R (>= 3.0.3), stats, proxy
+Version: 3.1
+Depends: R (>= 3.0.3), proxy
 Imports: zoo, xts, dtw, TSclust, KernSmooth, locpol, pdc,
-        longitudinalData, cluster
+        longitudinalData, cluster, methods, graphics, stats
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
