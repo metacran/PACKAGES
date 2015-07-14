@@ -42100,7 +42100,7 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: sweidnumbr
-Version: 0.6.0
+Version: 0.6.1
 Depends: R (>= 2.10)
 Imports: lubridate, stringr
 Suggests: testthat, knitr
