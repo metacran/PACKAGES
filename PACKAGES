@@ -5586,9 +5586,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clusterSEs
-Version: 2.0
-Depends: R (>= 3.2.1), AER, Formula, plm
-Imports: sandwich, lmtest, mlogit
+Version: 2.0.1
+Depends: R (>= 3.2.1), AER, Formula, plm, stats
+Imports: sandwich, lmtest, mlogit, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8857,9 +8857,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: distcomp
-Version: 0.25.1
+Version: 0.25.2
 Depends: survival, stats, R (>= 3.1.0)
-Imports: utils, shiny, httr, digest, jsonlite, stringr, R6 (>= 2.0)
+Imports: utils, shiny, httr (>= 1.0.0), digest, jsonlite, stringr, R6
+        (>= 2.0)
 Suggests: opencpu
 License: LGPL (>= 2)
 NeedsCompilation: yes
@@ -20550,6 +20551,12 @@ Suggests: knitr
 License: LGPL-2.1
 NeedsCompilation: no
 
+Package: locfdr
+Version: 1.1-8
+Imports: stats, splines, graphics
+License: GPL-2
+NeedsCompilation: no
+
 Package: LocFDRPois
 Version: 1.0.0
 Depends: R (>= 3.1.2)
@@ -29343,9 +29350,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pogit
-Version: 1.0.0
+Version: 1.0.1
 Depends: R(>= 2.10.0)
-Imports: BayesLogit, ggplot2, logistf, plyr
+Imports: BayesLogit, ggplot2, logistf, plyr, stats, utils, grDevices
 License: GPL-2
 NeedsCompilation: no
 
@@ -30739,7 +30746,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pxweb
-Version: 0.5.54
+Version: 0.5.57
 Depends: methods
 Imports: data.table, plyr, stringr, RJSONIO, httr
 Suggests: testthat, ggplot2, knitr
@@ -34342,9 +34349,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ridigbio
-Version: 0.2.2
+Version: 0.3
 Depends: R (>= 3.0.1)
-Imports: httr, jsonlite
+Imports: plyr, httr, jsonlite
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -44923,8 +44930,9 @@ License: MPL-1.1
 NeedsCompilation: no
 
 Package: verification
-Version: 1.41
+Version: 1.42
 Depends: R (>= 2.10), methods, fields, boot, CircStats, MASS, dtw
+Imports: graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
