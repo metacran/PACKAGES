@@ -11316,9 +11316,9 @@ OS_type: windows
 NeedsCompilation: yes
 
 Package: exCon
-Version: 0.1.9
+Version: 0.1.12
 Depends: R (>= 3.0)
-Imports: jsonlite
+Imports: jsonlite, grDevices, utils
 Suggests: js
 License: GPL-3
 NeedsCompilation: no
@@ -13623,14 +13623,15 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.data
-Version: 4.2-7
+Version: 4.3-0
 Depends: R (>= 2.10)
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: gamlss.demo
-Version: 4.3-1
-Depends: R (>= 2.4.0), rpanel (>= 1.1-1), gamlss.dist, gamlss.tr, tcltk
+Version: 4.3-3
+Depends: R (>= 2.4.0), rpanel (>= 1.1-1), gamlss.dist, gamlss.tr,
+        tcltk, graphics, stats, grDevices
 Suggests: MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -20854,9 +20855,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: loo
-Version: 0.1.0
-Depends: R (>= 3.2.0)
-Imports: matrixStats (>= 0.14.1), parallel
+Version: 0.1.2
+Depends: R (>= 3.1.2)
+Imports: graphics, matrixStats (>= 0.14.1), parallel, stats
 Suggests: knitr, testthat
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -22044,8 +22045,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mcmc
-Version: 0.9-3
+Version: 0.9-4
 Depends: R (>= 2.10.0)
+Imports: stats
 Suggests: xtable, Iso
 License: MIT + file LICENSE
 NeedsCompilation: yes
@@ -25150,7 +25152,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.3.2
+Version: 1.3.3
 Depends: R (>= 2.10)
 Imports: Rcpp, randomForest
 LinkingTo: Rcpp
@@ -36238,8 +36240,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RSGHB
-Version: 1.1.0
+Version: 1.1.1
 Depends: methods
+Imports: graphics, grDevices, stats, utils
 License: GPL-3
 NeedsCompilation: yes
 
@@ -39508,9 +39511,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.2-2
+Version: 1.2-3
 Depends: R (>= 2.15.3), methods, stats4
-Imports: mnormt, numDeriv
+Imports: mnormt, numDeriv, stats, grDevices, graphics, utils
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -40454,8 +40457,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: spdynmod
-Version: 1.0
-Imports: deSolve, raster, animation
+Version: 1.1
+Depends: raster
+Imports: deSolve, animation
 Suggests: knitr, roxygen2, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -40479,9 +40483,9 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: SpecHelpers
-Version: 0.1.6
+Version: 0.1.19
 Depends: R (>= 3.0)
-Imports: gsubfn
+Imports: gsubfn, utils, stats, graphics
 License: GPL-3
 NeedsCompilation: no
 
@@ -41439,6 +41443,12 @@ Version: 1.0.8
 Depends: R (>= 2.10)
 Imports: matrixStats, splines, slam, lda, stringr, Matrix, glmnet
 Suggests: igraph, SnowballC, tm, huge, clue, wordcloud, KernSmooth, NLP
+License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: stmBrowser
+Version: 1.0
+Imports: rjson, stm, jsonlite, httr, utils
 License: MIT + file LICENSE
 NeedsCompilation: no
 
