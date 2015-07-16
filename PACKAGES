@@ -7822,6 +7822,14 @@ Suggests: testthat (>= 0.2), RPostgreSQL (>= 0.2.14), RMySQL (>=
 License: FreeBSD
 NeedsCompilation: no
 
+Package: dbscan
+Version: 0.9-0
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: fpc, microbenchmark
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: dbstats
 Version: 1.0.4
 Depends: R (>= 2.10.0), cluster, pls
@@ -15223,8 +15231,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GOplot
-Version: 1.0
-Depends: ggplot2, ggdendro, grid, gridExtra, RColorBrewer, R (>= 3.0.3)
+Version: 1.0.1
+Depends: ggplot2 (>= 1.0.1), ggdendro (>= 0.1.15), gridExtra (>=
+        2.0.0), RColorBrewer (>= 1.1.2), R (>= 3.2.1)
 Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
@@ -20254,7 +20263,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LindenmayeR
-Version: 0.1.4
+Version: 0.1.6
 Depends: stringr, grid
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -20454,7 +20463,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lmerTest
-Version: 2.0-28
+Version: 2.0-29
 Depends: R (>= 3.0.0), Matrix, stats, methods, lme4 (>= 1.0)
 Imports: plyr, MASS, Hmisc, ggplot2
 Suggests: pbkrtest
@@ -21441,7 +21450,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapmisc
-Version: 1.3.1
+Version: 1.3.2
 Depends: sp, raster, R (>= 3.0.0)
 Imports: methods, grDevices, stats, utils, graphics
 Suggests: RColorBrewer, geonames, classInt, rgdal, knitr
@@ -21628,7 +21637,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MASS
-Version: 7.3-42
+Version: 7.3-43
 Priority: recommended
 Depends: R (>= 3.1.0), grDevices, graphics, stats, utils
 Imports: methods
@@ -25260,11 +25269,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ncappc
-Version: 0.1
-Depends: R (>= 3.0.2)
-Imports: ggplot2, grid, gridExtra, scales, gtable,
-        PerformanceAnalytics, lattice, knitr, xtable, reshape2
-Suggests: testthat
+Version: 0.2
+Depends: R (>= 2.15.3), ggplot2, gridExtra
+Imports: scales, gtable, knitr, xtable, reshape2, testthat
 License: GPL-3
 NeedsCompilation: no
 
