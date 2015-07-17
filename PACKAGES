@@ -12630,6 +12630,14 @@ Suggests: SemiPar
 License: GPL-3
 NeedsCompilation: no
 
+Package: flows
+Version: 1.0
+Depends: R (>= 2.10)
+Imports: reshape2, igraph, sp, graphics, stats
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: FLR
 Version: 1.0
 Depends: combinat
@@ -23265,8 +23273,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MixedTS
-Version: 1.0.1
-Depends: methods, stats4, MASS
+Version: 1.0.3
+Depends: methods, stats, graphics, stats4, MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26767,9 +26775,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: OpenMx
-Version: 2.2.4
+Version: 2.2.6
 Depends: R (>= 3.0.2), digest, MASS, methods, parallel
-LinkingTo: RcppEigen, StanHeaders, BH
+LinkingTo: RcppEigen, StanHeaders (>= 2.7), BH
 Suggests: Matrix, mvtnorm, numDeriv, roxygen2 (>= 3.1), Rmpi, rpf (>=
         0.36), snowfall
 License: Apache License (== 2.0) | file LICENSE
@@ -32876,7 +32884,7 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: RcppRedis
-Version: 0.1.4
+Version: 0.1.5
 Imports: methods, Rcpp (>= 0.11.0), RApiSerialize
 LinkingTo: Rcpp, RApiSerialize
 Suggests: rredis, RUnit
@@ -37112,8 +37120,8 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: SAFD
-Version: 0.4
-Depends: R (>= 2.10.0)
+Version: 1.0
+Depends: R (>= 3.0.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -45067,8 +45075,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: vertexenum
-Version: 1.0
-Depends: R (>= 1.8.0), numbers
+Version: 1.0.1
+Depends: R (>= 1.8.0)
+Imports: numbers
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -45182,7 +45191,7 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: visNetwork
-Version: 0.0.4
+Version: 0.1.0
 Depends: R (>= 3.0)
 Imports: htmlwidgets, rjson, magrittr, utils
 Suggests: knitr
