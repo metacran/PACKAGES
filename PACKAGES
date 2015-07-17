@@ -27110,7 +27110,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ore
-Version: 1.1.0
+Version: 1.2.0
 Suggests: crayon, rex, testthat
 License: BSD_3_clause + file LICENCE
 NeedsCompilation: yes
