@@ -9179,12 +9179,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: dnet
-Version: 1.0.6
+Version: 1.0.7
 Depends: R (>= 3.1.0), igraph, supraHex
 Imports: graph, Rgraphviz, Matrix, Biobase
 Suggests: limma, survival, foreach, doMC
 License: GPL-2
-OS_type: unix
 NeedsCompilation: no
 
 Package: DNMF
@@ -28143,10 +28142,13 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pcIRT
-Version: 0.1
-Depends: R (>= 2.15), combinat
+Version: 0.2
+Depends: R (>= 2.15)
+Imports: Rcpp, combinat, stats, graphics, grDevices, utils, methods
+LinkingTo: Rcpp
+Suggests: roxygen2
 License: GPL-3
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: PCIT
 Version: 1.5-3
