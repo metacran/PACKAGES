@@ -82,8 +82,8 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: acc
-Version: 1.1.1
-Depends: R (>= 2.10), zoo, PhysicalActivity, mhsmm, timeDate
+Version: 1.1.7
+Depends: R (>= 2.10), zoo, mhsmm, PhysicalActivity
 License: GNU General Public License (>= 3)
 NeedsCompilation: no
 
@@ -1594,8 +1594,9 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: aster
-Version: 0.8-30
+Version: 0.8-31
 Depends: R (>= 2.10.0), trust
+Imports: stats
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -20468,8 +20469,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lmenssp
-Version: 1.0
-Depends: MASS, nlme
+Version: 1.1
+Depends: MASS, nlme, mvtnorm, geoR,
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28782,6 +28783,12 @@ Version: 0.1-15
 Depends: R (>= 2.14.0), ape
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: phyext2
+Version: 0.0.3
+Imports: methods, phylobase, ape, grid, stats
+License: GPL-3
+NeedsCompilation: no
 
 Package: phylin
 Version: 1.0
@@ -42724,6 +42731,13 @@ Version: 1.2
 Depends: R (>= 3.1.2)
 Imports: normalp, survival, mcmc, R.utils, coda, Rsolnp, BMS
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: TCGA2STAT
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: XML, parallel, CNTools
+License: GPL-2
 NeedsCompilation: no
 
 Package: TcGSA
