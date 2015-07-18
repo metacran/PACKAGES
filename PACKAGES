@@ -28228,7 +28228,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: pdfetch
-Version: 0.1.6
+Version: 0.1.7
 Imports: httr, zoo, xts, XML, lubridate, jsonlite, reshape2
 License: GPL
 NeedsCompilation: no
