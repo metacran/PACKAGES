@@ -18978,7 +18978,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: kappalab
-Version: 0.4-6
+Version: 0.4-7
 Depends: R(>= 2.1.0), methods, lpSolve, quadprog, kernlab
 License: CeCILL
 NeedsCompilation: yes
@@ -20923,6 +20923,14 @@ Version: 1.0.2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: lpbrim
+Version: 1.0.0
+Depends: R (>= 2.12.0)
+Imports: Matrix, plyr, RColorBrewer
+Suggests: doMC
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: no
+
 Package: lpc
 Version: 1.0.2
 License: GPL (>= 2)
@@ -22281,11 +22289,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mediation
-Version: 4.4.4
+Version: 4.4.5
 Depends: R (>= 2.15.1), MASS, Matrix, mvtnorm, sandwich
-Imports: lpSolve, Hmisc
-Suggests: mgcv, quantreg, VGAM, SuppDists, lme4 (>= 1.0), survival,
-        parallel
+Imports: lpSolve, Hmisc, lme4 (>= 1.0), stats, graphics, grDevices,
+        utils
+Suggests: mgcv, quantreg, VGAM, SuppDists, survival, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23469,7 +23477,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mldr
-Version: 0.2.25
+Version: 0.2.33
 Depends: R (>= 3.0.0)
 Imports: shiny (>= 0.11), XML, circlize, graphics, grDevices
 Suggests: pROC, knitr
@@ -27374,6 +27382,14 @@ Suggests: knitr, lattice, testthat (>= 0.9.0), XML
 License: GPL-2
 NeedsCompilation: no
 
+Package: paco
+Version: 0.2.1
+Depends: R (>= 3.0.0)
+Imports: vegan (>= 2.2-0), plyr
+Suggests: ape, doMC
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: Pade
 Version: 0.1-3
 Imports: utils
@@ -28981,7 +28997,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pkgconfig
-Version: 1.0.0
+Version: 2.0.0
 Imports: utils
 Suggests: testthat, disposables
 License: MIT + file LICENSE
@@ -30950,9 +30966,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qdapRegex
-Version: 0.3.2
+Version: 0.4.0
 Depends: R (>= 3.1.0)
-Imports: stringi (>= 0.3-1)
+Imports: stringi (>= 0.5-5)
 Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
@@ -31687,6 +31703,12 @@ Imports: igraph, stats, expm, reshape, ggplot2, Hmisc, fdrtool,
         snowfall
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: RAHRS
+Version: 1.0.2
+Depends: R (>= 2.10), pracma, RSpincalc (>= 1.0.1)
+License: GPL (>= 3)
+NeedsCompilation: yes
 
 Package: rainbow
 Version: 3.3
@@ -34952,7 +34974,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: rminer
-Version: 1.4
+Version: 1.4.1
 Depends: kknn
 Imports: methods, plotrix, lattice, nnet, pls, MASS, mda, rpart,
         randomForest, adabag, party, Cubist, kernlab, e1071
@@ -36435,6 +36457,16 @@ Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: rstan
+Version: 2.7.0-1
+Depends: R (>= 3.0.2), Rcpp (>= 0.11.0), utils, inline, methods
+Imports: stats4
+LinkingTo: Rcpp, RcppEigen, BH (>= 1.58), StanHeaders (>= 2.7.0)
+Suggests: RUnit, RcppEigen, BH (>= 1.58), StanHeaders (>= 2.7.0),
+        parallel, KernSmooth, RCurl, loo
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: RStars
 Version: 1.0
 Depends: R (>= 3.0.3), RJSONIO, RCurl
@@ -36758,7 +36790,8 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: ruv
-Version: 0.9.5
+Version: 0.9.6
+Imports: stats
 License: GPL
 NeedsCompilation: yes
 
@@ -41338,13 +41371,14 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: statnet
-Version: 2014.2.0
-Depends: R (>= 2.15), network (>= 1.9.0), ergm (>= 3.1.2), sna (>=
-        2.3.2), networkDynamic (>= 0.6.1), tergm (>= 3.1.4), ergm.count
-        (>= 3.1.1), latentnet (>= 2.5.0)
-Imports: statnet.common (>= 3.1.1)
-Suggests: networksis (>= 2.1.2), degreenet (>= 1.2), relevent (>=
-        1.0.3), ndtv (>= 0.5.1), EpiModel (>= 0.95)
+Version: 2015.6.2
+Depends: R (>= 3.0), network (>= 1.12), networkDynamic (>= 0.7.1), ergm
+        (>= 3.4.0), sna (>= 2.3.2), tergm (>= 3.3.0), ergm.count (>=
+        3.1.1)
+Imports: statnet.common (>= 3.2.2)
+Suggests: networksis (>= 2.1.3), degreenet (>= 1.3), relevent (>=
+        1.0.4), ndtv (>= 0.6.1), EpiModel (>= 1.1.6), latentnet (>=
+        2.7.1)
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
