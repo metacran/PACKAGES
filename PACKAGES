@@ -2187,10 +2187,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: bayesPop
-Version: 5.3-4
-Depends: R (>= 2.14.2), bayesTFR (>= 4.0-0), bayesLife (>= 2.0-0)
-Imports: parallel, abind, plyr, wpp2012
-Suggests: rworldmap, fields, wpp2008, wpp2010
+Version: 5.4-0
+Depends: R (>= 2.14.2), bayesTFR (>= 4.2-0), bayesLife (>= 2.2-0)
+Imports: parallel, abind, plyr, wpp2012, graphics, grDevices, stats,
+        utils, rworldmap, fields, googleVis
+Suggests: wpp2008, wpp2010
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25048,6 +25049,15 @@ Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
 
+Package: mvtboost
+Version: 0.2.1
+Depends: R (>= 3.0.0)
+Imports: gbm, RColorBrewer, stats, graphics, grDevices, utils,
+Suggests: testthat, plyr, MASS, parallel, lars, ggplot2, knitr,
+        rmarkdown
+License: GPL (>= 2) | file LICENSE
+NeedsCompilation: no
+
 Package: mvtmeta
 Version: 1.0
 Depends: gtools
@@ -29765,7 +29775,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: poppr
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 2.15.1), adegenet (>= 2.0.0)
 Imports: stats, graphics, grDevices, utils, vegan, ggplot2, phangorn,
         ape (>= 3.1-1), igraph, methods, ade4, pegas, reshape2, dplyr
