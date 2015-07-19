@@ -14887,7 +14887,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: glmgraph
-Version: 1.0.1
+Version: 1.0.3
 Depends: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL-2
@@ -26063,6 +26063,12 @@ Suggests: cluster
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: nordklimdata1
+Version: 1.2
+Depends: R (>= 2.10)
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: norm
 Version: 1.0-9.5
 License: file LICENSE
@@ -29784,6 +29790,14 @@ Suggests: testthat, knitr, rmarkdown, knitcitations, polysat, poweRlaw,
         cowplot
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
+
+Package: popprxl
+Version: 0.1
+Depends: poppr (>= 2.0.1)
+Imports: readxl, utils
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: no
 
 Package: popRange
 Version: 1.1.3
@@ -45248,6 +45262,14 @@ NeedsCompilation: no
 Package: viopoints
 Version: 0.2-1
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: viridis
+Version: 0.1
+Depends: R (>= 2.10)
+Imports: stats (>= 3.2.1), grDevices (>= 3.2.1)
+Suggests: ggplot2 (>= 1.0.1), hexbin (>= 1.27.0)
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: virtualspecies
