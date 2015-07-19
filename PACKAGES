@@ -970,6 +970,13 @@ Depends: tcltk
 License: GPL
 NeedsCompilation: no
 
+Package: anoint
+Version: 1.4
+Depends: R (>= 2.13.0), stats, survival, MASS, graphics, grid
+Imports: methods, glmnet
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: anominate
 Version: 0.5
 Depends: coda, wnominate, oc, pscl, MCMCpack
@@ -5458,10 +5465,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: climwin
-Version: 0.0.1
+Version: 0.1.0
 Depends: R (>= 2.10), ggplot2, gridExtra
 Imports: evd, lme4, lubridate, MuMIn, reshape
-Suggests: testthat
+Suggests: testthat, knitr
 License: GPL-2
 NeedsCompilation: no
 
@@ -8235,7 +8242,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: DEoptimR
-Version: 1.0-2
+Version: 1.0-3
+Imports: stats
 Enhances: robustbase
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24920,8 +24928,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: mvglmmRank
-Version: 1.0-2
-Depends: Matrix, numDeriv
+Version: 1.1-1
+Depends: Matrix, numDeriv, methods, stats, utils
 License: GPL-2
 NeedsCompilation: no
 
@@ -37839,6 +37847,14 @@ Imports: numDeriv, PolynomF, rootSolve
 License: AGPL-3
 NeedsCompilation: yes
 
+Package: SDR
+Version: 0.6.0.0
+Depends: R (>= 3.0.0)
+Imports: methods, parallel, stats, shiny (>= 0.11)
+Suggests: knitr
+License: LGPL (>= 3) | file LICENSE
+NeedsCompilation: no
+
 Package: sdtoolkit
 Version: 2.33-1
 License: GPL-3
@@ -43179,7 +43195,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: thermocouple
-Version: 1.0.0
+Version: 1.0.2
 Depends: R (>= 2.7.0)
 License: GPL (>= 3)
 NeedsCompilation: no
