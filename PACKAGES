@@ -38831,6 +38831,13 @@ Version: 1.5.1
 License: GPL-2
 NeedsCompilation: no
 
+Package: SigTree
+Version: 1.10.2
+Imports: ape, phylobase, phyext2, RColorBrewer, phyloseq, graphics,
+        utils, stats
+License: GPL-3
+NeedsCompilation: yes
+
 Package: SII
 Version: 1.0.3
 Suggests: splines, gdata, xtable
