@@ -1151,8 +1151,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: aprof
-Version: 0.2.4
-License: GPL-2
+Version: 0.2.5
+Imports: graphics, grDevices, stats
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: APSIM
@@ -7865,7 +7866,7 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: dcGOR
-Version: 1.0.4
+Version: 1.0.5
 Depends: R (>= 3.1.0), Matrix, igraph, dnet
 Imports: methods
 Suggests: foreach, doMC, ape
@@ -15102,8 +15103,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GMDH
-Version: 1.0
-Depends: MASS, stats
+Version: 1.1
+Depends: R (>= 3.1.1)
+Imports: MASS, graphics, stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15167,7 +15169,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: GNE
-Version: 0.99-0
+Version: 0.99-1
 Depends: R (>= 2.6.0), alabama, nleqslv, BB, SQUAREM
 Suggests: sensitivity
 License: GPL (>= 2)
@@ -15810,10 +15812,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GSIF
-Version: 0.4-6
+Version: 0.4-7
 Depends: R (>= 2.15.0)
 Imports: methods, sp (>= 1.0-8), RSAGA, dismo, rgdal, raster, aqp,
-        plotKML, gstat, stats, plyr
+        plotKML, gstat, stats, plyr, grDevices, graphics
 Suggests: rjson, RCurl, soiltexture, spatstat, stringr, XML, boot,
         splines, mda, psych, nortest, rpart, quantregForest,
         randomForest, nlme, reshape, fossil, AICcmodavg, maptools,
@@ -15954,7 +15956,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: gumbel
-Version: 1.05
+Version: 1.10-1
 Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -25282,7 +25284,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: nbconvertR
-Version: 1.0.1
+Version: 1.0.2
 License: GPL-3
 NeedsCompilation: no
 
@@ -30726,8 +30728,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: PTAk
-Version: 1.2-9
+Version: 1.2-12
 Depends: tensor
+Imports: graphics, stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -32405,8 +32408,8 @@ License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: rcicr
-Version: 0.3.0
-Imports: matlab, aspace, tcltk, jpeg
+Version: 0.3.2
+Imports: matlab, aspace, jpeg, dplyr
 License: GPL-2
 NeedsCompilation: no
 
@@ -34410,7 +34413,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rhosp
-Version: 1.06
+Version: 1.07
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36615,7 +36618,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: RTDE
-Version: 0.1-0
+Version: 0.2-0
 Depends: R (>= 3.0.0), parallel
 Suggests: tseries
 License: GPL (>= 2)
@@ -38325,7 +38328,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: SeqGrapheR
-Version: 0.4.8.3
+Version: 0.4.8.5
 Depends: R (>= 2.14.0)
 Imports: Biostrings,igraph,rggobi,gWidgets,gWidgetsRGtk2,cairoDevice
 License: GPL (>= 2)
@@ -42465,10 +42468,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sybilSBML
-Version: 2.0.8
+Version: 2.0.10
 Depends: R (>= 2.14.2), Matrix, sybil (>= 1.2.4)
 Imports: methods
-License: GPL-3
+License: GPL-3 | file LICENSE
 NeedsCompilation: yes
 
 Package: symbolicDA
@@ -44169,7 +44172,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tsallisqexp
-Version: 0.9-1
+Version: 0.9-2
 Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -45034,9 +45037,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: VCA
-Version: 1.1.1
-Depends: R (>= 3.0.0), stats
-Imports: Matrix, numDeriv
+Version: 1.2
+Depends: R (>= 3.0.0)
+Imports: stats, graphics, grDevices, Matrix, methods, numDeriv
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -46224,8 +46227,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: yaImpute
-Version: 1.0-24
+Version: 1.0-26
 Depends: R (>= 2.11.0)
+Imports: grDevices, graphics, stats, utils
 Suggests: vegan, ccaPP, randomForest, gam, fastICA, parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
