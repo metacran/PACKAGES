@@ -115,7 +115,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: accrued
-Version: 1.3
+Version: 1.3.5
 Depends: R (>= 2.14.1), grid
 License: GPL-3
 NeedsCompilation: no
@@ -11727,8 +11727,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: far
-Version: 0.6-4
-Depends: R (>= 2.10.0), nlme
+Version: 0.6-5
+Depends: R (>= 2.10.0), nlme, graphics, stats
 License: LGPL-2.1
 NeedsCompilation: yes
 
