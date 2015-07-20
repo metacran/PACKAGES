@@ -4107,7 +4107,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bsts
-Version: 0.6.1
+Version: 0.6.2
 Depends: BoomSpikeSlab (>= 0.5.1), zoo, xts, Boom (>= 0.2), R(>= 3.1.0)
 LinkingTo: Boom, BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
@@ -43359,6 +43359,13 @@ Version: 3012.100
 Depends: R (>= 2.15.1), graphics, utils, stats, methods
 Suggests: date, RUnit
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: timedelay
+Version: 1.0.0
+Depends: R (>= 2.2.0)
+Imports: stats
+License: GPL-2
 NeedsCompilation: no
 
 Package: timeit
