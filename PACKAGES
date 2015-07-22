@@ -29279,6 +29279,12 @@ Depends: grid
 License: GPL-3
 NeedsCompilation: no
 
+Package: PlotPrjNetworks
+Version: 1.0.0
+Imports: reshape2, ggplot2, grid
+License: GPL-3
+NeedsCompilation: no
+
 Package: PlotRegionHighlighter
 Version: 1.0
 License: GPL-2
