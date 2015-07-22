@@ -364,8 +364,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: adehabitat
-Version: 1.8.17
+Version: 1.8.18
 Depends: R (>= 2.10.0), ade4, tkrplot, shapefiles, sp, graphics
+Imports: grDevices, methods, stats, utils
 Suggests: spatstat, MASS, CircStats
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -3234,6 +3235,17 @@ Depends: pls, glmnet, MASS, st (>= 1.1.6)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: biomartr
+Version: 0.0.1
+Depends: R (>= 3.1.1)
+Imports: biomaRt (>= 2.24.0), Biostrings (>= 2.32.1), data.table (>=
+        1.9.4), dplyr (>= 0.3.0), downloader (>= 0.3), RCurl (>=
+        1.95-4.5), XML (>= 3.98-1.1), httr (>= 0.6.1), stringr (>=
+        0.6.2)
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: biomod2
 Version: 3.1-64
 Depends: stats, utils, sp, raster, parallel, reshape, ggplot2
@@ -3843,7 +3855,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: boral
-Version: 0.7
+Version: 0.8
 Depends: coda
 Imports: R2jags, mvtnorm, fishMod, MASS, stats, graphics, grDevices
 Suggests: mvabund (>= 3.8.4), corrplot
@@ -6409,6 +6421,12 @@ Package: ConSpline
 Version: 1.0
 Depends: graphics, grDevices, stats, utils, coneproj
 License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: ConsRank
+Version: 0.0
+Depends: MASS,proxy,rgl,gtools
+License: GPL-3
 NeedsCompilation: no
 
 Package: constrainedKriging
@@ -11912,6 +11930,12 @@ Depends: R (>= 3.1.0)
 Imports: minpack.lm, timeSeries
 Suggests: xts
 License: GPL-2
+NeedsCompilation: no
+
+Package: favnums
+Version: 1.0.0
+Depends: R (>= 2.10)
+License: CC0
 NeedsCompilation: no
 
 Package: FAwR
@@ -24343,6 +24367,11 @@ Imports: coda
 Suggests: R.rsp
 License: GPL-2
 NeedsCompilation: yes
+
+Package: mri
+Version: 0.1.1
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: MRIaggr
 Version: 1.1.2
@@ -38238,9 +38267,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiParBIVProbit
-Version: 3.4
-Depends: R (>= 3.1.1), mgcv
-Imports: magic, VGAM, survey, trust, VineCopula
+Version: 3.5
+Depends: R (>= 3.2.1), mgcv
+Imports: magic, VGAM, survey, trust, VineCopula, graphics, stats,
+        utils, grDevices
 License: GPL (>= 2)
 NeedsCompilation: no
 
