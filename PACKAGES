@@ -6971,8 +6971,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: cquad
-Version: 1.1
-Depends: R (>= 2.0.0)
+Version: 1.2
+Depends: R (>= 2.0.0), MASS
 License: GPL (>= 2)
 NeedsCompilation: no
 
