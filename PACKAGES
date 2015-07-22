@@ -7549,8 +7549,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: daewr
-Version: 1.1-4
-Imports: lattice, FrF2, BsMD
+Version: 1.1-6
+Imports: lattice, FrF2, BsMD, graphics, grDevices, stats
 License: GPL-2
 NeedsCompilation: no
 
@@ -16760,6 +16760,14 @@ Version: 0.5
 Depends: R (>= 3.0.2)
 Suggests: knitr, testit
 License: GPL
+NeedsCompilation: no
+
+Package: highriskzone
+Version: 1.2
+Depends: ks, fields, rgeos, deldir, Matrix
+Imports: spatstat, methods, stats, utils
+Suggests: INLA
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: highTtest
@@ -45371,9 +45379,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: VineCopula
-Version: 1.5
+Version: 1.6
 Depends: R (>= 2.11.0)
-Imports: MASS, mvtnorm, igraph, methods, copula, ADGofTest, lattice
+Imports: graphics, grDevices, stats, utils, MASS, mvtnorm, igraph (>=
+        1.0.0), methods, copula, ADGofTest, lattice
 Suggests: CDVine, TSP
 License: GPL (>= 2)
 NeedsCompilation: yes
