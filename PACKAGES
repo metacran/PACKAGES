@@ -28250,11 +28250,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pcalg
-Version: 2.2-3
+Version: 2.2-4
 Depends: R (>= 3.0.2)
 Imports: stats, graphics, utils, methods, abind, graph, RBGL, igraph,
-        ggm, corpcor, robustbase, vcd, Rcpp, bdsmatrix, sfsmisc,
-        fastICA, clue, gmp
+        ggm, corpcor, robustbase, vcd, Rcpp, bdsmatrix, sfsmisc (>=
+        1.0-26), fastICA, clue, gmp
 LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo, BH
 Suggests: MASS, Matrix, Rgraphviz, mvtnorm
 License: GPL (>= 2)
