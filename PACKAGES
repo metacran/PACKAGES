@@ -3176,7 +3176,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BiodiversityR
-Version: 2.5-2
+Version: 2.5-3
 Depends: R (>= 3.0.0), tcltk, vegan (>= 2.2-0)
 Imports: Rcmdr (>= 2.1-4)
 Suggests: permute, lattice, MASS, mgcv, cluster, car, RODBC, rpart,
@@ -4245,7 +4245,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CaDENCE
-Version: 1.2.2
+Version: 1.2.3
 Depends: pso
 Suggests: boot
 License: GPL-2
@@ -7483,6 +7483,14 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
+Package: cymruservices
+Version: 0.1.0
+Depends: R (>= 3.2.0)
+Imports: utils, stringr
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: cyphid
 Version: 1.1
 Depends: fda
@@ -7865,7 +7873,7 @@ License: FreeBSD
 NeedsCompilation: no
 
 Package: dbscan
-Version: 0.9-0
+Version: 0.9-1
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: fpc, microbenchmark
@@ -11828,6 +11836,13 @@ LinkingTo: Rcpp
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
+Package: FastGP
+Version: 1.0
+Imports: Rcpp, MASS, mvtnorm, rbenchmark, stats
+LinkingTo: Rcpp, RcppEigen
+License: GPL-2
+NeedsCompilation: yes
+
 Package: FastHCS
 Version: 0.0.5
 Depends: R (>= 3.1.1), matrixStats, robustbase
@@ -14561,7 +14576,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: GEVcdn
-Version: 1.1.3
+Version: 1.1.4
 Depends: VGAM
 Suggests: boot
 License: GPL-2
@@ -18260,7 +18275,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: interplot
-Version: 0.1.0.1
+Version: 0.1.0.2
 Depends: R (>= 3.1.1), ggplot2, abind, arm
 Imports: stats
 Suggests: knitr
@@ -22847,7 +22862,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: mgcv
-Version: 1.8-6
+Version: 1.8-7
 Priority: recommended
 Depends: R (>= 2.14.0), nlme (>= 3.1-64)
 Imports: methods, stats, graphics, Matrix
@@ -24028,7 +24043,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: monmlp
-Version: 1.1.2
+Version: 1.1.3
 License: GPL-2
 NeedsCompilation: no
 
@@ -24939,6 +24954,12 @@ Suggests: ggplot2 (>= 0.9.2)
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: munsellinterpol
+Version: 1.0.2
+Depends: R (>= 2.10), geometry
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: musicNMR
 Version: 0.0.2
 Depends: R (>= 2.10.0), seewave
@@ -25241,13 +25262,13 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: myTAI
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.1.1)
 Imports: Rcpp (>= 0.11.3), nortest (>= 1.0-2), fitdistrplus (>= 1.0-2),
         parallel (>= 3.1.1), foreach (>= 1.4.2), doParallel (>= 1.0.8),
         dplyr (>= 0.3.0), RColorBrewer (>= 1.1-2), taxize (>= 0.6.0),
-        edgeR (>= 3.10.2), methods (>= 3.1.1), graphics (>= 3.1.1),
-        stats (>= 3.1.1), grDevices (>= 3.1.1), utils (>= 3.1.1)
+        edgeR, methods (>= 3.1.1), graphics (>= 3.1.1), stats (>=
+        3.1.1), grDevices (>= 3.1.1), utils (>= 3.1.1)
 LinkingTo: Rcpp
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat (>= 0.9.1)
@@ -31262,7 +31283,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: qrnn
-Version: 1.1.2
+Version: 1.1.3
 License: GPL-2
 NeedsCompilation: no
 
@@ -33997,6 +34018,12 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: prospectr, parallel, doParallel
 License: GPL (>= 3)
 NeedsCompilation: yes
+
+Package: reservoir
+Version: 1.0.0
+Imports: gtools, stats
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: reshape
 Version: 0.8.5
@@ -40367,6 +40394,14 @@ Imports: corpcor, bdsmatrix, mvtnorm
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: SparseFactorAnalysis
+Version: 1.0
+Depends: directlabels, proto, ggplot2
+Imports: Rcpp (>= 0.11.4), MASS, VGAM, truncnorm
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: SparseGrid
 Version: 0.8.2
 Suggests: testthat, statmod, mvtnorm
@@ -44085,8 +44120,9 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: treeClust
-Version: 1.0-0
+Version: 1.1-1
 Depends: rpart, cluster
+Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
