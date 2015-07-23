@@ -24247,7 +24247,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mpath
-Version: 0.1-18
+Version: 0.1-19
 Depends: methods
 Imports: MASS,glmnet,pscl,numDeriv
 Suggests: zic, R.rsp
