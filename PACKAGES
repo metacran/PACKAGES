@@ -4632,8 +4632,9 @@ License: GPL (> 2)
 NeedsCompilation: no
 
 Package: cba
-Version: 0.2-14
+Version: 0.2-15
 Depends: R (>= 2.4.1), grid, proxy
+Imports: stats, graphics, grDevices, methods
 Suggests: gclus, colorspace
 License: GPL-2
 NeedsCompilation: yes
@@ -6021,6 +6022,13 @@ NeedsCompilation: no
 Package: colorRamps
 Version: 2.3
 License: GPL
+NeedsCompilation: no
+
+Package: colorscience
+Version: 1.0.1
+Depends: R (>= 2.10), Hmisc, munsellinterpol, pracma, sp
+Enhances: png
+License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: colorspace
@@ -37520,10 +37528,12 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: saturnin
-Version: 1.0
+Version: 1.1.1
+Imports: Rcpp
+LinkingTo: Rcpp, RcppEigen
 Suggests: parallel
 License: GPL-2
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: SAVE
 Version: 1.0
@@ -44021,9 +44031,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: TraMineRextras
-Version: 0.2.3
-Depends: R (>= 2.8.1), TraMineR (>= 1.8-9), RColorBrewer, combinat,
-        survival, cluster
+Version: 0.2.4
+Depends: R (>= 2.8.1), TraMineR (>= 1.8-9), RColorBrewer, survival,
+        cluster
+Imports: combinat, grDevices, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
