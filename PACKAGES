@@ -1253,8 +1253,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: archdata
-Version: 0.1
-Suggests: circular, plotrix
+Version: 1.0
+Suggests: circular, plotrix, MASS
 License: GPL
 NeedsCompilation: no
 
@@ -15003,8 +15003,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: glmm
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.1.1), trust, mvtnorm, Matrix
+Imports: stats
 Suggests: knitr
 License: GPL-2
 NeedsCompilation: yes
@@ -23996,7 +23997,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: modMax
-Version: 1.0
+Version: 1.1
 Depends: gtools, igraph
 License: GPL-2
 NeedsCompilation: no
@@ -24034,7 +24035,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mombf
-Version: 1.5.9
+Version: 1.6.0
 Depends: R (>= 2.14.0), methods, mvtnorm, ncvreg, actuar, mgcv
 Imports: survival
 Suggests: parallel
@@ -29010,11 +29011,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: phylobase
-Version: 0.6.8
-Depends: grid
-Imports: ade4, ape (>= 3.0), Rcpp (>= 0.11.0), methods
+Version: 0.8.0
+Imports: ade4, ape (>= 3.0), Rcpp (>= 0.11.0), rncl (>= 0.6.0), grid,
+        methods, stats, RNeXML
 LinkingTo: Rcpp
-Suggests: MASS, testthat (>= 0.8.1), RUnit
+Suggests: MASS, testthat (>= 0.8.1), knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -29145,7 +29146,7 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: pipe.design
-Version: 0.2
+Version: 0.3
 Depends: ggplot2 (>= 0.9.2), gtools
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32022,11 +32023,13 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RandomFields
-Version: 3.0.62
-Depends: R (>= 3.0.2), sp
-Imports: graphics, methods
-Suggests: colorspace, RColorBrewer, raster, tcltk2, tcltk, tkrplot,
-        spam, tools
+Version: 3.1.0
+Depends: R (>= 3.0), sp, RandomFieldsUtils
+Imports: graphics, methods, grDevices, stats, utils
+LinkingTo: RandomFieldsUtils
+Suggests: colorspace, RColorBrewer, mvtnorm, raster, tcltk2, tcltk,
+        tkrplot, spam, tools, geoR, minqa, soma, optimx, nloptr, pso,
+        GenSA
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -35906,6 +35909,15 @@ Package: Rothermel
 Version: 1.2
 Depends: R (>= 3.0.0), GA, ftsa
 License: GPL-2
+NeedsCompilation: no
+
+Package: rotl
+Version: 0.4.1
+Depends: R (>= 3.1.1)
+Imports: httr, jsonlite, rncl (>= 0.6.0), ape
+Suggests: knitr (>= 1.10.5), rmarkdown (>= 0.7), testthat, RNeXML,
+        phylobase
+License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: roughrf
@@ -44124,6 +44136,12 @@ Imports: utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: TransModel
+Version: 1.0
+Depends: stats,graphics,survival
+License: GPL-2
+NeedsCompilation: no
+
 Package: transport
 Version: 0.6-3
 Depends: R (>= 3.0.0), utils, grDevices, graphics, stats
@@ -45193,6 +45211,14 @@ Depends: R (>= 2.13.0)
 Suggests: GenABEL, DatABEL
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: varian
+Version: 0.2.1
+Depends: R (>= 3.1.1), rstan (>= 2.7.0), ggplot2
+Imports: stats, MASS, Formula, grid, gridExtra
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
 
 Package: VarianceGamma
 Version: 0.3-1
