@@ -22033,7 +22033,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MazamaSpatialUtils
-Version: 0.3.1
+Version: 0.3.2
 Depends: R (>= 3.1.0)
 Imports: dplyr, rgdal, rgeos, rvest, sp, stringr, utils
 Suggests: knitr, maps, testthat
@@ -38071,7 +38071,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: seacarb
-Version: 3.0.6
+Version: 3.0.8
 Depends: oce
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -42129,8 +42129,8 @@ License: GPL
 NeedsCompilation: no
 
 Package: sudokuAlt
-Version: 0.1-4
-Depends: R (>= 3.1.0)
+Version: 0.1-5
+Depends: R (>= 3.1.0), stats
 Imports: graphics
 Suggests: sudoku
 License: GPL (>= 2)
