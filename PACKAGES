@@ -152,6 +152,14 @@ Depends: MASS
 License: GPL
 NeedsCompilation: no
 
+Package: acmeR
+Version: 1.0.0
+Depends: R (>= 3.1.1)
+Imports: foreign (>= 0.8-63), grDevices (>= 3.1.1), graphics (>=
+        3.1.1), stats (>= 3.1.1), utils (>= 3.1.1)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: ACNE
 Version: 0.8.0
 Depends: R (>= 3.0.0), aroma.affymetrix (>= 2.13.0)
@@ -5122,9 +5130,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: ChemoSpec
-Version: 4.0.6
+Version: 4.1.15
 Depends: R (>= 3.1)
-Imports: plyr, rgl
+Imports: plyr, rgl, stats, utils, grDevices
 Suggests: mvbutils, sna, knitr, IDPmisc, amap, seriation, speaq,
         clusterCrit, NbClust, R.utils, RColorBrewer, baseline, js,
         jsonlite, exCon, mclust, gsubfn, lattice, pcaPP, pls, grid,
@@ -5358,8 +5366,10 @@ License: LGPL
 NeedsCompilation: no
 
 Package: cjoint
-Version: 1.0.3
-Depends: R (>= 2.0.0), sandwich, lmtest, ggplot2
+Version: 2.0.0
+Depends: R (>= 2.0.0), sandwich, lmtest, ggplot2, survey
+Imports: stats, utils, methods
+Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -8971,7 +8981,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: distillery
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 2.10.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -10902,7 +10912,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: EpiModel
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 3.1), deSolve (>= 1.11), networkDynamic (>= 0.7.1),
         tergm (>= 3.2.4)
 Imports: graphics, grDevices, stats, utils, doParallel, ergm (>=
@@ -18048,7 +18058,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: in2extRemes
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 2.15.1), tcltk, extRemes (>= 2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18127,7 +18137,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: influence.ME
-Version: 0.9-5
+Version: 0.9-6
 Depends: R(>= 2.15.0), lme4(>= 1.0)
 Imports: Matrix(>= 1.0), lattice
 License: GPL-3
@@ -18705,9 +18715,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ISOpureR
-Version: 1.0.8
+Version: 1.0.18
 Depends: R (>= 3.1.1)
-Imports: Rcpp (>= 0.11.3)
+Imports: Rcpp (>= 0.11.3), stats, futile.logger
 LinkingTo: Rcpp, RcppEigen (>= 0.3.2.2.0)
 Suggests: knitr
 License: GPL-2
@@ -20215,9 +20225,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lessR
-Version: 3.3.1
+Version: 3.3.3
 Depends: R (>= 2.15.0)
-Imports: car, leaps, MBESS, foreign, gdata, triangle
+Imports: graphics, grDevices, stats, utils, car, leaps, MBESS, foreign,
+        sas7bdat, readxl, triangle
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -26375,7 +26386,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: npcp
-Version: 0.1-1
+Version: 0.1-6
+Imports: stats
 Suggests: copula
 License: GPL (>= 3) | file LICENCE
 NeedsCompilation: yes
@@ -28826,6 +28838,15 @@ Suggests: testthat, seqLogo, seqinr, xtable, flashClust, rgl, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: PharmacoGx
+Version: 1.0.6
+Depends: R (>= 2.10)
+Imports: Biobase, piano, magicaxis, RColorBrewer, parallel, caTools,
+        methods, downloader, stats, utils, graphics, grDevices
+Suggests: xtable
+License: Artistic-2.0
+NeedsCompilation: no
+
 Package: PharmPow
 Version: 1.0
 Imports: scatterplot3d
@@ -30091,8 +30112,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: powerSurvEpi
-Version: 0.0.6
-Depends: R (>= 2.9.1)
+Version: 0.0.9
+Depends: R (>= 3.1.0)
 Imports: stats, survival
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -32061,7 +32082,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: randomNames
-Version: 0.0-8
+Version: 0.1-0
 Depends: R (>= 2.10.0)
 Imports: data.table (>= 1.8.0)
 License: GPL-3
@@ -33502,7 +33523,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: recommenderlab
-Version: 0.1-6
+Version: 0.1-7
 Depends: R (>= 2.10.0), Matrix, registry, arules (>= 1.0-1), proxy
 Imports: methods, utils, stats
 Suggests: ROCR
@@ -33840,9 +33861,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: rEMM
-Version: 1.0-10
+Version: 1.0-11
 Depends: R (>= 2.10.0), proxy (>= 0.4-7), igraph
-Imports: methods, stats, clusterGeneration, MASS, utils
+Imports: methods, stats, cluster, clusterGeneration, MASS, utils
 Suggests: graph, Rgraphviz, testthat
 License: GPL-2
 NeedsCompilation: yes
@@ -34375,7 +34396,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.8.6
+Version: 0.8.8
 Imports: methods, utils, stats, XML, ggplot2, httr (>= 1.0.0),
         data.table, whisker, magrittr, jsonlite (>= 0.9.16), V8
 Suggests: roxygen2, testthat, knitr, reshape2, maps
@@ -41185,8 +41206,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: spTest
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0.0)
+Imports: stats
 Suggests: mvtnorm, geoR, fields
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -43898,8 +43920,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: toOrdinal
-Version: 0.0-1
+Version: 0.0-4
 Depends: R (>= 2.10.0)
+Suggests: testthat
 License: GPL-3
 NeedsCompilation: no
 
@@ -45692,6 +45715,13 @@ Version: 1.2
 License: GPL-2
 NeedsCompilation: no
 
+Package: warbleR
+Version: 1.0.1
+Depends: R (>= 2.10), maps, seewave (>= 2.0.1), tuneR
+Imports: rjson, pbapply, RCurl, fftw, utils, stats, grDevices, graphics
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: WARN
 Version: 1.1
 Depends: MASS
@@ -46612,7 +46642,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: zooaRch
-Version: 1.0
+Version: 1.1
 Depends: ggplot2
 Suggests: knitr
 License: GPL (>= 2)
