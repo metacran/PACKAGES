@@ -7982,7 +7982,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ddalpha
-Version: 1.1.3
+Version: 1.1.3.1
 Depends: stats, utils, graphics, grDevices, MASS, class, robustbase
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: BH, Rcpp
@@ -9876,10 +9876,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dynsim
-Version: 1.0
+Version: 1.2
 Depends: R (>= 3.0.0)
-Imports: ggplot2, gridExtra, MASS
-Suggests: DataCombine
+Imports: ggplot2, grid, gridExtra (>= 2.0.0), MASS
+Suggests: DataCombine, knitr
 License: GPL-2 | GPL-3
 NeedsCompilation: no
 
@@ -31519,9 +31519,9 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: quantmod
-Version: 0.4-4
+Version: 0.4-5
 Depends: xts(>= 0.9-0), zoo, TTR(>= 0.2), methods
-Suggests: DBI,RMySQL,RSQLite,timeSeries,its,XML
+Suggests: DBI,RMySQL,RSQLite,timeSeries,its,XML,downloader
 License: GPL-3
 NeedsCompilation: yes
 
@@ -34973,6 +34973,12 @@ NeedsCompilation: no
 Package: RKEAjars
 Version: 5.0-1
 Imports: rJava (>= 0.6-3)
+License: GPL-2
+NeedsCompilation: no
+
+Package: RKlout
+Version: 1.0
+Imports: RCurl
 License: GPL-2
 NeedsCompilation: no
 
