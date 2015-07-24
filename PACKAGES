@@ -1541,9 +1541,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: aspect
-Version: 1.0-3
+Version: 1.0-4
 Depends: R (>= 3.0.0)
-Imports: stats, graphics
+Imports: stats, graphics, grDevices
 Suggests: sem, polycor
 License: GPL-2
 NeedsCompilation: yes
@@ -18724,7 +18724,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: isotone
-Version: 1.0-2
+Version: 1.1-0
+Depends: R (>= 3.0.2)
+Imports: graphics, stats, nnls
 License: GPL-2
 NeedsCompilation: yes
 
@@ -23078,7 +23080,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: MicSim
-Version: 1.0.8
+Version: 1.0.9
 Depends: R (>= 3.0.1), chron, snowfall, rlecuyer
 License: GPL-2
 NeedsCompilation: no
