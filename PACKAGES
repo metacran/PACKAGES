@@ -26179,8 +26179,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: nonlinearTseries
-Version: 0.2.2
-Depends: Matrix, rgl, tseries, TSA, Rcpp (>= 0.10.5)
+Version: 0.2.3
+Depends: Matrix, rgl, tseries, TSA, Rcpp (>= 0.10.5), graphics, stats
 LinkingTo: Rcpp
 Suggests: plot3D, knitr,
 License: GPL (>= 3)
@@ -42945,10 +42945,11 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: TAM
-Version: 1.9-0
+Version: 1.10-0
 Depends: R (>= 2.15.1), CDM, MASS
-Imports: stats, graphics, utils, Rcpp, lavaan, WrightMap, tensor,
-        sfsmisc, GPArotation, psych, mvtnorm, msm, lattice, plyr
+Imports: stats, graphics, utils, grDevices, methods, Rcpp, lavaan,
+        WrightMap, tensor, sfsmisc, GPArotation, psych, mvtnorm, msm,
+        lattice, plyr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: sirt, PP, semTools, miceadds
 License: GPL (>= 2)
