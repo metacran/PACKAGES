@@ -12638,8 +12638,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: flam
-Version: 2.0
-Imports: Rcpp (>= 0.11.6), MASS
+Version: 3.0
+Imports: Rcpp (>= 0.11.6), MASS, graphics, grDevices, stats
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -19835,6 +19835,13 @@ Imports: lmodel2, mgcv
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: landsat8
+Version: 0.1-9
+Depends: R (>= 3.1.2)
+Imports: rgdal, sp
+License: GPL-2
+NeedsCompilation: no
+
 Package: languageR
 Version: 1.4.1
 Depends: R(>= 3.0.2)
@@ -21272,12 +21279,13 @@ License: LGPL
 NeedsCompilation: no
 
 Package: lsmeans
-Version: 2.18
+Version: 2.19
 Depends: estimability, methods, R (>= 3.0)
-Imports: coda (>= 0.17), multcomp, plyr, mvtnorm
+Imports: graphics, stats, utils, nlme, coda (>= 0.17), multcomp, plyr,
+        mvtnorm
 Suggests: car, lattice, MCMCpack, mediation, multcompView, ordinal,
         pbkrtest (>= 0.4-1), afex, CARBayes, coxme, gee, geepack,
-        glmmADMB, lme4.0, lme4, MASS, MCMCglmm, nlme, survival
+        glmmADMB, lme4.0, lme4, MASS, MCMCglmm, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -22460,7 +22468,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: Mediana
-Version: 1.0
+Version: 1.0.1
 Imports: doParallel, doRNG, foreach, MASS, mvtnorm, ReporteRs, stats,
         survival, utils
 License: GPL-2
@@ -23491,7 +23499,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mixlm
-Version: 1.0.8.5
+Version: 1.0.9.2
 Depends: multcomp, pls, pracma
 Imports: leaps, lme4, car
 License: GPL (>= 2)
