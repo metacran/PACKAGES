@@ -5071,10 +5071,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: checkmate
-Version: 1.6.1
+Version: 1.6.2
 Depends: R (>= 3.0.0)
-Imports: utils, testthat
-Suggests: ggplot2, microbenchmark, knitr, data.table, dplyr
+Imports: utils
+Suggests: data.table, dplyr, ggplot2, knitr, microbenchmark, testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -22459,6 +22459,13 @@ Suggests: arm (>= 1.7-05), car (>= 2.0-21), gam (>= 1.09.1), glmnet (>=
 License: GPL-2
 NeedsCompilation: no
 
+Package: Mediana
+Version: 1.0
+Imports: doParallel, doRNG, foreach, MASS, mvtnorm, ReporteRs, stats,
+        survival, utils
+License: GPL-2
+NeedsCompilation: no
+
 Package: mediation
 Version: 4.4.5
 Depends: R (>= 2.15.1), MASS, Matrix, mvtnorm, sandwich
@@ -22972,6 +22979,13 @@ Package: MHadaptive
 Version: 1.1-8
 Depends: MASS, R (>= 2.14.0)
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: mHG
+Version: 1.0
+Depends: methods
+Suggests: testthat
+License: GPL-2
 NeedsCompilation: no
 
 Package: mhsmm
@@ -25225,8 +25239,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvSLOUCH
-Version: 1.1.5
+Version: 1.2
 Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
+Imports: methods
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
 
@@ -27536,6 +27551,14 @@ Package: pack
 Version: 0.1-1
 License: GPL-3
 NeedsCompilation: no
+
+Package: packcircles
+Version: 0.1.1
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: ggplot2, gridExtra, knitr
+License: MIT + file LICENSE
+NeedsCompilation: yes
 
 Package: packClassic
 Version: 0.5.2
@@ -33189,9 +33212,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppZiggurat
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.0.0)
-Imports: Rcpp, parallel
+Imports: Rcpp, parallel, graphics, stats, utils
 LinkingTo: Rcpp, RcppGSL
 Suggests: highlight, rbenchmark, microbenchmark, lattice
 License: GPL (>= 2)
@@ -43432,6 +43455,13 @@ Version: 1.4
 Depends: R (>= 3.0.1)
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
+
+Package: tglm
+Version: 1.0
+Depends: R (>= 2.14.0)
+Imports: BayesLogit, mvtnorm, coda, truncnorm
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: tgp
 Version: 2.4-11
