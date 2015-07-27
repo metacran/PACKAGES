@@ -33305,6 +33305,15 @@ Depends: R (>= 2.15.0), sandwich, lmtest, AER, Formula
 License: Apache License (== 2.0)
 NeedsCompilation: no
 
+Package: rddtools
+Version: 0.4.0
+Depends: AER, np
+Imports: KernSmooth, ggplot2, rdd, sandwich, lmtest, Formula, locpol,
+        methods
+Suggests: stats4, car, knitr, testthat
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: rDEA
 Version: 1.2-1
 Imports: slam (>= 0.1-9), truncreg(>= 0.2-1), truncnorm(>= 1.0-7),
