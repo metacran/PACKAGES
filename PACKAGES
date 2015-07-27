@@ -20017,6 +20017,14 @@ Suggests: knitr, rmarkdown (>= 0.2.65), microbenchmark, testthat
 License: GPL-3
 NeedsCompilation: yes
 
+Package: lazyWeave
+Version: 3.0.0
+Depends: R (>= 2.10.0)
+Imports: Hmisc (>= 3.14-6)
+Suggests: testthat
+License: GPL
+NeedsCompilation: no
+
 Package: lba
 Version: 1.2
 Depends: R (>= 3.1.2), MASS, alabama, plotrix, ca
@@ -25313,7 +25321,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MXM
-Version: 0.4.1
+Version: 0.4.2
 Imports: methods, stats, utils, survival, VGAM, MASS, TunePareto, ROCR,
         Hmisc, graphics
 Suggests: gRbase, Biobase, pcalg, hash
@@ -27127,6 +27135,11 @@ Version: 2013-10.28
 Depends: numDeriv
 License: GPL-2
 NeedsCompilation: no
+
+Package: OptGS
+Version: 1.0
+License: GPL-2
+NeedsCompilation: yes
 
 Package: OptHedging
 Version: 1.0
@@ -32417,7 +32430,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: rbamtools
-Version: 2.12.2
+Version: 2.12.3
 Depends: methods
 Suggests: xtable
 License: Artistic-2.0
