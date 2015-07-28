@@ -13789,8 +13789,8 @@ License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
 Package: gamlss.mx
-Version: 4.3-1
-Depends: R (>= 2.2.1), gamlss.dist, gamlss, nnet
+Version: 4.3-2
+Depends: R (>= 2.2.1), gamlss.dist, gamlss, nnet, stats, graphics
 Suggests: MASS
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -17234,7 +17234,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: hsdar
-Version: 0.2.1
+Version: 0.3.0
 Depends: R (>= 2.10.0), sp, raster, rgdal, rootSolve, signal, methods
 Suggests: rgl
 License: GPL
@@ -23458,9 +23458,9 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: mixAK
-Version: 4.0-5
+Version: 4.1-1
 Depends: R (>= 3.0.0), colorspace, lme4 (>= 1.0)
-Imports: splines, fastGHQuad, mnormt, parallel, coda
+Imports: graphics, stats, splines, fastGHQuad, mnormt, parallel, coda
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -38369,7 +38369,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seewave
-Version: 2.0.1
+Version: 2.0.2
 Imports: graphics, grDevices, stats, utils, tuneR
 Suggests: audio, fftw, ggplot2, rgl, rpanel
 License: GPL (>= 2)
