@@ -4072,9 +4072,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: BRugs
-Version: 0.8-4
+Version: 0.8-5
 Depends: R (>= 2.11.0)
-Imports: utils, coda
+Imports: utils, coda, grDevices, graphics, stats
 License: GPL-2
 NeedsCompilation: yes
 
@@ -26437,7 +26437,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: nortest
-Version: 1.0-3
+Version: 1.0-4
+Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -31985,8 +31986,9 @@ OS_type: windows
 NeedsCompilation: no
 
 Package: R2WinBUGS
-Version: 2.1-20
+Version: 2.1-21
 Depends: R (>= 2.13.0), coda (>= 0.11-0), boot
+Imports: utils, stats, graphics
 Suggests: BRugs (>= 0.3-2)
 License: GPL-2
 NeedsCompilation: no
@@ -37451,8 +37453,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RWinEdt
-Version: 2.0-4
-Depends: R (>= 2.11.0), utils
+Version: 2.0-5
+Depends: R (>= 2.11.0)
+Imports: utils
 License: GPL-2
 OS_type: windows
 NeedsCompilation: yes
@@ -37991,8 +37994,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: scatterplot3d
-Version: 0.3-35
+Version: 0.3-36
 Depends: R (>= 2.7.0)
+Imports: grDevices, graphics, stats
 License: GPL-2
 NeedsCompilation: no
 
@@ -39325,9 +39329,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: signal
-Version: 0.7-5
-Depends: R (>= 2.14.0), stats
-Imports: MASS, graphics, grDevices
+Version: 0.7-6
+Depends: R (>= 2.14.0)
+Imports: MASS, graphics, grDevices, stats, utils
 Suggests: pracma
 License: GPL-2
 NeedsCompilation: yes
