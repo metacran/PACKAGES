@@ -12140,8 +12140,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fcros
-Version: 1.3
-License: GPL (>= 2.0)
+Version: 1.4
+Depends: R (>= 2.10)
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: FD
@@ -17246,7 +17247,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: HSAUR3
-Version: 1.0-4
+Version: 1.0-5
 Depends: R (>= 3.0.0), tools
 Suggests: boot (>= 1.3-9), lattice (>= 0.20-23), MASS (>= 7.3-29), mgcv
         (>= 1.7-27), rpart (>= 4.1-4), survival (>= 2.37-4), alr3 (>=
@@ -26133,7 +26134,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: nlsem
-Version: 0.3
+Version: 0.4.1
 Depends: R (>= 3.1.0), gaussquad, mvtnorm, nlme
 Suggests: lavaan
 License: GPL (>= 2)
@@ -31182,6 +31183,13 @@ Imports: XML, nnet, httr
 License: GPL-2
 NeedsCompilation: no
 
+Package: pweight
+Version: 0.0.1
+Imports: qqman
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: pwr
 Version: 1.1-2
 License: GPL (>= 3)
@@ -31376,9 +31384,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: qicharts
-Version: 0.2.0
+Version: 0.3.1
 Depends: R (>= 3.0.0)
-Imports: lattice, latticeExtra
+Imports: lattice, latticeExtra, graphics, grDevices, stats
 Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
@@ -32305,7 +32313,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ranger
-Version: 0.2.6
+Version: 0.2.7
 Depends: R (>= 3.1)
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
@@ -40222,9 +40230,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: sns
-Version: 1.0.0
-Imports: mvtnorm, coda
-Suggests: RegressionFactory
+Version: 1.1.0
+Imports: mvtnorm, coda, numDeriv
+Suggests: RegressionFactory, MfUSampler
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -42883,9 +42891,9 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: swfscMisc
-Version: 1.0.3
-Depends: mapdata
-Imports: maps
+Version: 1.0.6
+Depends: R (>= 3.2.0), mapdata
+Imports: graphics, grDevices, maps, spatstat, stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -46367,6 +46375,14 @@ Package: windex
 Version: 1.0
 Depends: geiger (>= 2.0), ape, scatterplot3d, utils, R (>= 3.0.0)
 License: GPL-2
+NeedsCompilation: no
+
+Package: wiod
+Version: 0.3.0
+Depends: R (>= 3.2.0)
+Imports: decompr, gvc
+Suggests: knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: WiSEBoot
