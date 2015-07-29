@@ -12006,8 +12006,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: FastRWeb
-Version: 1.1-0
-Depends: R (>= 2.0.0), Cairo
+Version: 1.1-1
+Depends: R (>= 2.0.0)
+Imports: base64enc, grDevices, stats, utils, Cairo
 Suggests: Rserve
 License: GPL-2
 NeedsCompilation: yes
@@ -21328,6 +21329,13 @@ NeedsCompilation: yes
 Package: lshorth
 Version: 0.1-6
 License: LGPL
+NeedsCompilation: no
+
+Package: lsl
+Version: 0.5.0
+Depends: R (>= 3.2.0)
+Imports: ggplot2, reshape2, methods
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: lsmeans
@@ -32550,6 +32558,12 @@ Version: 1.0.0
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: RBerkeley
+Version: 0.7-5
+License: GPL-3
+OS_type: unix
+NeedsCompilation: yes
+
 Package: rBeta2009
 Version: 1.0
 License: GPL-2
@@ -35086,7 +35100,7 @@ License: GPL (== 2)
 NeedsCompilation: yes
 
 Package: rJava
-Version: 0.9-6
+Version: 0.9-7
 Depends: R (>= 2.5.0), methods
 License: GPL-2
 NeedsCompilation: yes
