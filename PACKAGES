@@ -2549,7 +2549,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: bda
-Version: 5.1.3
+Version: 5.1.6
 Depends: R (>= 2.10.0)
 License: Unlimited
 NeedsCompilation: yes
@@ -4350,6 +4350,14 @@ Version: 0.2.0
 Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
 License: GPL-2
 NeedsCompilation: yes
+
+Package: camtrapR
+Version: 0.97.0
+Depends: R (>= 3.1.0)
+Imports: methods, overlap
+Suggests: unmarked
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: cancerTiming
 Version: 3.0.0
@@ -8987,8 +8995,8 @@ License: GPL (>= 2) | file LICENSE
 NeedsCompilation: yes
 
 Package: Distance
-Version: 0.9.3
-Depends: R (>= 3.0), mrds (>= 2.1.8)
+Version: 0.9.4
+Depends: R (>= 3.0), mrds (>= 2.1.10)
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24530,9 +24538,9 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mrds
-Version: 2.1.12
+Version: 2.1.14
 Depends: R (>= 3.0)
-Imports: optimx (>= 2013.8.6), mgcv, Rsolnp
+Imports: optimx (>= 2013.8.6), mgcv, numDeriv, Rsolnp
 Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -46831,7 +46839,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: yhatr
-Version: 0.13.6
+Version: 0.13.7
 Depends: R (>= 2.12.0)
 Imports: httr, RCurl, rjson, plyr, jsonlite, stringr
 License: FreeBSD
