@@ -1184,7 +1184,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: apsimr
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0), ggplot2, XML
 Imports: lubridate, reshape2, MASS, mgcv
 Suggests: knitr
@@ -5399,6 +5399,12 @@ LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ClamR
+Version: 2.1-1
+Imports: stats
+License: GPL
+NeedsCompilation: no
+
 Package: class
 Version: 7.3-13
 Priority: recommended
@@ -7564,6 +7570,13 @@ Imports: scales (>= 0.2.5), htmlwidgets, png, base64enc, dendextend (>=
 Suggests: shiny, knitr
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
+
+Package: D3M
+Version: 0.31
+Imports: Rcpp, beanplot, stats, parallel, graphics, grDevices
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: d3Network
 Version: 0.5.2.1
@@ -33349,8 +33362,9 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RCryptsy
-Version: 0.2
-Depends: R (>= 3.0.3), RJSONIO, RCurl
+Version: 0.4
+Depends: R (>= 3.0.3)
+Imports: RJSONIO, RCurl
 License: GPL-3
 NeedsCompilation: no
 
@@ -36532,6 +36546,11 @@ Package: rrlda
 Version: 1.1
 Depends: pcaPP, mvoutlier, glasso, matrixcalc
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: RRNA
+Version: 1.0
+License: GPL-3
 NeedsCompilation: no
 
 Package: RRreg
@@ -39746,9 +39765,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: slfm
-Version: 0.1
+Version: 0.2.0
 Depends: R (>= 3.1.0)
-Imports: Rcpp (>= 0.11.0), coda
+Imports: Rcpp (>= 0.11.0), coda, lattice
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL-2
 NeedsCompilation: yes
@@ -40500,6 +40519,13 @@ Version: 1.0.0
 Depends: RCurl, rjson
 License: MIT
 NeedsCompilation: no
+
+Package: SoyNAM
+Version: 1.0
+Depends: R (>= 3.0.2)
+Imports: NAM, lme4, reshape2
+License: GPL-3
+NeedsCompilation: yes
 
 Package: sp
 Version: 1.1-1
@@ -41866,10 +41892,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: StatMethRank
-Version: 1.0
-Depends: MASS, utils, rjags, pmr
-License: GPL-2
-NeedsCompilation: no
+Version: 1.2
+Imports: stats, graphics, datasets, Rcpp (>= 0.11.5), MASS, utils,
+        rjags, pmr
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: statmod
 Version: 1.4.21
@@ -43970,6 +43998,14 @@ Version: 0.13.6
 Depends: prettyGraphs (>= 2.1.4), TExPosition (>= 2.6.10), ExPosition
         (>= 2.8.19), InPosition (>= 0.12.7)
 License: GPL-2
+NeedsCompilation: no
+
+Package: TipDatingBeast
+Version: 0.1-6
+Depends: R (>= 3.1.2)
+Imports: mclust, utils, stats
+License: GPL (>= 2)
+Archs: i386, x64
 NeedsCompilation: no
 
 Package: tipom
