@@ -5844,8 +5844,8 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: cmsaf
-Version: 1.4
-Depends: ncdf4, RNetCDF, sp, raster, stats, fields
+Version: 1.5
+Depends: ncdf4, sp, raster, stats, fields
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -21495,6 +21495,15 @@ Suggests: knitr, lattice, lme4, rjags
 License: GPL-2
 NeedsCompilation: no
 
+Package: lulcc
+Version: 1.0.0
+Depends: methods, raster, R (>= 3.1.0)
+Imports: ROCR, lattice, rasterVis
+Suggests: caret, rpart, randomForest, gsubfn, Hmisc, plyr,
+        RColorBrewer,
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: Luminescence
 Version: 0.4.4
 Depends: R (>= 3.1.2), utils
@@ -32340,7 +32349,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: randtoolbox
-Version: 1.16
+Version: 1.17
 Depends: rngWELL (>= 0.10-1)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
