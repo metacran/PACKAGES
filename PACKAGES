@@ -15402,6 +15402,13 @@ Depends: R (>= 2.10.0), methods, stats, graphics, fGarch, fastICA
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: googlePublicData
+Version: 0.15.7.28
+Depends: R (>= 3.2.0)
+Imports: XLConnect, XML, utils
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: googlesheets
 Version: 0.1.0
 Depends: R (>= 3.1.1)
