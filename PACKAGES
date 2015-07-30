@@ -2098,7 +2098,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bayesDccGarch
-Version: 1.1
+Version: 1.2
 Depends: R (>= 2.0), numDeriv, coda
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -4288,7 +4288,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Cairo
-Version: 1.5-7
+Version: 1.5-8
 Depends: R (>= 2.4.0)
 Imports: grDevices, graphics
 Suggests: png
@@ -34347,7 +34347,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RESS
-Version: 1.1
+Version: 1.2
+Imports: utils
 License: LGPL-3
 NeedsCompilation: no
 
@@ -35120,8 +35121,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RJafroc
-Version: 0.0.1
-Depends: tools, xlsx, ggplot2, stringr, utils
+Version: 0.1.0
+Depends: tools, xlsx, ggplot2, stringr, utils, stats, shiny
 Suggests: knitr
 License: GPL-3
 NeedsCompilation: no
@@ -35915,9 +35916,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: robustreg
-Version: 0.1-7
-Depends: R (>= 2.3.0)
-Imports: Rcpp (>= 0.11.3), Matrix (>= 1.1.0)
+Version: 0.1-8
+Depends: R (>= 3.0.0)
+Imports: stats (>= 3.0.0), Matrix (>= 1.1.0), Rcpp (>= 0.11.3)
 LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -46536,9 +46537,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wq
-Version: 0.4.3
-Depends: R (>= 3.0.0), methods
-Imports: graphics, zoo, ggplot2 (>= 0.9), reshape2
+Version: 0.4.4
+Depends: R (>= 3.0.0), methods, zoo
+Imports: graphics, grDevices, stats, ggplot2 (>= 0.9), reshape2
 License: GPL-2
 NeedsCompilation: no
 
