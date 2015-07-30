@@ -18939,7 +18939,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: ivmodel
-Version: 1.0
+Version: 1.1
 Depends: Matrix
 License: GPL-2
 NeedsCompilation: no
