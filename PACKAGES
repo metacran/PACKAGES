@@ -3708,6 +3708,14 @@ Suggests: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: bnstruct
+Version: 1.0
+Depends: R (>= 2.10), bitops, Matrix, methods
+Imports: igraph
+Suggests: graph, Rgraphviz, knitr, testthat
+License: GPL (>= 2) | file LICENSE
+NeedsCompilation: yes
+
 Package: boa
 Version: 1.1.8-1
 Depends: R (>= 2.7)
@@ -23611,9 +23619,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mixOmics
-Version: 5.0-4
-Depends: R (>= 2.10), MASS, lattice
-Imports: RGCCA, igraph, rgl, pheatmap
+Version: 5.1.1
+Depends: R (>= 2.10), MASS, lattice, ggplot2
+Imports: igraph, rgl, pheatmap, ellipse
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -46898,7 +46906,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: YuGene
-Version: 1.1.2
+Version: 1.1.4
 Depends: mixOmics,R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: no
