@@ -36206,7 +36206,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ROracle
-Version: 1.1-12
+Version: 1.2-1
 Depends: methods, DBI (>= 0.2-5)
 Imports: utils
 License: LGPL
