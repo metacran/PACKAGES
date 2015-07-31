@@ -18260,6 +18260,12 @@ Depends: R (>= 2.10.0), MASS
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: InformationValue
+Version: 1.0.1
+Imports: ggplot2
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: informR
 Version: 1.0-5
 Depends: R (>= 2.12), abind, relevent
@@ -23390,8 +23396,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mipfp
-Version: 2.0
-Depends: cmm, Rsolnp, numDeriv
+Version: 2.2
+Depends: cmm, Rsolnp, numDeriv, R(>= 2.10.0)
 License: GPL-2
 NeedsCompilation: no
 
@@ -39246,7 +39252,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shinyjs
-Version: 0.0.7.0
+Version: 0.0.8.3
 Depends: R (>= 3.1.0)
 Imports: shiny (>= 0.11.1)
 Suggests: knitr (>= 1.7), testthat (>= 0.9.1), V8 (>= 0.6)
@@ -42500,7 +42506,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: sudokuAlt
-Version: 0.1-5
+Version: 0.1-6
 Depends: R (>= 3.1.0), stats
 Imports: graphics
 Suggests: sudoku
