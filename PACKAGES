@@ -5544,7 +5544,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: climwin
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 2.10), ggplot2, gridExtra
 Imports: evd, lme4, lubridate, MuMIn, reshape
 Suggests: testthat, knitr
@@ -8295,12 +8295,13 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dendextend
-Version: 1.0.1
+Version: 1.1.0
 Depends: R (>= 3.0.0)
 Imports: utils, stats, magrittr (>= 1.0.1), whisker
 Suggests: dendextendRcpp (>= 0.5.0), knitr, testthat, colorspace,
-        ggplot2, plyr, ape, profdpm, microbenchmark, gplots, d3heatmap,
-        dynamicTreeCut, pvclust, corrplot, DendSer, MASS, cluster, covr
+        ggplot2, plyr, ape, profdpm, microbenchmark, gplots, NMF,
+        d3heatmap, dynamicTreeCut, pvclust, corrplot, DendSer, MASS,
+        cluster, circlize (>= 0.2.5), covr
 Enhances: ggdendro, labeltodendro,dendroextras, data.table, rpart
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -16420,9 +16421,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Harvest.Tree
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.1)
-Imports: rpart
+Imports: rpart,stats
 License: GPL-2
 NeedsCompilation: no
 
@@ -24644,6 +24645,11 @@ Depends: R (>= 2.10), survival, igraph, methods
 License: Artistic-2.0
 NeedsCompilation: yes
 
+Package: MRQoL
+Version: 1.0
+License: GPL (>= 2.0)
+NeedsCompilation: no
+
 Package: MRSP
 Version: 0.4.3
 Depends: methods, parallel, compiler, matrixcalc, Formula, R (>=
@@ -25482,13 +25488,14 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: myTAI
-Version: 0.2.1
+Version: 0.3.0
 Depends: R (>= 3.1.1)
 Imports: Rcpp (>= 0.11.3), nortest (>= 1.0-2), fitdistrplus (>= 1.0-2),
         parallel (>= 3.1.1), foreach (>= 1.4.2), doParallel (>= 1.0.8),
         dplyr (>= 0.3.0), RColorBrewer (>= 1.1-2), taxize (>= 0.6.0),
         edgeR, methods (>= 3.1.1), graphics (>= 3.1.1), stats (>=
-        3.1.1), grDevices (>= 3.1.1), utils (>= 3.1.1)
+        3.1.1), grDevices (>= 3.1.1), utils (>= 3.1.1), reshape2 (>=
+        1.4.1), ggplot2 (>= 1.0.1)
 LinkingTo: Rcpp
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat (>= 0.9.1)
@@ -27322,9 +27329,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: optmatch
-Version: 0.9-3
-Depends: R (>= 2.15.1), stats, methods, graphics, digest
-Suggests: boot, RItools, biglm, testthat, survival, brglm, arm
+Version: 0.9-5
+Depends: R (>= 2.15.1), stats, methods, graphics, survival
+Imports: Rcpp, RItools, digest
+LinkingTo: Rcpp
+Suggests: boot, biglm, testthat, brglm, arm
 License: file LICENSE
 NeedsCompilation: yes
 
@@ -29165,7 +29174,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: phonTools
-Version: 0.2-2.0
+Version: 0.2-2.1
 Depends: R (>= 2.15)
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -33585,7 +33594,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: rdrop2
-Version: 0.6
+Version: 0.7.0
 Depends: R (>= 3.1.1)
 Imports: assertthat, data.table, dplyr, httr, jsonlite, magrittr
 Suggests: testthat, uuid
@@ -36298,6 +36307,12 @@ Version: 0.5
 Depends: R (>= 3.1.0), rpart
 Suggests: RODBC
 License: GPL-3
+NeedsCompilation: no
+
+Package: rpca
+Version: 0.2.3
+Imports: compiler
+License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: RPCLR
