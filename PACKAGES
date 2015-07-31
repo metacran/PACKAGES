@@ -18583,6 +18583,14 @@ Version: 0.91
 License: GPL
 NeedsCompilation: no
 
+Package: iotools
+Version: 0.1-12
+Depends: R (>= 2.9.0)
+Imports: methods, parallel, utils
+Suggests: testthat
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
+
 Package: ipdmeta
 Version: 2.4
 Depends: nlme, methods
@@ -20503,8 +20511,9 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: liftr
-Version: 0.1
-Imports: yaml, knitr, rmarkdown
+Version: 0.2
+Depends: R (>= 3.0.2)
+Imports: yaml, knitr, rmarkdown, stringr
 License: GPL
 NeedsCompilation: no
 
@@ -24911,8 +24920,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multcompView
-Version: 0.1-5
-Depends: grid
+Version: 0.1-7
+Imports: grid
 Suggests: multcomp, pgirmess, MASS
 License: GPL
 NeedsCompilation: no
@@ -26984,7 +26993,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: oglmx
-Version: 1.0.2
+Version: 1.0.3
 Depends: maxLik
 Imports: stats
 Suggests: glmx, lmtest
