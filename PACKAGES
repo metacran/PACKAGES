@@ -44232,6 +44232,13 @@ LinkingTo: Rcpp, RcppEigen
 License: GPL-2
 NeedsCompilation: yes
 
+Package: Tmisc
+Version: 0.1.1
+Depends: R (>= 3.0.0)
+Imports: dplyr, utils
+License: GPL-3
+NeedsCompilation: no
+
 Package: tmle
 Version: 1.2.0-4
 Depends: SuperLearner
