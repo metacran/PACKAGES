@@ -7361,6 +7361,15 @@ Enhances: bit64
 License: Apache License (== 2.0)
 NeedsCompilation: yes
 
+Package: ctmm
+Version: 0.2.7
+Depends: R (>= 2.10)
+Imports: expm, graphics, grDevices, manipulate, MASS, Matrix, methods,
+        numDeriv, raster, rgdal, sp, stats, utils
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
 Package: cts
 Version: 1.0-19
 License: GPL (>= 2)
@@ -10944,6 +10953,13 @@ Depends: plotrix, R (>= 2.14)
 Suggests: survival, Hmisc
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: EPGLM
+Version: 1.0
+Depends: Rcpp, MASS
+LinkingTo: Rcpp, RcppArmadillo, BH
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: Epi
 Version: 1.1.67
