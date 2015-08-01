@@ -32814,7 +32814,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: rcbalance
-Version: 1.6
+Version: 1.7
 Depends: R (>= 3.0.0), MASS, plyr
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -46774,6 +46774,16 @@ Imports: stats4, utils, methods, statnet, statnet.common, network, sna,
 LinkingTo: Rcpp
 Suggests: RSiena (>= 1.0.12.169)
 License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: xgboost
+Version: 0.4-1
+Depends: R (>= 2.10)
+Imports: Matrix (>= 1.1-0), methods, data.table (>= 1.9.4), magrittr
+        (>= 1.5), stringr (>= 0.6.2)
+Suggests: knitr, ggplot2 (>= 1.0.0), DiagrammeR (>= 0.6), Ckmeans.1d.dp
+        (>= 3.3.1), vcd (>= 1.3)
+License: Apache License (== 2.0) | file LICENSE
 NeedsCompilation: yes
 
 Package: xgobi
