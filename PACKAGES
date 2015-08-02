@@ -8450,8 +8450,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: descr
-Version: 1.1.1
-Imports: xtable
+Version: 1.1.2
+Imports: xtable, utils, grDevices, graphics, stats
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -12996,7 +12996,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: forecTheta
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.2), forecast, parallel
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18700,6 +18700,14 @@ Version: 1.0
 License: GPL-3
 NeedsCompilation: no
 
+Package: IRISMustangMetrics
+Version: 1.0.0
+Depends: R (>= 3.1.0), IRISSeismic (>= 1.0.5)
+Imports: methods, pracma, RCurl, seismicRoll (>= 1.0.1), signal,
+        stringr, XML
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: IRISSeismic
 Version: 1.0.5
 Depends: R (>= 3.1.0)
@@ -23599,7 +23607,7 @@ License: Unlimited
 NeedsCompilation: yes
 
 Package: mixAK
-Version: 4.1-1
+Version: 4.2
 Depends: R (>= 3.0.0), colorspace, lme4 (>= 1.0)
 Imports: graphics, stats, splines, fastGHQuad, mnormt, parallel, coda
 License: GPL (>= 3)
@@ -37272,9 +37280,9 @@ License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: rts
-Version: 1.0-3
-Depends: methods, raster, xts, zoo (>= 1.7-2)
-Suggests: rgdal (>= 0.6-28)
+Version: 1.0-9
+Depends: methods, sp (>= 1.0-13), raster, xts, zoo
+Suggests: rgdal, RCurl
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -41693,8 +41701,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: squash
-Version: 1.0.6
-Depends: grDevices
+Version: 1.0.7
+Depends: graphics, grDevices, methods
 License: Artistic-2.0
 NeedsCompilation: no
 
@@ -46781,7 +46789,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: xgboost
-Version: 0.4-1
+Version: 0.4-2
 Depends: R (>= 2.10)
 Imports: Matrix (>= 1.1-0), methods, data.table (>= 1.9.4), magrittr
         (>= 1.5), stringr (>= 0.6.2)
