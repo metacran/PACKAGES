@@ -4052,7 +4052,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: brms
-Version: 0.4.0
+Version: 0.4.1
 Depends: R (>= 3.1.0), rstan (>= 2.7.0), Rcpp (>= 0.11.5), ggplot2 (>=
         1.0.1)
 Imports: methods, stats, grDevices, abind, reshape2, parallel (>=
@@ -7611,8 +7611,9 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: D3M
-Version: 0.31
-Imports: Rcpp, beanplot, stats, parallel, graphics, grDevices
+Version: 0.40
+Imports: Rcpp (>= 0.11.6), beanplot, stats, parallel, graphics,
+        grDevices
 LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -13030,10 +13031,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: forestFloor
-Version: 1.5
-Imports: Rcpp (>= 0.11.3), rgl, kknn, trimTrees
+Version: 1.8.3
+Imports: Rcpp (>= 0.11.3), rgl, kknn, ggplot2, gridExtra
 LinkingTo: Rcpp
-Suggests: randomForest
+Suggests: randomForest, trimTrees, utils
 License: GPL-2
 NeedsCompilation: yes
 
