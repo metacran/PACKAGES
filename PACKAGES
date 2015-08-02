@@ -10131,10 +10131,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Ecfun
-Version: 0.1-4
+Version: 0.1-6
 Depends: R (>= 3.0.1)
 Imports: fda, gdata, RCurl, XML, tis, jpeg, MASS, TeachingDemos,
-        stringi
+        stringi, methods
 Suggests: BMA, car, DescTools, Ecdat, maps, grid, gridBase, pryr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14353,9 +14353,11 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: GeneNet
-Version: 1.2.12
-Depends: R (>= 2.15.1), corpcor (>= 1.6.7), longitudinal (>= 1.1.10),
-        fdrtool (>= 1.2.13), igraph (>= 0.6)
+Version: 1.2.13
+Depends: R (>= 3.0.2), corpcor (>= 1.6.8), longitudinal (>= 1.1.12),
+        fdrtool (>= 1.2.15)
+Imports: stats, grDevices
+Suggests: graph, Rgraphviz
 License: GPL (>= 3)
 NeedsCompilation: no
 
