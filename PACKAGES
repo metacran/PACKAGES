@@ -9791,6 +9791,14 @@ Depends: R (>= 2.10.0), proxy
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: dtwclust
+Version: 0.1.0
+Depends: flexclust, proxy, dtw
+Imports: stats, methods, caTools, ggplot2, reshape2, modeltools
+Suggests: TSdist
+License: GPL-3
+NeedsCompilation: no
+
 Package: dualScale
 Version: 0.9.1
 Depends: matrixcalc, ff, vcd, lattice, Matrix
@@ -11937,7 +11945,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fast
-Version: 0.63
+Version: 0.64
 Depends: zoo
 License: GPL-2
 NeedsCompilation: no
@@ -44725,6 +44733,14 @@ Version: 0.1-2
 Depends: R (>= 1.9.0)
 Suggests: fpc
 License: GPL
+NeedsCompilation: no
+
+Package: trimr
+Version: 1.0.0
+Depends: R (>= 3.1.1)
+Imports: stats
+Suggests: knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: trimTrees
