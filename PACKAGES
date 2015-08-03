@@ -9592,8 +9592,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dr
-Version: 3.0.9
+Version: 3.0.10
 Depends: MASS
+Imports: stats,graphics
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -11395,10 +11396,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: evolqg
-Version: 0.1-5
+Version: 0.1-6
 Depends: R (>= 3.1.0), plyr (>= 1.7.1)
-Imports: Rcpp (>= 0.11), reshape2, ggplot2, magrittr, tidyr, vegan,
-        ape, phytools, mvtnorm
+Imports: Rcpp (>= 0.11), Matrix, reshape2, ggplot2, magrittr, tidyr,
+        vegan, ape, phytools, mvtnorm, graphics, grDevices, methods,
+        stats, utils
 LinkingTo: Rcpp
 Suggests: testthat (>= 0.2), foreach, grid, gridExtra, doParallel
 License: MIT + file LICENSE
@@ -17455,9 +17457,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: httpuv
-Version: 1.3.2
+Version: 1.3.3
 Depends: R (>= 2.15.1), methods
-Imports: Rcpp (>= 0.11.0)
+Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp
 License: GPL-3 | file LICENSE
 NeedsCompilation: yes
@@ -21961,12 +21963,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: markovchain
-Version: 0.3.1
+Version: 0.4
 Depends: R (>= 3.0.0), methods
 Imports: igraph, Matrix, matlab, expm, stats4, parallel, Rcpp (>=
-        0.11.5), RcppParallel, utils, MultinomialCI, stats
+        0.11.5), RcppParallel, utils, stats
 LinkingTo: Rcpp, RcppParallel, RcppArmadillo
-Suggests: knitr, testthat
+Suggests: knitr, testthat, diagram, DiagrammeR, msm, etm
 License: GPL-2
 NeedsCompilation: yes
 
@@ -32330,7 +32332,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: randNames
-Version: 0.2
+Version: 0.2.1
 Depends: R (>= 3.1.2)
 Imports: dplyr, httr, jsonlite
 Suggests: gender, testthat
@@ -35945,7 +35947,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: RObsDat
-Version: 15.02
+Version: 15.08
 Depends: R (>= 2.11.0), methods, zoo
 Imports: spacetime, xts, DBI, vwr, e1071, sp
 Suggests: RSQLite, testthat, RColorBrewer, maptools, SSOAP, XML,
@@ -46830,6 +46832,14 @@ LinkingTo: Rcpp
 Suggests: RSiena (>= 1.0.12.169)
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: xergm.common
+Version: 1.5.1
+Depends: R (>= 2.14.0), ergm (>= 3.2.4)
+Imports: methods, utils
+Suggests: xergm
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: xgboost
 Version: 0.4-2
