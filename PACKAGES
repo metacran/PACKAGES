@@ -783,7 +783,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ALS
-Version: 0.0.5
+Version: 0.0.6
 Depends: nnls (>= 1.1), Iso, R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7549,7 +7549,7 @@ License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: cwhmisc
-Version: 5.0
+Version: 6.0
 Depends: R (>= 2.0), lattice, grid
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -21793,7 +21793,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapdata
-Version: 2.2-4
+Version: 2.2-5
 Depends: R (>= 2.14.0), maps (>= 2.0-7)
 License: GPL-2
 NeedsCompilation: yes
@@ -21841,14 +21841,14 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mapproj
-Version: 1.2-3
+Version: 1.2-4
 Depends: maps (>= 2.3-0)
 Imports: stats, graphics
 License: Lucent Public License
 NeedsCompilation: yes
 
 Package: maps
-Version: 2.3-10
+Version: 2.3-11
 Depends: R (>= 2.14.0)
 Imports: graphics, utils
 Suggests: mapproj (>= 1.2-0), mapdata (>= 2.2-4)
@@ -34304,6 +34304,13 @@ Depends: R (>= 3.0.0)
 Imports: data.table, digest, httr, plyr, R.cache
 Suggests: xlsx
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: repo
+Version: 1.0
+Imports: digest, tools
+Suggests: igraph, knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: repolr
@@ -46969,6 +46976,14 @@ Version: 1.0-26
 Depends: R (>= 2.11.0)
 Imports: grDevices, graphics, stats, utils
 Suggests: vegan, ccaPP, randomForest, gam, fastICA, parallel
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: yakmoR
+Version: 0.1.0
+Imports: Rcpp (>= 0.11.6), checkmate (>= 1.5.1), BBmisc (>= 1.9)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
 License: GPL (>= 2)
 NeedsCompilation: yes
 
