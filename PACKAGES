@@ -1550,7 +1550,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: aSPU
-Version: 1.36
+Version: 1.37
 Depends: R(>= 3.0.0)
 Suggests: knitr
 License: GPL-3
@@ -7611,7 +7611,7 @@ License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
 Package: D3M
-Version: 0.40
+Version: 0.41
 Imports: Rcpp (>= 0.11.6), beanplot, stats, parallel, graphics,
         grDevices
 LinkingTo: Rcpp
@@ -29462,6 +29462,14 @@ Enhances: DBI, RPostgreSQL, shiny, testthat, tools, rpart
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: pixiedust
+Version: 0.1.1
+Depends: R (>= 3.2.1)
+Imports: ArgumentCheck, broom, dplyr, knitr, lazyWeave, magrittr, tidyr
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: pixmap
 Version: 0.4-11
 Depends: methods
@@ -37299,7 +37307,7 @@ License: CC BY-NC-SA 4.0
 NeedsCompilation: yes
 
 Package: rts
-Version: 1.0-9
+Version: 1.0-10
 Depends: methods, sp (>= 1.0-13), raster, xts, zoo
 Suggests: rgdal, RCurl
 License: GPL (>= 3)
@@ -44558,6 +44566,13 @@ Package: TRAMPR
 Version: 1.0-7
 Depends: R (>= 2.4)
 License: GPL-2
+NeedsCompilation: no
+
+Package: transcribeR
+Version: 0.0.0
+Imports: httr
+Suggests: knitr
+License: GPL-3
 NeedsCompilation: no
 
 Package: translate
