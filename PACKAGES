@@ -19474,8 +19474,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: kinship2
-Version: 1.6.0
-Depends: R (>= 2.14.0), Matrix, quadprog
+Version: 1.6.4
+Depends: R (>= 3.1.0), Matrix, quadprog
+Imports: graphics, stats, methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -28782,9 +28783,9 @@ License: MIT + file LICENSE
 NeedsCompilation: yes
 
 Package: pedgene
-Version: 2.1
-Depends: R (>= 3.0.1), stats, Matrix, CompQuadForm, survey, kinship2
-        (>= 1.5.4)
+Version: 2.7
+Depends: R (>= 3.1.1), stats, Matrix, CompQuadForm, survey, kinship2
+        (>= 1.6.0)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -34328,9 +34329,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ReporteRs
-Version: 0.7.8
+Version: 0.8.2
 Depends: R (>= 3.0),ReporteRsjars (>= 0.0.2)
-Imports: rJava
+Imports: graphics, grDevices, rJava, utils
 Suggests: ggplot2
 License: GPL-3
 NeedsCompilation: yes
@@ -43284,7 +43285,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: taber
-Version: 0.0.1
+Version: 0.1.0
 Imports: magrittr, dplyr
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
