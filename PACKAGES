@@ -22870,10 +22870,10 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: MetaLandSim
-Version: 0.3
+Version: 0.4
 Depends: R (>= 2.10), tcltk, spatstat, stats, sp
 Imports: Biobase, e1071, fgui, grDevices, graphics, googleVis,
-        maptools, rgeos, spgrass6, raster
+        maptools, rgeos, rgrass7, raster
 Suggests: rasterVis
 License: GPL (>= 2)
 NeedsCompilation: no
