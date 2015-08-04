@@ -33339,8 +33339,8 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.5.200.1.0
-Imports: Rcpp (>= 0.11.0)
+Version: 0.5.300.4
+Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
 License: GPL (>= 2)
@@ -47006,7 +47006,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: yakmoR
-Version: 0.1.0
+Version: 0.1.1
 Imports: Rcpp (>= 0.11.6), checkmate (>= 1.5.1), BBmisc (>= 1.9)
 LinkingTo: Rcpp
 Suggests: knitr, testthat
