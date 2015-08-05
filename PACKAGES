@@ -3416,6 +3416,13 @@ Version: 1.0-6
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: BiTrinA
+Version: 1.0
+Depends: methods, diptest
+Imports: graphics, stats
+License: Artistic-2.0
+NeedsCompilation: yes
+
 Package: BivarP
 Version: 1.0
 Depends: dfoptim, survival, copula
@@ -4171,6 +4178,16 @@ LinkingTo: Boom, BH (>= 1.15.0-2)
 License: LGPL-2.1 | file LICENSE
 NeedsCompilation: yes
 
+Package: btergm
+Version: 1.5.2
+Depends: R (>= 2.14.0), xergm.common (>= 1.5.1)
+Imports: stats4, utils, methods, graphics, statnet, statnet.common,
+        network, sna, ergm (>= 3.2.4), texreg (>= 1.34), Matrix,
+        parallel, boot, coda, stats, ROCR, speedglm
+Suggests: RSiena (>= 1.0.12.169), xergm
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: btf
 Version: 1.1
 Depends: R (>= 3.1.0)
@@ -4371,7 +4388,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: camtrapR
-Version: 0.97.0
+Version: 0.97.1
 Depends: R (>= 3.1.0)
 Imports: methods, overlap
 Suggests: unmarked
@@ -15304,7 +15321,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: GMCM
-Version: 1.2.1
+Version: 1.2.2
 Imports: Rcpp (>= 0.10.6)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: idr, Hmisc, RColorBrewer, foreach, jpeg, testthat (>= 0.3),
@@ -42118,7 +42135,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: statnet.common
-Version: 3.2.2
+Version: 3.2.3
+Imports: utils
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
@@ -43853,8 +43871,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: tgcd
-Version: 1.4
+Version: 1.5
 Depends: R (>= 3.0.1)
+Imports: graphics, stats, utils
 License: GPL-2 | GPL-3
 NeedsCompilation: yes
 
