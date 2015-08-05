@@ -9842,9 +9842,10 @@ License: GPL (>= 2.0)
 NeedsCompilation: no
 
 Package: DVHmetrics
-Version: 0.3
+Version: 0.3.1
 Depends: R (>= 3.0.0)
-Imports: ggplot2, reshape2, grid, shiny, KernSmooth, markdown
+Imports: ggplot2, grid, markdown, reshape2, shiny, KernSmooth, stats,
+        utils
 Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -10330,6 +10331,15 @@ Package: eegkitdata
 Version: 1.0
 Depends: R (>= 2.10)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: EEM
+Version: 1.0.1
+Depends: R (>= 3.0.0)
+Imports: tools, reshape2, graphics, colorRamps, utils, readxl, R.utils,
+        sp
+Suggests: stats, pls, knitr, testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: eeptools
