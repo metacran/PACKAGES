@@ -1048,9 +1048,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: aoos
-Version: 0.2.0
+Version: 0.3.0
 Depends: methods, R(>= 3.2.0)
-Suggests: testthat, knitr
+Suggests: testthat, knitr, microbenchmark, R6
 License: GPL-3 | file LICENSE
 NeedsCompilation: no
 
@@ -24061,9 +24061,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mmand
-Version: 1.1.0
+Version: 1.2.0
 Depends: R (>= 2.12.1)
-Imports: reportr, Rcpp
+Imports: stats, methods, graphics, grDevices, reportr, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: png, testthat (>= 0.9)
 License: GPL-2
