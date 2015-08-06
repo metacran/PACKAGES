@@ -689,7 +689,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: alineR
-Version: 1.1
+Version: 1.1.1
 License: GPL-3
 NeedsCompilation: yes
 
@@ -3620,8 +3620,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BMhyd
-Version: 1.2-2
-Imports: corpcor, numDeriv
+Version: 1.2-8
+Imports: corpcor, numDeriv, geiger, ape, TreeSim, phytools, phylobase,
+        mvtnorm, grDevices, graphics, methods, stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -7395,6 +7396,13 @@ NeedsCompilation: yes
 Package: CTT
 Version: 2.1
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: CTTShiny
+Version: 0.1
+Depends: R (>= 3.0.3)
+Imports: shiny, shinyAce, CTT, ltm, psych
+License: GPL-3
 NeedsCompilation: no
 
 Package: ctv
@@ -16503,6 +16511,12 @@ Suggests: R.utils, bitops
 License: GPL
 NeedsCompilation: yes
 
+Package: hashr
+Version: 0.1.0
+Suggests: testthat
+License: GPL-3
+NeedsCompilation: yes
+
 Package: hasseDiagram
 Version: 0.1.1
 Depends: Rgraphviz (>= 2.6.0), grid (>= 3.0.2)
@@ -16846,7 +16860,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: HiClimR
-Version: 1.2.2
+Version: 1.2.3
 Depends: R (>= 2.10)
 Imports: graphics, grDevices, stats, utils
 License: GPL (>= 2)
@@ -17522,7 +17536,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: hwde
-Version: 0.64
+Version: 0.65
 Depends: R (>= 2.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -27088,6 +27102,15 @@ Imports: plyr
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: olctools
+Version: 0.2.1
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+OS_type: unix
+NeedsCompilation: yes
+
 Package: OligoSpecificitySystem
 Version: 1.3
 Depends: tcltk,tkrplot
@@ -28256,7 +28279,7 @@ License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
 
 Package: partitions
-Version: 1.9-15
+Version: 1.9-18
 Imports: gmp, polynom
 License: GPL
 NeedsCompilation: yes
@@ -29065,13 +29088,13 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: pez
-Version: 1.0-0
+Version: 1.1-0
 Depends: ape (>= 3.1-4)
 Imports: caper (>= 0.5-2), picante (>= 1.6-2), quantreg (>= 5.05),
         mvtnorm (>= 1.0-0), vegan (>= 2.0-10), ade4 (>= 1.6-2),
-        apTreeshape (>= 1.4-5), FD (>= 1.0-12), plotrix (>= 3.5-7),
-        Matrix (>= 1.1-4)
-Suggests: knitr (>= 1.6), methods (>= 3.1.1), lme4 (>= 1.1-7)
+        apTreeshape (>= 1.4-5), FD (>= 1.0-12), Matrix (>= 1.1-4),
+        methods (>= 3.1.0)
+Suggests: knitr (>= 1.6), lme4 (>= 1.1-7)
 License: GPL-3
 NeedsCompilation: no
 
@@ -34046,10 +34069,12 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: refund
-Version: 0.1-11
-Depends: R (>= 2.14.0), fda,
-Imports: lattice, boot, mgcv (>= 1.7-28), MASS, glmnet, magic, nlme,
-        wavethresh, Matrix, gamm4, matrixStats, lme4, splines, RLRsim
+Version: 0.1-12
+Depends: R (>= 2.14.0)
+Imports: fda, Matrix, lattice, boot, mgcv (>= 1.8-4), MASS, magic,
+        nlme, gamm4, lme4, RLRsim, splines, grpreg, ggplot2, stats,
+        MCMCpack, pbs, methods
+Suggests: RColorBrewer, reshape2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -45263,8 +45288,8 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: tumgr
-Version: 0.0.2
-Depends: R (>= 3.2.1), minpack.lm
+Version: 0.0.3
+Depends: R (>= 3.1.0), minpack.lm
 Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
@@ -45414,7 +45439,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: udunits2
-Version: 0.6
+Version: 0.8
 Depends: R (>= 2.10.0)
 License: GPL-2
 NeedsCompilation: yes
@@ -45622,7 +45647,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: UsingR
-Version: 2.0-4
+Version: 2.0-5
 Depends: R (>= 2.15.0), MASS, HistData, Hmisc
 Suggests: zoo, coin, ggplot2, vcd, lubridate, aplpack
 License: GPL (>= 2)
