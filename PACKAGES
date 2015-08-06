@@ -7149,7 +7149,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: crch
-Version: 0.9-0
+Version: 0.9-1
 Depends: R (>= 2.10.0)
 Imports: stats, Formula, ordinal
 Suggests: glmx, lmtest
@@ -17817,8 +17817,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: ibmdbR
-Version: 1.36.7
-Depends: R (>= 2.15.1), methods, RODBC, MASS
+Version: 1.42.2
+Depends: R (>= 2.15.1), methods, RODBC, MASS, Matrix, arules
 License: GPL-3
 NeedsCompilation: no
 
@@ -20473,6 +20473,12 @@ Package: lfactors
 Version: 0.4.0
 Depends: R (>= 3.1.0), methods
 License: GPL-2
+NeedsCompilation: no
+
+Package: LFDR.MLE
+Version: 1.0
+Depends: stats, methods
+License: GPL-3
 NeedsCompilation: no
 
 Package: lfe
@@ -27959,9 +27965,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: pairwiseCI
-Version: 0.1-22
+Version: 0.1-25
 Depends: MCPAN
-Imports: coin, boot, mratios, binMto, MASS
+Imports: graphics, stats, coin, boot, mratios, binMto, MASS, mcprofile
 License: GPL-2
 NeedsCompilation: no
 
