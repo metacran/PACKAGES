@@ -3263,15 +3263,15 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: biomartr
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.1.1)
-Imports: biomaRt (>= 2.24.0), Biostrings (>= 2.32.1), data.table (>=
-        1.9.4), dplyr (>= 0.3.0), downloader (>= 0.3), RCurl (>=
-        1.95-4.5), XML (>= 3.98-1.1), httr (>= 0.6.1), stringr (>=
-        0.6.2)
-Suggests: testthat
+Imports: biomaRt, Biostrings, data.table (>= 1.9.4), dplyr (>= 0.3.0),
+        downloader (>= 0.3), RCurl (>= 1.95-4.5), XML (>= 3.98-1.1),
+        httr (>= 0.6.1), stringr (>= 0.6.2)
+Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
+        testthat
 License: GPL-3
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: biomod2
 Version: 3.1-64
@@ -10625,7 +10625,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ELYP
-Version: 0.7-2
+Version: 0.7-3
 Depends: R (>= 2.15.0), survival
 Suggests: emplik
 License: GPL (>= 2)
