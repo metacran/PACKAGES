@@ -40667,6 +40667,12 @@ Suggests: kinship2, scales, Matrix, gdata, doParallel, iterators,
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: solidearthtide
+Version: 1.0.0
+Depends: R (>= 2.7.0)
+License: GPL (>= 3)
+NeedsCompilation: yes
+
 Package: SOLOMON
 Version: 1.0-1
 Depends: tcltk
@@ -44041,6 +44047,13 @@ Package: ThreeWay
 Version: 1.1.2
 Depends: R(>= 2.8.1), base, graphics, stats
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: threewords
+Version: 0.1.0
+Imports: httr
+Suggests: testthat
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: threg
