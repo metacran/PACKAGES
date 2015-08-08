@@ -7476,7 +7476,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: curl
-Version: 0.9.1
+Version: 0.9.2
 Depends: R (>= 2.10.0)
 Suggests: testthat, knitr, jsonlite, rmarkdown, magrittr
 License: MIT + file LICENSE
@@ -37539,10 +37539,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: RVAideMemoire
-Version: 0.9-45-2
-Imports: ade4, boot, cramer, car, lme4 (>= 1.0-4), MASS, mixOmics (>=
-        5.0.2), multcompView, nnet, pspearman, statmod, stats, vegan
-Suggests: lsmeans, ordinal, survival
+Version: 0.9-50
+Imports: ade4, boot, car, cramer, graphics, grDevices, lme4 (>= 1.0-4),
+        MASS, mixOmics (>= 5.0.2), multcompView, nnet, pls, pspearman,
+        statmod, stats, utils, vegan
+Suggests: EMT, lsmeans, npsm, ordinal, survival
 License: GPL-2
 NeedsCompilation: no
 
@@ -38289,6 +38290,12 @@ Version: 1.2
 Imports: utils
 Suggests: ez
 License: GPL
+NeedsCompilation: no
+
+Package: schumaker
+Version: 0.1
+Suggests: knitr, numDeriv, cobs, scam, microbenchmark
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: schwartz97
@@ -46790,6 +46797,12 @@ NeedsCompilation: no
 
 Package: wpp2012
 Version: 2.2-1
+Depends: R (>= 2.14.2)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: wpp2015
+Version: 1.0-0
 Depends: R (>= 2.14.2)
 License: GPL (>= 2)
 NeedsCompilation: no
