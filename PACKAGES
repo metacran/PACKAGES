@@ -3333,8 +3333,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: biotools
-Version: 2.1
-Depends: R (>= 2.15), utils, rpanel, tkrplot, MASS, boot
+Version: 2.2
+Depends: R (>= 2.15), rpanel, tkrplot, MASS
+Imports: utils, stats, graphics, boot, grDevices, datasets
 Suggests: soilphysics
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -24940,8 +24941,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: MST
-Version: 1.0
-Imports: survival, MASS
+Version: 1.1
+Imports: survival, MASS, grDevices, graphics, stats
 License: GPL-2
 NeedsCompilation: no
 
@@ -32326,6 +32327,12 @@ Version: 0.1.6
 Depends: R (>= 3.0.0)
 Imports: RCurl, rjson
 License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: rafalib
+Version: 1.0.0
+Imports: RColorBrewer
+License: Artistic-2.0
 NeedsCompilation: no
 
 Package: rags2ridges
