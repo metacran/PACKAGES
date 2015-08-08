@@ -1607,7 +1607,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: AssocTests
-Version: 0.0-2
+Version: 0.0-3
 Depends: cluster, mvtnorm, combinat, fExtremes, R(>= 2.10.0)
 License: GPL-2
 NeedsCompilation: no
@@ -20804,7 +20804,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: listenv
-Version: 0.3.0
+Version: 0.4.0
 Depends: R (>= 3.1.2)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
