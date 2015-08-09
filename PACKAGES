@@ -14754,6 +14754,14 @@ Suggests: tourr
 License: GPL-2
 NeedsCompilation: no
 
+Package: GERGM
+Version: 0.3.1
+Depends: R (>= 3.0.1)
+Imports: Rcpp, ggplot2, methods, stringr
+LinkingTo: BH, Rcpp, RcppArmadillo
+License: GPL-3
+NeedsCompilation: yes
+
 Package: GESTr
 Version: 0.1
 Depends: R (>= 2.15.0), mclust, gtools
@@ -23621,8 +23629,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: missDeaths
-Version: 1.0
-Depends: survival, rms, relsurv
+Version: 1.2
+Depends: survival, rms, relsurv, cmprsk
 Imports: Rcpp (>= 0.11.1), mitools
 LinkingTo: Rcpp
 License: GPL (>= 2)
