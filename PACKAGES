@@ -4833,6 +4833,14 @@ Suggests: methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: cdcfluview
+Version: 0.4.0
+Depends: R (>= 3.0.0)
+Imports: httr (>= 0.3.0), pbapply, xml2, dplyr, utils
+Suggests: testthat
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: cdcsis
 Version: 1.0
 Depends: R(>= 3.0.1), stats
@@ -19145,6 +19153,14 @@ Depends: corpcor
 License: GPL-2
 NeedsCompilation: no
 
+Package: JacobiEigen
+Version: 0.1
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: knitr, dplyr, tidyr, ggplot2, microbenchmark
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: JADE
 Version: 1.9-92
 Imports: clue
@@ -19315,7 +19331,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: JoSAE
-Version: 0.2.2
+Version: 0.2.3
 Depends: nlme
 Suggests: lattice,xtable
 License: GPL-2
