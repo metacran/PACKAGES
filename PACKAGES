@@ -29126,8 +29126,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: perspectev
-Version: 1.0
-Depends: R (>= 2.10), ggplot2, foreach, ape, doParallel, parallel
+Version: 1.1
+Depends: R (>= 2.10), ggplot2, foreach, ape, doParallel, parallel,
+        grDevices, stats, methods
 Imports: mapproj, boot, sp
 License: GPL-3
 NeedsCompilation: no
