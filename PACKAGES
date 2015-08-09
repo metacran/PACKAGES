@@ -3039,7 +3039,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bigsplines
-Version: 1.0-6
+Version: 1.0-7
+Imports: stats, graphics, grDevices
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -25695,7 +25696,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NAM
-Version: 1.3.3
+Version: 1.3.4
 Depends: R (>= 2.10)
 Imports: Rcpp, randomForest
 LinkingTo: Rcpp
@@ -46854,11 +46855,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: wppExplorer
-Version: 1.6-2
+Version: 1.7-1
 Depends: R (>= 3.0.0)
-Imports: shiny (>= 0.10.0), plyr, reshape2, googleVis, wpp2012, Hmisc,
-        ggplot2
-Suggests: wpp2008, wpp2010
+Imports: shiny (>= 0.10.0), plyr, reshape2, googleVis, wpp2015, Hmisc,
+        ggplot2, DT
+Suggests: wpp2012, wpp2010, testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
