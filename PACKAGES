@@ -4564,6 +4564,15 @@ Suggests: sm, MASS, RSQLite, grid
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: caRpools
+Version: 0.82
+Depends: R (>= 3.1.0)
+Imports:
+        rmarkdown,VennDiagram,DESeq2,sm,biomaRt,seqinr,scatterplot3d,xlsx
+Suggests: BiocGenerics,knitr,stringi
+License: GPL
+NeedsCompilation: no
+
 Package: CARramps
 Version: 0.1.2
 Suggests: coda
@@ -7410,6 +7419,14 @@ Version: 1.0-19
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: ctsem
+Version: 1.1.1
+Depends: R (>= 3.0.0), OpenMx (>= 2.2.4)
+Imports: MASS, Matrix, stats, utils,graphics,methods, grDevices
+Suggests: knitr, testthat
+License: GPL-3
+NeedsCompilation: no
+
 Package: CTT
 Version: 2.1
 License: GPL (>= 2)
@@ -7511,7 +7528,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: cusp
-Version: 2.3.1
+Version: 2.3.3
+Imports: stats, graphics, grDevices, utils
 Suggests: plot3D
 License: GPL-2
 NeedsCompilation: yes
@@ -18255,6 +18273,14 @@ Suggests: knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: ImportExport
+Version: 1.0
+Depends: xlsx,gdata,Hmisc,chron,RODBC
+Imports: haven,utils
+Suggests: shiny,shinyBS,shinythemes,compareGroups,foreign
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: imprProbEst
 Version: 1.0.1
 Depends: R(>= 2.7.0), inline, lpSolve
@@ -27669,7 +27695,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ore
-Version: 1.2.0
+Version: 1.2.1
 Suggests: crayon, rex, testthat
 License: BSD_3_clause + file LICENCE
 NeedsCompilation: yes
@@ -43260,10 +43286,10 @@ License: Artistic-2.0
 NeedsCompilation: no
 
 Package: SWMPr
-Version: 2.0.0
+Version: 2.1.0
 Depends: R (>= 3.1.1), ggplot2, zoo
 Imports: data.table, httr, ggmap, gridExtra, maptools, oce, dplyr,
-        reshape2, tictoc, tidyr, wq, XML
+        RColorBrewer, reshape2, tictoc, tidyr, wq, XML
 License: CC0
 NeedsCompilation: no
 
@@ -43473,9 +43499,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: tableone
-Version: 0.6.3
-Imports: e1071, gmodels
-Suggests: survival, testthat, knitr
+Version: 0.7.0
+Imports: survey, MASS, e1071, zoo, gmodels
+Suggests: survival, testthat, Matrix, dummies, Matching, reshape2,
+        ggplot2, knitr
 License: GPL-2
 NeedsCompilation: no
 
@@ -44097,8 +44124,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: threg
-Version: 1.0.2
-Depends: survival, Formula
+Version: 1.0.3
+Depends: R (>= 2.10), survival, Formula
 License: GPL-2
 NeedsCompilation: no
 
