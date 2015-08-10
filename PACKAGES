@@ -11729,8 +11729,8 @@ License: Apache License 2.0
 NeedsCompilation: no
 
 Package: ExtremeBounds
-Version: 0.1.5
-Imports: Formula
+Version: 0.1.5.1
+Imports: Formula, graphics, methods, stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -15381,7 +15381,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: gMCP
-Version: 0.8-8
+Version: 0.8-9
 Depends: R (>= 3.0.0), rJava (>= 0.6-3), JavaGD, methods, xlsxjars (>=
         0.6.1)
 Imports: MASS, PolynomF, multcomp (>= 1.1), mvtnorm, Matrix,
@@ -21672,10 +21672,11 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: Luminescence
-Version: 0.4.4
-Depends: R (>= 3.1.2), utils
-Imports: methods, XML, shape, rgl, matrixStats, raster, zoo, bbmle,
-        data.table (>= 1.9.4), Rcpp (>= 0.11.4), parallel, minpack.lm
+Version: 0.4.5
+Depends: R (>= 3.2.0), utils
+Imports: methods, assertive, XML, shape, rgl, matrixStats, raster,
+        bbmle, data.table (>= 1.9.4), Rcpp (>= 0.12.0), parallel,
+        minpack.lm, digest
 LinkingTo: Rcpp
 License: GPL-3
 NeedsCompilation: yes
@@ -25369,7 +25370,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: mutossGUI
-Version: 0.1-9
+Version: 0.1-10
 Depends: R (>= 2.8.0), mutoss (>= 0.1-6), multcomp, plotrix
 Imports: rJava (>= 0.8-0), JavaGD (>= 0.5-2), CommonJavaJars (>=
         1.0.4), JGR
@@ -27075,6 +27076,12 @@ Package: ocedata
 Version: 0.1.3
 Depends: R (>= 2.15), methods
 Enhances: oce
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ocomposition
+Version: 1.1
+Depends: R (>= 3.2.1), coda, bayesm
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -40099,7 +40106,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: slfm
-Version: 0.2.1
+Version: 0.2.2
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.0), coda, lattice
 LinkingTo: Rcpp, RcppArmadillo
@@ -40147,11 +40154,11 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: smacof
-Version: 1.6-2
-Depends: R (>= 3.0.2), rgl
-Imports: graphics, stats, polynom, scatterplot3d, Hmisc, colorspace,
-        nnls
-License: GPL-2
+Version: 1.7-0
+Depends: R (>= 3.0.2)
+Imports: graphics, stats, polynom, Hmisc, colorspace, nnls, grDevices
+Suggests: knitr, RgoogleMaps
+License: GPL-3
 NeedsCompilation: yes
 
 Package: smacpod
@@ -43548,7 +43555,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: TapeR
-Version: 0.3.2
+Version: 0.3.3
 Depends: nlme, splines, pracma
 License: GPL (>= 2)
 NeedsCompilation: no
