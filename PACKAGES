@@ -13903,7 +13903,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GameTheory
-Version: 1.0
+Version: 2.0
 Depends: lpSolveAPI, combinat, gtools, ineq, kappalab
 Suggests: R.rsp
 License: GPL (>= 2)
@@ -20890,7 +20890,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: LLSR
-Version: 0.0.1.9425
+Version: 0.0.1.9525
 Depends: R (>= 2.10), rootSolve, XLConnect, digest
 Suggests: testthat
 License: GPL-3
