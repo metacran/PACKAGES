@@ -39518,6 +39518,17 @@ Suggests: testthat
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: shinystan
+Version: 2.0.0
+Depends: R (>= 3.1.0), ggplot2 (>= 1.0.0), shiny (>= 0.12.1)
+Imports: DT (>= 0.1), dygraphs (>= 0.4.5), gridExtra, gtools, markdown
+        (>= 0.7.4), methods, reshape2, stats, shinyjs (>= 0.0.7.0),
+        shinythemes (>= 1.0.1), threejs (>= 0.2.1), utils, xtable (>=
+        1.7-4), xts (>= 0.9-7)
+Suggests: coda, knitr (>= 1.9), rstan (>= 2.7), testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: shinythemes
 Version: 1.0.1
 Depends: R (>= 3.0.0)
