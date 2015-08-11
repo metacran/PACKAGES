@@ -5609,7 +5609,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: clinfun
-Version: 1.0.10
+Version: 1.0.11
 Depends: R (>= 2.0.0), graphics, stats
 Imports: mvtnorm
 Suggests: survival
@@ -8046,7 +8046,7 @@ License: FreeBSD
 NeedsCompilation: no
 
 Package: dbscan
-Version: 0.9-1
+Version: 0.9-2
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: fpc, microbenchmark
@@ -17296,7 +17296,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: hoa
-Version: 2.1.2
+Version: 2.1.4
 Depends: R (>= 3.0.0)
 Imports: graphics, statmod, stats, survival, utils
 Suggests: boot, csampling
@@ -24179,6 +24179,13 @@ Package: mmap
 Version: 0.6-12
 License: GPL-3
 NeedsCompilation: yes
+
+Package: mmc
+Version: 0.0.3
+Depends: R (>= 2.10), survival (>= 2.38-1), MASS (>= 7.3), stats (>=
+        2.5.0)
+License: GNU General Public License (>= 3)
+NeedsCompilation: no
 
 Package: mmcm
 Version: 1.2-5
