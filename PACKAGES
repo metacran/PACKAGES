@@ -1466,7 +1466,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: arulesSequences
-Version: 0.2-6
+Version: 0.2-8
 Depends: R (>= 3.0.2), methods, arules (>= 1.1-1)
 License: GPL-2
 NeedsCompilation: yes
@@ -9538,7 +9538,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: dosresmeta
-Version: 1.3.0
+Version: 1.3.2
 Depends: mvmeta, aod, Matrix
 License: GPL-2
 NeedsCompilation: no
@@ -10038,7 +10038,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dynRB
-Version: 0.2
+Version: 0.4
+Imports: caTools, corrplot
 License: GPL-2
 NeedsCompilation: no
 
@@ -16442,7 +16443,7 @@ License: Apache License (== 2.0)
 NeedsCompilation: no
 
 Package: h5
-Version: 0.9.2
+Version: 0.9.3
 Depends: R (>= 3.2)
 Imports: Rcpp (>= 0.11.5), methods
 LinkingTo: Rcpp
@@ -30559,9 +30560,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: poweRlaw
-Version: 0.30.2
-Depends: R (>= 3.0.0), methods
-Imports: VGAM, parallel
+Version: 0.50.0
+Depends: R (>= 3.0.0)
+Imports: VGAM, parallel, methods, utils, stats
 Suggests: knitr, R.matlab
 License: GPL-2 | GPL-3
 NeedsCompilation: no
@@ -34693,8 +34694,10 @@ Archs: i386, x64
 NeedsCompilation: no
 
 Package: restlos
-Version: 0.1-3
-Depends: som, rgl, geometry, igraph
+Version: 0.2-2
+Depends: R (>= 3.2.1)
+Imports: som (>= 0.3-5), rgl (>= 0.95.1247), geometry (>= 0.3-5),
+        igraph (>= 1.0.1), limSolve (>= 1.5.5.1)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -43614,7 +43617,7 @@ License: GPL-2 | GPL-3
 NeedsCompilation: no
 
 Package: TAM
-Version: 1.10-0
+Version: 1.11-0
 Depends: R (>= 2.15.1), CDM, MASS
 Imports: stats, graphics, utils, grDevices, methods, Rcpp, lavaan,
         WrightMap, tensor, sfsmisc, GPArotation, psych, mvtnorm, msm,
