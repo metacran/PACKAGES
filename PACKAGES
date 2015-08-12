@@ -5579,8 +5579,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: ClimClass
-Version: 1.0
-Depends: R(>= 2.10.0),geosphere,ggplot2,reshape2
+Version: 2.0.1
+Depends: R(>= 2.10.0),geosphere,ggplot2,reshape2, utils
 Suggests: stringr
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -7201,6 +7201,16 @@ Version: 0.0-2
 Depends: R (>= 2.2.0)
 License: Unlimited
 NeedsCompilation: no
+
+Package: creditr
+Version: 0.6.1
+Depends: R (>= 3.1.0)
+Imports: utils, quantmod, devtools, methods, Rcpp (>= 0.10.6), RCurl,
+        XML, zoo, xts
+LinkingTo: Rcpp
+Suggests: testthat
+License: file LICENSE
+NeedsCompilation: yes
 
 Package: credule
 Version: 0.1.3
@@ -13120,7 +13130,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: forestFloor
-Version: 1.8.3
+Version: 1.8.4
 Imports: Rcpp (>= 0.11.3), rgl, kknn, ggplot2, gridExtra
 LinkingTo: Rcpp
 Suggests: randomForest, trimTrees, utils
@@ -22736,6 +22746,12 @@ Version: 0.1-2
 License: CC0
 NeedsCompilation: no
 
+Package: MDimNormn
+Version: 0.8.0
+Depends: R (>= 3.2.0)
+License: GPL-3
+NeedsCompilation: no
+
 Package: MDM
 Version: 1.3
 Depends: R (>= 2.9.0), nnet
@@ -22933,6 +22949,14 @@ Version: 0.2-1
 Depends: gWidgetsRGtk2, ggplot2
 Imports: cairoDevice, rpart
 License: GPL (>= 2.0)
+NeedsCompilation: no
+
+Package: merTools
+Version: 0.1.0
+Depends: R (>= 3.0.2), arm, lme4, methods
+Imports: mvtnorm, DT, shiny, plyr, abind, ggplot2
+Suggests: testthat, knitr, rmarkdown,
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MESS
@@ -23175,6 +23199,13 @@ Package: Methplot
 Version: 1.0
 Imports: ggplot2, grid, reshape
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: MethylCapSig
+Version: 1.0.1
+Depends: R (>= 3.0.0)
+Imports: geepack
+License: LGPL-3
 NeedsCompilation: no
 
 Package: MetNorm
@@ -23826,9 +23857,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: mixexp
-Version: 1.2.1
+Version: 1.2.3
 Depends: gdata, lattice, grid, daewr
-License: GPL-2
+License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MixGHD
@@ -25608,7 +25639,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: mvSLOUCH
-Version: 1.2
+Version: 1.2.1
 Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
 Imports: methods
 License: GPL (>= 2) | file LICENCE
