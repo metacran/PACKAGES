@@ -1536,8 +1536,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: ASMap
-Version: 0.4-4
-Depends: R (>= 2.10), qtl, gtools, fields, lattice
+Version: 0.4-5
+Depends: R (>= 2.10), qtl, gtools, fields, RColorBrewer, lattice
 Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
