@@ -2516,11 +2516,12 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Bchron
-Version: 4.1.1
+Version: 4.1.2
 Depends: inline
 Imports: hdrcde, utils, MASS, ellipse, coda, mclust
+Suggests: knitr
 License: GPL (>= 2)
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: Bclim
 Version: 2.3.1
@@ -4197,7 +4198,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: BSSasymp
-Version: 1.1-0
+Version: 1.1-1
 Imports: fICA (>= 1.0-2), JADE
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -12629,8 +12630,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: fICA
-Version: 1.0-2
-Imports: JADE, Rcpp (>= 0.11.0)
+Version: 1.0-3
+Imports: stats, JADE, Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: BSSasymp
 License: GPL (>= 2)
@@ -19782,8 +19783,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: kml3d
-Version: 2.3
-Depends: methods,clv,rgl,misc3d,longitudinalData(>= 2.3), kml(>= 2.3)
+Version: 2.4
+Depends: methods,clv,rgl,misc3d,longitudinalData(>= 2.4), kml(>= 2.4)
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -33668,7 +33669,7 @@ OS_type: unix
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.5.300.4
+Version: 0.5.400.2.0
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
