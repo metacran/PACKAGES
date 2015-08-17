@@ -21474,6 +21474,12 @@ Imports: gdata, shapes, e1071, pcaMethods, MASS, miscTools
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: LotkasLaw
+Version: 0.0.1.0
+Depends: R (>= 3.1.1)
+License: GPL
+NeedsCompilation: no
+
 Package: LowRankQP
 Version: 1.0.2
 License: GPL (>= 2)
@@ -25268,7 +25274,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: multicool
-Version: 0.1-6
+Version: 0.1-7
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL-2
