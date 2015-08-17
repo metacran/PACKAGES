@@ -7058,7 +7058,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: cp4p
-Version: 0.3
+Version: 0.3.1
 Depends: R (>= 3.2.0), MESS, graphics, stats, multtest, qvalue, limma
 License: GPL-3
 NeedsCompilation: no
@@ -39957,7 +39957,7 @@ License: Unlimited
 NeedsCompilation: no
 
 Package: simmr
-Version: 0.1
+Version: 0.2
 Depends: rjags, ggplot2
 Imports: MASS, compositions, boot, reshape2, coda, graphics, stats
 Suggests: knitr
