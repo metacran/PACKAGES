@@ -29673,6 +29673,14 @@ Depends: phylobase, NHPoisson, ape, igraph
 License: GPL-2
 NeedsCompilation: no
 
+Package: phyndr
+Version: 0.1.0
+Depends: R (>= 3.0)
+Imports: ape
+Suggests: testthat
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: yes
+
 Package: phyreg
 Version: 0.7
 License: GPL-2 | GPL-3
