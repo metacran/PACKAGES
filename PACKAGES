@@ -18894,6 +18894,14 @@ License: MIT + file LICENSE
 OS_type: unix
 NeedsCompilation: yes
 
+Package: ipw
+Version: 1.0-11
+Depends: R (>= 3.0.0)
+Imports: MASS, nnet, survival, geepack, graphics, methods, stats
+Suggests: nlme, survey, boot
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: IQCC
 Version: 0.6
 Depends: qcc, MASS, micEcon, miscTools
@@ -30430,8 +30438,8 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: polysat
-Version: 1.4-0
-Imports: methods
+Version: 1.4-1
+Imports: methods, stats, utils
 Suggests: combinat, ade4, adegenet, ape
 License: GPL-2
 NeedsCompilation: no
@@ -42931,7 +42939,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: stylo
-Version: 0.5.9
+Version: 0.6.0
 Imports: tcltk, tcltk2, ape, pamr, e1071, class, lattice, tsne
 License: GPL (>= 3)
 NeedsCompilation: no
