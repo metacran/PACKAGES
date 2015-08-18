@@ -13703,6 +13703,13 @@ Depends: R (>= 2.10), MASS, fda, elasticnet
 License: GPL-2
 NeedsCompilation: no
 
+Package: fungible
+Version: 1.0
+Depends: R (>= 3.0)
+Imports: e1071, lattice, MASS, mvtnorm, R2Cuba, stringr, methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: funHDDC
 Version: 1.0
 Depends: fda
@@ -15413,7 +15420,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: GlobalOptions
-Version: 0.0.7
+Version: 0.0.8
 Depends: R (>= 2.10.0), methods
 Suggests: testthat (>= 0.3), knitr
 License: GPL (>= 2)
@@ -39619,8 +39626,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: shapes
-Version: 1.1-10
-Depends: scatterplot3d, rgl, MASS
+Version: 1.1-11
+Depends: R (>= 2.10)
+Imports: scatterplot3d, rgl, MASS
 License: GPL-2
 NeedsCompilation: no
 
