@@ -19340,6 +19340,12 @@ Imports: org.Hs.eg.db, AnnotationDbi
 License: Artistic-2.0
 NeedsCompilation: no
 
+Package: JGEE
+Version: 1.0
+Depends: gee, MASS
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: JGL
 Version: 2.3
 Depends: igraph
