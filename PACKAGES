@@ -43,6 +43,13 @@ Version: 0.13.11
 License: GPL (>= 3)
 NeedsCompilation: no
 
+Package: abcrf
+Version: 0.9-4
+Depends: R(>= 2.10.0)
+Imports: MASS, randomForest
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: abctools
 Version: 1.0.3
 Depends: R (>= 2.10), abc, abind, parallel, plyr
@@ -26555,9 +26562,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: NlsyLinks
-Version: 1.302
+Version: 2.0.1
 Depends: R (>= 3.0.0), stats
-Imports: methods, lavaan
+Imports: lavaan, methods
 Suggests: devtools, ggplot2, knitr, plyr, scales, testit, testthat,
         xtable
 License: GPL
@@ -32120,8 +32127,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: quanteda
-Version: 0.8.2-0
-Depends: R (>= 3.2.1)
+Version: 0.8.2-1
+Depends: R (>= 3.2.0)
 Imports: methods, utils, stats, Matrix (>= 1.1), data.table (>= 1.9.3),
         SnowballC, wordcloud, proxy, parallel, Rcpp, ca, stringi
 LinkingTo: Rcpp, RcppArmadillo
@@ -42193,7 +42200,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: SSDforR
-Version: 1.4.10
+Version: 1.4.11
 Depends: R (>= 2.10.0) ,psych,TTR,MASS,tcltk,TSA
 Imports: stats,graphics,grDevices,utils
 License: GPL (>= 2)
