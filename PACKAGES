@@ -9241,8 +9241,8 @@ License: LGPL-3
 NeedsCompilation: no
 
 Package: distrom
-Version: 0.3-2
-Depends: R (>= 2.15), Matrix, gamlr, parallel, methods
+Version: 0.3-3
+Depends: R (>= 2.15), Matrix, gamlr, parallel, methods, stats
 Suggests: MASS, textir
 License: GPL-3
 NeedsCompilation: no
@@ -13993,8 +13993,8 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gamlr
-Version: 1.13-1
-Depends: R (>= 2.15), Matrix
+Version: 1.13-2
+Depends: R (>= 2.15), Matrix, methods, graphics, stats
 Suggests: parallel
 License: GPL-3
 NeedsCompilation: yes
@@ -15647,6 +15647,14 @@ Depends: R (>= 2.10.0), methods, stats, graphics, fGarch, fastICA
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: googleAuthR
+Version: 0.1.0
+Depends: R (>= 3.2.0)
+Imports: httr (>= 1.0.0), jsonlite (>= 0.9.16), R6 (>= 2.1.0)
+Suggests: shiny (>= 0.12.1), knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: googlePublicData
 Version: 0.15.7.28
 Depends: R (>= 3.2.0)
@@ -15833,6 +15841,13 @@ Package: gquad
 Version: 1.0-0
 Imports: ape, seqinr
 License: Artistic-2.0
+NeedsCompilation: no
+
+Package: Grace
+Version: 0.1
+Depends: glmnet, scalreg
+Suggests: gelnet, penalized
+License: GPL-3
 NeedsCompilation: no
 
 Package: grade
@@ -20677,7 +20692,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: lfda
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 3.1.0)
 Imports: plyr, grDevices, rARPACK, rgl
 Suggests: testthat
@@ -20791,10 +20806,10 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: LifeTables
-Version: 0.2
+Version: 1.0
 Depends: R (>= 2.10), mclust
 Suggests: gWidgets, gWidgetsRGtk2, RGtk2
-License: Unlimited
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: liftr
@@ -29869,6 +29884,12 @@ Depends: R (>= 2.14.0), stats, sets
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: pla
+Version: 0.1
+Depends: R (>= 3.1.0), methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: plan
 Version: 0.4-2
 Depends: R (>= 0.99)
@@ -32494,7 +32515,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: R6
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 3.0)
 Suggests: knitr, microbenchmark, pryr, testthat, ggplot2, scales
 License: MIT + file LICENSE
@@ -39371,7 +39392,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: seqminer
-Version: 4.5
+Version: 4.7
 Suggests: testthat, SKAT
 License: GPL | file LICENSE
 NeedsCompilation: yes
@@ -44209,8 +44230,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: textir
-Version: 2.0-3
-Depends: R (>= 2.15), distrom, gamlr, Matrix
+Version: 2.0-4
+Depends: R (>= 2.15), distrom, gamlr, Matrix, stats, graphics
 Suggests: MASS
 License: GPL-3
 NeedsCompilation: no
