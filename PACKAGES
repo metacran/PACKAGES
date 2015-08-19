@@ -5437,9 +5437,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: circlize
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 2.10.0), graphics
-Imports: GlobalOptions (>= 0.0.6), shape, grDevices, utils, stats
+Imports: GlobalOptions (>= 0.0.6), shape, grDevices, utils, stats,
+        colorspace
 Suggests: knitr, dendextend (>= 1.0.1)
 License: GPL (>= 2)
 NeedsCompilation: no
