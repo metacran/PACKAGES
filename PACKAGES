@@ -23280,7 +23280,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MetaSKAT
-Version: 0.40
+Version: 0.60
 Depends: R (>= 2.13.0)
 Imports: SKAT
 License: GPL (>= 2)
