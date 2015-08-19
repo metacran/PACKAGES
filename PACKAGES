@@ -10479,6 +10479,12 @@ Depends: R (>= 2.10)
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: eel
+Version: 1.0
+Depends: emplik, rootSolve
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: EEM
 Version: 1.0.1
 Depends: R (>= 3.0.0)
@@ -15977,6 +15983,14 @@ Package: GrassmannOptim
 Version: 2.0
 Depends: Matrix
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: graticule
+Version: 0.1.0
+Depends: sp
+Imports: raster
+Suggests: devtools, knitr, maptools, oce, rgdal, rworldmap, testthat
+License: GPL-3
 NeedsCompilation: no
 
 Package: gRbase
@@ -33662,7 +33676,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RcmdrPlugin.temis
-Version: 0.7.3
+Version: 0.7.4
 Depends: methods, tm (>= 0.6), NLP, slam, zoo, lattice
 Imports: Rcmdr (>= 2.1-1), tcltk, tcltk2, utils, ca, R2HTML (>= 2.3.0),
         RColorBrewer, latticeExtra, stringi
@@ -40138,7 +40152,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: simplr
-Version: 0.1-0
+Version: 0.1-1
 Depends: R (>= 3.0.0), utils
 Suggests: testthat
 License: CPL
@@ -41740,7 +41754,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: spdynmod
-Version: 1.1
+Version: 1.1.1
 Depends: raster
 Imports: deSolve, animation
 Suggests: knitr, roxygen2, testthat
