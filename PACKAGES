@@ -3928,7 +3928,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: bootsPLS
-Version: 1.0.2
+Version: 1.0.3
 Depends: mixOmics
 License: GPL-3
 NeedsCompilation: no
@@ -3999,7 +3999,7 @@ License_restricts_use: no
 NeedsCompilation: no
 
 Package: boxr
-Version: 0.2.6
+Version: 0.2.9
 Imports: httr, httpuv, assertthat, stringr, dplyr, digest, jsonlite
 Suggests: testthat, knitr
 License: MIT + file LICENSE
@@ -7214,8 +7214,10 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: crawl
-Version: 1.4-1
+Version: 1.5
 Depends: mvtnorm, sp, raster
+Imports: graphics, methods, stats
+Suggests: spacetime
 License: Unlimited
 NeedsCompilation: yes
 
@@ -13993,10 +13995,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: gamclass
-Version: 0.55
+Version: 0.56
 Depends: R (>= 3.0.0)
 Imports: car, mgcv, DAAG, MASS, rpart, randomForest, lattice,
-        latticeExtra, ape, KernSmooth
+        latticeExtra, ape, KernSmooth, methods
 Suggests: leaps, quantreg, sp, diagram, oz, forecast, SMIR, kernlab,
         Ecdat, mlbench, DAAGbio, knitr
 License: GPL (>= 2)
@@ -14952,8 +14954,9 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: GEVStableGarch
-Version: 1.0
-Depends: R(>= 2.15.0),fGarch,fExtremes,stabledist,skewt,Rsolnp
+Version: 1.1
+Depends: R(>= 2.15.0),Rsolnp,methods,skewt
+Imports: fGarch,fExtremes,stabledist,timeDate,timeSeries
 Enhances: stable
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -42641,9 +42644,10 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: statnetWeb
-Version: 0.3.4
+Version: 0.3.5
 Depends: R (>= 3.1.0), shiny, ergm (>= 3.2.4), network
 Imports: sna, RColorBrewer
+Suggests: latticeExtra
 License: GPL-3
 NeedsCompilation: no
 
