@@ -3510,8 +3510,8 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: BlakerCI
-Version: 1.0-4
-License: GPL-2
+Version: 1.0-5
+License: GPL-3
 NeedsCompilation: no
 
 Package: BlandAltmanLeh
@@ -6146,10 +6146,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CollocInfer
-Version: 1.0.1
-Depends: R (>= 2.4.0), fda, deSolve
-Imports: MASS, Matrix, spam
-Suggests: subplex, trust, maxLik, pomp, SparseM
+Version: 1.0.2
+Depends: R (>= 2.4.0), fda
+Imports: MASS, Matrix, spam, deSolve, methods
+Suggests: pomp, SparseM, subplex, trust, maxLik
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6753,8 +6753,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: CopyNumber450kCancer
-Version: 1.0.3
+Version: 1.0.4
 Depends: R (>= 3.1.0)
+Imports: methods
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -22243,7 +22244,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: marked
-Version: 1.1.9
+Version: 1.1.10
 Depends: R (>= 2.15.0), lme4, methods, parallel
 Imports: graphics, stats, utils, R2admb, truncnorm, coda, ggplot2,
         Matrix, numDeriv, expm, Rcpp (>= 0.9.13), optimx (>= 2013.8.6)
@@ -30554,9 +30555,11 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: pomp
-Version: 0.65-1
+Version: 1.1.1.1
 Depends: R(>= 3.0.0), methods
-Imports: stats, graphics, mvtnorm, deSolve, coda, subplex, nloptr
+Imports: stats, graphics, digest, mvtnorm, deSolve, coda, subplex,
+        nloptr
+Suggests: magrittr, plyr, reshape2, ggplot2, knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -46975,7 +46978,7 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: weirs
-Version: 0.24
+Version: 0.25
 Depends: R (>= 2.7.0), utils
 License: GPL-2
 NeedsCompilation: no
