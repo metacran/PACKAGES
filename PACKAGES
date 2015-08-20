@@ -21077,10 +21077,10 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: lme4
-Version: 1.1-8
+Version: 1.1-9
 Depends: R (>= 3.0.2), Matrix (>= 1.1.1), methods, stats
 Imports: graphics, grid, splines, utils, parallel, MASS, nlme, lattice,
-        minqa (>= 1.1.15), nloptr
+        minqa (>= 1.1.15), nloptr (>= 1.0.4)
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen
 Suggests: knitr, boot, PKPDmodels, MEMSS, testthat (>= 0.8.1), ggplot2,
         mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR2, numDeriv
@@ -31992,9 +31992,9 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: qqtest
-Version: 1.0
+Version: 1.1
 Depends: R (>= 2.10.0)
-Imports: grDevices, MASS
+Imports: grDevices, robust
 License: GPL-3
 NeedsCompilation: no
 
