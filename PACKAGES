@@ -11192,6 +11192,13 @@ Version: 1.1-2
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: epifit
+Version: 0.0.1
+Imports: stats, MASS
+Suggests: survival
+License: GPL-3
+NeedsCompilation: yes
+
 Package: EpiModel
 Version: 1.2.1
 Depends: R (>= 3.1), deSolve (>= 1.11), networkDynamic (>= 0.7.1),
@@ -37367,6 +37374,13 @@ Suggests: bigmemory, ctc
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: rsggm
+Version: 0.3
+Depends: MASS, Matrix, glasso, QUIC
+Imports: methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: RSGHB
 Version: 1.1.1
 Depends: methods
@@ -38901,7 +38915,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: sde
-Version: 2.0.13
+Version: 2.0.14
 Depends: MASS, stats4, fda, zoo
 License: GPL (>= 2)
 NeedsCompilation: yes
