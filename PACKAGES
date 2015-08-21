@@ -9526,7 +9526,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: DoE.base
-Version: 0.27
+Version: 0.27-1
 Depends: R(>= 2.10.0), grid, conf.design
 Imports: stats, utils, graphics, vcd, combinat, MASS
 License: GPL (>= 2)
