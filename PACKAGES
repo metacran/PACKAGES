@@ -2616,7 +2616,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.19
+Version: 2.20
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -20341,6 +20341,14 @@ Depends: R (>= 2.12.0)
 License: LGPL-3
 NeedsCompilation: yes
 
+Package: lasvmR
+Version: 0.1
+Imports: Rcpp (>= 0.11.6), checkmate (>= 1.5.1)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
+License: GPL (>= 2)
+NeedsCompilation: yes
+
 Package: latdiag
 Version: 0.2-1
 License: GPL-2
@@ -23433,6 +23441,11 @@ Depends: R (>= 2.15.0), methods
 License: MIT + file LICENSE
 NeedsCompilation: no
 
+Package: MFAg
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
 Package: MFHD
 Version: 0.0.1
 Depends: fda.usc
@@ -25646,7 +25659,7 @@ License: LGPL (>= 2.1)
 NeedsCompilation: yes
 
 Package: MVar.pt
-Version: 1.2
+Version: 1.3
 License: GPL-2
 NeedsCompilation: no
 
@@ -31976,7 +31989,7 @@ License: GPL (>= 3)
 NeedsCompilation: no
 
 Package: QoLR
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10.0), survival, zoo
 Suggests: knitr
 License: GPL (>= 2.0)
@@ -39001,6 +39014,14 @@ Suggests: testthat
 License: GPL-2
 NeedsCompilation: no
 
+Package: searchConsoleR
+Version: 0.1.2
+Depends: R (>= 3.2.0)
+Imports: googleAuthR (>= 0.1.1), stringr (>= 1.0.0)
+Suggests: shiny (>= 0.12.1), knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: SearchTrees
 Version: 0.5.2
 Depends: methods
@@ -39178,7 +39199,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: selectiveInference
-Version: 1.0.1
+Version: 1.0.2
 Depends: glmnet
 License: GPL-2
 NeedsCompilation: yes
@@ -42993,7 +43014,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: stringdist
-Version: 0.9.2
+Version: 0.9.3
 Depends: R (>= 2.15.3)
 Imports: parallel
 Suggests: testthat
@@ -46394,9 +46415,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: vdg
-Version: 1.1
-Depends: R (>= 3.2.0), parallel, ggplot2, quantreg
-Imports: proxy, splines, gridExtra
+Version: 1.1.1
+Depends: R (>= 3.2.2), parallel, ggplot2, quantreg
+Imports: proxy, splines, gridExtra, grDevices, methods, stats, utils
 Suggests: rsm, Vdgraph, AlgDesign, knitr, lhs
 License: GPL (>= 2)
 NeedsCompilation: yes
