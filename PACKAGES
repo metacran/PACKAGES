@@ -8594,9 +8594,11 @@ License: BSD
 NeedsCompilation: no
 
 Package: DescTools
-Version: 0.99.11
+Version: 0.99.12
 Depends: base, stats, manipulate, R (>= 3.1.0)
-Imports: boot, mvtnorm, foreign
+Imports: graphics, grDevices, methods, utils, boot, mvtnorm, foreign,
+        Rcpp (>= 0.11.5)
+LinkingTo: Rcpp, BH
 Suggests: RDCOMClient, tcltk
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -42647,7 +42649,7 @@ License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
 Package: statnetWeb
-Version: 0.3.5
+Version: 0.3.6
 Depends: R (>= 3.1.0), shiny, ergm (>= 3.2.4), network
 Imports: sna, RColorBrewer
 Suggests: latticeExtra
