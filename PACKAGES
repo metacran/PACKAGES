@@ -7135,7 +7135,7 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: cplm
-Version: 0.7-3
+Version: 0.7-4
 Depends: R (>= 2.10), coda, Matrix, splines, methods
 Imports: biglm, ggplot2, minqa, nlme, reshape2, statmod, stats, stats4,
         tweedie
@@ -15034,11 +15034,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: ggmap
-Version: 2.4
+Version: 2.5.2
 Depends: R (>= 2.14.0), ggplot2 (>= 0.9.2)
 Imports: proto, scales, RgoogleMaps, png, plyr, reshape2, grid, rjson,
         mapproj, jpeg, geosphere, digest
-Suggests: MASS, stringr
+Suggests: MASS, stringr, hexbin, dplyr
 License: GPL-2
 NeedsCompilation: no
 
@@ -15057,10 +15057,11 @@ License: GPL (>= 3)
 NeedsCompilation: yes
 
 Package: ggparallel
-Version: 0.1.1
-Depends: R (>= 2.10.0), ggplot2 (>= 0.9.2), reshape2, plyr
+Version: 0.1.2
+Depends: R (>= 2.10.0),
+Imports: ggplot2 (>= 0.9.2), reshape2, plyr
 Suggests: RColorBrewer
-License: MIT
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: ggplot2
@@ -21500,7 +21501,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: longurl
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: httr, dplyr, pbapply
 Suggests: testthat
@@ -25335,9 +25336,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: multic
-Version: 0.3.8.1
+Version: 0.4.2
 Depends: R (>= 2.2.0)
-Suggests: kinship2 (>= 1.3)
+Suggests: kinship2 (>= 1.3), bdsmatrix
 License: GPL (>= 2) | file LICENSE
 OS_type: unix
 NeedsCompilation: yes
@@ -25684,8 +25685,8 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: mvmesh
-Version: 1.0
-Depends: R (>= 3.0), rcdd, rgl
+Version: 1.1
+Depends: R (>= 3.0), rcdd, rgl, geometry, abind
 License: GPL (>= 3)
 NeedsCompilation: no
 
@@ -26712,9 +26713,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: NNTbiomarker
-Version: 0.28
-Imports: shiny, xtable, stringr
-Suggests: knitr
+Version: 0.29.11
+Imports: shiny, xtable, stringr, magrittr, mvbutils
+Suggests: testthat (>= 0.8.1), knitr (>= 1.6), rmarkdown, ggplot2, plyr
 License: GPL-3
 NeedsCompilation: no
 
@@ -34394,7 +34395,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: redist
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.0), spdep, sp, coda
 LinkingTo: Rcpp, RcppArmadillo
@@ -36863,6 +36864,15 @@ Depends: R (>= 3.0), rgl (>= 0.93)
 License: GPL
 NeedsCompilation: no
 
+Package: rpdo
+Version: 0.0.1
+Depends: R (>= 3.2.2)
+Suggests: curl (>= 0.9.2), magrittr (>= 1.5), readr (>= 0.1.1), tidyr
+        (>= 0.2.0), dplyr (>= 0.4.2), devtools (>= 1.8.0), ggplot2 (>=
+        1.0.1)
+License: CC0
+NeedsCompilation: no
+
 Package: RPEnsemble
 Version: 0.2
 Depends: R (>= 3.0.0), MASS
@@ -39152,7 +39162,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: selectiveInference
-Version: 1.0
+Version: 1.0.1
 Depends: glmnet
 License: GPL-2
 NeedsCompilation: yes
@@ -45860,9 +45870,10 @@ License: EPL (>= 1.0)
 NeedsCompilation: yes
 
 Package: tvm
-Version: 0.2
+Version: 0.3.0
+Depends: R (>= 3.1.0)
 Imports: ggplot2, reshape2
-Suggests: testthat
+Suggests: testthat, knitr
 License: MIT + file LICENSE
 NeedsCompilation: no
 
