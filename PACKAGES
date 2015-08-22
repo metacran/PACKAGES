@@ -5041,8 +5041,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: CEoptim
-Version: 1.0
-Depends: MASS, msm, stats
+Version: 1.1
+Depends: MASS, msm, stats, sna
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -30157,8 +30157,9 @@ License: GPL
 NeedsCompilation: no
 
 Package: pls
-Version: 2.4-3
+Version: 2.5-0
 Depends: R (>= 2.10)
+Imports: grDevices, graphics, methods, stats
 Suggests: MASS, parallel, Rmpi
 License: GPL-2
 NeedsCompilation: no
@@ -30289,7 +30290,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: PMCMR
-Version: 1.1
+Version: 1.2
 Depends: R (>= 3.0.0), stats, base
 License: GPL (>= 3)
 NeedsCompilation: no
