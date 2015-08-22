@@ -15101,6 +15101,14 @@ Suggests: ggplot2
 License: GPL (> 2)
 NeedsCompilation: no
 
+Package: ggsn
+Version: 0.2.0
+Depends: R (>= 3.2.1), ggplot2
+Imports: png, grid, maptools, graphics
+Suggests: rgdal, ggmap, rgeos
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: ggsubplot
 Version: 0.3.2
 Depends: methods, R (>= 2.15)
@@ -35255,7 +35263,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: rgdal
-Version: 1.0-5
+Version: 1.0-6
 Depends: R (>= 2.14.0), methods, sp (>= 1.1-0)
 Imports: grDevices, graphics, stats, utils
 LinkingTo: sp
