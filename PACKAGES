@@ -2616,7 +2616,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: BDgraph
-Version: 2.20
+Version: 2.21
 Depends: R (>= 3.0.0), Matrix, igraph
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -9314,7 +9314,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: diveMove
-Version: 1.3.9
+Version: 1.4.0
 Depends: R (>= 2.13.0), methods, stats4
 Imports: caTools, KernSmooth, quantreg, geosphere
 Suggests: lattice, tcltk
@@ -10926,7 +10926,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: emplik
-Version: 1.0-1
+Version: 1.0-2
 Depends: R (>= 3.0), quantreg
 Suggests: KMsurv, boot
 License: GPL (>= 2)
@@ -16436,8 +16436,9 @@ License: GPL-2
 NeedsCompilation: yes
 
 Package: GUIProfiler
-Version: 0.1.2
-Depends: Nozzle.R1, MASS
+Version: 2.0.1
+Depends: Nozzle.R1, MASS, proftools, Rgraphviz, graph
+Imports: methods, utils, rstudioapi,grDevices
 License: GPL
 NeedsCompilation: no
 
@@ -32492,9 +32493,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: R2jags
-Version: 0.5-6
+Version: 0.5-7
 Depends: R (>= 2.14.0), rjags (>= 3-3)
-Imports: abind, coda (>= 0.13), methods, R2WinBUGS, parallel
+Imports: abind, coda (>= 0.13), graphics, grDevices, methods,
+        R2WinBUGS, parallel, stats, utils
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -40856,7 +40858,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: snn
-Version: 1.0
+Version: 1.1
 Depends: R (>= 3.0.0), stats
 License: GPL-3
 NeedsCompilation: no
