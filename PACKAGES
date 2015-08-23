@@ -9952,9 +9952,9 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: dtwclust
-Version: 0.1.0
-Depends: flexclust, proxy, dtw
-Imports: stats, methods, caTools, ggplot2, reshape2, modeltools
+Version: 1.0.0
+Depends: flexclust, proxy, dtw, ggplot2
+Imports: stats, methods, caTools, reshape2, modeltools
 Suggests: TSdist
 License: GPL-3
 NeedsCompilation: no
@@ -23161,6 +23161,13 @@ Suggests: metafor
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: meta4diag
+Version: 1.0.19
+Depends: R (>= 2.10), RGtk2, cairoDevice, methods, grid
+Suggests: INLA
+License: GPL
+NeedsCompilation: no
+
 Package: MetABEL
 Version: 0.2-0
 Depends: R (>= 2.5.1)
@@ -33851,8 +33858,8 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: RcppDE
-Version: 0.1.2
-Depends: Rcpp, RcppArmadillo (>= 0.2.8)
+Version: 0.1.3
+Imports: Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: inline, DEoptim, lattice
 License: GPL (>= 2)
@@ -39419,6 +39426,15 @@ Version: 1.0-6
 Imports: stats, survival
 License: GPL
 NeedsCompilation: yes
+
+Package: SensMixed
+Version: 2.0-8
+Depends: stats, methods, lmerTest
+Imports: Hmisc, parallel, plyr, doBy, xtable, reshape2, ggplot2, shiny,
+        shinyBS, lme4
+Suggests: pbkrtest
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: SensoMineR
 Version: 1.20
