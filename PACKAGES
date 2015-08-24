@@ -39363,10 +39363,11 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SemiParBIVProbit
-Version: 3.5
+Version: 3.6
 Depends: R (>= 3.2.1), mgcv
 Imports: magic, VGAM, survey, trust, VineCopula, graphics, stats,
-        utils, grDevices
+        utils, grDevices, ggplot2
+Enhances: sp
 License: GPL (>= 2)
 NeedsCompilation: no
 
