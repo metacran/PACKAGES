@@ -5231,7 +5231,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: cheddar
-Version: 0.1-629
+Version: 0.1-630
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: yes
 
@@ -22271,7 +22271,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: MareyMap
-Version: 1.3.0
+Version: 1.3.1
 Depends: R (>= 2.10)
 Imports: graphics, grDevices, methods, stats, tcltk, tkrplot, tools,
         utils
@@ -22320,12 +22320,12 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: markovchain
-Version: 0.4
+Version: 0.4.2
 Depends: R (>= 3.0.0), methods
 Imports: igraph, Matrix, matlab, expm, stats4, parallel, Rcpp (>=
         0.11.5), RcppParallel, utils, stats
 LinkingTo: Rcpp, RcppParallel, RcppArmadillo
-Suggests: knitr, testthat, diagram, DiagrammeR, msm, etm
+Suggests: knitr, testthat, diagram, DiagrammeR, msm, etm, Rsolnp
 License: GPL-2
 NeedsCompilation: yes
 
@@ -23461,6 +23461,13 @@ Version: 1.0
 Depends: MASS, abind, pls
 License: Apache License (== 2.0)
 NeedsCompilation: no
+
+Package: mev
+Version: 1.2
+Imports: Rcpp (>= 0.11.6)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-3
+NeedsCompilation: yes
 
 Package: mewAvg
 Version: 0.3.0
@@ -25760,8 +25767,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mvMORPH
-Version: 1.0.5
+Version: 1.0.6
 Depends: R(>= 2.9.1), phytools, ape, corpcor, subplex, spam
+Imports: stats
+Suggests: knitr
 License: GPL (>= 2.0)
 NeedsCompilation: yes
 
@@ -27546,6 +27555,13 @@ NeedsCompilation: no
 
 Package: OneTwoSamples
 Version: 1.0-3
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: onewaytests
+Version: 1.0
+Depends: R (>= 3.1.1)
+Imports: stats
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -40104,9 +40120,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: simcausal
-Version: 0.2.0
+Version: 0.3.0
 Depends: R (>= 3.2.0)
-Imports: data.table, reshape2
+Imports: data.table, stringr, R6, assertthat, reshape2, Matrix
 Suggests: ltmle, RUnit, knitr, igraph, ggplot2, Hmisc
 License: GPL-2
 NeedsCompilation: no
@@ -42494,6 +42510,13 @@ NeedsCompilation: yes
 Package: SSrat
 Version: 1.0
 Depends: plyr, sna
+License: GPL-2
+NeedsCompilation: no
+
+Package: SSRMST
+Version: 0.1.0
+Imports: survival, survRM2
+Suggests: knitr
 License: GPL-2
 NeedsCompilation: no
 
@@ -46293,10 +46316,10 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: V8
-Version: 0.6
+Version: 0.7
 Imports: Rcpp (>= 0.11.5), jsonlite (>= 0.9.14), curl (>= 0.5), utils
 LinkingTo: Rcpp
-Suggests: knitr
+Suggests: knitr, rmarkdown
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -46414,7 +46437,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: VBmix
-Version: 0.2.17
+Version: 0.3.1
 Depends: R (>= 2.10.0)
 Imports: lattice, grid, pixmap, mnormt
 Suggests: e1071, nnet
