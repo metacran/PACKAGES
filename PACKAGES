@@ -7602,7 +7602,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: curl
-Version: 0.9.2
+Version: 0.9.3
 Depends: R (>= 2.10.0)
 Suggests: testthat, knitr, jsonlite, rmarkdown, magrittr
 License: MIT + file LICENSE
@@ -15118,6 +15118,12 @@ Suggests: quantreg, Hmisc, mapproj, maps, hexbin, maptools, multcomp,
         nlme, testthat, knitr, mgcv
 Enhances: sp
 License: GPL-2
+NeedsCompilation: no
+
+Package: ggplot2movies
+Version: 0.0.1
+Depends: R (>= 2.10.0)
+License: GPL-3
 NeedsCompilation: no
 
 Package: ggRandomForests
@@ -23189,7 +23195,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: meta4diag
-Version: 1.0.19
+Version: 1.0.20
 Depends: R (>= 2.10), RGtk2, cairoDevice, methods, grid
 Suggests: INLA
 License: GPL
@@ -26399,7 +26405,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: networkD3
-Version: 0.1.8
+Version: 0.2.1
 Depends: R (>= 3.0.0)
 Imports: htmlwidgets (>= 0.3.2), plyr, rjson
 Suggests: htmltools (>= 0.2.6), RCurl
@@ -36251,7 +36257,7 @@ License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: RMySQL
-Version: 0.10.4
+Version: 0.10.5
 Depends: R (>= 2.8.0), DBI (>= 0.3.1)
 Imports: methods
 Suggests: testthat
@@ -37117,7 +37123,7 @@ License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: RProtoBuf
-Version: 0.4.2
+Version: 0.4.3
 Depends: R (>= 3.0.0), methods
 Imports: utils, stats, tools, Rcpp, RCurl
 LinkingTo: Rcpp
@@ -38449,7 +38455,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: SamplingStrata
-Version: 1.0-3
+Version: 1.0-4
 Depends: R (>= 2.15.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -40885,7 +40891,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: sn
-Version: 1.2-3
+Version: 1.2-4
 Depends: R (>= 2.15.3), methods, stats4
 Imports: mnormt, numDeriv, stats, grDevices, graphics, utils
 License: GPL-2 | GPL-3
