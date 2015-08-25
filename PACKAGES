@@ -3127,6 +3127,12 @@ Version: 1.0
 License: GPL-2
 NeedsCompilation: no
 
+Package: bimixt
+Version: 1.0
+Depends: pROC
+License: GPL (>= 3)
+NeedsCompilation: no
+
 Package: Binarize
 Version: 1.1
 Depends: methods, diptest
@@ -8617,7 +8623,7 @@ License: BSD
 NeedsCompilation: no
 
 Package: DescTools
-Version: 0.99.12
+Version: 0.99.13
 Depends: base, stats, manipulate, R (>= 3.1.0)
 Imports: graphics, grDevices, methods, utils, boot, mvtnorm, foreign,
         Rcpp (>= 0.11.5)
@@ -12157,6 +12163,13 @@ Version: 0.64
 Depends: zoo
 License: GPL-2
 NeedsCompilation: no
+
+Package: FastBandChol
+Version: 0.1.0
+Imports: Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-2
+NeedsCompilation: yes
 
 Package: fastclime
 Version: 1.2.5
@@ -18123,7 +18136,7 @@ License: GPL
 NeedsCompilation: no
 
 Package: ica
-Version: 1.0-0
+Version: 1.0-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18268,7 +18281,7 @@ License: GPL (>= 2)
 NeedsCompilation: yes
 
 Package: idm
-Version: 1.0
+Version: 1.2
 Depends: corpcor, ggplot2, dummies, animation, ca
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -20469,8 +20482,8 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: lawn
-Version: 0.1.0
-Imports: V8, jsonlite, magrittr
+Version: 0.1.4
+Imports: methods, stats, utils, V8, jsonlite, magrittr
 Suggests: testthat, knitr, leaflet
 Enhances: maps, geojsonio
 License: MIT + file LICENSE
@@ -22843,7 +22856,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: mcmcse
-Version: 1.1-1
+Version: 1.1-2
 Imports: utils, ellipse, Rcpp (>= 0.11.3)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, mAr, knitr
@@ -27548,8 +27561,8 @@ License: GPL-3
 NeedsCompilation: yes
 
 Package: ONETr
-Version: 1.0.2
-Depends: XML, RCurl
+Version: 1.0.3
+Depends: XML, RCurl, plyr
 License: GPL-3
 NeedsCompilation: no
 
@@ -38634,7 +38647,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: scales
-Version: 0.2.5
+Version: 0.3.0
 Depends: R (>= 2.13)
 Imports: RColorBrewer, dichromat, plyr, munsell (>= 0.2), labeling,
         methods, Rcpp
@@ -43349,9 +43362,9 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: Surrogate
-Version: 0.1-61
-Depends: MASS, nlme, msm, lme4
-Imports: rgl, lattice, latticeExtra
+Version: 0.1-62
+Depends: MASS, msm
+Imports: rgl, lattice, latticeExtra, survival, nlme, lme4
 License: GPL (>= 2)
 NeedsCompilation: no
 
