@@ -5725,7 +5725,7 @@ License: GPL-3
 NeedsCompilation: no
 
 Package: clttools
-Version: 1.0
+Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -6347,7 +6347,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: compare
-Version: 0.2-5
+Version: 0.2-6
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -6647,7 +6647,7 @@ License: GPL-2
 NeedsCompilation: no
 
 Package: contoureR
-Version: 1.0.1
+Version: 1.0.5
 Depends: geometry
 Imports: Rcpp (>= 0.11.5), reshape, plyr
 LinkingTo: Rcpp
@@ -13384,7 +13384,7 @@ License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: fptdApprox
-Version: 2.0
+Version: 2.1
 License: GPL-2
 NeedsCompilation: no
 
@@ -35506,8 +35506,8 @@ License: Mozilla Public License 1.1
 NeedsCompilation: no
 
 Package: rhandsontable
-Version: 0.1
-Imports: jsonlite, htmlwidgets (>= 0.3.3), magrittr
+Version: 0.2
+Imports: jsonlite, htmlwidgets (>= 0.3.3), magrittr, methods
 Suggests: knitr
 Enhances: shiny (>= 0.12)
 License: MIT + file LICENSE
